@@ -1,0 +1,15 @@
+{
+  "reports\\current\\baseline_report.md": "311fa2aab13c649c244a5740045859a8acf494db84711b29bc442852a8e6446e",
+  "reports\\current\\retrieval_raw_results.json": "cc3bb9406ac96c19a292a4c04e878dad32c1a641a7da5437145f828d977cb9a1",
+  "reports\\current\\retrieval_question_results.csv": "ea7f47d8bc32276268e87808ba671522b18de5be9c0a0a404ac977ed05b069b7",
+  "reports\\current\\retrieval_pipeline_summary.csv": "3088dfce0f9dfbb4be25406f3315975399be501dd957eb30f1047692cc0d007e",
+  "reports\\current\\retrieval_summary.json": "8a276c1839dd37c690cd35cd6a506824f95bf71023f5bc5714c9b0e899665429",
+  "reports\\multi_report\\full_temporal_retrieval_report.md": "20c65d6aba9432c2e653b44a507b8b6f66c3b06875535598deac271446aa6b45",
+  "reports\\multi_report\\architecture_comparison.json": "94f562b565bbb7d850e2c969856f761f90800ab92b887b88ea5acd235dc8d777",
+  "reports\\multi_report\\architecture_comparison.csv": "64f7be9d216c44263404f365a8a14d6bcf8d249fb1088450c6495d4ea8e180b4",
+  "reports\\multi_report\\extraction_audit.json": "ab7afb0c51dc644935e356d1ce530131bee04510fb83054a4c07fb25bdffd87d",
+  "reports\\multi_report\\extraction_audit.md": "41e4f70ec940f6715409b0b0ef3ecbdbca6188e624fbcd49064e756b4b81ecdf",
+  "reports\\multi_report\\dev_failure_analysis.csv": "88b2d8aedde55fb47f784eeebf176f23c4b64851da97301d8d0773e624613771",
+  "reports\\multi_report\\dev_failure_analysis.md": "6b6a6cbb7169ff3c70ff34c6288543a214536c6552d3da3ecbf708bfcb8c6190",
+  "data\\evaluation\\temporal_dataset_manifest.json": "32a513fdeaad46fc26ff8782bfc3a9f1332a0c30ea40f3b85f0c31b1583f7f7f"
+}

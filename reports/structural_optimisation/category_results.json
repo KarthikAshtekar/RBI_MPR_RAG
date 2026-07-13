@@ -1,0 +1,3782 @@
+[
+  {
+    "all_reports_hit": 0.3333333333333333,
+    "case_count": 12,
+    "category": "pairwise_comparison",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.25,
+    "evidence_recall": 0.4583333333333333,
+    "experiment_id": "ADJ00",
+    "macro_mrr": 0.3819444444444444
+  },
+  {
+    "all_reports_hit": 0.5833333333333334,
+    "case_count": 12,
+    "category": "single_report",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.5833333333333334,
+    "evidence_recall": 0.5833333333333334,
+    "experiment_id": "ADJ00",
+    "macro_mrr": 0.3680555555555556
+  },
+  {
+    "all_reports_hit": 0.16666666666666666,
+    "case_count": 6,
+    "category": "trend_all_reports",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.4444444444444444,
+    "experiment_id": "ADJ00",
+    "macro_mrr": 0.26851851851851855
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "category": "unsupported_period",
+    "category_type": "query_type",
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "ADJ00",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.4,
+    "case_count": 34,
+    "category": "single_facet",
+    "category_type": "question_structure",
+    "complete_evidence_recall": 0.36666666666666664,
+    "evidence_recall": 0.5055555555555555,
+    "experiment_id": "ADJ00",
+    "macro_mrr": 0.31209150326797386
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 4,
+    "category": "April 2025 vs April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.25,
+    "experiment_id": "ADJ00",
+    "macro_mrr": 0.25
+  },
+  {
+    "all_reports_hit": 0.75,
+    "case_count": 4,
+    "category": "April 2025 vs October 2025",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.5,
+    "evidence_recall": 0.75,
+    "experiment_id": "ADJ00",
+    "macro_mrr": 0.5416666666666666
+  },
+  {
+    "all_reports_hit": 0.3333333333333333,
+    "case_count": 6,
+    "category": "April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.3333333333333333,
+    "evidence_recall": 0.3333333333333333,
+    "experiment_id": "ADJ00",
+    "macro_mrr": 0.13888888888888887
+  },
+  {
+    "all_reports_hit": 0.8333333333333334,
+    "case_count": 6,
+    "category": "October 2025",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.8333333333333334,
+    "evidence_recall": 0.8333333333333334,
+    "experiment_id": "ADJ00",
+    "macro_mrr": 0.5972222222222222
+  },
+  {
+    "all_reports_hit": 0.25,
+    "case_count": 4,
+    "category": "October 2025 vs April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.25,
+    "evidence_recall": 0.375,
+    "experiment_id": "ADJ00",
+    "macro_mrr": 0.3541666666666667
+  },
+  {
+    "all_reports_hit": 0.16666666666666666,
+    "case_count": 6,
+    "category": "all three reports",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.4444444444444444,
+    "experiment_id": "ADJ00",
+    "macro_mrr": 0.26851851851851855
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "category": "unsupported",
+    "category_type": "report_pair",
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "ADJ00",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.5,
+    "case_count": 2,
+    "category": "chart_or_figure",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.5,
+    "evidence_recall": 0.5,
+    "experiment_id": "ADJ00",
+    "macro_mrr": 0.5
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 2,
+    "category": "mixed",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "ADJ00",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.4074074074074074,
+    "case_count": 30,
+    "category": "narrative",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.37037037037037035,
+    "evidence_recall": 0.5246913580246914,
+    "experiment_id": "ADJ00",
+    "macro_mrr": 0.32037037037037036
+  },
+  {
+    "all_reports_hit": 0.5,
+    "case_count": 2,
+    "category": "core_inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.5,
+    "evidence_recall": 0.5,
+    "experiment_id": "ADJ00",
+    "macro_mrr": 0.16666666666666666
+  },
+  {
+    "all_reports_hit": 0.6,
+    "case_count": 5,
+    "category": "food_inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.6,
+    "evidence_recall": 0.7666666666666667,
+    "experiment_id": "ADJ00",
+    "macro_mrr": 0.4083333333333333
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 6,
+    "category": "growth",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.08333333333333333,
+    "experiment_id": "ADJ00",
+    "macro_mrr": 0.020833333333333332
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 1,
+    "category": "inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "ADJ00",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.5454545454545454,
+    "case_count": 14,
+    "category": "other",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.45454545454545453,
+    "evidence_recall": 0.6515151515151515,
+    "experiment_id": "ADJ00",
+    "macro_mrr": 0.4880952380952381
+  },
+  {
+    "all_reports_hit": 0.4,
+    "case_count": 6,
+    "category": "policy_rate",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.4,
+    "evidence_recall": 0.5333333333333333,
+    "experiment_id": "ADJ00",
+    "macro_mrr": 0.21296296296296294
+  },
+  {
+    "all_reports_hit": 0.16666666666666666,
+    "case_count": 12,
+    "category": "pairwise_comparison",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.4166666666666667,
+    "experiment_id": "ADJ01",
+    "macro_mrr": 0.32222222222222224
+  },
+  {
+    "all_reports_hit": 0.5833333333333334,
+    "case_count": 12,
+    "category": "single_report",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.5833333333333334,
+    "evidence_recall": 0.5833333333333334,
+    "experiment_id": "ADJ01",
+    "macro_mrr": 0.3361111111111111
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 6,
+    "category": "trend_all_reports",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.27777777777777773,
+    "experiment_id": "ADJ01",
+    "macro_mrr": 0.19629629629629627
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "category": "unsupported_period",
+    "category_type": "query_type",
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "ADJ01",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.3,
+    "case_count": 34,
+    "category": "single_facet",
+    "category_type": "question_structure",
+    "complete_evidence_recall": 0.3,
+    "evidence_recall": 0.45555555555555555,
+    "experiment_id": "ADJ01",
+    "macro_mrr": 0.2669934640522876
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 4,
+    "category": "April 2025 vs April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.25,
+    "experiment_id": "ADJ01",
+    "macro_mrr": 0.25
+  },
+  {
+    "all_reports_hit": 0.25,
+    "case_count": 4,
+    "category": "April 2025 vs October 2025",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.25,
+    "evidence_recall": 0.5,
+    "experiment_id": "ADJ01",
+    "macro_mrr": 0.4
+  },
+  {
+    "all_reports_hit": 0.3333333333333333,
+    "case_count": 6,
+    "category": "April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.3333333333333333,
+    "evidence_recall": 0.3333333333333333,
+    "experiment_id": "ADJ01",
+    "macro_mrr": 0.1111111111111111
+  },
+  {
+    "all_reports_hit": 0.8333333333333334,
+    "case_count": 6,
+    "category": "October 2025",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.8333333333333334,
+    "evidence_recall": 0.8333333333333334,
+    "experiment_id": "ADJ01",
+    "macro_mrr": 0.5611111111111111
+  },
+  {
+    "all_reports_hit": 0.25,
+    "case_count": 4,
+    "category": "October 2025 vs April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.25,
+    "evidence_recall": 0.5,
+    "experiment_id": "ADJ01",
+    "macro_mrr": 0.31666666666666665
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 6,
+    "category": "all three reports",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.27777777777777773,
+    "experiment_id": "ADJ01",
+    "macro_mrr": 0.19629629629629627
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "category": "unsupported",
+    "category_type": "report_pair",
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "ADJ01",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.5,
+    "case_count": 2,
+    "category": "chart_or_figure",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.5,
+    "evidence_recall": 0.5,
+    "experiment_id": "ADJ01",
+    "macro_mrr": 0.5
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 2,
+    "category": "mixed",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "ADJ01",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.2962962962962963,
+    "case_count": 30,
+    "category": "narrative",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.2962962962962963,
+    "evidence_recall": 0.4691358024691358,
+    "experiment_id": "ADJ01",
+    "macro_mrr": 0.26925925925925925
+  },
+  {
+    "all_reports_hit": 0.5,
+    "case_count": 2,
+    "category": "core_inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.5,
+    "evidence_recall": 0.5,
+    "experiment_id": "ADJ01",
+    "macro_mrr": 0.1
+  },
+  {
+    "all_reports_hit": 0.4,
+    "case_count": 5,
+    "category": "food_inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.4,
+    "evidence_recall": 0.6,
+    "experiment_id": "ADJ01",
+    "macro_mrr": 0.33999999999999997
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 6,
+    "category": "growth",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "ADJ01",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 1,
+    "category": "inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "ADJ01",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.45454545454545453,
+    "case_count": 14,
+    "category": "other",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.45454545454545453,
+    "evidence_recall": 0.696969696969697,
+    "experiment_id": "ADJ01",
+    "macro_mrr": 0.44841269841269843
+  },
+  {
+    "all_reports_hit": 0.2,
+    "case_count": 6,
+    "category": "policy_rate",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.2,
+    "evidence_recall": 0.4,
+    "experiment_id": "ADJ01",
+    "macro_mrr": 0.15
+  },
+  {
+    "all_reports_hit": 0.16666666666666666,
+    "case_count": 12,
+    "category": "pairwise_comparison",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.08333333333333333,
+    "evidence_recall": 0.3333333333333333,
+    "experiment_id": "ADJ02",
+    "macro_mrr": 0.2791666666666667
+  },
+  {
+    "all_reports_hit": 0.5833333333333334,
+    "case_count": 12,
+    "category": "single_report",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.5833333333333334,
+    "evidence_recall": 0.5833333333333334,
+    "experiment_id": "ADJ02",
+    "macro_mrr": 0.32222222222222224
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 6,
+    "category": "trend_all_reports",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.2222222222222222,
+    "experiment_id": "ADJ02",
+    "macro_mrr": 0.17460317460317457
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "category": "unsupported_period",
+    "category_type": "query_type",
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "ADJ02",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.3,
+    "case_count": 34,
+    "category": "single_facet",
+    "category_type": "question_structure",
+    "complete_evidence_recall": 0.26666666666666666,
+    "evidence_recall": 0.41111111111111115,
+    "experiment_id": "ADJ02",
+    "macro_mrr": 0.2430672268907563
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 4,
+    "category": "April 2025 vs April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.125,
+    "experiment_id": "ADJ02",
+    "macro_mrr": 0.125
+  },
+  {
+    "all_reports_hit": 0.25,
+    "case_count": 4,
+    "category": "April 2025 vs October 2025",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.375,
+    "experiment_id": "ADJ02",
+    "macro_mrr": 0.4
+  },
+  {
+    "all_reports_hit": 0.3333333333333333,
+    "case_count": 6,
+    "category": "April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.3333333333333333,
+    "evidence_recall": 0.3333333333333333,
+    "experiment_id": "ADJ02",
+    "macro_mrr": 0.08333333333333333
+  },
+  {
+    "all_reports_hit": 0.8333333333333334,
+    "case_count": 6,
+    "category": "October 2025",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.8333333333333334,
+    "evidence_recall": 0.8333333333333334,
+    "experiment_id": "ADJ02",
+    "macro_mrr": 0.5611111111111111
+  },
+  {
+    "all_reports_hit": 0.25,
+    "case_count": 4,
+    "category": "October 2025 vs April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.25,
+    "evidence_recall": 0.5,
+    "experiment_id": "ADJ02",
+    "macro_mrr": 0.3125
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 6,
+    "category": "all three reports",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.2222222222222222,
+    "experiment_id": "ADJ02",
+    "macro_mrr": 0.17460317460317457
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "category": "unsupported",
+    "category_type": "report_pair",
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "ADJ02",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.5,
+    "case_count": 2,
+    "category": "chart_or_figure",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.5,
+    "evidence_recall": 0.5,
+    "experiment_id": "ADJ02",
+    "macro_mrr": 0.5
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 2,
+    "category": "mixed",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "ADJ02",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.2962962962962963,
+    "case_count": 30,
+    "category": "narrative",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.25925925925925924,
+    "evidence_recall": 0.4197530864197531,
+    "experiment_id": "ADJ02",
+    "macro_mrr": 0.24214285714285713
+  },
+  {
+    "all_reports_hit": 0.5,
+    "case_count": 2,
+    "category": "core_inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.5,
+    "evidence_recall": 0.5,
+    "experiment_id": "ADJ02",
+    "macro_mrr": 0.1
+  },
+  {
+    "all_reports_hit": 0.4,
+    "case_count": 5,
+    "category": "food_inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.4,
+    "evidence_recall": 0.6,
+    "experiment_id": "ADJ02",
+    "macro_mrr": 0.30333333333333334
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 6,
+    "category": "growth",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "ADJ02",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 1,
+    "category": "inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "ADJ02",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.45454545454545453,
+    "case_count": 14,
+    "category": "other",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.36363636363636365,
+    "evidence_recall": 0.5757575757575757,
+    "experiment_id": "ADJ02",
+    "macro_mrr": 0.40476190476190477
+  },
+  {
+    "all_reports_hit": 0.2,
+    "case_count": 6,
+    "category": "policy_rate",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.2,
+    "evidence_recall": 0.4,
+    "experiment_id": "ADJ02",
+    "macro_mrr": 0.14682539682539683
+  },
+  {
+    "all_reports_hit": 0.3333333333333333,
+    "case_count": 12,
+    "category": "pairwise_comparison",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.25,
+    "evidence_recall": 0.4583333333333333,
+    "experiment_id": "ADJ03",
+    "macro_mrr": 0.3819444444444444
+  },
+  {
+    "all_reports_hit": 0.5833333333333334,
+    "case_count": 12,
+    "category": "single_report",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.5833333333333334,
+    "evidence_recall": 0.5833333333333334,
+    "experiment_id": "ADJ03",
+    "macro_mrr": 0.3680555555555556
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 6,
+    "category": "trend_all_reports",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.2222222222222222,
+    "experiment_id": "ADJ03",
+    "macro_mrr": 0.17460317460317457
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "category": "unsupported_period",
+    "category_type": "query_type",
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "ADJ03",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.36666666666666664,
+    "case_count": 34,
+    "category": "single_facet",
+    "category_type": "question_structure",
+    "complete_evidence_recall": 0.3333333333333333,
+    "evidence_recall": 0.46111111111111114,
+    "experiment_id": "ADJ03",
+    "macro_mrr": 0.29551820728291317
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 4,
+    "category": "April 2025 vs April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.25,
+    "experiment_id": "ADJ03",
+    "macro_mrr": 0.25
+  },
+  {
+    "all_reports_hit": 0.75,
+    "case_count": 4,
+    "category": "April 2025 vs October 2025",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.5,
+    "evidence_recall": 0.75,
+    "experiment_id": "ADJ03",
+    "macro_mrr": 0.5416666666666666
+  },
+  {
+    "all_reports_hit": 0.3333333333333333,
+    "case_count": 6,
+    "category": "April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.3333333333333333,
+    "evidence_recall": 0.3333333333333333,
+    "experiment_id": "ADJ03",
+    "macro_mrr": 0.13888888888888887
+  },
+  {
+    "all_reports_hit": 0.8333333333333334,
+    "case_count": 6,
+    "category": "October 2025",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.8333333333333334,
+    "evidence_recall": 0.8333333333333334,
+    "experiment_id": "ADJ03",
+    "macro_mrr": 0.5972222222222222
+  },
+  {
+    "all_reports_hit": 0.25,
+    "case_count": 4,
+    "category": "October 2025 vs April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.25,
+    "evidence_recall": 0.375,
+    "experiment_id": "ADJ03",
+    "macro_mrr": 0.3541666666666667
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 6,
+    "category": "all three reports",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.2222222222222222,
+    "experiment_id": "ADJ03",
+    "macro_mrr": 0.17460317460317457
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "category": "unsupported",
+    "category_type": "report_pair",
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "ADJ03",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.5,
+    "case_count": 2,
+    "category": "chart_or_figure",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.5,
+    "evidence_recall": 0.5,
+    "experiment_id": "ADJ03",
+    "macro_mrr": 0.5
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 2,
+    "category": "mixed",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "ADJ03",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.37037037037037035,
+    "case_count": 30,
+    "category": "narrative",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.3333333333333333,
+    "evidence_recall": 0.47530864197530864,
+    "experiment_id": "ADJ03",
+    "macro_mrr": 0.30158730158730157
+  },
+  {
+    "all_reports_hit": 0.5,
+    "case_count": 2,
+    "category": "core_inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.5,
+    "evidence_recall": 0.5,
+    "experiment_id": "ADJ03",
+    "macro_mrr": 0.16666666666666666
+  },
+  {
+    "all_reports_hit": 0.6,
+    "case_count": 5,
+    "category": "food_inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.6,
+    "evidence_recall": 0.7,
+    "experiment_id": "ADJ03",
+    "macro_mrr": 0.39166666666666666
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 6,
+    "category": "growth",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.08333333333333333,
+    "experiment_id": "ADJ03",
+    "macro_mrr": 0.020833333333333332
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 1,
+    "category": "inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "ADJ03",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.5454545454545454,
+    "case_count": 14,
+    "category": "other",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.45454545454545453,
+    "evidence_recall": 0.6212121212121212,
+    "experiment_id": "ADJ03",
+    "macro_mrr": 0.4761904761904762
+  },
+  {
+    "all_reports_hit": 0.2,
+    "case_count": 6,
+    "category": "policy_rate",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.2,
+    "evidence_recall": 0.4,
+    "experiment_id": "ADJ03",
+    "macro_mrr": 0.1607142857142857
+  },
+  {
+    "all_reports_hit": 0.3333333333333333,
+    "case_count": 12,
+    "category": "pairwise_comparison",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.08333333333333333,
+    "evidence_recall": 0.2916666666666667,
+    "experiment_id": "CPARENT01",
+    "macro_mrr": 0.3819444444444444
+  },
+  {
+    "all_reports_hit": 0.5833333333333334,
+    "case_count": 12,
+    "category": "single_report",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.3333333333333333,
+    "evidence_recall": 0.3333333333333333,
+    "experiment_id": "CPARENT01",
+    "macro_mrr": 0.3680555555555556
+  },
+  {
+    "all_reports_hit": 0.16666666666666666,
+    "case_count": 6,
+    "category": "trend_all_reports",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.27777777777777773,
+    "experiment_id": "CPARENT01",
+    "macro_mrr": 0.26851851851851855
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "category": "unsupported_period",
+    "category_type": "query_type",
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "CPARENT01",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.4,
+    "case_count": 34,
+    "category": "single_facet",
+    "category_type": "question_structure",
+    "complete_evidence_recall": 0.2,
+    "evidence_recall": 0.3055555555555555,
+    "experiment_id": "CPARENT01",
+    "macro_mrr": 0.31209150326797386
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 4,
+    "category": "April 2025 vs April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.125,
+    "experiment_id": "CPARENT01",
+    "macro_mrr": 0.25
+  },
+  {
+    "all_reports_hit": 0.75,
+    "case_count": 4,
+    "category": "April 2025 vs October 2025",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.25,
+    "evidence_recall": 0.5,
+    "experiment_id": "CPARENT01",
+    "macro_mrr": 0.5416666666666666
+  },
+  {
+    "all_reports_hit": 0.3333333333333333,
+    "case_count": 6,
+    "category": "April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "CPARENT01",
+    "macro_mrr": 0.13888888888888887
+  },
+  {
+    "all_reports_hit": 0.8333333333333334,
+    "case_count": 6,
+    "category": "October 2025",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.6666666666666666,
+    "evidence_recall": 0.6666666666666666,
+    "experiment_id": "CPARENT01",
+    "macro_mrr": 0.5972222222222222
+  },
+  {
+    "all_reports_hit": 0.25,
+    "case_count": 4,
+    "category": "October 2025 vs April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.25,
+    "experiment_id": "CPARENT01",
+    "macro_mrr": 0.3541666666666667
+  },
+  {
+    "all_reports_hit": 0.16666666666666666,
+    "case_count": 6,
+    "category": "all three reports",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.27777777777777773,
+    "experiment_id": "CPARENT01",
+    "macro_mrr": 0.26851851851851855
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "category": "unsupported",
+    "category_type": "report_pair",
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "CPARENT01",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.5,
+    "case_count": 2,
+    "category": "chart_or_figure",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.25,
+    "experiment_id": "CPARENT01",
+    "macro_mrr": 0.5
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 2,
+    "category": "mixed",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "CPARENT01",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.4074074074074074,
+    "case_count": 30,
+    "category": "narrative",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.2222222222222222,
+    "evidence_recall": 0.32098765432098764,
+    "experiment_id": "CPARENT01",
+    "macro_mrr": 0.32037037037037036
+  },
+  {
+    "all_reports_hit": 0.5,
+    "case_count": 2,
+    "category": "core_inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.5,
+    "evidence_recall": 0.5,
+    "experiment_id": "CPARENT01",
+    "macro_mrr": 0.16666666666666666
+  },
+  {
+    "all_reports_hit": 0.6,
+    "case_count": 5,
+    "category": "food_inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.4,
+    "evidence_recall": 0.5,
+    "experiment_id": "CPARENT01",
+    "macro_mrr": 0.4083333333333333
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 6,
+    "category": "growth",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "CPARENT01",
+    "macro_mrr": 0.020833333333333332
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 1,
+    "category": "inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "CPARENT01",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.5454545454545454,
+    "case_count": 14,
+    "category": "other",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.18181818181818182,
+    "evidence_recall": 0.3939393939393939,
+    "experiment_id": "CPARENT01",
+    "macro_mrr": 0.4880952380952381
+  },
+  {
+    "all_reports_hit": 0.4,
+    "case_count": 6,
+    "category": "policy_rate",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.2,
+    "evidence_recall": 0.26666666666666666,
+    "experiment_id": "CPARENT01",
+    "macro_mrr": 0.21296296296296294
+  },
+  {
+    "all_reports_hit": 0.3333333333333333,
+    "case_count": 12,
+    "category": "pairwise_comparison",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.20833333333333334,
+    "experiment_id": "CPARENT02",
+    "macro_mrr": 0.3819444444444444
+  },
+  {
+    "all_reports_hit": 0.5833333333333334,
+    "case_count": 12,
+    "category": "single_report",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.16666666666666666,
+    "experiment_id": "CPARENT02",
+    "macro_mrr": 0.3680555555555556
+  },
+  {
+    "all_reports_hit": 0.16666666666666666,
+    "case_count": 6,
+    "category": "trend_all_reports",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.2222222222222222,
+    "experiment_id": "CPARENT02",
+    "macro_mrr": 0.26851851851851855
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "category": "unsupported_period",
+    "category_type": "query_type",
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "CPARENT02",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.4,
+    "case_count": 34,
+    "category": "single_facet",
+    "category_type": "question_structure",
+    "complete_evidence_recall": 0.06666666666666667,
+    "evidence_recall": 0.19444444444444445,
+    "experiment_id": "CPARENT02",
+    "macro_mrr": 0.31209150326797386
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 4,
+    "category": "April 2025 vs April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.125,
+    "experiment_id": "CPARENT02",
+    "macro_mrr": 0.25
+  },
+  {
+    "all_reports_hit": 0.75,
+    "case_count": 4,
+    "category": "April 2025 vs October 2025",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.375,
+    "experiment_id": "CPARENT02",
+    "macro_mrr": 0.5416666666666666
+  },
+  {
+    "all_reports_hit": 0.3333333333333333,
+    "case_count": 6,
+    "category": "April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "CPARENT02",
+    "macro_mrr": 0.13888888888888887
+  },
+  {
+    "all_reports_hit": 0.8333333333333334,
+    "case_count": 6,
+    "category": "October 2025",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.3333333333333333,
+    "evidence_recall": 0.3333333333333333,
+    "experiment_id": "CPARENT02",
+    "macro_mrr": 0.5972222222222222
+  },
+  {
+    "all_reports_hit": 0.25,
+    "case_count": 4,
+    "category": "October 2025 vs April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.125,
+    "experiment_id": "CPARENT02",
+    "macro_mrr": 0.3541666666666667
+  },
+  {
+    "all_reports_hit": 0.16666666666666666,
+    "case_count": 6,
+    "category": "all three reports",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.2222222222222222,
+    "experiment_id": "CPARENT02",
+    "macro_mrr": 0.26851851851851855
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "category": "unsupported",
+    "category_type": "report_pair",
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "CPARENT02",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.5,
+    "case_count": 2,
+    "category": "chart_or_figure",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.25,
+    "experiment_id": "CPARENT02",
+    "macro_mrr": 0.5
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 2,
+    "category": "mixed",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "CPARENT02",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.4074074074074074,
+    "case_count": 30,
+    "category": "narrative",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.07407407407407407,
+    "evidence_recall": 0.19753086419753085,
+    "experiment_id": "CPARENT02",
+    "macro_mrr": 0.32037037037037036
+  },
+  {
+    "all_reports_hit": 0.5,
+    "case_count": 2,
+    "category": "core_inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "CPARENT02",
+    "macro_mrr": 0.16666666666666666
+  },
+  {
+    "all_reports_hit": 0.6,
+    "case_count": 5,
+    "category": "food_inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.1,
+    "experiment_id": "CPARENT02",
+    "macro_mrr": 0.4083333333333333
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 6,
+    "category": "growth",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "CPARENT02",
+    "macro_mrr": 0.020833333333333332
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 1,
+    "category": "inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "CPARENT02",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.5454545454545454,
+    "case_count": 14,
+    "category": "other",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.18181818181818182,
+    "evidence_recall": 0.3939393939393939,
+    "experiment_id": "CPARENT02",
+    "macro_mrr": 0.4880952380952381
+  },
+  {
+    "all_reports_hit": 0.4,
+    "case_count": 6,
+    "category": "policy_rate",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.2,
+    "experiment_id": "CPARENT02",
+    "macro_mrr": 0.21296296296296294
+  },
+  {
+    "all_reports_hit": 0.3333333333333333,
+    "case_count": 12,
+    "category": "pairwise_comparison",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.08333333333333333,
+    "evidence_recall": 0.2916666666666667,
+    "experiment_id": "CPARENT03",
+    "macro_mrr": 0.3819444444444444
+  },
+  {
+    "all_reports_hit": 0.5833333333333334,
+    "case_count": 12,
+    "category": "single_report",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.25,
+    "evidence_recall": 0.25,
+    "experiment_id": "CPARENT03",
+    "macro_mrr": 0.3680555555555556
+  },
+  {
+    "all_reports_hit": 0.16666666666666666,
+    "case_count": 6,
+    "category": "trend_all_reports",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.2222222222222222,
+    "experiment_id": "CPARENT03",
+    "macro_mrr": 0.26851851851851855
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "category": "unsupported_period",
+    "category_type": "query_type",
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "CPARENT03",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.4,
+    "case_count": 34,
+    "category": "single_facet",
+    "category_type": "question_structure",
+    "complete_evidence_recall": 0.13333333333333333,
+    "evidence_recall": 0.2611111111111111,
+    "experiment_id": "CPARENT03",
+    "macro_mrr": 0.31209150326797386
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 4,
+    "category": "April 2025 vs April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.125,
+    "experiment_id": "CPARENT03",
+    "macro_mrr": 0.25
+  },
+  {
+    "all_reports_hit": 0.75,
+    "case_count": 4,
+    "category": "April 2025 vs October 2025",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.25,
+    "evidence_recall": 0.5,
+    "experiment_id": "CPARENT03",
+    "macro_mrr": 0.5416666666666666
+  },
+  {
+    "all_reports_hit": 0.3333333333333333,
+    "case_count": 6,
+    "category": "April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "CPARENT03",
+    "macro_mrr": 0.13888888888888887
+  },
+  {
+    "all_reports_hit": 0.8333333333333334,
+    "case_count": 6,
+    "category": "October 2025",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.5,
+    "evidence_recall": 0.5,
+    "experiment_id": "CPARENT03",
+    "macro_mrr": 0.5972222222222222
+  },
+  {
+    "all_reports_hit": 0.25,
+    "case_count": 4,
+    "category": "October 2025 vs April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.25,
+    "experiment_id": "CPARENT03",
+    "macro_mrr": 0.3541666666666667
+  },
+  {
+    "all_reports_hit": 0.16666666666666666,
+    "case_count": 6,
+    "category": "all three reports",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.2222222222222222,
+    "experiment_id": "CPARENT03",
+    "macro_mrr": 0.26851851851851855
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "category": "unsupported",
+    "category_type": "report_pair",
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "CPARENT03",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.5,
+    "case_count": 2,
+    "category": "chart_or_figure",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.25,
+    "experiment_id": "CPARENT03",
+    "macro_mrr": 0.5
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 2,
+    "category": "mixed",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "CPARENT03",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.4074074074074074,
+    "case_count": 30,
+    "category": "narrative",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.14814814814814814,
+    "evidence_recall": 0.2716049382716049,
+    "experiment_id": "CPARENT03",
+    "macro_mrr": 0.32037037037037036
+  },
+  {
+    "all_reports_hit": 0.5,
+    "case_count": 2,
+    "category": "core_inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.5,
+    "evidence_recall": 0.5,
+    "experiment_id": "CPARENT03",
+    "macro_mrr": 0.16666666666666666
+  },
+  {
+    "all_reports_hit": 0.6,
+    "case_count": 5,
+    "category": "food_inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.4,
+    "evidence_recall": 0.5,
+    "experiment_id": "CPARENT03",
+    "macro_mrr": 0.4083333333333333
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 6,
+    "category": "growth",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "CPARENT03",
+    "macro_mrr": 0.020833333333333332
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 1,
+    "category": "inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "CPARENT03",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.5454545454545454,
+    "case_count": 14,
+    "category": "other",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.09090909090909091,
+    "evidence_recall": 0.30303030303030304,
+    "experiment_id": "CPARENT03",
+    "macro_mrr": 0.4880952380952381
+  },
+  {
+    "all_reports_hit": 0.4,
+    "case_count": 6,
+    "category": "policy_rate",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.2,
+    "experiment_id": "CPARENT03",
+    "macro_mrr": 0.21296296296296294
+  },
+  {
+    "all_reports_hit": 0.3333333333333333,
+    "case_count": 12,
+    "category": "pairwise_comparison",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.25,
+    "evidence_recall": 0.4583333333333333,
+    "experiment_id": "EMB00",
+    "macro_mrr": 0.3819444444444444
+  },
+  {
+    "all_reports_hit": 0.5833333333333334,
+    "case_count": 12,
+    "category": "single_report",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.5833333333333334,
+    "evidence_recall": 0.5833333333333334,
+    "experiment_id": "EMB00",
+    "macro_mrr": 0.3680555555555556
+  },
+  {
+    "all_reports_hit": 0.16666666666666666,
+    "case_count": 6,
+    "category": "trend_all_reports",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.4444444444444444,
+    "experiment_id": "EMB00",
+    "macro_mrr": 0.26851851851851855
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "category": "unsupported_period",
+    "category_type": "query_type",
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "EMB00",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.4,
+    "case_count": 34,
+    "category": "single_facet",
+    "category_type": "question_structure",
+    "complete_evidence_recall": 0.36666666666666664,
+    "evidence_recall": 0.5055555555555555,
+    "experiment_id": "EMB00",
+    "macro_mrr": 0.31209150326797386
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 4,
+    "category": "April 2025 vs April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.25,
+    "experiment_id": "EMB00",
+    "macro_mrr": 0.25
+  },
+  {
+    "all_reports_hit": 0.75,
+    "case_count": 4,
+    "category": "April 2025 vs October 2025",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.5,
+    "evidence_recall": 0.75,
+    "experiment_id": "EMB00",
+    "macro_mrr": 0.5416666666666666
+  },
+  {
+    "all_reports_hit": 0.3333333333333333,
+    "case_count": 6,
+    "category": "April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.3333333333333333,
+    "evidence_recall": 0.3333333333333333,
+    "experiment_id": "EMB00",
+    "macro_mrr": 0.13888888888888887
+  },
+  {
+    "all_reports_hit": 0.8333333333333334,
+    "case_count": 6,
+    "category": "October 2025",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.8333333333333334,
+    "evidence_recall": 0.8333333333333334,
+    "experiment_id": "EMB00",
+    "macro_mrr": 0.5972222222222222
+  },
+  {
+    "all_reports_hit": 0.25,
+    "case_count": 4,
+    "category": "October 2025 vs April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.25,
+    "evidence_recall": 0.375,
+    "experiment_id": "EMB00",
+    "macro_mrr": 0.3541666666666667
+  },
+  {
+    "all_reports_hit": 0.16666666666666666,
+    "case_count": 6,
+    "category": "all three reports",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.4444444444444444,
+    "experiment_id": "EMB00",
+    "macro_mrr": 0.26851851851851855
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "category": "unsupported",
+    "category_type": "report_pair",
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "EMB00",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.5,
+    "case_count": 2,
+    "category": "chart_or_figure",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.5,
+    "evidence_recall": 0.5,
+    "experiment_id": "EMB00",
+    "macro_mrr": 0.5
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 2,
+    "category": "mixed",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "EMB00",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.4074074074074074,
+    "case_count": 30,
+    "category": "narrative",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.37037037037037035,
+    "evidence_recall": 0.5246913580246914,
+    "experiment_id": "EMB00",
+    "macro_mrr": 0.32037037037037036
+  },
+  {
+    "all_reports_hit": 0.5,
+    "case_count": 2,
+    "category": "core_inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.5,
+    "evidence_recall": 0.5,
+    "experiment_id": "EMB00",
+    "macro_mrr": 0.16666666666666666
+  },
+  {
+    "all_reports_hit": 0.6,
+    "case_count": 5,
+    "category": "food_inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.6,
+    "evidence_recall": 0.7666666666666667,
+    "experiment_id": "EMB00",
+    "macro_mrr": 0.4083333333333333
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 6,
+    "category": "growth",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.08333333333333333,
+    "experiment_id": "EMB00",
+    "macro_mrr": 0.020833333333333332
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 1,
+    "category": "inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "EMB00",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.5454545454545454,
+    "case_count": 14,
+    "category": "other",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.45454545454545453,
+    "evidence_recall": 0.6515151515151515,
+    "experiment_id": "EMB00",
+    "macro_mrr": 0.4880952380952381
+  },
+  {
+    "all_reports_hit": 0.4,
+    "case_count": 6,
+    "category": "policy_rate",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.4,
+    "evidence_recall": 0.5333333333333333,
+    "experiment_id": "EMB00",
+    "macro_mrr": 0.21296296296296294
+  },
+  {
+    "all_reports_hit": 0.3333333333333333,
+    "case_count": 12,
+    "category": "pairwise_comparison",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.25,
+    "evidence_recall": 0.4583333333333333,
+    "experiment_id": "PARSER00",
+    "macro_mrr": 0.3819444444444444
+  },
+  {
+    "all_reports_hit": 0.5833333333333334,
+    "case_count": 12,
+    "category": "single_report",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.5833333333333334,
+    "evidence_recall": 0.5833333333333334,
+    "experiment_id": "PARSER00",
+    "macro_mrr": 0.3680555555555556
+  },
+  {
+    "all_reports_hit": 0.16666666666666666,
+    "case_count": 6,
+    "category": "trend_all_reports",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.4444444444444444,
+    "experiment_id": "PARSER00",
+    "macro_mrr": 0.26851851851851855
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "category": "unsupported_period",
+    "category_type": "query_type",
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "PARSER00",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.4,
+    "case_count": 34,
+    "category": "single_facet",
+    "category_type": "question_structure",
+    "complete_evidence_recall": 0.36666666666666664,
+    "evidence_recall": 0.5055555555555555,
+    "experiment_id": "PARSER00",
+    "macro_mrr": 0.31209150326797386
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 4,
+    "category": "April 2025 vs April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.25,
+    "experiment_id": "PARSER00",
+    "macro_mrr": 0.25
+  },
+  {
+    "all_reports_hit": 0.75,
+    "case_count": 4,
+    "category": "April 2025 vs October 2025",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.5,
+    "evidence_recall": 0.75,
+    "experiment_id": "PARSER00",
+    "macro_mrr": 0.5416666666666666
+  },
+  {
+    "all_reports_hit": 0.3333333333333333,
+    "case_count": 6,
+    "category": "April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.3333333333333333,
+    "evidence_recall": 0.3333333333333333,
+    "experiment_id": "PARSER00",
+    "macro_mrr": 0.13888888888888887
+  },
+  {
+    "all_reports_hit": 0.8333333333333334,
+    "case_count": 6,
+    "category": "October 2025",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.8333333333333334,
+    "evidence_recall": 0.8333333333333334,
+    "experiment_id": "PARSER00",
+    "macro_mrr": 0.5972222222222222
+  },
+  {
+    "all_reports_hit": 0.25,
+    "case_count": 4,
+    "category": "October 2025 vs April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.25,
+    "evidence_recall": 0.375,
+    "experiment_id": "PARSER00",
+    "macro_mrr": 0.3541666666666667
+  },
+  {
+    "all_reports_hit": 0.16666666666666666,
+    "case_count": 6,
+    "category": "all three reports",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.4444444444444444,
+    "experiment_id": "PARSER00",
+    "macro_mrr": 0.26851851851851855
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "category": "unsupported",
+    "category_type": "report_pair",
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "PARSER00",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.5,
+    "case_count": 2,
+    "category": "chart_or_figure",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.5,
+    "evidence_recall": 0.5,
+    "experiment_id": "PARSER00",
+    "macro_mrr": 0.5
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 2,
+    "category": "mixed",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "PARSER00",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.4074074074074074,
+    "case_count": 30,
+    "category": "narrative",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.37037037037037035,
+    "evidence_recall": 0.5246913580246914,
+    "experiment_id": "PARSER00",
+    "macro_mrr": 0.32037037037037036
+  },
+  {
+    "all_reports_hit": 0.5,
+    "case_count": 2,
+    "category": "core_inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.5,
+    "evidence_recall": 0.5,
+    "experiment_id": "PARSER00",
+    "macro_mrr": 0.16666666666666666
+  },
+  {
+    "all_reports_hit": 0.6,
+    "case_count": 5,
+    "category": "food_inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.6,
+    "evidence_recall": 0.7666666666666667,
+    "experiment_id": "PARSER00",
+    "macro_mrr": 0.4083333333333333
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 6,
+    "category": "growth",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.08333333333333333,
+    "experiment_id": "PARSER00",
+    "macro_mrr": 0.020833333333333332
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 1,
+    "category": "inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "PARSER00",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.5454545454545454,
+    "case_count": 14,
+    "category": "other",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.45454545454545453,
+    "evidence_recall": 0.6515151515151515,
+    "experiment_id": "PARSER00",
+    "macro_mrr": 0.4880952380952381
+  },
+  {
+    "all_reports_hit": 0.4,
+    "case_count": 6,
+    "category": "policy_rate",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.4,
+    "evidence_recall": 0.5333333333333333,
+    "experiment_id": "PARSER00",
+    "macro_mrr": 0.21296296296296294
+  },
+  {
+    "all_reports_hit": 0.3333333333333333,
+    "case_count": 12,
+    "category": "pairwise_comparison",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.25,
+    "evidence_recall": 0.4583333333333333,
+    "experiment_id": "RERANK00",
+    "macro_mrr": 0.3819444444444444
+  },
+  {
+    "all_reports_hit": 0.5833333333333334,
+    "case_count": 12,
+    "category": "single_report",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.5833333333333334,
+    "evidence_recall": 0.5833333333333334,
+    "experiment_id": "RERANK00",
+    "macro_mrr": 0.3680555555555556
+  },
+  {
+    "all_reports_hit": 0.16666666666666666,
+    "case_count": 6,
+    "category": "trend_all_reports",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.4444444444444444,
+    "experiment_id": "RERANK00",
+    "macro_mrr": 0.26851851851851855
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "category": "unsupported_period",
+    "category_type": "query_type",
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "RERANK00",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.4,
+    "case_count": 34,
+    "category": "single_facet",
+    "category_type": "question_structure",
+    "complete_evidence_recall": 0.36666666666666664,
+    "evidence_recall": 0.5055555555555555,
+    "experiment_id": "RERANK00",
+    "macro_mrr": 0.31209150326797386
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 4,
+    "category": "April 2025 vs April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.25,
+    "experiment_id": "RERANK00",
+    "macro_mrr": 0.25
+  },
+  {
+    "all_reports_hit": 0.75,
+    "case_count": 4,
+    "category": "April 2025 vs October 2025",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.5,
+    "evidence_recall": 0.75,
+    "experiment_id": "RERANK00",
+    "macro_mrr": 0.5416666666666666
+  },
+  {
+    "all_reports_hit": 0.3333333333333333,
+    "case_count": 6,
+    "category": "April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.3333333333333333,
+    "evidence_recall": 0.3333333333333333,
+    "experiment_id": "RERANK00",
+    "macro_mrr": 0.13888888888888887
+  },
+  {
+    "all_reports_hit": 0.8333333333333334,
+    "case_count": 6,
+    "category": "October 2025",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.8333333333333334,
+    "evidence_recall": 0.8333333333333334,
+    "experiment_id": "RERANK00",
+    "macro_mrr": 0.5972222222222222
+  },
+  {
+    "all_reports_hit": 0.25,
+    "case_count": 4,
+    "category": "October 2025 vs April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.25,
+    "evidence_recall": 0.375,
+    "experiment_id": "RERANK00",
+    "macro_mrr": 0.3541666666666667
+  },
+  {
+    "all_reports_hit": 0.16666666666666666,
+    "case_count": 6,
+    "category": "all three reports",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.4444444444444444,
+    "experiment_id": "RERANK00",
+    "macro_mrr": 0.26851851851851855
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "category": "unsupported",
+    "category_type": "report_pair",
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "RERANK00",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.5,
+    "case_count": 2,
+    "category": "chart_or_figure",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.5,
+    "evidence_recall": 0.5,
+    "experiment_id": "RERANK00",
+    "macro_mrr": 0.5
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 2,
+    "category": "mixed",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "RERANK00",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.4074074074074074,
+    "case_count": 30,
+    "category": "narrative",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.37037037037037035,
+    "evidence_recall": 0.5246913580246914,
+    "experiment_id": "RERANK00",
+    "macro_mrr": 0.32037037037037036
+  },
+  {
+    "all_reports_hit": 0.5,
+    "case_count": 2,
+    "category": "core_inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.5,
+    "evidence_recall": 0.5,
+    "experiment_id": "RERANK00",
+    "macro_mrr": 0.16666666666666666
+  },
+  {
+    "all_reports_hit": 0.6,
+    "case_count": 5,
+    "category": "food_inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.6,
+    "evidence_recall": 0.7666666666666667,
+    "experiment_id": "RERANK00",
+    "macro_mrr": 0.4083333333333333
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 6,
+    "category": "growth",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.08333333333333333,
+    "experiment_id": "RERANK00",
+    "macro_mrr": 0.020833333333333332
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 1,
+    "category": "inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "RERANK00",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.5454545454545454,
+    "case_count": 14,
+    "category": "other",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.45454545454545453,
+    "evidence_recall": 0.6515151515151515,
+    "experiment_id": "RERANK00",
+    "macro_mrr": 0.4880952380952381
+  },
+  {
+    "all_reports_hit": 0.4,
+    "case_count": 6,
+    "category": "policy_rate",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.4,
+    "evidence_recall": 0.5333333333333333,
+    "experiment_id": "RERANK00",
+    "macro_mrr": 0.21296296296296294
+  },
+  {
+    "all_reports_hit": 0.3333333333333333,
+    "case_count": 12,
+    "category": "pairwise_comparison",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.25,
+    "evidence_recall": 0.4583333333333333,
+    "experiment_id": "SEM00",
+    "macro_mrr": 0.3819444444444444
+  },
+  {
+    "all_reports_hit": 0.5833333333333334,
+    "case_count": 12,
+    "category": "single_report",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.5833333333333334,
+    "evidence_recall": 0.5833333333333334,
+    "experiment_id": "SEM00",
+    "macro_mrr": 0.3680555555555556
+  },
+  {
+    "all_reports_hit": 0.16666666666666666,
+    "case_count": 6,
+    "category": "trend_all_reports",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.4444444444444444,
+    "experiment_id": "SEM00",
+    "macro_mrr": 0.26851851851851855
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "category": "unsupported_period",
+    "category_type": "query_type",
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "SEM00",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.4,
+    "case_count": 34,
+    "category": "single_facet",
+    "category_type": "question_structure",
+    "complete_evidence_recall": 0.36666666666666664,
+    "evidence_recall": 0.5055555555555555,
+    "experiment_id": "SEM00",
+    "macro_mrr": 0.31209150326797386
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 4,
+    "category": "April 2025 vs April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.25,
+    "experiment_id": "SEM00",
+    "macro_mrr": 0.25
+  },
+  {
+    "all_reports_hit": 0.75,
+    "case_count": 4,
+    "category": "April 2025 vs October 2025",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.5,
+    "evidence_recall": 0.75,
+    "experiment_id": "SEM00",
+    "macro_mrr": 0.5416666666666666
+  },
+  {
+    "all_reports_hit": 0.3333333333333333,
+    "case_count": 6,
+    "category": "April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.3333333333333333,
+    "evidence_recall": 0.3333333333333333,
+    "experiment_id": "SEM00",
+    "macro_mrr": 0.13888888888888887
+  },
+  {
+    "all_reports_hit": 0.8333333333333334,
+    "case_count": 6,
+    "category": "October 2025",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.8333333333333334,
+    "evidence_recall": 0.8333333333333334,
+    "experiment_id": "SEM00",
+    "macro_mrr": 0.5972222222222222
+  },
+  {
+    "all_reports_hit": 0.25,
+    "case_count": 4,
+    "category": "October 2025 vs April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.25,
+    "evidence_recall": 0.375,
+    "experiment_id": "SEM00",
+    "macro_mrr": 0.3541666666666667
+  },
+  {
+    "all_reports_hit": 0.16666666666666666,
+    "case_count": 6,
+    "category": "all three reports",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.4444444444444444,
+    "experiment_id": "SEM00",
+    "macro_mrr": 0.26851851851851855
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "category": "unsupported",
+    "category_type": "report_pair",
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "SEM00",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.5,
+    "case_count": 2,
+    "category": "chart_or_figure",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.5,
+    "evidence_recall": 0.5,
+    "experiment_id": "SEM00",
+    "macro_mrr": 0.5
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 2,
+    "category": "mixed",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "SEM00",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.4074074074074074,
+    "case_count": 30,
+    "category": "narrative",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.37037037037037035,
+    "evidence_recall": 0.5246913580246914,
+    "experiment_id": "SEM00",
+    "macro_mrr": 0.32037037037037036
+  },
+  {
+    "all_reports_hit": 0.5,
+    "case_count": 2,
+    "category": "core_inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.5,
+    "evidence_recall": 0.5,
+    "experiment_id": "SEM00",
+    "macro_mrr": 0.16666666666666666
+  },
+  {
+    "all_reports_hit": 0.6,
+    "case_count": 5,
+    "category": "food_inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.6,
+    "evidence_recall": 0.7666666666666667,
+    "experiment_id": "SEM00",
+    "macro_mrr": 0.4083333333333333
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 6,
+    "category": "growth",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.08333333333333333,
+    "experiment_id": "SEM00",
+    "macro_mrr": 0.020833333333333332
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 1,
+    "category": "inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "SEM00",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.5454545454545454,
+    "case_count": 14,
+    "category": "other",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.45454545454545453,
+    "evidence_recall": 0.6515151515151515,
+    "experiment_id": "SEM00",
+    "macro_mrr": 0.4880952380952381
+  },
+  {
+    "all_reports_hit": 0.4,
+    "case_count": 6,
+    "category": "policy_rate",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.4,
+    "evidence_recall": 0.5333333333333333,
+    "experiment_id": "SEM00",
+    "macro_mrr": 0.21296296296296294
+  },
+  {
+    "all_reports_hit": 0.16666666666666666,
+    "case_count": 12,
+    "category": "pairwise_comparison",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.4166666666666667,
+    "experiment_id": "STRUCT_CANDIDATE_1",
+    "macro_mrr": 0.32222222222222224
+  },
+  {
+    "all_reports_hit": 0.5833333333333334,
+    "case_count": 12,
+    "category": "single_report",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.5833333333333334,
+    "evidence_recall": 0.5833333333333334,
+    "experiment_id": "STRUCT_CANDIDATE_1",
+    "macro_mrr": 0.3361111111111111
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 6,
+    "category": "trend_all_reports",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.27777777777777773,
+    "experiment_id": "STRUCT_CANDIDATE_1",
+    "macro_mrr": 0.19629629629629627
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "category": "unsupported_period",
+    "category_type": "query_type",
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "STRUCT_CANDIDATE_1",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.3,
+    "case_count": 34,
+    "category": "single_facet",
+    "category_type": "question_structure",
+    "complete_evidence_recall": 0.3,
+    "evidence_recall": 0.45555555555555555,
+    "experiment_id": "STRUCT_CANDIDATE_1",
+    "macro_mrr": 0.2669934640522876
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 4,
+    "category": "April 2025 vs April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.25,
+    "experiment_id": "STRUCT_CANDIDATE_1",
+    "macro_mrr": 0.25
+  },
+  {
+    "all_reports_hit": 0.25,
+    "case_count": 4,
+    "category": "April 2025 vs October 2025",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.25,
+    "evidence_recall": 0.5,
+    "experiment_id": "STRUCT_CANDIDATE_1",
+    "macro_mrr": 0.4
+  },
+  {
+    "all_reports_hit": 0.3333333333333333,
+    "case_count": 6,
+    "category": "April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.3333333333333333,
+    "evidence_recall": 0.3333333333333333,
+    "experiment_id": "STRUCT_CANDIDATE_1",
+    "macro_mrr": 0.1111111111111111
+  },
+  {
+    "all_reports_hit": 0.8333333333333334,
+    "case_count": 6,
+    "category": "October 2025",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.8333333333333334,
+    "evidence_recall": 0.8333333333333334,
+    "experiment_id": "STRUCT_CANDIDATE_1",
+    "macro_mrr": 0.5611111111111111
+  },
+  {
+    "all_reports_hit": 0.25,
+    "case_count": 4,
+    "category": "October 2025 vs April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.25,
+    "evidence_recall": 0.5,
+    "experiment_id": "STRUCT_CANDIDATE_1",
+    "macro_mrr": 0.31666666666666665
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 6,
+    "category": "all three reports",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.27777777777777773,
+    "experiment_id": "STRUCT_CANDIDATE_1",
+    "macro_mrr": 0.19629629629629627
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "category": "unsupported",
+    "category_type": "report_pair",
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "STRUCT_CANDIDATE_1",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.5,
+    "case_count": 2,
+    "category": "chart_or_figure",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.5,
+    "evidence_recall": 0.5,
+    "experiment_id": "STRUCT_CANDIDATE_1",
+    "macro_mrr": 0.5
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 2,
+    "category": "mixed",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "STRUCT_CANDIDATE_1",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.2962962962962963,
+    "case_count": 30,
+    "category": "narrative",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.2962962962962963,
+    "evidence_recall": 0.4691358024691358,
+    "experiment_id": "STRUCT_CANDIDATE_1",
+    "macro_mrr": 0.26925925925925925
+  },
+  {
+    "all_reports_hit": 0.5,
+    "case_count": 2,
+    "category": "core_inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.5,
+    "evidence_recall": 0.5,
+    "experiment_id": "STRUCT_CANDIDATE_1",
+    "macro_mrr": 0.1
+  },
+  {
+    "all_reports_hit": 0.4,
+    "case_count": 5,
+    "category": "food_inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.4,
+    "evidence_recall": 0.6,
+    "experiment_id": "STRUCT_CANDIDATE_1",
+    "macro_mrr": 0.33999999999999997
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 6,
+    "category": "growth",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "STRUCT_CANDIDATE_1",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 1,
+    "category": "inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "STRUCT_CANDIDATE_1",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.45454545454545453,
+    "case_count": 14,
+    "category": "other",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.45454545454545453,
+    "evidence_recall": 0.696969696969697,
+    "experiment_id": "STRUCT_CANDIDATE_1",
+    "macro_mrr": 0.44841269841269843
+  },
+  {
+    "all_reports_hit": 0.2,
+    "case_count": 6,
+    "category": "policy_rate",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.2,
+    "evidence_recall": 0.4,
+    "experiment_id": "STRUCT_CANDIDATE_1",
+    "macro_mrr": 0.15
+  },
+  {
+    "all_reports_hit": 0.3333333333333333,
+    "case_count": 12,
+    "category": "pairwise_comparison",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.20833333333333334,
+    "experiment_id": "STRUCT_CANDIDATE_2",
+    "macro_mrr": 0.3819444444444444
+  },
+  {
+    "all_reports_hit": 0.5833333333333334,
+    "case_count": 12,
+    "category": "single_report",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.16666666666666666,
+    "experiment_id": "STRUCT_CANDIDATE_2",
+    "macro_mrr": 0.3680555555555556
+  },
+  {
+    "all_reports_hit": 0.16666666666666666,
+    "case_count": 6,
+    "category": "trend_all_reports",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.2222222222222222,
+    "experiment_id": "STRUCT_CANDIDATE_2",
+    "macro_mrr": 0.26851851851851855
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "category": "unsupported_period",
+    "category_type": "query_type",
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "STRUCT_CANDIDATE_2",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.4,
+    "case_count": 34,
+    "category": "single_facet",
+    "category_type": "question_structure",
+    "complete_evidence_recall": 0.06666666666666667,
+    "evidence_recall": 0.19444444444444445,
+    "experiment_id": "STRUCT_CANDIDATE_2",
+    "macro_mrr": 0.31209150326797386
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 4,
+    "category": "April 2025 vs April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.125,
+    "experiment_id": "STRUCT_CANDIDATE_2",
+    "macro_mrr": 0.25
+  },
+  {
+    "all_reports_hit": 0.75,
+    "case_count": 4,
+    "category": "April 2025 vs October 2025",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.375,
+    "experiment_id": "STRUCT_CANDIDATE_2",
+    "macro_mrr": 0.5416666666666666
+  },
+  {
+    "all_reports_hit": 0.3333333333333333,
+    "case_count": 6,
+    "category": "April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "STRUCT_CANDIDATE_2",
+    "macro_mrr": 0.13888888888888887
+  },
+  {
+    "all_reports_hit": 0.8333333333333334,
+    "case_count": 6,
+    "category": "October 2025",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.3333333333333333,
+    "evidence_recall": 0.3333333333333333,
+    "experiment_id": "STRUCT_CANDIDATE_2",
+    "macro_mrr": 0.5972222222222222
+  },
+  {
+    "all_reports_hit": 0.25,
+    "case_count": 4,
+    "category": "October 2025 vs April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.125,
+    "experiment_id": "STRUCT_CANDIDATE_2",
+    "macro_mrr": 0.3541666666666667
+  },
+  {
+    "all_reports_hit": 0.16666666666666666,
+    "case_count": 6,
+    "category": "all three reports",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.2222222222222222,
+    "experiment_id": "STRUCT_CANDIDATE_2",
+    "macro_mrr": 0.26851851851851855
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "category": "unsupported",
+    "category_type": "report_pair",
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "STRUCT_CANDIDATE_2",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.5,
+    "case_count": 2,
+    "category": "chart_or_figure",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.25,
+    "experiment_id": "STRUCT_CANDIDATE_2",
+    "macro_mrr": 0.5
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 2,
+    "category": "mixed",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "STRUCT_CANDIDATE_2",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.4074074074074074,
+    "case_count": 30,
+    "category": "narrative",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.07407407407407407,
+    "evidence_recall": 0.19753086419753085,
+    "experiment_id": "STRUCT_CANDIDATE_2",
+    "macro_mrr": 0.32037037037037036
+  },
+  {
+    "all_reports_hit": 0.5,
+    "case_count": 2,
+    "category": "core_inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "STRUCT_CANDIDATE_2",
+    "macro_mrr": 0.16666666666666666
+  },
+  {
+    "all_reports_hit": 0.6,
+    "case_count": 5,
+    "category": "food_inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.1,
+    "experiment_id": "STRUCT_CANDIDATE_2",
+    "macro_mrr": 0.4083333333333333
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 6,
+    "category": "growth",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "STRUCT_CANDIDATE_2",
+    "macro_mrr": 0.020833333333333332
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 1,
+    "category": "inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "STRUCT_CANDIDATE_2",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.5454545454545454,
+    "case_count": 14,
+    "category": "other",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.18181818181818182,
+    "evidence_recall": 0.3939393939393939,
+    "experiment_id": "STRUCT_CANDIDATE_2",
+    "macro_mrr": 0.4880952380952381
+  },
+  {
+    "all_reports_hit": 0.4,
+    "case_count": 6,
+    "category": "policy_rate",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.2,
+    "experiment_id": "STRUCT_CANDIDATE_2",
+    "macro_mrr": 0.21296296296296294
+  },
+  {
+    "all_reports_hit": 0.3333333333333333,
+    "case_count": 12,
+    "category": "pairwise_comparison",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.125,
+    "experiment_id": "STRUCT_CANDIDATE_3",
+    "macro_mrr": 0.3819444444444444
+  },
+  {
+    "all_reports_hit": 0.5833333333333334,
+    "case_count": 12,
+    "category": "single_report",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.25,
+    "evidence_recall": 0.25,
+    "experiment_id": "STRUCT_CANDIDATE_3",
+    "macro_mrr": 0.3680555555555556
+  },
+  {
+    "all_reports_hit": 0.16666666666666666,
+    "case_count": 6,
+    "category": "trend_all_reports",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.16666666666666666,
+    "experiment_id": "STRUCT_CANDIDATE_3",
+    "macro_mrr": 0.26851851851851855
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "category": "unsupported_period",
+    "category_type": "query_type",
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "STRUCT_CANDIDATE_3",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.4,
+    "case_count": 34,
+    "category": "single_facet",
+    "category_type": "question_structure",
+    "complete_evidence_recall": 0.1,
+    "evidence_recall": 0.18333333333333332,
+    "experiment_id": "STRUCT_CANDIDATE_3",
+    "macro_mrr": 0.31209150326797386
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 4,
+    "category": "April 2025 vs April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "STRUCT_CANDIDATE_3",
+    "macro_mrr": 0.25
+  },
+  {
+    "all_reports_hit": 0.75,
+    "case_count": 4,
+    "category": "April 2025 vs October 2025",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.125,
+    "experiment_id": "STRUCT_CANDIDATE_3",
+    "macro_mrr": 0.5416666666666666
+  },
+  {
+    "all_reports_hit": 0.3333333333333333,
+    "case_count": 6,
+    "category": "April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.16666666666666666,
+    "experiment_id": "STRUCT_CANDIDATE_3",
+    "macro_mrr": 0.13888888888888887
+  },
+  {
+    "all_reports_hit": 0.8333333333333334,
+    "case_count": 6,
+    "category": "October 2025",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.3333333333333333,
+    "evidence_recall": 0.3333333333333333,
+    "experiment_id": "STRUCT_CANDIDATE_3",
+    "macro_mrr": 0.5972222222222222
+  },
+  {
+    "all_reports_hit": 0.25,
+    "case_count": 4,
+    "category": "October 2025 vs April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.25,
+    "experiment_id": "STRUCT_CANDIDATE_3",
+    "macro_mrr": 0.3541666666666667
+  },
+  {
+    "all_reports_hit": 0.16666666666666666,
+    "case_count": 6,
+    "category": "all three reports",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.16666666666666666,
+    "experiment_id": "STRUCT_CANDIDATE_3",
+    "macro_mrr": 0.26851851851851855
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "category": "unsupported",
+    "category_type": "report_pair",
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "STRUCT_CANDIDATE_3",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.5,
+    "case_count": 2,
+    "category": "chart_or_figure",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.25,
+    "experiment_id": "STRUCT_CANDIDATE_3",
+    "macro_mrr": 0.5
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 2,
+    "category": "mixed",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "STRUCT_CANDIDATE_3",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.4074074074074074,
+    "case_count": 30,
+    "category": "narrative",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.1111111111111111,
+    "evidence_recall": 0.18518518518518517,
+    "experiment_id": "STRUCT_CANDIDATE_3",
+    "macro_mrr": 0.32037037037037036
+  },
+  {
+    "all_reports_hit": 0.5,
+    "case_count": 2,
+    "category": "core_inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "STRUCT_CANDIDATE_3",
+    "macro_mrr": 0.16666666666666666
+  },
+  {
+    "all_reports_hit": 0.6,
+    "case_count": 5,
+    "category": "food_inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.4,
+    "evidence_recall": 0.6666666666666667,
+    "experiment_id": "STRUCT_CANDIDATE_3",
+    "macro_mrr": 0.4083333333333333
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 6,
+    "category": "growth",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "STRUCT_CANDIDATE_3",
+    "macro_mrr": 0.020833333333333332
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 1,
+    "category": "inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "STRUCT_CANDIDATE_3",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.5454545454545454,
+    "case_count": 14,
+    "category": "other",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.09090909090909091,
+    "evidence_recall": 0.13636363636363635,
+    "experiment_id": "STRUCT_CANDIDATE_3",
+    "macro_mrr": 0.4880952380952381
+  },
+  {
+    "all_reports_hit": 0.4,
+    "case_count": 6,
+    "category": "policy_rate",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.13333333333333333,
+    "experiment_id": "STRUCT_CANDIDATE_3",
+    "macro_mrr": 0.21296296296296294
+  },
+  {
+    "all_reports_hit": 0.3333333333333333,
+    "case_count": 12,
+    "category": "pairwise_comparison",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.041666666666666664,
+    "experiment_id": "SW01",
+    "macro_mrr": 0.3819444444444444
+  },
+  {
+    "all_reports_hit": 0.5833333333333334,
+    "case_count": 12,
+    "category": "single_report",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.16666666666666666,
+    "experiment_id": "SW01",
+    "macro_mrr": 0.3680555555555556
+  },
+  {
+    "all_reports_hit": 0.16666666666666666,
+    "case_count": 6,
+    "category": "trend_all_reports",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.1111111111111111,
+    "experiment_id": "SW01",
+    "macro_mrr": 0.26851851851851855
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "category": "unsupported_period",
+    "category_type": "query_type",
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "SW01",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.4,
+    "case_count": 34,
+    "category": "single_facet",
+    "category_type": "question_structure",
+    "complete_evidence_recall": 0.06666666666666667,
+    "evidence_recall": 0.10555555555555556,
+    "experiment_id": "SW01",
+    "macro_mrr": 0.31209150326797386
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 4,
+    "category": "April 2025 vs April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "SW01",
+    "macro_mrr": 0.25
+  },
+  {
+    "all_reports_hit": 0.75,
+    "case_count": 4,
+    "category": "April 2025 vs October 2025",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "SW01",
+    "macro_mrr": 0.5416666666666666
+  },
+  {
+    "all_reports_hit": 0.3333333333333333,
+    "case_count": 6,
+    "category": "April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.16666666666666666,
+    "experiment_id": "SW01",
+    "macro_mrr": 0.13888888888888887
+  },
+  {
+    "all_reports_hit": 0.8333333333333334,
+    "case_count": 6,
+    "category": "October 2025",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.16666666666666666,
+    "experiment_id": "SW01",
+    "macro_mrr": 0.5972222222222222
+  },
+  {
+    "all_reports_hit": 0.25,
+    "case_count": 4,
+    "category": "October 2025 vs April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.125,
+    "experiment_id": "SW01",
+    "macro_mrr": 0.3541666666666667
+  },
+  {
+    "all_reports_hit": 0.16666666666666666,
+    "case_count": 6,
+    "category": "all three reports",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.1111111111111111,
+    "experiment_id": "SW01",
+    "macro_mrr": 0.26851851851851855
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "category": "unsupported",
+    "category_type": "report_pair",
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "SW01",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.5,
+    "case_count": 2,
+    "category": "chart_or_figure",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.25,
+    "experiment_id": "SW01",
+    "macro_mrr": 0.5
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 2,
+    "category": "mixed",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "SW01",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.4074074074074074,
+    "case_count": 30,
+    "category": "narrative",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.07407407407407407,
+    "evidence_recall": 0.09876543209876543,
+    "experiment_id": "SW01",
+    "macro_mrr": 0.32037037037037036
+  },
+  {
+    "all_reports_hit": 0.5,
+    "case_count": 2,
+    "category": "core_inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "SW01",
+    "macro_mrr": 0.16666666666666666
+  },
+  {
+    "all_reports_hit": 0.6,
+    "case_count": 5,
+    "category": "food_inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.2,
+    "evidence_recall": 0.26666666666666666,
+    "experiment_id": "SW01",
+    "macro_mrr": 0.4083333333333333
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 6,
+    "category": "growth",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "SW01",
+    "macro_mrr": 0.020833333333333332
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 1,
+    "category": "inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "SW01",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.5454545454545454,
+    "case_count": 14,
+    "category": "other",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.09090909090909091,
+    "evidence_recall": 0.13636363636363635,
+    "experiment_id": "SW01",
+    "macro_mrr": 0.4880952380952381
+  },
+  {
+    "all_reports_hit": 0.4,
+    "case_count": 6,
+    "category": "policy_rate",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.06666666666666667,
+    "experiment_id": "SW01",
+    "macro_mrr": 0.21296296296296294
+  },
+  {
+    "all_reports_hit": 0.3333333333333333,
+    "case_count": 12,
+    "category": "pairwise_comparison",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.125,
+    "experiment_id": "SW02",
+    "macro_mrr": 0.3819444444444444
+  },
+  {
+    "all_reports_hit": 0.5833333333333334,
+    "case_count": 12,
+    "category": "single_report",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.25,
+    "evidence_recall": 0.25,
+    "experiment_id": "SW02",
+    "macro_mrr": 0.3680555555555556
+  },
+  {
+    "all_reports_hit": 0.16666666666666666,
+    "case_count": 6,
+    "category": "trend_all_reports",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.16666666666666666,
+    "experiment_id": "SW02",
+    "macro_mrr": 0.26851851851851855
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "category": "unsupported_period",
+    "category_type": "query_type",
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "SW02",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.4,
+    "case_count": 34,
+    "category": "single_facet",
+    "category_type": "question_structure",
+    "complete_evidence_recall": 0.1,
+    "evidence_recall": 0.18333333333333332,
+    "experiment_id": "SW02",
+    "macro_mrr": 0.31209150326797386
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 4,
+    "category": "April 2025 vs April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "SW02",
+    "macro_mrr": 0.25
+  },
+  {
+    "all_reports_hit": 0.75,
+    "case_count": 4,
+    "category": "April 2025 vs October 2025",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.125,
+    "experiment_id": "SW02",
+    "macro_mrr": 0.5416666666666666
+  },
+  {
+    "all_reports_hit": 0.3333333333333333,
+    "case_count": 6,
+    "category": "April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.16666666666666666,
+    "experiment_id": "SW02",
+    "macro_mrr": 0.13888888888888887
+  },
+  {
+    "all_reports_hit": 0.8333333333333334,
+    "case_count": 6,
+    "category": "October 2025",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.3333333333333333,
+    "evidence_recall": 0.3333333333333333,
+    "experiment_id": "SW02",
+    "macro_mrr": 0.5972222222222222
+  },
+  {
+    "all_reports_hit": 0.25,
+    "case_count": 4,
+    "category": "October 2025 vs April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.25,
+    "experiment_id": "SW02",
+    "macro_mrr": 0.3541666666666667
+  },
+  {
+    "all_reports_hit": 0.16666666666666666,
+    "case_count": 6,
+    "category": "all three reports",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.16666666666666666,
+    "experiment_id": "SW02",
+    "macro_mrr": 0.26851851851851855
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "category": "unsupported",
+    "category_type": "report_pair",
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "SW02",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.5,
+    "case_count": 2,
+    "category": "chart_or_figure",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.25,
+    "experiment_id": "SW02",
+    "macro_mrr": 0.5
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 2,
+    "category": "mixed",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "SW02",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.4074074074074074,
+    "case_count": 30,
+    "category": "narrative",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.1111111111111111,
+    "evidence_recall": 0.18518518518518517,
+    "experiment_id": "SW02",
+    "macro_mrr": 0.32037037037037036
+  },
+  {
+    "all_reports_hit": 0.5,
+    "case_count": 2,
+    "category": "core_inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "SW02",
+    "macro_mrr": 0.16666666666666666
+  },
+  {
+    "all_reports_hit": 0.6,
+    "case_count": 5,
+    "category": "food_inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.4,
+    "evidence_recall": 0.6666666666666667,
+    "experiment_id": "SW02",
+    "macro_mrr": 0.4083333333333333
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 6,
+    "category": "growth",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "SW02",
+    "macro_mrr": 0.020833333333333332
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 1,
+    "category": "inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "SW02",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.5454545454545454,
+    "case_count": 14,
+    "category": "other",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.09090909090909091,
+    "evidence_recall": 0.13636363636363635,
+    "experiment_id": "SW02",
+    "macro_mrr": 0.4880952380952381
+  },
+  {
+    "all_reports_hit": 0.4,
+    "case_count": 6,
+    "category": "policy_rate",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.13333333333333333,
+    "experiment_id": "SW02",
+    "macro_mrr": 0.21296296296296294
+  },
+  {
+    "all_reports_hit": 0.3333333333333333,
+    "case_count": 12,
+    "category": "pairwise_comparison",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.08333333333333333,
+    "evidence_recall": 0.2916666666666667,
+    "experiment_id": "SW03",
+    "macro_mrr": 0.3819444444444444
+  },
+  {
+    "all_reports_hit": 0.5833333333333334,
+    "case_count": 12,
+    "category": "single_report",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.3333333333333333,
+    "evidence_recall": 0.3333333333333333,
+    "experiment_id": "SW03",
+    "macro_mrr": 0.3680555555555556
+  },
+  {
+    "all_reports_hit": 0.16666666666666666,
+    "case_count": 6,
+    "category": "trend_all_reports",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.27777777777777773,
+    "experiment_id": "SW03",
+    "macro_mrr": 0.26851851851851855
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "category": "unsupported_period",
+    "category_type": "query_type",
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "SW03",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.4,
+    "case_count": 34,
+    "category": "single_facet",
+    "category_type": "question_structure",
+    "complete_evidence_recall": 0.2,
+    "evidence_recall": 0.3055555555555555,
+    "experiment_id": "SW03",
+    "macro_mrr": 0.31209150326797386
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 4,
+    "category": "April 2025 vs April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.125,
+    "experiment_id": "SW03",
+    "macro_mrr": 0.25
+  },
+  {
+    "all_reports_hit": 0.75,
+    "case_count": 4,
+    "category": "April 2025 vs October 2025",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.25,
+    "evidence_recall": 0.5,
+    "experiment_id": "SW03",
+    "macro_mrr": 0.5416666666666666
+  },
+  {
+    "all_reports_hit": 0.3333333333333333,
+    "case_count": 6,
+    "category": "April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "SW03",
+    "macro_mrr": 0.13888888888888887
+  },
+  {
+    "all_reports_hit": 0.8333333333333334,
+    "case_count": 6,
+    "category": "October 2025",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.6666666666666666,
+    "evidence_recall": 0.6666666666666666,
+    "experiment_id": "SW03",
+    "macro_mrr": 0.5972222222222222
+  },
+  {
+    "all_reports_hit": 0.25,
+    "case_count": 4,
+    "category": "October 2025 vs April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.25,
+    "experiment_id": "SW03",
+    "macro_mrr": 0.3541666666666667
+  },
+  {
+    "all_reports_hit": 0.16666666666666666,
+    "case_count": 6,
+    "category": "all three reports",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.27777777777777773,
+    "experiment_id": "SW03",
+    "macro_mrr": 0.26851851851851855
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "category": "unsupported",
+    "category_type": "report_pair",
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "SW03",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.5,
+    "case_count": 2,
+    "category": "chart_or_figure",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.25,
+    "experiment_id": "SW03",
+    "macro_mrr": 0.5
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 2,
+    "category": "mixed",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "SW03",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.4074074074074074,
+    "case_count": 30,
+    "category": "narrative",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.2222222222222222,
+    "evidence_recall": 0.32098765432098764,
+    "experiment_id": "SW03",
+    "macro_mrr": 0.32037037037037036
+  },
+  {
+    "all_reports_hit": 0.5,
+    "case_count": 2,
+    "category": "core_inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.5,
+    "evidence_recall": 0.5,
+    "experiment_id": "SW03",
+    "macro_mrr": 0.16666666666666666
+  },
+  {
+    "all_reports_hit": 0.6,
+    "case_count": 5,
+    "category": "food_inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.4,
+    "evidence_recall": 0.5,
+    "experiment_id": "SW03",
+    "macro_mrr": 0.4083333333333333
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 6,
+    "category": "growth",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "SW03",
+    "macro_mrr": 0.020833333333333332
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 1,
+    "category": "inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "SW03",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.5454545454545454,
+    "case_count": 14,
+    "category": "other",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.18181818181818182,
+    "evidence_recall": 0.3939393939393939,
+    "experiment_id": "SW03",
+    "macro_mrr": 0.4880952380952381
+  },
+  {
+    "all_reports_hit": 0.4,
+    "case_count": 6,
+    "category": "policy_rate",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.2,
+    "evidence_recall": 0.26666666666666666,
+    "experiment_id": "SW03",
+    "macro_mrr": 0.21296296296296294
+  },
+  {
+    "all_reports_hit": 0.3333333333333333,
+    "case_count": 12,
+    "category": "pairwise_comparison",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.25,
+    "evidence_recall": 0.4583333333333333,
+    "experiment_id": "stage_a_selected_reference",
+    "macro_mrr": 0.3819444444444444
+  },
+  {
+    "all_reports_hit": 0.5833333333333334,
+    "case_count": 12,
+    "category": "single_report",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.5833333333333334,
+    "evidence_recall": 0.5833333333333334,
+    "experiment_id": "stage_a_selected_reference",
+    "macro_mrr": 0.3680555555555556
+  },
+  {
+    "all_reports_hit": 0.16666666666666666,
+    "case_count": 6,
+    "category": "trend_all_reports",
+    "category_type": "query_type",
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.4444444444444444,
+    "experiment_id": "stage_a_selected_reference",
+    "macro_mrr": 0.26851851851851855
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "category": "unsupported_period",
+    "category_type": "query_type",
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "stage_a_selected_reference",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.4,
+    "case_count": 34,
+    "category": "single_facet",
+    "category_type": "question_structure",
+    "complete_evidence_recall": 0.36666666666666664,
+    "evidence_recall": 0.5055555555555555,
+    "experiment_id": "stage_a_selected_reference",
+    "macro_mrr": 0.31209150326797386
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 4,
+    "category": "April 2025 vs April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.25,
+    "experiment_id": "stage_a_selected_reference",
+    "macro_mrr": 0.25
+  },
+  {
+    "all_reports_hit": 0.75,
+    "case_count": 4,
+    "category": "April 2025 vs October 2025",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.5,
+    "evidence_recall": 0.75,
+    "experiment_id": "stage_a_selected_reference",
+    "macro_mrr": 0.5416666666666666
+  },
+  {
+    "all_reports_hit": 0.3333333333333333,
+    "case_count": 6,
+    "category": "April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.3333333333333333,
+    "evidence_recall": 0.3333333333333333,
+    "experiment_id": "stage_a_selected_reference",
+    "macro_mrr": 0.13888888888888887
+  },
+  {
+    "all_reports_hit": 0.8333333333333334,
+    "case_count": 6,
+    "category": "October 2025",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.8333333333333334,
+    "evidence_recall": 0.8333333333333334,
+    "experiment_id": "stage_a_selected_reference",
+    "macro_mrr": 0.5972222222222222
+  },
+  {
+    "all_reports_hit": 0.25,
+    "case_count": 4,
+    "category": "October 2025 vs April 2026",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.25,
+    "evidence_recall": 0.375,
+    "experiment_id": "stage_a_selected_reference",
+    "macro_mrr": 0.3541666666666667
+  },
+  {
+    "all_reports_hit": 0.16666666666666666,
+    "case_count": 6,
+    "category": "all three reports",
+    "category_type": "report_pair",
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.4444444444444444,
+    "experiment_id": "stage_a_selected_reference",
+    "macro_mrr": 0.26851851851851855
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "category": "unsupported",
+    "category_type": "report_pair",
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "stage_a_selected_reference",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.5,
+    "case_count": 2,
+    "category": "chart_or_figure",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.5,
+    "evidence_recall": 0.5,
+    "experiment_id": "stage_a_selected_reference",
+    "macro_mrr": 0.5
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 2,
+    "category": "mixed",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "stage_a_selected_reference",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.4074074074074074,
+    "case_count": 30,
+    "category": "narrative",
+    "category_type": "source_structure",
+    "complete_evidence_recall": 0.37037037037037035,
+    "evidence_recall": 0.5246913580246914,
+    "experiment_id": "stage_a_selected_reference",
+    "macro_mrr": 0.32037037037037036
+  },
+  {
+    "all_reports_hit": 0.5,
+    "case_count": 2,
+    "category": "core_inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.5,
+    "evidence_recall": 0.5,
+    "experiment_id": "stage_a_selected_reference",
+    "macro_mrr": 0.16666666666666666
+  },
+  {
+    "all_reports_hit": 0.6,
+    "case_count": 5,
+    "category": "food_inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.6,
+    "evidence_recall": 0.7666666666666667,
+    "experiment_id": "stage_a_selected_reference",
+    "macro_mrr": 0.4083333333333333
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 6,
+    "category": "growth",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.08333333333333333,
+    "experiment_id": "stage_a_selected_reference",
+    "macro_mrr": 0.020833333333333332
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 1,
+    "category": "inflation",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.0,
+    "experiment_id": "stage_a_selected_reference",
+    "macro_mrr": 0.0
+  },
+  {
+    "all_reports_hit": 0.5454545454545454,
+    "case_count": 14,
+    "category": "other",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.45454545454545453,
+    "evidence_recall": 0.6515151515151515,
+    "experiment_id": "stage_a_selected_reference",
+    "macro_mrr": 0.4880952380952381
+  },
+  {
+    "all_reports_hit": 0.4,
+    "case_count": 6,
+    "category": "policy_rate",
+    "category_type": "topic",
+    "complete_evidence_recall": 0.4,
+    "evidence_recall": 0.5333333333333333,
+    "experiment_id": "stage_a_selected_reference",
+    "macro_mrr": 0.21296296296296294
+  }
+]

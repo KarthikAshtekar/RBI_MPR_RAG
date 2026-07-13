@@ -1,0 +1,26 @@
+report_id: rbi_mpr_2025_04
+report_period: April 2025
+report_date: '2025-04-01'
+pdf_path: mpr_april_2025.pdf
+chroma_path: indexes/chroma
+evaluation_path: data/evaluation/questions_v1.json
+output_directory: reports/current
+embedding_model: sentence-transformers/all-MiniLM-L6-v2
+reranker_model: cross-encoder/ms-marco-MiniLM-L-6-v2
+generator_model: llama-3.1-8b-instant
+judge_model: llama-3.1-8b-instant
+chunk_size: 1000
+chunk_overlap: 300
+dense_k: 15
+bm25_k: 15
+fusion_rrf_k: 60
+reranker_candidate_k: 15
+final_k: 4
+max_retries: 5
+retry_base_delay_seconds: 20.0
+retry_timeout_seconds: 120.0
+prompt_version: grounded_v1
+dataset_version: rbi_mpr_april_2025_dev_v1
+ingestion_version: v1
+temperature: 0.0
+

@@ -1,0 +1,1207 @@
+{
+  "summary": {
+    "required_report_cases": 54,
+    "dense_candidate_recall_at_15": 0.5925925925925926,
+    "bm25_candidate_recall_at_15": 0.5185185185185185,
+    "candidate_union_recall_at_15": 0.7592592592592593,
+    "rrf_candidate_recall_at_15": 0.5740740740740741,
+    "reranker_input_recall": 0.5740740740740741,
+    "reranker_top_k_recall": 0.4444444444444444,
+    "loss_stage_counts": {
+      "evidence_found": 24,
+      "lost_in_fusion": 10,
+      "lost_in_reranking": 7,
+      "not_in_candidate_union": 13
+    }
+  },
+  "rows": [
+    {
+      "question_id": "oct_dev_001",
+      "report_id": "rbi_mpr_2025_10",
+      "accepted_pages": [
+        10
+      ],
+      "expected_evidence": [
+        "food inflation turned negative in June and July 2025"
+      ],
+      "dense_evidence_found": true,
+      "dense_first_evidence_rank": 4,
+      "bm25_evidence_found": true,
+      "bm25_first_evidence_rank": 1,
+      "union_evidence_found": true,
+      "rrf_evidence_found": true,
+      "rrf_first_evidence_rank": 1,
+      "reranker_input_evidence_found": true,
+      "reranker_output_evidence_rank": 1,
+      "selected_before_dedup": true,
+      "selected_after_dedup": true,
+      "loss_stage": "evidence_found"
+    },
+    {
+      "question_id": "oct_dev_002",
+      "report_id": "rbi_mpr_2025_10",
+      "accepted_pages": [
+        10
+      ],
+      "expected_evidence": [
+        "bringing the repo rate down to 5.5 per cent"
+      ],
+      "dense_evidence_found": true,
+      "dense_first_evidence_rank": 4,
+      "bm25_evidence_found": true,
+      "bm25_first_evidence_rank": 5,
+      "union_evidence_found": true,
+      "rrf_evidence_found": true,
+      "rrf_first_evidence_rank": 6,
+      "reranker_input_evidence_found": true,
+      "reranker_output_evidence_rank": 4,
+      "selected_before_dedup": true,
+      "selected_after_dedup": true,
+      "loss_stage": "evidence_found"
+    },
+    {
+      "question_id": "oct_dev_003",
+      "report_id": "rbi_mpr_2025_10",
+      "accepted_pages": [
+        10
+      ],
+      "expected_evidence": [
+        "Core inflation ( i.e., CPI excluding food and fuel), however, largely remained steady around 4 per cent"
+      ],
+      "dense_evidence_found": true,
+      "dense_first_evidence_rank": 1,
+      "bm25_evidence_found": true,
+      "bm25_first_evidence_rank": 14,
+      "union_evidence_found": true,
+      "rrf_evidence_found": true,
+      "rrf_first_evidence_rank": 5,
+      "reranker_input_evidence_found": true,
+      "reranker_output_evidence_rank": 2,
+      "selected_before_dedup": true,
+      "selected_after_dedup": true,
+      "loss_stage": "evidence_found"
+    },
+    {
+      "question_id": "oct_dev_004",
+      "report_id": "rbi_mpr_2025_10",
+      "accepted_pages": [
+        12
+      ],
+      "expected_evidence": [
+        "US$ 70 per barrel during H2: 2025-26"
+      ],
+      "dense_evidence_found": true,
+      "dense_first_evidence_rank": 1,
+      "bm25_evidence_found": true,
+      "bm25_first_evidence_rank": 1,
+      "union_evidence_found": true,
+      "rrf_evidence_found": true,
+      "rrf_first_evidence_rank": 1,
+      "reranker_input_evidence_found": true,
+      "reranker_output_evidence_rank": 1,
+      "selected_before_dedup": true,
+      "selected_after_dedup": true,
+      "loss_stage": "evidence_found"
+    },
+    {
+      "question_id": "oct_dev_005",
+      "report_id": "rbi_mpr_2025_10",
+      "accepted_pages": [
+        12
+      ],
+      "expected_evidence": [
+        "3.0 per cent in 2025 3.1 per cent in 2026"
+      ],
+      "dense_evidence_found": false,
+      "dense_first_evidence_rank": null,
+      "bm25_evidence_found": true,
+      "bm25_first_evidence_rank": 1,
+      "union_evidence_found": true,
+      "rrf_evidence_found": true,
+      "rrf_first_evidence_rank": 5,
+      "reranker_input_evidence_found": true,
+      "reranker_output_evidence_rank": 4,
+      "selected_before_dedup": true,
+      "selected_after_dedup": true,
+      "loss_stage": "evidence_found"
+    },
+    {
+      "question_id": "oct_dev_006",
+      "report_id": "rbi_mpr_2025_10",
+      "accepted_pages": [
+        52
+      ],
+      "expected_evidence": [
+        "gross market borrowings raised by the centre stood at \u20b97.95 lakh crore"
+      ],
+      "dense_evidence_found": true,
+      "dense_first_evidence_rank": 2,
+      "bm25_evidence_found": true,
+      "bm25_first_evidence_rank": 1,
+      "union_evidence_found": true,
+      "rrf_evidence_found": true,
+      "rrf_first_evidence_rank": 1,
+      "reranker_input_evidence_found": true,
+      "reranker_output_evidence_rank": 1,
+      "selected_before_dedup": true,
+      "selected_after_dedup": true,
+      "loss_stage": "evidence_found"
+    },
+    {
+      "question_id": "apr26_dev_001",
+      "report_id": "rbi_mpr_2026_04",
+      "accepted_pages": [
+        5
+      ],
+      "expected_evidence": [
+        "food group where the waning of base effects led to a turnaround from deflation"
+      ],
+      "dense_evidence_found": true,
+      "dense_first_evidence_rank": 9,
+      "bm25_evidence_found": true,
+      "bm25_first_evidence_rank": 1,
+      "union_evidence_found": true,
+      "rrf_evidence_found": true,
+      "rrf_first_evidence_rank": 1,
+      "reranker_input_evidence_found": true,
+      "reranker_output_evidence_rank": 2,
+      "selected_before_dedup": true,
+      "selected_after_dedup": true,
+      "loss_stage": "evidence_found"
+    },
+    {
+      "question_id": "apr26_dev_002",
+      "report_id": "rbi_mpr_2026_04",
+      "accepted_pages": [
+        26
+      ],
+      "expected_evidence": [
+        "reduced the policy repo rate by 25 bps in the December meeting"
+      ],
+      "dense_evidence_found": false,
+      "dense_first_evidence_rank": null,
+      "bm25_evidence_found": true,
+      "bm25_first_evidence_rank": 9,
+      "union_evidence_found": true,
+      "rrf_evidence_found": false,
+      "rrf_first_evidence_rank": null,
+      "reranker_input_evidence_found": false,
+      "reranker_output_evidence_rank": null,
+      "selected_before_dedup": false,
+      "selected_after_dedup": false,
+      "loss_stage": "lost_in_fusion"
+    },
+    {
+      "question_id": "apr26_dev_003",
+      "report_id": "rbi_mpr_2026_04",
+      "accepted_pages": [
+        5
+      ],
+      "expected_evidence": [
+        "core inflation remained contained barring precious metals"
+      ],
+      "dense_evidence_found": true,
+      "dense_first_evidence_rank": 7,
+      "bm25_evidence_found": true,
+      "bm25_first_evidence_rank": 6,
+      "union_evidence_found": true,
+      "rrf_evidence_found": true,
+      "rrf_first_evidence_rank": 4,
+      "reranker_input_evidence_found": true,
+      "reranker_output_evidence_rank": null,
+      "selected_before_dedup": false,
+      "selected_after_dedup": false,
+      "loss_stage": "lost_in_reranking"
+    },
+    {
+      "question_id": "apr26_dev_004",
+      "report_id": "rbi_mpr_2026_04",
+      "accepted_pages": [
+        5
+      ],
+      "expected_evidence": [
+        "surge in global crude oil prices since the West Asia conflict"
+      ],
+      "dense_evidence_found": false,
+      "dense_first_evidence_rank": null,
+      "bm25_evidence_found": false,
+      "bm25_first_evidence_rank": null,
+      "union_evidence_found": false,
+      "rrf_evidence_found": false,
+      "rrf_first_evidence_rank": null,
+      "reranker_input_evidence_found": false,
+      "reranker_output_evidence_rank": null,
+      "selected_before_dedup": false,
+      "selected_after_dedup": false,
+      "loss_stage": "not_in_candidate_union"
+    },
+    {
+      "question_id": "apr26_dev_005",
+      "report_id": "rbi_mpr_2026_04",
+      "accepted_pages": [
+        5
+      ],
+      "expected_evidence": [
+        "Global growth remained resilient but below its historical average"
+      ],
+      "dense_evidence_found": false,
+      "dense_first_evidence_rank": null,
+      "bm25_evidence_found": true,
+      "bm25_first_evidence_rank": 4,
+      "union_evidence_found": true,
+      "rrf_evidence_found": true,
+      "rrf_first_evidence_rank": 9,
+      "reranker_input_evidence_found": true,
+      "reranker_output_evidence_rank": null,
+      "selected_before_dedup": false,
+      "selected_after_dedup": false,
+      "loss_stage": "lost_in_reranking"
+    },
+    {
+      "question_id": "apr26_dev_006",
+      "report_id": "rbi_mpr_2026_04",
+      "accepted_pages": [
+        64
+      ],
+      "expected_evidence": [
+        "gross market borrowings through issuance of dated securities amounted to \u20b914.61 lakh crore"
+      ],
+      "dense_evidence_found": true,
+      "dense_first_evidence_rank": 2,
+      "bm25_evidence_found": true,
+      "bm25_first_evidence_rank": 2,
+      "union_evidence_found": true,
+      "rrf_evidence_found": true,
+      "rrf_first_evidence_rank": 2,
+      "reranker_input_evidence_found": true,
+      "reranker_output_evidence_rank": 2,
+      "selected_before_dedup": true,
+      "selected_after_dedup": true,
+      "loss_stage": "evidence_found"
+    },
+    {
+      "question_id": "cmp_dev_001",
+      "report_id": "rbi_mpr_2025_04",
+      "accepted_pages": [
+        12
+      ],
+      "expected_evidence": [
+        "food inflation which remained elevated at an average of 8.5 per cent during October- December 2024, decelerated to 3.8 per cent in February 2025"
+      ],
+      "dense_evidence_found": false,
+      "dense_first_evidence_rank": null,
+      "bm25_evidence_found": true,
+      "bm25_first_evidence_rank": 6,
+      "union_evidence_found": true,
+      "rrf_evidence_found": true,
+      "rrf_first_evidence_rank": 13,
+      "reranker_input_evidence_found": true,
+      "reranker_output_evidence_rank": 2,
+      "selected_before_dedup": true,
+      "selected_after_dedup": true,
+      "loss_stage": "evidence_found"
+    },
+    {
+      "question_id": "cmp_dev_001",
+      "report_id": "rbi_mpr_2025_10",
+      "accepted_pages": [
+        10
+      ],
+      "expected_evidence": [
+        "food inflation turned negative in June and July 2025"
+      ],
+      "dense_evidence_found": true,
+      "dense_first_evidence_rank": 5,
+      "bm25_evidence_found": true,
+      "bm25_first_evidence_rank": 4,
+      "union_evidence_found": true,
+      "rrf_evidence_found": true,
+      "rrf_first_evidence_rank": 1,
+      "reranker_input_evidence_found": true,
+      "reranker_output_evidence_rank": 3,
+      "selected_before_dedup": true,
+      "selected_after_dedup": true,
+      "loss_stage": "evidence_found"
+    },
+    {
+      "question_id": "cmp_dev_002",
+      "report_id": "rbi_mpr_2025_04",
+      "accepted_pages": [
+        12
+      ],
+      "expected_evidence": [
+        "cut the policy repo rate by 25 basis points (bps) to 6.25 per cent"
+      ],
+      "dense_evidence_found": true,
+      "dense_first_evidence_rank": 7,
+      "bm25_evidence_found": true,
+      "bm25_first_evidence_rank": 2,
+      "union_evidence_found": true,
+      "rrf_evidence_found": true,
+      "rrf_first_evidence_rank": 1,
+      "reranker_input_evidence_found": true,
+      "reranker_output_evidence_rank": 1,
+      "selected_before_dedup": true,
+      "selected_after_dedup": true,
+      "loss_stage": "evidence_found"
+    },
+    {
+      "question_id": "cmp_dev_002",
+      "report_id": "rbi_mpr_2025_10",
+      "accepted_pages": [
+        10
+      ],
+      "expected_evidence": [
+        "bringing the repo rate down to 5.5 per cent"
+      ],
+      "dense_evidence_found": true,
+      "dense_first_evidence_rank": 4,
+      "bm25_evidence_found": true,
+      "bm25_first_evidence_rank": 9,
+      "union_evidence_found": true,
+      "rrf_evidence_found": true,
+      "rrf_first_evidence_rank": 1,
+      "reranker_input_evidence_found": true,
+      "reranker_output_evidence_rank": 2,
+      "selected_before_dedup": true,
+      "selected_after_dedup": true,
+      "loss_stage": "evidence_found"
+    },
+    {
+      "question_id": "cmp_dev_003",
+      "report_id": "rbi_mpr_2025_04",
+      "accepted_pages": [
+        14
+      ],
+      "expected_evidence": [
+        "US$ 70 per barrel during 2025-26"
+      ],
+      "dense_evidence_found": true,
+      "dense_first_evidence_rank": 3,
+      "bm25_evidence_found": true,
+      "bm25_first_evidence_rank": 8,
+      "union_evidence_found": true,
+      "rrf_evidence_found": true,
+      "rrf_first_evidence_rank": 1,
+      "reranker_input_evidence_found": true,
+      "reranker_output_evidence_rank": 1,
+      "selected_before_dedup": true,
+      "selected_after_dedup": true,
+      "loss_stage": "evidence_found"
+    },
+    {
+      "question_id": "cmp_dev_003",
+      "report_id": "rbi_mpr_2025_10",
+      "accepted_pages": [
+        12
+      ],
+      "expected_evidence": [
+        "US$ 70 per barrel during H2: 2025-26"
+      ],
+      "dense_evidence_found": true,
+      "dense_first_evidence_rank": 1,
+      "bm25_evidence_found": true,
+      "bm25_first_evidence_rank": 8,
+      "union_evidence_found": true,
+      "rrf_evidence_found": true,
+      "rrf_first_evidence_rank": 1,
+      "reranker_input_evidence_found": true,
+      "reranker_output_evidence_rank": 1,
+      "selected_before_dedup": true,
+      "selected_after_dedup": true,
+      "loss_stage": "evidence_found"
+    },
+    {
+      "question_id": "cmp_dev_004",
+      "report_id": "rbi_mpr_2025_04",
+      "accepted_pages": [
+        14
+      ],
+      "expected_evidence": [
+        "3.1 per cent in 2025 3.0 per cent in 2026"
+      ],
+      "dense_evidence_found": false,
+      "dense_first_evidence_rank": null,
+      "bm25_evidence_found": false,
+      "bm25_first_evidence_rank": null,
+      "union_evidence_found": false,
+      "rrf_evidence_found": false,
+      "rrf_first_evidence_rank": null,
+      "reranker_input_evidence_found": false,
+      "reranker_output_evidence_rank": null,
+      "selected_before_dedup": false,
+      "selected_after_dedup": false,
+      "loss_stage": "not_in_candidate_union"
+    },
+    {
+      "question_id": "cmp_dev_004",
+      "report_id": "rbi_mpr_2025_10",
+      "accepted_pages": [
+        12
+      ],
+      "expected_evidence": [
+        "3.0 per cent in 2025 3.1 per cent in 2026"
+      ],
+      "dense_evidence_found": false,
+      "dense_first_evidence_rank": null,
+      "bm25_evidence_found": true,
+      "bm25_first_evidence_rank": 12,
+      "union_evidence_found": true,
+      "rrf_evidence_found": false,
+      "rrf_first_evidence_rank": null,
+      "reranker_input_evidence_found": false,
+      "reranker_output_evidence_rank": null,
+      "selected_before_dedup": false,
+      "selected_after_dedup": false,
+      "loss_stage": "lost_in_fusion"
+    },
+    {
+      "question_id": "cmp_dev_005",
+      "report_id": "rbi_mpr_2025_10",
+      "accepted_pages": [
+        10
+      ],
+      "expected_evidence": [
+        "food inflation turned negative in June and July 2025"
+      ],
+      "dense_evidence_found": true,
+      "dense_first_evidence_rank": 4,
+      "bm25_evidence_found": true,
+      "bm25_first_evidence_rank": 3,
+      "union_evidence_found": true,
+      "rrf_evidence_found": true,
+      "rrf_first_evidence_rank": 1,
+      "reranker_input_evidence_found": true,
+      "reranker_output_evidence_rank": 2,
+      "selected_before_dedup": true,
+      "selected_after_dedup": true,
+      "loss_stage": "evidence_found"
+    },
+    {
+      "question_id": "cmp_dev_005",
+      "report_id": "rbi_mpr_2026_04",
+      "accepted_pages": [
+        5
+      ],
+      "expected_evidence": [
+        "food group where the waning of base effects led to a turnaround from deflation"
+      ],
+      "dense_evidence_found": false,
+      "dense_first_evidence_rank": null,
+      "bm25_evidence_found": true,
+      "bm25_first_evidence_rank": 9,
+      "union_evidence_found": true,
+      "rrf_evidence_found": false,
+      "rrf_first_evidence_rank": null,
+      "reranker_input_evidence_found": false,
+      "reranker_output_evidence_rank": null,
+      "selected_before_dedup": false,
+      "selected_after_dedup": false,
+      "loss_stage": "lost_in_fusion"
+    },
+    {
+      "question_id": "cmp_dev_006",
+      "report_id": "rbi_mpr_2025_10",
+      "accepted_pages": [
+        10
+      ],
+      "expected_evidence": [
+        "bringing the repo rate down to 5.5 per cent"
+      ],
+      "dense_evidence_found": true,
+      "dense_first_evidence_rank": 1,
+      "bm25_evidence_found": true,
+      "bm25_first_evidence_rank": 9,
+      "union_evidence_found": true,
+      "rrf_evidence_found": true,
+      "rrf_first_evidence_rank": 2,
+      "reranker_input_evidence_found": true,
+      "reranker_output_evidence_rank": 2,
+      "selected_before_dedup": true,
+      "selected_after_dedup": true,
+      "loss_stage": "evidence_found"
+    },
+    {
+      "question_id": "cmp_dev_006",
+      "report_id": "rbi_mpr_2026_04",
+      "accepted_pages": [
+        26
+      ],
+      "expected_evidence": [
+        "reduced the policy repo rate by 25 bps in the December meeting"
+      ],
+      "dense_evidence_found": false,
+      "dense_first_evidence_rank": null,
+      "bm25_evidence_found": false,
+      "bm25_first_evidence_rank": null,
+      "union_evidence_found": false,
+      "rrf_evidence_found": false,
+      "rrf_first_evidence_rank": null,
+      "reranker_input_evidence_found": false,
+      "reranker_output_evidence_rank": null,
+      "selected_before_dedup": false,
+      "selected_after_dedup": false,
+      "loss_stage": "not_in_candidate_union"
+    },
+    {
+      "question_id": "cmp_dev_007",
+      "report_id": "rbi_mpr_2025_10",
+      "accepted_pages": [
+        12
+      ],
+      "expected_evidence": [
+        "3.0 per cent in 2025 3.1 per cent in 2026"
+      ],
+      "dense_evidence_found": false,
+      "dense_first_evidence_rank": null,
+      "bm25_evidence_found": true,
+      "bm25_first_evidence_rank": 7,
+      "union_evidence_found": true,
+      "rrf_evidence_found": true,
+      "rrf_first_evidence_rank": 11,
+      "reranker_input_evidence_found": true,
+      "reranker_output_evidence_rank": null,
+      "selected_before_dedup": false,
+      "selected_after_dedup": false,
+      "loss_stage": "lost_in_reranking"
+    },
+    {
+      "question_id": "cmp_dev_007",
+      "report_id": "rbi_mpr_2026_04",
+      "accepted_pages": [
+        5
+      ],
+      "expected_evidence": [
+        "Global growth remained resilient but below its historical average"
+      ],
+      "dense_evidence_found": false,
+      "dense_first_evidence_rank": null,
+      "bm25_evidence_found": true,
+      "bm25_first_evidence_rank": 9,
+      "union_evidence_found": true,
+      "rrf_evidence_found": false,
+      "rrf_first_evidence_rank": null,
+      "reranker_input_evidence_found": false,
+      "reranker_output_evidence_rank": null,
+      "selected_before_dedup": false,
+      "selected_after_dedup": false,
+      "loss_stage": "lost_in_fusion"
+    },
+    {
+      "question_id": "cmp_dev_008",
+      "report_id": "rbi_mpr_2025_10",
+      "accepted_pages": [
+        52
+      ],
+      "expected_evidence": [
+        "gross market borrowings raised by the centre stood at \u20b97.95 lakh crore"
+      ],
+      "dense_evidence_found": true,
+      "dense_first_evidence_rank": 1,
+      "bm25_evidence_found": false,
+      "bm25_first_evidence_rank": null,
+      "union_evidence_found": true,
+      "rrf_evidence_found": true,
+      "rrf_first_evidence_rank": 2,
+      "reranker_input_evidence_found": true,
+      "reranker_output_evidence_rank": 1,
+      "selected_before_dedup": true,
+      "selected_after_dedup": true,
+      "loss_stage": "evidence_found"
+    },
+    {
+      "question_id": "cmp_dev_008",
+      "report_id": "rbi_mpr_2026_04",
+      "accepted_pages": [
+        64
+      ],
+      "expected_evidence": [
+        "gross market borrowings through issuance of dated securities amounted to \u20b914.61 lakh crore"
+      ],
+      "dense_evidence_found": true,
+      "dense_first_evidence_rank": 10,
+      "bm25_evidence_found": false,
+      "bm25_first_evidence_rank": null,
+      "union_evidence_found": true,
+      "rrf_evidence_found": false,
+      "rrf_first_evidence_rank": null,
+      "reranker_input_evidence_found": false,
+      "reranker_output_evidence_rank": null,
+      "selected_before_dedup": false,
+      "selected_after_dedup": false,
+      "loss_stage": "lost_in_fusion"
+    },
+    {
+      "question_id": "cmp_dev_009",
+      "report_id": "rbi_mpr_2025_04",
+      "accepted_pages": [
+        13
+      ],
+      "expected_evidence": [
+        "Real GDP growth for 2025-26 was projected at 6.7 per cent"
+      ],
+      "dense_evidence_found": false,
+      "dense_first_evidence_rank": null,
+      "bm25_evidence_found": false,
+      "bm25_first_evidence_rank": null,
+      "union_evidence_found": false,
+      "rrf_evidence_found": false,
+      "rrf_first_evidence_rank": null,
+      "reranker_input_evidence_found": false,
+      "reranker_output_evidence_rank": null,
+      "selected_before_dedup": false,
+      "selected_after_dedup": false,
+      "loss_stage": "not_in_candidate_union"
+    },
+    {
+      "question_id": "cmp_dev_009",
+      "report_id": "rbi_mpr_2026_04",
+      "accepted_pages": [
+        101
+      ],
+      "expected_evidence": [
+        "real GDP growth for 2025\u201326 is estimated at 7.6 per cent"
+      ],
+      "dense_evidence_found": false,
+      "dense_first_evidence_rank": null,
+      "bm25_evidence_found": false,
+      "bm25_first_evidence_rank": null,
+      "union_evidence_found": false,
+      "rrf_evidence_found": false,
+      "rrf_first_evidence_rank": null,
+      "reranker_input_evidence_found": false,
+      "reranker_output_evidence_rank": null,
+      "selected_before_dedup": false,
+      "selected_after_dedup": false,
+      "loss_stage": "not_in_candidate_union"
+    },
+    {
+      "question_id": "cmp_dev_010",
+      "report_id": "rbi_mpr_2025_04",
+      "accepted_pages": [
+        13
+      ],
+      "expected_evidence": [
+        "CPI inflation for 2025- 26 is projected at 4.2 per cent"
+      ],
+      "dense_evidence_found": false,
+      "dense_first_evidence_rank": null,
+      "bm25_evidence_found": false,
+      "bm25_first_evidence_rank": null,
+      "union_evidence_found": false,
+      "rrf_evidence_found": false,
+      "rrf_first_evidence_rank": null,
+      "reranker_input_evidence_found": false,
+      "reranker_output_evidence_rank": null,
+      "selected_before_dedup": false,
+      "selected_after_dedup": false,
+      "loss_stage": "not_in_candidate_union"
+    },
+    {
+      "question_id": "cmp_dev_010",
+      "report_id": "rbi_mpr_2026_04",
+      "accepted_pages": [
+        103
+      ],
+      "expected_evidence": [
+        "CPI inflation for 2025-26 was revised slightly upwards to 2.1 per cent"
+      ],
+      "dense_evidence_found": true,
+      "dense_first_evidence_rank": 15,
+      "bm25_evidence_found": false,
+      "bm25_first_evidence_rank": null,
+      "union_evidence_found": true,
+      "rrf_evidence_found": false,
+      "rrf_first_evidence_rank": null,
+      "reranker_input_evidence_found": false,
+      "reranker_output_evidence_rank": null,
+      "selected_before_dedup": false,
+      "selected_after_dedup": false,
+      "loss_stage": "lost_in_fusion"
+    },
+    {
+      "question_id": "cmp_dev_011",
+      "report_id": "rbi_mpr_2025_04",
+      "accepted_pages": [
+        14
+      ],
+      "expected_evidence": [
+        "US$ 70 per barrel during 2025-26"
+      ],
+      "dense_evidence_found": true,
+      "dense_first_evidence_rank": 2,
+      "bm25_evidence_found": false,
+      "bm25_first_evidence_rank": null,
+      "union_evidence_found": true,
+      "rrf_evidence_found": true,
+      "rrf_first_evidence_rank": 4,
+      "reranker_input_evidence_found": true,
+      "reranker_output_evidence_rank": 1,
+      "selected_before_dedup": true,
+      "selected_after_dedup": true,
+      "loss_stage": "evidence_found"
+    },
+    {
+      "question_id": "cmp_dev_011",
+      "report_id": "rbi_mpr_2026_04",
+      "accepted_pages": [
+        5
+      ],
+      "expected_evidence": [
+        "surge in global crude oil prices since the West Asia conflict"
+      ],
+      "dense_evidence_found": false,
+      "dense_first_evidence_rank": null,
+      "bm25_evidence_found": true,
+      "bm25_first_evidence_rank": 15,
+      "union_evidence_found": true,
+      "rrf_evidence_found": false,
+      "rrf_first_evidence_rank": null,
+      "reranker_input_evidence_found": false,
+      "reranker_output_evidence_rank": null,
+      "selected_before_dedup": false,
+      "selected_after_dedup": false,
+      "loss_stage": "lost_in_fusion"
+    },
+    {
+      "question_id": "cmp_dev_012",
+      "report_id": "rbi_mpr_2025_04",
+      "accepted_pages": [
+        57
+      ],
+      "expected_evidence": [
+        "gross market borrowings amounted to \u20b914.01 lakh crore"
+      ],
+      "dense_evidence_found": true,
+      "dense_first_evidence_rank": 5,
+      "bm25_evidence_found": false,
+      "bm25_first_evidence_rank": null,
+      "union_evidence_found": true,
+      "rrf_evidence_found": true,
+      "rrf_first_evidence_rank": 9,
+      "reranker_input_evidence_found": true,
+      "reranker_output_evidence_rank": null,
+      "selected_before_dedup": false,
+      "selected_after_dedup": false,
+      "loss_stage": "lost_in_reranking"
+    },
+    {
+      "question_id": "cmp_dev_012",
+      "report_id": "rbi_mpr_2026_04",
+      "accepted_pages": [
+        64
+      ],
+      "expected_evidence": [
+        "gross market borrowings through issuance of dated securities amounted to \u20b914.61 lakh crore"
+      ],
+      "dense_evidence_found": true,
+      "dense_first_evidence_rank": 1,
+      "bm25_evidence_found": false,
+      "bm25_first_evidence_rank": null,
+      "union_evidence_found": true,
+      "rrf_evidence_found": true,
+      "rrf_first_evidence_rank": 4,
+      "reranker_input_evidence_found": true,
+      "reranker_output_evidence_rank": 1,
+      "selected_before_dedup": true,
+      "selected_after_dedup": true,
+      "loss_stage": "evidence_found"
+    },
+    {
+      "question_id": "trend_dev_001",
+      "report_id": "rbi_mpr_2025_04",
+      "accepted_pages": [
+        12
+      ],
+      "expected_evidence": [
+        "food inflation which remained elevated at an average of 8.5 per cent during October- December 2024, decelerated to 3.8 per cent in February 2025"
+      ],
+      "dense_evidence_found": false,
+      "dense_first_evidence_rank": null,
+      "bm25_evidence_found": false,
+      "bm25_first_evidence_rank": null,
+      "union_evidence_found": false,
+      "rrf_evidence_found": false,
+      "rrf_first_evidence_rank": null,
+      "reranker_input_evidence_found": false,
+      "reranker_output_evidence_rank": null,
+      "selected_before_dedup": false,
+      "selected_after_dedup": false,
+      "loss_stage": "not_in_candidate_union"
+    },
+    {
+      "question_id": "trend_dev_001",
+      "report_id": "rbi_mpr_2025_10",
+      "accepted_pages": [
+        10
+      ],
+      "expected_evidence": [
+        "food inflation turned negative in June and July 2025"
+      ],
+      "dense_evidence_found": true,
+      "dense_first_evidence_rank": 15,
+      "bm25_evidence_found": false,
+      "bm25_first_evidence_rank": null,
+      "union_evidence_found": true,
+      "rrf_evidence_found": false,
+      "rrf_first_evidence_rank": null,
+      "reranker_input_evidence_found": false,
+      "reranker_output_evidence_rank": null,
+      "selected_before_dedup": false,
+      "selected_after_dedup": false,
+      "loss_stage": "lost_in_fusion"
+    },
+    {
+      "question_id": "trend_dev_001",
+      "report_id": "rbi_mpr_2026_04",
+      "accepted_pages": [
+        5
+      ],
+      "expected_evidence": [
+        "food group where the waning of base effects led to a turnaround from deflation"
+      ],
+      "dense_evidence_found": true,
+      "dense_first_evidence_rank": 10,
+      "bm25_evidence_found": false,
+      "bm25_first_evidence_rank": null,
+      "union_evidence_found": true,
+      "rrf_evidence_found": false,
+      "rrf_first_evidence_rank": null,
+      "reranker_input_evidence_found": false,
+      "reranker_output_evidence_rank": null,
+      "selected_before_dedup": false,
+      "selected_after_dedup": false,
+      "loss_stage": "lost_in_fusion"
+    },
+    {
+      "question_id": "trend_dev_002",
+      "report_id": "rbi_mpr_2025_04",
+      "accepted_pages": [
+        12
+      ],
+      "expected_evidence": [
+        "cut the policy repo rate by 25 basis points (bps) to 6.25 per cent"
+      ],
+      "dense_evidence_found": false,
+      "dense_first_evidence_rank": null,
+      "bm25_evidence_found": false,
+      "bm25_first_evidence_rank": null,
+      "union_evidence_found": false,
+      "rrf_evidence_found": false,
+      "rrf_first_evidence_rank": null,
+      "reranker_input_evidence_found": false,
+      "reranker_output_evidence_rank": null,
+      "selected_before_dedup": false,
+      "selected_after_dedup": false,
+      "loss_stage": "not_in_candidate_union"
+    },
+    {
+      "question_id": "trend_dev_002",
+      "report_id": "rbi_mpr_2025_10",
+      "accepted_pages": [
+        10
+      ],
+      "expected_evidence": [
+        "bringing the repo rate down to 5.5 per cent"
+      ],
+      "dense_evidence_found": false,
+      "dense_first_evidence_rank": null,
+      "bm25_evidence_found": false,
+      "bm25_first_evidence_rank": null,
+      "union_evidence_found": false,
+      "rrf_evidence_found": false,
+      "rrf_first_evidence_rank": null,
+      "reranker_input_evidence_found": false,
+      "reranker_output_evidence_rank": null,
+      "selected_before_dedup": false,
+      "selected_after_dedup": false,
+      "loss_stage": "not_in_candidate_union"
+    },
+    {
+      "question_id": "trend_dev_002",
+      "report_id": "rbi_mpr_2026_04",
+      "accepted_pages": [
+        26
+      ],
+      "expected_evidence": [
+        "reduced the policy repo rate by 25 bps in the December meeting"
+      ],
+      "dense_evidence_found": false,
+      "dense_first_evidence_rank": null,
+      "bm25_evidence_found": false,
+      "bm25_first_evidence_rank": null,
+      "union_evidence_found": false,
+      "rrf_evidence_found": false,
+      "rrf_first_evidence_rank": null,
+      "reranker_input_evidence_found": false,
+      "reranker_output_evidence_rank": null,
+      "selected_before_dedup": false,
+      "selected_after_dedup": false,
+      "loss_stage": "not_in_candidate_union"
+    },
+    {
+      "question_id": "trend_dev_003",
+      "report_id": "rbi_mpr_2025_04",
+      "accepted_pages": [
+        14
+      ],
+      "expected_evidence": [
+        "US$ 70 per barrel during 2025-26"
+      ],
+      "dense_evidence_found": true,
+      "dense_first_evidence_rank": 1,
+      "bm25_evidence_found": false,
+      "bm25_first_evidence_rank": null,
+      "union_evidence_found": true,
+      "rrf_evidence_found": true,
+      "rrf_first_evidence_rank": 2,
+      "reranker_input_evidence_found": true,
+      "reranker_output_evidence_rank": 2,
+      "selected_before_dedup": true,
+      "selected_after_dedup": true,
+      "loss_stage": "evidence_found"
+    },
+    {
+      "question_id": "trend_dev_003",
+      "report_id": "rbi_mpr_2025_10",
+      "accepted_pages": [
+        12
+      ],
+      "expected_evidence": [
+        "US$ 70 per barrel during H2: 2025-26"
+      ],
+      "dense_evidence_found": true,
+      "dense_first_evidence_rank": 1,
+      "bm25_evidence_found": false,
+      "bm25_first_evidence_rank": null,
+      "union_evidence_found": true,
+      "rrf_evidence_found": true,
+      "rrf_first_evidence_rank": 2,
+      "reranker_input_evidence_found": true,
+      "reranker_output_evidence_rank": 2,
+      "selected_before_dedup": true,
+      "selected_after_dedup": true,
+      "loss_stage": "evidence_found"
+    },
+    {
+      "question_id": "trend_dev_003",
+      "report_id": "rbi_mpr_2026_04",
+      "accepted_pages": [
+        5
+      ],
+      "expected_evidence": [
+        "surge in global crude oil prices since the West Asia conflict"
+      ],
+      "dense_evidence_found": true,
+      "dense_first_evidence_rank": 15,
+      "bm25_evidence_found": false,
+      "bm25_first_evidence_rank": null,
+      "union_evidence_found": true,
+      "rrf_evidence_found": false,
+      "rrf_first_evidence_rank": null,
+      "reranker_input_evidence_found": false,
+      "reranker_output_evidence_rank": null,
+      "selected_before_dedup": false,
+      "selected_after_dedup": false,
+      "loss_stage": "lost_in_fusion"
+    },
+    {
+      "question_id": "trend_dev_004",
+      "report_id": "rbi_mpr_2025_04",
+      "accepted_pages": [
+        14
+      ],
+      "expected_evidence": [
+        "3.1 per cent in 2025 3.0 per cent in 2026"
+      ],
+      "dense_evidence_found": false,
+      "dense_first_evidence_rank": null,
+      "bm25_evidence_found": false,
+      "bm25_first_evidence_rank": null,
+      "union_evidence_found": false,
+      "rrf_evidence_found": false,
+      "rrf_first_evidence_rank": null,
+      "reranker_input_evidence_found": false,
+      "reranker_output_evidence_rank": null,
+      "selected_before_dedup": false,
+      "selected_after_dedup": false,
+      "loss_stage": "not_in_candidate_union"
+    },
+    {
+      "question_id": "trend_dev_004",
+      "report_id": "rbi_mpr_2025_10",
+      "accepted_pages": [
+        12
+      ],
+      "expected_evidence": [
+        "3.0 per cent in 2025 3.1 per cent in 2026"
+      ],
+      "dense_evidence_found": false,
+      "dense_first_evidence_rank": null,
+      "bm25_evidence_found": false,
+      "bm25_first_evidence_rank": null,
+      "union_evidence_found": false,
+      "rrf_evidence_found": false,
+      "rrf_first_evidence_rank": null,
+      "reranker_input_evidence_found": false,
+      "reranker_output_evidence_rank": null,
+      "selected_before_dedup": false,
+      "selected_after_dedup": false,
+      "loss_stage": "not_in_candidate_union"
+    },
+    {
+      "question_id": "trend_dev_004",
+      "report_id": "rbi_mpr_2026_04",
+      "accepted_pages": [
+        5
+      ],
+      "expected_evidence": [
+        "Global growth remained resilient but below its historical average"
+      ],
+      "dense_evidence_found": false,
+      "dense_first_evidence_rank": null,
+      "bm25_evidence_found": false,
+      "bm25_first_evidence_rank": null,
+      "union_evidence_found": false,
+      "rrf_evidence_found": false,
+      "rrf_first_evidence_rank": null,
+      "reranker_input_evidence_found": false,
+      "reranker_output_evidence_rank": null,
+      "selected_before_dedup": false,
+      "selected_after_dedup": false,
+      "loss_stage": "not_in_candidate_union"
+    },
+    {
+      "question_id": "trend_dev_005",
+      "report_id": "rbi_mpr_2025_04",
+      "accepted_pages": [
+        57
+      ],
+      "expected_evidence": [
+        "gross market borrowings amounted to \u20b914.01 lakh crore"
+      ],
+      "dense_evidence_found": true,
+      "dense_first_evidence_rank": 4,
+      "bm25_evidence_found": true,
+      "bm25_first_evidence_rank": 5,
+      "union_evidence_found": true,
+      "rrf_evidence_found": true,
+      "rrf_first_evidence_rank": 1,
+      "reranker_input_evidence_found": true,
+      "reranker_output_evidence_rank": null,
+      "selected_before_dedup": false,
+      "selected_after_dedup": false,
+      "loss_stage": "lost_in_reranking"
+    },
+    {
+      "question_id": "trend_dev_005",
+      "report_id": "rbi_mpr_2025_10",
+      "accepted_pages": [
+        52
+      ],
+      "expected_evidence": [
+        "gross market borrowings raised by the centre stood at \u20b97.95 lakh crore"
+      ],
+      "dense_evidence_found": true,
+      "dense_first_evidence_rank": 3,
+      "bm25_evidence_found": false,
+      "bm25_first_evidence_rank": null,
+      "union_evidence_found": true,
+      "rrf_evidence_found": true,
+      "rrf_first_evidence_rank": 6,
+      "reranker_input_evidence_found": true,
+      "reranker_output_evidence_rank": 1,
+      "selected_before_dedup": true,
+      "selected_after_dedup": true,
+      "loss_stage": "evidence_found"
+    },
+    {
+      "question_id": "trend_dev_005",
+      "report_id": "rbi_mpr_2026_04",
+      "accepted_pages": [
+        64
+      ],
+      "expected_evidence": [
+        "gross market borrowings through issuance of dated securities amounted to \u20b914.61 lakh crore"
+      ],
+      "dense_evidence_found": true,
+      "dense_first_evidence_rank": 1,
+      "bm25_evidence_found": false,
+      "bm25_first_evidence_rank": null,
+      "union_evidence_found": true,
+      "rrf_evidence_found": true,
+      "rrf_first_evidence_rank": 4,
+      "reranker_input_evidence_found": true,
+      "reranker_output_evidence_rank": 2,
+      "selected_before_dedup": true,
+      "selected_after_dedup": true,
+      "loss_stage": "evidence_found"
+    },
+    {
+      "question_id": "trend_dev_006",
+      "report_id": "rbi_mpr_2025_04",
+      "accepted_pages": [
+        13
+      ],
+      "expected_evidence": [
+        "continue with the neutral stance"
+      ],
+      "dense_evidence_found": true,
+      "dense_first_evidence_rank": 3,
+      "bm25_evidence_found": true,
+      "bm25_first_evidence_rank": 1,
+      "union_evidence_found": true,
+      "rrf_evidence_found": true,
+      "rrf_first_evidence_rank": 1,
+      "reranker_input_evidence_found": true,
+      "reranker_output_evidence_rank": 2,
+      "selected_before_dedup": true,
+      "selected_after_dedup": true,
+      "loss_stage": "evidence_found"
+    },
+    {
+      "question_id": "trend_dev_006",
+      "report_id": "rbi_mpr_2025_10",
+      "accepted_pages": [
+        11
+      ],
+      "expected_evidence": [
+        "keep the repo rate unchanged at 5.5 per cent and to maintain the neutral stance"
+      ],
+      "dense_evidence_found": true,
+      "dense_first_evidence_rank": 2,
+      "bm25_evidence_found": true,
+      "bm25_first_evidence_rank": 5,
+      "union_evidence_found": true,
+      "rrf_evidence_found": true,
+      "rrf_first_evidence_rank": 2,
+      "reranker_input_evidence_found": true,
+      "reranker_output_evidence_rank": null,
+      "selected_before_dedup": false,
+      "selected_after_dedup": false,
+      "loss_stage": "lost_in_reranking"
+    },
+    {
+      "question_id": "trend_dev_006",
+      "report_id": "rbi_mpr_2026_04",
+      "accepted_pages": [
+        26
+      ],
+      "expected_evidence": [
+        "maintain the neutral stance adopted in June 2025"
+      ],
+      "dense_evidence_found": true,
+      "dense_first_evidence_rank": 5,
+      "bm25_evidence_found": true,
+      "bm25_first_evidence_rank": 1,
+      "union_evidence_found": true,
+      "rrf_evidence_found": true,
+      "rrf_first_evidence_rank": 1,
+      "reranker_input_evidence_found": true,
+      "reranker_output_evidence_rank": null,
+      "selected_before_dedup": false,
+      "selected_after_dedup": false,
+      "loss_stage": "lost_in_reranking"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-07-12T23:07:41.479142+00:00",
+  "files": {
+    "dev": {
+      "path": "data/evaluation/multi_report_dev.jsonl",
+      "sha256": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
+      "case_count": 43
+    },
+    "test": {
+      "path": "data/evaluation/multi_report_test.jsonl",
+      "sha256": "183b7b3187cd7e53df343e0461e46311192a9ffc0bfdf49a2bc32ad64488af99",
+      "case_count": 15
+    }
+  },
+  "split_counts": {
+    "dev": 43,
+    "test": 15
+  },
+  "verified_scored_counts": {
+    "dev": 34,
+    "test": 15
+  },
+  "query_type_counts": {
+    "dev": {
+      "pairwise_comparison": 12,
+      "single_report": 21,
+      "trend_all_reports": 6,
+      "unsupported_period": 4
+    },
+    "test": {
+      "pairwise_comparison": 5,
+      "single_report": 6,
+      "trend_all_reports": 2,
+      "unsupported_period": 2
+    }
+  },
+  "category_counts": {
+    "dev": {
+      "commodity_assumptions": 5,
+      "core_inflation": 2,
+      "fiscal_borrowing": 5,
+      "food_inflation": 5,
+      "global_growth": 5,
+      "growth": 2,
+      "growth_outlook": 1,
+      "inflation": 5,
+      "inflation_outlook": 1,
+      "monetary_policy": 8,
+      "unsupported": 4
+    },
+    "test": {
+      "commodity_assumptions": 1,
+      "core_inflation": 1,
+      "fiscal_borrowing": 1,
+      "food_inflation": 1,
+      "global_growth": 2,
+      "growth_outlook": 2,
+      "inflation_outlook": 2,
+      "monetary_policy": 3,
+      "unsupported": 2
+    }
+  },
+  "report_checksums": {
+    "rbi_mpr_2025_04": "6b505611e2232e6c8ce9af07018dc9ddba9f46d3efdf3f6ac3a2d22ef9b74752",
+    "rbi_mpr_2025_10": "4d7a955dd8bbb74fbd85b3c9e3085776dc7fbb4cbc70da2947352a0112b6022b",
+    "rbi_mpr_2026_04": "dbcdb6edc969f198a67044c5eb4297b13c9ad3f691928e9e0661ec751cfce32c"
+  },
+  "verification_policy": "Every factual excerpt is normalized and matched exactly against the cited local PDF page before dataset emission.",
+  "test_freeze_policy": "Held-out cases are not used for tuning, prompt development, or retrieval debugging.",
+  "known_limitations": [
+    "PyPDFLoader flattens tables and charts.",
+    "The nine inherited April cases use the earlier schema and manually verified pages."
+  ]
+}

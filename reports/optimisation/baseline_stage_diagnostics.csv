@@ -1,0 +1,55 @@
+question_id,report_id,accepted_pages,expected_evidence,dense_evidence_found,dense_first_evidence_rank,bm25_evidence_found,bm25_first_evidence_rank,union_evidence_found,rrf_evidence_found,rrf_first_evidence_rank,reranker_input_evidence_found,reranker_output_evidence_rank,selected_before_dedup,selected_after_dedup,loss_stage
+oct_dev_001,rbi_mpr_2025_10,[10],['food inflation turned negative in June and July 2025'],True,4,True,1,True,True,1,True,1,True,True,evidence_found
+oct_dev_002,rbi_mpr_2025_10,[10],['bringing the repo rate down to 5.5 per cent'],True,4,True,5,True,True,6,True,4,True,True,evidence_found
+oct_dev_003,rbi_mpr_2025_10,[10],"['Core inflation ( i.e., CPI excluding food and fuel), however, largely remained steady around 4 per cent']",True,1,True,14,True,True,5,True,2,True,True,evidence_found
+oct_dev_004,rbi_mpr_2025_10,[12],['US$ 70 per barrel during H2: 2025-26'],True,1,True,1,True,True,1,True,1,True,True,evidence_found
+oct_dev_005,rbi_mpr_2025_10,[12],['3.0 per cent in 2025 3.1 per cent in 2026'],False,,True,1,True,True,5,True,4,True,True,evidence_found
+oct_dev_006,rbi_mpr_2025_10,[52],['gross market borrowings raised by the centre stood at ₹7.95 lakh crore'],True,2,True,1,True,True,1,True,1,True,True,evidence_found
+apr26_dev_001,rbi_mpr_2026_04,[5],['food group where the waning of base effects led to a turnaround from deflation'],True,9,True,1,True,True,1,True,2,True,True,evidence_found
+apr26_dev_002,rbi_mpr_2026_04,[26],['reduced the policy repo rate by 25 bps in the December meeting'],False,,True,9,True,False,,False,,False,False,lost_in_fusion
+apr26_dev_003,rbi_mpr_2026_04,[5],['core inflation remained contained barring precious metals'],True,7,True,6,True,True,4,True,,False,False,lost_in_reranking
+apr26_dev_004,rbi_mpr_2026_04,[5],['surge in global crude oil prices since the West Asia conflict'],False,,False,,False,False,,False,,False,False,not_in_candidate_union
+apr26_dev_005,rbi_mpr_2026_04,[5],['Global growth remained resilient but below its historical average'],False,,True,4,True,True,9,True,,False,False,lost_in_reranking
+apr26_dev_006,rbi_mpr_2026_04,[64],['gross market borrowings through issuance of dated securities amounted to ₹14.61 lakh crore'],True,2,True,2,True,True,2,True,2,True,True,evidence_found
+cmp_dev_001,rbi_mpr_2025_04,[12],"['food inflation which remained elevated at an average of 8.5 per cent during October- December 2024, decelerated to 3.8 per cent in February 2025']",False,,True,6,True,True,13,True,2,True,True,evidence_found
+cmp_dev_001,rbi_mpr_2025_10,[10],['food inflation turned negative in June and July 2025'],True,5,True,4,True,True,1,True,3,True,True,evidence_found
+cmp_dev_002,rbi_mpr_2025_04,[12],['cut the policy repo rate by 25 basis points (bps) to 6.25 per cent'],True,7,True,2,True,True,1,True,1,True,True,evidence_found
+cmp_dev_002,rbi_mpr_2025_10,[10],['bringing the repo rate down to 5.5 per cent'],True,4,True,9,True,True,1,True,2,True,True,evidence_found
+cmp_dev_003,rbi_mpr_2025_04,[14],['US$ 70 per barrel during 2025-26'],True,3,True,8,True,True,1,True,1,True,True,evidence_found
+cmp_dev_003,rbi_mpr_2025_10,[12],['US$ 70 per barrel during H2: 2025-26'],True,1,True,8,True,True,1,True,1,True,True,evidence_found
+cmp_dev_004,rbi_mpr_2025_04,[14],['3.1 per cent in 2025 3.0 per cent in 2026'],False,,False,,False,False,,False,,False,False,not_in_candidate_union
+cmp_dev_004,rbi_mpr_2025_10,[12],['3.0 per cent in 2025 3.1 per cent in 2026'],False,,True,12,True,False,,False,,False,False,lost_in_fusion
+cmp_dev_005,rbi_mpr_2025_10,[10],['food inflation turned negative in June and July 2025'],True,4,True,3,True,True,1,True,2,True,True,evidence_found
+cmp_dev_005,rbi_mpr_2026_04,[5],['food group where the waning of base effects led to a turnaround from deflation'],False,,True,9,True,False,,False,,False,False,lost_in_fusion
+cmp_dev_006,rbi_mpr_2025_10,[10],['bringing the repo rate down to 5.5 per cent'],True,1,True,9,True,True,2,True,2,True,True,evidence_found
+cmp_dev_006,rbi_mpr_2026_04,[26],['reduced the policy repo rate by 25 bps in the December meeting'],False,,False,,False,False,,False,,False,False,not_in_candidate_union
+cmp_dev_007,rbi_mpr_2025_10,[12],['3.0 per cent in 2025 3.1 per cent in 2026'],False,,True,7,True,True,11,True,,False,False,lost_in_reranking
+cmp_dev_007,rbi_mpr_2026_04,[5],['Global growth remained resilient but below its historical average'],False,,True,9,True,False,,False,,False,False,lost_in_fusion
+cmp_dev_008,rbi_mpr_2025_10,[52],['gross market borrowings raised by the centre stood at ₹7.95 lakh crore'],True,1,False,,True,True,2,True,1,True,True,evidence_found
+cmp_dev_008,rbi_mpr_2026_04,[64],['gross market borrowings through issuance of dated securities amounted to ₹14.61 lakh crore'],True,10,False,,True,False,,False,,False,False,lost_in_fusion
+cmp_dev_009,rbi_mpr_2025_04,[13],['Real GDP growth for 2025-26 was projected at 6.7 per cent'],False,,False,,False,False,,False,,False,False,not_in_candidate_union
+cmp_dev_009,rbi_mpr_2026_04,[101],['real GDP growth for 2025–26 is estimated at 7.6 per cent'],False,,False,,False,False,,False,,False,False,not_in_candidate_union
+cmp_dev_010,rbi_mpr_2025_04,[13],['CPI inflation for 2025- 26 is projected at 4.2 per cent'],False,,False,,False,False,,False,,False,False,not_in_candidate_union
+cmp_dev_010,rbi_mpr_2026_04,[103],['CPI inflation for 2025-26 was revised slightly upwards to 2.1 per cent'],True,15,False,,True,False,,False,,False,False,lost_in_fusion
+cmp_dev_011,rbi_mpr_2025_04,[14],['US$ 70 per barrel during 2025-26'],True,2,False,,True,True,4,True,1,True,True,evidence_found
+cmp_dev_011,rbi_mpr_2026_04,[5],['surge in global crude oil prices since the West Asia conflict'],False,,True,15,True,False,,False,,False,False,lost_in_fusion
+cmp_dev_012,rbi_mpr_2025_04,[57],['gross market borrowings amounted to ₹14.01 lakh crore'],True,5,False,,True,True,9,True,,False,False,lost_in_reranking
+cmp_dev_012,rbi_mpr_2026_04,[64],['gross market borrowings through issuance of dated securities amounted to ₹14.61 lakh crore'],True,1,False,,True,True,4,True,1,True,True,evidence_found
+trend_dev_001,rbi_mpr_2025_04,[12],"['food inflation which remained elevated at an average of 8.5 per cent during October- December 2024, decelerated to 3.8 per cent in February 2025']",False,,False,,False,False,,False,,False,False,not_in_candidate_union
+trend_dev_001,rbi_mpr_2025_10,[10],['food inflation turned negative in June and July 2025'],True,15,False,,True,False,,False,,False,False,lost_in_fusion
+trend_dev_001,rbi_mpr_2026_04,[5],['food group where the waning of base effects led to a turnaround from deflation'],True,10,False,,True,False,,False,,False,False,lost_in_fusion
+trend_dev_002,rbi_mpr_2025_04,[12],['cut the policy repo rate by 25 basis points (bps) to 6.25 per cent'],False,,False,,False,False,,False,,False,False,not_in_candidate_union
+trend_dev_002,rbi_mpr_2025_10,[10],['bringing the repo rate down to 5.5 per cent'],False,,False,,False,False,,False,,False,False,not_in_candidate_union
+trend_dev_002,rbi_mpr_2026_04,[26],['reduced the policy repo rate by 25 bps in the December meeting'],False,,False,,False,False,,False,,False,False,not_in_candidate_union
+trend_dev_003,rbi_mpr_2025_04,[14],['US$ 70 per barrel during 2025-26'],True,1,False,,True,True,2,True,2,True,True,evidence_found
+trend_dev_003,rbi_mpr_2025_10,[12],['US$ 70 per barrel during H2: 2025-26'],True,1,False,,True,True,2,True,2,True,True,evidence_found
+trend_dev_003,rbi_mpr_2026_04,[5],['surge in global crude oil prices since the West Asia conflict'],True,15,False,,True,False,,False,,False,False,lost_in_fusion
+trend_dev_004,rbi_mpr_2025_04,[14],['3.1 per cent in 2025 3.0 per cent in 2026'],False,,False,,False,False,,False,,False,False,not_in_candidate_union
+trend_dev_004,rbi_mpr_2025_10,[12],['3.0 per cent in 2025 3.1 per cent in 2026'],False,,False,,False,False,,False,,False,False,not_in_candidate_union
+trend_dev_004,rbi_mpr_2026_04,[5],['Global growth remained resilient but below its historical average'],False,,False,,False,False,,False,,False,False,not_in_candidate_union
+trend_dev_005,rbi_mpr_2025_04,[57],['gross market borrowings amounted to ₹14.01 lakh crore'],True,4,True,5,True,True,1,True,,False,False,lost_in_reranking
+trend_dev_005,rbi_mpr_2025_10,[52],['gross market borrowings raised by the centre stood at ₹7.95 lakh crore'],True,3,False,,True,True,6,True,1,True,True,evidence_found
+trend_dev_005,rbi_mpr_2026_04,[64],['gross market borrowings through issuance of dated securities amounted to ₹14.61 lakh crore'],True,1,False,,True,True,4,True,2,True,True,evidence_found
+trend_dev_006,rbi_mpr_2025_04,[13],['continue with the neutral stance'],True,3,True,1,True,True,1,True,2,True,True,evidence_found
+trend_dev_006,rbi_mpr_2025_10,[11],['keep the repo rate unchanged at 5.5 per cent and to maintain the neutral stance'],True,2,True,5,True,True,2,True,,False,False,lost_in_reranking
+trend_dev_006,rbi_mpr_2026_04,[26],['maintain the neutral stance adopted in June 2025'],True,5,True,1,True,True,1,True,,False,False,lost_in_reranking

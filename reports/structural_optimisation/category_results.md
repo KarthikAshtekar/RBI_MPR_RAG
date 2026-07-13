@@ -1,0 +1,122 @@
+# Phase 6B Category Results
+
+- ADJ00 / query_type=pairwise_comparison: CER=0.25, evidence=0.4583333333333333
+- ADJ00 / query_type=single_report: CER=0.5833333333333334, evidence=0.5833333333333334
+- ADJ00 / query_type=trend_all_reports: CER=0.16666666666666666, evidence=0.4444444444444444
+- ADJ00 / query_type=unsupported_period: CER=None, evidence=None
+- ADJ00 / question_structure=single_facet: CER=0.36666666666666664, evidence=0.5055555555555555
+- ADJ00 / report_pair=April 2025 vs April 2026: CER=0.0, evidence=0.25
+- ADJ00 / report_pair=April 2025 vs October 2025: CER=0.5, evidence=0.75
+- ADJ00 / report_pair=April 2026: CER=0.3333333333333333, evidence=0.3333333333333333
+- ADJ00 / report_pair=October 2025: CER=0.8333333333333334, evidence=0.8333333333333334
+- ADJ00 / report_pair=October 2025 vs April 2026: CER=0.25, evidence=0.375
+- ADJ00 / report_pair=all three reports: CER=0.16666666666666666, evidence=0.4444444444444444
+- ADJ00 / report_pair=unsupported: CER=None, evidence=None
+- ADJ00 / source_structure=chart_or_figure: CER=0.5, evidence=0.5
+- ADJ00 / source_structure=mixed: CER=0.0, evidence=0.0
+- ADJ00 / source_structure=narrative: CER=0.37037037037037035, evidence=0.5246913580246914
+- ADJ00 / topic=core_inflation: CER=0.5, evidence=0.5
+- ADJ00 / topic=food_inflation: CER=0.6, evidence=0.7666666666666667
+- ADJ00 / topic=growth: CER=0.0, evidence=0.08333333333333333
+- ADJ00 / topic=inflation: CER=0.0, evidence=0.0
+- ADJ00 / topic=other: CER=0.45454545454545453, evidence=0.6515151515151515
+- ADJ00 / topic=policy_rate: CER=0.4, evidence=0.5333333333333333
+- ADJ01 / query_type=pairwise_comparison: CER=0.16666666666666666, evidence=0.4166666666666667
+- ADJ01 / query_type=single_report: CER=0.5833333333333334, evidence=0.5833333333333334
+- ADJ01 / query_type=trend_all_reports: CER=0.0, evidence=0.27777777777777773
+- ADJ01 / query_type=unsupported_period: CER=None, evidence=None
+- ADJ01 / question_structure=single_facet: CER=0.3, evidence=0.45555555555555555
+- ADJ01 / report_pair=April 2025 vs April 2026: CER=0.0, evidence=0.25
+- ADJ01 / report_pair=April 2025 vs October 2025: CER=0.25, evidence=0.5
+- ADJ01 / report_pair=April 2026: CER=0.3333333333333333, evidence=0.3333333333333333
+- ADJ01 / report_pair=October 2025: CER=0.8333333333333334, evidence=0.8333333333333334
+- ADJ01 / report_pair=October 2025 vs April 2026: CER=0.25, evidence=0.5
+- ADJ01 / report_pair=all three reports: CER=0.0, evidence=0.27777777777777773
+- ADJ01 / report_pair=unsupported: CER=None, evidence=None
+- ADJ01 / source_structure=chart_or_figure: CER=0.5, evidence=0.5
+- ADJ01 / source_structure=mixed: CER=0.0, evidence=0.0
+- ADJ01 / source_structure=narrative: CER=0.2962962962962963, evidence=0.4691358024691358
+- ADJ01 / topic=core_inflation: CER=0.5, evidence=0.5
+- ADJ01 / topic=food_inflation: CER=0.4, evidence=0.6
+- ADJ01 / topic=growth: CER=0.0, evidence=0.0
+- ADJ01 / topic=inflation: CER=0.0, evidence=0.0
+- ADJ01 / topic=other: CER=0.45454545454545453, evidence=0.696969696969697
+- ADJ01 / topic=policy_rate: CER=0.2, evidence=0.4
+- ADJ02 / query_type=pairwise_comparison: CER=0.08333333333333333, evidence=0.3333333333333333
+- ADJ02 / query_type=single_report: CER=0.5833333333333334, evidence=0.5833333333333334
+- ADJ02 / query_type=trend_all_reports: CER=0.0, evidence=0.2222222222222222
+- ADJ02 / query_type=unsupported_period: CER=None, evidence=None
+- ADJ02 / question_structure=single_facet: CER=0.26666666666666666, evidence=0.41111111111111115
+- ADJ02 / report_pair=April 2025 vs April 2026: CER=0.0, evidence=0.125
+- ADJ02 / report_pair=April 2025 vs October 2025: CER=0.0, evidence=0.375
+- ADJ02 / report_pair=April 2026: CER=0.3333333333333333, evidence=0.3333333333333333
+- ADJ02 / report_pair=October 2025: CER=0.8333333333333334, evidence=0.8333333333333334
+- ADJ02 / report_pair=October 2025 vs April 2026: CER=0.25, evidence=0.5
+- ADJ02 / report_pair=all three reports: CER=0.0, evidence=0.2222222222222222
+- ADJ02 / report_pair=unsupported: CER=None, evidence=None
+- ADJ02 / source_structure=chart_or_figure: CER=0.5, evidence=0.5
+- ADJ02 / source_structure=mixed: CER=0.0, evidence=0.0
+- ADJ02 / source_structure=narrative: CER=0.25925925925925924, evidence=0.4197530864197531
+- ADJ02 / topic=core_inflation: CER=0.5, evidence=0.5
+- ADJ02 / topic=food_inflation: CER=0.4, evidence=0.6
+- ADJ02 / topic=growth: CER=0.0, evidence=0.0
+- ADJ02 / topic=inflation: CER=0.0, evidence=0.0
+- ADJ02 / topic=other: CER=0.36363636363636365, evidence=0.5757575757575757
+- ADJ02 / topic=policy_rate: CER=0.2, evidence=0.4
+- ADJ03 / query_type=pairwise_comparison: CER=0.25, evidence=0.4583333333333333
+- ADJ03 / query_type=single_report: CER=0.5833333333333334, evidence=0.5833333333333334
+- ADJ03 / query_type=trend_all_reports: CER=0.0, evidence=0.2222222222222222
+- ADJ03 / query_type=unsupported_period: CER=None, evidence=None
+- ADJ03 / question_structure=single_facet: CER=0.3333333333333333, evidence=0.46111111111111114
+- ADJ03 / report_pair=April 2025 vs April 2026: CER=0.0, evidence=0.25
+- ADJ03 / report_pair=April 2025 vs October 2025: CER=0.5, evidence=0.75
+- ADJ03 / report_pair=April 2026: CER=0.3333333333333333, evidence=0.3333333333333333
+- ADJ03 / report_pair=October 2025: CER=0.8333333333333334, evidence=0.8333333333333334
+- ADJ03 / report_pair=October 2025 vs April 2026: CER=0.25, evidence=0.375
+- ADJ03 / report_pair=all three reports: CER=0.0, evidence=0.2222222222222222
+- ADJ03 / report_pair=unsupported: CER=None, evidence=None
+- ADJ03 / source_structure=chart_or_figure: CER=0.5, evidence=0.5
+- ADJ03 / source_structure=mixed: CER=0.0, evidence=0.0
+- ADJ03 / source_structure=narrative: CER=0.3333333333333333, evidence=0.47530864197530864
+- ADJ03 / topic=core_inflation: CER=0.5, evidence=0.5
+- ADJ03 / topic=food_inflation: CER=0.6, evidence=0.7
+- ADJ03 / topic=growth: CER=0.0, evidence=0.08333333333333333
+- ADJ03 / topic=inflation: CER=0.0, evidence=0.0
+- ADJ03 / topic=other: CER=0.45454545454545453, evidence=0.6212121212121212
+- ADJ03 / topic=policy_rate: CER=0.2, evidence=0.4
+- CPARENT01 / query_type=pairwise_comparison: CER=0.08333333333333333, evidence=0.2916666666666667
+- CPARENT01 / query_type=single_report: CER=0.3333333333333333, evidence=0.3333333333333333
+- CPARENT01 / query_type=trend_all_reports: CER=0.16666666666666666, evidence=0.27777777777777773
+- CPARENT01 / query_type=unsupported_period: CER=None, evidence=None
+- CPARENT01 / question_structure=single_facet: CER=0.2, evidence=0.3055555555555555
+- CPARENT01 / report_pair=April 2025 vs April 2026: CER=0.0, evidence=0.125
+- CPARENT01 / report_pair=April 2025 vs October 2025: CER=0.25, evidence=0.5
+- CPARENT01 / report_pair=April 2026: CER=0.0, evidence=0.0
+- CPARENT01 / report_pair=October 2025: CER=0.6666666666666666, evidence=0.6666666666666666
+- CPARENT01 / report_pair=October 2025 vs April 2026: CER=0.0, evidence=0.25
+- CPARENT01 / report_pair=all three reports: CER=0.16666666666666666, evidence=0.27777777777777773
+- CPARENT01 / report_pair=unsupported: CER=None, evidence=None
+- CPARENT01 / source_structure=chart_or_figure: CER=0.0, evidence=0.25
+- CPARENT01 / source_structure=mixed: CER=0.0, evidence=0.0
+- CPARENT01 / source_structure=narrative: CER=0.2222222222222222, evidence=0.32098765432098764
+- CPARENT01 / topic=core_inflation: CER=0.5, evidence=0.5
+- CPARENT01 / topic=food_inflation: CER=0.4, evidence=0.5
+- CPARENT01 / topic=growth: CER=0.0, evidence=0.0
+- CPARENT01 / topic=inflation: CER=0.0, evidence=0.0
+- CPARENT01 / topic=other: CER=0.18181818181818182, evidence=0.3939393939393939
+- CPARENT01 / topic=policy_rate: CER=0.2, evidence=0.26666666666666666
+- CPARENT02 / query_type=pairwise_comparison: CER=0.0, evidence=0.20833333333333334
+- CPARENT02 / query_type=single_report: CER=0.16666666666666666, evidence=0.16666666666666666
+- CPARENT02 / query_type=trend_all_reports: CER=0.0, evidence=0.2222222222222222
+- CPARENT02 / query_type=unsupported_period: CER=None, evidence=None
+- CPARENT02 / question_structure=single_facet: CER=0.06666666666666667, evidence=0.19444444444444445
+- CPARENT02 / report_pair=April 2025 vs April 2026: CER=0.0, evidence=0.125
+- CPARENT02 / report_pair=April 2025 vs October 2025: CER=0.0, evidence=0.375
+- CPARENT02 / report_pair=April 2026: CER=0.0, evidence=0.0
+- CPARENT02 / report_pair=October 2025: CER=0.3333333333333333, evidence=0.3333333333333333
+- CPARENT02 / report_pair=October 2025 vs April 2026: CER=0.0, evidence=0.125
+- CPARENT02 / report_pair=all three reports: CER=0.0, evidence=0.2222222222222222
+- CPARENT02 / report_pair=unsupported: CER=None, evidence=None
+- CPARENT02 / source_structure=chart_or_figure: CER=0.0, evidence=0.25
+- CPARENT02 / source_structure=mixed: CER=0.0, evidence=0.0
+- CPARENT02 / source_structure=narrative: CER=0.07407407407407407, evidence=0.19753086419753085

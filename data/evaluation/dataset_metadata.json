@@ -1,0 +1,8 @@
+{
+  "dataset_version": "rbi_mpr_april_2025_dev_v1",
+  "report_id": "rbi_mpr_2025_04",
+  "default_split": "development",
+  "question_count": 30,
+  "notes": "Questions extracted from the original notebook. No held-out test split is claimed. Individual categories were not recorded in the source notebook."
+}
+

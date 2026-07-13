@@ -1,0 +1,3582 @@
+[
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\current\\baseline_report.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\current\\retrieval_pipeline_summary.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\current\\retrieval_question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\current\\retrieval_raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\current\\retrieval_summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\multi_report\\architecture_comparison.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\multi_report\\architecture_comparison.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\multi_report\\dev_failure_analysis.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\multi_report\\dev_failure_analysis.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\multi_report\\extraction_audit.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\multi_report\\extraction_audit.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\multi_report\\full_corpus_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\multi_report\\full_temporal_retrieval_report.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\multi_report\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\multi_report\\multi_report_report.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\multi_report\\naive_dev_raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\multi_report\\naive_test_raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\multi_report\\retrieval_dev_question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\multi_report\\retrieval_dev_raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\multi_report\\retrieval_dev_summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\multi_report\\retrieval_question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\multi_report\\retrieval_raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\multi_report\\retrieval_summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\multi_report\\retrieval_test_question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\multi_report\\retrieval_test_raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\multi_report\\retrieval_test_summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\multi_report\\router_dev_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\multi_report\\router_dev_summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\multi_report\\router_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\multi_report\\router_summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\multi_report\\router_test_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\multi_report\\router_test_summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\archive_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\CP01\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\CP01\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\CP01\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\CP01\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\CP01\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\CP01\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\CP01\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\CP01\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\CP01\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\CP02\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\CP02\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\CP02\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\CP02\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\CP02\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\CP02\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\CP02\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\CP02\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\CP02\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\CP03\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\CP03\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\CP03\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\CP03\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\CP03\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\CP03\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\CP03\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\CP03\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\CP03\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\CP04\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\CP04\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\CP04\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\CP04\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\CP04\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\CP04\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\CP04\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\CP04\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\CP04\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\FR01\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\FR01\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\FR01\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\FR01\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\FR01\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\FR01\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\FR01\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\FR01\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\FR01\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\FR02\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\FR02\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\FR02\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\FR02\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\FR02\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\FR02\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\FR02\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\FR02\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\FR02\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\FR03\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\FR03\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\FR03\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\FR03\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\FR03\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\FR03\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\FR03\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\FR03\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\FR03\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\FR04\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\FR04\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\FR04\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\FR04\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\FR04\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\FR04\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\FR04\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\FR04\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\FR04\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\QUOTA_EXPANDED\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\QUOTA_EXPANDED\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\QUOTA_EXPANDED\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\QUOTA_EXPANDED\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\QUOTA_EXPANDED\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\QUOTA_EXPANDED\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\QUOTA_EXPANDED\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\QUOTA_EXPANDED\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\QUOTA_EXPANDED\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\QUOTA_LARGE\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\QUOTA_LARGE\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\QUOTA_LARGE\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\QUOTA_LARGE\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\QUOTA_LARGE\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\QUOTA_LARGE\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\QUOTA_LARGE\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\QUOTA_LARGE\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\QUOTA_LARGE\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\RRF_K10\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\RRF_K10\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\RRF_K10\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\RRF_K10\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\RRF_K10\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\RRF_K10\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\RRF_K10\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\RRF_K10\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\RRF_K10\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\RRF_K100\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\RRF_K100\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\RRF_K100\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\RRF_K100\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\RRF_K100\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\RRF_K100\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\RRF_K100\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\RRF_K100\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\RRF_K100\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\RRF_K30\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\RRF_K30\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\RRF_K30\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\RRF_K30\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\RRF_K30\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\RRF_K30\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\RRF_K30\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\RRF_K30\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\RRF_K30\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\RRF_K60\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\RRF_K60\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\RRF_K60\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\RRF_K60\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\RRF_K60\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\RRF_K60\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\RRF_K60\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\RRF_K60\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\RRF_K60\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\temporal_baseline\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\temporal_baseline\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\temporal_baseline\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\temporal_baseline\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\temporal_baseline\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\temporal_baseline\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\temporal_baseline\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\temporal_baseline\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\temporal_baseline\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\WRRF_D1.5_B1\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\WRRF_D1.5_B1\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\WRRF_D1.5_B1\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\WRRF_D1.5_B1\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\WRRF_D1.5_B1\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\WRRF_D1.5_B1\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\WRRF_D1.5_B1\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\WRRF_D1.5_B1\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\WRRF_D1.5_B1\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\WRRF_D1_B1\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\WRRF_D1_B1\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\WRRF_D1_B1\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\WRRF_D1_B1\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\WRRF_D1_B1\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\WRRF_D1_B1\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\WRRF_D1_B1\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\WRRF_D1_B1\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\WRRF_D1_B1\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\WRRF_D1_B1.5\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\WRRF_D1_B1.5\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\WRRF_D1_B1.5\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\WRRF_D1_B1.5\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\WRRF_D1_B1.5\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\WRRF_D1_B1.5\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\WRRF_D1_B1.5\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\WRRF_D1_B1.5\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\WRRF_D1_B1.5\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\WRRF_D1_B2\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\WRRF_D1_B2\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\WRRF_D1_B2\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\WRRF_D1_B2\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\WRRF_D1_B2\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\WRRF_D1_B2\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\WRRF_D1_B2\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\WRRF_D1_B2\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\WRRF_D1_B2\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\WRRF_D2_B1\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\WRRF_D2_B1\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\WRRF_D2_B1\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\WRRF_D2_B1\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\WRRF_D2_B1\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\WRRF_D2_B1\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\WRRF_D2_B1\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\WRRF_D2_B1\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\active_invalid_pre_repair_20260713T004059Z\\WRRF_D2_B1\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\AQ01\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\AQ01\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\AQ01\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\AQ01\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\AQ01\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\AQ01\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\AQ01\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\AQ01\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\AQ01\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\baseline_stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\baseline_stage_diagnostics.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\baseline_stage_diagnostics.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\BM02\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\BM02\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\BM02\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\BM02\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\BM02\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\BM02\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\BM02\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\BM02\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\BM02\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\candidate_recall_curve.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\candidate_recall_curve.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\candidate_recall_curve.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\category_leaderboard.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\category_leaderboard.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\category_leaderboard.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\COMBINED_01\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\COMBINED_01\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\COMBINED_01\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\COMBINED_01\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\COMBINED_01\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\COMBINED_01\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\COMBINED_01\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\COMBINED_01\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\COMBINED_01\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\COMBINED_02\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\COMBINED_02\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\COMBINED_02\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\COMBINED_02\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\COMBINED_02\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\COMBINED_02\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\COMBINED_02\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\COMBINED_02\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\COMBINED_02\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\COMBINED_03\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\COMBINED_03\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\COMBINED_03\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\COMBINED_03\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\COMBINED_03\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\COMBINED_03\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\COMBINED_03\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\COMBINED_03\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\COMBINED_03\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\CP01\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\CP01\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\CP01\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\CP01\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\CP01\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\CP01\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\CP01\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\CP01\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\CP01\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\CP02\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\CP02\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\CP02\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\CP02\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\CP02\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\CP02\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\CP02\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\CP02\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\CP02\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\CP03\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\CP03\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\CP03\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\CP03\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\CP03\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\CP03\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\CP03\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\CP03\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\CP03\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\CP04\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\CP04\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\CP04\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\CP04\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\CP04\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\CP04\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\CP04\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\CP04\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\CP04\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\DIV01\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\DIV01\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\DIV01\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\DIV01\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\DIV01\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\DIV01\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\DIV01\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\DIV01\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\DIV01\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\existing_experiment_integrity.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\existing_experiment_integrity.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\EXP01\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\EXP01\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\EXP01\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\EXP01\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\EXP01\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\EXP01\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\EXP01\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\EXP01\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\EXP01\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\EXP02\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\EXP02\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\EXP02\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\EXP02\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\EXP02\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\EXP02\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\EXP02\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\EXP02\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\EXP02\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\experiment_leaderboard.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\experiment_leaderboard.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\experiment_leaderboard.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\FAC01\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\FAC01\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\FAC01\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\FAC01\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\FAC01\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\FAC01\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\FAC01\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\FAC01\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\FAC01\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\FR01\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\FR01\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\FR01\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\FR01\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\FR01\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\FR01\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\FR01\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\FR01\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\FR01\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\FR02\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\FR02\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\FR02\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\FR02\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\FR02\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\FR02\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\FR02\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\FR02\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\FR02\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\FR03\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\FR03\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\FR03\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\FR03\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\FR03\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\FR03\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\FR03\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\FR03\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\FR03\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\FR04\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\FR04\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\FR04\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\FR04\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\FR04\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\FR04\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\FR04\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\FR04\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\FR04\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\archive_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\archive_manifest.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\CP01\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\CP01\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\CP01\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\CP01\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\CP01\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\CP01\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\CP01\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\CP01\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\CP01\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\CP02\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\CP02\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\CP02\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\CP02\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\CP02\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\CP02\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\CP02\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\CP02\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\CP02\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\CP03\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\CP03\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\CP03\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\CP03\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\CP03\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\CP03\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\CP03\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\CP03\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\CP03\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\CP04\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\CP04\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\CP04\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\CP04\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\CP04\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\CP04\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\CP04\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\CP04\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\CP04\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\FR01\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\FR01\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\FR01\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\FR01\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\FR01\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\FR01\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\FR01\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\FR01\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\FR01\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\FR02\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\FR02\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\FR02\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\FR02\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\FR02\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\FR02\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\FR02\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\FR02\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\FR02\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\FR03\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\FR03\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\FR03\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\FR03\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\FR03\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\FR03\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\FR03\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\FR03\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\FR03\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\FR04\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\FR04\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\FR04\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\FR04\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\FR04\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\FR04\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\FR04\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\FR04\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\FR04\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\QUOTA_EXPANDED\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\QUOTA_EXPANDED\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\QUOTA_EXPANDED\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\QUOTA_EXPANDED\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\QUOTA_EXPANDED\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\QUOTA_EXPANDED\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\QUOTA_EXPANDED\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\QUOTA_EXPANDED\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\QUOTA_EXPANDED\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\QUOTA_LARGE\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\QUOTA_LARGE\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\QUOTA_LARGE\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\QUOTA_LARGE\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\QUOTA_LARGE\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\QUOTA_LARGE\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\QUOTA_LARGE\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\QUOTA_LARGE\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\QUOTA_LARGE\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\RRF_K10\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\RRF_K10\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\RRF_K10\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\RRF_K10\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\RRF_K10\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\RRF_K10\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\RRF_K10\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\RRF_K10\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\RRF_K10\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\RRF_K100\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\RRF_K100\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\RRF_K100\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\RRF_K100\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\RRF_K100\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\RRF_K100\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\RRF_K100\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\RRF_K100\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\RRF_K100\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\RRF_K30\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\RRF_K30\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\RRF_K30\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\RRF_K30\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\RRF_K30\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\RRF_K30\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\RRF_K30\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\RRF_K30\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\RRF_K30\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\RRF_K60\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\RRF_K60\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\RRF_K60\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\RRF_K60\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\RRF_K60\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\RRF_K60\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\RRF_K60\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\RRF_K60\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\RRF_K60\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\temporal_baseline\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\temporal_baseline\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\temporal_baseline\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\temporal_baseline\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\temporal_baseline\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\temporal_baseline\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\temporal_baseline\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\temporal_baseline\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\temporal_baseline\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\WRRF_D1.5_B1\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\WRRF_D1.5_B1\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\WRRF_D1.5_B1\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\WRRF_D1.5_B1\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\WRRF_D1.5_B1\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\WRRF_D1.5_B1\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\WRRF_D1.5_B1\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\WRRF_D1.5_B1\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\WRRF_D1.5_B1\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\WRRF_D1_B1\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\WRRF_D1_B1\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\WRRF_D1_B1\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\WRRF_D1_B1\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\WRRF_D1_B1\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\WRRF_D1_B1\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\WRRF_D1_B1\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\WRRF_D1_B1\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\WRRF_D1_B1\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\WRRF_D1_B1.5\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\WRRF_D1_B1.5\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\WRRF_D1_B1.5\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\WRRF_D1_B1.5\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\WRRF_D1_B1.5\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\WRRF_D1_B1.5\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\WRRF_D1_B1.5\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\WRRF_D1_B1.5\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\WRRF_D1_B1.5\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\WRRF_D1_B2\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\WRRF_D1_B2\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\WRRF_D1_B2\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\WRRF_D1_B2\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\WRRF_D1_B2\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\WRRF_D1_B2\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\WRRF_D1_B2\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\WRRF_D1_B2\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\WRRF_D1_B2\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\WRRF_D2_B1\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\WRRF_D2_B1\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\WRRF_D2_B1\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\WRRF_D2_B1\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\WRRF_D2_B1\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\WRRF_D2_B1\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\WRRF_D2_B1\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\WRRF_D2_B1\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\WRRF_D2_B1\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\paired_comparisons.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\paired_comparisons.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\paired_comparisons.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\pre_optimisation_checksums.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\QN01\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\QN01\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\QN01\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\QN01\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\QN01\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\QN01\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\QN01\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\QN01\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\QN01\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\quota_candidate_comparison.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\quota_candidate_comparison.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\quota_candidate_comparison.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\QUOTA_EXPANDED\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\QUOTA_EXPANDED\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\QUOTA_EXPANDED\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\QUOTA_EXPANDED\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\QUOTA_EXPANDED\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\QUOTA_EXPANDED\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\QUOTA_EXPANDED\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\QUOTA_EXPANDED\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\QUOTA_EXPANDED\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\QUOTA_LARGE\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\QUOTA_LARGE\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\QUOTA_LARGE\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\QUOTA_LARGE\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\QUOTA_LARGE\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\QUOTA_LARGE\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\QUOTA_LARGE\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\QUOTA_LARGE\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\QUOTA_LARGE\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\repaired_baseline\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\repaired_baseline\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\repaired_baseline\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\repaired_baseline\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\repaired_baseline\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\repaired_baseline\\README.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\repaired_baseline\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\repaired_baseline\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\repaired_baseline\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\repaired_baseline\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\reranker_promotion_demotion.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\reranker_promotion_demotion.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\reranker_promotion_demotion.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\rerun_status.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\rerun_status.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\rerun_status.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\RRF_K10\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\RRF_K10\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\RRF_K10\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\RRF_K10\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\RRF_K10\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\RRF_K10\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\RRF_K10\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\RRF_K10\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\RRF_K10\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\RRF_K100\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\RRF_K100\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\RRF_K100\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\RRF_K100\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\RRF_K100\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\RRF_K100\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\RRF_K100\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\RRF_K100\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\RRF_K100\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\RRF_K30\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\RRF_K30\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\RRF_K30\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\RRF_K30\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\RRF_K30\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\RRF_K30\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\RRF_K30\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\RRF_K30\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\RRF_K30\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\RRF_K60\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\RRF_K60\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\RRF_K60\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\RRF_K60\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\RRF_K60\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\RRF_K60\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\RRF_K60\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\RRF_K60\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\RRF_K60\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\selection_policy.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\selection_policy.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\skipped_experiments.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\stage_a_integrity_validation.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\stage_a_integrity_validation.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\stage_a_report.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\stage_a_selected.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\stage_a_selected.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\stage_a_selected_checksum.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\stage_a_selection_status.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\temporal_baseline\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\temporal_baseline\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\temporal_baseline\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\temporal_baseline\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\temporal_baseline\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\temporal_baseline\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\temporal_baseline\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\temporal_baseline\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\temporal_baseline\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\WRRF_D1.5_B1\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\WRRF_D1.5_B1\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\WRRF_D1.5_B1\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\WRRF_D1.5_B1\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\WRRF_D1.5_B1\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\WRRF_D1.5_B1\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\WRRF_D1.5_B1\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\WRRF_D1.5_B1\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\WRRF_D1.5_B1\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\WRRF_D1_B1\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\WRRF_D1_B1\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\WRRF_D1_B1\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\WRRF_D1_B1\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\WRRF_D1_B1\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\WRRF_D1_B1\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\WRRF_D1_B1\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\WRRF_D1_B1\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\WRRF_D1_B1\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\WRRF_D1_B1.5\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\WRRF_D1_B1.5\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\WRRF_D1_B1.5\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\WRRF_D1_B1.5\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\WRRF_D1_B1.5\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\WRRF_D1_B1.5\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\WRRF_D1_B1.5\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\WRRF_D1_B1.5\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\WRRF_D1_B1.5\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\WRRF_D1_B2\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\WRRF_D1_B2\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\WRRF_D1_B2\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\WRRF_D1_B2\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\WRRF_D1_B2\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\WRRF_D1_B2\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\WRRF_D1_B2\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\WRRF_D1_B2\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\WRRF_D1_B2\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\WRRF_D2_B1\\config_snapshot.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\WRRF_D2_B1\\environment.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\WRRF_D2_B1\\index_manifest.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\WRRF_D2_B1\\question_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\WRRF_D2_B1\\raw_results.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\WRRF_D2_B1\\report_level_results.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\WRRF_D2_B1\\stage_diagnostics.csv"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\WRRF_D2_B1\\summary.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\WRRF_D2_B1\\summary.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "configs\\stage_a_selected.yaml"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\stage_a_selected.json"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\stage_a_selected.md"
+  },
+  {
+    "exists": true,
+    "matches": true,
+    "path": "reports\\optimisation\\stage_a_report.md"
+  }
+]

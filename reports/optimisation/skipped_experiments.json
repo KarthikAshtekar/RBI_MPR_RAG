@@ -1,0 +1,9 @@
+{
+  "query_normalisation": "not executed: requires a second semantic retrieval cache",
+  "terminology_expansion": "not executed: requires additional embedding calls",
+  "facet_decomposition": "not executed: requires additional embedding calls",
+  "bm25_preprocessing": "not executed in this bounded run",
+  "adaptive_quota": "not executed",
+  "mmr": "not executed",
+  "score_normalised_fusion": "BM25 raw scores unavailable from current retriever"
+}

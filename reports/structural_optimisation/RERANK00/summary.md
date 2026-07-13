@@ -1,0 +1,36 @@
+# RERANK00
+
+```json
+{
+  "all_reports_hit": 0.4,
+  "case_count": 34,
+  "complete_evidence_recall": 0.36666666666666664,
+  "configuration_checksum": "2e0cb44cdb79dd1ff133e8159f79a869f1a93967b29a00bc8166dedd9dddf2e9",
+  "contamination": 0.0,
+  "dataset_sha256": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
+  "description": "Current MiniLM cross-encoder reranker reference.",
+  "evidence_recall": 0.5055555555555555,
+  "experiment_id": "RERANK00",
+  "family": "reranker",
+  "finished_at": "2026-07-13T12:47:52.347946+00:00",
+  "index_fingerprint": "778f986612e97ec5f39b23ee81e35abb281cff7ae92268fa38861ce77b7dec01",
+  "loss_stage_counts": {
+    "evidence_found": 28,
+    "lost_by_quota": 13,
+    "lost_in_fusion": 7,
+    "not_in_candidate_union": 6
+  },
+  "macro_mrr": 0.3537037037037037,
+  "mean_estimated_tokens": 2150.9333333333334,
+  "mean_latency_ms": 3899.9034466571175,
+  "mean_repeated_text_ratio": 0.0,
+  "mean_selected_characters": 8602.466666666667,
+  "mean_selected_chunks": 9.0,
+  "mean_unique_pages": 7.633333333333334,
+  "median_latency_ms": 3722.892000019783,
+  "p95_latency_ms": 6827.464200032409,
+  "report_coverage": 1.0,
+  "report_level_row_count": 54,
+  "started_at": "2026-07-13T12:45:55.207258+00:00"
+}
+```

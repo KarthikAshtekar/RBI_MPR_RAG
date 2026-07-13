@@ -1,0 +1,1 @@
+{"version":1,"written_before_heldout":true,"hard_constraints":{"single_report_contamination":0,"report_coverage":1.0},"lexicographic_objectives":["complete_evidence_recall","all_reports_hit_rate","evidence_recall","macro_report_mrr","median_latency","implementation_complexity"],"max_latency_multiplier":2.0}

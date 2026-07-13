@@ -1,0 +1,12 @@
+id: CP04
+dk: 50
+bk: 50
+retain: 15
+rrf: 60
+dw: 1
+bw: 1
+quota:
+- 4
+- 3
+- 2
+family: candidate_pool

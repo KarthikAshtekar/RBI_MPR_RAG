@@ -1,0 +1,17 @@
+{
+  "eligibility": {
+    "integrity_status": "valid",
+    "report_coverage": 1.0,
+    "single_report_contamination": 0.0
+  },
+  "latency_constraint": "median_latency_ms <= 2 * stage_a_selected_reference_median_latency_ms",
+  "selection_order": [
+    "complete_evidence_recall",
+    "all_reports_hit",
+    "evidence_recall",
+    "macro_mrr",
+    "median_latency_ms",
+    "mean_estimated_tokens",
+    "implementation_simplicity"
+  ]
+}

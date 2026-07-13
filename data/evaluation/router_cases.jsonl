@@ -1,0 +1,30 @@
+{"case_id":"route_001","query":"What was projected inflation in April 2025?","expected_query_type":"single_report","expected_report_ids":["rbi_mpr_2025_04"]}
+{"case_id":"route_002","query":"What growth did RBI project in October 2025?","expected_query_type":"single_report","expected_report_ids":["rbi_mpr_2025_10"]}
+{"case_id":"route_003","query":"What does the April 2026 report say about inflation?","expected_query_type":"single_report","expected_report_ids":["rbi_mpr_2026_04"]}
+{"case_id":"route_004","query":"Summarise the RBI MPR from April 2025.","expected_query_type":"single_report","expected_report_ids":["rbi_mpr_2025_04"]}
+{"case_id":"route_005","query":"What was the policy stance in October 2025?","expected_query_type":"single_report","expected_report_ids":["rbi_mpr_2025_10"]}
+{"case_id":"route_006","query":"Give the growth outlook from April 2026.","expected_query_type":"single_report","expected_report_ids":["rbi_mpr_2026_04"]}
+{"case_id":"route_007","query":"Compare inflation projections in April and October 2025.","expected_query_type":"pairwise_comparison","expected_report_ids":["rbi_mpr_2025_04","rbi_mpr_2025_10"]}
+{"case_id":"route_008","query":"Compare October 2025 versus April 2026 growth forecasts.","expected_query_type":"pairwise_comparison","expected_report_ids":["rbi_mpr_2025_10","rbi_mpr_2026_04"]}
+{"case_id":"route_009","query":"April 2025 vs April 2026: how did inflation risks change?","expected_query_type":"trend_all_reports","expected_report_ids":["rbi_mpr_2025_04","rbi_mpr_2026_04"]}
+{"case_id":"route_010","query":"Compare the policy stance between April 2025 and October 2025.","expected_query_type":"pairwise_comparison","expected_report_ids":["rbi_mpr_2025_04","rbi_mpr_2025_10"]}
+{"case_id":"route_011","query":"How did RBI's inflation concerns evolve across these reports?","expected_query_type":"trend_all_reports","expected_report_ids":["rbi_mpr_2025_04","rbi_mpr_2025_10","rbi_mpr_2026_04"]}
+{"case_id":"route_012","query":"Show the growth trend across reports.","expected_query_type":"trend_all_reports","expected_report_ids":["rbi_mpr_2025_04","rbi_mpr_2025_10","rbi_mpr_2026_04"]}
+{"case_id":"route_013","query":"What changed in policy stance over time?","expected_query_type":"trend_all_reports","expected_report_ids":["rbi_mpr_2025_04","rbi_mpr_2025_10","rbi_mpr_2026_04"]}
+{"case_id":"route_014","query":"Summarise inflation across all reports.","expected_query_type":"trend_all_reports","expected_report_ids":["rbi_mpr_2025_04","rbi_mpr_2025_10","rbi_mpr_2026_04"]}
+{"case_id":"route_015","query":"How did growth expectations evolve?","expected_query_type":"trend_all_reports","expected_report_ids":["rbi_mpr_2025_04","rbi_mpr_2025_10","rbi_mpr_2026_04"]}
+{"case_id":"route_016","query":"What does the latest report say about growth?","expected_query_type":"latest_report","expected_report_ids":["rbi_mpr_2026_04"]}
+{"case_id":"route_017","query":"Give me inflation risks in the latest MPR.","expected_query_type":"latest_report","expected_report_ids":["rbi_mpr_2026_04"]}
+{"case_id":"route_018","query":"What did the earliest report say about inflation?","expected_query_type":"single_report","expected_report_ids":["rbi_mpr_2025_04"]}
+{"case_id":"route_019","query":"What did the previous report say about growth?","expected_query_type":"single_report","expected_report_ids":["rbi_mpr_2025_10"]}
+{"case_id":"route_020","query":"What does RBI say about inflation?","expected_query_type":"global_unspecified","expected_report_ids":["rbi_mpr_2025_04","rbi_mpr_2025_10","rbi_mpr_2026_04"]}
+{"case_id":"route_021","query":"What are RBI's growth concerns?","expected_query_type":"global_unspecified","expected_report_ids":["rbi_mpr_2025_04","rbi_mpr_2025_10","rbi_mpr_2026_04"]}
+{"case_id":"route_022","query":"Explain RBI liquidity conditions.","expected_query_type":"global_unspecified","expected_report_ids":["rbi_mpr_2025_04","rbi_mpr_2025_10","rbi_mpr_2026_04"]}
+{"case_id":"route_023","query":"Compare April 2024 and April 2025.","expected_query_type":"unsupported_period","expected_report_ids":["rbi_mpr_2025_04"]}
+{"case_id":"route_024","query":"What did the October 2024 MPR project?","expected_query_type":"unsupported_period","expected_report_ids":[]}
+{"case_id":"route_025","query":"Compare April 2026 with October 2026.","expected_query_type":"unsupported_period","expected_report_ids":["rbi_mpr_2026_04"]}
+{"case_id":"route_026","query":"What was inflation in April 2023?","expected_query_type":"unsupported_period","expected_report_ids":[]}
+{"case_id":"route_027","query":"Compare growth in April 2025 versus April 2026.","expected_query_type":"pairwise_comparison","expected_report_ids":["rbi_mpr_2025_04","rbi_mpr_2026_04"]}
+{"case_id":"route_028","query":"How did liquidity change from October 2025 to April 2026?","expected_query_type":"trend_all_reports","expected_report_ids":["rbi_mpr_2025_10","rbi_mpr_2026_04"]}
+{"case_id":"route_029","query":"Review all reports for inflation and growth.","expected_query_type":"trend_all_reports","expected_report_ids":["rbi_mpr_2025_04","rbi_mpr_2025_10","rbi_mpr_2026_04"]}
+{"case_id":"route_030","query":"What is the difference between April 2025 and October 2025 inflation projections?","expected_query_type":"pairwise_comparison","expected_report_ids":["rbi_mpr_2025_04","rbi_mpr_2025_10"]}

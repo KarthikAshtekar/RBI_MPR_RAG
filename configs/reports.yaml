@@ -1,0 +1,26 @@
+registry_version: rbi_mpr_registry_v1
+reports:
+  - report_id: rbi_mpr_2025_04
+    report_period: April 2025
+    report_date: '2025-04-01'
+    report_year: 2025
+    report_month: 4
+    report_type: RBI_MPR
+    pdf_path: mpr_april_2025.pdf
+    enabled: true
+  - report_id: rbi_mpr_2025_10
+    report_period: October 2025
+    report_date: '2025-10-01'
+    report_year: 2025
+    report_month: 10
+    report_type: RBI_MPR
+    pdf_path: data/raw/Oct_2025_RBI_MPR.pdf
+    enabled: true
+  - report_id: rbi_mpr_2026_04
+    report_period: April 2026
+    report_date: '2026-04-01'
+    report_year: 2026
+    report_month: 4
+    report_type: RBI_MPR
+    pdf_path: data/raw/April_2026_RBI_MPR.pdf
+    enabled: true

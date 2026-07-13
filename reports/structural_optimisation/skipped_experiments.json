@@ -1,0 +1,42 @@
+[
+  {
+    "experiment_id": "SEM01",
+    "reason": "full semantic reindex was not executed; semantic chunker is unit-tested but no structural Chroma index was built"
+  },
+  {
+    "experiment_id": "SEM02",
+    "reason": "full semantic reindex was not executed; semantic chunker is unit-tested but no structural Chroma index was built"
+  },
+  {
+    "experiment_id": "SEM03",
+    "reason": "full semantic reindex was not executed; semantic chunker is unit-tested but no structural Chroma index was built"
+  },
+  {
+    "experiment_id": "PARSER01",
+    "reason": "docling is not installed in the local environment"
+  },
+  {
+    "experiment_id": "PARSER02",
+    "reason": "docling is not installed in the local environment"
+  },
+  {
+    "experiment_id": "PARSER03",
+    "reason": "unstructured is not installed in the local environment"
+  },
+  {
+    "experiment_id": "EMB01",
+    "reason": "alternative embedding model download was not performed in offline-safe Phase 6B run"
+  },
+  {
+    "experiment_id": "EMB02",
+    "reason": "alternative embedding model download was not performed in offline-safe Phase 6B run"
+  },
+  {
+    "experiment_id": "RERANK01",
+    "reason": "alternative reranker model download was not performed in offline-safe Phase 6B run"
+  },
+  {
+    "experiment_id": "RERANK02",
+    "reason": "alternative reranker model download was not performed in offline-safe Phase 6B run"
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "generation_evaluation_run": false,
+  "groq_api_key_available": true,
+  "heldout_retrieval_run": false,
+  "one_time_heldout_command_prepared": "python scripts/run_phase6b_heldout_retrieval.py --config configs/final_retrieval_selected.yaml --confirm-one-time-heldout",
+  "selected_experiment_id": "ADJ00",
+  "skipped_experiment_count": 10,
+  "status": "ready_for_one_time_heldout_retrieval_eval",
+  "valid_experiment_count": 18
+}

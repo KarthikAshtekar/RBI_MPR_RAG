@@ -1,0 +1,2956 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-07-12T20:57:42.728659+00:00",
+  "scope": "RBI Monetary Policy Report, April 2025 only",
+  "pdf_sha256": "6b505611e2232e6c8ce9af07018dc9ddba9f46d3efdf3f6ac3a2d22ef9b74752",
+  "config_fingerprint": "7ab633850738c1e9",
+  "config": {
+    "pdf_path": "mpr_april_2025.pdf",
+    "persist_directory": "artifacts/chroma",
+    "evaluation_path": "data/eval_questions.json",
+    "results_directory": "results",
+    "chunk_size": 1000,
+    "chunk_overlap": 300,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "reranker_model": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+    "generator_model": "llama-3.1-8b-instant",
+    "retrieval_k": 4,
+    "candidate_k": 15,
+    "rrf_k": 60,
+    "temperature": 0.0
+  },
+  "runtime": {
+    "python": "3.13.7",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "strategies": [
+    {
+      "strategy": "dense",
+      "question_count": 30,
+      "hit_rate_at_k": 0.8333333333333334,
+      "mrr": 0.6555555555555556,
+      "details": [
+        {
+          "question_id": "q01",
+          "question": "What was India's real GDP growth for 2024-25 per the second advance estimate?",
+          "ground_truth_pages": [
+            11
+          ],
+          "retrieved_pages": [
+            12,
+            48,
+            11,
+            59
+          ],
+          "hit": true,
+          "first_relevant_rank": 3,
+          "reciprocal_rank": 0.3333333333333333
+        },
+        {
+          "question_id": "q02",
+          "question": "By how much was the Cash Reserve Ratio (CRR) reduced in December 2024?",
+          "ground_truth_pages": [
+            12
+          ],
+          "retrieved_pages": [
+            12,
+            73,
+            69,
+            107
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q03",
+          "question": "What did the MPC decide at its February 2025 meeting?",
+          "ground_truth_pages": [
+            13
+          ],
+          "retrieved_pages": [
+            12,
+            12,
+            13,
+            13
+          ],
+          "hit": true,
+          "first_relevant_rank": 3,
+          "reciprocal_rank": 0.3333333333333333
+        },
+        {
+          "question_id": "q04",
+          "question": "What model is used in Box I.1 to study inflation expectations of economic agents?",
+          "ground_truth_pages": [
+            16
+          ],
+          "retrieved_pages": [
+            5,
+            16,
+            28,
+            16
+          ],
+          "hit": true,
+          "first_relevant_rank": 2,
+          "reciprocal_rank": 0.5
+        },
+        {
+          "question_id": "q05",
+          "question": "What did professional forecasters project for CPI inflation in Q4:2024-25 as per the March 2025 survey?",
+          "ground_truth_pages": [
+            17
+          ],
+          "retrieved_pages": [
+            18,
+            17,
+            25,
+            26
+          ],
+          "hit": true,
+          "first_relevant_rank": 2,
+          "reciprocal_rank": 0.5
+        },
+        {
+          "question_id": "q06",
+          "question": "What is the CPI inflation projection for 2025-26?",
+          "ground_truth_pages": [
+            18
+          ],
+          "retrieved_pages": [
+            26,
+            31,
+            27,
+            12
+          ],
+          "hit": false,
+          "first_relevant_rank": null,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "question_id": "q07",
+          "question": "What is the real GDP growth projection for 2025-26?",
+          "ground_truth_pages": [
+            20
+          ],
+          "retrieved_pages": [
+            20,
+            48,
+            21,
+            20
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q08",
+          "question": "Where did headline CPI inflation stand relative to the target by February 2025?",
+          "ground_truth_pages": [
+            25
+          ],
+          "retrieved_pages": [
+            25,
+            105,
+            105,
+            26
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q09",
+          "question": "How much did headline inflation surge from August to September 2024?",
+          "ground_truth_pages": [
+            26
+          ],
+          "retrieved_pages": [
+            26,
+            25,
+            41,
+            105
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q10",
+          "question": "What was food inflation in February 2025?",
+          "ground_truth_pages": [
+            31
+          ],
+          "retrieved_pages": [
+            31,
+            25,
+            31,
+            30
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q11",
+          "question": "How did cereals inflation move from October 2024 to February 2025?",
+          "ground_truth_pages": [
+            32
+          ],
+          "retrieved_pages": [
+            32,
+            33,
+            25,
+            31
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q12",
+          "question": "What mainly drove the pick-up in core inflation between August 2024 and February 2025?",
+          "ground_truth_pages": [
+            40
+          ],
+          "retrieved_pages": [
+            41,
+            40,
+            39,
+            105
+          ],
+          "hit": true,
+          "first_relevant_rank": 2,
+          "reciprocal_rank": 0.5
+        },
+        {
+          "question_id": "q13",
+          "question": "What was PFCE growth in Q3:2024-25 and its contribution to GDP growth?",
+          "ground_truth_pages": [
+            48
+          ],
+          "retrieved_pages": [
+            100,
+            100,
+            53,
+            50
+          ],
+          "hit": false,
+          "first_relevant_rank": null,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "question_id": "q14",
+          "question": "How much did domestic air passenger traffic grow in Q3:2024-25?",
+          "ground_truth_pages": [
+            49
+          ],
+          "retrieved_pages": [
+            66,
+            67,
+            48,
+            49
+          ],
+          "hit": true,
+          "first_relevant_rank": 4,
+          "reciprocal_rank": 0.25
+        },
+        {
+          "question_id": "q15",
+          "question": "What was India's investment rate in 2023-24?",
+          "ground_truth_pages": [
+            52
+          ],
+          "retrieved_pages": [
+            59,
+            87,
+            84,
+            59
+          ],
+          "hit": false,
+          "first_relevant_rank": null,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "question_id": "q16",
+          "question": "What were the Centre's gross market borrowings in 2024-25?",
+          "ground_truth_pages": [
+            57
+          ],
+          "retrieved_pages": [
+            57,
+            57,
+            54,
+            82
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q17",
+          "question": "What was foodgrains production per the second advance estimate for 2024-25?",
+          "ground_truth_pages": [
+            61
+          ],
+          "retrieved_pages": [
+            61,
+            61,
+            35,
+            31
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q18",
+          "question": "What was rice procurement as of March 31, 2025?",
+          "ground_truth_pages": [
+            62
+          ],
+          "retrieved_pages": [
+            33,
+            62,
+            62,
+            35
+          ],
+          "hit": true,
+          "first_relevant_rank": 2,
+          "reciprocal_rank": 0.5
+        },
+        {
+          "question_id": "q19",
+          "question": "How did industrial sector growth move in 2024-25 per the second advance estimate?",
+          "ground_truth_pages": [
+            63
+          ],
+          "retrieved_pages": [
+            100,
+            12,
+            99,
+            101
+          ],
+          "hit": false,
+          "first_relevant_rank": null,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "question_id": "q20",
+          "question": "What were the major drivers of liquidity during H2:2024-25?",
+          "ground_truth_pages": [
+            70
+          ],
+          "retrieved_pages": [
+            69,
+            70,
+            75,
+            43
+          ],
+          "hit": true,
+          "first_relevant_rank": 2,
+          "reciprocal_rank": 0.5
+        },
+        {
+          "question_id": "q21",
+          "question": "What was the average daily net absorption under the LAF in Q3:2024-25?",
+          "ground_truth_pages": [
+            71
+          ],
+          "retrieved_pages": [
+            70,
+            69,
+            59,
+            71
+          ],
+          "hit": true,
+          "first_relevant_rank": 4,
+          "reciprocal_rank": 0.25
+        },
+        {
+          "question_id": "q22",
+          "question": "What was Reserve Money (RM) growth as of March 28, 2025?",
+          "ground_truth_pages": [
+            73
+          ],
+          "retrieved_pages": [
+            73,
+            12,
+            60,
+            73
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q23",
+          "question": "What range did the 10-year G-sec yield move in during H2:2024-25?",
+          "ground_truth_pages": [
+            78
+          ],
+          "retrieved_pages": [
+            78,
+            80,
+            79,
+            113
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q24",
+          "question": "What was the weighted average maturity of outstanding G-secs at end-March 2025?",
+          "ground_truth_pages": [
+            80
+          ],
+          "retrieved_pages": [
+            80,
+            80,
+            76,
+            18
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q25",
+          "question": "How much did credit to MSMEs grow in February 2025?",
+          "ground_truth_pages": [
+            89
+          ],
+          "retrieved_pages": [
+            89,
+            89,
+            88,
+            92
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q26",
+          "question": "By how much did the 1-year median MCLR rise during the May 2022 to January 2025 tightening cycle?",
+          "ground_truth_pages": [
+            93
+          ],
+          "retrieved_pages": [
+            99,
+            101,
+            39,
+            99
+          ],
+          "hit": false,
+          "first_relevant_rank": null,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "question_id": "q27",
+          "question": "How did Euro area and UK GDP growth compare in Q4:2024?",
+          "ground_truth_pages": [
+            100
+          ],
+          "retrieved_pages": [
+            100,
+            100,
+            47,
+            48
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q28",
+          "question": "How did Brazil's GDP growth move in Q4:2024?",
+          "ground_truth_pages": [
+            101
+          ],
+          "retrieved_pages": [
+            101,
+            48,
+            12,
+            13
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q29",
+          "question": "What milestone did gold prices cross in Q1:2025?",
+          "ground_truth_pages": [
+            105
+          ],
+          "retrieved_pages": [
+            105,
+            104,
+            11,
+            103
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q30",
+          "question": "How did Russia's CPI inflation move between September 2024 and February 2025?",
+          "ground_truth_pages": [
+            106
+          ],
+          "retrieved_pages": [
+            106,
+            105,
+            105,
+            39
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        }
+      ]
+    },
+    {
+      "strategy": "dense_reranked",
+      "question_count": 30,
+      "hit_rate_at_k": 0.9,
+      "mrr": 0.8277777777777777,
+      "details": [
+        {
+          "question_id": "q01",
+          "question": "What was India's real GDP growth for 2024-25 per the second advance estimate?",
+          "ground_truth_pages": [
+            11
+          ],
+          "retrieved_pages": [
+            11,
+            13,
+            47,
+            12
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q02",
+          "question": "By how much was the Cash Reserve Ratio (CRR) reduced in December 2024?",
+          "ground_truth_pages": [
+            12
+          ],
+          "retrieved_pages": [
+            69,
+            73,
+            12,
+            12
+          ],
+          "hit": true,
+          "first_relevant_rank": 3,
+          "reciprocal_rank": 0.3333333333333333
+        },
+        {
+          "question_id": "q03",
+          "question": "What did the MPC decide at its February 2025 meeting?",
+          "ground_truth_pages": [
+            13
+          ],
+          "retrieved_pages": [
+            12,
+            12,
+            12,
+            13
+          ],
+          "hit": true,
+          "first_relevant_rank": 4,
+          "reciprocal_rank": 0.25
+        },
+        {
+          "question_id": "q04",
+          "question": "What model is used in Box I.1 to study inflation expectations of economic agents?",
+          "ground_truth_pages": [
+            16
+          ],
+          "retrieved_pages": [
+            16,
+            16,
+            16,
+            5
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q05",
+          "question": "What did professional forecasters project for CPI inflation in Q4:2024-25 as per the March 2025 survey?",
+          "ground_truth_pages": [
+            17
+          ],
+          "retrieved_pages": [
+            17,
+            17,
+            18,
+            18
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q06",
+          "question": "What is the CPI inflation projection for 2025-26?",
+          "ground_truth_pages": [
+            18
+          ],
+          "retrieved_pages": [
+            18,
+            12,
+            26,
+            105
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q07",
+          "question": "What is the real GDP growth projection for 2025-26?",
+          "ground_truth_pages": [
+            20
+          ],
+          "retrieved_pages": [
+            20,
+            20,
+            12,
+            12
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q08",
+          "question": "Where did headline CPI inflation stand relative to the target by February 2025?",
+          "ground_truth_pages": [
+            25
+          ],
+          "retrieved_pages": [
+            25,
+            25,
+            26,
+            105
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q09",
+          "question": "How much did headline inflation surge from August to September 2024?",
+          "ground_truth_pages": [
+            26
+          ],
+          "retrieved_pages": [
+            26,
+            25,
+            105,
+            105
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q10",
+          "question": "What was food inflation in February 2025?",
+          "ground_truth_pages": [
+            31
+          ],
+          "retrieved_pages": [
+            25,
+            38,
+            30,
+            31
+          ],
+          "hit": true,
+          "first_relevant_rank": 4,
+          "reciprocal_rank": 0.25
+        },
+        {
+          "question_id": "q11",
+          "question": "How did cereals inflation move from October 2024 to February 2025?",
+          "ground_truth_pages": [
+            32
+          ],
+          "retrieved_pages": [
+            32,
+            25,
+            25,
+            31
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q12",
+          "question": "What mainly drove the pick-up in core inflation between August 2024 and February 2025?",
+          "ground_truth_pages": [
+            40
+          ],
+          "retrieved_pages": [
+            40,
+            41,
+            39,
+            25
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q13",
+          "question": "What was PFCE growth in Q3:2024-25 and its contribution to GDP growth?",
+          "ground_truth_pages": [
+            48
+          ],
+          "retrieved_pages": [
+            48,
+            53,
+            47,
+            12
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q14",
+          "question": "How much did domestic air passenger traffic grow in Q3:2024-25?",
+          "ground_truth_pages": [
+            49
+          ],
+          "retrieved_pages": [
+            48,
+            66,
+            66,
+            67
+          ],
+          "hit": false,
+          "first_relevant_rank": null,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "question_id": "q15",
+          "question": "What was India's investment rate in 2023-24?",
+          "ground_truth_pages": [
+            52
+          ],
+          "retrieved_pages": [
+            59,
+            59,
+            59,
+            14
+          ],
+          "hit": false,
+          "first_relevant_rank": null,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "question_id": "q16",
+          "question": "What were the Centre's gross market borrowings in 2024-25?",
+          "ground_truth_pages": [
+            57
+          ],
+          "retrieved_pages": [
+            57,
+            57,
+            57,
+            54
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q17",
+          "question": "What was foodgrains production per the second advance estimate for 2024-25?",
+          "ground_truth_pages": [
+            61
+          ],
+          "retrieved_pages": [
+            61,
+            61,
+            13,
+            32
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q18",
+          "question": "What was rice procurement as of March 31, 2025?",
+          "ground_truth_pages": [
+            62
+          ],
+          "retrieved_pages": [
+            62,
+            33,
+            62,
+            32
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q19",
+          "question": "How did industrial sector growth move in 2024-25 per the second advance estimate?",
+          "ground_truth_pages": [
+            63
+          ],
+          "retrieved_pages": [
+            63,
+            12,
+            63,
+            64
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q20",
+          "question": "What were the major drivers of liquidity during H2:2024-25?",
+          "ground_truth_pages": [
+            70
+          ],
+          "retrieved_pages": [
+            70,
+            75,
+            85,
+            75
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q21",
+          "question": "What was the average daily net absorption under the LAF in Q3:2024-25?",
+          "ground_truth_pages": [
+            71
+          ],
+          "retrieved_pages": [
+            71,
+            69,
+            70,
+            79
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q22",
+          "question": "What was Reserve Money (RM) growth as of March 28, 2025?",
+          "ground_truth_pages": [
+            73
+          ],
+          "retrieved_pages": [
+            73,
+            60,
+            73,
+            12
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q23",
+          "question": "What range did the 10-year G-sec yield move in during H2:2024-25?",
+          "ground_truth_pages": [
+            78
+          ],
+          "retrieved_pages": [
+            78,
+            79,
+            80,
+            73
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q24",
+          "question": "What was the weighted average maturity of outstanding G-secs at end-March 2025?",
+          "ground_truth_pages": [
+            80
+          ],
+          "retrieved_pages": [
+            80,
+            80,
+            79,
+            80
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q25",
+          "question": "How much did credit to MSMEs grow in February 2025?",
+          "ground_truth_pages": [
+            89
+          ],
+          "retrieved_pages": [
+            89,
+            88,
+            92,
+            88
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q26",
+          "question": "By how much did the 1-year median MCLR rise during the May 2022 to January 2025 tightening cycle?",
+          "ground_truth_pages": [
+            93
+          ],
+          "retrieved_pages": [
+            44,
+            15,
+            15,
+            107
+          ],
+          "hit": false,
+          "first_relevant_rank": null,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "question_id": "q27",
+          "question": "How did Euro area and UK GDP growth compare in Q4:2024?",
+          "ground_truth_pages": [
+            100
+          ],
+          "retrieved_pages": [
+            100,
+            100,
+            20,
+            47
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q28",
+          "question": "How did Brazil's GDP growth move in Q4:2024?",
+          "ground_truth_pages": [
+            101
+          ],
+          "retrieved_pages": [
+            101,
+            100,
+            47,
+            12
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q29",
+          "question": "What milestone did gold prices cross in Q1:2025?",
+          "ground_truth_pages": [
+            105
+          ],
+          "retrieved_pages": [
+            105,
+            104,
+            11,
+            30
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q30",
+          "question": "How did Russia's CPI inflation move between September 2024 and February 2025?",
+          "ground_truth_pages": [
+            106
+          ],
+          "retrieved_pages": [
+            106,
+            105,
+            39,
+            39
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        }
+      ]
+    },
+    {
+      "strategy": "bm25",
+      "question_count": 30,
+      "hit_rate_at_k": 0.8333333333333334,
+      "mrr": 0.6916666666666667,
+      "details": [
+        {
+          "question_id": "q01",
+          "question": "What was India's real GDP growth for 2024-25 per the second advance estimate?",
+          "ground_truth_pages": [
+            11
+          ],
+          "retrieved_pages": [
+            11,
+            100,
+            13,
+            12
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q02",
+          "question": "By how much was the Cash Reserve Ratio (CRR) reduced in December 2024?",
+          "ground_truth_pages": [
+            12
+          ],
+          "retrieved_pages": [
+            69,
+            12,
+            12,
+            12
+          ],
+          "hit": true,
+          "first_relevant_rank": 2,
+          "reciprocal_rank": 0.5
+        },
+        {
+          "question_id": "q03",
+          "question": "What did the MPC decide at its February 2025 meeting?",
+          "ground_truth_pages": [
+            13
+          ],
+          "retrieved_pages": [
+            12,
+            13,
+            12,
+            105
+          ],
+          "hit": true,
+          "first_relevant_rank": 2,
+          "reciprocal_rank": 0.5
+        },
+        {
+          "question_id": "q04",
+          "question": "What model is used in Box I.1 to study inflation expectations of economic agents?",
+          "ground_truth_pages": [
+            16
+          ],
+          "retrieved_pages": [
+            16,
+            16,
+            73,
+            28
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q05",
+          "question": "What did professional forecasters project for CPI inflation in Q4:2024-25 as per the March 2025 survey?",
+          "ground_truth_pages": [
+            17
+          ],
+          "retrieved_pages": [
+            17,
+            17,
+            19,
+            105
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q06",
+          "question": "What is the CPI inflation projection for 2025-26?",
+          "ground_truth_pages": [
+            18
+          ],
+          "retrieved_pages": [
+            13,
+            12,
+            16,
+            12
+          ],
+          "hit": false,
+          "first_relevant_rank": null,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "question_id": "q07",
+          "question": "What is the real GDP growth projection for 2025-26?",
+          "ground_truth_pages": [
+            20
+          ],
+          "retrieved_pages": [
+            20,
+            21,
+            12,
+            19
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q08",
+          "question": "Where did headline CPI inflation stand relative to the target by February 2025?",
+          "ground_truth_pages": [
+            25
+          ],
+          "retrieved_pages": [
+            25,
+            25,
+            46,
+            105
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q09",
+          "question": "How much did headline inflation surge from August to September 2024?",
+          "ground_truth_pages": [
+            26
+          ],
+          "retrieved_pages": [
+            26,
+            25,
+            25,
+            105
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q10",
+          "question": "What was food inflation in February 2025?",
+          "ground_truth_pages": [
+            31
+          ],
+          "retrieved_pages": [
+            42,
+            16,
+            25,
+            30
+          ],
+          "hit": false,
+          "first_relevant_rank": null,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "question_id": "q11",
+          "question": "How did cereals inflation move from October 2024 to February 2025?",
+          "ground_truth_pages": [
+            32
+          ],
+          "retrieved_pages": [
+            41,
+            25,
+            105,
+            23
+          ],
+          "hit": false,
+          "first_relevant_rank": null,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "question_id": "q12",
+          "question": "What mainly drove the pick-up in core inflation between August 2024 and February 2025?",
+          "ground_truth_pages": [
+            40
+          ],
+          "retrieved_pages": [
+            40,
+            39,
+            41,
+            26
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q13",
+          "question": "What was PFCE growth in Q3:2024-25 and its contribution to GDP growth?",
+          "ground_truth_pages": [
+            48
+          ],
+          "retrieved_pages": [
+            49,
+            49,
+            48,
+            30
+          ],
+          "hit": true,
+          "first_relevant_rank": 3,
+          "reciprocal_rank": 0.3333333333333333
+        },
+        {
+          "question_id": "q14",
+          "question": "How much did domestic air passenger traffic grow in Q3:2024-25?",
+          "ground_truth_pages": [
+            49
+          ],
+          "retrieved_pages": [
+            66,
+            48,
+            67,
+            12
+          ],
+          "hit": false,
+          "first_relevant_rank": null,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "question_id": "q15",
+          "question": "What was India's investment rate in 2023-24?",
+          "ground_truth_pages": [
+            52
+          ],
+          "retrieved_pages": [
+            16,
+            12,
+            47,
+            75
+          ],
+          "hit": false,
+          "first_relevant_rank": null,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "question_id": "q16",
+          "question": "What were the Centre's gross market borrowings in 2024-25?",
+          "ground_truth_pages": [
+            57
+          ],
+          "retrieved_pages": [
+            57,
+            57,
+            42,
+            57
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q17",
+          "question": "What was foodgrains production per the second advance estimate for 2024-25?",
+          "ground_truth_pages": [
+            61
+          ],
+          "retrieved_pages": [
+            61,
+            32,
+            61,
+            35
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q18",
+          "question": "What was rice procurement as of March 31, 2025?",
+          "ground_truth_pages": [
+            62
+          ],
+          "retrieved_pages": [
+            62,
+            33,
+            35,
+            16
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q19",
+          "question": "How did industrial sector growth move in 2024-25 per the second advance estimate?",
+          "ground_truth_pages": [
+            63
+          ],
+          "retrieved_pages": [
+            61,
+            63,
+            13,
+            11
+          ],
+          "hit": true,
+          "first_relevant_rank": 2,
+          "reciprocal_rank": 0.5
+        },
+        {
+          "question_id": "q20",
+          "question": "What were the major drivers of liquidity during H2:2024-25?",
+          "ground_truth_pages": [
+            70
+          ],
+          "retrieved_pages": [
+            70,
+            77,
+            71,
+            71
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q21",
+          "question": "What was the average daily net absorption under the LAF in Q3:2024-25?",
+          "ground_truth_pages": [
+            71
+          ],
+          "retrieved_pages": [
+            69,
+            69,
+            71,
+            71
+          ],
+          "hit": true,
+          "first_relevant_rank": 3,
+          "reciprocal_rank": 0.3333333333333333
+        },
+        {
+          "question_id": "q22",
+          "question": "What was Reserve Money (RM) growth as of March 28, 2025?",
+          "ground_truth_pages": [
+            73
+          ],
+          "retrieved_pages": [
+            73,
+            87,
+            70,
+            87
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q23",
+          "question": "What range did the 10-year G-sec yield move in during H2:2024-25?",
+          "ground_truth_pages": [
+            78
+          ],
+          "retrieved_pages": [
+            78,
+            113,
+            113,
+            79
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q24",
+          "question": "What was the weighted average maturity of outstanding G-secs at end-March 2025?",
+          "ground_truth_pages": [
+            80
+          ],
+          "retrieved_pages": [
+            80,
+            93,
+            79,
+            57
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q25",
+          "question": "How much did credit to MSMEs grow in February 2025?",
+          "ground_truth_pages": [
+            89
+          ],
+          "retrieved_pages": [
+            89,
+            90,
+            89,
+            90
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q26",
+          "question": "By how much did the 1-year median MCLR rise during the May 2022 to January 2025 tightening cycle?",
+          "ground_truth_pages": [
+            93
+          ],
+          "retrieved_pages": [
+            93,
+            94,
+            108,
+            95
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q27",
+          "question": "How did Euro area and UK GDP growth compare in Q4:2024?",
+          "ground_truth_pages": [
+            100
+          ],
+          "retrieved_pages": [
+            100,
+            100,
+            102,
+            106
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q28",
+          "question": "How did Brazil's GDP growth move in Q4:2024?",
+          "ground_truth_pages": [
+            101
+          ],
+          "retrieved_pages": [
+            48,
+            100,
+            20,
+            101
+          ],
+          "hit": true,
+          "first_relevant_rank": 4,
+          "reciprocal_rank": 0.25
+        },
+        {
+          "question_id": "q29",
+          "question": "What milestone did gold prices cross in Q1:2025?",
+          "ground_truth_pages": [
+            105
+          ],
+          "retrieved_pages": [
+            105,
+            30,
+            46,
+            39
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q30",
+          "question": "How did Russia's CPI inflation move between September 2024 and February 2025?",
+          "ground_truth_pages": [
+            106
+          ],
+          "retrieved_pages": [
+            26,
+            105,
+            106,
+            105
+          ],
+          "hit": true,
+          "first_relevant_rank": 3,
+          "reciprocal_rank": 0.3333333333333333
+        }
+      ]
+    },
+    {
+      "strategy": "bm25_reranked",
+      "question_count": 30,
+      "hit_rate_at_k": 0.8666666666666667,
+      "mrr": 0.7666666666666667,
+      "details": [
+        {
+          "question_id": "q01",
+          "question": "What was India's real GDP growth for 2024-25 per the second advance estimate?",
+          "ground_truth_pages": [
+            11
+          ],
+          "retrieved_pages": [
+            11,
+            13,
+            12,
+            20
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q02",
+          "question": "By how much was the Cash Reserve Ratio (CRR) reduced in December 2024?",
+          "ground_truth_pages": [
+            12
+          ],
+          "retrieved_pages": [
+            69,
+            73,
+            12,
+            12
+          ],
+          "hit": true,
+          "first_relevant_rank": 3,
+          "reciprocal_rank": 0.3333333333333333
+        },
+        {
+          "question_id": "q03",
+          "question": "What did the MPC decide at its February 2025 meeting?",
+          "ground_truth_pages": [
+            13
+          ],
+          "retrieved_pages": [
+            12,
+            12,
+            13,
+            69
+          ],
+          "hit": true,
+          "first_relevant_rank": 3,
+          "reciprocal_rank": 0.3333333333333333
+        },
+        {
+          "question_id": "q04",
+          "question": "What model is used in Box I.1 to study inflation expectations of economic agents?",
+          "ground_truth_pages": [
+            16
+          ],
+          "retrieved_pages": [
+            16,
+            16,
+            5,
+            15
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q05",
+          "question": "What did professional forecasters project for CPI inflation in Q4:2024-25 as per the March 2025 survey?",
+          "ground_truth_pages": [
+            17
+          ],
+          "retrieved_pages": [
+            17,
+            17,
+            19,
+            46
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q06",
+          "question": "What is the CPI inflation projection for 2025-26?",
+          "ground_truth_pages": [
+            18
+          ],
+          "retrieved_pages": [
+            13,
+            12,
+            12,
+            13
+          ],
+          "hit": false,
+          "first_relevant_rank": null,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "question_id": "q07",
+          "question": "What is the real GDP growth projection for 2025-26?",
+          "ground_truth_pages": [
+            20
+          ],
+          "retrieved_pages": [
+            13,
+            20,
+            12,
+            12
+          ],
+          "hit": true,
+          "first_relevant_rank": 2,
+          "reciprocal_rank": 0.5
+        },
+        {
+          "question_id": "q08",
+          "question": "Where did headline CPI inflation stand relative to the target by February 2025?",
+          "ground_truth_pages": [
+            25
+          ],
+          "retrieved_pages": [
+            25,
+            25,
+            25,
+            26
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q09",
+          "question": "How much did headline inflation surge from August to September 2024?",
+          "ground_truth_pages": [
+            26
+          ],
+          "retrieved_pages": [
+            26,
+            25,
+            105,
+            25
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q10",
+          "question": "What was food inflation in February 2025?",
+          "ground_truth_pages": [
+            31
+          ],
+          "retrieved_pages": [
+            25,
+            38,
+            30,
+            26
+          ],
+          "hit": false,
+          "first_relevant_rank": null,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "question_id": "q11",
+          "question": "How did cereals inflation move from October 2024 to February 2025?",
+          "ground_truth_pages": [
+            32
+          ],
+          "retrieved_pages": [
+            25,
+            25,
+            12,
+            23
+          ],
+          "hit": false,
+          "first_relevant_rank": null,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "question_id": "q12",
+          "question": "What mainly drove the pick-up in core inflation between August 2024 and February 2025?",
+          "ground_truth_pages": [
+            40
+          ],
+          "retrieved_pages": [
+            40,
+            41,
+            39,
+            25
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q13",
+          "question": "What was PFCE growth in Q3:2024-25 and its contribution to GDP growth?",
+          "ground_truth_pages": [
+            48
+          ],
+          "retrieved_pages": [
+            49,
+            48,
+            12,
+            11
+          ],
+          "hit": true,
+          "first_relevant_rank": 2,
+          "reciprocal_rank": 0.5
+        },
+        {
+          "question_id": "q14",
+          "question": "How much did domestic air passenger traffic grow in Q3:2024-25?",
+          "ground_truth_pages": [
+            49
+          ],
+          "retrieved_pages": [
+            48,
+            66,
+            66,
+            67
+          ],
+          "hit": false,
+          "first_relevant_rank": null,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "question_id": "q15",
+          "question": "What was India's investment rate in 2023-24?",
+          "ground_truth_pages": [
+            52
+          ],
+          "retrieved_pages": [
+            52,
+            51,
+            47,
+            12
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q16",
+          "question": "What were the Centre's gross market borrowings in 2024-25?",
+          "ground_truth_pages": [
+            57
+          ],
+          "retrieved_pages": [
+            57,
+            57,
+            57,
+            76
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q17",
+          "question": "What was foodgrains production per the second advance estimate for 2024-25?",
+          "ground_truth_pages": [
+            61
+          ],
+          "retrieved_pages": [
+            61,
+            61,
+            13,
+            36
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q18",
+          "question": "What was rice procurement as of March 31, 2025?",
+          "ground_truth_pages": [
+            62
+          ],
+          "retrieved_pages": [
+            62,
+            33,
+            32,
+            35
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q19",
+          "question": "How did industrial sector growth move in 2024-25 per the second advance estimate?",
+          "ground_truth_pages": [
+            63
+          ],
+          "retrieved_pages": [
+            13,
+            11,
+            63,
+            61
+          ],
+          "hit": true,
+          "first_relevant_rank": 3,
+          "reciprocal_rank": 0.3333333333333333
+        },
+        {
+          "question_id": "q20",
+          "question": "What were the major drivers of liquidity during H2:2024-25?",
+          "ground_truth_pages": [
+            70
+          ],
+          "retrieved_pages": [
+            70,
+            75,
+            77,
+            77
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q21",
+          "question": "What was the average daily net absorption under the LAF in Q3:2024-25?",
+          "ground_truth_pages": [
+            71
+          ],
+          "retrieved_pages": [
+            71,
+            69,
+            71,
+            69
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q22",
+          "question": "What was Reserve Money (RM) growth as of March 28, 2025?",
+          "ground_truth_pages": [
+            73
+          ],
+          "retrieved_pages": [
+            73,
+            60,
+            73,
+            19
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q23",
+          "question": "What range did the 10-year G-sec yield move in during H2:2024-25?",
+          "ground_truth_pages": [
+            78
+          ],
+          "retrieved_pages": [
+            78,
+            79,
+            80,
+            80
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q24",
+          "question": "What was the weighted average maturity of outstanding G-secs at end-March 2025?",
+          "ground_truth_pages": [
+            80
+          ],
+          "retrieved_pages": [
+            80,
+            80,
+            93,
+            79
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q25",
+          "question": "How much did credit to MSMEs grow in February 2025?",
+          "ground_truth_pages": [
+            89
+          ],
+          "retrieved_pages": [
+            89,
+            88,
+            92,
+            88
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q26",
+          "question": "By how much did the 1-year median MCLR rise during the May 2022 to January 2025 tightening cycle?",
+          "ground_truth_pages": [
+            93
+          ],
+          "retrieved_pages": [
+            93,
+            94,
+            94,
+            44
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q27",
+          "question": "How did Euro area and UK GDP growth compare in Q4:2024?",
+          "ground_truth_pages": [
+            100
+          ],
+          "retrieved_pages": [
+            100,
+            100,
+            20,
+            112
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q28",
+          "question": "How did Brazil's GDP growth move in Q4:2024?",
+          "ground_truth_pages": [
+            101
+          ],
+          "retrieved_pages": [
+            101,
+            100,
+            47,
+            12
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q29",
+          "question": "What milestone did gold prices cross in Q1:2025?",
+          "ground_truth_pages": [
+            105
+          ],
+          "retrieved_pages": [
+            105,
+            30,
+            103,
+            103
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q30",
+          "question": "How did Russia's CPI inflation move between September 2024 and February 2025?",
+          "ground_truth_pages": [
+            106
+          ],
+          "retrieved_pages": [
+            106,
+            105,
+            39,
+            30
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        }
+      ]
+    },
+    {
+      "strategy": "hybrid_rrf",
+      "question_count": 30,
+      "hit_rate_at_k": 0.8,
+      "mrr": 0.7444444444444444,
+      "details": [
+        {
+          "question_id": "q01",
+          "question": "What was India's real GDP growth for 2024-25 per the second advance estimate?",
+          "ground_truth_pages": [
+            11
+          ],
+          "retrieved_pages": [
+            11,
+            12,
+            13,
+            100
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q02",
+          "question": "By how much was the Cash Reserve Ratio (CRR) reduced in December 2024?",
+          "ground_truth_pages": [
+            12
+          ],
+          "retrieved_pages": [
+            12,
+            69,
+            73,
+            12
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q03",
+          "question": "What did the MPC decide at its February 2025 meeting?",
+          "ground_truth_pages": [
+            13
+          ],
+          "retrieved_pages": [
+            12,
+            13,
+            12,
+            13
+          ],
+          "hit": true,
+          "first_relevant_rank": 2,
+          "reciprocal_rank": 0.5
+        },
+        {
+          "question_id": "q04",
+          "question": "What model is used in Box I.1 to study inflation expectations of economic agents?",
+          "ground_truth_pages": [
+            16
+          ],
+          "retrieved_pages": [
+            16,
+            28,
+            16,
+            16
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q05",
+          "question": "What did professional forecasters project for CPI inflation in Q4:2024-25 as per the March 2025 survey?",
+          "ground_truth_pages": [
+            17
+          ],
+          "retrieved_pages": [
+            17,
+            17,
+            46,
+            105
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q06",
+          "question": "What is the CPI inflation projection for 2025-26?",
+          "ground_truth_pages": [
+            18
+          ],
+          "retrieved_pages": [
+            12,
+            12,
+            28,
+            13
+          ],
+          "hit": false,
+          "first_relevant_rank": null,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "question_id": "q07",
+          "question": "What is the real GDP growth projection for 2025-26?",
+          "ground_truth_pages": [
+            20
+          ],
+          "retrieved_pages": [
+            20,
+            21,
+            11,
+            12
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q08",
+          "question": "Where did headline CPI inflation stand relative to the target by February 2025?",
+          "ground_truth_pages": [
+            25
+          ],
+          "retrieved_pages": [
+            25,
+            105,
+            25,
+            105
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q09",
+          "question": "How much did headline inflation surge from August to September 2024?",
+          "ground_truth_pages": [
+            26
+          ],
+          "retrieved_pages": [
+            26,
+            25,
+            105,
+            105
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q10",
+          "question": "What was food inflation in February 2025?",
+          "ground_truth_pages": [
+            31
+          ],
+          "retrieved_pages": [
+            25,
+            25,
+            30,
+            38
+          ],
+          "hit": false,
+          "first_relevant_rank": null,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "question_id": "q11",
+          "question": "How did cereals inflation move from October 2024 to February 2025?",
+          "ground_truth_pages": [
+            32
+          ],
+          "retrieved_pages": [
+            25,
+            25,
+            25,
+            41
+          ],
+          "hit": false,
+          "first_relevant_rank": null,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "question_id": "q12",
+          "question": "What mainly drove the pick-up in core inflation between August 2024 and February 2025?",
+          "ground_truth_pages": [
+            40
+          ],
+          "retrieved_pages": [
+            40,
+            41,
+            105,
+            39
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q13",
+          "question": "What was PFCE growth in Q3:2024-25 and its contribution to GDP growth?",
+          "ground_truth_pages": [
+            48
+          ],
+          "retrieved_pages": [
+            100,
+            101,
+            12,
+            49
+          ],
+          "hit": false,
+          "first_relevant_rank": null,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "question_id": "q14",
+          "question": "How much did domestic air passenger traffic grow in Q3:2024-25?",
+          "ground_truth_pages": [
+            49
+          ],
+          "retrieved_pages": [
+            66,
+            48,
+            67,
+            66
+          ],
+          "hit": false,
+          "first_relevant_rank": null,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "question_id": "q15",
+          "question": "What was India's investment rate in 2023-24?",
+          "ground_truth_pages": [
+            52
+          ],
+          "retrieved_pages": [
+            87,
+            47,
+            16,
+            59
+          ],
+          "hit": false,
+          "first_relevant_rank": null,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "question_id": "q16",
+          "question": "What were the Centre's gross market borrowings in 2024-25?",
+          "ground_truth_pages": [
+            57
+          ],
+          "retrieved_pages": [
+            57,
+            57,
+            57,
+            42
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q17",
+          "question": "What was foodgrains production per the second advance estimate for 2024-25?",
+          "ground_truth_pages": [
+            61
+          ],
+          "retrieved_pages": [
+            61,
+            61,
+            32,
+            33
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q18",
+          "question": "What was rice procurement as of March 31, 2025?",
+          "ground_truth_pages": [
+            62
+          ],
+          "retrieved_pages": [
+            62,
+            33,
+            35,
+            32
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q19",
+          "question": "How did industrial sector growth move in 2024-25 per the second advance estimate?",
+          "ground_truth_pages": [
+            63
+          ],
+          "retrieved_pages": [
+            63,
+            12,
+            43,
+            63
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q20",
+          "question": "What were the major drivers of liquidity during H2:2024-25?",
+          "ground_truth_pages": [
+            70
+          ],
+          "retrieved_pages": [
+            70,
+            75,
+            75,
+            69
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q21",
+          "question": "What was the average daily net absorption under the LAF in Q3:2024-25?",
+          "ground_truth_pages": [
+            71
+          ],
+          "retrieved_pages": [
+            69,
+            71,
+            70,
+            69
+          ],
+          "hit": true,
+          "first_relevant_rank": 2,
+          "reciprocal_rank": 0.5
+        },
+        {
+          "question_id": "q22",
+          "question": "What was Reserve Money (RM) growth as of March 28, 2025?",
+          "ground_truth_pages": [
+            73
+          ],
+          "retrieved_pages": [
+            73,
+            60,
+            73,
+            87
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q23",
+          "question": "What range did the 10-year G-sec yield move in during H2:2024-25?",
+          "ground_truth_pages": [
+            78
+          ],
+          "retrieved_pages": [
+            78,
+            113,
+            79,
+            113
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q24",
+          "question": "What was the weighted average maturity of outstanding G-secs at end-March 2025?",
+          "ground_truth_pages": [
+            80
+          ],
+          "retrieved_pages": [
+            80,
+            80,
+            80,
+            93
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q25",
+          "question": "How much did credit to MSMEs grow in February 2025?",
+          "ground_truth_pages": [
+            89
+          ],
+          "retrieved_pages": [
+            89,
+            89,
+            88,
+            90
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q26",
+          "question": "By how much did the 1-year median MCLR rise during the May 2022 to January 2025 tightening cycle?",
+          "ground_truth_pages": [
+            93
+          ],
+          "retrieved_pages": [
+            39,
+            44,
+            93,
+            99
+          ],
+          "hit": true,
+          "first_relevant_rank": 3,
+          "reciprocal_rank": 0.3333333333333333
+        },
+        {
+          "question_id": "q27",
+          "question": "How did Euro area and UK GDP growth compare in Q4:2024?",
+          "ground_truth_pages": [
+            100
+          ],
+          "retrieved_pages": [
+            100,
+            100,
+            100,
+            20
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q28",
+          "question": "How did Brazil's GDP growth move in Q4:2024?",
+          "ground_truth_pages": [
+            101
+          ],
+          "retrieved_pages": [
+            101,
+            12,
+            47,
+            100
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q29",
+          "question": "What milestone did gold prices cross in Q1:2025?",
+          "ground_truth_pages": [
+            105
+          ],
+          "retrieved_pages": [
+            105,
+            30,
+            46,
+            103
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q30",
+          "question": "How did Russia's CPI inflation move between September 2024 and February 2025?",
+          "ground_truth_pages": [
+            106
+          ],
+          "retrieved_pages": [
+            106,
+            105,
+            105,
+            105
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        }
+      ]
+    },
+    {
+      "strategy": "hybrid_reranked",
+      "question_count": 30,
+      "hit_rate_at_k": 0.9333333333333333,
+      "mrr": 0.8222222222222223,
+      "details": [
+        {
+          "question_id": "q01",
+          "question": "What was India's real GDP growth for 2024-25 per the second advance estimate?",
+          "ground_truth_pages": [
+            11
+          ],
+          "retrieved_pages": [
+            11,
+            13,
+            20,
+            12
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q02",
+          "question": "By how much was the Cash Reserve Ratio (CRR) reduced in December 2024?",
+          "ground_truth_pages": [
+            12
+          ],
+          "retrieved_pages": [
+            69,
+            73,
+            12,
+            12
+          ],
+          "hit": true,
+          "first_relevant_rank": 3,
+          "reciprocal_rank": 0.3333333333333333
+        },
+        {
+          "question_id": "q03",
+          "question": "What did the MPC decide at its February 2025 meeting?",
+          "ground_truth_pages": [
+            13
+          ],
+          "retrieved_pages": [
+            12,
+            12,
+            12,
+            13
+          ],
+          "hit": true,
+          "first_relevant_rank": 4,
+          "reciprocal_rank": 0.25
+        },
+        {
+          "question_id": "q04",
+          "question": "What model is used in Box I.1 to study inflation expectations of economic agents?",
+          "ground_truth_pages": [
+            16
+          ],
+          "retrieved_pages": [
+            16,
+            16,
+            16,
+            5
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q05",
+          "question": "What did professional forecasters project for CPI inflation in Q4:2024-25 as per the March 2025 survey?",
+          "ground_truth_pages": [
+            17
+          ],
+          "retrieved_pages": [
+            17,
+            17,
+            18,
+            19
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q06",
+          "question": "What is the CPI inflation projection for 2025-26?",
+          "ground_truth_pages": [
+            18
+          ],
+          "retrieved_pages": [
+            13,
+            12,
+            12,
+            13
+          ],
+          "hit": false,
+          "first_relevant_rank": null,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "question_id": "q07",
+          "question": "What is the real GDP growth projection for 2025-26?",
+          "ground_truth_pages": [
+            20
+          ],
+          "retrieved_pages": [
+            20,
+            12,
+            20,
+            12
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q08",
+          "question": "Where did headline CPI inflation stand relative to the target by February 2025?",
+          "ground_truth_pages": [
+            25
+          ],
+          "retrieved_pages": [
+            25,
+            25,
+            26,
+            105
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q09",
+          "question": "How much did headline inflation surge from August to September 2024?",
+          "ground_truth_pages": [
+            26
+          ],
+          "retrieved_pages": [
+            26,
+            25,
+            105,
+            25
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q10",
+          "question": "What was food inflation in February 2025?",
+          "ground_truth_pages": [
+            31
+          ],
+          "retrieved_pages": [
+            25,
+            38,
+            30,
+            31
+          ],
+          "hit": true,
+          "first_relevant_rank": 4,
+          "reciprocal_rank": 0.25
+        },
+        {
+          "question_id": "q11",
+          "question": "How did cereals inflation move from October 2024 to February 2025?",
+          "ground_truth_pages": [
+            32
+          ],
+          "retrieved_pages": [
+            32,
+            25,
+            25,
+            12
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q12",
+          "question": "What mainly drove the pick-up in core inflation between August 2024 and February 2025?",
+          "ground_truth_pages": [
+            40
+          ],
+          "retrieved_pages": [
+            40,
+            41,
+            39,
+            25
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q13",
+          "question": "What was PFCE growth in Q3:2024-25 and its contribution to GDP growth?",
+          "ground_truth_pages": [
+            48
+          ],
+          "retrieved_pages": [
+            49,
+            48,
+            53,
+            47
+          ],
+          "hit": true,
+          "first_relevant_rank": 2,
+          "reciprocal_rank": 0.5
+        },
+        {
+          "question_id": "q14",
+          "question": "How much did domestic air passenger traffic grow in Q3:2024-25?",
+          "ground_truth_pages": [
+            49
+          ],
+          "retrieved_pages": [
+            48,
+            66,
+            66,
+            67
+          ],
+          "hit": false,
+          "first_relevant_rank": null,
+          "reciprocal_rank": 0.0
+        },
+        {
+          "question_id": "q15",
+          "question": "What was India's investment rate in 2023-24?",
+          "ground_truth_pages": [
+            52
+          ],
+          "retrieved_pages": [
+            52,
+            59,
+            59,
+            59
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q16",
+          "question": "What were the Centre's gross market borrowings in 2024-25?",
+          "ground_truth_pages": [
+            57
+          ],
+          "retrieved_pages": [
+            57,
+            57,
+            57,
+            54
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q17",
+          "question": "What was foodgrains production per the second advance estimate for 2024-25?",
+          "ground_truth_pages": [
+            61
+          ],
+          "retrieved_pages": [
+            61,
+            61,
+            13,
+            36
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q18",
+          "question": "What was rice procurement as of March 31, 2025?",
+          "ground_truth_pages": [
+            62
+          ],
+          "retrieved_pages": [
+            62,
+            33,
+            62,
+            32
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q19",
+          "question": "How did industrial sector growth move in 2024-25 per the second advance estimate?",
+          "ground_truth_pages": [
+            63
+          ],
+          "retrieved_pages": [
+            13,
+            11,
+            63,
+            61
+          ],
+          "hit": true,
+          "first_relevant_rank": 3,
+          "reciprocal_rank": 0.3333333333333333
+        },
+        {
+          "question_id": "q20",
+          "question": "What were the major drivers of liquidity during H2:2024-25?",
+          "ground_truth_pages": [
+            70
+          ],
+          "retrieved_pages": [
+            70,
+            75,
+            77,
+            85
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q21",
+          "question": "What was the average daily net absorption under the LAF in Q3:2024-25?",
+          "ground_truth_pages": [
+            71
+          ],
+          "retrieved_pages": [
+            71,
+            69,
+            71,
+            69
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q22",
+          "question": "What was Reserve Money (RM) growth as of March 28, 2025?",
+          "ground_truth_pages": [
+            73
+          ],
+          "retrieved_pages": [
+            73,
+            60,
+            73,
+            12
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q23",
+          "question": "What range did the 10-year G-sec yield move in during H2:2024-25?",
+          "ground_truth_pages": [
+            78
+          ],
+          "retrieved_pages": [
+            78,
+            79,
+            80,
+            81
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q24",
+          "question": "What was the weighted average maturity of outstanding G-secs at end-March 2025?",
+          "ground_truth_pages": [
+            80
+          ],
+          "retrieved_pages": [
+            80,
+            80,
+            93,
+            79
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q25",
+          "question": "How much did credit to MSMEs grow in February 2025?",
+          "ground_truth_pages": [
+            89
+          ],
+          "retrieved_pages": [
+            89,
+            88,
+            92,
+            88
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q26",
+          "question": "By how much did the 1-year median MCLR rise during the May 2022 to January 2025 tightening cycle?",
+          "ground_truth_pages": [
+            93
+          ],
+          "retrieved_pages": [
+            93,
+            94,
+            44,
+            107
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q27",
+          "question": "How did Euro area and UK GDP growth compare in Q4:2024?",
+          "ground_truth_pages": [
+            100
+          ],
+          "retrieved_pages": [
+            100,
+            100,
+            20,
+            47
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q28",
+          "question": "How did Brazil's GDP growth move in Q4:2024?",
+          "ground_truth_pages": [
+            101
+          ],
+          "retrieved_pages": [
+            101,
+            100,
+            47,
+            12
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q29",
+          "question": "What milestone did gold prices cross in Q1:2025?",
+          "ground_truth_pages": [
+            105
+          ],
+          "retrieved_pages": [
+            105,
+            104,
+            11,
+            30
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        },
+        {
+          "question_id": "q30",
+          "question": "How did Russia's CPI inflation move between September 2024 and February 2025?",
+          "ground_truth_pages": [
+            106
+          ],
+          "retrieved_pages": [
+            106,
+            105,
+            39,
+            39
+          ],
+          "hit": true,
+          "first_relevant_rank": 1,
+          "reciprocal_rank": 1.0
+        }
+      ]
+    }
+  ]
+}

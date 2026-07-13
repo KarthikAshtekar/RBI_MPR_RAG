@@ -1,0 +1,482 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-07-12T21:52:41.289828+00:00",
+  "dataset": "data\\evaluation\\multi_report_dev.jsonl",
+  "rows": [
+    {
+      "question_id": "mr_dev_001",
+      "query_type": "single_report",
+      "required_report_ids": [
+        "rbi_mpr_2025_04"
+      ],
+      "report_coverage": 1.0,
+      "all_reports_hit": true,
+      "per_report_hit": {
+        "rbi_mpr_2025_04": true
+      },
+      "per_report_mrr": {
+        "rbi_mpr_2025_04": 0.3333333333333333
+      },
+      "macro_report_mrr": 0.3333333333333333,
+      "evidence_recall": {
+        "rbi_mpr_2025_04": []
+      },
+      "cross_report_contamination_count": 0,
+      "cross_report_contamination": false,
+      "final_chunk_count_by_report": {
+        "rbi_mpr_2025_04": 4
+      },
+      "warnings": [],
+      "retrieved_chunk_ids": [
+        "rbi_mpr_2025_04_p013_c001",
+        "rbi_mpr_2025_04_p020_c000",
+        "rbi_mpr_2025_04_p011_c004",
+        "rbi_mpr_2025_04_p059_c000"
+      ],
+      "retrieved_pages_by_report": {
+        "rbi_mpr_2025_04": [
+          13,
+          20,
+          11,
+          59
+        ]
+      },
+      "query_plan": {
+        "original_query": "What was India's real GDP growth for 2024-25 per the second advance estimate in the April 2025 MPR?",
+        "normalized_query": "what was india's real gdp growth for 2024-25 per the second advance estimate in the april 2025 mpr?",
+        "query_type": "single_report",
+        "report_ids": [
+          "rbi_mpr_2025_04"
+        ],
+        "topic": "growth",
+        "comparison_dimension": null,
+        "requires_calculation": false,
+        "confidence": 0.99,
+        "routing_reason": "Exact registered report period matched"
+      }
+    },
+    {
+      "question_id": "mr_dev_002",
+      "query_type": "single_report",
+      "required_report_ids": [
+        "rbi_mpr_2025_04"
+      ],
+      "report_coverage": 1.0,
+      "all_reports_hit": true,
+      "per_report_hit": {
+        "rbi_mpr_2025_04": true
+      },
+      "per_report_mrr": {
+        "rbi_mpr_2025_04": 1.0
+      },
+      "macro_report_mrr": 1.0,
+      "evidence_recall": {
+        "rbi_mpr_2025_04": []
+      },
+      "cross_report_contamination_count": 0,
+      "cross_report_contamination": false,
+      "final_chunk_count_by_report": {
+        "rbi_mpr_2025_04": 4
+      },
+      "warnings": [],
+      "retrieved_chunk_ids": [
+        "rbi_mpr_2025_04_p012_c000",
+        "rbi_mpr_2025_04_p072_c000",
+        "rbi_mpr_2025_04_p069_c004",
+        "rbi_mpr_2025_04_p069_c002"
+      ],
+      "retrieved_pages_by_report": {
+        "rbi_mpr_2025_04": [
+          12,
+          72,
+          69,
+          69
+        ]
+      },
+      "query_plan": {
+        "original_query": "According to the April 2025 MPR, by how much was the CRR reduced in December 2024?",
+        "normalized_query": "according to the april 2025 mpr, by how much was the crr reduced in december 2024?",
+        "query_type": "single_report",
+        "report_ids": [
+          "rbi_mpr_2025_04"
+        ],
+        "topic": null,
+        "comparison_dimension": null,
+        "requires_calculation": true,
+        "confidence": 0.99,
+        "routing_reason": "Exact registered report period matched"
+      }
+    },
+    {
+      "question_id": "mr_dev_003",
+      "query_type": "single_report",
+      "required_report_ids": [
+        "rbi_mpr_2025_04"
+      ],
+      "report_coverage": 1.0,
+      "all_reports_hit": true,
+      "per_report_hit": {
+        "rbi_mpr_2025_04": true
+      },
+      "per_report_mrr": {
+        "rbi_mpr_2025_04": 0.3333333333333333
+      },
+      "macro_report_mrr": 0.3333333333333333,
+      "evidence_recall": {
+        "rbi_mpr_2025_04": []
+      },
+      "cross_report_contamination_count": 0,
+      "cross_report_contamination": false,
+      "final_chunk_count_by_report": {
+        "rbi_mpr_2025_04": 4
+      },
+      "warnings": [],
+      "retrieved_chunk_ids": [
+        "rbi_mpr_2025_04_p012_c000",
+        "rbi_mpr_2025_04_p069_c004",
+        "rbi_mpr_2025_04_p013_c000",
+        "rbi_mpr_2025_04_p012_c001"
+      ],
+      "retrieved_pages_by_report": {
+        "rbi_mpr_2025_04": [
+          12,
+          69,
+          13,
+          12
+        ]
+      },
+      "query_plan": {
+        "original_query": "What did the MPC decide at its February 2025 meeting, as reported in April 2025?",
+        "normalized_query": "what did the mpc decide at its february 2025 meeting, as reported in april 2025?",
+        "query_type": "single_report",
+        "report_ids": [
+          "rbi_mpr_2025_04"
+        ],
+        "topic": null,
+        "comparison_dimension": null,
+        "requires_calculation": false,
+        "confidence": 0.99,
+        "routing_reason": "Exact registered report period matched"
+      }
+    },
+    {
+      "question_id": "mr_dev_004",
+      "query_type": "single_report",
+      "required_report_ids": [
+        "rbi_mpr_2025_04"
+      ],
+      "report_coverage": 1.0,
+      "all_reports_hit": true,
+      "per_report_hit": {
+        "rbi_mpr_2025_04": true
+      },
+      "per_report_mrr": {
+        "rbi_mpr_2025_04": 1.0
+      },
+      "macro_report_mrr": 1.0,
+      "evidence_recall": {
+        "rbi_mpr_2025_04": []
+      },
+      "cross_report_contamination_count": 0,
+      "cross_report_contamination": false,
+      "final_chunk_count_by_report": {
+        "rbi_mpr_2025_04": 4
+      },
+      "warnings": [],
+      "retrieved_chunk_ids": [
+        "rbi_mpr_2025_04_p016_c000",
+        "rbi_mpr_2025_04_p018_c000",
+        "rbi_mpr_2025_04_p016_c001",
+        "rbi_mpr_2025_04_p028_c000"
+      ],
+      "retrieved_pages_by_report": {
+        "rbi_mpr_2025_04": [
+          16,
+          18,
+          16,
+          28
+        ]
+      },
+      "query_plan": {
+        "original_query": "What model is used in Box I.1 of the April 2025 report to study inflation expectations?",
+        "normalized_query": "what model is used in box i.1 of the april 2025 report to study inflation expectations?",
+        "query_type": "single_report",
+        "report_ids": [
+          "rbi_mpr_2025_04"
+        ],
+        "topic": "inflation",
+        "comparison_dimension": null,
+        "requires_calculation": false,
+        "confidence": 0.99,
+        "routing_reason": "Exact registered report period matched"
+      }
+    },
+    {
+      "question_id": "mr_dev_005",
+      "query_type": "single_report",
+      "required_report_ids": [
+        "rbi_mpr_2025_04"
+      ],
+      "report_coverage": 1.0,
+      "all_reports_hit": true,
+      "per_report_hit": {
+        "rbi_mpr_2025_04": true
+      },
+      "per_report_mrr": {
+        "rbi_mpr_2025_04": 1.0
+      },
+      "macro_report_mrr": 1.0,
+      "evidence_recall": {
+        "rbi_mpr_2025_04": []
+      },
+      "cross_report_contamination_count": 0,
+      "cross_report_contamination": false,
+      "final_chunk_count_by_report": {
+        "rbi_mpr_2025_04": 4
+      },
+      "warnings": [],
+      "retrieved_chunk_ids": [
+        "rbi_mpr_2025_04_p017_c001",
+        "rbi_mpr_2025_04_p018_c000",
+        "rbi_mpr_2025_04_p046_c000",
+        "rbi_mpr_2025_04_p030_c000"
+      ],
+      "retrieved_pages_by_report": {
+        "rbi_mpr_2025_04": [
+          17,
+          18,
+          46,
+          30
+        ]
+      },
+      "query_plan": {
+        "original_query": "In the April 2025 report, what did professional forecasters project for Q4:2024-25 CPI inflation?",
+        "normalized_query": "in the april 2025 report, what did professional forecasters project for q4:2024-25 cpi inflation?",
+        "query_type": "single_report",
+        "report_ids": [
+          "rbi_mpr_2025_04"
+        ],
+        "topic": "inflation",
+        "comparison_dimension": null,
+        "requires_calculation": false,
+        "confidence": 0.99,
+        "routing_reason": "Exact registered report period matched"
+      }
+    },
+    {
+      "question_id": "mr_dev_006",
+      "query_type": "single_report",
+      "required_report_ids": [
+        "rbi_mpr_2025_04"
+      ],
+      "report_coverage": 1.0,
+      "all_reports_hit": true,
+      "per_report_hit": {
+        "rbi_mpr_2025_04": true
+      },
+      "per_report_mrr": {
+        "rbi_mpr_2025_04": 1.0
+      },
+      "macro_report_mrr": 1.0,
+      "evidence_recall": {
+        "rbi_mpr_2025_04": []
+      },
+      "cross_report_contamination_count": 0,
+      "cross_report_contamination": false,
+      "final_chunk_count_by_report": {
+        "rbi_mpr_2025_04": 4
+      },
+      "warnings": [],
+      "retrieved_chunk_ids": [
+        "rbi_mpr_2025_04_p018_c000",
+        "rbi_mpr_2025_04_p013_c002",
+        "rbi_mpr_2025_04_p012_c003",
+        "rbi_mpr_2025_04_p026_c003"
+      ],
+      "retrieved_pages_by_report": {
+        "rbi_mpr_2025_04": [
+          18,
+          13,
+          12,
+          26
+        ]
+      },
+      "query_plan": {
+        "original_query": "What CPI inflation projection for 2025-26 appears in the April 2025 MPR?",
+        "normalized_query": "what cpi inflation projection for 2025-26 appears in the april 2025 mpr?",
+        "query_type": "single_report",
+        "report_ids": [
+          "rbi_mpr_2025_04"
+        ],
+        "topic": "inflation",
+        "comparison_dimension": null,
+        "requires_calculation": false,
+        "confidence": 0.99,
+        "routing_reason": "Exact registered report period matched"
+      }
+    },
+    {
+      "question_id": "mr_dev_007",
+      "query_type": "single_report",
+      "required_report_ids": [
+        "rbi_mpr_2025_04"
+      ],
+      "report_coverage": 1.0,
+      "all_reports_hit": true,
+      "per_report_hit": {
+        "rbi_mpr_2025_04": true
+      },
+      "per_report_mrr": {
+        "rbi_mpr_2025_04": 1.0
+      },
+      "macro_report_mrr": 1.0,
+      "evidence_recall": {
+        "rbi_mpr_2025_04": []
+      },
+      "cross_report_contamination_count": 0,
+      "cross_report_contamination": false,
+      "final_chunk_count_by_report": {
+        "rbi_mpr_2025_04": 4
+      },
+      "warnings": [],
+      "retrieved_chunk_ids": [
+        "rbi_mpr_2025_04_p020_c000",
+        "rbi_mpr_2025_04_p013_c001",
+        "rbi_mpr_2025_04_p012_c005",
+        "rbi_mpr_2025_04_p054_c000"
+      ],
+      "retrieved_pages_by_report": {
+        "rbi_mpr_2025_04": [
+          20,
+          13,
+          12,
+          54
+        ]
+      },
+      "query_plan": {
+        "original_query": "What real GDP growth projection for 2025-26 appears in April 2025?",
+        "normalized_query": "what real gdp growth projection for 2025-26 appears in april 2025?",
+        "query_type": "single_report",
+        "report_ids": [
+          "rbi_mpr_2025_04"
+        ],
+        "topic": "growth",
+        "comparison_dimension": null,
+        "requires_calculation": false,
+        "confidence": 0.99,
+        "routing_reason": "Exact registered report period matched"
+      }
+    },
+    {
+      "question_id": "mr_dev_008",
+      "query_type": "single_report",
+      "required_report_ids": [
+        "rbi_mpr_2025_04"
+      ],
+      "report_coverage": 1.0,
+      "all_reports_hit": true,
+      "per_report_hit": {
+        "rbi_mpr_2025_04": true
+      },
+      "per_report_mrr": {
+        "rbi_mpr_2025_04": 0.3333333333333333
+      },
+      "macro_report_mrr": 0.3333333333333333,
+      "evidence_recall": {
+        "rbi_mpr_2025_04": []
+      },
+      "cross_report_contamination_count": 0,
+      "cross_report_contamination": false,
+      "final_chunk_count_by_report": {
+        "rbi_mpr_2025_04": 4
+      },
+      "warnings": [],
+      "retrieved_chunk_ids": [
+        "rbi_mpr_2025_04_p026_c000",
+        "rbi_mpr_2025_04_p106_c000",
+        "rbi_mpr_2025_04_p025_c000",
+        "rbi_mpr_2025_04_p042_c000"
+      ],
+      "retrieved_pages_by_report": {
+        "rbi_mpr_2025_04": [
+          26,
+          106,
+          25,
+          42
+        ]
+      },
+      "query_plan": {
+        "original_query": "Where did headline CPI inflation stand relative to target by February 2025 in the April 2025 report?",
+        "normalized_query": "where did headline cpi inflation stand relative to target by february 2025 in the april 2025 report?",
+        "query_type": "single_report",
+        "report_ids": [
+          "rbi_mpr_2025_04"
+        ],
+        "topic": "inflation",
+        "comparison_dimension": null,
+        "requires_calculation": false,
+        "confidence": 0.99,
+        "routing_reason": "Exact registered report period matched"
+      }
+    },
+    {
+      "question_id": "mr_dev_009",
+      "query_type": "single_report",
+      "required_report_ids": [
+        "rbi_mpr_2025_04"
+      ],
+      "report_coverage": 1.0,
+      "all_reports_hit": true,
+      "per_report_hit": {
+        "rbi_mpr_2025_04": true
+      },
+      "per_report_mrr": {
+        "rbi_mpr_2025_04": 1.0
+      },
+      "macro_report_mrr": 1.0,
+      "evidence_recall": {
+        "rbi_mpr_2025_04": []
+      },
+      "cross_report_contamination_count": 0,
+      "cross_report_contamination": false,
+      "final_chunk_count_by_report": {
+        "rbi_mpr_2025_04": 4
+      },
+      "warnings": [],
+      "retrieved_chunk_ids": [
+        "rbi_mpr_2025_04_p026_c000",
+        "rbi_mpr_2025_04_p030_c000",
+        "rbi_mpr_2025_04_p105_c003",
+        "rbi_mpr_2025_04_p106_c000"
+      ],
+      "retrieved_pages_by_report": {
+        "rbi_mpr_2025_04": [
+          26,
+          30,
+          105,
+          106
+        ]
+      },
+      "query_plan": {
+        "original_query": "According to April 2025, how much did headline inflation rise from August to September 2024?",
+        "normalized_query": "according to april 2025, how much did headline inflation rise from august to september 2024?",
+        "query_type": "single_report",
+        "report_ids": [
+          "rbi_mpr_2025_04"
+        ],
+        "topic": "inflation",
+        "comparison_dimension": null,
+        "requires_calculation": false,
+        "confidence": 0.99,
+        "routing_reason": "Exact registered report period matched"
+      }
+    }
+  ],
+  "summary": {
+    "case_count": 9,
+    "mean_report_coverage": 1.0,
+    "all_reports_hit_rate": 1.0,
+    "macro_report_mrr": 0.7777777777777778,
+    "cross_report_contamination_rate": 0.0
+  }
+}

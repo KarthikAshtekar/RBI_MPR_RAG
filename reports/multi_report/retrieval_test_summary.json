@@ -1,0 +1,47 @@
+{
+  "case_count": 15,
+  "mean_report_coverage": {
+    "point_estimate": 1.0,
+    "ci_95_low": 1.0,
+    "ci_95_high": 1.0,
+    "n": 13
+  },
+  "all_reports_hit_rate": {
+    "point_estimate": 0.38461538461538464,
+    "ci_95_low": 0.17709707797762575,
+    "ci_95_high": 0.644771084873343,
+    "n": 13
+  },
+  "macro_report_mrr": {
+    "point_estimate": 0.28846153846153844,
+    "ci_95_low": 0.15384615384615385,
+    "ci_95_high": 0.41025641025641024,
+    "n": 13
+  },
+  "evidence_recall": {
+    "point_estimate": 0.4743589743589744,
+    "ci_95_low": 0.24358974358974358,
+    "ci_95_high": 0.6923076923076923,
+    "n": 13
+  },
+  "complete_evidence_recall": {
+    "point_estimate": 0.3076923076923077,
+    "ci_95_low": 0.12680703655710515,
+    "ci_95_high": 0.5763065681945096,
+    "n": 13
+  },
+  "cross_report_contamination_rate": {
+    "point_estimate": 0.0,
+    "ci_95_low": 0.0,
+    "ci_95_high": 0.39033428790216523,
+    "n": 6
+  },
+  "latency_ms": {
+    "mean": 1075.8677933365107,
+    "median": 800.6354000535794,
+    "p95": 2598.3804000425152
+  },
+  "bootstrap_resamples": 2000,
+  "confidence_level": 0.95,
+  "random_seed": 42
+}

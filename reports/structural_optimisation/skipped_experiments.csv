@@ -1,0 +1,11 @@
+experiment_id,reason
+SEM01,full semantic reindex was not executed; semantic chunker is unit-tested but no structural Chroma index was built
+SEM02,full semantic reindex was not executed; semantic chunker is unit-tested but no structural Chroma index was built
+SEM03,full semantic reindex was not executed; semantic chunker is unit-tested but no structural Chroma index was built
+PARSER01,docling is not installed in the local environment
+PARSER02,docling is not installed in the local environment
+PARSER03,unstructured is not installed in the local environment
+EMB01,alternative embedding model download was not performed in offline-safe Phase 6B run
+EMB02,alternative embedding model download was not performed in offline-safe Phase 6B run
+RERANK01,alternative reranker model download was not performed in offline-safe Phase 6B run
+RERANK02,alternative reranker model download was not performed in offline-safe Phase 6B run

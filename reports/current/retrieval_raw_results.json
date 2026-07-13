@@ -1,0 +1,5494 @@
+{
+  "schema_version": 2,
+  "created_at_utc": "2026-07-12T21:08:30.562968+00:00",
+  "scope": "April 2025 only",
+  "pdf_sha256": "6b505611e2232e6c8ce9af07018dc9ddba9f46d3efdf3f6ac3a2d22ef9b74752",
+  "config_fingerprint": "befac405988d307f",
+  "config": {
+    "report_id": "rbi_mpr_2025_04",
+    "report_period": "April 2025",
+    "report_date": "2025-04-01",
+    "pdf_path": "mpr_april_2025.pdf",
+    "chroma_path": "indexes/chroma",
+    "evaluation_path": "data/evaluation/questions_v1.json",
+    "output_directory": "reports/current",
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "reranker_model": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+    "generator_model": "llama-3.1-8b-instant",
+    "judge_model": "llama-3.1-8b-instant",
+    "chunk_size": 1000,
+    "chunk_overlap": 300,
+    "dense_k": 15,
+    "bm25_k": 15,
+    "fusion_rrf_k": 60,
+    "reranker_candidate_k": 15,
+    "final_k": 4,
+    "max_retries": 5,
+    "retry_base_delay_seconds": 20.0,
+    "retry_timeout_seconds": 120.0,
+    "prompt_version": "grounded_v1",
+    "dataset_version": "rbi_mpr_april_2025_dev_v1",
+    "ingestion_version": "v1",
+    "temperature": 0.0
+  },
+  "runtime": {
+    "python": "3.13.7",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "strategies": [
+    {
+      "strategy": "dense",
+      "question_count": 30,
+      "hit_rate_at_k": 0.8333333333333334,
+      "mrr": 0.6555555555555556,
+      "mean_latency_ms": 30.671183332257595,
+      "details": [
+        {
+          "pipeline": "dense",
+          "question_id": "q01",
+          "question": "What was India's real GDP growth for 2024-25 per the second advance estimate?",
+          "accepted_pages": [
+            11
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p012_c04",
+            "rbi_mpr_2025_04_p048_c03",
+            "rbi_mpr_2025_04_p011_c04",
+            "rbi_mpr_2025_04_p059_c00"
+          ],
+          "retrieved_pages": [
+            12,
+            48,
+            11,
+            59
+          ],
+          "raw_scores": [
+            0.513571504511886,
+            0.5119333408039646,
+            0.49451000221695496,
+            0.4933281202910125
+          ],
+          "rank_first_accepted_page": 3,
+          "hit": true,
+          "reciprocal_rank": 0.3333333333333333,
+          "latency_ms": 67.63850001152605
+        },
+        {
+          "pipeline": "dense",
+          "question_id": "q02",
+          "question": "By how much was the Cash Reserve Ratio (CRR) reduced in December 2024?",
+          "accepted_pages": [
+            12
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p012_c00",
+            "rbi_mpr_2025_04_p073_c00",
+            "rbi_mpr_2025_04_p069_c02",
+            "rbi_mpr_2025_04_p107_c01"
+          ],
+          "retrieved_pages": [
+            12,
+            73,
+            69,
+            107
+          ],
+          "raw_scores": [
+            0.5009486076765702,
+            0.4794905512816128,
+            0.4762825860540546,
+            0.3905392903245829
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 29.852000006940216
+        },
+        {
+          "pipeline": "dense",
+          "question_id": "q03",
+          "question": "What did the MPC decide at its February 2025 meeting?",
+          "accepted_pages": [
+            13
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p012_c00",
+            "rbi_mpr_2025_04_p012_c03",
+            "rbi_mpr_2025_04_p013_c02",
+            "rbi_mpr_2025_04_p013_c03"
+          ],
+          "retrieved_pages": [
+            12,
+            12,
+            13,
+            13
+          ],
+          "raw_scores": [
+            0.2456766101888801,
+            0.24421394595815804,
+            0.2297172845317449,
+            0.20566803989033777
+          ],
+          "rank_first_accepted_page": 3,
+          "hit": true,
+          "reciprocal_rank": 0.3333333333333333,
+          "latency_ms": 30.056499992497265
+        },
+        {
+          "pipeline": "dense",
+          "question_id": "q04",
+          "question": "What model is used in Box I.1 to study inflation expectations of economic agents?",
+          "accepted_pages": [
+            16
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p005_c00",
+            "rbi_mpr_2025_04_p016_c03",
+            "rbi_mpr_2025_04_p028_c03",
+            "rbi_mpr_2025_04_p016_c00"
+          ],
+          "retrieved_pages": [
+            5,
+            16,
+            28,
+            16
+          ],
+          "raw_scores": [
+            0.3563158807463429,
+            0.3273183432086657,
+            0.3098892726502587,
+            0.3097425173237437
+          ],
+          "rank_first_accepted_page": 2,
+          "hit": true,
+          "reciprocal_rank": 0.5,
+          "latency_ms": 29.208799998741597
+        },
+        {
+          "pipeline": "dense",
+          "question_id": "q05",
+          "question": "What did professional forecasters project for CPI inflation in Q4:2024-25 as per the March 2025 survey?",
+          "accepted_pages": [
+            17
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p018_c00",
+            "rbi_mpr_2025_04_p017_c01",
+            "rbi_mpr_2025_04_p025_c03",
+            "rbi_mpr_2025_04_p026_c03"
+          ],
+          "retrieved_pages": [
+            18,
+            17,
+            25,
+            26
+          ],
+          "raw_scores": [
+            0.6040811030457578,
+            0.5940764527336357,
+            0.5567351035962569,
+            0.54642547868831
+          ],
+          "rank_first_accepted_page": 2,
+          "hit": true,
+          "reciprocal_rank": 0.5,
+          "latency_ms": 26.799499988555908
+        },
+        {
+          "pipeline": "dense",
+          "question_id": "q06",
+          "question": "What is the CPI inflation projection for 2025-26?",
+          "accepted_pages": [
+            18
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p026_c03",
+            "rbi_mpr_2025_04_p031_c02",
+            "rbi_mpr_2025_04_p027_c03",
+            "rbi_mpr_2025_04_p012_c05"
+          ],
+          "retrieved_pages": [
+            26,
+            31,
+            27,
+            12
+          ],
+          "raw_scores": [
+            0.6283361928952922,
+            0.5586610459858106,
+            0.5513754574585205,
+            0.5427266712629939
+          ],
+          "rank_first_accepted_page": null,
+          "hit": false,
+          "reciprocal_rank": 0.0,
+          "latency_ms": 30.115399975329638
+        },
+        {
+          "pipeline": "dense",
+          "question_id": "q07",
+          "question": "What is the real GDP growth projection for 2025-26?",
+          "accepted_pages": [
+            20
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p020_c03",
+            "rbi_mpr_2025_04_p048_c03",
+            "rbi_mpr_2025_04_p021_c03",
+            "rbi_mpr_2025_04_p020_c00"
+          ],
+          "retrieved_pages": [
+            20,
+            48,
+            21,
+            20
+          ],
+          "raw_scores": [
+            0.5898579325193318,
+            0.4965459057342737,
+            0.4832193672630686,
+            0.4780354313367742
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 27.57540001766756
+        },
+        {
+          "pipeline": "dense",
+          "question_id": "q08",
+          "question": "Where did headline CPI inflation stand relative to the target by February 2025?",
+          "accepted_pages": [
+            25
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p025_c00",
+            "rbi_mpr_2025_04_p105_c01",
+            "rbi_mpr_2025_04_p105_c02",
+            "rbi_mpr_2025_04_p026_c00"
+          ],
+          "retrieved_pages": [
+            25,
+            105,
+            105,
+            26
+          ],
+          "raw_scores": [
+            0.6066794984033028,
+            0.6005900795836003,
+            0.5911898572259731,
+            0.5905772527828672
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 27.309600031003356
+        },
+        {
+          "pipeline": "dense",
+          "question_id": "q09",
+          "question": "How much did headline inflation surge from August to September 2024?",
+          "accepted_pages": [
+            26
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p026_c00",
+            "rbi_mpr_2025_04_p025_c00",
+            "rbi_mpr_2025_04_p041_c00",
+            "rbi_mpr_2025_04_p105_c01"
+          ],
+          "retrieved_pages": [
+            26,
+            25,
+            41,
+            105
+          ],
+          "raw_scores": [
+            0.5878860922117497,
+            0.5513069266828418,
+            0.5122845083457573,
+            0.4930725418016425
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 29.998700018040836
+        },
+        {
+          "pipeline": "dense",
+          "question_id": "q10",
+          "question": "What was food inflation in February 2025?",
+          "accepted_pages": [
+            31
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p031_c00",
+            "rbi_mpr_2025_04_p025_c00",
+            "rbi_mpr_2025_04_p031_c01",
+            "rbi_mpr_2025_04_p030_c00"
+          ],
+          "retrieved_pages": [
+            31,
+            25,
+            31,
+            30
+          ],
+          "raw_scores": [
+            0.6250154005542703,
+            0.5780673937952577,
+            0.5769431687580782,
+            0.5657127616507138
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 28.91639998415485
+        },
+        {
+          "pipeline": "dense",
+          "question_id": "q11",
+          "question": "How did cereals inflation move from October 2024 to February 2025?",
+          "accepted_pages": [
+            32
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p032_c00",
+            "rbi_mpr_2025_04_p033_c01",
+            "rbi_mpr_2025_04_p025_c01",
+            "rbi_mpr_2025_04_p031_c00"
+          ],
+          "retrieved_pages": [
+            32,
+            33,
+            25,
+            31
+          ],
+          "raw_scores": [
+            0.5426450749642768,
+            0.5420139680546747,
+            0.50119938142521,
+            0.4869214621425685
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 24.614599999040365
+        },
+        {
+          "pipeline": "dense",
+          "question_id": "q12",
+          "question": "What mainly drove the pick-up in core inflation between August 2024 and February 2025?",
+          "accepted_pages": [
+            40
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p041_c00",
+            "rbi_mpr_2025_04_p040_c00",
+            "rbi_mpr_2025_04_p039_c02",
+            "rbi_mpr_2025_04_p105_c01"
+          ],
+          "retrieved_pages": [
+            41,
+            40,
+            39,
+            105
+          ],
+          "raw_scores": [
+            0.6495824613764822,
+            0.6039967672018874,
+            0.5912424986397632,
+            0.5745842096469234
+          ],
+          "rank_first_accepted_page": 2,
+          "hit": true,
+          "reciprocal_rank": 0.5,
+          "latency_ms": 30.638800002634525
+        },
+        {
+          "pipeline": "dense",
+          "question_id": "q13",
+          "question": "What was PFCE growth in Q3:2024-25 and its contribution to GDP growth?",
+          "accepted_pages": [
+            48
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p100_c03",
+            "rbi_mpr_2025_04_p100_c02",
+            "rbi_mpr_2025_04_p053_c00",
+            "rbi_mpr_2025_04_p050_c02"
+          ],
+          "retrieved_pages": [
+            100,
+            100,
+            53,
+            50
+          ],
+          "raw_scores": [
+            0.444807488173513,
+            0.43185458151435696,
+            0.42899559219246897,
+            0.4204016811937037
+          ],
+          "rank_first_accepted_page": null,
+          "hit": false,
+          "reciprocal_rank": 0.0,
+          "latency_ms": 36.35720000602305
+        },
+        {
+          "pipeline": "dense",
+          "question_id": "q14",
+          "question": "How much did domestic air passenger traffic grow in Q3:2024-25?",
+          "accepted_pages": [
+            49
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p066_c00",
+            "rbi_mpr_2025_04_p067_c00",
+            "rbi_mpr_2025_04_p048_c00",
+            "rbi_mpr_2025_04_p049_c00"
+          ],
+          "retrieved_pages": [
+            66,
+            67,
+            48,
+            49
+          ],
+          "raw_scores": [
+            0.5411803876848262,
+            0.5131848914704955,
+            0.3935784574238549,
+            0.31751136161605975
+          ],
+          "rank_first_accepted_page": 4,
+          "hit": true,
+          "reciprocal_rank": 0.25,
+          "latency_ms": 31.828799983486533
+        },
+        {
+          "pipeline": "dense",
+          "question_id": "q15",
+          "question": "What was India's investment rate in 2023-24?",
+          "accepted_pages": [
+            52
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p059_c00",
+            "rbi_mpr_2025_04_p087_c02",
+            "rbi_mpr_2025_04_p084_c02",
+            "rbi_mpr_2025_04_p059_c02"
+          ],
+          "retrieved_pages": [
+            59,
+            87,
+            84,
+            59
+          ],
+          "raw_scores": [
+            0.5282555508267786,
+            0.4330645332414077,
+            0.4147638658557954,
+            0.39265101602237273
+          ],
+          "rank_first_accepted_page": null,
+          "hit": false,
+          "reciprocal_rank": 0.0,
+          "latency_ms": 26.15029999287799
+        },
+        {
+          "pipeline": "dense",
+          "question_id": "q16",
+          "question": "What were the Centre's gross market borrowings in 2024-25?",
+          "accepted_pages": [
+            57
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p057_c03",
+            "rbi_mpr_2025_04_p057_c00",
+            "rbi_mpr_2025_04_p054_c00",
+            "rbi_mpr_2025_04_p082_c02"
+          ],
+          "retrieved_pages": [
+            57,
+            57,
+            54,
+            82
+          ],
+          "raw_scores": [
+            0.41405470298275104,
+            0.39533067050384685,
+            0.3869168951356171,
+            0.3781428485063162
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 34.97729997616261
+        },
+        {
+          "pipeline": "dense",
+          "question_id": "q17",
+          "question": "What was foodgrains production per the second advance estimate for 2024-25?",
+          "accepted_pages": [
+            61
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p061_c00",
+            "rbi_mpr_2025_04_p061_c01",
+            "rbi_mpr_2025_04_p035_c01",
+            "rbi_mpr_2025_04_p031_c00"
+          ],
+          "retrieved_pages": [
+            61,
+            61,
+            35,
+            31
+          ],
+          "raw_scores": [
+            0.48051497258151865,
+            0.46899703967361295,
+            0.4218095545213616,
+            0.40858543289203786
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 30.55639995727688
+        },
+        {
+          "pipeline": "dense",
+          "question_id": "q18",
+          "question": "What was rice procurement as of March 31, 2025?",
+          "accepted_pages": [
+            62
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p033_c00",
+            "rbi_mpr_2025_04_p062_c00",
+            "rbi_mpr_2025_04_p062_c02",
+            "rbi_mpr_2025_04_p035_c01"
+          ],
+          "retrieved_pages": [
+            33,
+            62,
+            62,
+            35
+          ],
+          "raw_scores": [
+            0.38550699875923067,
+            0.3454578410455723,
+            0.31788857591023223,
+            0.28843661105191054
+          ],
+          "rank_first_accepted_page": 2,
+          "hit": true,
+          "reciprocal_rank": 0.5,
+          "latency_ms": 26.87490003881976
+        },
+        {
+          "pipeline": "dense",
+          "question_id": "q19",
+          "question": "How did industrial sector growth move in 2024-25 per the second advance estimate?",
+          "accepted_pages": [
+            63
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p100_c02",
+            "rbi_mpr_2025_04_p012_c04",
+            "rbi_mpr_2025_04_p099_c03",
+            "rbi_mpr_2025_04_p101_c02"
+          ],
+          "retrieved_pages": [
+            100,
+            12,
+            99,
+            101
+          ],
+          "raw_scores": [
+            0.4539760293048759,
+            0.42665273317744545,
+            0.4220323006157416,
+            0.42073527349966733
+          ],
+          "rank_first_accepted_page": null,
+          "hit": false,
+          "reciprocal_rank": 0.0,
+          "latency_ms": 28.473899990785867
+        },
+        {
+          "pipeline": "dense",
+          "question_id": "q20",
+          "question": "What were the major drivers of liquidity during H2:2024-25?",
+          "accepted_pages": [
+            70
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p069_c00",
+            "rbi_mpr_2025_04_p070_c00",
+            "rbi_mpr_2025_04_p075_c00",
+            "rbi_mpr_2025_04_p043_c00"
+          ],
+          "retrieved_pages": [
+            69,
+            70,
+            75,
+            43
+          ],
+          "raw_scores": [
+            0.43811992127974386,
+            0.3779785179439722,
+            0.3349653831087852,
+            0.3299758705946716
+          ],
+          "rank_first_accepted_page": 2,
+          "hit": true,
+          "reciprocal_rank": 0.5,
+          "latency_ms": 29.122099978849292
+        },
+        {
+          "pipeline": "dense",
+          "question_id": "q21",
+          "question": "What was the average daily net absorption under the LAF in Q3:2024-25?",
+          "accepted_pages": [
+            71
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p070_c03",
+            "rbi_mpr_2025_04_p069_c05",
+            "rbi_mpr_2025_04_p059_c04",
+            "rbi_mpr_2025_04_p071_c00"
+          ],
+          "retrieved_pages": [
+            70,
+            69,
+            59,
+            71
+          ],
+          "raw_scores": [
+            0.4317213974730625,
+            0.31870255799552316,
+            0.2817457145571092,
+            0.2767691832723368
+          ],
+          "rank_first_accepted_page": 4,
+          "hit": true,
+          "reciprocal_rank": 0.25,
+          "latency_ms": 30.87220003362745
+        },
+        {
+          "pipeline": "dense",
+          "question_id": "q22",
+          "question": "What was Reserve Money (RM) growth as of March 28, 2025?",
+          "accepted_pages": [
+            73
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p073_c00",
+            "rbi_mpr_2025_04_p012_c01",
+            "rbi_mpr_2025_04_p060_c00",
+            "rbi_mpr_2025_04_p073_c01"
+          ],
+          "retrieved_pages": [
+            73,
+            12,
+            60,
+            73
+          ],
+          "raw_scores": [
+            0.6126501895507501,
+            0.4648403910329231,
+            0.4005889534709145,
+            0.3623022505214363
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 35.84120003506541
+        },
+        {
+          "pipeline": "dense",
+          "question_id": "q23",
+          "question": "What range did the 10-year G-sec yield move in during H2:2024-25?",
+          "accepted_pages": [
+            78
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p078_c00",
+            "rbi_mpr_2025_04_p080_c02",
+            "rbi_mpr_2025_04_p079_c00",
+            "rbi_mpr_2025_04_p113_c01"
+          ],
+          "retrieved_pages": [
+            78,
+            80,
+            79,
+            113
+          ],
+          "raw_scores": [
+            0.411715595037245,
+            0.3672466659076432,
+            0.3323500025712902,
+            0.3108526653135206
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 30.57709999848157
+        },
+        {
+          "pipeline": "dense",
+          "question_id": "q24",
+          "question": "What was the weighted average maturity of outstanding G-secs at end-March 2025?",
+          "accepted_pages": [
+            80
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p080_c02",
+            "rbi_mpr_2025_04_p080_c00",
+            "rbi_mpr_2025_04_p076_c05",
+            "rbi_mpr_2025_04_p018_c03"
+          ],
+          "retrieved_pages": [
+            80,
+            80,
+            76,
+            18
+          ],
+          "raw_scores": [
+            0.35628414416941423,
+            0.35335388452669425,
+            0.26439276120711275,
+            0.259116650123125
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 28.843199950642884
+        },
+        {
+          "pipeline": "dense",
+          "question_id": "q25",
+          "question": "How much did credit to MSMEs grow in February 2025?",
+          "accepted_pages": [
+            89
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p089_c00",
+            "rbi_mpr_2025_04_p089_c02",
+            "rbi_mpr_2025_04_p088_c01",
+            "rbi_mpr_2025_04_p092_c01"
+          ],
+          "retrieved_pages": [
+            89,
+            89,
+            88,
+            92
+          ],
+          "raw_scores": [
+            0.4990175233714981,
+            0.3404931951720801,
+            0.3294522381487722,
+            0.31883506768724146
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 30.738000001292676
+        },
+        {
+          "pipeline": "dense",
+          "question_id": "q26",
+          "question": "By how much did the 1-year median MCLR rise during the May 2022 to January 2025 tightening cycle?",
+          "accepted_pages": [
+            93
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p099_c04",
+            "rbi_mpr_2025_04_p101_c03",
+            "rbi_mpr_2025_04_p039_c02",
+            "rbi_mpr_2025_04_p099_c03"
+          ],
+          "retrieved_pages": [
+            99,
+            101,
+            39,
+            99
+          ],
+          "raw_scores": [
+            0.36035203154714013,
+            0.34871351650564486,
+            0.3454879338954091,
+            0.34412212312256507
+          ],
+          "rank_first_accepted_page": null,
+          "hit": false,
+          "reciprocal_rank": 0.0,
+          "latency_ms": 26.835200027562678
+        },
+        {
+          "pipeline": "dense",
+          "question_id": "q27",
+          "question": "How did Euro area and UK GDP growth compare in Q4:2024?",
+          "accepted_pages": [
+            100
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p100_c00",
+            "rbi_mpr_2025_04_p100_c03",
+            "rbi_mpr_2025_04_p047_c02",
+            "rbi_mpr_2025_04_p048_c03"
+          ],
+          "retrieved_pages": [
+            100,
+            100,
+            47,
+            48
+          ],
+          "raw_scores": [
+            0.4695707425755432,
+            0.4551198947734615,
+            0.41516565176264975,
+            0.3878074580446522
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 30.268599977716804
+        },
+        {
+          "pipeline": "dense",
+          "question_id": "q28",
+          "question": "How did Brazil's GDP growth move in Q4:2024?",
+          "accepted_pages": [
+            101
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p101_c00",
+            "rbi_mpr_2025_04_p048_c03",
+            "rbi_mpr_2025_04_p012_c04",
+            "rbi_mpr_2025_04_p013_c00"
+          ],
+          "retrieved_pages": [
+            101,
+            48,
+            12,
+            13
+          ],
+          "raw_scores": [
+            0.5392299158294391,
+            0.4386960265520393,
+            0.4262707984362397,
+            0.41001450608449674
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 28.812100004870445
+        },
+        {
+          "pipeline": "dense",
+          "question_id": "q29",
+          "question": "What milestone did gold prices cross in Q1:2025?",
+          "accepted_pages": [
+            105
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p105_c00",
+            "rbi_mpr_2025_04_p104_c01",
+            "rbi_mpr_2025_04_p011_c02",
+            "rbi_mpr_2025_04_p103_c01"
+          ],
+          "retrieved_pages": [
+            105,
+            104,
+            11,
+            103
+          ],
+          "raw_scores": [
+            0.39331069849526523,
+            0.36396755679979864,
+            0.3368297489526646,
+            0.3117162542395089
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 24.621599994134158
+        },
+        {
+          "pipeline": "dense",
+          "question_id": "q30",
+          "question": "How did Russia's CPI inflation move between September 2024 and February 2025?",
+          "accepted_pages": [
+            106
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p106_c00",
+            "rbi_mpr_2025_04_p105_c02",
+            "rbi_mpr_2025_04_p105_c01",
+            "rbi_mpr_2025_04_p039_c03"
+          ],
+          "retrieved_pages": [
+            106,
+            105,
+            105,
+            39
+          ],
+          "raw_scores": [
+            0.5928216146129208,
+            0.5343720700700735,
+            0.4713943945637611,
+            0.44923176930224706
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 25.66119999391958
+        }
+      ]
+    },
+    {
+      "strategy": "dense_reranked",
+      "question_count": 30,
+      "hit_rate_at_k": 0.9,
+      "mrr": 0.8277777777777777,
+      "mean_latency_ms": 1075.7706166691303,
+      "details": [
+        {
+          "pipeline": "dense_reranked",
+          "question_id": "q01",
+          "question": "What was India's real GDP growth for 2024-25 per the second advance estimate?",
+          "accepted_pages": [
+            11
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p011_c04",
+            "rbi_mpr_2025_04_p013_c01",
+            "rbi_mpr_2025_04_p047_c03",
+            "rbi_mpr_2025_04_p012_c04"
+          ],
+          "retrieved_pages": [
+            11,
+            13,
+            47,
+            12
+          ],
+          "raw_scores": [
+            7.407986164093018,
+            7.195098400115967,
+            4.2773284912109375,
+            4.147915363311768
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 1313.313000020571
+        },
+        {
+          "pipeline": "dense_reranked",
+          "question_id": "q02",
+          "question": "By how much was the Cash Reserve Ratio (CRR) reduced in December 2024?",
+          "accepted_pages": [
+            12
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p069_c02",
+            "rbi_mpr_2025_04_p073_c00",
+            "rbi_mpr_2025_04_p012_c00",
+            "rbi_mpr_2025_04_p012_c01"
+          ],
+          "retrieved_pages": [
+            69,
+            73,
+            12,
+            12
+          ],
+          "raw_scores": [
+            6.03146505355835,
+            5.495893955230713,
+            5.334165096282959,
+            5.173666000366211
+          ],
+          "rank_first_accepted_page": 3,
+          "hit": true,
+          "reciprocal_rank": 0.3333333333333333,
+          "latency_ms": 1316.9092999887653
+        },
+        {
+          "pipeline": "dense_reranked",
+          "question_id": "q03",
+          "question": "What did the MPC decide at its February 2025 meeting?",
+          "accepted_pages": [
+            13
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p012_c00",
+            "rbi_mpr_2025_04_p012_c01",
+            "rbi_mpr_2025_04_p012_c03",
+            "rbi_mpr_2025_04_p013_c03"
+          ],
+          "retrieved_pages": [
+            12,
+            12,
+            12,
+            13
+          ],
+          "raw_scores": [
+            4.188892841339111,
+            3.402388095855713,
+            3.3720240592956543,
+            3.111870765686035
+          ],
+          "rank_first_accepted_page": 4,
+          "hit": true,
+          "reciprocal_rank": 0.25,
+          "latency_ms": 883.9495999854989
+        },
+        {
+          "pipeline": "dense_reranked",
+          "question_id": "q04",
+          "question": "What model is used in Box I.1 to study inflation expectations of economic agents?",
+          "accepted_pages": [
+            16
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p016_c00",
+            "rbi_mpr_2025_04_p016_c01",
+            "rbi_mpr_2025_04_p016_c04",
+            "rbi_mpr_2025_04_p005_c00"
+          ],
+          "retrieved_pages": [
+            16,
+            16,
+            16,
+            5
+          ],
+          "raw_scores": [
+            7.561100959777832,
+            5.310635089874268,
+            3.7610678672790527,
+            3.1826138496398926
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 1123.3669000212103
+        },
+        {
+          "pipeline": "dense_reranked",
+          "question_id": "q05",
+          "question": "What did professional forecasters project for CPI inflation in Q4:2024-25 as per the March 2025 survey?",
+          "accepted_pages": [
+            17
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p017_c01",
+            "rbi_mpr_2025_04_p017_c00",
+            "rbi_mpr_2025_04_p018_c00",
+            "rbi_mpr_2025_04_p018_c03"
+          ],
+          "retrieved_pages": [
+            17,
+            17,
+            18,
+            18
+          ],
+          "raw_scores": [
+            7.806324481964111,
+            6.170855522155762,
+            5.133172988891602,
+            4.264232635498047
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 1037.4011999811046
+        },
+        {
+          "pipeline": "dense_reranked",
+          "question_id": "q06",
+          "question": "What is the CPI inflation projection for 2025-26?",
+          "accepted_pages": [
+            18
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p018_c00",
+            "rbi_mpr_2025_04_p012_c05",
+            "rbi_mpr_2025_04_p026_c03",
+            "rbi_mpr_2025_04_p105_c01"
+          ],
+          "retrieved_pages": [
+            18,
+            12,
+            26,
+            105
+          ],
+          "raw_scores": [
+            8.407083511352539,
+            7.461174964904785,
+            6.287467002868652,
+            5.675508499145508
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 985.0551999988966
+        },
+        {
+          "pipeline": "dense_reranked",
+          "question_id": "q07",
+          "question": "What is the real GDP growth projection for 2025-26?",
+          "accepted_pages": [
+            20
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p020_c00",
+            "rbi_mpr_2025_04_p020_c03",
+            "rbi_mpr_2025_04_p012_c04",
+            "rbi_mpr_2025_04_p012_c02"
+          ],
+          "retrieved_pages": [
+            20,
+            20,
+            12,
+            12
+          ],
+          "raw_scores": [
+            8.098133087158203,
+            6.932634353637695,
+            6.8238115310668945,
+            6.562213897705078
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 1058.0565999844112
+        },
+        {
+          "pipeline": "dense_reranked",
+          "question_id": "q08",
+          "question": "Where did headline CPI inflation stand relative to the target by February 2025?",
+          "accepted_pages": [
+            25
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p025_c00",
+            "rbi_mpr_2025_04_p025_c02",
+            "rbi_mpr_2025_04_p026_c00",
+            "rbi_mpr_2025_04_p105_c01"
+          ],
+          "retrieved_pages": [
+            25,
+            25,
+            26,
+            105
+          ],
+          "raw_scores": [
+            6.018728256225586,
+            5.374889373779297,
+            4.719164848327637,
+            4.607744216918945
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 792.3840999719687
+        },
+        {
+          "pipeline": "dense_reranked",
+          "question_id": "q09",
+          "question": "How much did headline inflation surge from August to September 2024?",
+          "accepted_pages": [
+            26
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p026_c00",
+            "rbi_mpr_2025_04_p025_c00",
+            "rbi_mpr_2025_04_p105_c03",
+            "rbi_mpr_2025_04_p105_c02"
+          ],
+          "retrieved_pages": [
+            26,
+            25,
+            105,
+            105
+          ],
+          "raw_scores": [
+            7.742739677429199,
+            6.672487258911133,
+            6.19986629486084,
+            5.271414756774902
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 972.9970000335015
+        },
+        {
+          "pipeline": "dense_reranked",
+          "question_id": "q10",
+          "question": "What was food inflation in February 2025?",
+          "accepted_pages": [
+            31
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p025_c01",
+            "rbi_mpr_2025_04_p038_c00",
+            "rbi_mpr_2025_04_p030_c01",
+            "rbi_mpr_2025_04_p031_c01"
+          ],
+          "retrieved_pages": [
+            25,
+            38,
+            30,
+            31
+          ],
+          "raw_scores": [
+            7.61752986907959,
+            7.340142250061035,
+            7.27596378326416,
+            6.940227031707764
+          ],
+          "rank_first_accepted_page": 4,
+          "hit": true,
+          "reciprocal_rank": 0.25,
+          "latency_ms": 648.2627000077628
+        },
+        {
+          "pipeline": "dense_reranked",
+          "question_id": "q11",
+          "question": "How did cereals inflation move from October 2024 to February 2025?",
+          "accepted_pages": [
+            32
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p032_c00",
+            "rbi_mpr_2025_04_p025_c01",
+            "rbi_mpr_2025_04_p025_c00",
+            "rbi_mpr_2025_04_p031_c01"
+          ],
+          "retrieved_pages": [
+            32,
+            25,
+            25,
+            31
+          ],
+          "raw_scores": [
+            5.917655944824219,
+            5.588052749633789,
+            4.777306079864502,
+            3.841068744659424
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 857.6430999673903
+        },
+        {
+          "pipeline": "dense_reranked",
+          "question_id": "q12",
+          "question": "What mainly drove the pick-up in core inflation between August 2024 and February 2025?",
+          "accepted_pages": [
+            40
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p040_c00",
+            "rbi_mpr_2025_04_p041_c00",
+            "rbi_mpr_2025_04_p039_c01",
+            "rbi_mpr_2025_04_p025_c03"
+          ],
+          "retrieved_pages": [
+            40,
+            41,
+            39,
+            25
+          ],
+          "raw_scores": [
+            8.15629768371582,
+            8.086000442504883,
+            7.952388286590576,
+            6.425978183746338
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 995.5414999858476
+        },
+        {
+          "pipeline": "dense_reranked",
+          "question_id": "q13",
+          "question": "What was PFCE growth in Q3:2024-25 and its contribution to GDP growth?",
+          "accepted_pages": [
+            48
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p048_c00",
+            "rbi_mpr_2025_04_p053_c00",
+            "rbi_mpr_2025_04_p047_c02",
+            "rbi_mpr_2025_04_p012_c04"
+          ],
+          "retrieved_pages": [
+            48,
+            53,
+            47,
+            12
+          ],
+          "raw_scores": [
+            7.810110569000244,
+            5.037854194641113,
+            4.1503424644470215,
+            3.985140800476074
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 1226.952800003346
+        },
+        {
+          "pipeline": "dense_reranked",
+          "question_id": "q14",
+          "question": "How much did domestic air passenger traffic grow in Q3:2024-25?",
+          "accepted_pages": [
+            49
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p048_c00",
+            "rbi_mpr_2025_04_p066_c00",
+            "rbi_mpr_2025_04_p066_c01",
+            "rbi_mpr_2025_04_p067_c00"
+          ],
+          "retrieved_pages": [
+            48,
+            66,
+            66,
+            67
+          ],
+          "raw_scores": [
+            8.14019775390625,
+            7.125303268432617,
+            5.077771186828613,
+            4.337128639221191
+          ],
+          "rank_first_accepted_page": null,
+          "hit": false,
+          "reciprocal_rank": 0.0,
+          "latency_ms": 1149.1782999946736
+        },
+        {
+          "pipeline": "dense_reranked",
+          "question_id": "q15",
+          "question": "What was India's investment rate in 2023-24?",
+          "accepted_pages": [
+            52
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p059_c01",
+            "rbi_mpr_2025_04_p059_c00",
+            "rbi_mpr_2025_04_p059_c02",
+            "rbi_mpr_2025_04_p014_c01"
+          ],
+          "retrieved_pages": [
+            59,
+            59,
+            59,
+            14
+          ],
+          "raw_scores": [
+            4.424324035644531,
+            3.928241014480591,
+            2.8758962154388428,
+            1.7794373035430908
+          ],
+          "rank_first_accepted_page": null,
+          "hit": false,
+          "reciprocal_rank": 0.0,
+          "latency_ms": 1158.4733999916352
+        },
+        {
+          "pipeline": "dense_reranked",
+          "question_id": "q16",
+          "question": "What were the Centre's gross market borrowings in 2024-25?",
+          "accepted_pages": [
+            57
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p057_c00",
+            "rbi_mpr_2025_04_p057_c01",
+            "rbi_mpr_2025_04_p057_c03",
+            "rbi_mpr_2025_04_p054_c00"
+          ],
+          "retrieved_pages": [
+            57,
+            57,
+            57,
+            54
+          ],
+          "raw_scores": [
+            9.051164627075195,
+            6.726776123046875,
+            6.460901260375977,
+            3.394073247909546
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 1072.167200036347
+        },
+        {
+          "pipeline": "dense_reranked",
+          "question_id": "q17",
+          "question": "What was foodgrains production per the second advance estimate for 2024-25?",
+          "accepted_pages": [
+            61
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p061_c00",
+            "rbi_mpr_2025_04_p061_c01",
+            "rbi_mpr_2025_04_p013_c01",
+            "rbi_mpr_2025_04_p032_c00"
+          ],
+          "retrieved_pages": [
+            61,
+            61,
+            13,
+            32
+          ],
+          "raw_scores": [
+            8.52232551574707,
+            5.114699840545654,
+            4.005492687225342,
+            3.7116475105285645
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 712.5763000221923
+        },
+        {
+          "pipeline": "dense_reranked",
+          "question_id": "q18",
+          "question": "What was rice procurement as of March 31, 2025?",
+          "accepted_pages": [
+            62
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p062_c00",
+            "rbi_mpr_2025_04_p033_c00",
+            "rbi_mpr_2025_04_p062_c02",
+            "rbi_mpr_2025_04_p032_c00"
+          ],
+          "retrieved_pages": [
+            62,
+            33,
+            62,
+            32
+          ],
+          "raw_scores": [
+            7.814657688140869,
+            3.741891860961914,
+            0.22948883473873138,
+            -0.21946170926094055
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 892.2802999732085
+        },
+        {
+          "pipeline": "dense_reranked",
+          "question_id": "q19",
+          "question": "How did industrial sector growth move in 2024-25 per the second advance estimate?",
+          "accepted_pages": [
+            63
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p063_c00",
+            "rbi_mpr_2025_04_p012_c04",
+            "rbi_mpr_2025_04_p063_c01",
+            "rbi_mpr_2025_04_p064_c00"
+          ],
+          "retrieved_pages": [
+            63,
+            12,
+            63,
+            64
+          ],
+          "raw_scores": [
+            5.392118453979492,
+            2.6371712684631348,
+            2.5055503845214844,
+            2.458364486694336
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 943.1024999939837
+        },
+        {
+          "pipeline": "dense_reranked",
+          "question_id": "q20",
+          "question": "What were the major drivers of liquidity during H2:2024-25?",
+          "accepted_pages": [
+            70
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p070_c00",
+            "rbi_mpr_2025_04_p075_c00",
+            "rbi_mpr_2025_04_p085_c00",
+            "rbi_mpr_2025_04_p075_c01"
+          ],
+          "retrieved_pages": [
+            70,
+            75,
+            85,
+            75
+          ],
+          "raw_scores": [
+            8.518046379089355,
+            5.003409385681152,
+            4.521918296813965,
+            4.125659465789795
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 746.9792000483721
+        },
+        {
+          "pipeline": "dense_reranked",
+          "question_id": "q21",
+          "question": "What was the average daily net absorption under the LAF in Q3:2024-25?",
+          "accepted_pages": [
+            71
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p071_c00",
+            "rbi_mpr_2025_04_p069_c05",
+            "rbi_mpr_2025_04_p070_c03",
+            "rbi_mpr_2025_04_p079_c03"
+          ],
+          "retrieved_pages": [
+            71,
+            69,
+            70,
+            79
+          ],
+          "raw_scores": [
+            6.925973415374756,
+            6.000217914581299,
+            3.4754819869995117,
+            0.9739872217178345
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 860.4290999937803
+        },
+        {
+          "pipeline": "dense_reranked",
+          "question_id": "q22",
+          "question": "What was Reserve Money (RM) growth as of March 28, 2025?",
+          "accepted_pages": [
+            73
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p073_c00",
+            "rbi_mpr_2025_04_p060_c00",
+            "rbi_mpr_2025_04_p073_c01",
+            "rbi_mpr_2025_04_p012_c01"
+          ],
+          "retrieved_pages": [
+            73,
+            60,
+            73,
+            12
+          ],
+          "raw_scores": [
+            7.560876846313477,
+            4.895124435424805,
+            3.5199899673461914,
+            3.123210906982422
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 1078.7396999658085
+        },
+        {
+          "pipeline": "dense_reranked",
+          "question_id": "q23",
+          "question": "What range did the 10-year G-sec yield move in during H2:2024-25?",
+          "accepted_pages": [
+            78
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p078_c00",
+            "rbi_mpr_2025_04_p079_c00",
+            "rbi_mpr_2025_04_p080_c00",
+            "rbi_mpr_2025_04_p073_c01"
+          ],
+          "retrieved_pages": [
+            78,
+            79,
+            80,
+            73
+          ],
+          "raw_scores": [
+            9.637723922729492,
+            5.440991401672363,
+            5.156606674194336,
+            3.315828323364258
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 1083.377400005702
+        },
+        {
+          "pipeline": "dense_reranked",
+          "question_id": "q24",
+          "question": "What was the weighted average maturity of outstanding G-secs at end-March 2025?",
+          "accepted_pages": [
+            80
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p080_c00",
+            "rbi_mpr_2025_04_p080_c01",
+            "rbi_mpr_2025_04_p079_c02",
+            "rbi_mpr_2025_04_p080_c02"
+          ],
+          "retrieved_pages": [
+            80,
+            80,
+            79,
+            80
+          ],
+          "raw_scores": [
+            8.833587646484375,
+            1.861008644104004,
+            -0.6318719387054443,
+            -1.8840534687042236
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 1076.8349000136368
+        },
+        {
+          "pipeline": "dense_reranked",
+          "question_id": "q25",
+          "question": "How much did credit to MSMEs grow in February 2025?",
+          "accepted_pages": [
+            89
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p089_c00",
+            "rbi_mpr_2025_04_p088_c01",
+            "rbi_mpr_2025_04_p092_c01",
+            "rbi_mpr_2025_04_p088_c00"
+          ],
+          "retrieved_pages": [
+            89,
+            88,
+            92,
+            88
+          ],
+          "raw_scores": [
+            8.533510208129883,
+            5.435396194458008,
+            4.302280426025391,
+            1.8256759643554688
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 1069.4554000510834
+        },
+        {
+          "pipeline": "dense_reranked",
+          "question_id": "q26",
+          "question": "By how much did the 1-year median MCLR rise during the May 2022 to January 2025 tightening cycle?",
+          "accepted_pages": [
+            93
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p044_c01",
+            "rbi_mpr_2025_04_p015_c02",
+            "rbi_mpr_2025_04_p015_c01",
+            "rbi_mpr_2025_04_p107_c00"
+          ],
+          "retrieved_pages": [
+            44,
+            15,
+            15,
+            107
+          ],
+          "raw_scores": [
+            -0.08841118216514587,
+            -0.5806397795677185,
+            -1.103621244430542,
+            -1.29844069480896
+          ],
+          "rank_first_accepted_page": null,
+          "hit": false,
+          "reciprocal_rank": 0.0,
+          "latency_ms": 802.5150000466965
+        },
+        {
+          "pipeline": "dense_reranked",
+          "question_id": "q27",
+          "question": "How did Euro area and UK GDP growth compare in Q4:2024?",
+          "accepted_pages": [
+            100
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p100_c00",
+            "rbi_mpr_2025_04_p100_c03",
+            "rbi_mpr_2025_04_p020_c00",
+            "rbi_mpr_2025_04_p047_c02"
+          ],
+          "retrieved_pages": [
+            100,
+            100,
+            20,
+            47
+          ],
+          "raw_scores": [
+            7.2485671043396,
+            7.0083770751953125,
+            3.885507583618164,
+            3.3527438640594482
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 2076.506600016728
+        },
+        {
+          "pipeline": "dense_reranked",
+          "question_id": "q28",
+          "question": "How did Brazil's GDP growth move in Q4:2024?",
+          "accepted_pages": [
+            101
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p101_c00",
+            "rbi_mpr_2025_04_p100_c03",
+            "rbi_mpr_2025_04_p047_c02",
+            "rbi_mpr_2025_04_p012_c04"
+          ],
+          "retrieved_pages": [
+            101,
+            100,
+            47,
+            12
+          ],
+          "raw_scores": [
+            7.75394344329834,
+            5.49547815322876,
+            2.9988040924072266,
+            2.960391044616699
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 2001.1442999821156
+        },
+        {
+          "pipeline": "dense_reranked",
+          "question_id": "q29",
+          "question": "What milestone did gold prices cross in Q1:2025?",
+          "accepted_pages": [
+            105
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p105_c00",
+            "rbi_mpr_2025_04_p104_c01",
+            "rbi_mpr_2025_04_p011_c02",
+            "rbi_mpr_2025_04_p030_c01"
+          ],
+          "retrieved_pages": [
+            105,
+            104,
+            11,
+            30
+          ],
+          "raw_scores": [
+            4.693975448608398,
+            4.140515327453613,
+            2.327934980392456,
+            1.5042166709899902
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 1244.0133999916725
+        },
+        {
+          "pipeline": "dense_reranked",
+          "question_id": "q30",
+          "question": "How did Russia's CPI inflation move between September 2024 and February 2025?",
+          "accepted_pages": [
+            106
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p106_c00",
+            "rbi_mpr_2025_04_p105_c03",
+            "rbi_mpr_2025_04_p039_c02",
+            "rbi_mpr_2025_04_p039_c01"
+          ],
+          "retrieved_pages": [
+            106,
+            105,
+            39,
+            39
+          ],
+          "raw_scores": [
+            7.523594856262207,
+            6.486532211303711,
+            5.527957916259766,
+            5.48021125793457
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 1093.5124999959953
+        }
+      ]
+    },
+    {
+      "strategy": "bm25",
+      "question_count": 30,
+      "hit_rate_at_k": 0.8333333333333334,
+      "mrr": 0.6916666666666667,
+      "mean_latency_ms": 2.1740566667479775,
+      "details": [
+        {
+          "pipeline": "bm25",
+          "question_id": "q01",
+          "question": "What was India's real GDP growth for 2024-25 per the second advance estimate?",
+          "accepted_pages": [
+            11
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p011_c04",
+            "rbi_mpr_2025_04_p100_c02",
+            "rbi_mpr_2025_04_p013_c00",
+            "rbi_mpr_2025_04_p012_c04"
+          ],
+          "retrieved_pages": [
+            11,
+            100,
+            13,
+            12
+          ],
+          "raw_scores": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 15.883299987763166
+        },
+        {
+          "pipeline": "bm25",
+          "question_id": "q02",
+          "question": "By how much was the Cash Reserve Ratio (CRR) reduced in December 2024?",
+          "accepted_pages": [
+            12
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p069_c02",
+            "rbi_mpr_2025_04_p012_c00",
+            "rbi_mpr_2025_04_p012_c01",
+            "rbi_mpr_2025_04_p012_c03"
+          ],
+          "retrieved_pages": [
+            69,
+            12,
+            12,
+            12
+          ],
+          "raw_scores": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "rank_first_accepted_page": 2,
+          "hit": true,
+          "reciprocal_rank": 0.5,
+          "latency_ms": 3.1364999595098197
+        },
+        {
+          "pipeline": "bm25",
+          "question_id": "q03",
+          "question": "What did the MPC decide at its February 2025 meeting?",
+          "accepted_pages": [
+            13
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p012_c00",
+            "rbi_mpr_2025_04_p013_c02",
+            "rbi_mpr_2025_04_p012_c03",
+            "rbi_mpr_2025_04_p105_c01"
+          ],
+          "retrieved_pages": [
+            12,
+            13,
+            12,
+            105
+          ],
+          "raw_scores": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "rank_first_accepted_page": 2,
+          "hit": true,
+          "reciprocal_rank": 0.5,
+          "latency_ms": 1.6246000304818153
+        },
+        {
+          "pipeline": "bm25",
+          "question_id": "q04",
+          "question": "What model is used in Box I.1 to study inflation expectations of economic agents?",
+          "accepted_pages": [
+            16
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p016_c00",
+            "rbi_mpr_2025_04_p016_c01",
+            "rbi_mpr_2025_04_p073_c03",
+            "rbi_mpr_2025_04_p028_c03"
+          ],
+          "retrieved_pages": [
+            16,
+            16,
+            73,
+            28
+          ],
+          "raw_scores": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 2.0394999883137643
+        },
+        {
+          "pipeline": "bm25",
+          "question_id": "q05",
+          "question": "What did professional forecasters project for CPI inflation in Q4:2024-25 as per the March 2025 survey?",
+          "accepted_pages": [
+            17
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p017_c01",
+            "rbi_mpr_2025_04_p017_c00",
+            "rbi_mpr_2025_04_p019_c02",
+            "rbi_mpr_2025_04_p105_c02"
+          ],
+          "retrieved_pages": [
+            17,
+            17,
+            19,
+            105
+          ],
+          "raw_scores": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 2.9599000117741525
+        },
+        {
+          "pipeline": "bm25",
+          "question_id": "q06",
+          "question": "What is the CPI inflation projection for 2025-26?",
+          "accepted_pages": [
+            18
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p013_c02",
+            "rbi_mpr_2025_04_p012_c05",
+            "rbi_mpr_2025_04_p016_c00",
+            "rbi_mpr_2025_04_p012_c03"
+          ],
+          "retrieved_pages": [
+            13,
+            12,
+            16,
+            12
+          ],
+          "raw_scores": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "rank_first_accepted_page": null,
+          "hit": false,
+          "reciprocal_rank": 0.0,
+          "latency_ms": 1.2593999854288995
+        },
+        {
+          "pipeline": "bm25",
+          "question_id": "q07",
+          "question": "What is the real GDP growth projection for 2025-26?",
+          "accepted_pages": [
+            20
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p020_c00",
+            "rbi_mpr_2025_04_p021_c03",
+            "rbi_mpr_2025_04_p012_c05",
+            "rbi_mpr_2025_04_p019_c02"
+          ],
+          "retrieved_pages": [
+            20,
+            21,
+            12,
+            19
+          ],
+          "raw_scores": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 1.2206999817863107
+        },
+        {
+          "pipeline": "bm25",
+          "question_id": "q08",
+          "question": "Where did headline CPI inflation stand relative to the target by February 2025?",
+          "accepted_pages": [
+            25
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p025_c00",
+            "rbi_mpr_2025_04_p025_c02",
+            "rbi_mpr_2025_04_p046_c00",
+            "rbi_mpr_2025_04_p105_c02"
+          ],
+          "retrieved_pages": [
+            25,
+            25,
+            46,
+            105
+          ],
+          "raw_scores": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 1.782100007403642
+        },
+        {
+          "pipeline": "bm25",
+          "question_id": "q09",
+          "question": "How much did headline inflation surge from August to September 2024?",
+          "accepted_pages": [
+            26
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p026_c00",
+            "rbi_mpr_2025_04_p025_c01",
+            "rbi_mpr_2025_04_p025_c00",
+            "rbi_mpr_2025_04_p105_c02"
+          ],
+          "retrieved_pages": [
+            26,
+            25,
+            25,
+            105
+          ],
+          "raw_scores": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 1.9699999829754233
+        },
+        {
+          "pipeline": "bm25",
+          "question_id": "q10",
+          "question": "What was food inflation in February 2025?",
+          "accepted_pages": [
+            31
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p042_c00",
+            "rbi_mpr_2025_04_p016_c00",
+            "rbi_mpr_2025_04_p025_c01",
+            "rbi_mpr_2025_04_p030_c01"
+          ],
+          "retrieved_pages": [
+            42,
+            16,
+            25,
+            30
+          ],
+          "raw_scores": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "rank_first_accepted_page": null,
+          "hit": false,
+          "reciprocal_rank": 0.0,
+          "latency_ms": 1.1151000508107245
+        },
+        {
+          "pipeline": "bm25",
+          "question_id": "q11",
+          "question": "How did cereals inflation move from October 2024 to February 2025?",
+          "accepted_pages": [
+            32
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p041_c00",
+            "rbi_mpr_2025_04_p025_c01",
+            "rbi_mpr_2025_04_p105_c02",
+            "rbi_mpr_2025_04_p023_c01"
+          ],
+          "retrieved_pages": [
+            41,
+            25,
+            105,
+            23
+          ],
+          "raw_scores": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "rank_first_accepted_page": null,
+          "hit": false,
+          "reciprocal_rank": 0.0,
+          "latency_ms": 1.4333000290207565
+        },
+        {
+          "pipeline": "bm25",
+          "question_id": "q12",
+          "question": "What mainly drove the pick-up in core inflation between August 2024 and February 2025?",
+          "accepted_pages": [
+            40
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p040_c00",
+            "rbi_mpr_2025_04_p039_c00",
+            "rbi_mpr_2025_04_p041_c00",
+            "rbi_mpr_2025_04_p026_c01"
+          ],
+          "retrieved_pages": [
+            40,
+            39,
+            41,
+            26
+          ],
+          "raw_scores": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 1.9541000365279615
+        },
+        {
+          "pipeline": "bm25",
+          "question_id": "q13",
+          "question": "What was PFCE growth in Q3:2024-25 and its contribution to GDP growth?",
+          "accepted_pages": [
+            48
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p049_c02",
+            "rbi_mpr_2025_04_p049_c03",
+            "rbi_mpr_2025_04_p048_c02",
+            "rbi_mpr_2025_04_p030_c01"
+          ],
+          "retrieved_pages": [
+            49,
+            49,
+            48,
+            30
+          ],
+          "raw_scores": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "rank_first_accepted_page": 3,
+          "hit": true,
+          "reciprocal_rank": 0.3333333333333333,
+          "latency_ms": 2.0742000197060406
+        },
+        {
+          "pipeline": "bm25",
+          "question_id": "q14",
+          "question": "How much did domestic air passenger traffic grow in Q3:2024-25?",
+          "accepted_pages": [
+            49
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p066_c00",
+            "rbi_mpr_2025_04_p048_c00",
+            "rbi_mpr_2025_04_p067_c00",
+            "rbi_mpr_2025_04_p012_c04"
+          ],
+          "retrieved_pages": [
+            66,
+            48,
+            67,
+            12
+          ],
+          "raw_scores": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "rank_first_accepted_page": null,
+          "hit": false,
+          "reciprocal_rank": 0.0,
+          "latency_ms": 1.4486000291071832
+        },
+        {
+          "pipeline": "bm25",
+          "question_id": "q15",
+          "question": "What was India's investment rate in 2023-24?",
+          "accepted_pages": [
+            52
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p016_c00",
+            "rbi_mpr_2025_04_p012_c04",
+            "rbi_mpr_2025_04_p047_c00",
+            "rbi_mpr_2025_04_p075_c00"
+          ],
+          "retrieved_pages": [
+            16,
+            12,
+            47,
+            75
+          ],
+          "raw_scores": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "rank_first_accepted_page": null,
+          "hit": false,
+          "reciprocal_rank": 0.0,
+          "latency_ms": 0.9498000144958496
+        },
+        {
+          "pipeline": "bm25",
+          "question_id": "q16",
+          "question": "What were the Centre's gross market borrowings in 2024-25?",
+          "accepted_pages": [
+            57
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p057_c01",
+            "rbi_mpr_2025_04_p057_c00",
+            "rbi_mpr_2025_04_p042_c01",
+            "rbi_mpr_2025_04_p057_c03"
+          ],
+          "retrieved_pages": [
+            57,
+            57,
+            42,
+            57
+          ],
+          "raw_scores": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 1.2531999964267015
+        },
+        {
+          "pipeline": "bm25",
+          "question_id": "q17",
+          "question": "What was foodgrains production per the second advance estimate for 2024-25?",
+          "accepted_pages": [
+            61
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p061_c00",
+            "rbi_mpr_2025_04_p032_c00",
+            "rbi_mpr_2025_04_p061_c01",
+            "rbi_mpr_2025_04_p035_c00"
+          ],
+          "retrieved_pages": [
+            61,
+            32,
+            61,
+            35
+          ],
+          "raw_scores": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 1.5257999766618013
+        },
+        {
+          "pipeline": "bm25",
+          "question_id": "q18",
+          "question": "What was rice procurement as of March 31, 2025?",
+          "accepted_pages": [
+            62
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p062_c00",
+            "rbi_mpr_2025_04_p033_c00",
+            "rbi_mpr_2025_04_p035_c01",
+            "rbi_mpr_2025_04_p016_c00"
+          ],
+          "retrieved_pages": [
+            62,
+            33,
+            35,
+            16
+          ],
+          "raw_scores": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 2.115999988745898
+        },
+        {
+          "pipeline": "bm25",
+          "question_id": "q19",
+          "question": "How did industrial sector growth move in 2024-25 per the second advance estimate?",
+          "accepted_pages": [
+            63
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p061_c00",
+            "rbi_mpr_2025_04_p063_c00",
+            "rbi_mpr_2025_04_p013_c01",
+            "rbi_mpr_2025_04_p011_c04"
+          ],
+          "retrieved_pages": [
+            61,
+            63,
+            13,
+            11
+          ],
+          "raw_scores": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "rank_first_accepted_page": 2,
+          "hit": true,
+          "reciprocal_rank": 0.5,
+          "latency_ms": 2.23869999172166
+        },
+        {
+          "pipeline": "bm25",
+          "question_id": "q20",
+          "question": "What were the major drivers of liquidity during H2:2024-25?",
+          "accepted_pages": [
+            70
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p070_c00",
+            "rbi_mpr_2025_04_p077_c00",
+            "rbi_mpr_2025_04_p071_c03",
+            "rbi_mpr_2025_04_p071_c04"
+          ],
+          "retrieved_pages": [
+            70,
+            77,
+            71,
+            71
+          ],
+          "raw_scores": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 1.4392000157386065
+        },
+        {
+          "pipeline": "bm25",
+          "question_id": "q21",
+          "question": "What was the average daily net absorption under the LAF in Q3:2024-25?",
+          "accepted_pages": [
+            71
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p069_c05",
+            "rbi_mpr_2025_04_p069_c04",
+            "rbi_mpr_2025_04_p071_c01",
+            "rbi_mpr_2025_04_p071_c00"
+          ],
+          "retrieved_pages": [
+            69,
+            69,
+            71,
+            71
+          ],
+          "raw_scores": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "rank_first_accepted_page": 3,
+          "hit": true,
+          "reciprocal_rank": 0.3333333333333333,
+          "latency_ms": 1.6091999714262784
+        },
+        {
+          "pipeline": "bm25",
+          "question_id": "q22",
+          "question": "What was Reserve Money (RM) growth as of March 28, 2025?",
+          "accepted_pages": [
+            73
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p073_c00",
+            "rbi_mpr_2025_04_p087_c01",
+            "rbi_mpr_2025_04_p070_c02",
+            "rbi_mpr_2025_04_p087_c00"
+          ],
+          "retrieved_pages": [
+            73,
+            87,
+            70,
+            87
+          ],
+          "raw_scores": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 2.153499983251095
+        },
+        {
+          "pipeline": "bm25",
+          "question_id": "q23",
+          "question": "What range did the 10-year G-sec yield move in during H2:2024-25?",
+          "accepted_pages": [
+            78
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p078_c00",
+            "rbi_mpr_2025_04_p113_c01",
+            "rbi_mpr_2025_04_p113_c02",
+            "rbi_mpr_2025_04_p079_c00"
+          ],
+          "retrieved_pages": [
+            78,
+            113,
+            113,
+            79
+          ],
+          "raw_scores": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 1.4460000093095005
+        },
+        {
+          "pipeline": "bm25",
+          "question_id": "q24",
+          "question": "What was the weighted average maturity of outstanding G-secs at end-March 2025?",
+          "accepted_pages": [
+            80
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p080_c00",
+            "rbi_mpr_2025_04_p093_c01",
+            "rbi_mpr_2025_04_p079_c00",
+            "rbi_mpr_2025_04_p057_c00"
+          ],
+          "retrieved_pages": [
+            80,
+            93,
+            79,
+            57
+          ],
+          "raw_scores": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 1.4216999989002943
+        },
+        {
+          "pipeline": "bm25",
+          "question_id": "q25",
+          "question": "How much did credit to MSMEs grow in February 2025?",
+          "accepted_pages": [
+            89
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p089_c00",
+            "rbi_mpr_2025_04_p090_c00",
+            "rbi_mpr_2025_04_p089_c02",
+            "rbi_mpr_2025_04_p090_c01"
+          ],
+          "retrieved_pages": [
+            89,
+            90,
+            89,
+            90
+          ],
+          "raw_scores": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 1.1568000190891325
+        },
+        {
+          "pipeline": "bm25",
+          "question_id": "q26",
+          "question": "By how much did the 1-year median MCLR rise during the May 2022 to January 2025 tightening cycle?",
+          "accepted_pages": [
+            93
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p093_c00",
+            "rbi_mpr_2025_04_p094_c02",
+            "rbi_mpr_2025_04_p108_c02",
+            "rbi_mpr_2025_04_p095_c02"
+          ],
+          "retrieved_pages": [
+            93,
+            94,
+            108,
+            95
+          ],
+          "raw_scores": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 2.9628999764099717
+        },
+        {
+          "pipeline": "bm25",
+          "question_id": "q27",
+          "question": "How did Euro area and UK GDP growth compare in Q4:2024?",
+          "accepted_pages": [
+            100
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p100_c03",
+            "rbi_mpr_2025_04_p100_c00",
+            "rbi_mpr_2025_04_p102_c03",
+            "rbi_mpr_2025_04_p106_c02"
+          ],
+          "retrieved_pages": [
+            100,
+            100,
+            102,
+            106
+          ],
+          "raw_scores": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 1.4461000100709498
+        },
+        {
+          "pipeline": "bm25",
+          "question_id": "q28",
+          "question": "How did Brazil's GDP growth move in Q4:2024?",
+          "accepted_pages": [
+            101
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p048_c02",
+            "rbi_mpr_2025_04_p100_c02",
+            "rbi_mpr_2025_04_p020_c00",
+            "rbi_mpr_2025_04_p101_c00"
+          ],
+          "retrieved_pages": [
+            48,
+            100,
+            20,
+            101
+          ],
+          "raw_scores": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "rank_first_accepted_page": 4,
+          "hit": true,
+          "reciprocal_rank": 0.25,
+          "latency_ms": 0.8844999829307199
+        },
+        {
+          "pipeline": "bm25",
+          "question_id": "q29",
+          "question": "What milestone did gold prices cross in Q1:2025?",
+          "accepted_pages": [
+            105
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p105_c00",
+            "rbi_mpr_2025_04_p030_c02",
+            "rbi_mpr_2025_04_p046_c01",
+            "rbi_mpr_2025_04_p039_c01"
+          ],
+          "retrieved_pages": [
+            105,
+            30,
+            46,
+            39
+          ],
+          "raw_scores": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 0.9896999690681696
+        },
+        {
+          "pipeline": "bm25",
+          "question_id": "q30",
+          "question": "How did Russia's CPI inflation move between September 2024 and February 2025?",
+          "accepted_pages": [
+            106
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p026_c01",
+            "rbi_mpr_2025_04_p105_c02",
+            "rbi_mpr_2025_04_p106_c00",
+            "rbi_mpr_2025_04_p105_c01"
+          ],
+          "retrieved_pages": [
+            26,
+            105,
+            106,
+            105
+          ],
+          "raw_scores": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "rank_first_accepted_page": 3,
+          "hit": true,
+          "reciprocal_rank": 0.3333333333333333,
+          "latency_ms": 1.7272999975830317
+        }
+      ]
+    },
+    {
+      "strategy": "bm25_reranked",
+      "question_count": 30,
+      "hit_rate_at_k": 0.8666666666666667,
+      "mrr": 0.7666666666666667,
+      "mean_latency_ms": 785.4780566645786,
+      "details": [
+        {
+          "pipeline": "bm25_reranked",
+          "question_id": "q01",
+          "question": "What was India's real GDP growth for 2024-25 per the second advance estimate?",
+          "accepted_pages": [
+            11
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p011_c04",
+            "rbi_mpr_2025_04_p013_c01",
+            "rbi_mpr_2025_04_p012_c05",
+            "rbi_mpr_2025_04_p020_c00"
+          ],
+          "retrieved_pages": [
+            11,
+            13,
+            12,
+            20
+          ],
+          "raw_scores": [
+            7.407985687255859,
+            7.195098400115967,
+            4.438573837280273,
+            4.3146514892578125
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 845.3339000116102
+        },
+        {
+          "pipeline": "bm25_reranked",
+          "question_id": "q02",
+          "question": "By how much was the Cash Reserve Ratio (CRR) reduced in December 2024?",
+          "accepted_pages": [
+            12
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p069_c02",
+            "rbi_mpr_2025_04_p073_c00",
+            "rbi_mpr_2025_04_p012_c00",
+            "rbi_mpr_2025_04_p012_c01"
+          ],
+          "retrieved_pages": [
+            69,
+            73,
+            12,
+            12
+          ],
+          "raw_scores": [
+            6.031465530395508,
+            5.4958930015563965,
+            5.334164142608643,
+            5.173666000366211
+          ],
+          "rank_first_accepted_page": 3,
+          "hit": true,
+          "reciprocal_rank": 0.3333333333333333,
+          "latency_ms": 685.8474999899045
+        },
+        {
+          "pipeline": "bm25_reranked",
+          "question_id": "q03",
+          "question": "What did the MPC decide at its February 2025 meeting?",
+          "accepted_pages": [
+            13
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p012_c00",
+            "rbi_mpr_2025_04_p012_c03",
+            "rbi_mpr_2025_04_p013_c03",
+            "rbi_mpr_2025_04_p069_c04"
+          ],
+          "retrieved_pages": [
+            12,
+            12,
+            13,
+            69
+          ],
+          "raw_scores": [
+            4.1888933181762695,
+            3.3720240592956543,
+            3.111870765686035,
+            2.077803611755371
+          ],
+          "rank_first_accepted_page": 3,
+          "hit": true,
+          "reciprocal_rank": 0.3333333333333333,
+          "latency_ms": 664.5456000114791
+        },
+        {
+          "pipeline": "bm25_reranked",
+          "question_id": "q04",
+          "question": "What model is used in Box I.1 to study inflation expectations of economic agents?",
+          "accepted_pages": [
+            16
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p016_c00",
+            "rbi_mpr_2025_04_p016_c01",
+            "rbi_mpr_2025_04_p005_c00",
+            "rbi_mpr_2025_04_p015_c02"
+          ],
+          "retrieved_pages": [
+            16,
+            16,
+            5,
+            15
+          ],
+          "raw_scores": [
+            7.56110143661499,
+            5.310633659362793,
+            3.182614326477051,
+            2.135528326034546
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 615.4725000378676
+        },
+        {
+          "pipeline": "bm25_reranked",
+          "question_id": "q05",
+          "question": "What did professional forecasters project for CPI inflation in Q4:2024-25 as per the March 2025 survey?",
+          "accepted_pages": [
+            17
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p017_c01",
+            "rbi_mpr_2025_04_p017_c00",
+            "rbi_mpr_2025_04_p019_c02",
+            "rbi_mpr_2025_04_p046_c00"
+          ],
+          "retrieved_pages": [
+            17,
+            17,
+            19,
+            46
+          ],
+          "raw_scores": [
+            7.8063249588012695,
+            6.170856475830078,
+            4.194816589355469,
+            3.3125009536743164
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 627.0006999839097
+        },
+        {
+          "pipeline": "bm25_reranked",
+          "question_id": "q06",
+          "question": "What is the CPI inflation projection for 2025-26?",
+          "accepted_pages": [
+            18
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p013_c02",
+            "rbi_mpr_2025_04_p012_c05",
+            "rbi_mpr_2025_04_p012_c03",
+            "rbi_mpr_2025_04_p013_c01"
+          ],
+          "retrieved_pages": [
+            13,
+            12,
+            12,
+            13
+          ],
+          "raw_scores": [
+            9.009799003601074,
+            7.461174964904785,
+            7.45068359375,
+            7.179372787475586
+          ],
+          "rank_first_accepted_page": null,
+          "hit": false,
+          "reciprocal_rank": 0.0,
+          "latency_ms": 602.8179000131786
+        },
+        {
+          "pipeline": "bm25_reranked",
+          "question_id": "q07",
+          "question": "What is the real GDP growth projection for 2025-26?",
+          "accepted_pages": [
+            20
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p013_c01",
+            "rbi_mpr_2025_04_p020_c00",
+            "rbi_mpr_2025_04_p012_c05",
+            "rbi_mpr_2025_04_p012_c04"
+          ],
+          "retrieved_pages": [
+            13,
+            20,
+            12,
+            12
+          ],
+          "raw_scores": [
+            9.356037139892578,
+            8.09813404083252,
+            7.546909332275391,
+            6.8238115310668945
+          ],
+          "rank_first_accepted_page": 2,
+          "hit": true,
+          "reciprocal_rank": 0.5,
+          "latency_ms": 729.5140999485739
+        },
+        {
+          "pipeline": "bm25_reranked",
+          "question_id": "q08",
+          "question": "Where did headline CPI inflation stand relative to the target by February 2025?",
+          "accepted_pages": [
+            25
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p025_c00",
+            "rbi_mpr_2025_04_p025_c02",
+            "rbi_mpr_2025_04_p025_c01",
+            "rbi_mpr_2025_04_p026_c00"
+          ],
+          "retrieved_pages": [
+            25,
+            25,
+            25,
+            26
+          ],
+          "raw_scores": [
+            6.018728256225586,
+            5.374889373779297,
+            4.860240459442139,
+            4.719167709350586
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 616.5279000415467
+        },
+        {
+          "pipeline": "bm25_reranked",
+          "question_id": "q09",
+          "question": "How much did headline inflation surge from August to September 2024?",
+          "accepted_pages": [
+            26
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p026_c00",
+            "rbi_mpr_2025_04_p025_c00",
+            "rbi_mpr_2025_04_p105_c03",
+            "rbi_mpr_2025_04_p025_c01"
+          ],
+          "retrieved_pages": [
+            26,
+            25,
+            105,
+            25
+          ],
+          "raw_scores": [
+            7.742739677429199,
+            6.672487258911133,
+            6.19986629486084,
+            5.972634792327881
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 989.7858999902382
+        },
+        {
+          "pipeline": "bm25_reranked",
+          "question_id": "q10",
+          "question": "What was food inflation in February 2025?",
+          "accepted_pages": [
+            31
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p025_c01",
+            "rbi_mpr_2025_04_p038_c00",
+            "rbi_mpr_2025_04_p030_c01",
+            "rbi_mpr_2025_04_p026_c01"
+          ],
+          "retrieved_pages": [
+            25,
+            38,
+            30,
+            26
+          ],
+          "raw_scores": [
+            7.61752986907959,
+            7.340142250061035,
+            7.27596378326416,
+            6.064052581787109
+          ],
+          "rank_first_accepted_page": null,
+          "hit": false,
+          "reciprocal_rank": 0.0,
+          "latency_ms": 688.343999965582
+        },
+        {
+          "pipeline": "bm25_reranked",
+          "question_id": "q11",
+          "question": "How did cereals inflation move from October 2024 to February 2025?",
+          "accepted_pages": [
+            32
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p025_c01",
+            "rbi_mpr_2025_04_p025_c00",
+            "rbi_mpr_2025_04_p012_c00",
+            "rbi_mpr_2025_04_p023_c01"
+          ],
+          "retrieved_pages": [
+            25,
+            25,
+            12,
+            23
+          ],
+          "raw_scores": [
+            5.5880537033081055,
+            4.77730655670166,
+            4.320079326629639,
+            4.275071144104004
+          ],
+          "rank_first_accepted_page": null,
+          "hit": false,
+          "reciprocal_rank": 0.0,
+          "latency_ms": 729.7577999997884
+        },
+        {
+          "pipeline": "bm25_reranked",
+          "question_id": "q12",
+          "question": "What mainly drove the pick-up in core inflation between August 2024 and February 2025?",
+          "accepted_pages": [
+            40
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p040_c00",
+            "rbi_mpr_2025_04_p041_c00",
+            "rbi_mpr_2025_04_p039_c01",
+            "rbi_mpr_2025_04_p025_c03"
+          ],
+          "retrieved_pages": [
+            40,
+            41,
+            39,
+            25
+          ],
+          "raw_scores": [
+            8.15629768371582,
+            8.086000442504883,
+            7.952387809753418,
+            6.42597770690918
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 604.0259999572299
+        },
+        {
+          "pipeline": "bm25_reranked",
+          "question_id": "q13",
+          "question": "What was PFCE growth in Q3:2024-25 and its contribution to GDP growth?",
+          "accepted_pages": [
+            48
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p049_c02",
+            "rbi_mpr_2025_04_p048_c02",
+            "rbi_mpr_2025_04_p012_c04",
+            "rbi_mpr_2025_04_p011_c04"
+          ],
+          "retrieved_pages": [
+            49,
+            48,
+            12,
+            11
+          ],
+          "raw_scores": [
+            6.045489311218262,
+            5.120542049407959,
+            3.985140800476074,
+            3.67240834236145
+          ],
+          "rank_first_accepted_page": 2,
+          "hit": true,
+          "reciprocal_rank": 0.5,
+          "latency_ms": 712.1443999931216
+        },
+        {
+          "pipeline": "bm25_reranked",
+          "question_id": "q14",
+          "question": "How much did domestic air passenger traffic grow in Q3:2024-25?",
+          "accepted_pages": [
+            49
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p048_c00",
+            "rbi_mpr_2025_04_p066_c00",
+            "rbi_mpr_2025_04_p066_c01",
+            "rbi_mpr_2025_04_p067_c00"
+          ],
+          "retrieved_pages": [
+            48,
+            66,
+            66,
+            67
+          ],
+          "raw_scores": [
+            8.140196800231934,
+            7.125303745269775,
+            5.077771186828613,
+            4.337129592895508
+          ],
+          "rank_first_accepted_page": null,
+          "hit": false,
+          "reciprocal_rank": 0.0,
+          "latency_ms": 909.8338999901898
+        },
+        {
+          "pipeline": "bm25_reranked",
+          "question_id": "q15",
+          "question": "What was India's investment rate in 2023-24?",
+          "accepted_pages": [
+            52
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p052_c00",
+            "rbi_mpr_2025_04_p051_c02",
+            "rbi_mpr_2025_04_p047_c00",
+            "rbi_mpr_2025_04_p012_c04"
+          ],
+          "retrieved_pages": [
+            52,
+            51,
+            47,
+            12
+          ],
+          "raw_scores": [
+            4.889862060546875,
+            2.854921579360962,
+            0.9839233756065369,
+            0.2835673987865448
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 867.2594000236131
+        },
+        {
+          "pipeline": "bm25_reranked",
+          "question_id": "q16",
+          "question": "What were the Centre's gross market borrowings in 2024-25?",
+          "accepted_pages": [
+            57
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p057_c00",
+            "rbi_mpr_2025_04_p057_c01",
+            "rbi_mpr_2025_04_p057_c03",
+            "rbi_mpr_2025_04_p076_c00"
+          ],
+          "retrieved_pages": [
+            57,
+            57,
+            57,
+            76
+          ],
+          "raw_scores": [
+            9.051163673400879,
+            6.726776123046875,
+            6.460901737213135,
+            1.4532554149627686
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 770.9672000491992
+        },
+        {
+          "pipeline": "bm25_reranked",
+          "question_id": "q17",
+          "question": "What was foodgrains production per the second advance estimate for 2024-25?",
+          "accepted_pages": [
+            61
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p061_c00",
+            "rbi_mpr_2025_04_p061_c01",
+            "rbi_mpr_2025_04_p013_c01",
+            "rbi_mpr_2025_04_p036_c01"
+          ],
+          "retrieved_pages": [
+            61,
+            61,
+            13,
+            36
+          ],
+          "raw_scores": [
+            8.52232551574707,
+            5.114699840545654,
+            4.005492687225342,
+            3.8887698650360107
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 602.9925000038929
+        },
+        {
+          "pipeline": "bm25_reranked",
+          "question_id": "q18",
+          "question": "What was rice procurement as of March 31, 2025?",
+          "accepted_pages": [
+            62
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p062_c00",
+            "rbi_mpr_2025_04_p033_c00",
+            "rbi_mpr_2025_04_p032_c00",
+            "rbi_mpr_2025_04_p035_c01"
+          ],
+          "retrieved_pages": [
+            62,
+            33,
+            32,
+            35
+          ],
+          "raw_scores": [
+            7.814657688140869,
+            3.7418928146362305,
+            -0.2194613814353943,
+            -0.7236810922622681
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 836.2613000208512
+        },
+        {
+          "pipeline": "bm25_reranked",
+          "question_id": "q19",
+          "question": "How did industrial sector growth move in 2024-25 per the second advance estimate?",
+          "accepted_pages": [
+            63
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p013_c01",
+            "rbi_mpr_2025_04_p011_c04",
+            "rbi_mpr_2025_04_p063_c00",
+            "rbi_mpr_2025_04_p061_c00"
+          ],
+          "retrieved_pages": [
+            13,
+            11,
+            63,
+            61
+          ],
+          "raw_scores": [
+            5.889705657958984,
+            5.521368980407715,
+            5.39211893081665,
+            3.231717109680176
+          ],
+          "rank_first_accepted_page": 3,
+          "hit": true,
+          "reciprocal_rank": 0.3333333333333333,
+          "latency_ms": 710.2690999745391
+        },
+        {
+          "pipeline": "bm25_reranked",
+          "question_id": "q20",
+          "question": "What were the major drivers of liquidity during H2:2024-25?",
+          "accepted_pages": [
+            70
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p070_c00",
+            "rbi_mpr_2025_04_p075_c00",
+            "rbi_mpr_2025_04_p077_c01",
+            "rbi_mpr_2025_04_p077_c00"
+          ],
+          "retrieved_pages": [
+            70,
+            75,
+            77,
+            77
+          ],
+          "raw_scores": [
+            8.518045425415039,
+            5.003409385681152,
+            4.870766639709473,
+            4.464363098144531
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 825.3546999767423
+        },
+        {
+          "pipeline": "bm25_reranked",
+          "question_id": "q21",
+          "question": "What was the average daily net absorption under the LAF in Q3:2024-25?",
+          "accepted_pages": [
+            71
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p071_c00",
+            "rbi_mpr_2025_04_p069_c05",
+            "rbi_mpr_2025_04_p071_c01",
+            "rbi_mpr_2025_04_p069_c04"
+          ],
+          "retrieved_pages": [
+            71,
+            69,
+            71,
+            69
+          ],
+          "raw_scores": [
+            6.9259724617004395,
+            6.000217914581299,
+            5.2402544021606445,
+            4.8242268562316895
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 790.8824000041932
+        },
+        {
+          "pipeline": "bm25_reranked",
+          "question_id": "q22",
+          "question": "What was Reserve Money (RM) growth as of March 28, 2025?",
+          "accepted_pages": [
+            73
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p073_c00",
+            "rbi_mpr_2025_04_p060_c00",
+            "rbi_mpr_2025_04_p073_c01",
+            "rbi_mpr_2025_04_p019_c02"
+          ],
+          "retrieved_pages": [
+            73,
+            60,
+            73,
+            19
+          ],
+          "raw_scores": [
+            7.560876846313477,
+            4.895124435424805,
+            3.5199899673461914,
+            2.578303813934326
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 1018.0895000230521
+        },
+        {
+          "pipeline": "bm25_reranked",
+          "question_id": "q23",
+          "question": "What range did the 10-year G-sec yield move in during H2:2024-25?",
+          "accepted_pages": [
+            78
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p078_c00",
+            "rbi_mpr_2025_04_p079_c00",
+            "rbi_mpr_2025_04_p080_c01",
+            "rbi_mpr_2025_04_p080_c00"
+          ],
+          "retrieved_pages": [
+            78,
+            79,
+            80,
+            80
+          ],
+          "raw_scores": [
+            9.637723922729492,
+            5.440991401672363,
+            5.421534061431885,
+            5.156606674194336
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 977.1407999796793
+        },
+        {
+          "pipeline": "bm25_reranked",
+          "question_id": "q24",
+          "question": "What was the weighted average maturity of outstanding G-secs at end-March 2025?",
+          "accepted_pages": [
+            80
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p080_c00",
+            "rbi_mpr_2025_04_p080_c01",
+            "rbi_mpr_2025_04_p093_c01",
+            "rbi_mpr_2025_04_p079_c00"
+          ],
+          "retrieved_pages": [
+            80,
+            80,
+            93,
+            79
+          ],
+          "raw_scores": [
+            8.833587646484375,
+            1.8610079288482666,
+            1.2157461643218994,
+            1.065258264541626
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 726.9182000309229
+        },
+        {
+          "pipeline": "bm25_reranked",
+          "question_id": "q25",
+          "question": "How much did credit to MSMEs grow in February 2025?",
+          "accepted_pages": [
+            89
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p089_c00",
+            "rbi_mpr_2025_04_p088_c01",
+            "rbi_mpr_2025_04_p092_c01",
+            "rbi_mpr_2025_04_p088_c00"
+          ],
+          "retrieved_pages": [
+            89,
+            88,
+            92,
+            88
+          ],
+          "raw_scores": [
+            8.533510208129883,
+            5.435397624969482,
+            4.302279472351074,
+            1.8256752490997314
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 758.4175999509171
+        },
+        {
+          "pipeline": "bm25_reranked",
+          "question_id": "q26",
+          "question": "By how much did the 1-year median MCLR rise during the May 2022 to January 2025 tightening cycle?",
+          "accepted_pages": [
+            93
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p093_c00",
+            "rbi_mpr_2025_04_p094_c00",
+            "rbi_mpr_2025_04_p094_c03",
+            "rbi_mpr_2025_04_p044_c01"
+          ],
+          "retrieved_pages": [
+            93,
+            94,
+            94,
+            44
+          ],
+          "raw_scores": [
+            5.677552223205566,
+            0.9230092167854309,
+            0.4516008198261261,
+            -0.08841059356927872
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 718.5334000387229
+        },
+        {
+          "pipeline": "bm25_reranked",
+          "question_id": "q27",
+          "question": "How did Euro area and UK GDP growth compare in Q4:2024?",
+          "accepted_pages": [
+            100
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p100_c00",
+            "rbi_mpr_2025_04_p100_c03",
+            "rbi_mpr_2025_04_p020_c00",
+            "rbi_mpr_2025_04_p112_c03"
+          ],
+          "retrieved_pages": [
+            100,
+            100,
+            20,
+            112
+          ],
+          "raw_scores": [
+            7.2485671043396,
+            7.0083770751953125,
+            3.885507583618164,
+            3.1662070751190186
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 1226.5958999632858
+        },
+        {
+          "pipeline": "bm25_reranked",
+          "question_id": "q28",
+          "question": "How did Brazil's GDP growth move in Q4:2024?",
+          "accepted_pages": [
+            101
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p101_c00",
+            "rbi_mpr_2025_04_p100_c00",
+            "rbi_mpr_2025_04_p047_c02",
+            "rbi_mpr_2025_04_p012_c04"
+          ],
+          "retrieved_pages": [
+            101,
+            100,
+            47,
+            12
+          ],
+          "raw_scores": [
+            7.753942489624023,
+            3.5615956783294678,
+            2.9988036155700684,
+            2.9603917598724365
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 820.2706999727525
+        },
+        {
+          "pipeline": "bm25_reranked",
+          "question_id": "q29",
+          "question": "What milestone did gold prices cross in Q1:2025?",
+          "accepted_pages": [
+            105
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p105_c00",
+            "rbi_mpr_2025_04_p030_c01",
+            "rbi_mpr_2025_04_p103_c02",
+            "rbi_mpr_2025_04_p103_c01"
+          ],
+          "retrieved_pages": [
+            105,
+            30,
+            103,
+            103
+          ],
+          "raw_scores": [
+            4.693974494934082,
+            1.504217505455017,
+            0.7492097020149231,
+            0.5991526246070862
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 834.6356999827549
+        },
+        {
+          "pipeline": "bm25_reranked",
+          "question_id": "q30",
+          "question": "How did Russia's CPI inflation move between September 2024 and February 2025?",
+          "accepted_pages": [
+            106
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p106_c00",
+            "rbi_mpr_2025_04_p105_c03",
+            "rbi_mpr_2025_04_p039_c01",
+            "rbi_mpr_2025_04_p030_c00"
+          ],
+          "retrieved_pages": [
+            106,
+            105,
+            39,
+            30
+          ],
+          "raw_scores": [
+            7.523594856262207,
+            6.486532211303711,
+            5.48021125793457,
+            4.804625511169434
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 1058.8012000080198
+        }
+      ]
+    },
+    {
+      "strategy": "hybrid_rrf",
+      "question_count": 30,
+      "hit_rate_at_k": 0.8,
+      "mrr": 0.7444444444444444,
+      "mean_latency_ms": 25.771019995833438,
+      "details": [
+        {
+          "pipeline": "hybrid_rrf",
+          "question_id": "q01",
+          "question": "What was India's real GDP growth for 2024-25 per the second advance estimate?",
+          "accepted_pages": [
+            11
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p011_c04",
+            "rbi_mpr_2025_04_p012_c04",
+            "rbi_mpr_2025_04_p013_c00",
+            "rbi_mpr_2025_04_p100_c02"
+          ],
+          "retrieved_pages": [
+            11,
+            12,
+            13,
+            100
+          ],
+          "raw_scores": [
+            0.032266458495966696,
+            0.032018442622950824,
+            0.03057889822595705,
+            0.030017921146953404
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 36.00449999794364
+        },
+        {
+          "pipeline": "hybrid_rrf",
+          "question_id": "q02",
+          "question": "By how much was the Cash Reserve Ratio (CRR) reduced in December 2024?",
+          "accepted_pages": [
+            12
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p012_c00",
+            "rbi_mpr_2025_04_p069_c02",
+            "rbi_mpr_2025_04_p073_c00",
+            "rbi_mpr_2025_04_p012_c01"
+          ],
+          "retrieved_pages": [
+            12,
+            69,
+            73,
+            12
+          ],
+          "raw_scores": [
+            0.03252247488101534,
+            0.032266458495966696,
+            0.03128054740957967,
+            0.02976190476190476
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 27.28969999589026
+        },
+        {
+          "pipeline": "hybrid_rrf",
+          "question_id": "q03",
+          "question": "What did the MPC decide at its February 2025 meeting?",
+          "accepted_pages": [
+            13
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p012_c00",
+            "rbi_mpr_2025_04_p013_c02",
+            "rbi_mpr_2025_04_p012_c03",
+            "rbi_mpr_2025_04_p013_c03"
+          ],
+          "retrieved_pages": [
+            12,
+            13,
+            12,
+            13
+          ],
+          "raw_scores": [
+            0.03278688524590164,
+            0.03200204813108039,
+            0.03200204813108039,
+            0.029910714285714284
+          ],
+          "rank_first_accepted_page": 2,
+          "hit": true,
+          "reciprocal_rank": 0.5,
+          "latency_ms": 22.581700002774596
+        },
+        {
+          "pipeline": "hybrid_rrf",
+          "question_id": "q04",
+          "question": "What model is used in Box I.1 to study inflation expectations of economic agents?",
+          "accepted_pages": [
+            16
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p016_c00",
+            "rbi_mpr_2025_04_p028_c03",
+            "rbi_mpr_2025_04_p016_c01",
+            "rbi_mpr_2025_04_p016_c03"
+          ],
+          "retrieved_pages": [
+            16,
+            28,
+            16,
+            16
+          ],
+          "raw_scores": [
+            0.032018442622950824,
+            0.03149801587301587,
+            0.03128054740957967,
+            0.030834914611005692
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 25.103399995714426
+        },
+        {
+          "pipeline": "hybrid_rrf",
+          "question_id": "q05",
+          "question": "What did professional forecasters project for CPI inflation in Q4:2024-25 as per the March 2025 survey?",
+          "accepted_pages": [
+            17
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p017_c01",
+            "rbi_mpr_2025_04_p017_c00",
+            "rbi_mpr_2025_04_p046_c00",
+            "rbi_mpr_2025_04_p105_c01"
+          ],
+          "retrieved_pages": [
+            17,
+            17,
+            46,
+            105
+          ],
+          "raw_scores": [
+            0.03252247488101534,
+            0.0315136476426799,
+            0.030090497737556562,
+            0.028484848484848488
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 26.305200008209795
+        },
+        {
+          "pipeline": "hybrid_rrf",
+          "question_id": "q06",
+          "question": "What is the CPI inflation projection for 2025-26?",
+          "accepted_pages": [
+            18
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p012_c05",
+            "rbi_mpr_2025_04_p012_c02",
+            "rbi_mpr_2025_04_p028_c03",
+            "rbi_mpr_2025_04_p013_c02"
+          ],
+          "retrieved_pages": [
+            12,
+            12,
+            28,
+            13
+          ],
+          "raw_scores": [
+            0.031754032258064516,
+            0.03076923076923077,
+            0.029418126757516764,
+            0.01639344262295082
+          ],
+          "rank_first_accepted_page": null,
+          "hit": false,
+          "reciprocal_rank": 0.0,
+          "latency_ms": 26.89849998569116
+        },
+        {
+          "pipeline": "hybrid_rrf",
+          "question_id": "q07",
+          "question": "What is the real GDP growth projection for 2025-26?",
+          "accepted_pages": [
+            20
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p020_c00",
+            "rbi_mpr_2025_04_p021_c03",
+            "rbi_mpr_2025_04_p011_c04",
+            "rbi_mpr_2025_04_p012_c04"
+          ],
+          "retrieved_pages": [
+            20,
+            21,
+            11,
+            12
+          ],
+          "raw_scores": [
+            0.032018442622950824,
+            0.03200204813108039,
+            0.030309988518943745,
+            0.030309988518943745
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 23.531699960585684
+        },
+        {
+          "pipeline": "hybrid_rrf",
+          "question_id": "q08",
+          "question": "Where did headline CPI inflation stand relative to the target by February 2025?",
+          "accepted_pages": [
+            25
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p025_c00",
+            "rbi_mpr_2025_04_p105_c02",
+            "rbi_mpr_2025_04_p025_c02",
+            "rbi_mpr_2025_04_p105_c01"
+          ],
+          "retrieved_pages": [
+            25,
+            105,
+            25,
+            105
+          ],
+          "raw_scores": [
+            0.03278688524590164,
+            0.03149801587301587,
+            0.03128054740957967,
+            0.030621785881252923
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 23.508000012952834
+        },
+        {
+          "pipeline": "hybrid_rrf",
+          "question_id": "q09",
+          "question": "How much did headline inflation surge from August to September 2024?",
+          "accepted_pages": [
+            26
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p026_c00",
+            "rbi_mpr_2025_04_p025_c00",
+            "rbi_mpr_2025_04_p105_c01",
+            "rbi_mpr_2025_04_p105_c02"
+          ],
+          "retrieved_pages": [
+            26,
+            25,
+            105,
+            105
+          ],
+          "raw_scores": [
+            0.03278688524590164,
+            0.03200204813108039,
+            0.031009615384615385,
+            0.030776515151515152
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 25.393999996595085
+        },
+        {
+          "pipeline": "hybrid_rrf",
+          "question_id": "q10",
+          "question": "What was food inflation in February 2025?",
+          "accepted_pages": [
+            31
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p025_c00",
+            "rbi_mpr_2025_04_p025_c01",
+            "rbi_mpr_2025_04_p030_c01",
+            "rbi_mpr_2025_04_p038_c00"
+          ],
+          "retrieved_pages": [
+            25,
+            25,
+            30,
+            38
+          ],
+          "raw_scores": [
+            0.03128054740957967,
+            0.030798389007344232,
+            0.029910714285714284,
+            0.02919863597612958
+          ],
+          "rank_first_accepted_page": null,
+          "hit": false,
+          "reciprocal_rank": 0.0,
+          "latency_ms": 27.019199973437935
+        },
+        {
+          "pipeline": "hybrid_rrf",
+          "question_id": "q11",
+          "question": "How did cereals inflation move from October 2024 to February 2025?",
+          "accepted_pages": [
+            32
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p025_c01",
+            "rbi_mpr_2025_04_p025_c00",
+            "rbi_mpr_2025_04_p025_c03",
+            "rbi_mpr_2025_04_p041_c00"
+          ],
+          "retrieved_pages": [
+            25,
+            25,
+            25,
+            41
+          ],
+          "raw_scores": [
+            0.03200204813108039,
+            0.029850746268656716,
+            0.02904040404040404,
+            0.01639344262295082
+          ],
+          "rank_first_accepted_page": null,
+          "hit": false,
+          "reciprocal_rank": 0.0,
+          "latency_ms": 23.574599996209145
+        },
+        {
+          "pipeline": "hybrid_rrf",
+          "question_id": "q12",
+          "question": "What mainly drove the pick-up in core inflation between August 2024 and February 2025?",
+          "accepted_pages": [
+            40
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p040_c00",
+            "rbi_mpr_2025_04_p041_c00",
+            "rbi_mpr_2025_04_p105_c01",
+            "rbi_mpr_2025_04_p039_c01"
+          ],
+          "retrieved_pages": [
+            40,
+            41,
+            105,
+            39
+          ],
+          "raw_scores": [
+            0.03252247488101534,
+            0.032266458495966696,
+            0.030776515151515152,
+            0.030536130536130537
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 23.451799992471933
+        },
+        {
+          "pipeline": "hybrid_rrf",
+          "question_id": "q13",
+          "question": "What was PFCE growth in Q3:2024-25 and its contribution to GDP growth?",
+          "accepted_pages": [
+            48
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p100_c02",
+            "rbi_mpr_2025_04_p101_c00",
+            "rbi_mpr_2025_04_p012_c04",
+            "rbi_mpr_2025_04_p049_c02"
+          ],
+          "retrieved_pages": [
+            100,
+            101,
+            12,
+            49
+          ],
+          "raw_scores": [
+            0.030017921146953404,
+            0.028850145288501453,
+            0.028370221327967807,
+            0.01639344262295082
+          ],
+          "rank_first_accepted_page": null,
+          "hit": false,
+          "reciprocal_rank": 0.0,
+          "latency_ms": 28.167099982965738
+        },
+        {
+          "pipeline": "hybrid_rrf",
+          "question_id": "q14",
+          "question": "How much did domestic air passenger traffic grow in Q3:2024-25?",
+          "accepted_pages": [
+            49
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p066_c00",
+            "rbi_mpr_2025_04_p048_c00",
+            "rbi_mpr_2025_04_p067_c00",
+            "rbi_mpr_2025_04_p066_c01"
+          ],
+          "retrieved_pages": [
+            66,
+            48,
+            67,
+            66
+          ],
+          "raw_scores": [
+            0.03278688524590164,
+            0.03200204813108039,
+            0.03200204813108039,
+            0.029877369007803793
+          ],
+          "rank_first_accepted_page": null,
+          "hit": false,
+          "reciprocal_rank": 0.0,
+          "latency_ms": 28.37450004881248
+        },
+        {
+          "pipeline": "hybrid_rrf",
+          "question_id": "q15",
+          "question": "What was India's investment rate in 2023-24?",
+          "accepted_pages": [
+            52
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p087_c02",
+            "rbi_mpr_2025_04_p047_c00",
+            "rbi_mpr_2025_04_p016_c00",
+            "rbi_mpr_2025_04_p059_c00"
+          ],
+          "retrieved_pages": [
+            87,
+            47,
+            16,
+            59
+          ],
+          "raw_scores": [
+            0.030834914611005692,
+            0.030798389007344232,
+            0.01639344262295082,
+            0.01639344262295082
+          ],
+          "rank_first_accepted_page": null,
+          "hit": false,
+          "reciprocal_rank": 0.0,
+          "latency_ms": 24.13999999407679
+        },
+        {
+          "pipeline": "hybrid_rrf",
+          "question_id": "q16",
+          "question": "What were the Centre's gross market borrowings in 2024-25?",
+          "accepted_pages": [
+            57
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p057_c00",
+            "rbi_mpr_2025_04_p057_c03",
+            "rbi_mpr_2025_04_p057_c01",
+            "rbi_mpr_2025_04_p042_c01"
+          ],
+          "retrieved_pages": [
+            57,
+            57,
+            57,
+            42
+          ],
+          "raw_scores": [
+            0.03225806451612903,
+            0.032018442622950824,
+            0.031099324975891997,
+            0.015873015873015872
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 24.459499982185662
+        },
+        {
+          "pipeline": "hybrid_rrf",
+          "question_id": "q17",
+          "question": "What was foodgrains production per the second advance estimate for 2024-25?",
+          "accepted_pages": [
+            61
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p061_c00",
+            "rbi_mpr_2025_04_p061_c01",
+            "rbi_mpr_2025_04_p032_c00",
+            "rbi_mpr_2025_04_p033_c02"
+          ],
+          "retrieved_pages": [
+            61,
+            61,
+            32,
+            33
+          ],
+          "raw_scores": [
+            0.03278688524590164,
+            0.03200204813108039,
+            0.0315136476426799,
+            0.029418126757516764
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 25.834099971689284
+        },
+        {
+          "pipeline": "hybrid_rrf",
+          "question_id": "q18",
+          "question": "What was rice procurement as of March 31, 2025?",
+          "accepted_pages": [
+            62
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p062_c00",
+            "rbi_mpr_2025_04_p033_c00",
+            "rbi_mpr_2025_04_p035_c01",
+            "rbi_mpr_2025_04_p032_c00"
+          ],
+          "retrieved_pages": [
+            62,
+            33,
+            35,
+            32
+          ],
+          "raw_scores": [
+            0.03252247488101534,
+            0.03252247488101534,
+            0.03149801587301587,
+            0.030536130536130537
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 25.85999999428168
+        },
+        {
+          "pipeline": "hybrid_rrf",
+          "question_id": "q19",
+          "question": "How did industrial sector growth move in 2024-25 per the second advance estimate?",
+          "accepted_pages": [
+            63
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p063_c00",
+            "rbi_mpr_2025_04_p012_c04",
+            "rbi_mpr_2025_04_p043_c01",
+            "rbi_mpr_2025_04_p063_c01"
+          ],
+          "retrieved_pages": [
+            63,
+            12,
+            43,
+            63
+          ],
+          "raw_scores": [
+            0.031054405392392875,
+            0.030017921146953404,
+            0.029857397504456328,
+            0.02821939586645469
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 25.021599954925478
+        },
+        {
+          "pipeline": "hybrid_rrf",
+          "question_id": "q20",
+          "question": "What were the major drivers of liquidity during H2:2024-25?",
+          "accepted_pages": [
+            70
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p070_c00",
+            "rbi_mpr_2025_04_p075_c01",
+            "rbi_mpr_2025_04_p075_c00",
+            "rbi_mpr_2025_04_p069_c00"
+          ],
+          "retrieved_pages": [
+            70,
+            75,
+            75,
+            69
+          ],
+          "raw_scores": [
+            0.03252247488101534,
+            0.029850746268656716,
+            0.02976190476190476,
+            0.01639344262295082
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 24.210600007791072
+        },
+        {
+          "pipeline": "hybrid_rrf",
+          "question_id": "q21",
+          "question": "What was the average daily net absorption under the LAF in Q3:2024-25?",
+          "accepted_pages": [
+            71
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p069_c05",
+            "rbi_mpr_2025_04_p071_c00",
+            "rbi_mpr_2025_04_p070_c03",
+            "rbi_mpr_2025_04_p069_c04"
+          ],
+          "retrieved_pages": [
+            69,
+            71,
+            70,
+            69
+          ],
+          "raw_scores": [
+            0.03252247488101534,
+            0.03125,
+            0.01639344262295082,
+            0.016129032258064516
+          ],
+          "rank_first_accepted_page": 2,
+          "hit": true,
+          "reciprocal_rank": 0.5,
+          "latency_ms": 26.377899979706854
+        },
+        {
+          "pipeline": "hybrid_rrf",
+          "question_id": "q22",
+          "question": "What was Reserve Money (RM) growth as of March 28, 2025?",
+          "accepted_pages": [
+            73
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p073_c00",
+            "rbi_mpr_2025_04_p060_c00",
+            "rbi_mpr_2025_04_p073_c01",
+            "rbi_mpr_2025_04_p087_c01"
+          ],
+          "retrieved_pages": [
+            73,
+            60,
+            73,
+            87
+          ],
+          "raw_scores": [
+            0.03278688524590164,
+            0.03125763125763126,
+            0.03055037313432836,
+            0.016129032258064516
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 25.033699988853186
+        },
+        {
+          "pipeline": "hybrid_rrf",
+          "question_id": "q23",
+          "question": "What range did the 10-year G-sec yield move in during H2:2024-25?",
+          "accepted_pages": [
+            78
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p078_c00",
+            "rbi_mpr_2025_04_p113_c01",
+            "rbi_mpr_2025_04_p079_c00",
+            "rbi_mpr_2025_04_p113_c02"
+          ],
+          "retrieved_pages": [
+            78,
+            113,
+            79,
+            113
+          ],
+          "raw_scores": [
+            0.03278688524590164,
+            0.031754032258064516,
+            0.03149801587301587,
+            0.030798389007344232
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 24.564700026530772
+        },
+        {
+          "pipeline": "hybrid_rrf",
+          "question_id": "q24",
+          "question": "What was the weighted average maturity of outstanding G-secs at end-March 2025?",
+          "accepted_pages": [
+            80
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p080_c00",
+            "rbi_mpr_2025_04_p080_c01",
+            "rbi_mpr_2025_04_p080_c02",
+            "rbi_mpr_2025_04_p093_c01"
+          ],
+          "retrieved_pages": [
+            80,
+            80,
+            80,
+            93
+          ],
+          "raw_scores": [
+            0.03252247488101534,
+            0.02797339593114241,
+            0.01639344262295082,
+            0.016129032258064516
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 27.198499999940395
+        },
+        {
+          "pipeline": "hybrid_rrf",
+          "question_id": "q25",
+          "question": "How much did credit to MSMEs grow in February 2025?",
+          "accepted_pages": [
+            89
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p089_c00",
+            "rbi_mpr_2025_04_p089_c02",
+            "rbi_mpr_2025_04_p088_c01",
+            "rbi_mpr_2025_04_p090_c01"
+          ],
+          "retrieved_pages": [
+            89,
+            89,
+            88,
+            90
+          ],
+          "raw_scores": [
+            0.03278688524590164,
+            0.03200204813108039,
+            0.03125763125763126,
+            0.030330882352941176
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 23.79450004082173
+        },
+        {
+          "pipeline": "hybrid_rrf",
+          "question_id": "q26",
+          "question": "By how much did the 1-year median MCLR rise during the May 2022 to January 2025 tightening cycle?",
+          "accepted_pages": [
+            93
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p039_c02",
+            "rbi_mpr_2025_04_p044_c01",
+            "rbi_mpr_2025_04_p093_c00",
+            "rbi_mpr_2025_04_p099_c04"
+          ],
+          "retrieved_pages": [
+            39,
+            44,
+            93,
+            99
+          ],
+          "raw_scores": [
+            0.02976190476190476,
+            0.029437229437229435,
+            0.01639344262295082,
+            0.01639344262295082
+          ],
+          "rank_first_accepted_page": 3,
+          "hit": true,
+          "reciprocal_rank": 0.3333333333333333,
+          "latency_ms": 28.958500013686717
+        },
+        {
+          "pipeline": "hybrid_rrf",
+          "question_id": "q27",
+          "question": "How did Euro area and UK GDP growth compare in Q4:2024?",
+          "accepted_pages": [
+            100
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p100_c03",
+            "rbi_mpr_2025_04_p100_c00",
+            "rbi_mpr_2025_04_p100_c01",
+            "rbi_mpr_2025_04_p020_c00"
+          ],
+          "retrieved_pages": [
+            100,
+            100,
+            100,
+            20
+          ],
+          "raw_scores": [
+            0.03252247488101534,
+            0.03252247488101534,
+            0.02857142857142857,
+            0.027598020555767037
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 24.17829999467358
+        },
+        {
+          "pipeline": "hybrid_rrf",
+          "question_id": "q28",
+          "question": "How did Brazil's GDP growth move in Q4:2024?",
+          "accepted_pages": [
+            101
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p101_c00",
+            "rbi_mpr_2025_04_p012_c04",
+            "rbi_mpr_2025_04_p047_c02",
+            "rbi_mpr_2025_04_p100_c02"
+          ],
+          "retrieved_pages": [
+            101,
+            12,
+            47,
+            100
+          ],
+          "raw_scores": [
+            0.032018442622950824,
+            0.03125763125763126,
+            0.030536130536130537,
+            0.03021353930031804
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 25.032599980477244
+        },
+        {
+          "pipeline": "hybrid_rrf",
+          "question_id": "q29",
+          "question": "What milestone did gold prices cross in Q1:2025?",
+          "accepted_pages": [
+            105
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p105_c00",
+            "rbi_mpr_2025_04_p030_c02",
+            "rbi_mpr_2025_04_p046_c01",
+            "rbi_mpr_2025_04_p103_c01"
+          ],
+          "retrieved_pages": [
+            105,
+            30,
+            46,
+            103
+          ],
+          "raw_scores": [
+            0.03278688524590164,
+            0.030834914611005692,
+            0.03036576949620428,
+            0.030117753623188408
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 23.51869997801259
+        },
+        {
+          "pipeline": "hybrid_rrf",
+          "question_id": "q30",
+          "question": "How did Russia's CPI inflation move between September 2024 and February 2025?",
+          "accepted_pages": [
+            106
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p106_c00",
+            "rbi_mpr_2025_04_p105_c02",
+            "rbi_mpr_2025_04_p105_c01",
+            "rbi_mpr_2025_04_p105_c03"
+          ],
+          "retrieved_pages": [
+            106,
+            105,
+            105,
+            105
+          ],
+          "raw_scores": [
+            0.032266458495966696,
+            0.03225806451612903,
+            0.03149801587301587,
+            0.02967032967032967
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 27.743500017095357
+        }
+      ]
+    },
+    {
+      "strategy": "hybrid_reranked",
+      "question_count": 30,
+      "hit_rate_at_k": 0.9333333333333333,
+      "mrr": 0.8222222222222223,
+      "mean_latency_ms": 1233.9421933419846,
+      "details": [
+        {
+          "pipeline": "hybrid_reranked",
+          "question_id": "q01",
+          "question": "What was India's real GDP growth for 2024-25 per the second advance estimate?",
+          "accepted_pages": [
+            11
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p011_c04",
+            "rbi_mpr_2025_04_p013_c01",
+            "rbi_mpr_2025_04_p020_c00",
+            "rbi_mpr_2025_04_p012_c04"
+          ],
+          "retrieved_pages": [
+            11,
+            13,
+            20,
+            12
+          ],
+          "raw_scores": [
+            7.407985687255859,
+            7.195098400115967,
+            4.3146514892578125,
+            4.147915363311768
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 903.0238999985158
+        },
+        {
+          "pipeline": "hybrid_reranked",
+          "question_id": "q02",
+          "question": "By how much was the Cash Reserve Ratio (CRR) reduced in December 2024?",
+          "accepted_pages": [
+            12
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p069_c02",
+            "rbi_mpr_2025_04_p073_c00",
+            "rbi_mpr_2025_04_p012_c00",
+            "rbi_mpr_2025_04_p012_c01"
+          ],
+          "retrieved_pages": [
+            69,
+            73,
+            12,
+            12
+          ],
+          "raw_scores": [
+            6.031465530395508,
+            5.4958930015563965,
+            5.334164142608643,
+            5.173666000366211
+          ],
+          "rank_first_accepted_page": 3,
+          "hit": true,
+          "reciprocal_rank": 0.3333333333333333,
+          "latency_ms": 786.0832000151277
+        },
+        {
+          "pipeline": "hybrid_reranked",
+          "question_id": "q03",
+          "question": "What did the MPC decide at its February 2025 meeting?",
+          "accepted_pages": [
+            13
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p012_c00",
+            "rbi_mpr_2025_04_p012_c01",
+            "rbi_mpr_2025_04_p012_c03",
+            "rbi_mpr_2025_04_p013_c03"
+          ],
+          "retrieved_pages": [
+            12,
+            12,
+            12,
+            13
+          ],
+          "raw_scores": [
+            4.188892841339111,
+            3.402388095855713,
+            3.3720240592956543,
+            3.111870765686035
+          ],
+          "rank_first_accepted_page": 4,
+          "hit": true,
+          "reciprocal_rank": 0.25,
+          "latency_ms": 640.1703000301495
+        },
+        {
+          "pipeline": "hybrid_reranked",
+          "question_id": "q04",
+          "question": "What model is used in Box I.1 to study inflation expectations of economic agents?",
+          "accepted_pages": [
+            16
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p016_c00",
+            "rbi_mpr_2025_04_p016_c01",
+            "rbi_mpr_2025_04_p016_c04",
+            "rbi_mpr_2025_04_p005_c00"
+          ],
+          "retrieved_pages": [
+            16,
+            16,
+            16,
+            5
+          ],
+          "raw_scores": [
+            7.561100959777832,
+            5.310635089874268,
+            3.7610678672790527,
+            3.1826138496398926
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 758.1889000139199
+        },
+        {
+          "pipeline": "hybrid_reranked",
+          "question_id": "q05",
+          "question": "What did professional forecasters project for CPI inflation in Q4:2024-25 as per the March 2025 survey?",
+          "accepted_pages": [
+            17
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p017_c01",
+            "rbi_mpr_2025_04_p017_c00",
+            "rbi_mpr_2025_04_p018_c00",
+            "rbi_mpr_2025_04_p019_c02"
+          ],
+          "retrieved_pages": [
+            17,
+            17,
+            18,
+            19
+          ],
+          "raw_scores": [
+            7.806324481964111,
+            6.170855522155762,
+            5.133172988891602,
+            4.194817543029785
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 663.9886000193655
+        },
+        {
+          "pipeline": "hybrid_reranked",
+          "question_id": "q06",
+          "question": "What is the CPI inflation projection for 2025-26?",
+          "accepted_pages": [
+            18
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p013_c02",
+            "rbi_mpr_2025_04_p012_c05",
+            "rbi_mpr_2025_04_p012_c03",
+            "rbi_mpr_2025_04_p013_c01"
+          ],
+          "retrieved_pages": [
+            13,
+            12,
+            12,
+            13
+          ],
+          "raw_scores": [
+            9.009799003601074,
+            7.461174964904785,
+            7.450684547424316,
+            7.179372787475586
+          ],
+          "rank_first_accepted_page": null,
+          "hit": false,
+          "reciprocal_rank": 0.0,
+          "latency_ms": 1443.3878000127152
+        },
+        {
+          "pipeline": "hybrid_reranked",
+          "question_id": "q07",
+          "question": "What is the real GDP growth projection for 2025-26?",
+          "accepted_pages": [
+            20
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p020_c00",
+            "rbi_mpr_2025_04_p012_c05",
+            "rbi_mpr_2025_04_p020_c03",
+            "rbi_mpr_2025_04_p012_c04"
+          ],
+          "retrieved_pages": [
+            20,
+            12,
+            20,
+            12
+          ],
+          "raw_scores": [
+            8.098133087158203,
+            7.546909332275391,
+            6.932634353637695,
+            6.8238115310668945
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 1837.028999987524
+        },
+        {
+          "pipeline": "hybrid_reranked",
+          "question_id": "q08",
+          "question": "Where did headline CPI inflation stand relative to the target by February 2025?",
+          "accepted_pages": [
+            25
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p025_c00",
+            "rbi_mpr_2025_04_p025_c02",
+            "rbi_mpr_2025_04_p026_c00",
+            "rbi_mpr_2025_04_p105_c01"
+          ],
+          "retrieved_pages": [
+            25,
+            25,
+            26,
+            105
+          ],
+          "raw_scores": [
+            6.018729209899902,
+            5.3748884201049805,
+            4.719165802001953,
+            4.607743740081787
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 911.6287999786437
+        },
+        {
+          "pipeline": "hybrid_reranked",
+          "question_id": "q09",
+          "question": "How much did headline inflation surge from August to September 2024?",
+          "accepted_pages": [
+            26
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p026_c00",
+            "rbi_mpr_2025_04_p025_c00",
+            "rbi_mpr_2025_04_p105_c03",
+            "rbi_mpr_2025_04_p025_c01"
+          ],
+          "retrieved_pages": [
+            26,
+            25,
+            105,
+            25
+          ],
+          "raw_scores": [
+            7.742739677429199,
+            6.672487258911133,
+            6.19986629486084,
+            5.972634792327881
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 1457.7147000236437
+        },
+        {
+          "pipeline": "hybrid_reranked",
+          "question_id": "q10",
+          "question": "What was food inflation in February 2025?",
+          "accepted_pages": [
+            31
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p025_c01",
+            "rbi_mpr_2025_04_p038_c00",
+            "rbi_mpr_2025_04_p030_c01",
+            "rbi_mpr_2025_04_p031_c01"
+          ],
+          "retrieved_pages": [
+            25,
+            38,
+            30,
+            31
+          ],
+          "raw_scores": [
+            7.61752986907959,
+            7.340142250061035,
+            7.27596378326416,
+            6.940227031707764
+          ],
+          "rank_first_accepted_page": 4,
+          "hit": true,
+          "reciprocal_rank": 0.25,
+          "latency_ms": 862.4902000301518
+        },
+        {
+          "pipeline": "hybrid_reranked",
+          "question_id": "q11",
+          "question": "How did cereals inflation move from October 2024 to February 2025?",
+          "accepted_pages": [
+            32
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p032_c00",
+            "rbi_mpr_2025_04_p025_c01",
+            "rbi_mpr_2025_04_p025_c00",
+            "rbi_mpr_2025_04_p012_c00"
+          ],
+          "retrieved_pages": [
+            32,
+            25,
+            25,
+            12
+          ],
+          "raw_scores": [
+            5.917656421661377,
+            5.5880537033081055,
+            4.77730655670166,
+            4.320079326629639
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 914.5161000196822
+        },
+        {
+          "pipeline": "hybrid_reranked",
+          "question_id": "q12",
+          "question": "What mainly drove the pick-up in core inflation between August 2024 and February 2025?",
+          "accepted_pages": [
+            40
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p040_c00",
+            "rbi_mpr_2025_04_p041_c00",
+            "rbi_mpr_2025_04_p039_c01",
+            "rbi_mpr_2025_04_p025_c03"
+          ],
+          "retrieved_pages": [
+            40,
+            41,
+            39,
+            25
+          ],
+          "raw_scores": [
+            8.15629768371582,
+            8.086000442504883,
+            7.952388286590576,
+            6.425978183746338
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 1387.3173000174575
+        },
+        {
+          "pipeline": "hybrid_reranked",
+          "question_id": "q13",
+          "question": "What was PFCE growth in Q3:2024-25 and its contribution to GDP growth?",
+          "accepted_pages": [
+            48
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p049_c02",
+            "rbi_mpr_2025_04_p048_c02",
+            "rbi_mpr_2025_04_p053_c00",
+            "rbi_mpr_2025_04_p047_c02"
+          ],
+          "retrieved_pages": [
+            49,
+            48,
+            53,
+            47
+          ],
+          "raw_scores": [
+            6.04548978805542,
+            5.120541572570801,
+            5.037854194641113,
+            4.1503424644470215
+          ],
+          "rank_first_accepted_page": 2,
+          "hit": true,
+          "reciprocal_rank": 0.5,
+          "latency_ms": 1650.0526000163518
+        },
+        {
+          "pipeline": "hybrid_reranked",
+          "question_id": "q14",
+          "question": "How much did domestic air passenger traffic grow in Q3:2024-25?",
+          "accepted_pages": [
+            49
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p048_c00",
+            "rbi_mpr_2025_04_p066_c00",
+            "rbi_mpr_2025_04_p066_c01",
+            "rbi_mpr_2025_04_p067_c00"
+          ],
+          "retrieved_pages": [
+            48,
+            66,
+            66,
+            67
+          ],
+          "raw_scores": [
+            8.14019775390625,
+            7.125303268432617,
+            5.077771186828613,
+            4.337128639221191
+          ],
+          "rank_first_accepted_page": null,
+          "hit": false,
+          "reciprocal_rank": 0.0,
+          "latency_ms": 1543.9619999960996
+        },
+        {
+          "pipeline": "hybrid_reranked",
+          "question_id": "q15",
+          "question": "What was India's investment rate in 2023-24?",
+          "accepted_pages": [
+            52
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p052_c00",
+            "rbi_mpr_2025_04_p059_c01",
+            "rbi_mpr_2025_04_p059_c00",
+            "rbi_mpr_2025_04_p059_c02"
+          ],
+          "retrieved_pages": [
+            52,
+            59,
+            59,
+            59
+          ],
+          "raw_scores": [
+            4.889862060546875,
+            4.424324035644531,
+            3.9282424449920654,
+            2.8758959770202637
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 1267.0781000051647
+        },
+        {
+          "pipeline": "hybrid_reranked",
+          "question_id": "q16",
+          "question": "What were the Centre's gross market borrowings in 2024-25?",
+          "accepted_pages": [
+            57
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p057_c00",
+            "rbi_mpr_2025_04_p057_c01",
+            "rbi_mpr_2025_04_p057_c03",
+            "rbi_mpr_2025_04_p054_c00"
+          ],
+          "retrieved_pages": [
+            57,
+            57,
+            57,
+            54
+          ],
+          "raw_scores": [
+            9.051164627075195,
+            6.726776123046875,
+            6.460901260375977,
+            3.394073247909546
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 1469.8734999983571
+        },
+        {
+          "pipeline": "hybrid_reranked",
+          "question_id": "q17",
+          "question": "What was foodgrains production per the second advance estimate for 2024-25?",
+          "accepted_pages": [
+            61
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p061_c00",
+            "rbi_mpr_2025_04_p061_c01",
+            "rbi_mpr_2025_04_p013_c01",
+            "rbi_mpr_2025_04_p036_c01"
+          ],
+          "retrieved_pages": [
+            61,
+            61,
+            13,
+            36
+          ],
+          "raw_scores": [
+            8.52232551574707,
+            5.114699840545654,
+            4.005492687225342,
+            3.8887698650360107
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 1013.4322000085376
+        },
+        {
+          "pipeline": "hybrid_reranked",
+          "question_id": "q18",
+          "question": "What was rice procurement as of March 31, 2025?",
+          "accepted_pages": [
+            62
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p062_c00",
+            "rbi_mpr_2025_04_p033_c00",
+            "rbi_mpr_2025_04_p062_c02",
+            "rbi_mpr_2025_04_p032_c00"
+          ],
+          "retrieved_pages": [
+            62,
+            33,
+            62,
+            32
+          ],
+          "raw_scores": [
+            7.814657688140869,
+            3.741891860961914,
+            0.22948883473873138,
+            -0.21946170926094055
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 1141.2704000249505
+        },
+        {
+          "pipeline": "hybrid_reranked",
+          "question_id": "q19",
+          "question": "How did industrial sector growth move in 2024-25 per the second advance estimate?",
+          "accepted_pages": [
+            63
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p013_c01",
+            "rbi_mpr_2025_04_p011_c04",
+            "rbi_mpr_2025_04_p063_c00",
+            "rbi_mpr_2025_04_p061_c00"
+          ],
+          "retrieved_pages": [
+            13,
+            11,
+            63,
+            61
+          ],
+          "raw_scores": [
+            5.889703750610352,
+            5.5213704109191895,
+            5.392118453979492,
+            3.231717586517334
+          ],
+          "rank_first_accepted_page": 3,
+          "hit": true,
+          "reciprocal_rank": 0.3333333333333333,
+          "latency_ms": 1249.459599959664
+        },
+        {
+          "pipeline": "hybrid_reranked",
+          "question_id": "q20",
+          "question": "What were the major drivers of liquidity during H2:2024-25?",
+          "accepted_pages": [
+            70
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p070_c00",
+            "rbi_mpr_2025_04_p075_c00",
+            "rbi_mpr_2025_04_p077_c01",
+            "rbi_mpr_2025_04_p085_c00"
+          ],
+          "retrieved_pages": [
+            70,
+            75,
+            77,
+            85
+          ],
+          "raw_scores": [
+            8.518045425415039,
+            5.003409385681152,
+            4.870766639709473,
+            4.521917819976807
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 1091.1557000363246
+        },
+        {
+          "pipeline": "hybrid_reranked",
+          "question_id": "q21",
+          "question": "What was the average daily net absorption under the LAF in Q3:2024-25?",
+          "accepted_pages": [
+            71
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p071_c00",
+            "rbi_mpr_2025_04_p069_c05",
+            "rbi_mpr_2025_04_p071_c01",
+            "rbi_mpr_2025_04_p069_c04"
+          ],
+          "retrieved_pages": [
+            71,
+            69,
+            71,
+            69
+          ],
+          "raw_scores": [
+            6.925973415374756,
+            6.000217914581299,
+            5.240255355834961,
+            4.824227333068848
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 924.8758000321686
+        },
+        {
+          "pipeline": "hybrid_reranked",
+          "question_id": "q22",
+          "question": "What was Reserve Money (RM) growth as of March 28, 2025?",
+          "accepted_pages": [
+            73
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p073_c00",
+            "rbi_mpr_2025_04_p060_c00",
+            "rbi_mpr_2025_04_p073_c01",
+            "rbi_mpr_2025_04_p012_c01"
+          ],
+          "retrieved_pages": [
+            73,
+            60,
+            73,
+            12
+          ],
+          "raw_scores": [
+            7.560876846313477,
+            4.895124435424805,
+            3.5199899673461914,
+            3.123210906982422
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 1370.3031000331976
+        },
+        {
+          "pipeline": "hybrid_reranked",
+          "question_id": "q23",
+          "question": "What range did the 10-year G-sec yield move in during H2:2024-25?",
+          "accepted_pages": [
+            78
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p078_c00",
+            "rbi_mpr_2025_04_p079_c00",
+            "rbi_mpr_2025_04_p080_c00",
+            "rbi_mpr_2025_04_p081_c00"
+          ],
+          "retrieved_pages": [
+            78,
+            79,
+            80,
+            81
+          ],
+          "raw_scores": [
+            9.637723922729492,
+            5.440991401672363,
+            5.156606674194336,
+            4.951419353485107
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 1346.1516000097618
+        },
+        {
+          "pipeline": "hybrid_reranked",
+          "question_id": "q24",
+          "question": "What was the weighted average maturity of outstanding G-secs at end-March 2025?",
+          "accepted_pages": [
+            80
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p080_c00",
+            "rbi_mpr_2025_04_p080_c01",
+            "rbi_mpr_2025_04_p093_c01",
+            "rbi_mpr_2025_04_p079_c00"
+          ],
+          "retrieved_pages": [
+            80,
+            80,
+            93,
+            79
+          ],
+          "raw_scores": [
+            8.833587646484375,
+            1.861008644104004,
+            1.2157461643218994,
+            1.0652577877044678
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 1445.5652000033297
+        },
+        {
+          "pipeline": "hybrid_reranked",
+          "question_id": "q25",
+          "question": "How much did credit to MSMEs grow in February 2025?",
+          "accepted_pages": [
+            89
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p089_c00",
+            "rbi_mpr_2025_04_p088_c01",
+            "rbi_mpr_2025_04_p092_c01",
+            "rbi_mpr_2025_04_p088_c00"
+          ],
+          "retrieved_pages": [
+            89,
+            88,
+            92,
+            88
+          ],
+          "raw_scores": [
+            8.533510208129883,
+            5.435396194458008,
+            4.302280426025391,
+            1.8256759643554688
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 1547.0550000318326
+        },
+        {
+          "pipeline": "hybrid_reranked",
+          "question_id": "q26",
+          "question": "By how much did the 1-year median MCLR rise during the May 2022 to January 2025 tightening cycle?",
+          "accepted_pages": [
+            93
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p093_c00",
+            "rbi_mpr_2025_04_p094_c00",
+            "rbi_mpr_2025_04_p044_c01",
+            "rbi_mpr_2025_04_p107_c01"
+          ],
+          "retrieved_pages": [
+            93,
+            94,
+            44,
+            107
+          ],
+          "raw_scores": [
+            5.677552223205566,
+            0.9230092167854309,
+            -0.08841059356927872,
+            -0.3678300082683563
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 1195.6301999744028
+        },
+        {
+          "pipeline": "hybrid_reranked",
+          "question_id": "q27",
+          "question": "How did Euro area and UK GDP growth compare in Q4:2024?",
+          "accepted_pages": [
+            100
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p100_c00",
+            "rbi_mpr_2025_04_p100_c03",
+            "rbi_mpr_2025_04_p020_c00",
+            "rbi_mpr_2025_04_p047_c02"
+          ],
+          "retrieved_pages": [
+            100,
+            100,
+            20,
+            47
+          ],
+          "raw_scores": [
+            7.2485671043396,
+            7.0083770751953125,
+            3.885507583618164,
+            3.3527438640594482
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 1849.2465000017546
+        },
+        {
+          "pipeline": "hybrid_reranked",
+          "question_id": "q28",
+          "question": "How did Brazil's GDP growth move in Q4:2024?",
+          "accepted_pages": [
+            101
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p101_c00",
+            "rbi_mpr_2025_04_p100_c03",
+            "rbi_mpr_2025_04_p047_c02",
+            "rbi_mpr_2025_04_p012_c04"
+          ],
+          "retrieved_pages": [
+            101,
+            100,
+            47,
+            12
+          ],
+          "raw_scores": [
+            7.75394344329834,
+            5.49547815322876,
+            2.9988040924072266,
+            2.960391044616699
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 1719.4610000005923
+        },
+        {
+          "pipeline": "hybrid_reranked",
+          "question_id": "q29",
+          "question": "What milestone did gold prices cross in Q1:2025?",
+          "accepted_pages": [
+            105
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p105_c00",
+            "rbi_mpr_2025_04_p104_c01",
+            "rbi_mpr_2025_04_p011_c02",
+            "rbi_mpr_2025_04_p030_c01"
+          ],
+          "retrieved_pages": [
+            105,
+            104,
+            11,
+            30
+          ],
+          "raw_scores": [
+            4.693974494934082,
+            4.140514850616455,
+            2.3279337882995605,
+            1.5042186975479126
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 1069.9717999668792
+        },
+        {
+          "pipeline": "hybrid_reranked",
+          "question_id": "q30",
+          "question": "How did Russia's CPI inflation move between September 2024 and February 2025?",
+          "accepted_pages": [
+            106
+          ],
+          "retrieved_chunk_ids": [
+            "rbi_mpr_2025_04_p106_c00",
+            "rbi_mpr_2025_04_p105_c03",
+            "rbi_mpr_2025_04_p039_c02",
+            "rbi_mpr_2025_04_p039_c01"
+          ],
+          "retrieved_pages": [
+            106,
+            105,
+            39,
+            39
+          ],
+          "raw_scores": [
+            7.523594856262207,
+            6.486532211303711,
+            5.527957916259766,
+            5.48021125793457
+          ],
+          "rank_first_accepted_page": 1,
+          "hit": true,
+          "reciprocal_rank": 1.0,
+          "latency_ms": 1558.1827000132762
+        }
+      ]
+    }
+  ]
+}

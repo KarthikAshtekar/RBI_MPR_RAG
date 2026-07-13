@@ -1,0 +1,12 @@
+id: QUOTA_LARGE
+dk: 50
+bk: 50
+retain: 30
+rrf: 60
+dw: 1
+bw: 1
+quota:
+- 6
+- 5
+- 4
+family: context_quota

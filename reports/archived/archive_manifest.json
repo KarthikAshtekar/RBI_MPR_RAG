@@ -1,0 +1,21 @@
+[
+  {
+    "original_file": "RBI_RAG_Project_Report.pdf",
+    "archived_location": "reports/archived/RBI_RAG_Project_Report_outdated.pdf",
+    "reason": "Superseded narrative report with outdated retrieval figures and reranking interpretation.",
+    "contains_outdated_or_unvalidated_metrics": true
+  },
+  {
+    "original_file": "RBI RAG.ipynb - Colab.pdf",
+    "archived_location": "reports/archived/RBI_RAG_notebook_export.pdf",
+    "reason": "Historical rendered notebook output; retained as evidence but not a reproducible result source.",
+    "contains_outdated_or_unvalidated_metrics": true
+  },
+  {
+    "original_file": "results/retrieval_baseline.json",
+    "archived_location": "reports/archived/retrieval_baseline_pre_spec.json",
+    "reason": "Pre-specification result lacked required raw CSV outputs, latency fields, and report metadata.",
+    "contains_outdated_or_unvalidated_metrics": false
+  }
+]
+

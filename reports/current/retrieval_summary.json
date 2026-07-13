@@ -1,0 +1,82 @@
+{
+  "schema_version": 2,
+  "created_at_utc": "2026-07-12T21:08:30.562968+00:00",
+  "scope": "April 2025 only",
+  "pdf_sha256": "6b505611e2232e6c8ce9af07018dc9ddba9f46d3efdf3f6ac3a2d22ef9b74752",
+  "config_fingerprint": "befac405988d307f",
+  "config": {
+    "report_id": "rbi_mpr_2025_04",
+    "report_period": "April 2025",
+    "report_date": "2025-04-01",
+    "pdf_path": "mpr_april_2025.pdf",
+    "chroma_path": "indexes/chroma",
+    "evaluation_path": "data/evaluation/questions_v1.json",
+    "output_directory": "reports/current",
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "reranker_model": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+    "generator_model": "llama-3.1-8b-instant",
+    "judge_model": "llama-3.1-8b-instant",
+    "chunk_size": 1000,
+    "chunk_overlap": 300,
+    "dense_k": 15,
+    "bm25_k": 15,
+    "fusion_rrf_k": 60,
+    "reranker_candidate_k": 15,
+    "final_k": 4,
+    "max_retries": 5,
+    "retry_base_delay_seconds": 20.0,
+    "retry_timeout_seconds": 120.0,
+    "prompt_version": "grounded_v1",
+    "dataset_version": "rbi_mpr_april_2025_dev_v1",
+    "ingestion_version": "v1",
+    "temperature": 0.0
+  },
+  "runtime": {
+    "python": "3.13.7",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "strategies": [
+    {
+      "strategy": "dense",
+      "question_count": 30,
+      "hit_rate_at_k": 0.8333333333333334,
+      "mrr": 0.6555555555555556,
+      "mean_latency_ms": 30.671183332257595
+    },
+    {
+      "strategy": "dense_reranked",
+      "question_count": 30,
+      "hit_rate_at_k": 0.9,
+      "mrr": 0.8277777777777777,
+      "mean_latency_ms": 1075.7706166691303
+    },
+    {
+      "strategy": "bm25",
+      "question_count": 30,
+      "hit_rate_at_k": 0.8333333333333334,
+      "mrr": 0.6916666666666667,
+      "mean_latency_ms": 2.1740566667479775
+    },
+    {
+      "strategy": "bm25_reranked",
+      "question_count": 30,
+      "hit_rate_at_k": 0.8666666666666667,
+      "mrr": 0.7666666666666667,
+      "mean_latency_ms": 785.4780566645786
+    },
+    {
+      "strategy": "hybrid_rrf",
+      "question_count": 30,
+      "hit_rate_at_k": 0.8,
+      "mrr": 0.7444444444444444,
+      "mean_latency_ms": 25.771019995833438
+    },
+    {
+      "strategy": "hybrid_reranked",
+      "question_count": 30,
+      "hit_rate_at_k": 0.9333333333333333,
+      "mrr": 0.8222222222222223,
+      "mean_latency_ms": 1233.9421933419846
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+description: Reproduce the Stage A selected QUOTA_LARGE configuration under Phase
+  6B output isolation.
+parent_experiment: QUOTA_LARGE
+enabled: true
+parser:
+  name: pypdfloader
+  status: active
+chunking:
+  strategy: recursive
+  chunk_size: 1000
+  chunk_overlap: 300
+index:
+  type: existing_multi_report_chroma
+  path: indexes/multi_report/chroma
+embedding:
+  model: sentence-transformers/all-MiniLM-L6-v2
+retrieval:
+  dense_k: 50
+  bm25_k: 50
+bm25:
+  preprocessing: current
+fusion:
+  method: rrf
+  k: 60
+  retain: 30
+  dense_weight: 1.0
+  bm25_weight: 1.0
+reranker:
+  model: cross-encoder/ms-marco-MiniLM-L-6-v2
+  candidates: 30
+context_selection:
+  single: 6
+  pairwise: 5
+  trend: 4
+  structural_mode: none
+deduplication:
+  strategy: exact_text_per_report
+evaluation:
+  split: dev
+  heldout_loaded: false
+id: stage_a_selected_reference

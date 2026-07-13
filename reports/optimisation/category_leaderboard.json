@@ -1,0 +1,1082 @@
+[
+  {
+    "all_reports_hit": 0.5,
+    "case_count": 12,
+    "complete_evidence_recall": 0.5,
+    "evidence_recall": 0.5,
+    "experiment_id": "CP01",
+    "macro_mrr": 0.34722222222222227,
+    "query_type": "single_report"
+  },
+  {
+    "all_reports_hit": 0.16666666666666666,
+    "case_count": 12,
+    "complete_evidence_recall": 0.08333333333333333,
+    "evidence_recall": 0.3333333333333333,
+    "experiment_id": "CP01",
+    "macro_mrr": 0.3541666666666667,
+    "query_type": "pairwise_comparison"
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 6,
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.2222222222222222,
+    "experiment_id": "CP01",
+    "macro_mrr": 0.19444444444444445,
+    "query_type": "trend_all_reports"
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "CP01",
+    "macro_mrr": 0.0,
+    "query_type": "unsupported_period"
+  },
+  {
+    "all_reports_hit": 0.4166666666666667,
+    "case_count": 12,
+    "complete_evidence_recall": 0.4166666666666667,
+    "evidence_recall": 0.4166666666666667,
+    "experiment_id": "CP02",
+    "macro_mrr": 0.3194444444444445,
+    "query_type": "single_report"
+  },
+  {
+    "all_reports_hit": 0.16666666666666666,
+    "case_count": 12,
+    "complete_evidence_recall": 0.08333333333333333,
+    "evidence_recall": 0.2916666666666667,
+    "experiment_id": "CP02",
+    "macro_mrr": 0.3125,
+    "query_type": "pairwise_comparison"
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 6,
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.2222222222222222,
+    "experiment_id": "CP02",
+    "macro_mrr": 0.2222222222222222,
+    "query_type": "trend_all_reports"
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "CP02",
+    "macro_mrr": 0.0,
+    "query_type": "unsupported_period"
+  },
+  {
+    "all_reports_hit": 0.5,
+    "case_count": 12,
+    "complete_evidence_recall": 0.5,
+    "evidence_recall": 0.5,
+    "experiment_id": "CP03",
+    "macro_mrr": 0.34027777777777773,
+    "query_type": "single_report"
+  },
+  {
+    "all_reports_hit": 0.16666666666666666,
+    "case_count": 12,
+    "complete_evidence_recall": 0.08333333333333333,
+    "evidence_recall": 0.2916666666666667,
+    "experiment_id": "CP03",
+    "macro_mrr": 0.3055555555555555,
+    "query_type": "pairwise_comparison"
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 6,
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.2222222222222222,
+    "experiment_id": "CP03",
+    "macro_mrr": 0.2222222222222222,
+    "query_type": "trend_all_reports"
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "CP03",
+    "macro_mrr": 0.0,
+    "query_type": "unsupported_period"
+  },
+  {
+    "all_reports_hit": 0.5,
+    "case_count": 12,
+    "complete_evidence_recall": 0.5,
+    "evidence_recall": 0.5,
+    "experiment_id": "CP04",
+    "macro_mrr": 0.34027777777777773,
+    "query_type": "single_report"
+  },
+  {
+    "all_reports_hit": 0.16666666666666666,
+    "case_count": 12,
+    "complete_evidence_recall": 0.08333333333333333,
+    "evidence_recall": 0.2916666666666667,
+    "experiment_id": "CP04",
+    "macro_mrr": 0.3055555555555555,
+    "query_type": "pairwise_comparison"
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 6,
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.16666666666666666,
+    "experiment_id": "CP04",
+    "macro_mrr": 0.2222222222222222,
+    "query_type": "trend_all_reports"
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "CP04",
+    "macro_mrr": 0.0,
+    "query_type": "unsupported_period"
+  },
+  {
+    "all_reports_hit": 0.5833333333333334,
+    "case_count": 12,
+    "complete_evidence_recall": 0.5833333333333334,
+    "evidence_recall": 0.5833333333333334,
+    "experiment_id": "FR01",
+    "macro_mrr": 0.3680555555555556,
+    "query_type": "single_report"
+  },
+  {
+    "all_reports_hit": 0.25,
+    "case_count": 12,
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.375,
+    "experiment_id": "FR01",
+    "macro_mrr": 0.3611111111111111,
+    "query_type": "pairwise_comparison"
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 6,
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.27777777777777773,
+    "experiment_id": "FR01",
+    "macro_mrr": 0.2222222222222222,
+    "query_type": "trend_all_reports"
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "FR01",
+    "macro_mrr": 0.0,
+    "query_type": "unsupported_period"
+  },
+  {
+    "all_reports_hit": 0.5833333333333334,
+    "case_count": 12,
+    "complete_evidence_recall": 0.5833333333333334,
+    "evidence_recall": 0.5833333333333334,
+    "experiment_id": "FR02",
+    "macro_mrr": 0.3680555555555556,
+    "query_type": "single_report"
+  },
+  {
+    "all_reports_hit": 0.25,
+    "case_count": 12,
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.375,
+    "experiment_id": "FR02",
+    "macro_mrr": 0.3611111111111111,
+    "query_type": "pairwise_comparison"
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 6,
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.2222222222222222,
+    "experiment_id": "FR02",
+    "macro_mrr": 0.2222222222222222,
+    "query_type": "trend_all_reports"
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "FR02",
+    "macro_mrr": 0.0,
+    "query_type": "unsupported_period"
+  },
+  {
+    "all_reports_hit": 0.5833333333333334,
+    "case_count": 12,
+    "complete_evidence_recall": 0.5833333333333334,
+    "evidence_recall": 0.5833333333333334,
+    "experiment_id": "FR03",
+    "macro_mrr": 0.3680555555555556,
+    "query_type": "single_report"
+  },
+  {
+    "all_reports_hit": 0.25,
+    "case_count": 12,
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.375,
+    "experiment_id": "FR03",
+    "macro_mrr": 0.3611111111111111,
+    "query_type": "pairwise_comparison"
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 6,
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.2222222222222222,
+    "experiment_id": "FR03",
+    "macro_mrr": 0.2222222222222222,
+    "query_type": "trend_all_reports"
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "FR03",
+    "macro_mrr": 0.0,
+    "query_type": "unsupported_period"
+  },
+  {
+    "all_reports_hit": 0.5833333333333334,
+    "case_count": 12,
+    "complete_evidence_recall": 0.5833333333333334,
+    "evidence_recall": 0.5833333333333334,
+    "experiment_id": "FR04",
+    "macro_mrr": 0.3680555555555556,
+    "query_type": "single_report"
+  },
+  {
+    "all_reports_hit": 0.25,
+    "case_count": 12,
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.375,
+    "experiment_id": "FR04",
+    "macro_mrr": 0.3611111111111111,
+    "query_type": "pairwise_comparison"
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 6,
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.2222222222222222,
+    "experiment_id": "FR04",
+    "macro_mrr": 0.2222222222222222,
+    "query_type": "trend_all_reports"
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "FR04",
+    "macro_mrr": 0.0,
+    "query_type": "unsupported_period"
+  },
+  {
+    "all_reports_hit": 0.5833333333333334,
+    "case_count": 12,
+    "complete_evidence_recall": 0.5833333333333334,
+    "evidence_recall": 0.5833333333333334,
+    "experiment_id": "QUOTA_EXPANDED",
+    "macro_mrr": 0.3680555555555556,
+    "query_type": "single_report"
+  },
+  {
+    "all_reports_hit": 0.3333333333333333,
+    "case_count": 12,
+    "complete_evidence_recall": 0.25,
+    "evidence_recall": 0.4583333333333333,
+    "experiment_id": "QUOTA_EXPANDED",
+    "macro_mrr": 0.3819444444444444,
+    "query_type": "pairwise_comparison"
+  },
+  {
+    "all_reports_hit": 0.16666666666666666,
+    "case_count": 6,
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.38888888888888884,
+    "experiment_id": "QUOTA_EXPANDED",
+    "macro_mrr": 0.2546296296296296,
+    "query_type": "trend_all_reports"
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "QUOTA_EXPANDED",
+    "macro_mrr": 0.0,
+    "query_type": "unsupported_period"
+  },
+  {
+    "all_reports_hit": 0.5833333333333334,
+    "case_count": 12,
+    "complete_evidence_recall": 0.5833333333333334,
+    "evidence_recall": 0.5833333333333334,
+    "experiment_id": "QUOTA_LARGE",
+    "macro_mrr": 0.3680555555555556,
+    "query_type": "single_report"
+  },
+  {
+    "all_reports_hit": 0.3333333333333333,
+    "case_count": 12,
+    "complete_evidence_recall": 0.25,
+    "evidence_recall": 0.4583333333333333,
+    "experiment_id": "QUOTA_LARGE",
+    "macro_mrr": 0.3819444444444444,
+    "query_type": "pairwise_comparison"
+  },
+  {
+    "all_reports_hit": 0.16666666666666666,
+    "case_count": 6,
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.4444444444444444,
+    "experiment_id": "QUOTA_LARGE",
+    "macro_mrr": 0.26851851851851855,
+    "query_type": "trend_all_reports"
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "QUOTA_LARGE",
+    "macro_mrr": 0.0,
+    "query_type": "unsupported_period"
+  },
+  {
+    "all_reports_hit": 0.5833333333333334,
+    "case_count": 12,
+    "complete_evidence_recall": 0.5833333333333334,
+    "evidence_recall": 0.5833333333333334,
+    "experiment_id": "RRF_K10",
+    "macro_mrr": 0.3680555555555556,
+    "query_type": "single_report"
+  },
+  {
+    "all_reports_hit": 0.25,
+    "case_count": 12,
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.4166666666666667,
+    "experiment_id": "RRF_K10",
+    "macro_mrr": 0.375,
+    "query_type": "pairwise_comparison"
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 6,
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.2222222222222222,
+    "experiment_id": "RRF_K10",
+    "macro_mrr": 0.2222222222222222,
+    "query_type": "trend_all_reports"
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "RRF_K10",
+    "macro_mrr": 0.0,
+    "query_type": "unsupported_period"
+  },
+  {
+    "all_reports_hit": 0.5833333333333334,
+    "case_count": 12,
+    "complete_evidence_recall": 0.5833333333333334,
+    "evidence_recall": 0.5833333333333334,
+    "experiment_id": "RRF_K100",
+    "macro_mrr": 0.3680555555555556,
+    "query_type": "single_report"
+  },
+  {
+    "all_reports_hit": 0.25,
+    "case_count": 12,
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.375,
+    "experiment_id": "RRF_K100",
+    "macro_mrr": 0.3611111111111111,
+    "query_type": "pairwise_comparison"
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 6,
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.2222222222222222,
+    "experiment_id": "RRF_K100",
+    "macro_mrr": 0.2222222222222222,
+    "query_type": "trend_all_reports"
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "RRF_K100",
+    "macro_mrr": 0.0,
+    "query_type": "unsupported_period"
+  },
+  {
+    "all_reports_hit": 0.5833333333333334,
+    "case_count": 12,
+    "complete_evidence_recall": 0.5833333333333334,
+    "evidence_recall": 0.5833333333333334,
+    "experiment_id": "RRF_K30",
+    "macro_mrr": 0.3680555555555556,
+    "query_type": "single_report"
+  },
+  {
+    "all_reports_hit": 0.25,
+    "case_count": 12,
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.375,
+    "experiment_id": "RRF_K30",
+    "macro_mrr": 0.3611111111111111,
+    "query_type": "pairwise_comparison"
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 6,
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.2222222222222222,
+    "experiment_id": "RRF_K30",
+    "macro_mrr": 0.2222222222222222,
+    "query_type": "trend_all_reports"
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "RRF_K30",
+    "macro_mrr": 0.0,
+    "query_type": "unsupported_period"
+  },
+  {
+    "all_reports_hit": 0.5833333333333334,
+    "case_count": 12,
+    "complete_evidence_recall": 0.5833333333333334,
+    "evidence_recall": 0.5833333333333334,
+    "experiment_id": "RRF_K60",
+    "macro_mrr": 0.3680555555555556,
+    "query_type": "single_report"
+  },
+  {
+    "all_reports_hit": 0.25,
+    "case_count": 12,
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.375,
+    "experiment_id": "RRF_K60",
+    "macro_mrr": 0.3611111111111111,
+    "query_type": "pairwise_comparison"
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 6,
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.2222222222222222,
+    "experiment_id": "RRF_K60",
+    "macro_mrr": 0.2222222222222222,
+    "query_type": "trend_all_reports"
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "RRF_K60",
+    "macro_mrr": 0.0,
+    "query_type": "unsupported_period"
+  },
+  {
+    "all_reports_hit": 0.6666666666666666,
+    "case_count": 12,
+    "complete_evidence_recall": 0.6666666666666666,
+    "evidence_recall": 0.6666666666666666,
+    "experiment_id": "temporal_baseline",
+    "macro_mrr": 0.4166666666666667,
+    "query_type": "single_report"
+  },
+  {
+    "all_reports_hit": 0.25,
+    "case_count": 12,
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.375,
+    "experiment_id": "temporal_baseline",
+    "macro_mrr": 0.34722222222222227,
+    "query_type": "pairwise_comparison"
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 6,
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.2222222222222222,
+    "experiment_id": "temporal_baseline",
+    "macro_mrr": 0.16666666666666666,
+    "query_type": "trend_all_reports"
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "temporal_baseline",
+    "macro_mrr": 0.0,
+    "query_type": "unsupported_period"
+  },
+  {
+    "all_reports_hit": 0.5833333333333334,
+    "case_count": 12,
+    "complete_evidence_recall": 0.5833333333333334,
+    "evidence_recall": 0.5833333333333334,
+    "experiment_id": "WRRF_D1.5_B1",
+    "macro_mrr": 0.3680555555555556,
+    "query_type": "single_report"
+  },
+  {
+    "all_reports_hit": 0.25,
+    "case_count": 12,
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.375,
+    "experiment_id": "WRRF_D1.5_B1",
+    "macro_mrr": 0.34027777777777773,
+    "query_type": "pairwise_comparison"
+  },
+  {
+    "all_reports_hit": 0.16666666666666666,
+    "case_count": 6,
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.27777777777777773,
+    "experiment_id": "WRRF_D1.5_B1",
+    "macro_mrr": 0.25,
+    "query_type": "trend_all_reports"
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "WRRF_D1.5_B1",
+    "macro_mrr": 0.0,
+    "query_type": "unsupported_period"
+  },
+  {
+    "all_reports_hit": 0.5833333333333334,
+    "case_count": 12,
+    "complete_evidence_recall": 0.5833333333333334,
+    "evidence_recall": 0.5833333333333334,
+    "experiment_id": "WRRF_D1_B1",
+    "macro_mrr": 0.3680555555555556,
+    "query_type": "single_report"
+  },
+  {
+    "all_reports_hit": 0.25,
+    "case_count": 12,
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.375,
+    "experiment_id": "WRRF_D1_B1",
+    "macro_mrr": 0.3611111111111111,
+    "query_type": "pairwise_comparison"
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 6,
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.2222222222222222,
+    "experiment_id": "WRRF_D1_B1",
+    "macro_mrr": 0.2222222222222222,
+    "query_type": "trend_all_reports"
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "WRRF_D1_B1",
+    "macro_mrr": 0.0,
+    "query_type": "unsupported_period"
+  },
+  {
+    "all_reports_hit": 0.5,
+    "case_count": 12,
+    "complete_evidence_recall": 0.5,
+    "evidence_recall": 0.5,
+    "experiment_id": "WRRF_D1_B1.5",
+    "macro_mrr": 0.3819444444444444,
+    "query_type": "single_report"
+  },
+  {
+    "all_reports_hit": 0.16666666666666666,
+    "case_count": 12,
+    "complete_evidence_recall": 0.08333333333333333,
+    "evidence_recall": 0.25,
+    "experiment_id": "WRRF_D1_B1.5",
+    "macro_mrr": 0.2569444444444445,
+    "query_type": "pairwise_comparison"
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 6,
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.05555555555555555,
+    "experiment_id": "WRRF_D1_B1.5",
+    "macro_mrr": 0.05555555555555555,
+    "query_type": "trend_all_reports"
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "WRRF_D1_B1.5",
+    "macro_mrr": 0.0,
+    "query_type": "unsupported_period"
+  },
+  {
+    "all_reports_hit": 0.5,
+    "case_count": 12,
+    "complete_evidence_recall": 0.5,
+    "evidence_recall": 0.5,
+    "experiment_id": "WRRF_D1_B2",
+    "macro_mrr": 0.3819444444444444,
+    "query_type": "single_report"
+  },
+  {
+    "all_reports_hit": 0.16666666666666666,
+    "case_count": 12,
+    "complete_evidence_recall": 0.08333333333333333,
+    "evidence_recall": 0.25,
+    "experiment_id": "WRRF_D1_B2",
+    "macro_mrr": 0.2569444444444445,
+    "query_type": "pairwise_comparison"
+  },
+  {
+    "all_reports_hit": 0.0,
+    "case_count": 6,
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.05555555555555555,
+    "experiment_id": "WRRF_D1_B2",
+    "macro_mrr": 0.05555555555555555,
+    "query_type": "trend_all_reports"
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "WRRF_D1_B2",
+    "macro_mrr": 0.0,
+    "query_type": "unsupported_period"
+  },
+  {
+    "all_reports_hit": 0.5833333333333334,
+    "case_count": 12,
+    "complete_evidence_recall": 0.5833333333333334,
+    "evidence_recall": 0.5833333333333334,
+    "experiment_id": "WRRF_D2_B1",
+    "macro_mrr": 0.3680555555555556,
+    "query_type": "single_report"
+  },
+  {
+    "all_reports_hit": 0.25,
+    "case_count": 12,
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.375,
+    "experiment_id": "WRRF_D2_B1",
+    "macro_mrr": 0.34027777777777773,
+    "query_type": "pairwise_comparison"
+  },
+  {
+    "all_reports_hit": 0.16666666666666666,
+    "case_count": 6,
+    "complete_evidence_recall": 0.0,
+    "evidence_recall": 0.27777777777777773,
+    "experiment_id": "WRRF_D2_B1",
+    "macro_mrr": 0.25,
+    "query_type": "trend_all_reports"
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "WRRF_D2_B1",
+    "macro_mrr": 0.0,
+    "query_type": "unsupported_period"
+  },
+  {
+    "all_reports_hit": 0.5833333333333334,
+    "case_count": 12,
+    "complete_evidence_recall": 0.5833333333333334,
+    "evidence_recall": 0.5833333333333334,
+    "experiment_id": "QN01",
+    "macro_mrr": 0.3680555555555556,
+    "query_type": "single_report"
+  },
+  {
+    "all_reports_hit": 0.25,
+    "case_count": 12,
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.4166666666666667,
+    "experiment_id": "QN01",
+    "macro_mrr": 0.2986111111111111,
+    "query_type": "pairwise_comparison"
+  },
+  {
+    "all_reports_hit": 0.16666666666666666,
+    "case_count": 6,
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.38888888888888884,
+    "experiment_id": "QN01",
+    "macro_mrr": 0.23611111111111108,
+    "query_type": "trend_all_reports"
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "QN01",
+    "macro_mrr": 0.0,
+    "query_type": "unsupported_period"
+  },
+  {
+    "all_reports_hit": 0.5833333333333334,
+    "case_count": 12,
+    "complete_evidence_recall": 0.5833333333333334,
+    "evidence_recall": 0.5833333333333334,
+    "experiment_id": "EXP01",
+    "macro_mrr": 0.3680555555555556,
+    "query_type": "single_report"
+  },
+  {
+    "all_reports_hit": 0.25,
+    "case_count": 12,
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.4166666666666667,
+    "experiment_id": "EXP01",
+    "macro_mrr": 0.2986111111111111,
+    "query_type": "pairwise_comparison"
+  },
+  {
+    "all_reports_hit": 0.16666666666666666,
+    "case_count": 6,
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.38888888888888884,
+    "experiment_id": "EXP01",
+    "macro_mrr": 0.23611111111111108,
+    "query_type": "trend_all_reports"
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "EXP01",
+    "macro_mrr": 0.0,
+    "query_type": "unsupported_period"
+  },
+  {
+    "all_reports_hit": 0.5833333333333334,
+    "case_count": 12,
+    "complete_evidence_recall": 0.5833333333333334,
+    "evidence_recall": 0.5833333333333334,
+    "experiment_id": "EXP02",
+    "macro_mrr": 0.3680555555555556,
+    "query_type": "single_report"
+  },
+  {
+    "all_reports_hit": 0.25,
+    "case_count": 12,
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.4166666666666667,
+    "experiment_id": "EXP02",
+    "macro_mrr": 0.2986111111111111,
+    "query_type": "pairwise_comparison"
+  },
+  {
+    "all_reports_hit": 0.16666666666666666,
+    "case_count": 6,
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.38888888888888884,
+    "experiment_id": "EXP02",
+    "macro_mrr": 0.23611111111111108,
+    "query_type": "trend_all_reports"
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "EXP02",
+    "macro_mrr": 0.0,
+    "query_type": "unsupported_period"
+  },
+  {
+    "all_reports_hit": 0.5833333333333334,
+    "case_count": 12,
+    "complete_evidence_recall": 0.5833333333333334,
+    "evidence_recall": 0.5833333333333334,
+    "experiment_id": "FAC01",
+    "macro_mrr": 0.3680555555555556,
+    "query_type": "single_report"
+  },
+  {
+    "all_reports_hit": 0.25,
+    "case_count": 12,
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.4166666666666667,
+    "experiment_id": "FAC01",
+    "macro_mrr": 0.2986111111111111,
+    "query_type": "pairwise_comparison"
+  },
+  {
+    "all_reports_hit": 0.16666666666666666,
+    "case_count": 6,
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.38888888888888884,
+    "experiment_id": "FAC01",
+    "macro_mrr": 0.23611111111111108,
+    "query_type": "trend_all_reports"
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "FAC01",
+    "macro_mrr": 0.0,
+    "query_type": "unsupported_period"
+  },
+  {
+    "all_reports_hit": 0.5833333333333334,
+    "case_count": 12,
+    "complete_evidence_recall": 0.5833333333333334,
+    "evidence_recall": 0.5833333333333334,
+    "experiment_id": "BM02",
+    "macro_mrr": 0.3680555555555556,
+    "query_type": "single_report"
+  },
+  {
+    "all_reports_hit": 0.3333333333333333,
+    "case_count": 12,
+    "complete_evidence_recall": 0.25,
+    "evidence_recall": 0.4583333333333333,
+    "experiment_id": "BM02",
+    "macro_mrr": 0.3819444444444444,
+    "query_type": "pairwise_comparison"
+  },
+  {
+    "all_reports_hit": 0.16666666666666666,
+    "case_count": 6,
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.38888888888888884,
+    "experiment_id": "BM02",
+    "macro_mrr": 0.2546296296296296,
+    "query_type": "trend_all_reports"
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "BM02",
+    "macro_mrr": 0.0,
+    "query_type": "unsupported_period"
+  },
+  {
+    "all_reports_hit": 0.5833333333333334,
+    "case_count": 12,
+    "complete_evidence_recall": 0.5833333333333334,
+    "evidence_recall": 0.5833333333333334,
+    "experiment_id": "AQ01",
+    "macro_mrr": 0.3680555555555556,
+    "query_type": "single_report"
+  },
+  {
+    "all_reports_hit": 0.3333333333333333,
+    "case_count": 12,
+    "complete_evidence_recall": 0.25,
+    "evidence_recall": 0.4583333333333333,
+    "experiment_id": "AQ01",
+    "macro_mrr": 0.3819444444444444,
+    "query_type": "pairwise_comparison"
+  },
+  {
+    "all_reports_hit": 0.16666666666666666,
+    "case_count": 6,
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.38888888888888884,
+    "experiment_id": "AQ01",
+    "macro_mrr": 0.2546296296296296,
+    "query_type": "trend_all_reports"
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "AQ01",
+    "macro_mrr": 0.0,
+    "query_type": "unsupported_period"
+  },
+  {
+    "all_reports_hit": 0.5833333333333334,
+    "case_count": 12,
+    "complete_evidence_recall": 0.5833333333333334,
+    "evidence_recall": 0.5833333333333334,
+    "experiment_id": "DIV01",
+    "macro_mrr": 0.3680555555555556,
+    "query_type": "single_report"
+  },
+  {
+    "all_reports_hit": 0.3333333333333333,
+    "case_count": 12,
+    "complete_evidence_recall": 0.25,
+    "evidence_recall": 0.4583333333333333,
+    "experiment_id": "DIV01",
+    "macro_mrr": 0.3819444444444444,
+    "query_type": "pairwise_comparison"
+  },
+  {
+    "all_reports_hit": 0.16666666666666666,
+    "case_count": 6,
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.38888888888888884,
+    "experiment_id": "DIV01",
+    "macro_mrr": 0.2546296296296296,
+    "query_type": "trend_all_reports"
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "DIV01",
+    "macro_mrr": 0.0,
+    "query_type": "unsupported_period"
+  },
+  {
+    "all_reports_hit": 0.5833333333333334,
+    "case_count": 12,
+    "complete_evidence_recall": 0.5833333333333334,
+    "evidence_recall": 0.5833333333333334,
+    "experiment_id": "COMBINED_01",
+    "macro_mrr": 0.3680555555555556,
+    "query_type": "single_report"
+  },
+  {
+    "all_reports_hit": 0.25,
+    "case_count": 12,
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.4166666666666667,
+    "experiment_id": "COMBINED_01",
+    "macro_mrr": 0.2986111111111111,
+    "query_type": "pairwise_comparison"
+  },
+  {
+    "all_reports_hit": 0.16666666666666666,
+    "case_count": 6,
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.38888888888888884,
+    "experiment_id": "COMBINED_01",
+    "macro_mrr": 0.23611111111111108,
+    "query_type": "trend_all_reports"
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "COMBINED_01",
+    "macro_mrr": 0.0,
+    "query_type": "unsupported_period"
+  },
+  {
+    "all_reports_hit": 0.5833333333333334,
+    "case_count": 12,
+    "complete_evidence_recall": 0.5833333333333334,
+    "evidence_recall": 0.5833333333333334,
+    "experiment_id": "COMBINED_02",
+    "macro_mrr": 0.3680555555555556,
+    "query_type": "single_report"
+  },
+  {
+    "all_reports_hit": 0.25,
+    "case_count": 12,
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.4166666666666667,
+    "experiment_id": "COMBINED_02",
+    "macro_mrr": 0.2986111111111111,
+    "query_type": "pairwise_comparison"
+  },
+  {
+    "all_reports_hit": 0.16666666666666666,
+    "case_count": 6,
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.38888888888888884,
+    "experiment_id": "COMBINED_02",
+    "macro_mrr": 0.23611111111111108,
+    "query_type": "trend_all_reports"
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "COMBINED_02",
+    "macro_mrr": 0.0,
+    "query_type": "unsupported_period"
+  },
+  {
+    "all_reports_hit": 0.5833333333333334,
+    "case_count": 12,
+    "complete_evidence_recall": 0.5833333333333334,
+    "evidence_recall": 0.5833333333333334,
+    "experiment_id": "COMBINED_03",
+    "macro_mrr": 0.3680555555555556,
+    "query_type": "single_report"
+  },
+  {
+    "all_reports_hit": 0.25,
+    "case_count": 12,
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.4166666666666667,
+    "experiment_id": "COMBINED_03",
+    "macro_mrr": 0.2986111111111111,
+    "query_type": "pairwise_comparison"
+  },
+  {
+    "all_reports_hit": 0.16666666666666666,
+    "case_count": 6,
+    "complete_evidence_recall": 0.16666666666666666,
+    "evidence_recall": 0.38888888888888884,
+    "experiment_id": "COMBINED_03",
+    "macro_mrr": 0.23611111111111108,
+    "query_type": "trend_all_reports"
+  },
+  {
+    "all_reports_hit": null,
+    "case_count": 4,
+    "complete_evidence_recall": null,
+    "evidence_recall": null,
+    "experiment_id": "COMBINED_03",
+    "macro_mrr": 0.0,
+    "query_type": "unsupported_period"
+  }
+]

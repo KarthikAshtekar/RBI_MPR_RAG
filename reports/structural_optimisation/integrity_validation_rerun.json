@@ -1,0 +1,115 @@
+{
+  "checks": [
+    {
+      "experiment_id": "ADJ00",
+      "issue_count": 0,
+      "issues": [],
+      "valid": true
+    },
+    {
+      "experiment_id": "ADJ01",
+      "issue_count": 0,
+      "issues": [],
+      "valid": true
+    },
+    {
+      "experiment_id": "ADJ02",
+      "issue_count": 0,
+      "issues": [],
+      "valid": true
+    },
+    {
+      "experiment_id": "ADJ03",
+      "issue_count": 0,
+      "issues": [],
+      "valid": true
+    },
+    {
+      "experiment_id": "CPARENT01",
+      "issue_count": 0,
+      "issues": [],
+      "valid": true
+    },
+    {
+      "experiment_id": "CPARENT02",
+      "issue_count": 0,
+      "issues": [],
+      "valid": true
+    },
+    {
+      "experiment_id": "CPARENT03",
+      "issue_count": 0,
+      "issues": [],
+      "valid": true
+    },
+    {
+      "experiment_id": "EMB00",
+      "issue_count": 0,
+      "issues": [],
+      "valid": true
+    },
+    {
+      "experiment_id": "PARSER00",
+      "issue_count": 0,
+      "issues": [],
+      "valid": true
+    },
+    {
+      "experiment_id": "RERANK00",
+      "issue_count": 0,
+      "issues": [],
+      "valid": true
+    },
+    {
+      "experiment_id": "SEM00",
+      "issue_count": 0,
+      "issues": [],
+      "valid": true
+    },
+    {
+      "experiment_id": "stage_a_selected_reference",
+      "issue_count": 0,
+      "issues": [],
+      "valid": true
+    },
+    {
+      "experiment_id": "STRUCT_CANDIDATE_1",
+      "issue_count": 0,
+      "issues": [],
+      "valid": true
+    },
+    {
+      "experiment_id": "STRUCT_CANDIDATE_2",
+      "issue_count": 0,
+      "issues": [],
+      "valid": true
+    },
+    {
+      "experiment_id": "STRUCT_CANDIDATE_3",
+      "issue_count": 0,
+      "issues": [],
+      "valid": true
+    },
+    {
+      "experiment_id": "SW01",
+      "issue_count": 0,
+      "issues": [],
+      "valid": true
+    },
+    {
+      "experiment_id": "SW02",
+      "issue_count": 0,
+      "issues": [],
+      "valid": true
+    },
+    {
+      "experiment_id": "SW03",
+      "issue_count": 0,
+      "issues": [],
+      "valid": true
+    }
+  ],
+  "experiment_count": 18,
+  "invalid_count": 0,
+  "valid_count": 18
+}

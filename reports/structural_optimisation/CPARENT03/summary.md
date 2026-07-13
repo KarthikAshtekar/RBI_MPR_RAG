@@ -1,0 +1,36 @@
+# CPARENT03
+
+```json
+{
+  "all_reports_hit": 0.4,
+  "case_count": 34,
+  "complete_evidence_recall": 0.13333333333333333,
+  "configuration_checksum": "a46036fb0f95ed2b5aff930bfa026abac1aa5aa7235e8fc21021f78bd339936b",
+  "contamination": 0.0,
+  "dataset_sha256": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
+  "description": "Child retrieval with page-bounded parent windows.",
+  "evidence_recall": 0.2611111111111111,
+  "experiment_id": "CPARENT03",
+  "family": "child_parent",
+  "finished_at": "2026-07-13T12:31:12.690680+00:00",
+  "index_fingerprint": "778f986612e97ec5f39b23ee81e35abb281cff7ae92268fa38861ce77b7dec01",
+  "loss_stage_counts": {
+    "evidence_found": 28,
+    "lost_by_deduplication": 13,
+    "lost_in_fusion": 7,
+    "not_in_candidate_union": 6
+  },
+  "macro_mrr": 0.3537037037037037,
+  "mean_estimated_tokens": 2191.133333333333,
+  "mean_latency_ms": 3025.7345133344643,
+  "mean_repeated_text_ratio": 0.13886323634836248,
+  "mean_selected_characters": 8763.1,
+  "mean_selected_chunks": 9.0,
+  "mean_unique_pages": 7.633333333333334,
+  "median_latency_ms": 2955.548749974696,
+  "p95_latency_ms": 4637.965900008567,
+  "report_coverage": 1.0,
+  "report_level_row_count": 54,
+  "started_at": "2026-07-13T12:29:41.822533+00:00"
+}
+```

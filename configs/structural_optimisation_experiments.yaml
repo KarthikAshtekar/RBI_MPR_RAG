@@ -1,0 +1,447 @@
+stage_a_selected_reference:
+  description: Reproduce the Stage A selected QUOTA_LARGE configuration under Phase 6B output isolation.
+  parent_experiment: QUOTA_LARGE
+  enabled: true
+  parser: {name: pypdfloader, status: active}
+  chunking: {strategy: recursive, chunk_size: 1000, chunk_overlap: 300}
+  index: {type: existing_multi_report_chroma, path: indexes/multi_report/chroma}
+  embedding: {model: sentence-transformers/all-MiniLM-L6-v2}
+  retrieval: {dense_k: 50, bm25_k: 50}
+  bm25: {preprocessing: current}
+  fusion: {method: rrf, k: 60, retain: 30, dense_weight: 1.0, bm25_weight: 1.0}
+  reranker: {model: cross-encoder/ms-marco-MiniLM-L-6-v2, candidates: 30}
+  context_selection: {single: 6, pairwise: 5, trend: 4, structural_mode: none}
+  deduplication: {strategy: exact_text_per_report}
+  evaluation: {split: dev, heldout_loaded: false}
+
+SEM00:
+  description: Recursive chunking reference using Stage A selected retrieval.
+  parent_experiment: stage_a_selected_reference
+  enabled: true
+  parser: {name: pypdfloader, status: active}
+  chunking: {strategy: recursive, chunk_size: 1000, chunk_overlap: 300}
+  index: {type: existing_multi_report_chroma, path: indexes/multi_report/chroma}
+  embedding: {model: sentence-transformers/all-MiniLM-L6-v2}
+  retrieval: {dense_k: 50, bm25_k: 50}
+  bm25: {preprocessing: current}
+  fusion: {method: rrf, k: 60, retain: 30, dense_weight: 1.0, bm25_weight: 1.0}
+  reranker: {model: cross-encoder/ms-marco-MiniLM-L-6-v2, candidates: 30}
+  context_selection: {single: 6, pairwise: 5, trend: 4, structural_mode: none}
+  deduplication: {strategy: exact_text_per_report}
+  evaluation: {split: dev, heldout_loaded: false}
+
+SEM01:
+  description: Semantic percentile 90 chunking candidate; skipped unless a full semantic Chroma index is built.
+  parent_experiment: stage_a_selected_reference
+  enabled: false
+  parser: {name: pypdfloader, status: skipped}
+  chunking: {strategy: semantic, percentile: 90, min_chars: 300, max_chars: 1000}
+  index: {type: structural_chroma, path: indexes/structural_optimisation/semantic_SEM01}
+  embedding: {model: sentence-transformers/all-MiniLM-L6-v2}
+  retrieval: {dense_k: 50, bm25_k: 50}
+  bm25: {preprocessing: current}
+  fusion: {method: rrf, k: 60, retain: 30}
+  reranker: {model: cross-encoder/ms-marco-MiniLM-L-6-v2}
+  context_selection: {single: 6, pairwise: 5, trend: 4}
+  deduplication: {strategy: exact_text_per_report}
+  evaluation: {split: dev, skip_reason: full semantic reindex not executed in this bounded local run}
+
+SEM02:
+  description: Semantic percentile 95 chunking candidate; skipped unless a full semantic Chroma index is built.
+  parent_experiment: stage_a_selected_reference
+  enabled: false
+  parser: {name: pypdfloader, status: skipped}
+  chunking: {strategy: semantic, percentile: 95, min_chars: 300, max_chars: 1200}
+  index: {type: structural_chroma, path: indexes/structural_optimisation/semantic_SEM02}
+  embedding: {model: sentence-transformers/all-MiniLM-L6-v2}
+  retrieval: {dense_k: 50, bm25_k: 50}
+  bm25: {preprocessing: current}
+  fusion: {method: rrf, k: 60, retain: 30}
+  reranker: {model: cross-encoder/ms-marco-MiniLM-L-6-v2}
+  context_selection: {single: 6, pairwise: 5, trend: 4}
+  deduplication: {strategy: exact_text_per_report}
+  evaluation: {split: dev, skip_reason: full semantic reindex not executed in this bounded local run}
+
+SEM03:
+  description: Semantic percentile 85 chunking candidate; skipped unless a full semantic Chroma index is built.
+  parent_experiment: stage_a_selected_reference
+  enabled: false
+  parser: {name: pypdfloader, status: skipped}
+  chunking: {strategy: semantic, percentile: 85, min_chars: 250, max_chars: 900}
+  index: {type: structural_chroma, path: indexes/structural_optimisation/semantic_SEM03}
+  embedding: {model: sentence-transformers/all-MiniLM-L6-v2}
+  retrieval: {dense_k: 50, bm25_k: 50}
+  bm25: {preprocessing: current}
+  fusion: {method: rrf, k: 60, retain: 30}
+  reranker: {model: cross-encoder/ms-marco-MiniLM-L-6-v2}
+  context_selection: {single: 6, pairwise: 5, trend: 4}
+  deduplication: {strategy: exact_text_per_report}
+  evaluation: {split: dev, skip_reason: full semantic reindex not executed in this bounded local run}
+
+CPARENT01:
+  description: Child retrieval with same-page local parent windows.
+  parent_experiment: stage_a_selected_reference
+  enabled: true
+  parser: {name: pypdfloader, status: active}
+  chunking: {strategy: child_parent, child_size: 500, child_overlap: 100, parent_strategy: same_page_local_window, parent_max_chars: 1200}
+  index: {type: existing_multi_report_chroma, path: indexes/multi_report/chroma}
+  embedding: {model: sentence-transformers/all-MiniLM-L6-v2}
+  retrieval: {dense_k: 50, bm25_k: 50}
+  bm25: {preprocessing: current}
+  fusion: {method: rrf, k: 60, retain: 30}
+  reranker: {model: cross-encoder/ms-marco-MiniLM-L-6-v2}
+  context_selection: {single: 6, pairwise: 5, trend: 4, structural_mode: child_parent}
+  deduplication: {strategy: exact_text_per_report}
+  evaluation: {split: dev, heldout_loaded: false}
+
+CPARENT02:
+  description: Child retrieval with adjacent-child parent windows.
+  parent_experiment: stage_a_selected_reference
+  enabled: true
+  parser: {name: pypdfloader, status: active}
+  chunking: {strategy: child_parent, child_size: 400, child_overlap: 80, parent_strategy: adjacent_child_window, parent_max_chars: 1400}
+  index: {type: existing_multi_report_chroma, path: indexes/multi_report/chroma}
+  embedding: {model: sentence-transformers/all-MiniLM-L6-v2}
+  retrieval: {dense_k: 50, bm25_k: 50}
+  bm25: {preprocessing: current}
+  fusion: {method: rrf, k: 60, retain: 30}
+  reranker: {model: cross-encoder/ms-marco-MiniLM-L-6-v2}
+  context_selection: {single: 6, pairwise: 5, trend: 4, structural_mode: child_parent}
+  deduplication: {strategy: exact_text_per_report}
+  evaluation: {split: dev, heldout_loaded: false}
+
+CPARENT03:
+  description: Child retrieval with page-bounded parent windows.
+  parent_experiment: stage_a_selected_reference
+  enabled: true
+  parser: {name: pypdfloader, status: active}
+  chunking: {strategy: child_parent, child_size: 600, child_overlap: 120, parent_strategy: page_bounded_parent, parent_max_chars: 1600}
+  index: {type: existing_multi_report_chroma, path: indexes/multi_report/chroma}
+  embedding: {model: sentence-transformers/all-MiniLM-L6-v2}
+  retrieval: {dense_k: 50, bm25_k: 50}
+  bm25: {preprocessing: current}
+  fusion: {method: rrf, k: 60, retain: 30}
+  reranker: {model: cross-encoder/ms-marco-MiniLM-L-6-v2}
+  context_selection: {single: 6, pairwise: 5, trend: 4, structural_mode: child_parent}
+  deduplication: {strategy: exact_text_per_report}
+  evaluation: {split: dev, heldout_loaded: false}
+
+SW01:
+  description: Sentence-window approximation with one sentence before and after.
+  parent_experiment: stage_a_selected_reference
+  enabled: true
+  parser: {name: pypdfloader, status: active}
+  chunking: {strategy: sentence_window, window_before: 1, window_after: 1, max_chars: 1200}
+  index: {type: existing_multi_report_chroma, path: indexes/multi_report/chroma}
+  embedding: {model: sentence-transformers/all-MiniLM-L6-v2}
+  retrieval: {dense_k: 50, bm25_k: 50}
+  bm25: {preprocessing: current}
+  fusion: {method: rrf, k: 60, retain: 30}
+  reranker: {model: cross-encoder/ms-marco-MiniLM-L-6-v2}
+  context_selection: {single: 6, pairwise: 5, trend: 4, structural_mode: sentence_window}
+  deduplication: {strategy: exact_text_per_report}
+  evaluation: {split: dev, heldout_loaded: false}
+
+SW02:
+  description: Sentence-window approximation with two sentences before and after.
+  parent_experiment: stage_a_selected_reference
+  enabled: true
+  parser: {name: pypdfloader, status: active}
+  chunking: {strategy: sentence_window, window_before: 2, window_after: 2, max_chars: 1600}
+  index: {type: existing_multi_report_chroma, path: indexes/multi_report/chroma}
+  embedding: {model: sentence-transformers/all-MiniLM-L6-v2}
+  retrieval: {dense_k: 50, bm25_k: 50}
+  bm25: {preprocessing: current}
+  fusion: {method: rrf, k: 60, retain: 30}
+  reranker: {model: cross-encoder/ms-marco-MiniLM-L-6-v2}
+  context_selection: {single: 6, pairwise: 5, trend: 4, structural_mode: sentence_window}
+  deduplication: {strategy: exact_text_per_report}
+  evaluation: {split: dev, heldout_loaded: false}
+
+SW03:
+  description: Small chunk-window approximation with one neighbouring chunk before and after.
+  parent_experiment: stage_a_selected_reference
+  enabled: true
+  parser: {name: pypdfloader, status: active}
+  chunking: {strategy: chunk_window, window_before: 1, window_after: 1, max_chars: 1600}
+  index: {type: existing_multi_report_chroma, path: indexes/multi_report/chroma}
+  embedding: {model: sentence-transformers/all-MiniLM-L6-v2}
+  retrieval: {dense_k: 50, bm25_k: 50}
+  bm25: {preprocessing: current}
+  fusion: {method: rrf, k: 60, retain: 30}
+  reranker: {model: cross-encoder/ms-marco-MiniLM-L-6-v2}
+  context_selection: {single: 6, pairwise: 5, trend: 4, structural_mode: child_parent}
+  deduplication: {strategy: exact_text_per_report}
+  evaluation: {split: dev, heldout_loaded: false}
+
+ADJ00:
+  description: No adjacent expansion reference.
+  parent_experiment: stage_a_selected_reference
+  enabled: true
+  parser: {name: pypdfloader, status: active}
+  chunking: {strategy: recursive, chunk_size: 1000, chunk_overlap: 300}
+  index: {type: existing_multi_report_chroma, path: indexes/multi_report/chroma}
+  embedding: {model: sentence-transformers/all-MiniLM-L6-v2}
+  retrieval: {dense_k: 50, bm25_k: 50}
+  bm25: {preprocessing: current}
+  fusion: {method: rrf, k: 60, retain: 30}
+  reranker: {model: cross-encoder/ms-marco-MiniLM-L-6-v2}
+  context_selection: {single: 6, pairwise: 5, trend: 4, structural_mode: none}
+  deduplication: {strategy: exact_text_per_report}
+  evaluation: {split: dev, heldout_loaded: false}
+
+ADJ01:
+  description: Add previous/next same-page chunk when a boundary condition holds.
+  parent_experiment: stage_a_selected_reference
+  enabled: true
+  parser: {name: pypdfloader, status: active}
+  chunking: {strategy: adjacent_expansion, mode: boundary, max_tokens: 2600}
+  index: {type: existing_multi_report_chroma, path: indexes/multi_report/chroma}
+  embedding: {model: sentence-transformers/all-MiniLM-L6-v2}
+  retrieval: {dense_k: 50, bm25_k: 50}
+  bm25: {preprocessing: current}
+  fusion: {method: rrf, k: 60, retain: 30}
+  reranker: {model: cross-encoder/ms-marco-MiniLM-L-6-v2}
+  context_selection: {single: 6, pairwise: 5, trend: 4, structural_mode: adjacent}
+  deduplication: {strategy: exact_text_per_report}
+  evaluation: {split: dev, heldout_loaded: false}
+
+ADJ02:
+  description: Add one adjacent same-page chunk under a fixed context budget.
+  parent_experiment: stage_a_selected_reference
+  enabled: true
+  parser: {name: pypdfloader, status: active}
+  chunking: {strategy: adjacent_expansion, mode: always, max_tokens: 2600}
+  index: {type: existing_multi_report_chroma, path: indexes/multi_report/chroma}
+  embedding: {model: sentence-transformers/all-MiniLM-L6-v2}
+  retrieval: {dense_k: 50, bm25_k: 50}
+  bm25: {preprocessing: current}
+  fusion: {method: rrf, k: 60, retain: 30}
+  reranker: {model: cross-encoder/ms-marco-MiniLM-L-6-v2}
+  context_selection: {single: 6, pairwise: 5, trend: 4, structural_mode: adjacent}
+  deduplication: {strategy: exact_text_per_report}
+  evaluation: {split: dev, heldout_loaded: false}
+
+ADJ03:
+  description: Add adjacent chunks only for trend queries.
+  parent_experiment: stage_a_selected_reference
+  enabled: true
+  parser: {name: pypdfloader, status: active}
+  chunking: {strategy: adjacent_expansion, mode: multi_facet_or_trend, max_tokens: 2600}
+  index: {type: existing_multi_report_chroma, path: indexes/multi_report/chroma}
+  embedding: {model: sentence-transformers/all-MiniLM-L6-v2}
+  retrieval: {dense_k: 50, bm25_k: 50}
+  bm25: {preprocessing: current}
+  fusion: {method: rrf, k: 60, retain: 30}
+  reranker: {model: cross-encoder/ms-marco-MiniLM-L-6-v2}
+  context_selection: {single: 6, pairwise: 5, trend: 4, structural_mode: adjacent}
+  deduplication: {strategy: exact_text_per_report}
+  evaluation: {split: dev, heldout_loaded: false}
+
+PARSER00:
+  description: PyPDFLoader parser reference.
+  parent_experiment: stage_a_selected_reference
+  enabled: true
+  parser: {name: pypdfloader, status: active}
+  chunking: {strategy: recursive, chunk_size: 1000, chunk_overlap: 300}
+  index: {type: existing_multi_report_chroma, path: indexes/multi_report/chroma}
+  embedding: {model: sentence-transformers/all-MiniLM-L6-v2}
+  retrieval: {dense_k: 50, bm25_k: 50}
+  bm25: {preprocessing: current}
+  fusion: {method: rrf, k: 60, retain: 30}
+  reranker: {model: cross-encoder/ms-marco-MiniLM-L-6-v2}
+  context_selection: {single: 6, pairwise: 5, trend: 4, structural_mode: none}
+  deduplication: {strategy: exact_text_per_report}
+  evaluation: {split: dev, heldout_loaded: false}
+
+PARSER01:
+  description: Docling full extraction, skipped if docling is unavailable locally.
+  parent_experiment: stage_a_selected_reference
+  enabled: false
+  parser: {name: docling, status: optional}
+  chunking: {strategy: recursive, chunk_size: 1000, chunk_overlap: 300}
+  index: {type: structural_chroma, path: indexes/structural_optimisation/parser_PARSER01}
+  embedding: {model: sentence-transformers/all-MiniLM-L6-v2}
+  retrieval: {dense_k: 50, bm25_k: 50}
+  bm25: {preprocessing: current}
+  fusion: {method: rrf, k: 60, retain: 30}
+  reranker: {model: cross-encoder/ms-marco-MiniLM-L-6-v2}
+  context_selection: {single: 6, pairwise: 5, trend: 4}
+  deduplication: {strategy: exact_text_per_report}
+  evaluation: {split: dev, skip_reason: docling optional dependency not assumed installed}
+
+PARSER02:
+  description: Hybrid PyPDF/Docling parser, skipped if docling is unavailable locally.
+  parent_experiment: stage_a_selected_reference
+  enabled: false
+  parser: {name: hybrid_pypdf_docling, status: optional}
+  chunking: {strategy: recursive, chunk_size: 1000, chunk_overlap: 300}
+  index: {type: structural_chroma, path: indexes/structural_optimisation/parser_PARSER02}
+  embedding: {model: sentence-transformers/all-MiniLM-L6-v2}
+  retrieval: {dense_k: 50, bm25_k: 50}
+  bm25: {preprocessing: current}
+  fusion: {method: rrf, k: 60, retain: 30}
+  reranker: {model: cross-encoder/ms-marco-MiniLM-L-6-v2}
+  context_selection: {single: 6, pairwise: 5, trend: 4}
+  deduplication: {strategy: exact_text_per_report}
+  evaluation: {split: dev, skip_reason: docling optional dependency not assumed installed}
+
+PARSER03:
+  description: Unstructured partition_pdf, optional and skipped if unavailable locally.
+  parent_experiment: stage_a_selected_reference
+  enabled: false
+  parser: {name: unstructured_partition_pdf, status: optional}
+  chunking: {strategy: recursive, chunk_size: 1000, chunk_overlap: 300}
+  index: {type: structural_chroma, path: indexes/structural_optimisation/parser_PARSER03}
+  embedding: {model: sentence-transformers/all-MiniLM-L6-v2}
+  retrieval: {dense_k: 50, bm25_k: 50}
+  bm25: {preprocessing: current}
+  fusion: {method: rrf, k: 60, retain: 30}
+  reranker: {model: cross-encoder/ms-marco-MiniLM-L-6-v2}
+  context_selection: {single: 6, pairwise: 5, trend: 4}
+  deduplication: {strategy: exact_text_per_report}
+  evaluation: {split: dev, skip_reason: unstructured optional dependency not assumed installed}
+
+EMB00:
+  description: Current MiniLM embedding reference.
+  parent_experiment: stage_a_selected_reference
+  enabled: true
+  parser: {name: pypdfloader, status: active}
+  chunking: {strategy: recursive, chunk_size: 1000, chunk_overlap: 300}
+  index: {type: existing_multi_report_chroma, path: indexes/multi_report/chroma}
+  embedding: {model: sentence-transformers/all-MiniLM-L6-v2}
+  retrieval: {dense_k: 50, bm25_k: 50}
+  bm25: {preprocessing: current}
+  fusion: {method: rrf, k: 60, retain: 30}
+  reranker: {model: cross-encoder/ms-marco-MiniLM-L-6-v2}
+  context_selection: {single: 6, pairwise: 5, trend: 4, structural_mode: none}
+  deduplication: {strategy: exact_text_per_report}
+  evaluation: {split: dev, heldout_loaded: false}
+
+EMB01:
+  description: intfloat/e5-base-v2 optional embedding model, skipped unless locally available without download.
+  parent_experiment: stage_a_selected_reference
+  enabled: false
+  parser: {name: pypdfloader, status: active}
+  chunking: {strategy: recursive, chunk_size: 1000, chunk_overlap: 300}
+  index: {type: structural_chroma, path: indexes/structural_optimisation/embedding_EMB01}
+  embedding: {model: intfloat/e5-base-v2, query_prefix: "query:", passage_prefix: "passage:"}
+  retrieval: {dense_k: 50, bm25_k: 50}
+  bm25: {preprocessing: current}
+  fusion: {method: rrf, k: 60, retain: 30}
+  reranker: {model: cross-encoder/ms-marco-MiniLM-L-6-v2}
+  context_selection: {single: 6, pairwise: 5, trend: 4}
+  deduplication: {strategy: exact_text_per_report}
+  evaluation: {split: dev, skip_reason: alternative embedding download not performed in offline-safe run}
+
+EMB02:
+  description: BAAI/bge-base-en-v1.5 optional embedding model, skipped unless locally available without download.
+  parent_experiment: stage_a_selected_reference
+  enabled: false
+  parser: {name: pypdfloader, status: active}
+  chunking: {strategy: recursive, chunk_size: 1000, chunk_overlap: 300}
+  index: {type: structural_chroma, path: indexes/structural_optimisation/embedding_EMB02}
+  embedding: {model: BAAI/bge-base-en-v1.5}
+  retrieval: {dense_k: 50, bm25_k: 50}
+  bm25: {preprocessing: current}
+  fusion: {method: rrf, k: 60, retain: 30}
+  reranker: {model: cross-encoder/ms-marco-MiniLM-L-6-v2}
+  context_selection: {single: 6, pairwise: 5, trend: 4}
+  deduplication: {strategy: exact_text_per_report}
+  evaluation: {split: dev, skip_reason: alternative embedding download not performed in offline-safe run}
+
+RERANK00:
+  description: Current MiniLM cross-encoder reranker reference.
+  parent_experiment: stage_a_selected_reference
+  enabled: true
+  parser: {name: pypdfloader, status: active}
+  chunking: {strategy: recursive, chunk_size: 1000, chunk_overlap: 300}
+  index: {type: existing_multi_report_chroma, path: indexes/multi_report/chroma}
+  embedding: {model: sentence-transformers/all-MiniLM-L6-v2}
+  retrieval: {dense_k: 50, bm25_k: 50}
+  bm25: {preprocessing: current}
+  fusion: {method: rrf, k: 60, retain: 30}
+  reranker: {model: cross-encoder/ms-marco-MiniLM-L-6-v2}
+  context_selection: {single: 6, pairwise: 5, trend: 4, structural_mode: none}
+  deduplication: {strategy: exact_text_per_report}
+  evaluation: {split: dev, heldout_loaded: false}
+
+RERANK01:
+  description: ms-marco-MiniLM-L-12-v2 optional reranker, skipped unless locally available without download.
+  parent_experiment: stage_a_selected_reference
+  enabled: false
+  parser: {name: pypdfloader, status: active}
+  chunking: {strategy: recursive, chunk_size: 1000, chunk_overlap: 300}
+  index: {type: existing_multi_report_chroma, path: indexes/multi_report/chroma}
+  embedding: {model: sentence-transformers/all-MiniLM-L6-v2}
+  retrieval: {dense_k: 50, bm25_k: 50}
+  bm25: {preprocessing: current}
+  fusion: {method: rrf, k: 60, retain: 30}
+  reranker: {model: cross-encoder/ms-marco-MiniLM-L-12-v2}
+  context_selection: {single: 6, pairwise: 5, trend: 4}
+  deduplication: {strategy: exact_text_per_report}
+  evaluation: {split: dev, skip_reason: alternative reranker download not performed in offline-safe run}
+
+RERANK02:
+  description: BAAI/bge-reranker-base optional reranker, skipped unless locally available without download.
+  parent_experiment: stage_a_selected_reference
+  enabled: false
+  parser: {name: pypdfloader, status: active}
+  chunking: {strategy: recursive, chunk_size: 1000, chunk_overlap: 300}
+  index: {type: existing_multi_report_chroma, path: indexes/multi_report/chroma}
+  embedding: {model: sentence-transformers/all-MiniLM-L6-v2}
+  retrieval: {dense_k: 50, bm25_k: 50}
+  bm25: {preprocessing: current}
+  fusion: {method: rrf, k: 60, retain: 30}
+  reranker: {model: BAAI/bge-reranker-base}
+  context_selection: {single: 6, pairwise: 5, trend: 4}
+  deduplication: {strategy: exact_text_per_report}
+  evaluation: {split: dev, skip_reason: alternative reranker download not performed in offline-safe run}
+
+STRUCT_CANDIDATE_1:
+  description: Stage A selected plus boundary adjacent expansion.
+  parent_experiment: ADJ01
+  enabled: true
+  parser: {name: pypdfloader, status: active}
+  chunking: {strategy: adjacent_expansion, mode: boundary, max_tokens: 2600}
+  index: {type: existing_multi_report_chroma, path: indexes/multi_report/chroma}
+  embedding: {model: sentence-transformers/all-MiniLM-L6-v2}
+  retrieval: {dense_k: 50, bm25_k: 50}
+  bm25: {preprocessing: current}
+  fusion: {method: rrf, k: 60, retain: 30}
+  reranker: {model: cross-encoder/ms-marco-MiniLM-L-6-v2}
+  context_selection: {single: 6, pairwise: 5, trend: 4, structural_mode: adjacent}
+  deduplication: {strategy: exact_text_per_report}
+  evaluation: {split: dev, heldout_loaded: false}
+
+STRUCT_CANDIDATE_2:
+  description: Stage A selected plus adjacent-child parent windows.
+  parent_experiment: CPARENT02
+  enabled: true
+  parser: {name: pypdfloader, status: active}
+  chunking: {strategy: child_parent, parent_strategy: adjacent_child_window, parent_max_chars: 1400}
+  index: {type: existing_multi_report_chroma, path: indexes/multi_report/chroma}
+  embedding: {model: sentence-transformers/all-MiniLM-L6-v2}
+  retrieval: {dense_k: 50, bm25_k: 50}
+  bm25: {preprocessing: current}
+  fusion: {method: rrf, k: 60, retain: 30}
+  reranker: {model: cross-encoder/ms-marco-MiniLM-L-6-v2}
+  context_selection: {single: 6, pairwise: 5, trend: 4, structural_mode: child_parent}
+  deduplication: {strategy: exact_text_per_report}
+  evaluation: {split: dev, heldout_loaded: false}
+
+STRUCT_CANDIDATE_3:
+  description: Stage A selected plus sentence-window context.
+  parent_experiment: SW02
+  enabled: true
+  parser: {name: pypdfloader, status: active}
+  chunking: {strategy: sentence_window, window_before: 2, window_after: 2, max_chars: 1600}
+  index: {type: existing_multi_report_chroma, path: indexes/multi_report/chroma}
+  embedding: {model: sentence-transformers/all-MiniLM-L6-v2}
+  retrieval: {dense_k: 50, bm25_k: 50}
+  bm25: {preprocessing: current}
+  fusion: {method: rrf, k: 60, retain: 30}
+  reranker: {model: cross-encoder/ms-marco-MiniLM-L-6-v2}
+  context_selection: {single: 6, pairwise: 5, trend: 4, structural_mode: sentence_window}
+  deduplication: {strategy: exact_text_per_report}
+  evaluation: {split: dev, heldout_loaded: false}

@@ -1,0 +1,17 @@
+{
+  "bm25_warmup_ms": 23.36029999423772,
+  "dense_warmup_ms": 517.8322999854572,
+  "embedding_warmup_ms": 517.8322999854572,
+  "generation_evaluation_run": false,
+  "groq_api_key_available": true,
+  "heldout_dataset_loaded": false,
+  "phase": "6B",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.13.7",
+  "reranker_warmup_ms": 160.43010004796088,
+  "runner_version": "phase6b_structural_v1",
+  "timing_schema_version": 1,
+  "trace_schema_version": 2,
+  "warmup_performed": true,
+  "warmup_query_hash": "404e295aeb5795bf662a32b1c1c5fca7a146960c62554d77041975c6acb5c9ff"
+}

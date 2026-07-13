@@ -1,0 +1,22 @@
+# Invalid Runs Before Latency Fix
+
+- CP01: missing_per_question_latency
+- CP02: missing_per_question_latency
+- CP03: missing_per_question_latency
+- CP04: missing_per_question_latency
+- FR01: missing_per_question_latency
+- FR02: missing_per_question_latency
+- FR03: missing_per_question_latency
+- FR04: missing_per_question_latency
+- QUOTA_EXPANDED: missing_per_question_latency
+- QUOTA_LARGE: missing_per_question_latency
+- RRF_K10: missing_per_question_latency
+- RRF_K100: missing_per_question_latency
+- RRF_K30: missing_per_question_latency
+- RRF_K60: missing_per_question_latency
+- temporal_baseline: missing_per_question_latency
+- WRRF_D1.5_B1: missing_per_question_latency
+- WRRF_D1_B1: missing_per_question_latency
+- WRRF_D1_B1.5: missing_per_question_latency
+- WRRF_D1_B2: missing_per_question_latency
+- WRRF_D2_B1: missing_per_question_latency

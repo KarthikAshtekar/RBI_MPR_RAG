@@ -1,0 +1,197 @@
+{
+  "splits": {
+    "dev": {
+      "report_aware": {
+        "case_count": 34,
+        "mean_report_coverage": {
+          "point_estimate": 1.0,
+          "ci_95_low": 1.0,
+          "ci_95_high": 1.0,
+          "n": 30
+        },
+        "all_reports_hit_rate": {
+          "point_estimate": 0.36666666666666664,
+          "ci_95_low": 0.21873920806100713,
+          "ci_95_high": 0.5448643634520512,
+          "n": 30
+        },
+        "macro_report_mrr": {
+          "point_estimate": 0.33888888888888885,
+          "ci_95_low": 0.21944444444444444,
+          "ci_95_high": 0.46388888888888885,
+          "n": 30
+        },
+        "evidence_recall": {
+          "point_estimate": 0.46111111111111114,
+          "ci_95_low": 0.3,
+          "ci_95_high": 0.6222222222222222,
+          "n": 30
+        },
+        "complete_evidence_recall": {
+          "point_estimate": 0.3333333333333333,
+          "ci_95_low": 0.19230498083676142,
+          "ci_95_high": 0.5121994835545616,
+          "n": 30
+        },
+        "cross_report_contamination_rate": {
+          "point_estimate": 0.0,
+          "ci_95_low": 0.0,
+          "ci_95_high": 0.2424940066552408,
+          "n": 12
+        },
+        "latency_ms": {
+          "mean": 1684.4348882407169,
+          "median": 1817.9881999385543,
+          "p95": 3717.9011999396607
+        },
+        "bootstrap_resamples": 2000,
+        "confidence_level": 0.95,
+        "random_seed": 42
+      },
+      "naive_global": {
+        "case_count": 34,
+        "mean_report_coverage": {
+          "point_estimate": 0.9388888888888889,
+          "ci_95_low": 0.85,
+          "ci_95_high": 1.0,
+          "n": 30
+        },
+        "all_reports_hit_rate": {
+          "point_estimate": 0.16666666666666666,
+          "ci_95_low": 0.07336542371848548,
+          "ci_95_high": 0.3356435050641603,
+          "n": 30
+        },
+        "macro_report_mrr": {
+          "point_estimate": 0.24166666666666667,
+          "ci_95_low": 0.1277777777777778,
+          "ci_95_high": 0.36944444444444446,
+          "n": 30
+        },
+        "evidence_recall": {
+          "point_estimate": 0.2111111111111111,
+          "ci_95_low": 0.1,
+          "ci_95_high": 0.34444444444444444,
+          "n": 30
+        },
+        "complete_evidence_recall": {
+          "point_estimate": 0.1,
+          "ci_95_low": 0.03459988874733419,
+          "ci_95_high": 0.25621082579184085,
+          "n": 30
+        },
+        "cross_report_contamination_rate": {
+          "point_estimate": 0.9166666666666666,
+          "ci_95_low": 0.6461200888588832,
+          "ci_95_high": 0.9851349055950829,
+          "n": 12
+        },
+        "latency_ms": {
+          "mean": 942.80305588344,
+          "median": 1052.6096999528818,
+          "p95": 1322.4499999778345
+        },
+        "bootstrap_resamples": 2000,
+        "confidence_level": 0.95,
+        "random_seed": 42
+      }
+    },
+    "test": {
+      "report_aware": {
+        "case_count": 15,
+        "mean_report_coverage": {
+          "point_estimate": 0.9285714285714286,
+          "ci_95_low": 0.7857142857142857,
+          "ci_95_high": 1.0,
+          "n": 14
+        },
+        "all_reports_hit_rate": {
+          "point_estimate": 0.38461538461538464,
+          "ci_95_low": 0.17709707797762575,
+          "ci_95_high": 0.644771084873343,
+          "n": 13
+        },
+        "macro_report_mrr": {
+          "point_estimate": 0.26785714285714285,
+          "ci_95_low": 0.14285714285714285,
+          "ci_95_high": 0.3988095238095238,
+          "n": 14
+        },
+        "evidence_recall": {
+          "point_estimate": 0.4743589743589744,
+          "ci_95_low": 0.24358974358974358,
+          "ci_95_high": 0.6923076923076923,
+          "n": 13
+        },
+        "complete_evidence_recall": {
+          "point_estimate": 0.3076923076923077,
+          "ci_95_low": 0.12680703655710515,
+          "ci_95_high": 0.5763065681945096,
+          "n": 13
+        },
+        "cross_report_contamination_rate": {
+          "point_estimate": 0.0,
+          "ci_95_low": 0.0,
+          "ci_95_high": 0.39033428790216523,
+          "n": 6
+        },
+        "latency_ms": {
+          "mean": 1075.8677933365107,
+          "median": 800.6354000535794,
+          "p95": 2598.3804000425152
+        },
+        "bootstrap_resamples": 2000,
+        "confidence_level": 0.95,
+        "random_seed": 42
+      },
+      "naive_global": {
+        "case_count": 15,
+        "mean_report_coverage": {
+          "point_estimate": 0.5833333333333333,
+          "ci_95_low": 0.35714285714285715,
+          "ci_95_high": 0.7976190476190476,
+          "n": 14
+        },
+        "all_reports_hit_rate": {
+          "point_estimate": 0.15384615384615385,
+          "ci_95_low": 0.04325817835808124,
+          "ci_95_high": 0.42234631019482527,
+          "n": 13
+        },
+        "macro_report_mrr": {
+          "point_estimate": 0.17857142857142858,
+          "ci_95_low": 0.07142857142857142,
+          "ci_95_high": 0.2857142857142857,
+          "n": 14
+        },
+        "evidence_recall": {
+          "point_estimate": 0.2692307692307692,
+          "ci_95_low": 0.07692307692307693,
+          "ci_95_high": 0.46153846153846156,
+          "n": 13
+        },
+        "complete_evidence_recall": {
+          "point_estimate": 0.15384615384615385,
+          "ci_95_low": 0.04325817835808124,
+          "ci_95_high": 0.42234631019482527,
+          "n": 13
+        },
+        "cross_report_contamination_rate": {
+          "point_estimate": 0.8333333333333334,
+          "ci_95_low": 0.4364971778135299,
+          "ci_95_high": 0.9699466302516934,
+          "n": 6
+        },
+        "latency_ms": {
+          "mean": 761.3207799809364,
+          "median": 854.2246999568306,
+          "p95": 1081.1946999747306
+        },
+        "bootstrap_resamples": 2000,
+        "confidence_level": 0.95,
+        "random_seed": 42
+      }
+    }
+  },
+  "interpretation": "Confidence intervals must be considered; overlapping intervals do not establish a conclusive difference."
+}

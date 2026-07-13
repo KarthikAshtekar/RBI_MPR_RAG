@@ -1,0 +1,188 @@
+{
+  "checks": [
+    {
+      "experiment_id": "AQ01",
+      "issue_count": 0,
+      "issues": [],
+      "valid": true
+    },
+    {
+      "experiment_id": "BM02",
+      "issue_count": 0,
+      "issues": [],
+      "valid": true
+    },
+    {
+      "experiment_id": "COMBINED_01",
+      "issue_count": 0,
+      "issues": [],
+      "valid": true
+    },
+    {
+      "experiment_id": "COMBINED_02",
+      "issue_count": 0,
+      "issues": [],
+      "valid": true
+    },
+    {
+      "experiment_id": "COMBINED_03",
+      "issue_count": 0,
+      "issues": [],
+      "valid": true
+    },
+    {
+      "experiment_id": "CP01",
+      "issue_count": 0,
+      "issues": [],
+      "valid": true
+    },
+    {
+      "experiment_id": "CP02",
+      "issue_count": 0,
+      "issues": [],
+      "valid": true
+    },
+    {
+      "experiment_id": "CP03",
+      "issue_count": 0,
+      "issues": [],
+      "valid": true
+    },
+    {
+      "experiment_id": "CP04",
+      "issue_count": 0,
+      "issues": [],
+      "valid": true
+    },
+    {
+      "experiment_id": "DIV01",
+      "issue_count": 0,
+      "issues": [],
+      "valid": true
+    },
+    {
+      "experiment_id": "EXP01",
+      "issue_count": 0,
+      "issues": [],
+      "valid": true
+    },
+    {
+      "experiment_id": "EXP02",
+      "issue_count": 0,
+      "issues": [],
+      "valid": true
+    },
+    {
+      "experiment_id": "FAC01",
+      "issue_count": 0,
+      "issues": [],
+      "valid": true
+    },
+    {
+      "experiment_id": "FR01",
+      "issue_count": 0,
+      "issues": [],
+      "valid": true
+    },
+    {
+      "experiment_id": "FR02",
+      "issue_count": 0,
+      "issues": [],
+      "valid": true
+    },
+    {
+      "experiment_id": "FR03",
+      "issue_count": 0,
+      "issues": [],
+      "valid": true
+    },
+    {
+      "experiment_id": "FR04",
+      "issue_count": 0,
+      "issues": [],
+      "valid": true
+    },
+    {
+      "experiment_id": "QN01",
+      "issue_count": 0,
+      "issues": [],
+      "valid": true
+    },
+    {
+      "experiment_id": "QUOTA_EXPANDED",
+      "issue_count": 0,
+      "issues": [],
+      "valid": true
+    },
+    {
+      "experiment_id": "QUOTA_LARGE",
+      "issue_count": 0,
+      "issues": [],
+      "valid": true
+    },
+    {
+      "experiment_id": "RRF_K10",
+      "issue_count": 0,
+      "issues": [],
+      "valid": true
+    },
+    {
+      "experiment_id": "RRF_K100",
+      "issue_count": 0,
+      "issues": [],
+      "valid": true
+    },
+    {
+      "experiment_id": "RRF_K30",
+      "issue_count": 0,
+      "issues": [],
+      "valid": true
+    },
+    {
+      "experiment_id": "RRF_K60",
+      "issue_count": 0,
+      "issues": [],
+      "valid": true
+    },
+    {
+      "experiment_id": "temporal_baseline",
+      "issue_count": 0,
+      "issues": [],
+      "valid": true
+    },
+    {
+      "experiment_id": "WRRF_D1.5_B1",
+      "issue_count": 0,
+      "issues": [],
+      "valid": true
+    },
+    {
+      "experiment_id": "WRRF_D1_B1",
+      "issue_count": 0,
+      "issues": [],
+      "valid": true
+    },
+    {
+      "experiment_id": "WRRF_D1_B1.5",
+      "issue_count": 0,
+      "issues": [],
+      "valid": true
+    },
+    {
+      "experiment_id": "WRRF_D1_B2",
+      "issue_count": 0,
+      "issues": [],
+      "valid": true
+    },
+    {
+      "experiment_id": "WRRF_D2_B1",
+      "issue_count": 0,
+      "issues": [],
+      "valid": true
+    }
+  ],
+  "experiment_count": 30,
+  "invalid_count": 0,
+  "schema_version": 2,
+  "valid_count": 30
+}

@@ -1,0 +1,7 @@
+{
+  "case_count": 9,
+  "mean_report_coverage": 1.0,
+  "all_reports_hit_rate": 1.0,
+  "macro_report_mrr": 0.7777777777777778,
+  "cross_report_contamination_rate": 0.0
+}

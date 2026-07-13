@@ -1,0 +1,242 @@
+[
+  {
+    "experiment_id": "CP01",
+    "original_path": "reports\\optimisation\\CP01",
+    "archived_path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\CP01",
+    "reason": "Pre-latency-fix run failed strict integrity validation.",
+    "integrity_failures": [
+      "missing_per_question_latency"
+    ],
+    "configuration_checksum": "ad5b9928f7b04f9eb1cfdc9609431a4c3d011854b8614cff084e7b4899aae764",
+    "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
+    "archived_timestamp": "2026-07-13T00:25:37.418126+00:00"
+  },
+  {
+    "experiment_id": "CP02",
+    "original_path": "reports\\optimisation\\CP02",
+    "archived_path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\CP02",
+    "reason": "Pre-latency-fix run failed strict integrity validation.",
+    "integrity_failures": [
+      "missing_per_question_latency"
+    ],
+    "configuration_checksum": "63f0874afcd7a7f9e1e18a31fbd3c345394e583c2c463995906e77a42ad17e23",
+    "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
+    "archived_timestamp": "2026-07-13T00:25:37.445562+00:00"
+  },
+  {
+    "experiment_id": "CP03",
+    "original_path": "reports\\optimisation\\CP03",
+    "archived_path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\CP03",
+    "reason": "Pre-latency-fix run failed strict integrity validation.",
+    "integrity_failures": [
+      "missing_per_question_latency"
+    ],
+    "configuration_checksum": "90d7ee78de395b569487959a938f48e22d23e53c7e5b217c821d76b76eb11456",
+    "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
+    "archived_timestamp": "2026-07-13T00:25:37.477235+00:00"
+  },
+  {
+    "experiment_id": "CP04",
+    "original_path": "reports\\optimisation\\CP04",
+    "archived_path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\CP04",
+    "reason": "Pre-latency-fix run failed strict integrity validation.",
+    "integrity_failures": [
+      "missing_per_question_latency"
+    ],
+    "configuration_checksum": "a9c332380cecb28cc419a27f5786ff6175937dcfc54b40d55b8a36b351fef4fb",
+    "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
+    "archived_timestamp": "2026-07-13T00:25:37.503522+00:00"
+  },
+  {
+    "experiment_id": "FR01",
+    "original_path": "reports\\optimisation\\FR01",
+    "archived_path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\FR01",
+    "reason": "Pre-latency-fix run failed strict integrity validation.",
+    "integrity_failures": [
+      "missing_per_question_latency"
+    ],
+    "configuration_checksum": "892ecd3e7a018c99c9078e9ce54c418526d188e5f1b1e8313bf8892b773f74a1",
+    "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
+    "archived_timestamp": "2026-07-13T00:25:37.528679+00:00"
+  },
+  {
+    "experiment_id": "FR02",
+    "original_path": "reports\\optimisation\\FR02",
+    "archived_path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\FR02",
+    "reason": "Pre-latency-fix run failed strict integrity validation.",
+    "integrity_failures": [
+      "missing_per_question_latency"
+    ],
+    "configuration_checksum": "f069b493df6e4ac475a5518fe49f5efa3ee81b5f12ecad64ce4cec4d4d801497",
+    "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
+    "archived_timestamp": "2026-07-13T00:25:37.553802+00:00"
+  },
+  {
+    "experiment_id": "FR03",
+    "original_path": "reports\\optimisation\\FR03",
+    "archived_path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\FR03",
+    "reason": "Pre-latency-fix run failed strict integrity validation.",
+    "integrity_failures": [
+      "missing_per_question_latency"
+    ],
+    "configuration_checksum": "390534312e91fd4d34c816481a376d1adc02fecf766a0733642923d7fbb6ecbe",
+    "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
+    "archived_timestamp": "2026-07-13T00:25:37.580056+00:00"
+  },
+  {
+    "experiment_id": "FR04",
+    "original_path": "reports\\optimisation\\FR04",
+    "archived_path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\FR04",
+    "reason": "Pre-latency-fix run failed strict integrity validation.",
+    "integrity_failures": [
+      "missing_per_question_latency"
+    ],
+    "configuration_checksum": "c1808ed513bf7a795afcd6f33e64e598625571b129702b9855204bdf0da817a5",
+    "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
+    "archived_timestamp": "2026-07-13T00:25:37.603562+00:00"
+  },
+  {
+    "experiment_id": "QUOTA_EXPANDED",
+    "original_path": "reports\\optimisation\\QUOTA_EXPANDED",
+    "archived_path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\QUOTA_EXPANDED",
+    "reason": "Pre-latency-fix run failed strict integrity validation.",
+    "integrity_failures": [
+      "missing_per_question_latency"
+    ],
+    "configuration_checksum": "4d4febc52c107386b2c60ee01a1bd7344d9d3cbe2d3d009a71d23a5b292800bb",
+    "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
+    "archived_timestamp": "2026-07-13T00:25:37.626796+00:00"
+  },
+  {
+    "experiment_id": "QUOTA_LARGE",
+    "original_path": "reports\\optimisation\\QUOTA_LARGE",
+    "archived_path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\QUOTA_LARGE",
+    "reason": "Pre-latency-fix run failed strict integrity validation.",
+    "integrity_failures": [
+      "missing_per_question_latency"
+    ],
+    "configuration_checksum": "55ecc3e10828b1df35cb90bef655dfb8b07dbe48eaca685ad86a9dec223c20ae",
+    "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
+    "archived_timestamp": "2026-07-13T00:25:37.649882+00:00"
+  },
+  {
+    "experiment_id": "RRF_K10",
+    "original_path": "reports\\optimisation\\RRF_K10",
+    "archived_path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\RRF_K10",
+    "reason": "Pre-latency-fix run failed strict integrity validation.",
+    "integrity_failures": [
+      "missing_per_question_latency"
+    ],
+    "configuration_checksum": "2f2a93f4e6c9210f60ffee30b52e534b777f2c319df1666ec0ec11e187a60722",
+    "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
+    "archived_timestamp": "2026-07-13T00:25:37.674318+00:00"
+  },
+  {
+    "experiment_id": "RRF_K100",
+    "original_path": "reports\\optimisation\\RRF_K100",
+    "archived_path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\RRF_K100",
+    "reason": "Pre-latency-fix run failed strict integrity validation.",
+    "integrity_failures": [
+      "missing_per_question_latency"
+    ],
+    "configuration_checksum": "42f36d5ce696d23b2161cf96a50c00075d638c2a56745b05acf40f64a93902aa",
+    "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
+    "archived_timestamp": "2026-07-13T00:25:37.696934+00:00"
+  },
+  {
+    "experiment_id": "RRF_K30",
+    "original_path": "reports\\optimisation\\RRF_K30",
+    "archived_path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\RRF_K30",
+    "reason": "Pre-latency-fix run failed strict integrity validation.",
+    "integrity_failures": [
+      "missing_per_question_latency"
+    ],
+    "configuration_checksum": "b65f01277f51b44087d3c73620d26c9fb0ad649da05bdec4ca473192886eeced",
+    "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
+    "archived_timestamp": "2026-07-13T00:25:37.721699+00:00"
+  },
+  {
+    "experiment_id": "RRF_K60",
+    "original_path": "reports\\optimisation\\RRF_K60",
+    "archived_path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\RRF_K60",
+    "reason": "Pre-latency-fix run failed strict integrity validation.",
+    "integrity_failures": [
+      "missing_per_question_latency"
+    ],
+    "configuration_checksum": "83a1fee486086aab424b6f8173d1c6c1d83a2dce24889d80efcaae3345f602f3",
+    "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
+    "archived_timestamp": "2026-07-13T00:25:37.746464+00:00"
+  },
+  {
+    "experiment_id": "temporal_baseline",
+    "original_path": "reports\\optimisation\\temporal_baseline",
+    "archived_path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\temporal_baseline",
+    "reason": "Pre-latency-fix run failed strict integrity validation.",
+    "integrity_failures": [
+      "missing_per_question_latency"
+    ],
+    "configuration_checksum": "73cdc6fe2986509d12edc520d1323c619afbb385f3d37bf9a89f362f03a8c2ba",
+    "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
+    "archived_timestamp": "2026-07-13T00:25:37.778452+00:00"
+  },
+  {
+    "experiment_id": "WRRF_D1.5_B1",
+    "original_path": "reports\\optimisation\\WRRF_D1.5_B1",
+    "archived_path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\WRRF_D1.5_B1",
+    "reason": "Pre-latency-fix run failed strict integrity validation.",
+    "integrity_failures": [
+      "missing_per_question_latency"
+    ],
+    "configuration_checksum": "98b3e7355be3b24b3ddce5ac6c99a84015135df22694cf94b11bb4f00f196ac1",
+    "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
+    "archived_timestamp": "2026-07-13T00:25:37.806782+00:00"
+  },
+  {
+    "experiment_id": "WRRF_D1_B1",
+    "original_path": "reports\\optimisation\\WRRF_D1_B1",
+    "archived_path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\WRRF_D1_B1",
+    "reason": "Pre-latency-fix run failed strict integrity validation.",
+    "integrity_failures": [
+      "missing_per_question_latency"
+    ],
+    "configuration_checksum": "4e96a4b3282e6c1301a51a029244fb01d9de9e4906346f77f3c98887ba83034f",
+    "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
+    "archived_timestamp": "2026-07-13T00:25:37.833877+00:00"
+  },
+  {
+    "experiment_id": "WRRF_D1_B1.5",
+    "original_path": "reports\\optimisation\\WRRF_D1_B1.5",
+    "archived_path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\WRRF_D1_B1.5",
+    "reason": "Pre-latency-fix run failed strict integrity validation.",
+    "integrity_failures": [
+      "missing_per_question_latency"
+    ],
+    "configuration_checksum": "be984d3eeccf05804e415b57cf3ebfffd91916b314933bd97d400100824d3b09",
+    "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
+    "archived_timestamp": "2026-07-13T00:25:37.856675+00:00"
+  },
+  {
+    "experiment_id": "WRRF_D1_B2",
+    "original_path": "reports\\optimisation\\WRRF_D1_B2",
+    "archived_path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\WRRF_D1_B2",
+    "reason": "Pre-latency-fix run failed strict integrity validation.",
+    "integrity_failures": [
+      "missing_per_question_latency"
+    ],
+    "configuration_checksum": "b0f7e3cabae7047ccafd5dd0cd70226cb5902bc17722772337ee48cc4bb53932",
+    "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
+    "archived_timestamp": "2026-07-13T00:25:37.881350+00:00"
+  },
+  {
+    "experiment_id": "WRRF_D2_B1",
+    "original_path": "reports\\optimisation\\WRRF_D2_B1",
+    "archived_path": "reports\\optimisation\\invalid_runs_pre_latency_fix\\WRRF_D2_B1",
+    "reason": "Pre-latency-fix run failed strict integrity validation.",
+    "integrity_failures": [
+      "missing_per_question_latency"
+    ],
+    "configuration_checksum": "0c7902f8bf970c955bfdce539ad19ac75bce313959fba0f6a5243532fdbfc660",
+    "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
+    "archived_timestamp": "2026-07-13T00:25:37.904315+00:00"
+  }
+]

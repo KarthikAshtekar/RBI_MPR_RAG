@@ -1,0 +1,769 @@
+{
+  "split": "test",
+  "architecture": "naive_global",
+  "rows": [
+    {
+      "question_id": "single_test_001",
+      "query_type": "single_report",
+      "required_report_ids": [
+        "rbi_mpr_2025_04"
+      ],
+      "report_coverage": 0.0,
+      "all_reports_hit": false,
+      "per_report_hit": {
+        "rbi_mpr_2025_04": false
+      },
+      "per_report_mrr": {
+        "rbi_mpr_2025_04": 0.0
+      },
+      "macro_report_mrr": 0.0,
+      "evidence_recall": {
+        "rbi_mpr_2025_04": [
+          false
+        ]
+      },
+      "evidence_recall_rate": 0.0,
+      "complete_evidence_recall": false,
+      "cross_report_contamination_count": 4,
+      "cross_report_contamination": true,
+      "final_chunk_count_by_report": {
+        "rbi_mpr_2026_04": 2,
+        "rbi_mpr_2025_10": 2
+      },
+      "warnings": [],
+      "retrieved_chunk_ids": [
+        "rbi_mpr_2026_04_p056_c000",
+        "rbi_mpr_2025_10_p011_c000",
+        "rbi_mpr_2026_04_p111_c000",
+        "rbi_mpr_2025_10_p043_c003"
+      ],
+      "retrieved_pages_by_report": {
+        "rbi_mpr_2025_04": []
+      },
+      "retrieval_latency_ms": 907.1792999748141
+    },
+    {
+      "question_id": "single_test_002",
+      "query_type": "single_report",
+      "required_report_ids": [
+        "rbi_mpr_2025_04"
+      ],
+      "report_coverage": 0.0,
+      "all_reports_hit": false,
+      "per_report_hit": {
+        "rbi_mpr_2025_04": false
+      },
+      "per_report_mrr": {
+        "rbi_mpr_2025_04": 0.0
+      },
+      "macro_report_mrr": 0.0,
+      "evidence_recall": {
+        "rbi_mpr_2025_04": [
+          false
+        ]
+      },
+      "evidence_recall_rate": 0.0,
+      "complete_evidence_recall": false,
+      "cross_report_contamination_count": 4,
+      "cross_report_contamination": true,
+      "final_chunk_count_by_report": {
+        "rbi_mpr_2025_10": 4
+      },
+      "warnings": [],
+      "retrieved_chunk_ids": [
+        "rbi_mpr_2025_10_p025_c000",
+        "rbi_mpr_2025_10_p011_c000",
+        "rbi_mpr_2025_10_p011_c002",
+        "rbi_mpr_2025_10_p016_c004"
+      ],
+      "retrieved_pages_by_report": {
+        "rbi_mpr_2025_04": []
+      },
+      "retrieval_latency_ms": 1021.2168999714777
+    },
+    {
+      "question_id": "single_test_003",
+      "query_type": "single_report",
+      "required_report_ids": [
+        "rbi_mpr_2025_10"
+      ],
+      "report_coverage": 1.0,
+      "all_reports_hit": false,
+      "per_report_hit": {
+        "rbi_mpr_2025_10": false
+      },
+      "per_report_mrr": {
+        "rbi_mpr_2025_10": 0.0
+      },
+      "macro_report_mrr": 0.0,
+      "evidence_recall": {
+        "rbi_mpr_2025_10": [
+          false
+        ]
+      },
+      "evidence_recall_rate": 0.0,
+      "complete_evidence_recall": false,
+      "cross_report_contamination_count": 2,
+      "cross_report_contamination": true,
+      "final_chunk_count_by_report": {
+        "rbi_mpr_2026_04": 2,
+        "rbi_mpr_2025_10": 2
+      },
+      "warnings": [],
+      "retrieved_chunk_ids": [
+        "rbi_mpr_2026_04_p103_c001",
+        "rbi_mpr_2025_10_p010_c002",
+        "rbi_mpr_2026_04_p020_c000",
+        "rbi_mpr_2025_10_p010_c001"
+      ],
+      "retrieved_pages_by_report": {
+        "rbi_mpr_2025_10": [
+          10,
+          10
+        ]
+      },
+      "retrieval_latency_ms": 854.2246999568306
+    },
+    {
+      "question_id": "single_test_004",
+      "query_type": "single_report",
+      "required_report_ids": [
+        "rbi_mpr_2025_10"
+      ],
+      "report_coverage": 0.0,
+      "all_reports_hit": false,
+      "per_report_hit": {
+        "rbi_mpr_2025_10": false
+      },
+      "per_report_mrr": {
+        "rbi_mpr_2025_10": 0.0
+      },
+      "macro_report_mrr": 0.0,
+      "evidence_recall": {
+        "rbi_mpr_2025_10": [
+          false
+        ]
+      },
+      "evidence_recall_rate": 0.0,
+      "complete_evidence_recall": false,
+      "cross_report_contamination_count": 4,
+      "cross_report_contamination": true,
+      "final_chunk_count_by_report": {
+        "rbi_mpr_2025_04": 2,
+        "rbi_mpr_2026_04": 2
+      },
+      "warnings": [],
+      "retrieved_chunk_ids": [
+        "rbi_mpr_2025_04_p031_c000",
+        "rbi_mpr_2025_04_p037_c000",
+        "rbi_mpr_2026_04_p084_c000",
+        "rbi_mpr_2026_04_p098_c002"
+      ],
+      "retrieved_pages_by_report": {
+        "rbi_mpr_2025_10": []
+      },
+      "retrieval_latency_ms": 744.2040999885648
+    },
+    {
+      "question_id": "single_test_005",
+      "query_type": "single_report",
+      "required_report_ids": [
+        "rbi_mpr_2026_04"
+      ],
+      "report_coverage": 1.0,
+      "all_reports_hit": true,
+      "per_report_hit": {
+        "rbi_mpr_2026_04": true
+      },
+      "per_report_mrr": {
+        "rbi_mpr_2026_04": 0.5
+      },
+      "macro_report_mrr": 0.5,
+      "evidence_recall": {
+        "rbi_mpr_2026_04": [
+          true
+        ]
+      },
+      "evidence_recall_rate": 1.0,
+      "complete_evidence_recall": true,
+      "cross_report_contamination_count": 1,
+      "cross_report_contamination": true,
+      "final_chunk_count_by_report": {
+        "rbi_mpr_2026_04": 3,
+        "rbi_mpr_2025_04": 1
+      },
+      "warnings": [],
+      "retrieved_chunk_ids": [
+        "rbi_mpr_2026_04_p056_c000",
+        "rbi_mpr_2025_04_p020_c000",
+        "rbi_mpr_2026_04_p101_c001",
+        "rbi_mpr_2026_04_p111_c000"
+      ],
+      "retrieved_pages_by_report": {
+        "rbi_mpr_2026_04": [
+          56,
+          101,
+          111
+        ]
+      },
+      "retrieval_latency_ms": 774.0157999796793
+    },
+    {
+      "question_id": "single_test_006",
+      "query_type": "single_report",
+      "required_report_ids": [
+        "rbi_mpr_2026_04"
+      ],
+      "report_coverage": 1.0,
+      "all_reports_hit": true,
+      "per_report_hit": {
+        "rbi_mpr_2026_04": true
+      },
+      "per_report_mrr": {
+        "rbi_mpr_2026_04": 0.5
+      },
+      "macro_report_mrr": 0.5,
+      "evidence_recall": {
+        "rbi_mpr_2026_04": [
+          true
+        ]
+      },
+      "evidence_recall_rate": 1.0,
+      "complete_evidence_recall": true,
+      "cross_report_contamination_count": 0,
+      "cross_report_contamination": false,
+      "final_chunk_count_by_report": {
+        "rbi_mpr_2026_04": 4
+      },
+      "warnings": [],
+      "retrieved_chunk_ids": [
+        "rbi_mpr_2026_04_p080_c000",
+        "rbi_mpr_2026_04_p103_c001",
+        "rbi_mpr_2026_04_p088_c000",
+        "rbi_mpr_2026_04_p090_c000"
+      ],
+      "retrieved_pages_by_report": {
+        "rbi_mpr_2026_04": [
+          80,
+          103,
+          88,
+          90
+        ]
+      },
+      "retrieval_latency_ms": 1071.96600001771
+    },
+    {
+      "question_id": "pair_test_001",
+      "query_type": "pairwise_comparison",
+      "required_report_ids": [
+        "rbi_mpr_2025_04",
+        "rbi_mpr_2025_10"
+      ],
+      "report_coverage": 0.5,
+      "all_reports_hit": false,
+      "per_report_hit": {
+        "rbi_mpr_2025_04": false,
+        "rbi_mpr_2025_10": true
+      },
+      "per_report_mrr": {
+        "rbi_mpr_2025_04": 0.0,
+        "rbi_mpr_2025_10": 1.0
+      },
+      "macro_report_mrr": 0.5,
+      "evidence_recall": {
+        "rbi_mpr_2025_04": [
+          false
+        ],
+        "rbi_mpr_2025_10": [
+          true
+        ]
+      },
+      "evidence_recall_rate": 0.5,
+      "complete_evidence_recall": false,
+      "cross_report_contamination_count": null,
+      "cross_report_contamination": null,
+      "final_chunk_count_by_report": {
+        "rbi_mpr_2025_10": 4,
+        "rbi_mpr_2026_04": 2
+      },
+      "warnings": [],
+      "retrieved_chunk_ids": [
+        "rbi_mpr_2025_10_p052_c000",
+        "rbi_mpr_2026_04_p064_c002",
+        "rbi_mpr_2026_04_p069_c000",
+        "rbi_mpr_2025_10_p066_c000",
+        "rbi_mpr_2025_10_p076_c000",
+        "rbi_mpr_2025_10_p010_c000"
+      ],
+      "retrieved_pages_by_report": {
+        "rbi_mpr_2025_04": [],
+        "rbi_mpr_2025_10": [
+          52,
+          66,
+          76,
+          10
+        ]
+      },
+      "retrieval_latency_ms": 1042.0250999741256
+    },
+    {
+      "question_id": "pair_test_002",
+      "query_type": "pairwise_comparison",
+      "required_report_ids": [
+        "rbi_mpr_2025_04",
+        "rbi_mpr_2025_10"
+      ],
+      "report_coverage": 1.0,
+      "all_reports_hit": false,
+      "per_report_hit": {
+        "rbi_mpr_2025_04": false,
+        "rbi_mpr_2025_10": false
+      },
+      "per_report_mrr": {
+        "rbi_mpr_2025_04": 0.0,
+        "rbi_mpr_2025_10": 0.0
+      },
+      "macro_report_mrr": 0.0,
+      "evidence_recall": {
+        "rbi_mpr_2025_04": [
+          false
+        ],
+        "rbi_mpr_2025_10": [
+          false
+        ]
+      },
+      "evidence_recall_rate": 0.0,
+      "complete_evidence_recall": false,
+      "cross_report_contamination_count": null,
+      "cross_report_contamination": null,
+      "final_chunk_count_by_report": {
+        "rbi_mpr_2025_10": 4,
+        "rbi_mpr_2026_04": 1,
+        "rbi_mpr_2025_04": 1
+      },
+      "warnings": [],
+      "retrieved_chunk_ids": [
+        "rbi_mpr_2025_10_p066_c000",
+        "rbi_mpr_2025_10_p010_c002",
+        "rbi_mpr_2026_04_p020_c000",
+        "rbi_mpr_2025_04_p110_c000",
+        "rbi_mpr_2025_10_p010_c000",
+        "rbi_mpr_2025_10_p076_c000"
+      ],
+      "retrieved_pages_by_report": {
+        "rbi_mpr_2025_04": [
+          110
+        ],
+        "rbi_mpr_2025_10": [
+          66,
+          10,
+          10,
+          76
+        ]
+      },
+      "retrieval_latency_ms": 679.9903999781236
+    },
+    {
+      "question_id": "pair_test_003",
+      "query_type": "pairwise_comparison",
+      "required_report_ids": [
+        "rbi_mpr_2025_10",
+        "rbi_mpr_2026_04"
+      ],
+      "report_coverage": 1.0,
+      "all_reports_hit": false,
+      "per_report_hit": {
+        "rbi_mpr_2025_10": true,
+        "rbi_mpr_2026_04": false
+      },
+      "per_report_mrr": {
+        "rbi_mpr_2025_10": 1.0,
+        "rbi_mpr_2026_04": 0.0
+      },
+      "macro_report_mrr": 0.5,
+      "evidence_recall": {
+        "rbi_mpr_2025_10": [
+          true
+        ],
+        "rbi_mpr_2026_04": [
+          false
+        ]
+      },
+      "evidence_recall_rate": 0.5,
+      "complete_evidence_recall": false,
+      "cross_report_contamination_count": null,
+      "cross_report_contamination": null,
+      "final_chunk_count_by_report": {
+        "rbi_mpr_2026_04": 3,
+        "rbi_mpr_2025_04": 1,
+        "rbi_mpr_2025_10": 2
+      },
+      "warnings": [],
+      "retrieved_chunk_ids": [
+        "rbi_mpr_2026_04_p105_c003",
+        "rbi_mpr_2025_04_p022_c000",
+        "rbi_mpr_2026_04_p105_c002",
+        "rbi_mpr_2025_10_p012_c001",
+        "rbi_mpr_2025_10_p012_c000",
+        "rbi_mpr_2026_04_p113_c002"
+      ],
+      "retrieved_pages_by_report": {
+        "rbi_mpr_2025_10": [
+          12,
+          12
+        ],
+        "rbi_mpr_2026_04": [
+          105,
+          105,
+          113
+        ]
+      },
+      "retrieval_latency_ms": 829.8541999538429
+    },
+    {
+      "question_id": "pair_test_004",
+      "query_type": "pairwise_comparison",
+      "required_report_ids": [
+        "rbi_mpr_2025_10",
+        "rbi_mpr_2026_04"
+      ],
+      "report_coverage": 0.5,
+      "all_reports_hit": false,
+      "per_report_hit": {
+        "rbi_mpr_2025_10": true,
+        "rbi_mpr_2026_04": false
+      },
+      "per_report_mrr": {
+        "rbi_mpr_2025_10": 1.0,
+        "rbi_mpr_2026_04": 0.0
+      },
+      "macro_report_mrr": 0.5,
+      "evidence_recall": {
+        "rbi_mpr_2025_10": [
+          true
+        ],
+        "rbi_mpr_2026_04": [
+          false
+        ]
+      },
+      "evidence_recall_rate": 0.5,
+      "complete_evidence_recall": false,
+      "cross_report_contamination_count": null,
+      "cross_report_contamination": null,
+      "final_chunk_count_by_report": {
+        "rbi_mpr_2025_04": 5,
+        "rbi_mpr_2025_10": 1
+      },
+      "warnings": [],
+      "retrieved_chunk_ids": [
+        "rbi_mpr_2025_04_p039_c003",
+        "rbi_mpr_2025_10_p010_c000",
+        "rbi_mpr_2025_04_p105_c002",
+        "rbi_mpr_2025_04_p105_c001",
+        "rbi_mpr_2025_04_p016_c000",
+        "rbi_mpr_2025_04_p015_c001"
+      ],
+      "retrieved_pages_by_report": {
+        "rbi_mpr_2025_10": [
+          10
+        ],
+        "rbi_mpr_2026_04": []
+      },
+      "retrieval_latency_ms": 1081.1946999747306
+    },
+    {
+      "question_id": "pair_test_005",
+      "query_type": "pairwise_comparison",
+      "required_report_ids": [
+        "rbi_mpr_2025_04",
+        "rbi_mpr_2026_04"
+      ],
+      "report_coverage": 0.5,
+      "all_reports_hit": false,
+      "per_report_hit": {
+        "rbi_mpr_2025_04": false,
+        "rbi_mpr_2026_04": false
+      },
+      "per_report_mrr": {
+        "rbi_mpr_2025_04": 0.0,
+        "rbi_mpr_2026_04": 0.0
+      },
+      "macro_report_mrr": 0.0,
+      "evidence_recall": {
+        "rbi_mpr_2025_04": [
+          false
+        ],
+        "rbi_mpr_2026_04": [
+          false
+        ]
+      },
+      "evidence_recall_rate": 0.0,
+      "complete_evidence_recall": false,
+      "cross_report_contamination_count": null,
+      "cross_report_contamination": null,
+      "final_chunk_count_by_report": {
+        "rbi_mpr_2025_10": 5,
+        "rbi_mpr_2025_04": 1
+      },
+      "warnings": [],
+      "retrieved_chunk_ids": [
+        "rbi_mpr_2025_10_p099_c000",
+        "rbi_mpr_2025_10_p097_c004",
+        "rbi_mpr_2025_10_p097_c003",
+        "rbi_mpr_2025_04_p015_c001",
+        "rbi_mpr_2025_10_p096_c004",
+        "rbi_mpr_2025_10_p043_c003"
+      ],
+      "retrieved_pages_by_report": {
+        "rbi_mpr_2025_04": [
+          15
+        ],
+        "rbi_mpr_2026_04": []
+      },
+      "retrieval_latency_ms": 633.3291999762878
+    },
+    {
+      "question_id": "trend_test_001",
+      "query_type": "trend_all_reports",
+      "required_report_ids": [
+        "rbi_mpr_2025_04",
+        "rbi_mpr_2025_10",
+        "rbi_mpr_2026_04"
+      ],
+      "report_coverage": 1.0,
+      "all_reports_hit": false,
+      "per_report_hit": {
+        "rbi_mpr_2025_04": false,
+        "rbi_mpr_2025_10": false,
+        "rbi_mpr_2026_04": false
+      },
+      "per_report_mrr": {
+        "rbi_mpr_2025_04": 0.0,
+        "rbi_mpr_2025_10": 0.0,
+        "rbi_mpr_2026_04": 0.0
+      },
+      "macro_report_mrr": 0.0,
+      "evidence_recall": {
+        "rbi_mpr_2025_04": [
+          false
+        ],
+        "rbi_mpr_2025_10": [
+          false
+        ],
+        "rbi_mpr_2026_04": [
+          false
+        ]
+      },
+      "evidence_recall_rate": 0.0,
+      "complete_evidence_recall": false,
+      "cross_report_contamination_count": null,
+      "cross_report_contamination": null,
+      "final_chunk_count_by_report": {
+        "rbi_mpr_2025_10": 4,
+        "rbi_mpr_2025_04": 3,
+        "rbi_mpr_2026_04": 2
+      },
+      "warnings": [],
+      "retrieved_chunk_ids": [
+        "rbi_mpr_2025_10_p010_c002",
+        "rbi_mpr_2025_04_p078_c000",
+        "rbi_mpr_2025_10_p010_c001",
+        "rbi_mpr_2025_04_p078_c003",
+        "rbi_mpr_2026_04_p020_c000",
+        "rbi_mpr_2025_10_p076_c000",
+        "rbi_mpr_2025_04_p012_c003",
+        "rbi_mpr_2026_04_p018_c002",
+        "rbi_mpr_2025_10_p019_c003"
+      ],
+      "retrieved_pages_by_report": {
+        "rbi_mpr_2025_04": [
+          78,
+          78,
+          12
+        ],
+        "rbi_mpr_2025_10": [
+          10,
+          10,
+          76,
+          19
+        ],
+        "rbi_mpr_2026_04": [
+          20,
+          18
+        ]
+      },
+      "retrieval_latency_ms": 894.7283999295905
+    },
+    {
+      "question_id": "trend_test_002",
+      "query_type": "trend_all_reports",
+      "required_report_ids": [
+        "rbi_mpr_2025_04",
+        "rbi_mpr_2025_10",
+        "rbi_mpr_2026_04"
+      ],
+      "report_coverage": 0.6666666666666666,
+      "all_reports_hit": false,
+      "per_report_hit": {
+        "rbi_mpr_2025_04": false,
+        "rbi_mpr_2025_10": false,
+        "rbi_mpr_2026_04": false
+      },
+      "per_report_mrr": {
+        "rbi_mpr_2025_04": 0.0,
+        "rbi_mpr_2025_10": 0.0,
+        "rbi_mpr_2026_04": 0.0
+      },
+      "macro_report_mrr": 0.0,
+      "evidence_recall": {
+        "rbi_mpr_2025_04": [
+          false
+        ],
+        "rbi_mpr_2025_10": [
+          false
+        ],
+        "rbi_mpr_2026_04": [
+          false
+        ]
+      },
+      "evidence_recall_rate": 0.0,
+      "complete_evidence_recall": false,
+      "cross_report_contamination_count": null,
+      "cross_report_contamination": null,
+      "final_chunk_count_by_report": {
+        "rbi_mpr_2025_10": 5,
+        "rbi_mpr_2026_04": 4
+      },
+      "warnings": [],
+      "retrieved_chunk_ids": [
+        "rbi_mpr_2025_10_p042_c002",
+        "rbi_mpr_2026_04_p077_c003",
+        "rbi_mpr_2025_10_p097_c003",
+        "rbi_mpr_2025_10_p019_c002",
+        "rbi_mpr_2025_10_p076_c000",
+        "rbi_mpr_2026_04_p061_c000",
+        "rbi_mpr_2025_10_p019_c003",
+        "rbi_mpr_2026_04_p020_c002",
+        "rbi_mpr_2026_04_p018_c002"
+      ],
+      "retrieved_pages_by_report": {
+        "rbi_mpr_2025_04": [],
+        "rbi_mpr_2025_10": [
+          42,
+          97,
+          19,
+          76,
+          19
+        ],
+        "rbi_mpr_2026_04": [
+          77,
+          61,
+          20,
+          18
+        ]
+      },
+      "retrieval_latency_ms": 885.8829000382684
+    },
+    {
+      "question_id": "unsupported_test_001",
+      "query_type": "unsupported_period",
+      "required_report_ids": [],
+      "report_coverage": 0.0,
+      "all_reports_hit": null,
+      "per_report_hit": {},
+      "per_report_mrr": {},
+      "macro_report_mrr": 0.0,
+      "evidence_recall": {},
+      "evidence_recall_rate": null,
+      "complete_evidence_recall": null,
+      "cross_report_contamination_count": null,
+      "cross_report_contamination": null,
+      "final_chunk_count_by_report": {},
+      "warnings": [
+        "Unavailable requested period(s): 4/2024"
+      ],
+      "retrieved_chunk_ids": [],
+      "retrieved_pages_by_report": {},
+      "retrieval_latency_ms": 0
+    },
+    {
+      "question_id": "unsupported_test_002",
+      "query_type": "unsupported_period",
+      "required_report_ids": [
+        "rbi_mpr_2025_10"
+      ],
+      "report_coverage": 0.0,
+      "all_reports_hit": null,
+      "per_report_hit": {
+        "rbi_mpr_2025_10": null
+      },
+      "per_report_mrr": {
+        "rbi_mpr_2025_10": 0.0
+      },
+      "macro_report_mrr": 0.0,
+      "evidence_recall": {
+        "rbi_mpr_2025_10": []
+      },
+      "evidence_recall_rate": null,
+      "complete_evidence_recall": null,
+      "cross_report_contamination_count": null,
+      "cross_report_contamination": null,
+      "final_chunk_count_by_report": {},
+      "warnings": [
+        "Unavailable requested period(s): 10/2026"
+      ],
+      "retrieved_chunk_ids": [],
+      "retrieved_pages_by_report": {
+        "rbi_mpr_2025_10": []
+      },
+      "retrieval_latency_ms": 0
+    }
+  ],
+  "summary": {
+    "case_count": 15,
+    "mean_report_coverage": {
+      "point_estimate": 0.6282051282051282,
+      "ci_95_low": 0.39743589743589747,
+      "ci_95_high": 0.8461538461538461,
+      "n": 13
+    },
+    "all_reports_hit_rate": {
+      "point_estimate": 0.15384615384615385,
+      "ci_95_low": 0.04325817835808124,
+      "ci_95_high": 0.42234631019482527,
+      "n": 13
+    },
+    "macro_report_mrr": {
+      "point_estimate": 0.19230769230769232,
+      "ci_95_low": 0.07692307692307693,
+      "ci_95_high": 0.3076923076923077,
+      "n": 13
+    },
+    "evidence_recall": {
+      "point_estimate": 0.2692307692307692,
+      "ci_95_low": 0.07692307692307693,
+      "ci_95_high": 0.46153846153846156,
+      "n": 13
+    },
+    "complete_evidence_recall": {
+      "point_estimate": 0.15384615384615385,
+      "ci_95_low": 0.04325817835808124,
+      "ci_95_high": 0.42234631019482527,
+      "n": 13
+    },
+    "cross_report_contamination_rate": {
+      "point_estimate": 0.8333333333333334,
+      "ci_95_low": 0.4364971778135299,
+      "ci_95_high": 0.9699466302516934,
+      "n": 6
+    },
+    "latency_ms": {
+      "mean": 761.3207799809364,
+      "median": 854.2246999568306,
+      "p95": 1081.1946999747306
+    },
+    "bootstrap_resamples": 2000,
+    "confidence_level": 0.95,
+    "random_seed": 42
+  }
+}

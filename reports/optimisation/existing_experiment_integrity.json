@@ -1,0 +1,209 @@
+{
+  "schema_version": 1,
+  "experiment_count": 20,
+  "valid_count": 0,
+  "invalid_count": 20,
+  "checks": [
+    {
+      "experiment_id": "CP01",
+      "file_count": 9,
+      "missing_files": [],
+      "errors": [
+        "missing_per_question_latency"
+      ],
+      "valid": false,
+      "selective_rerun_required": true
+    },
+    {
+      "experiment_id": "CP02",
+      "file_count": 9,
+      "missing_files": [],
+      "errors": [
+        "missing_per_question_latency"
+      ],
+      "valid": false,
+      "selective_rerun_required": true
+    },
+    {
+      "experiment_id": "CP03",
+      "file_count": 9,
+      "missing_files": [],
+      "errors": [
+        "missing_per_question_latency"
+      ],
+      "valid": false,
+      "selective_rerun_required": true
+    },
+    {
+      "experiment_id": "CP04",
+      "file_count": 9,
+      "missing_files": [],
+      "errors": [
+        "missing_per_question_latency"
+      ],
+      "valid": false,
+      "selective_rerun_required": true
+    },
+    {
+      "experiment_id": "FR01",
+      "file_count": 9,
+      "missing_files": [],
+      "errors": [
+        "missing_per_question_latency"
+      ],
+      "valid": false,
+      "selective_rerun_required": true
+    },
+    {
+      "experiment_id": "FR02",
+      "file_count": 9,
+      "missing_files": [],
+      "errors": [
+        "missing_per_question_latency"
+      ],
+      "valid": false,
+      "selective_rerun_required": true
+    },
+    {
+      "experiment_id": "FR03",
+      "file_count": 9,
+      "missing_files": [],
+      "errors": [
+        "missing_per_question_latency"
+      ],
+      "valid": false,
+      "selective_rerun_required": true
+    },
+    {
+      "experiment_id": "FR04",
+      "file_count": 9,
+      "missing_files": [],
+      "errors": [
+        "missing_per_question_latency"
+      ],
+      "valid": false,
+      "selective_rerun_required": true
+    },
+    {
+      "experiment_id": "QUOTA_EXPANDED",
+      "file_count": 9,
+      "missing_files": [],
+      "errors": [
+        "missing_per_question_latency"
+      ],
+      "valid": false,
+      "selective_rerun_required": true
+    },
+    {
+      "experiment_id": "QUOTA_LARGE",
+      "file_count": 9,
+      "missing_files": [],
+      "errors": [
+        "missing_per_question_latency"
+      ],
+      "valid": false,
+      "selective_rerun_required": true
+    },
+    {
+      "experiment_id": "RRF_K10",
+      "file_count": 9,
+      "missing_files": [],
+      "errors": [
+        "missing_per_question_latency"
+      ],
+      "valid": false,
+      "selective_rerun_required": true
+    },
+    {
+      "experiment_id": "RRF_K100",
+      "file_count": 9,
+      "missing_files": [],
+      "errors": [
+        "missing_per_question_latency"
+      ],
+      "valid": false,
+      "selective_rerun_required": true
+    },
+    {
+      "experiment_id": "RRF_K30",
+      "file_count": 9,
+      "missing_files": [],
+      "errors": [
+        "missing_per_question_latency"
+      ],
+      "valid": false,
+      "selective_rerun_required": true
+    },
+    {
+      "experiment_id": "RRF_K60",
+      "file_count": 9,
+      "missing_files": [],
+      "errors": [
+        "missing_per_question_latency"
+      ],
+      "valid": false,
+      "selective_rerun_required": true
+    },
+    {
+      "experiment_id": "temporal_baseline",
+      "file_count": 9,
+      "missing_files": [],
+      "errors": [
+        "missing_per_question_latency"
+      ],
+      "valid": false,
+      "selective_rerun_required": true
+    },
+    {
+      "experiment_id": "WRRF_D1.5_B1",
+      "file_count": 9,
+      "missing_files": [],
+      "errors": [
+        "missing_per_question_latency"
+      ],
+      "valid": false,
+      "selective_rerun_required": true
+    },
+    {
+      "experiment_id": "WRRF_D1_B1",
+      "file_count": 9,
+      "missing_files": [],
+      "errors": [
+        "missing_per_question_latency"
+      ],
+      "valid": false,
+      "selective_rerun_required": true
+    },
+    {
+      "experiment_id": "WRRF_D1_B1.5",
+      "file_count": 9,
+      "missing_files": [],
+      "errors": [
+        "missing_per_question_latency"
+      ],
+      "valid": false,
+      "selective_rerun_required": true
+    },
+    {
+      "experiment_id": "WRRF_D1_B2",
+      "file_count": 9,
+      "missing_files": [],
+      "errors": [
+        "missing_per_question_latency"
+      ],
+      "valid": false,
+      "selective_rerun_required": true
+    },
+    {
+      "experiment_id": "WRRF_D2_B1",
+      "file_count": 9,
+      "missing_files": [],
+      "errors": [
+        "missing_per_question_latency"
+      ],
+      "valid": false,
+      "selective_rerun_required": true
+    }
+  ],
+  "conclusion": "Existing simulations are not eligible for formal Stage A selection when required trace fields are missing."
+}

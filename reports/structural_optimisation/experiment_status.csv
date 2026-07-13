@@ -1,0 +1,29 @@
+experiment_id,integrity_status,issue_count,issues,reason,status,wall_runtime_seconds
+stage_a_selected_reference,valid,0,[],,completed,109.98878909996711
+SEM00,valid,0,[],,completed,110.76980609999737
+SEM01,skipped,,,full semantic reindex was not executed; semantic chunker is unit-tested but no structural Chroma index was built,skipped,
+SEM02,skipped,,,full semantic reindex was not executed; semantic chunker is unit-tested but no structural Chroma index was built,skipped,
+SEM03,skipped,,,full semantic reindex was not executed; semantic chunker is unit-tested but no structural Chroma index was built,skipped,
+CPARENT01,valid,0,[],,completed,104.93473259999882
+CPARENT02,valid,0,[],,completed,110.62284309999086
+CPARENT03,valid,0,[],,completed,91.12292260001414
+SW01,valid,0,[],,completed,83.27663829998346
+SW02,valid,0,[],,completed,91.64726860000519
+SW03,valid,0,[],,completed,107.6238302999991
+ADJ00,valid,0,[],,completed,95.12458409997635
+ADJ01,valid,0,[],,completed,93.97007930005202
+ADJ02,valid,0,[],,completed,99.49515879998216
+ADJ03,valid,0,[],,completed,95.67889069998637
+PARSER00,valid,0,[],,completed,93.53967240004567
+PARSER01,skipped,,,docling is not installed in the local environment,skipped,
+PARSER02,skipped,,,docling is not installed in the local environment,skipped,
+PARSER03,skipped,,,unstructured is not installed in the local environment,skipped,
+EMB00,valid,0,[],,completed,121.90219239995349
+EMB01,skipped,,,alternative embedding model download was not performed in offline-safe Phase 6B run,skipped,
+EMB02,skipped,,,alternative embedding model download was not performed in offline-safe Phase 6B run,skipped,
+RERANK00,valid,0,[],,completed,117.4305280999979
+RERANK01,skipped,,,alternative reranker model download was not performed in offline-safe Phase 6B run,skipped,
+RERANK02,skipped,,,alternative reranker model download was not performed in offline-safe Phase 6B run,skipped,
+STRUCT_CANDIDATE_1,valid,0,[],,completed,143.8626650000224
+STRUCT_CANDIDATE_2,valid,0,[],,completed,161.26410819997545
+STRUCT_CANDIDATE_3,valid,0,[],,completed,145.44122480001533

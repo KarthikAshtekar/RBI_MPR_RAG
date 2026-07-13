@@ -1,0 +1,1862 @@
+[
+  {
+    "question_id": "oct_dev_001",
+    "query_type": "single_report",
+    "required_report_ids": [
+      "rbi_mpr_2025_10"
+    ],
+    "original_query": "What happened to food inflation in June and July 2025 according to the October 2025 MPR?",
+    "normalised_query": "What happened to food inflation in June and July 2025 according to the October 2025 MPR?",
+    "expanded_queries": [],
+    "facet_queries": [],
+    "per_report": {
+      "rbi_mpr_2025_10": {
+        "hit": true,
+        "rr": 1.0,
+        "evidence": [
+          true
+        ],
+        "dense": true,
+        "bm25": true,
+        "union": true,
+        "fusion": true,
+        "selected_ids": [
+          "rbi_mpr_2025_10_p010_c000",
+          "rbi_mpr_2025_10_p102_c000",
+          "rbi_mpr_2025_10_p035_c003",
+          "rbi_mpr_2025_10_p032_c000"
+        ],
+        "selected_pages": [
+          10,
+          102,
+          35,
+          32
+        ]
+      }
+    },
+    "report_coverage": 1.0,
+    "all_reports_hit": true,
+    "macro_mrr": 1.0,
+    "evidence_recall": 1.0,
+    "complete_evidence_recall": true,
+    "contamination": 0,
+    "selected_character_count": 3930,
+    "estimated_token_count": 982
+  },
+  {
+    "question_id": "oct_dev_002",
+    "query_type": "single_report",
+    "required_report_ids": [
+      "rbi_mpr_2025_10"
+    ],
+    "original_query": "To what level had the repo rate been brought by October 2025?",
+    "normalised_query": "To what level had the repo rate been brought by October 2025?",
+    "expanded_queries": [],
+    "facet_queries": [],
+    "per_report": {
+      "rbi_mpr_2025_10": {
+        "hit": false,
+        "rr": 0,
+        "evidence": [
+          false
+        ],
+        "dense": true,
+        "bm25": true,
+        "union": true,
+        "fusion": true,
+        "selected_ids": [
+          "rbi_mpr_2025_10_p072_c000",
+          "rbi_mpr_2025_10_p066_c000",
+          "rbi_mpr_2025_10_p066_c001",
+          "rbi_mpr_2025_10_p074_c000"
+        ],
+        "selected_pages": [
+          72,
+          66,
+          66,
+          74
+        ]
+      }
+    },
+    "report_coverage": 1.0,
+    "all_reports_hit": false,
+    "macro_mrr": 0.0,
+    "evidence_recall": 0.0,
+    "complete_evidence_recall": false,
+    "contamination": 0,
+    "selected_character_count": 3916,
+    "estimated_token_count": 979
+  },
+  {
+    "question_id": "oct_dev_003",
+    "query_type": "single_report",
+    "required_report_ids": [
+      "rbi_mpr_2025_10"
+    ],
+    "original_query": "Where did core inflation broadly remain in the October 2025 report?",
+    "normalised_query": "Where did core inflation broadly remain in the October 2025 report?",
+    "expanded_queries": [],
+    "facet_queries": [],
+    "per_report": {
+      "rbi_mpr_2025_10": {
+        "hit": false,
+        "rr": 0,
+        "evidence": [
+          false
+        ],
+        "dense": true,
+        "bm25": true,
+        "union": true,
+        "fusion": true,
+        "selected_ids": [
+          "rbi_mpr_2025_10_p102_c000",
+          "rbi_mpr_2025_10_p034_c000",
+          "rbi_mpr_2025_10_p032_c000",
+          "rbi_mpr_2025_10_p024_c002"
+        ],
+        "selected_pages": [
+          102,
+          34,
+          32,
+          24
+        ]
+      }
+    },
+    "report_coverage": 1.0,
+    "all_reports_hit": false,
+    "macro_mrr": 0.0,
+    "evidence_recall": 0.0,
+    "complete_evidence_recall": false,
+    "contamination": 0,
+    "selected_character_count": 3889,
+    "estimated_token_count": 972
+  },
+  {
+    "question_id": "oct_dev_004",
+    "query_type": "single_report",
+    "required_report_ids": [
+      "rbi_mpr_2025_10"
+    ],
+    "original_query": "What crude-oil baseline assumption was used for H2:2025-26 in October 2025?",
+    "normalised_query": "What crude-oil baseline assumption was used for H2:2025-26 in October 2025?",
+    "expanded_queries": [],
+    "facet_queries": [],
+    "per_report": {
+      "rbi_mpr_2025_10": {
+        "hit": true,
+        "rr": 1.0,
+        "evidence": [
+          true
+        ],
+        "dense": true,
+        "bm25": true,
+        "union": true,
+        "fusion": true,
+        "selected_ids": [
+          "rbi_mpr_2025_10_p012_c000",
+          "rbi_mpr_2025_10_p012_c001",
+          "rbi_mpr_2025_10_p013_c000",
+          "rbi_mpr_2025_10_p012_c002"
+        ],
+        "selected_pages": [
+          12,
+          12,
+          13,
+          12
+        ]
+      }
+    },
+    "report_coverage": 1.0,
+    "all_reports_hit": true,
+    "macro_mrr": 1.0,
+    "evidence_recall": 1.0,
+    "complete_evidence_recall": true,
+    "contamination": 0,
+    "selected_character_count": 3866,
+    "estimated_token_count": 966
+  },
+  {
+    "question_id": "oct_dev_005",
+    "query_type": "single_report",
+    "required_report_ids": [
+      "rbi_mpr_2025_10"
+    ],
+    "original_query": "What global-growth assumptions for 2025 and 2026 were used in October 2025?",
+    "normalised_query": "What global-growth assumptions for 2025 and 2026 were used in October 2025?",
+    "expanded_queries": [],
+    "facet_queries": [],
+    "per_report": {
+      "rbi_mpr_2025_10": {
+        "hit": false,
+        "rr": 0,
+        "evidence": [
+          false
+        ],
+        "dense": false,
+        "bm25": true,
+        "union": true,
+        "fusion": true,
+        "selected_ids": [
+          "rbi_mpr_2025_10_p013_c004",
+          "rbi_mpr_2025_10_p013_c003",
+          "rbi_mpr_2025_10_p009_c005",
+          "rbi_mpr_2025_10_p099_c000"
+        ],
+        "selected_pages": [
+          13,
+          13,
+          9,
+          99
+        ]
+      }
+    },
+    "report_coverage": 1.0,
+    "all_reports_hit": false,
+    "macro_mrr": 0.0,
+    "evidence_recall": 0.0,
+    "complete_evidence_recall": false,
+    "contamination": 0,
+    "selected_character_count": 3372,
+    "estimated_token_count": 843
+  },
+  {
+    "question_id": "oct_dev_006",
+    "query_type": "single_report",
+    "required_report_ids": [
+      "rbi_mpr_2025_10"
+    ],
+    "original_query": "According to the October 2025 MPR, how much had the Centre raised through gross market borrowings by late September 2025?",
+    "normalised_query": "According to the October 2025 MPR, how much had the Centre raised through gross market borrowings by late September 2025?",
+    "expanded_queries": [],
+    "facet_queries": [],
+    "per_report": {
+      "rbi_mpr_2025_10": {
+        "hit": true,
+        "rr": 1.0,
+        "evidence": [
+          true
+        ],
+        "dense": true,
+        "bm25": true,
+        "union": true,
+        "fusion": true,
+        "selected_ids": [
+          "rbi_mpr_2025_10_p052_c000",
+          "rbi_mpr_2025_10_p052_c001",
+          "rbi_mpr_2025_10_p052_c004",
+          "rbi_mpr_2025_10_p080_c000"
+        ],
+        "selected_pages": [
+          52,
+          52,
+          52,
+          80
+        ]
+      }
+    },
+    "report_coverage": 1.0,
+    "all_reports_hit": true,
+    "macro_mrr": 1.0,
+    "evidence_recall": 1.0,
+    "complete_evidence_recall": true,
+    "contamination": 0,
+    "selected_character_count": 3450,
+    "estimated_token_count": 862
+  },
+  {
+    "question_id": "apr26_dev_001",
+    "query_type": "single_report",
+    "required_report_ids": [
+      "rbi_mpr_2026_04"
+    ],
+    "original_query": "What did April 2026 say about the food group's movement from deflation?",
+    "normalised_query": "What did April 2026 say about the food group's movement from deflation?",
+    "expanded_queries": [],
+    "facet_queries": [],
+    "per_report": {
+      "rbi_mpr_2026_04": {
+        "hit": true,
+        "rr": 0.5,
+        "evidence": [
+          true
+        ],
+        "dense": true,
+        "bm25": true,
+        "union": true,
+        "fusion": true,
+        "selected_ids": [
+          "rbi_mpr_2026_04_p083_c000",
+          "rbi_mpr_2026_04_p005_c003",
+          "rbi_mpr_2026_04_p115_c001",
+          "rbi_mpr_2026_04_p082_c001"
+        ],
+        "selected_pages": [
+          83,
+          5,
+          115,
+          82
+        ]
+      }
+    },
+    "report_coverage": 1.0,
+    "all_reports_hit": true,
+    "macro_mrr": 0.5,
+    "evidence_recall": 1.0,
+    "complete_evidence_recall": true,
+    "contamination": 0,
+    "selected_character_count": 3893,
+    "estimated_token_count": 973
+  },
+  {
+    "question_id": "apr26_dev_002",
+    "query_type": "single_report",
+    "required_report_ids": [
+      "rbi_mpr_2026_04"
+    ],
+    "original_query": "What repo-rate action in December was reported in April 2026?",
+    "normalised_query": "What repo-rate action in December was reported in April 2026?",
+    "expanded_queries": [],
+    "facet_queries": [],
+    "per_report": {
+      "rbi_mpr_2026_04": {
+        "hit": false,
+        "rr": 0,
+        "evidence": [
+          false
+        ],
+        "dense": false,
+        "bm25": true,
+        "union": true,
+        "fusion": false,
+        "selected_ids": [
+          "rbi_mpr_2026_04_p020_c000",
+          "rbi_mpr_2026_04_p102_c002",
+          "rbi_mpr_2026_04_p101_c005",
+          "rbi_mpr_2026_04_p084_c000"
+        ],
+        "selected_pages": [
+          20,
+          102,
+          101,
+          84
+        ]
+      }
+    },
+    "report_coverage": 1.0,
+    "all_reports_hit": false,
+    "macro_mrr": 0.0,
+    "evidence_recall": 0.0,
+    "complete_evidence_recall": false,
+    "contamination": 0,
+    "selected_character_count": 3384,
+    "estimated_token_count": 846
+  },
+  {
+    "question_id": "apr26_dev_003",
+    "query_type": "single_report",
+    "required_report_ids": [
+      "rbi_mpr_2026_04"
+    ],
+    "original_query": "How did April 2026 characterise core inflation apart from precious metals?",
+    "normalised_query": "How did April 2026 characterise core inflation apart from precious metals?",
+    "expanded_queries": [],
+    "facet_queries": [],
+    "per_report": {
+      "rbi_mpr_2026_04": {
+        "hit": false,
+        "rr": 0,
+        "evidence": [
+          false
+        ],
+        "dense": true,
+        "bm25": true,
+        "union": true,
+        "fusion": true,
+        "selected_ids": [
+          "rbi_mpr_2026_04_p092_c000",
+          "rbi_mpr_2026_04_p091_c000",
+          "rbi_mpr_2026_04_p094_c004",
+          "rbi_mpr_2026_04_p103_c001"
+        ],
+        "selected_pages": [
+          92,
+          91,
+          94,
+          103
+        ]
+      }
+    },
+    "report_coverage": 1.0,
+    "all_reports_hit": false,
+    "macro_mrr": 0.0,
+    "evidence_recall": 0.0,
+    "complete_evidence_recall": false,
+    "contamination": 0,
+    "selected_character_count": 3580,
+    "estimated_token_count": 895
+  },
+  {
+    "question_id": "apr26_dev_004",
+    "query_type": "single_report",
+    "required_report_ids": [
+      "rbi_mpr_2026_04"
+    ],
+    "original_query": "What crude-oil risk arising from the West Asia conflict was highlighted in April 2026?",
+    "normalised_query": "What crude-oil risk arising from the West Asia conflict was highlighted in April 2026?",
+    "expanded_queries": [],
+    "facet_queries": [],
+    "per_report": {
+      "rbi_mpr_2026_04": {
+        "hit": false,
+        "rr": 0,
+        "evidence": [
+          false
+        ],
+        "dense": true,
+        "bm25": true,
+        "union": true,
+        "fusion": false,
+        "selected_ids": [
+          "rbi_mpr_2026_04_p113_c001",
+          "rbi_mpr_2026_04_p040_c000",
+          "rbi_mpr_2026_04_p099_c002",
+          "rbi_mpr_2026_04_p110_c000"
+        ],
+        "selected_pages": [
+          113,
+          40,
+          99,
+          110
+        ]
+      }
+    },
+    "report_coverage": 1.0,
+    "all_reports_hit": false,
+    "macro_mrr": 0.0,
+    "evidence_recall": 0.0,
+    "complete_evidence_recall": false,
+    "contamination": 0,
+    "selected_character_count": 3868,
+    "estimated_token_count": 967
+  },
+  {
+    "question_id": "apr26_dev_005",
+    "query_type": "single_report",
+    "required_report_ids": [
+      "rbi_mpr_2026_04"
+    ],
+    "original_query": "How did April 2026 characterise global growth relative to its historical average?",
+    "normalised_query": "How did April 2026 characterise global growth relative to its historical average?",
+    "expanded_queries": [],
+    "facet_queries": [],
+    "per_report": {
+      "rbi_mpr_2026_04": {
+        "hit": false,
+        "rr": 0,
+        "evidence": [
+          false
+        ],
+        "dense": false,
+        "bm25": true,
+        "union": true,
+        "fusion": true,
+        "selected_ids": [
+          "rbi_mpr_2026_04_p013_c001",
+          "rbi_mpr_2026_04_p014_c000",
+          "rbi_mpr_2026_04_p025_c001",
+          "rbi_mpr_2026_04_p056_c000"
+        ],
+        "selected_pages": [
+          13,
+          14,
+          25,
+          56
+        ]
+      }
+    },
+    "report_coverage": 1.0,
+    "all_reports_hit": false,
+    "macro_mrr": 0.0,
+    "evidence_recall": 0.0,
+    "complete_evidence_recall": false,
+    "contamination": 0,
+    "selected_character_count": 3684,
+    "estimated_token_count": 921
+  },
+  {
+    "question_id": "apr26_dev_006",
+    "query_type": "single_report",
+    "required_report_ids": [
+      "rbi_mpr_2026_04"
+    ],
+    "original_query": "What were the Centre's gross market borrowings in 2025-26 according to April 2026?",
+    "normalised_query": "What were the Centre's gross market borrowings in 2025-26 according to April 2026?",
+    "expanded_queries": [],
+    "facet_queries": [],
+    "per_report": {
+      "rbi_mpr_2026_04": {
+        "hit": true,
+        "rr": 0.3333333333333333,
+        "evidence": [
+          true
+        ],
+        "dense": true,
+        "bm25": true,
+        "union": true,
+        "fusion": true,
+        "selected_ids": [
+          "rbi_mpr_2026_04_p065_c000",
+          "rbi_mpr_2026_04_p066_c002",
+          "rbi_mpr_2026_04_p064_c002",
+          "rbi_mpr_2026_04_p069_c000"
+        ],
+        "selected_pages": [
+          65,
+          66,
+          64,
+          69
+        ]
+      }
+    },
+    "report_coverage": 1.0,
+    "all_reports_hit": true,
+    "macro_mrr": 0.3333333333333333,
+    "evidence_recall": 1.0,
+    "complete_evidence_recall": true,
+    "contamination": 0,
+    "selected_character_count": 3896,
+    "estimated_token_count": 974
+  },
+  {
+    "question_id": "cmp_dev_001",
+    "query_type": "pairwise_comparison",
+    "required_report_ids": [
+      "rbi_mpr_2025_04",
+      "rbi_mpr_2025_10"
+    ],
+    "original_query": "Compare food-inflation developments reported in April and October 2025.",
+    "normalised_query": "Compare food-inflation developments reported in April and October 2025.",
+    "expanded_queries": [],
+    "facet_queries": [],
+    "per_report": {
+      "rbi_mpr_2025_04": {
+        "hit": false,
+        "rr": 0,
+        "evidence": [
+          false
+        ],
+        "dense": false,
+        "bm25": true,
+        "union": true,
+        "fusion": false,
+        "selected_ids": [
+          "rbi_mpr_2025_04_p038_c000",
+          "rbi_mpr_2025_04_p015_c002",
+          "rbi_mpr_2025_04_p030_c001"
+        ],
+        "selected_pages": [
+          38,
+          15,
+          30
+        ]
+      },
+      "rbi_mpr_2025_10": {
+        "hit": false,
+        "rr": 0,
+        "evidence": [
+          false
+        ],
+        "dense": true,
+        "bm25": true,
+        "union": true,
+        "fusion": true,
+        "selected_ids": [
+          "rbi_mpr_2025_10_p032_c000",
+          "rbi_mpr_2025_10_p036_c003",
+          "rbi_mpr_2025_10_p025_c001"
+        ],
+        "selected_pages": [
+          32,
+          36,
+          25
+        ]
+      }
+    },
+    "report_coverage": 1.0,
+    "all_reports_hit": false,
+    "macro_mrr": 0.0,
+    "evidence_recall": 0.0,
+    "complete_evidence_recall": false,
+    "contamination": 0,
+    "selected_character_count": 5857,
+    "estimated_token_count": 1464
+  },
+  {
+    "question_id": "cmp_dev_002",
+    "query_type": "pairwise_comparison",
+    "required_report_ids": [
+      "rbi_mpr_2025_04",
+      "rbi_mpr_2025_10"
+    ],
+    "original_query": "Compare the policy-rate levels described in April and October 2025.",
+    "normalised_query": "Compare the policy-rate levels described in April and October 2025.",
+    "expanded_queries": [],
+    "facet_queries": [],
+    "per_report": {
+      "rbi_mpr_2025_04": {
+        "hit": true,
+        "rr": 1.0,
+        "evidence": [
+          true
+        ],
+        "dense": true,
+        "bm25": true,
+        "union": true,
+        "fusion": true,
+        "selected_ids": [
+          "rbi_mpr_2025_04_p012_c000",
+          "rbi_mpr_2025_04_p052_c000",
+          "rbi_mpr_2025_04_p015_c002"
+        ],
+        "selected_pages": [
+          12,
+          52,
+          15
+        ]
+      },
+      "rbi_mpr_2025_10": {
+        "hit": true,
+        "rr": 0.5,
+        "evidence": [
+          false
+        ],
+        "dense": true,
+        "bm25": true,
+        "union": true,
+        "fusion": true,
+        "selected_ids": [
+          "rbi_mpr_2025_10_p066_c000",
+          "rbi_mpr_2025_10_p010_c000",
+          "rbi_mpr_2025_10_p032_c000"
+        ],
+        "selected_pages": [
+          66,
+          10,
+          32
+        ]
+      }
+    },
+    "report_coverage": 1.0,
+    "all_reports_hit": true,
+    "macro_mrr": 0.75,
+    "evidence_recall": 0.5,
+    "complete_evidence_recall": false,
+    "contamination": 0,
+    "selected_character_count": 5885,
+    "estimated_token_count": 1471
+  },
+  {
+    "question_id": "cmp_dev_003",
+    "query_type": "pairwise_comparison",
+    "required_report_ids": [
+      "rbi_mpr_2025_04",
+      "rbi_mpr_2025_10"
+    ],
+    "original_query": "Compare the crude-oil baseline assumptions in April and October 2025.",
+    "normalised_query": "Compare the crude-oil baseline assumptions in April and October 2025.",
+    "expanded_queries": [],
+    "facet_queries": [],
+    "per_report": {
+      "rbi_mpr_2025_04": {
+        "hit": true,
+        "rr": 1.0,
+        "evidence": [
+          true
+        ],
+        "dense": true,
+        "bm25": true,
+        "union": true,
+        "fusion": true,
+        "selected_ids": [
+          "rbi_mpr_2025_04_p014_c001",
+          "rbi_mpr_2025_04_p022_c000",
+          "rbi_mpr_2025_04_p014_c000"
+        ],
+        "selected_pages": [
+          14,
+          22,
+          14
+        ]
+      },
+      "rbi_mpr_2025_10": {
+        "hit": true,
+        "rr": 1.0,
+        "evidence": [
+          true
+        ],
+        "dense": true,
+        "bm25": true,
+        "union": true,
+        "fusion": true,
+        "selected_ids": [
+          "rbi_mpr_2025_10_p012_c000",
+          "rbi_mpr_2025_10_p012_c001",
+          "rbi_mpr_2025_10_p013_c000"
+        ],
+        "selected_pages": [
+          12,
+          12,
+          13
+        ]
+      }
+    },
+    "report_coverage": 1.0,
+    "all_reports_hit": true,
+    "macro_mrr": 1.0,
+    "evidence_recall": 1.0,
+    "complete_evidence_recall": true,
+    "contamination": 0,
+    "selected_character_count": 5886,
+    "estimated_token_count": 1471
+  },
+  {
+    "question_id": "cmp_dev_004",
+    "query_type": "pairwise_comparison",
+    "required_report_ids": [
+      "rbi_mpr_2025_04",
+      "rbi_mpr_2025_10"
+    ],
+    "original_query": "Compare global-growth assumptions in April and October 2025.",
+    "normalised_query": "Compare global-growth assumptions in April and October 2025.",
+    "expanded_queries": [],
+    "facet_queries": [],
+    "per_report": {
+      "rbi_mpr_2025_04": {
+        "hit": false,
+        "rr": 0,
+        "evidence": [
+          false
+        ],
+        "dense": false,
+        "bm25": true,
+        "union": true,
+        "fusion": false,
+        "selected_ids": [
+          "rbi_mpr_2025_04_p015_c000",
+          "rbi_mpr_2025_04_p015_c001",
+          "rbi_mpr_2025_04_p099_c003"
+        ],
+        "selected_pages": [
+          15,
+          15,
+          99
+        ]
+      },
+      "rbi_mpr_2025_10": {
+        "hit": false,
+        "rr": 0,
+        "evidence": [
+          false
+        ],
+        "dense": false,
+        "bm25": true,
+        "union": true,
+        "fusion": false,
+        "selected_ids": [
+          "rbi_mpr_2025_10_p099_c000",
+          "rbi_mpr_2025_10_p097_c004",
+          "rbi_mpr_2025_10_p097_c003"
+        ],
+        "selected_pages": [
+          99,
+          97,
+          97
+        ]
+      }
+    },
+    "report_coverage": 1.0,
+    "all_reports_hit": false,
+    "macro_mrr": 0.0,
+    "evidence_recall": 0.0,
+    "complete_evidence_recall": false,
+    "contamination": 0,
+    "selected_character_count": 5830,
+    "estimated_token_count": 1457
+  },
+  {
+    "question_id": "cmp_dev_005",
+    "query_type": "pairwise_comparison",
+    "required_report_ids": [
+      "rbi_mpr_2025_10",
+      "rbi_mpr_2026_04"
+    ],
+    "original_query": "Compare food-inflation language in October 2025 and April 2026.",
+    "normalised_query": "Compare food-inflation language in October 2025 and April 2026.",
+    "expanded_queries": [],
+    "facet_queries": [],
+    "per_report": {
+      "rbi_mpr_2025_10": {
+        "hit": true,
+        "rr": 0.5,
+        "evidence": [
+          true
+        ],
+        "dense": true,
+        "bm25": true,
+        "union": true,
+        "fusion": true,
+        "selected_ids": [
+          "rbi_mpr_2025_10_p032_c000",
+          "rbi_mpr_2025_10_p010_c000",
+          "rbi_mpr_2025_10_p025_c001"
+        ],
+        "selected_pages": [
+          32,
+          10,
+          25
+        ]
+      },
+      "rbi_mpr_2026_04": {
+        "hit": false,
+        "rr": 0,
+        "evidence": [
+          false
+        ],
+        "dense": true,
+        "bm25": true,
+        "union": true,
+        "fusion": true,
+        "selected_ids": [
+          "rbi_mpr_2026_04_p082_c000",
+          "rbi_mpr_2026_04_p087_c000",
+          "rbi_mpr_2026_04_p092_c002"
+        ],
+        "selected_pages": [
+          82,
+          87,
+          92
+        ]
+      }
+    },
+    "report_coverage": 1.0,
+    "all_reports_hit": false,
+    "macro_mrr": 0.25,
+    "evidence_recall": 0.5,
+    "complete_evidence_recall": false,
+    "contamination": 0,
+    "selected_character_count": 5850,
+    "estimated_token_count": 1462
+  },
+  {
+    "question_id": "cmp_dev_006",
+    "query_type": "pairwise_comparison",
+    "required_report_ids": [
+      "rbi_mpr_2025_10",
+      "rbi_mpr_2026_04"
+    ],
+    "original_query": "Compare the monetary-policy actions described in October 2025 and April 2026.",
+    "normalised_query": "Compare the monetary-policy actions described in October 2025 and April 2026.",
+    "expanded_queries": [],
+    "facet_queries": [],
+    "per_report": {
+      "rbi_mpr_2025_10": {
+        "hit": true,
+        "rr": 0.5,
+        "evidence": [
+          false
+        ],
+        "dense": true,
+        "bm25": true,
+        "union": true,
+        "fusion": true,
+        "selected_ids": [
+          "rbi_mpr_2025_10_p066_c000",
+          "rbi_mpr_2025_10_p010_c000",
+          "rbi_mpr_2025_10_p032_c000"
+        ],
+        "selected_pages": [
+          66,
+          10,
+          32
+        ]
+      },
+      "rbi_mpr_2026_04": {
+        "hit": false,
+        "rr": 0,
+        "evidence": [
+          false
+        ],
+        "dense": false,
+        "bm25": false,
+        "union": false,
+        "fusion": false,
+        "selected_ids": [
+          "rbi_mpr_2026_04_p102_c000",
+          "rbi_mpr_2026_04_p020_c000",
+          "rbi_mpr_2026_04_p014_c000"
+        ],
+        "selected_pages": [
+          102,
+          20,
+          14
+        ]
+      }
+    },
+    "report_coverage": 1.0,
+    "all_reports_hit": false,
+    "macro_mrr": 0.25,
+    "evidence_recall": 0.0,
+    "complete_evidence_recall": false,
+    "contamination": 0,
+    "selected_character_count": 5868,
+    "estimated_token_count": 1467
+  },
+  {
+    "question_id": "cmp_dev_007",
+    "query_type": "pairwise_comparison",
+    "required_report_ids": [
+      "rbi_mpr_2025_10",
+      "rbi_mpr_2026_04"
+    ],
+    "original_query": "Compare global-growth language in October 2025 and April 2026.",
+    "normalised_query": "Compare global-growth language in October 2025 and April 2026.",
+    "expanded_queries": [],
+    "facet_queries": [],
+    "per_report": {
+      "rbi_mpr_2025_10": {
+        "hit": false,
+        "rr": 0,
+        "evidence": [
+          false
+        ],
+        "dense": false,
+        "bm25": true,
+        "union": true,
+        "fusion": true,
+        "selected_ids": [
+          "rbi_mpr_2025_10_p097_c004",
+          "rbi_mpr_2025_10_p099_c000",
+          "rbi_mpr_2025_10_p097_c003"
+        ],
+        "selected_pages": [
+          97,
+          99,
+          97
+        ]
+      },
+      "rbi_mpr_2026_04": {
+        "hit": false,
+        "rr": 0,
+        "evidence": [
+          false
+        ],
+        "dense": false,
+        "bm25": true,
+        "union": true,
+        "fusion": false,
+        "selected_ids": [
+          "rbi_mpr_2026_04_p102_c000",
+          "rbi_mpr_2026_04_p056_c000",
+          "rbi_mpr_2026_04_p100_c001"
+        ],
+        "selected_pages": [
+          102,
+          56,
+          100
+        ]
+      }
+    },
+    "report_coverage": 1.0,
+    "all_reports_hit": false,
+    "macro_mrr": 0.0,
+    "evidence_recall": 0.0,
+    "complete_evidence_recall": false,
+    "contamination": 0,
+    "selected_character_count": 5784,
+    "estimated_token_count": 1446
+  },
+  {
+    "question_id": "cmp_dev_008",
+    "query_type": "pairwise_comparison",
+    "required_report_ids": [
+      "rbi_mpr_2025_10",
+      "rbi_mpr_2026_04"
+    ],
+    "original_query": "Compare the Centre's borrowing figures in October 2025 and April 2026.",
+    "normalised_query": "Compare the Centre's borrowing figures in October 2025 and April 2026.",
+    "expanded_queries": [],
+    "facet_queries": [],
+    "per_report": {
+      "rbi_mpr_2025_10": {
+        "hit": true,
+        "rr": 1.0,
+        "evidence": [
+          true
+        ],
+        "dense": true,
+        "bm25": false,
+        "union": true,
+        "fusion": true,
+        "selected_ids": [
+          "rbi_mpr_2025_10_p052_c000",
+          "rbi_mpr_2025_10_p050_c000",
+          "rbi_mpr_2025_10_p052_c004"
+        ],
+        "selected_pages": [
+          52,
+          50,
+          52
+        ]
+      },
+      "rbi_mpr_2026_04": {
+        "hit": false,
+        "rr": 0,
+        "evidence": [
+          false
+        ],
+        "dense": true,
+        "bm25": false,
+        "union": true,
+        "fusion": false,
+        "selected_ids": [
+          "rbi_mpr_2026_04_p069_c000",
+          "rbi_mpr_2026_04_p102_c000",
+          "rbi_mpr_2026_04_p060_c000"
+        ],
+        "selected_pages": [
+          69,
+          102,
+          60
+        ]
+      }
+    },
+    "report_coverage": 1.0,
+    "all_reports_hit": false,
+    "macro_mrr": 0.5,
+    "evidence_recall": 0.5,
+    "complete_evidence_recall": false,
+    "contamination": 0,
+    "selected_character_count": 5347,
+    "estimated_token_count": 1336
+  },
+  {
+    "question_id": "cmp_dev_009",
+    "query_type": "pairwise_comparison",
+    "required_report_ids": [
+      "rbi_mpr_2025_04",
+      "rbi_mpr_2026_04"
+    ],
+    "original_query": "Compare growth figures reported in April 2025 and April 2026.",
+    "normalised_query": "Compare growth figures reported in April 2025 and April 2026.",
+    "expanded_queries": [],
+    "facet_queries": [],
+    "per_report": {
+      "rbi_mpr_2025_04": {
+        "hit": false,
+        "rr": 0,
+        "evidence": [
+          false
+        ],
+        "dense": false,
+        "bm25": false,
+        "union": false,
+        "fusion": false,
+        "selected_ids": [
+          "rbi_mpr_2025_04_p020_c000",
+          "rbi_mpr_2025_04_p066_c000",
+          "rbi_mpr_2025_04_p068_c000"
+        ],
+        "selected_pages": [
+          20,
+          66,
+          68
+        ]
+      },
+      "rbi_mpr_2026_04": {
+        "hit": false,
+        "rr": 0,
+        "evidence": [
+          false
+        ],
+        "dense": true,
+        "bm25": false,
+        "union": true,
+        "fusion": false,
+        "selected_ids": [
+          "rbi_mpr_2026_04_p056_c000",
+          "rbi_mpr_2026_04_p046_c000",
+          "rbi_mpr_2026_04_p096_c000"
+        ],
+        "selected_pages": [
+          56,
+          46,
+          96
+        ]
+      }
+    },
+    "report_coverage": 1.0,
+    "all_reports_hit": false,
+    "macro_mrr": 0.0,
+    "evidence_recall": 0.0,
+    "complete_evidence_recall": false,
+    "contamination": 0,
+    "selected_character_count": 5863,
+    "estimated_token_count": 1465
+  },
+  {
+    "question_id": "cmp_dev_010",
+    "query_type": "pairwise_comparison",
+    "required_report_ids": [
+      "rbi_mpr_2025_04",
+      "rbi_mpr_2026_04"
+    ],
+    "original_query": "Compare CPI inflation projections cited in April 2025 and April 2026.",
+    "normalised_query": "Compare CPI inflation projections cited in April 2025 and April 2026.",
+    "expanded_queries": [],
+    "facet_queries": [],
+    "per_report": {
+      "rbi_mpr_2025_04": {
+        "hit": false,
+        "rr": 0,
+        "evidence": [
+          false
+        ],
+        "dense": false,
+        "bm25": false,
+        "union": false,
+        "fusion": false,
+        "selected_ids": [
+          "rbi_mpr_2025_04_p018_c000",
+          "rbi_mpr_2025_04_p042_c000",
+          "rbi_mpr_2025_04_p105_c001"
+        ],
+        "selected_pages": [
+          18,
+          42,
+          105
+        ]
+      },
+      "rbi_mpr_2026_04": {
+        "hit": false,
+        "rr": 0,
+        "evidence": [
+          false
+        ],
+        "dense": true,
+        "bm25": true,
+        "union": true,
+        "fusion": false,
+        "selected_ids": [
+          "rbi_mpr_2026_04_p082_c000",
+          "rbi_mpr_2026_04_p108_c000",
+          "rbi_mpr_2026_04_p094_c004"
+        ],
+        "selected_pages": [
+          82,
+          108,
+          94
+        ]
+      }
+    },
+    "report_coverage": 1.0,
+    "all_reports_hit": false,
+    "macro_mrr": 0.0,
+    "evidence_recall": 0.0,
+    "complete_evidence_recall": false,
+    "contamination": 0,
+    "selected_character_count": 5657,
+    "estimated_token_count": 1414
+  },
+  {
+    "question_id": "cmp_dev_011",
+    "query_type": "pairwise_comparison",
+    "required_report_ids": [
+      "rbi_mpr_2025_04",
+      "rbi_mpr_2026_04"
+    ],
+    "original_query": "Compare crude-oil assumptions or risks in April 2025 and April 2026.",
+    "normalised_query": "Compare crude-oil assumptions or risks in April 2025 and April 2026.",
+    "expanded_queries": [],
+    "facet_queries": [],
+    "per_report": {
+      "rbi_mpr_2025_04": {
+        "hit": true,
+        "rr": 1.0,
+        "evidence": [
+          true
+        ],
+        "dense": true,
+        "bm25": true,
+        "union": true,
+        "fusion": true,
+        "selected_ids": [
+          "rbi_mpr_2025_04_p014_c000",
+          "rbi_mpr_2025_04_p022_c000",
+          "rbi_mpr_2025_04_p020_c000"
+        ],
+        "selected_pages": [
+          14,
+          22,
+          20
+        ]
+      },
+      "rbi_mpr_2026_04": {
+        "hit": false,
+        "rr": 0,
+        "evidence": [
+          false
+        ],
+        "dense": true,
+        "bm25": true,
+        "union": true,
+        "fusion": false,
+        "selected_ids": [
+          "rbi_mpr_2026_04_p105_c002",
+          "rbi_mpr_2026_04_p105_c003",
+          "rbi_mpr_2026_04_p112_c000"
+        ],
+        "selected_pages": [
+          105,
+          105,
+          112
+        ]
+      }
+    },
+    "report_coverage": 1.0,
+    "all_reports_hit": false,
+    "macro_mrr": 0.5,
+    "evidence_recall": 0.5,
+    "complete_evidence_recall": false,
+    "contamination": 0,
+    "selected_character_count": 5934,
+    "estimated_token_count": 1483
+  },
+  {
+    "question_id": "cmp_dev_012",
+    "query_type": "pairwise_comparison",
+    "required_report_ids": [
+      "rbi_mpr_2025_04",
+      "rbi_mpr_2026_04"
+    ],
+    "original_query": "Compare central-government borrowing context in April 2025 and April 2026.",
+    "normalised_query": "Compare central-government borrowing context in April 2025 and April 2026.",
+    "expanded_queries": [],
+    "facet_queries": [],
+    "per_report": {
+      "rbi_mpr_2025_04": {
+        "hit": false,
+        "rr": 0,
+        "evidence": [
+          false
+        ],
+        "dense": true,
+        "bm25": false,
+        "union": true,
+        "fusion": true,
+        "selected_ids": [
+          "rbi_mpr_2025_04_p054_c000",
+          "rbi_mpr_2025_04_p060_c000",
+          "rbi_mpr_2025_04_p082_c002"
+        ],
+        "selected_pages": [
+          54,
+          60,
+          82
+        ]
+      },
+      "rbi_mpr_2026_04": {
+        "hit": true,
+        "rr": 1.0,
+        "evidence": [
+          true
+        ],
+        "dense": true,
+        "bm25": false,
+        "union": true,
+        "fusion": true,
+        "selected_ids": [
+          "rbi_mpr_2026_04_p064_c002",
+          "rbi_mpr_2026_04_p069_c000",
+          "rbi_mpr_2026_04_p065_c000"
+        ],
+        "selected_pages": [
+          64,
+          69,
+          65
+        ]
+      }
+    },
+    "report_coverage": 1.0,
+    "all_reports_hit": false,
+    "macro_mrr": 0.5,
+    "evidence_recall": 0.5,
+    "complete_evidence_recall": false,
+    "contamination": 0,
+    "selected_character_count": 5834,
+    "estimated_token_count": 1458
+  },
+  {
+    "question_id": "trend_dev_001",
+    "query_type": "trend_all_reports",
+    "required_report_ids": [
+      "rbi_mpr_2025_04",
+      "rbi_mpr_2025_10",
+      "rbi_mpr_2026_04"
+    ],
+    "original_query": "How did food-inflation conditions evolve across all three reports?",
+    "normalised_query": "How did food-inflation conditions evolve across all three reports?",
+    "expanded_queries": [],
+    "facet_queries": [],
+    "per_report": {
+      "rbi_mpr_2025_04": {
+        "hit": false,
+        "rr": 0,
+        "evidence": [
+          false
+        ],
+        "dense": false,
+        "bm25": false,
+        "union": false,
+        "fusion": false,
+        "selected_ids": [
+          "rbi_mpr_2025_04_p023_c001",
+          "rbi_mpr_2025_04_p030_c001"
+        ],
+        "selected_pages": [
+          23,
+          30
+        ]
+      },
+      "rbi_mpr_2025_10": {
+        "hit": false,
+        "rr": 0,
+        "evidence": [
+          false
+        ],
+        "dense": true,
+        "bm25": false,
+        "union": true,
+        "fusion": false,
+        "selected_ids": [
+          "rbi_mpr_2025_10_p023_c001",
+          "rbi_mpr_2025_10_p025_c001"
+        ],
+        "selected_pages": [
+          23,
+          25
+        ]
+      },
+      "rbi_mpr_2026_04": {
+        "hit": false,
+        "rr": 0,
+        "evidence": [
+          false
+        ],
+        "dense": true,
+        "bm25": false,
+        "union": true,
+        "fusion": false,
+        "selected_ids": [
+          "rbi_mpr_2026_04_p082_c001",
+          "rbi_mpr_2026_04_p102_c003"
+        ],
+        "selected_pages": [
+          82,
+          102
+        ]
+      }
+    },
+    "report_coverage": 1.0,
+    "all_reports_hit": false,
+    "macro_mrr": 0.0,
+    "evidence_recall": 0.0,
+    "complete_evidence_recall": false,
+    "contamination": 0,
+    "selected_character_count": 5859,
+    "estimated_token_count": 1464
+  },
+  {
+    "question_id": "trend_dev_002",
+    "query_type": "trend_all_reports",
+    "required_report_ids": [
+      "rbi_mpr_2025_04",
+      "rbi_mpr_2025_10",
+      "rbi_mpr_2026_04"
+    ],
+    "original_query": "Trace the policy-rate or policy-action evidence across all three reports.",
+    "normalised_query": "Trace the policy-rate or policy-action evidence across all three reports.",
+    "expanded_queries": [],
+    "facet_queries": [],
+    "per_report": {
+      "rbi_mpr_2025_04": {
+        "hit": false,
+        "rr": 0,
+        "evidence": [
+          false
+        ],
+        "dense": false,
+        "bm25": false,
+        "union": false,
+        "fusion": false,
+        "selected_ids": [
+          "rbi_mpr_2025_04_p108_c003",
+          "rbi_mpr_2025_04_p050_c000",
+          "rbi_mpr_2025_04_p052_c000"
+        ],
+        "selected_pages": [
+          108,
+          50,
+          52
+        ]
+      },
+      "rbi_mpr_2025_10": {
+        "hit": false,
+        "rr": 0,
+        "evidence": [
+          false
+        ],
+        "dense": false,
+        "bm25": true,
+        "union": true,
+        "fusion": false,
+        "selected_ids": [
+          "rbi_mpr_2025_10_p011_c005",
+          "rbi_mpr_2025_10_p076_c000",
+          "rbi_mpr_2025_10_p104_c000"
+        ],
+        "selected_pages": [
+          11,
+          76,
+          104
+        ]
+      },
+      "rbi_mpr_2026_04": {
+        "hit": false,
+        "rr": 0,
+        "evidence": [
+          false
+        ],
+        "dense": false,
+        "bm25": false,
+        "union": false,
+        "fusion": false,
+        "selected_ids": [
+          "rbi_mpr_2026_04_p020_c000",
+          "rbi_mpr_2026_04_p020_c003",
+          "rbi_mpr_2026_04_p020_c002"
+        ],
+        "selected_pages": [
+          20,
+          20,
+          20
+        ]
+      }
+    },
+    "report_coverage": 1.0,
+    "all_reports_hit": false,
+    "macro_mrr": 0.0,
+    "evidence_recall": 0.0,
+    "complete_evidence_recall": false,
+    "contamination": 0,
+    "selected_character_count": 8176,
+    "estimated_token_count": 2044
+  },
+  {
+    "question_id": "trend_dev_003",
+    "query_type": "trend_all_reports",
+    "required_report_ids": [
+      "rbi_mpr_2025_04",
+      "rbi_mpr_2025_10",
+      "rbi_mpr_2026_04"
+    ],
+    "original_query": "How did crude-oil assumptions or risks evolve across the three MPRs?",
+    "normalised_query": "How did crude-oil assumptions or risks evolve across the three MPRs?",
+    "expanded_queries": [],
+    "facet_queries": [],
+    "per_report": {
+      "rbi_mpr_2025_04": {
+        "hit": true,
+        "rr": 0.5,
+        "evidence": [
+          false
+        ],
+        "dense": true,
+        "bm25": false,
+        "union": true,
+        "fusion": true,
+        "selected_ids": [
+          "rbi_mpr_2025_04_p021_c001",
+          "rbi_mpr_2025_04_p014_c003"
+        ],
+        "selected_pages": [
+          21,
+          14
+        ]
+      },
+      "rbi_mpr_2025_10": {
+        "hit": true,
+        "rr": 1.0,
+        "evidence": [
+          true
+        ],
+        "dense": true,
+        "bm25": false,
+        "union": true,
+        "fusion": true,
+        "selected_ids": [
+          "rbi_mpr_2025_10_p012_c001",
+          "rbi_mpr_2025_10_p012_c000"
+        ],
+        "selected_pages": [
+          12,
+          12
+        ]
+      },
+      "rbi_mpr_2026_04": {
+        "hit": false,
+        "rr": 0,
+        "evidence": [
+          false
+        ],
+        "dense": true,
+        "bm25": false,
+        "union": true,
+        "fusion": false,
+        "selected_ids": [
+          "rbi_mpr_2026_04_p105_c001",
+          "rbi_mpr_2026_04_p105_c000"
+        ],
+        "selected_pages": [
+          105,
+          105
+        ]
+      }
+    },
+    "report_coverage": 1.0,
+    "all_reports_hit": false,
+    "macro_mrr": 0.5,
+    "evidence_recall": 0.3333333333333333,
+    "complete_evidence_recall": false,
+    "contamination": 0,
+    "selected_character_count": 5839,
+    "estimated_token_count": 1459
+  },
+  {
+    "question_id": "trend_dev_004",
+    "query_type": "trend_all_reports",
+    "required_report_ids": [
+      "rbi_mpr_2025_04",
+      "rbi_mpr_2025_10",
+      "rbi_mpr_2026_04"
+    ],
+    "original_query": "Compare global-growth assumptions or language across all reports.",
+    "normalised_query": "Compare global-growth assumptions or language across all reports.",
+    "expanded_queries": [],
+    "facet_queries": [],
+    "per_report": {
+      "rbi_mpr_2025_04": {
+        "hit": false,
+        "rr": 0,
+        "evidence": [
+          false
+        ],
+        "dense": false,
+        "bm25": false,
+        "union": false,
+        "fusion": false,
+        "selected_ids": [
+          "rbi_mpr_2025_04_p021_c001",
+          "rbi_mpr_2025_04_p021_c003"
+        ],
+        "selected_pages": [
+          21,
+          21
+        ]
+      },
+      "rbi_mpr_2025_10": {
+        "hit": false,
+        "rr": 0,
+        "evidence": [
+          false
+        ],
+        "dense": false,
+        "bm25": false,
+        "union": false,
+        "fusion": false,
+        "selected_ids": [
+          "rbi_mpr_2025_10_p021_c000",
+          "rbi_mpr_2025_10_p020_c001"
+        ],
+        "selected_pages": [
+          21,
+          20
+        ]
+      },
+      "rbi_mpr_2026_04": {
+        "hit": false,
+        "rr": 0,
+        "evidence": [
+          false
+        ],
+        "dense": false,
+        "bm25": false,
+        "union": false,
+        "fusion": false,
+        "selected_ids": [
+          "rbi_mpr_2026_04_p112_c001",
+          "rbi_mpr_2026_04_p112_c000"
+        ],
+        "selected_pages": [
+          112,
+          112
+        ]
+      }
+    },
+    "report_coverage": 1.0,
+    "all_reports_hit": false,
+    "macro_mrr": 0.0,
+    "evidence_recall": 0.0,
+    "complete_evidence_recall": false,
+    "contamination": 0,
+    "selected_character_count": 5859,
+    "estimated_token_count": 1464
+  },
+  {
+    "question_id": "trend_dev_005",
+    "query_type": "trend_all_reports",
+    "required_report_ids": [
+      "rbi_mpr_2025_04",
+      "rbi_mpr_2025_10",
+      "rbi_mpr_2026_04"
+    ],
+    "original_query": "How did central-government borrowing context change across the reports?",
+    "normalised_query": "How did central-government borrowing context change across the reports?",
+    "expanded_queries": [],
+    "facet_queries": [],
+    "per_report": {
+      "rbi_mpr_2025_04": {
+        "hit": false,
+        "rr": 0,
+        "evidence": [
+          false
+        ],
+        "dense": true,
+        "bm25": true,
+        "union": true,
+        "fusion": true,
+        "selected_ids": [
+          "rbi_mpr_2025_04_p082_c002",
+          "rbi_mpr_2025_04_p078_c002"
+        ],
+        "selected_pages": [
+          82,
+          78
+        ]
+      },
+      "rbi_mpr_2025_10": {
+        "hit": true,
+        "rr": 1.0,
+        "evidence": [
+          true
+        ],
+        "dense": true,
+        "bm25": false,
+        "union": true,
+        "fusion": true,
+        "selected_ids": [
+          "rbi_mpr_2025_10_p052_c000",
+          "rbi_mpr_2025_10_p052_c004"
+        ],
+        "selected_pages": [
+          52,
+          52
+        ]
+      },
+      "rbi_mpr_2026_04": {
+        "hit": true,
+        "rr": 0.5,
+        "evidence": [
+          true
+        ],
+        "dense": true,
+        "bm25": false,
+        "union": true,
+        "fusion": true,
+        "selected_ids": [
+          "rbi_mpr_2026_04_p065_c000",
+          "rbi_mpr_2026_04_p064_c002"
+        ],
+        "selected_pages": [
+          65,
+          64
+        ]
+      }
+    },
+    "report_coverage": 1.0,
+    "all_reports_hit": false,
+    "macro_mrr": 0.5,
+    "evidence_recall": 0.6666666666666666,
+    "complete_evidence_recall": false,
+    "contamination": 0,
+    "selected_character_count": 5393,
+    "estimated_token_count": 1348
+  },
+  {
+    "question_id": "trend_dev_006",
+    "query_type": "trend_all_reports",
+    "required_report_ids": [
+      "rbi_mpr_2025_04",
+      "rbi_mpr_2025_10",
+      "rbi_mpr_2026_04"
+    ],
+    "original_query": "How did the neutral policy stance appear across the three reports?",
+    "normalised_query": "How did the neutral policy stance appear across the three reports?",
+    "expanded_queries": [],
+    "facet_queries": [],
+    "per_report": {
+      "rbi_mpr_2025_04": {
+        "hit": true,
+        "rr": 1.0,
+        "evidence": [
+          true
+        ],
+        "dense": true,
+        "bm25": true,
+        "union": true,
+        "fusion": true,
+        "selected_ids": [
+          "rbi_mpr_2025_04_p013_c000",
+          "rbi_mpr_2025_04_p078_c001",
+          "rbi_mpr_2025_04_p013_c003"
+        ],
+        "selected_pages": [
+          13,
+          78,
+          13
+        ]
+      },
+      "rbi_mpr_2025_10": {
+        "hit": false,
+        "rr": 0,
+        "evidence": [
+          false
+        ],
+        "dense": true,
+        "bm25": true,
+        "union": true,
+        "fusion": true,
+        "selected_ids": [
+          "rbi_mpr_2025_10_p010_c002",
+          "rbi_mpr_2025_10_p066_c000",
+          "rbi_mpr_2025_10_p010_c001"
+        ],
+        "selected_pages": [
+          10,
+          66,
+          10
+        ]
+      },
+      "rbi_mpr_2026_04": {
+        "hit": false,
+        "rr": 0,
+        "evidence": [
+          false
+        ],
+        "dense": true,
+        "bm25": true,
+        "union": true,
+        "fusion": true,
+        "selected_ids": [
+          "rbi_mpr_2026_04_p102_c002",
+          "rbi_mpr_2026_04_p020_c000",
+          "rbi_mpr_2026_04_p103_c001"
+        ],
+        "selected_pages": [
+          102,
+          20,
+          103
+        ]
+      }
+    },
+    "report_coverage": 1.0,
+    "all_reports_hit": false,
+    "macro_mrr": 0.3333333333333333,
+    "evidence_recall": 0.3333333333333333,
+    "complete_evidence_recall": false,
+    "contamination": 0,
+    "selected_character_count": 8735,
+    "estimated_token_count": 2183
+  },
+  {
+    "question_id": "unsupported_dev_001",
+    "query_type": "unsupported_period",
+    "required_report_ids": [],
+    "original_query": "What did the April 2024 MPR project?",
+    "normalised_query": "What did the April 2024 MPR project?",
+    "expanded_queries": [],
+    "facet_queries": [],
+    "per_report": {},
+    "report_coverage": null,
+    "all_reports_hit": null,
+    "macro_mrr": null,
+    "evidence_recall": null,
+    "complete_evidence_recall": null,
+    "contamination": 0,
+    "selected_character_count": 0,
+    "estimated_token_count": 0
+  },
+  {
+    "question_id": "unsupported_dev_002",
+    "query_type": "unsupported_period",
+    "required_report_ids": [],
+    "original_query": "Compare October 2024 with April 2025.",
+    "normalised_query": "Compare October 2024 with April 2025.",
+    "expanded_queries": [],
+    "facet_queries": [],
+    "per_report": {},
+    "report_coverage": null,
+    "all_reports_hit": null,
+    "macro_mrr": null,
+    "evidence_recall": null,
+    "complete_evidence_recall": null,
+    "contamination": 0,
+    "selected_character_count": 0,
+    "estimated_token_count": 0
+  },
+  {
+    "question_id": "unsupported_dev_003",
+    "query_type": "unsupported_period",
+    "required_report_ids": [],
+    "original_query": "What was RBI's forecast in October 2026?",
+    "normalised_query": "What was RBI's forecast in October 2026?",
+    "expanded_queries": [],
+    "facet_queries": [],
+    "per_report": {},
+    "report_coverage": null,
+    "all_reports_hit": null,
+    "macro_mrr": null,
+    "evidence_recall": null,
+    "complete_evidence_recall": null,
+    "contamination": 0,
+    "selected_character_count": 0,
+    "estimated_token_count": 0
+  },
+  {
+    "question_id": "unsupported_dev_004",
+    "query_type": "unsupported_period",
+    "required_report_ids": [],
+    "original_query": "Did the April 2025 MPR report an April 2027 policy decision?",
+    "normalised_query": "Did the April 2025 MPR report an April 2027 policy decision?",
+    "expanded_queries": [],
+    "facet_queries": [],
+    "per_report": {},
+    "report_coverage": null,
+    "all_reports_hit": null,
+    "macro_mrr": null,
+    "evidence_recall": null,
+    "complete_evidence_recall": null,
+    "contamination": 0,
+    "selected_character_count": 0,
+    "estimated_token_count": 0
+  }
+]

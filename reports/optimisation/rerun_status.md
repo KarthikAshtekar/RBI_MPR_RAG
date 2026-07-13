@@ -1,0 +1,22 @@
+# Rerun Status
+
+- CP01: valid 
+- CP02: valid 
+- CP03: valid 
+- CP04: valid 
+- FR01: valid 
+- FR02: valid 
+- FR03: valid 
+- FR04: valid 
+- QUOTA_EXPANDED: valid 
+- QUOTA_LARGE: valid 
+- RRF_K10: valid 
+- RRF_K100: valid 
+- RRF_K30: valid 
+- RRF_K60: valid 
+- temporal_baseline: valid 
+- WRRF_D1.5_B1: valid 
+- WRRF_D1_B1: valid 
+- WRRF_D1_B1.5: valid 
+- WRRF_D1_B2: valid 
+- WRRF_D2_B1: valid 

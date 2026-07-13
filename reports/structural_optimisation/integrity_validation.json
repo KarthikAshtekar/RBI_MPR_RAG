@@ -1,0 +1,151 @@
+{
+  "checks": [
+    {
+      "experiment_id": "stage_a_selected_reference",
+      "integrity_status": "valid",
+      "issue_count": 0,
+      "issues": [],
+      "status": "completed",
+      "wall_runtime_seconds": 109.98878909996711
+    },
+    {
+      "experiment_id": "SEM00",
+      "integrity_status": "valid",
+      "issue_count": 0,
+      "issues": [],
+      "status": "completed",
+      "wall_runtime_seconds": 110.76980609999737
+    },
+    {
+      "experiment_id": "CPARENT01",
+      "integrity_status": "valid",
+      "issue_count": 0,
+      "issues": [],
+      "status": "completed",
+      "wall_runtime_seconds": 104.93473259999882
+    },
+    {
+      "experiment_id": "CPARENT02",
+      "integrity_status": "valid",
+      "issue_count": 0,
+      "issues": [],
+      "status": "completed",
+      "wall_runtime_seconds": 110.62284309999086
+    },
+    {
+      "experiment_id": "CPARENT03",
+      "integrity_status": "valid",
+      "issue_count": 0,
+      "issues": [],
+      "status": "completed",
+      "wall_runtime_seconds": 91.12292260001414
+    },
+    {
+      "experiment_id": "SW01",
+      "integrity_status": "valid",
+      "issue_count": 0,
+      "issues": [],
+      "status": "completed",
+      "wall_runtime_seconds": 83.27663829998346
+    },
+    {
+      "experiment_id": "SW02",
+      "integrity_status": "valid",
+      "issue_count": 0,
+      "issues": [],
+      "status": "completed",
+      "wall_runtime_seconds": 91.64726860000519
+    },
+    {
+      "experiment_id": "SW03",
+      "integrity_status": "valid",
+      "issue_count": 0,
+      "issues": [],
+      "status": "completed",
+      "wall_runtime_seconds": 107.6238302999991
+    },
+    {
+      "experiment_id": "ADJ00",
+      "integrity_status": "valid",
+      "issue_count": 0,
+      "issues": [],
+      "status": "completed",
+      "wall_runtime_seconds": 95.12458409997635
+    },
+    {
+      "experiment_id": "ADJ01",
+      "integrity_status": "valid",
+      "issue_count": 0,
+      "issues": [],
+      "status": "completed",
+      "wall_runtime_seconds": 93.97007930005202
+    },
+    {
+      "experiment_id": "ADJ02",
+      "integrity_status": "valid",
+      "issue_count": 0,
+      "issues": [],
+      "status": "completed",
+      "wall_runtime_seconds": 99.49515879998216
+    },
+    {
+      "experiment_id": "ADJ03",
+      "integrity_status": "valid",
+      "issue_count": 0,
+      "issues": [],
+      "status": "completed",
+      "wall_runtime_seconds": 95.67889069998637
+    },
+    {
+      "experiment_id": "PARSER00",
+      "integrity_status": "valid",
+      "issue_count": 0,
+      "issues": [],
+      "status": "completed",
+      "wall_runtime_seconds": 93.53967240004567
+    },
+    {
+      "experiment_id": "EMB00",
+      "integrity_status": "valid",
+      "issue_count": 0,
+      "issues": [],
+      "status": "completed",
+      "wall_runtime_seconds": 121.90219239995349
+    },
+    {
+      "experiment_id": "RERANK00",
+      "integrity_status": "valid",
+      "issue_count": 0,
+      "issues": [],
+      "status": "completed",
+      "wall_runtime_seconds": 117.4305280999979
+    },
+    {
+      "experiment_id": "STRUCT_CANDIDATE_1",
+      "integrity_status": "valid",
+      "issue_count": 0,
+      "issues": [],
+      "status": "completed",
+      "wall_runtime_seconds": 143.8626650000224
+    },
+    {
+      "experiment_id": "STRUCT_CANDIDATE_2",
+      "integrity_status": "valid",
+      "issue_count": 0,
+      "issues": [],
+      "status": "completed",
+      "wall_runtime_seconds": 161.26410819997545
+    },
+    {
+      "experiment_id": "STRUCT_CANDIDATE_3",
+      "integrity_status": "valid",
+      "issue_count": 0,
+      "issues": [],
+      "status": "completed",
+      "wall_runtime_seconds": 145.44122480001533
+    }
+  ],
+  "experiment_count": 18,
+  "invalid_count": 0,
+  "valid_count": 18
+}

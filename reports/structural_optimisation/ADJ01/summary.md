@@ -1,0 +1,36 @@
+# ADJ01
+
+```json
+{
+  "all_reports_hit": 0.3,
+  "case_count": 34,
+  "complete_evidence_recall": 0.3,
+  "configuration_checksum": "bf0a0eccacc580e9a1e1b5a3bfcf2c21bf0674f1c6a76110e93e74cfb231e234",
+  "contamination": 0.0,
+  "dataset_sha256": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
+  "description": "Add previous/next same-page chunk when a boundary condition holds.",
+  "evidence_recall": 0.45555555555555555,
+  "experiment_id": "ADJ01",
+  "family": "adjacent_expansion",
+  "finished_at": "2026-07-13T12:39:04.309611+00:00",
+  "index_fingerprint": "778f986612e97ec5f39b23ee81e35abb281cff7ae92268fa38861ce77b7dec01",
+  "loss_stage_counts": {
+    "evidence_found": 22,
+    "lost_by_deduplication": 19,
+    "lost_in_fusion": 7,
+    "not_in_candidate_union": 6
+  },
+  "macro_mrr": 0.3025925925925926,
+  "mean_estimated_tokens": 2465.5666666666666,
+  "mean_latency_ms": 3118.809226665568,
+  "mean_repeated_text_ratio": 0.0,
+  "mean_selected_characters": 9860.566666666668,
+  "mean_selected_chunks": 10.5,
+  "mean_unique_pages": 4.9,
+  "median_latency_ms": 3070.171599974856,
+  "p95_latency_ms": 5424.280999985058,
+  "report_coverage": 0.9,
+  "report_level_row_count": 54,
+  "started_at": "2026-07-13T12:37:30.618015+00:00"
+}
+```

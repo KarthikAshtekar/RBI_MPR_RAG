@@ -1,0 +1,12 @@
+id: RRF_K30
+dk: 50
+bk: 50
+retain: 30
+rrf: 30
+dw: 1
+bw: 1
+quota:
+- 4
+- 3
+- 2
+family: rrf_constant

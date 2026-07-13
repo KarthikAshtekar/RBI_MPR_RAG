@@ -1,0 +1,35 @@
+# RRF_K10
+
+```json
+{
+  "experiment_id": "RRF_K10",
+  "family": "rrf_constant",
+  "config": {
+    "id": "RRF_K10",
+    "dk": 50,
+    "bk": 50,
+    "retain": 30,
+    "rrf": 10,
+    "dw": 1,
+    "bw": 1,
+    "quota": [
+      4,
+      3,
+      2
+    ],
+    "family": "rrf_constant"
+  },
+  "case_count": 34,
+  "report_coverage": 1.0,
+  "all_reports_hit": 0.3333333333333333,
+  "macro_mrr": 0.3416666666666667,
+  "evidence_recall": 0.4444444444444445,
+  "complete_evidence_recall": 0.3,
+  "contamination": 0,
+  "mean_selected_characters": 5157.966666666666,
+  "mean_estimated_tokens": 1289.0333333333333,
+  "runtime_seconds": 0.024912199995014817,
+  "dataset_sha256": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
+  "index_fingerprint": "3241613a186f9a98fd5e0d6a61d1ea3f5bc9030c1f77dc2ffb05ce08fb7be861"
+}
+```
