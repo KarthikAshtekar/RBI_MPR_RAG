@@ -1,0 +1,17 @@
+{
+  "blockers": [],
+  "cohere_api_key_available": true,
+  "cohere_available": true,
+  "created_at_utc": "2026-07-13T23:32:58.757965+00:00",
+  "groq_api_key_available": true,
+  "installation_instructions": "python -m pip install -r requirements-v2.txt",
+  "optional_requirements_file": "requirements-v2.txt",
+  "project_dotenv_loaded": true,
+  "python_dotenv_available": true,
+  "schema_version": 1,
+  "unstructured_api_key_available": true,
+  "unstructured_available": true,
+  "unstructured_block_reason": "RuntimeError: Unstructured extraction failed for rbi_mpr_2025_04: OCRUnavailable: OCR fallback was skipped because tesseract is not installed or not on PATH.",
+  "unstructured_resources_available": false,
+  "unstructured_version": "0.24.1"
+}

@@ -1,0 +1,678 @@
+[
+  {
+    "missing_required_reports": [],
+    "numeric_evidence_present": true,
+    "query_type": "single_report",
+    "question_id": "oct_dev_001",
+    "report_coverage": 1.0,
+    "required_generation_behavior": "answer",
+    "required_report_ids": [
+      "rbi_mpr_2025_10"
+    ],
+    "retrieval_all_reports_hit": true,
+    "retrieval_complete_evidence_recall": true,
+    "retrieval_evidence_recall": 1.0,
+    "selected_chunk_count": 6,
+    "sufficiency_reasons": [],
+    "sufficiency_status": "sufficient",
+    "table_or_numeric_question": true
+  },
+  {
+    "missing_required_reports": [],
+    "numeric_evidence_present": true,
+    "query_type": "single_report",
+    "question_id": "oct_dev_002",
+    "report_coverage": 1.0,
+    "required_generation_behavior": "answer",
+    "required_report_ids": [
+      "rbi_mpr_2025_10"
+    ],
+    "retrieval_all_reports_hit": true,
+    "retrieval_complete_evidence_recall": true,
+    "retrieval_evidence_recall": 1.0,
+    "selected_chunk_count": 6,
+    "sufficiency_reasons": [],
+    "sufficiency_status": "sufficient",
+    "table_or_numeric_question": true
+  },
+  {
+    "missing_required_reports": [],
+    "numeric_evidence_present": true,
+    "query_type": "single_report",
+    "question_id": "oct_dev_003",
+    "report_coverage": 1.0,
+    "required_generation_behavior": "answer",
+    "required_report_ids": [
+      "rbi_mpr_2025_10"
+    ],
+    "retrieval_all_reports_hit": true,
+    "retrieval_complete_evidence_recall": true,
+    "retrieval_evidence_recall": 1.0,
+    "selected_chunk_count": 6,
+    "sufficiency_reasons": [],
+    "sufficiency_status": "sufficient",
+    "table_or_numeric_question": true
+  },
+  {
+    "missing_required_reports": [],
+    "numeric_evidence_present": true,
+    "query_type": "single_report",
+    "question_id": "oct_dev_004",
+    "report_coverage": 1.0,
+    "required_generation_behavior": "answer",
+    "required_report_ids": [
+      "rbi_mpr_2025_10"
+    ],
+    "retrieval_all_reports_hit": true,
+    "retrieval_complete_evidence_recall": true,
+    "retrieval_evidence_recall": 1.0,
+    "selected_chunk_count": 6,
+    "sufficiency_reasons": [],
+    "sufficiency_status": "sufficient",
+    "table_or_numeric_question": true
+  },
+  {
+    "missing_required_reports": [],
+    "numeric_evidence_present": true,
+    "query_type": "single_report",
+    "question_id": "oct_dev_005",
+    "report_coverage": 1.0,
+    "required_generation_behavior": "answer",
+    "required_report_ids": [
+      "rbi_mpr_2025_10"
+    ],
+    "retrieval_all_reports_hit": true,
+    "retrieval_complete_evidence_recall": true,
+    "retrieval_evidence_recall": 1.0,
+    "selected_chunk_count": 6,
+    "sufficiency_reasons": [],
+    "sufficiency_status": "sufficient",
+    "table_or_numeric_question": true
+  },
+  {
+    "missing_required_reports": [],
+    "numeric_evidence_present": true,
+    "query_type": "single_report",
+    "question_id": "oct_dev_006",
+    "report_coverage": 1.0,
+    "required_generation_behavior": "answer",
+    "required_report_ids": [
+      "rbi_mpr_2025_10"
+    ],
+    "retrieval_all_reports_hit": true,
+    "retrieval_complete_evidence_recall": true,
+    "retrieval_evidence_recall": 1.0,
+    "selected_chunk_count": 6,
+    "sufficiency_reasons": [],
+    "sufficiency_status": "sufficient",
+    "table_or_numeric_question": false
+  },
+  {
+    "missing_required_reports": [],
+    "numeric_evidence_present": true,
+    "query_type": "single_report",
+    "question_id": "apr26_dev_001",
+    "report_coverage": 1.0,
+    "required_generation_behavior": "answer",
+    "required_report_ids": [
+      "rbi_mpr_2026_04"
+    ],
+    "retrieval_all_reports_hit": true,
+    "retrieval_complete_evidence_recall": true,
+    "retrieval_evidence_recall": 1.0,
+    "selected_chunk_count": 6,
+    "sufficiency_reasons": [],
+    "sufficiency_status": "sufficient",
+    "table_or_numeric_question": false
+  },
+  {
+    "missing_required_reports": [],
+    "numeric_evidence_present": true,
+    "query_type": "single_report",
+    "question_id": "apr26_dev_002",
+    "report_coverage": 1.0,
+    "required_generation_behavior": "answer",
+    "required_report_ids": [
+      "rbi_mpr_2026_04"
+    ],
+    "retrieval_all_reports_hit": true,
+    "retrieval_complete_evidence_recall": true,
+    "retrieval_evidence_recall": 1.0,
+    "selected_chunk_count": 6,
+    "sufficiency_reasons": [],
+    "sufficiency_status": "sufficient",
+    "table_or_numeric_question": true
+  },
+  {
+    "missing_required_reports": [],
+    "numeric_evidence_present": true,
+    "query_type": "single_report",
+    "question_id": "apr26_dev_003",
+    "report_coverage": 1.0,
+    "required_generation_behavior": "answer_with_caveat",
+    "required_report_ids": [
+      "rbi_mpr_2026_04"
+    ],
+    "retrieval_all_reports_hit": false,
+    "retrieval_complete_evidence_recall": false,
+    "retrieval_evidence_recall": 0.0,
+    "selected_chunk_count": 6,
+    "sufficiency_reasons": [
+      "incomplete_evidence",
+      "low_evidence_recall"
+    ],
+    "sufficiency_status": "partially_sufficient",
+    "table_or_numeric_question": true
+  },
+  {
+    "missing_required_reports": [],
+    "numeric_evidence_present": true,
+    "query_type": "single_report",
+    "question_id": "apr26_dev_004",
+    "report_coverage": 1.0,
+    "required_generation_behavior": "answer_with_caveat",
+    "required_report_ids": [
+      "rbi_mpr_2026_04"
+    ],
+    "retrieval_all_reports_hit": false,
+    "retrieval_complete_evidence_recall": false,
+    "retrieval_evidence_recall": 0.0,
+    "selected_chunk_count": 6,
+    "sufficiency_reasons": [
+      "incomplete_evidence",
+      "low_evidence_recall"
+    ],
+    "sufficiency_status": "partially_sufficient",
+    "table_or_numeric_question": true
+  },
+  {
+    "missing_required_reports": [],
+    "numeric_evidence_present": true,
+    "query_type": "single_report",
+    "question_id": "apr26_dev_005",
+    "report_coverage": 1.0,
+    "required_generation_behavior": "answer",
+    "required_report_ids": [
+      "rbi_mpr_2026_04"
+    ],
+    "retrieval_all_reports_hit": true,
+    "retrieval_complete_evidence_recall": true,
+    "retrieval_evidence_recall": 1.0,
+    "selected_chunk_count": 6,
+    "sufficiency_reasons": [],
+    "sufficiency_status": "sufficient",
+    "table_or_numeric_question": true
+  },
+  {
+    "missing_required_reports": [],
+    "numeric_evidence_present": true,
+    "query_type": "single_report",
+    "question_id": "apr26_dev_006",
+    "report_coverage": 1.0,
+    "required_generation_behavior": "answer",
+    "required_report_ids": [
+      "rbi_mpr_2026_04"
+    ],
+    "retrieval_all_reports_hit": true,
+    "retrieval_complete_evidence_recall": true,
+    "retrieval_evidence_recall": 1.0,
+    "selected_chunk_count": 6,
+    "sufficiency_reasons": [],
+    "sufficiency_status": "sufficient",
+    "table_or_numeric_question": false
+  },
+  {
+    "missing_required_reports": [],
+    "numeric_evidence_present": true,
+    "query_type": "pairwise_comparison",
+    "question_id": "cmp_dev_001",
+    "report_coverage": 1.0,
+    "required_generation_behavior": "answer",
+    "required_report_ids": [
+      "rbi_mpr_2025_04",
+      "rbi_mpr_2025_10"
+    ],
+    "retrieval_all_reports_hit": true,
+    "retrieval_complete_evidence_recall": true,
+    "retrieval_evidence_recall": 1.0,
+    "selected_chunk_count": 10,
+    "sufficiency_reasons": [],
+    "sufficiency_status": "sufficient",
+    "table_or_numeric_question": true
+  },
+  {
+    "missing_required_reports": [],
+    "numeric_evidence_present": true,
+    "query_type": "pairwise_comparison",
+    "question_id": "cmp_dev_002",
+    "report_coverage": 1.0,
+    "required_generation_behavior": "answer_with_caveat",
+    "required_report_ids": [
+      "rbi_mpr_2025_04",
+      "rbi_mpr_2025_10"
+    ],
+    "retrieval_all_reports_hit": true,
+    "retrieval_complete_evidence_recall": false,
+    "retrieval_evidence_recall": 0.5,
+    "selected_chunk_count": 10,
+    "sufficiency_reasons": [
+      "incomplete_evidence"
+    ],
+    "sufficiency_status": "partially_sufficient",
+    "table_or_numeric_question": true
+  },
+  {
+    "missing_required_reports": [],
+    "numeric_evidence_present": true,
+    "query_type": "pairwise_comparison",
+    "question_id": "cmp_dev_003",
+    "report_coverage": 1.0,
+    "required_generation_behavior": "answer",
+    "required_report_ids": [
+      "rbi_mpr_2025_04",
+      "rbi_mpr_2025_10"
+    ],
+    "retrieval_all_reports_hit": true,
+    "retrieval_complete_evidence_recall": true,
+    "retrieval_evidence_recall": 1.0,
+    "selected_chunk_count": 10,
+    "sufficiency_reasons": [],
+    "sufficiency_status": "sufficient",
+    "table_or_numeric_question": true
+  },
+  {
+    "missing_required_reports": [],
+    "numeric_evidence_present": true,
+    "query_type": "pairwise_comparison",
+    "question_id": "cmp_dev_004",
+    "report_coverage": 1.0,
+    "required_generation_behavior": "answer_with_caveat",
+    "required_report_ids": [
+      "rbi_mpr_2025_04",
+      "rbi_mpr_2025_10"
+    ],
+    "retrieval_all_reports_hit": false,
+    "retrieval_complete_evidence_recall": false,
+    "retrieval_evidence_recall": 0.5,
+    "selected_chunk_count": 10,
+    "sufficiency_reasons": [
+      "incomplete_evidence"
+    ],
+    "sufficiency_status": "partially_sufficient",
+    "table_or_numeric_question": true
+  },
+  {
+    "missing_required_reports": [],
+    "numeric_evidence_present": true,
+    "query_type": "pairwise_comparison",
+    "question_id": "cmp_dev_005",
+    "report_coverage": 1.0,
+    "required_generation_behavior": "answer_with_caveat",
+    "required_report_ids": [
+      "rbi_mpr_2025_10",
+      "rbi_mpr_2026_04"
+    ],
+    "retrieval_all_reports_hit": false,
+    "retrieval_complete_evidence_recall": false,
+    "retrieval_evidence_recall": 0.5,
+    "selected_chunk_count": 10,
+    "sufficiency_reasons": [
+      "incomplete_evidence"
+    ],
+    "sufficiency_status": "partially_sufficient",
+    "table_or_numeric_question": true
+  },
+  {
+    "missing_required_reports": [],
+    "numeric_evidence_present": true,
+    "query_type": "pairwise_comparison",
+    "question_id": "cmp_dev_006",
+    "report_coverage": 1.0,
+    "required_generation_behavior": "answer_with_caveat",
+    "required_report_ids": [
+      "rbi_mpr_2025_10",
+      "rbi_mpr_2026_04"
+    ],
+    "retrieval_all_reports_hit": false,
+    "retrieval_complete_evidence_recall": false,
+    "retrieval_evidence_recall": 0.0,
+    "selected_chunk_count": 10,
+    "sufficiency_reasons": [
+      "incomplete_evidence",
+      "low_evidence_recall"
+    ],
+    "sufficiency_status": "partially_sufficient",
+    "table_or_numeric_question": true
+  },
+  {
+    "missing_required_reports": [],
+    "numeric_evidence_present": true,
+    "query_type": "pairwise_comparison",
+    "question_id": "cmp_dev_007",
+    "report_coverage": 1.0,
+    "required_generation_behavior": "answer_with_caveat",
+    "required_report_ids": [
+      "rbi_mpr_2025_10",
+      "rbi_mpr_2026_04"
+    ],
+    "retrieval_all_reports_hit": false,
+    "retrieval_complete_evidence_recall": false,
+    "retrieval_evidence_recall": 0.5,
+    "selected_chunk_count": 10,
+    "sufficiency_reasons": [
+      "incomplete_evidence"
+    ],
+    "sufficiency_status": "partially_sufficient",
+    "table_or_numeric_question": true
+  },
+  {
+    "missing_required_reports": [],
+    "numeric_evidence_present": true,
+    "query_type": "pairwise_comparison",
+    "question_id": "cmp_dev_008",
+    "report_coverage": 1.0,
+    "required_generation_behavior": "answer",
+    "required_report_ids": [
+      "rbi_mpr_2025_10",
+      "rbi_mpr_2026_04"
+    ],
+    "retrieval_all_reports_hit": true,
+    "retrieval_complete_evidence_recall": true,
+    "retrieval_evidence_recall": 1.0,
+    "selected_chunk_count": 10,
+    "sufficiency_reasons": [],
+    "sufficiency_status": "sufficient",
+    "table_or_numeric_question": false
+  },
+  {
+    "missing_required_reports": [],
+    "numeric_evidence_present": true,
+    "query_type": "pairwise_comparison",
+    "question_id": "cmp_dev_009",
+    "report_coverage": 1.0,
+    "required_generation_behavior": "answer_with_caveat",
+    "required_report_ids": [
+      "rbi_mpr_2025_04",
+      "rbi_mpr_2026_04"
+    ],
+    "retrieval_all_reports_hit": false,
+    "retrieval_complete_evidence_recall": false,
+    "retrieval_evidence_recall": 0.0,
+    "selected_chunk_count": 10,
+    "sufficiency_reasons": [
+      "incomplete_evidence",
+      "low_evidence_recall"
+    ],
+    "sufficiency_status": "partially_sufficient",
+    "table_or_numeric_question": true
+  },
+  {
+    "missing_required_reports": [],
+    "numeric_evidence_present": true,
+    "query_type": "pairwise_comparison",
+    "question_id": "cmp_dev_010",
+    "report_coverage": 1.0,
+    "required_generation_behavior": "answer_with_caveat",
+    "required_report_ids": [
+      "rbi_mpr_2025_04",
+      "rbi_mpr_2026_04"
+    ],
+    "retrieval_all_reports_hit": false,
+    "retrieval_complete_evidence_recall": false,
+    "retrieval_evidence_recall": 0.0,
+    "selected_chunk_count": 10,
+    "sufficiency_reasons": [
+      "incomplete_evidence",
+      "low_evidence_recall"
+    ],
+    "sufficiency_status": "partially_sufficient",
+    "table_or_numeric_question": true
+  },
+  {
+    "missing_required_reports": [],
+    "numeric_evidence_present": true,
+    "query_type": "pairwise_comparison",
+    "question_id": "cmp_dev_011",
+    "report_coverage": 1.0,
+    "required_generation_behavior": "answer_with_caveat",
+    "required_report_ids": [
+      "rbi_mpr_2025_04",
+      "rbi_mpr_2026_04"
+    ],
+    "retrieval_all_reports_hit": false,
+    "retrieval_complete_evidence_recall": false,
+    "retrieval_evidence_recall": 0.5,
+    "selected_chunk_count": 10,
+    "sufficiency_reasons": [
+      "incomplete_evidence"
+    ],
+    "sufficiency_status": "partially_sufficient",
+    "table_or_numeric_question": true
+  },
+  {
+    "missing_required_reports": [],
+    "numeric_evidence_present": true,
+    "query_type": "pairwise_comparison",
+    "question_id": "cmp_dev_012",
+    "report_coverage": 1.0,
+    "required_generation_behavior": "answer",
+    "required_report_ids": [
+      "rbi_mpr_2025_04",
+      "rbi_mpr_2026_04"
+    ],
+    "retrieval_all_reports_hit": true,
+    "retrieval_complete_evidence_recall": true,
+    "retrieval_evidence_recall": 1.0,
+    "selected_chunk_count": 10,
+    "sufficiency_reasons": [],
+    "sufficiency_status": "sufficient",
+    "table_or_numeric_question": false
+  },
+  {
+    "missing_required_reports": [],
+    "numeric_evidence_present": true,
+    "query_type": "trend_all_reports",
+    "question_id": "trend_dev_001",
+    "report_coverage": 1.0,
+    "required_generation_behavior": "answer_with_caveat",
+    "required_report_ids": [
+      "rbi_mpr_2025_04",
+      "rbi_mpr_2025_10",
+      "rbi_mpr_2026_04"
+    ],
+    "retrieval_all_reports_hit": false,
+    "retrieval_complete_evidence_recall": false,
+    "retrieval_evidence_recall": 0.3333333333333333,
+    "selected_chunk_count": 12,
+    "sufficiency_reasons": [
+      "incomplete_evidence",
+      "low_evidence_recall"
+    ],
+    "sufficiency_status": "partially_sufficient",
+    "table_or_numeric_question": true
+  },
+  {
+    "missing_required_reports": [],
+    "numeric_evidence_present": true,
+    "query_type": "trend_all_reports",
+    "question_id": "trend_dev_002",
+    "report_coverage": 1.0,
+    "required_generation_behavior": "answer_with_caveat",
+    "required_report_ids": [
+      "rbi_mpr_2025_04",
+      "rbi_mpr_2025_10",
+      "rbi_mpr_2026_04"
+    ],
+    "retrieval_all_reports_hit": false,
+    "retrieval_complete_evidence_recall": false,
+    "retrieval_evidence_recall": 0.0,
+    "selected_chunk_count": 12,
+    "sufficiency_reasons": [
+      "incomplete_evidence",
+      "low_evidence_recall"
+    ],
+    "sufficiency_status": "partially_sufficient",
+    "table_or_numeric_question": true
+  },
+  {
+    "missing_required_reports": [],
+    "numeric_evidence_present": true,
+    "query_type": "trend_all_reports",
+    "question_id": "trend_dev_003",
+    "report_coverage": 1.0,
+    "required_generation_behavior": "answer_with_caveat",
+    "required_report_ids": [
+      "rbi_mpr_2025_04",
+      "rbi_mpr_2025_10",
+      "rbi_mpr_2026_04"
+    ],
+    "retrieval_all_reports_hit": false,
+    "retrieval_complete_evidence_recall": false,
+    "retrieval_evidence_recall": 0.6666666666666666,
+    "selected_chunk_count": 12,
+    "sufficiency_reasons": [
+      "incomplete_evidence"
+    ],
+    "sufficiency_status": "partially_sufficient",
+    "table_or_numeric_question": true
+  },
+  {
+    "missing_required_reports": [],
+    "numeric_evidence_present": true,
+    "query_type": "trend_all_reports",
+    "question_id": "trend_dev_004",
+    "report_coverage": 1.0,
+    "required_generation_behavior": "answer_with_caveat",
+    "required_report_ids": [
+      "rbi_mpr_2025_04",
+      "rbi_mpr_2025_10",
+      "rbi_mpr_2026_04"
+    ],
+    "retrieval_all_reports_hit": false,
+    "retrieval_complete_evidence_recall": false,
+    "retrieval_evidence_recall": 0.0,
+    "selected_chunk_count": 12,
+    "sufficiency_reasons": [
+      "incomplete_evidence",
+      "low_evidence_recall"
+    ],
+    "sufficiency_status": "partially_sufficient",
+    "table_or_numeric_question": true
+  },
+  {
+    "missing_required_reports": [],
+    "numeric_evidence_present": true,
+    "query_type": "trend_all_reports",
+    "question_id": "trend_dev_005",
+    "report_coverage": 1.0,
+    "required_generation_behavior": "answer",
+    "required_report_ids": [
+      "rbi_mpr_2025_04",
+      "rbi_mpr_2025_10",
+      "rbi_mpr_2026_04"
+    ],
+    "retrieval_all_reports_hit": true,
+    "retrieval_complete_evidence_recall": true,
+    "retrieval_evidence_recall": 1.0,
+    "selected_chunk_count": 12,
+    "sufficiency_reasons": [],
+    "sufficiency_status": "sufficient",
+    "table_or_numeric_question": false
+  },
+  {
+    "missing_required_reports": [],
+    "numeric_evidence_present": true,
+    "query_type": "trend_all_reports",
+    "question_id": "trend_dev_006",
+    "report_coverage": 1.0,
+    "required_generation_behavior": "answer",
+    "required_report_ids": [
+      "rbi_mpr_2025_04",
+      "rbi_mpr_2025_10",
+      "rbi_mpr_2026_04"
+    ],
+    "retrieval_all_reports_hit": true,
+    "retrieval_complete_evidence_recall": true,
+    "retrieval_evidence_recall": 1.0,
+    "selected_chunk_count": 12,
+    "sufficiency_reasons": [],
+    "sufficiency_status": "sufficient",
+    "table_or_numeric_question": true
+  },
+  {
+    "missing_required_reports": [],
+    "numeric_evidence_present": false,
+    "query_type": "unsupported_period",
+    "question_id": "unsupported_dev_001",
+    "report_coverage": null,
+    "required_generation_behavior": "abstain",
+    "required_report_ids": [],
+    "retrieval_all_reports_hit": null,
+    "retrieval_complete_evidence_recall": null,
+    "retrieval_evidence_recall": null,
+    "selected_chunk_count": 0,
+    "sufficiency_reasons": [
+      "context_empty",
+      "unsupported_period"
+    ],
+    "sufficiency_status": "insufficient",
+    "table_or_numeric_question": false
+  },
+  {
+    "missing_required_reports": [],
+    "numeric_evidence_present": false,
+    "query_type": "unsupported_period",
+    "question_id": "unsupported_dev_002",
+    "report_coverage": null,
+    "required_generation_behavior": "abstain",
+    "required_report_ids": [],
+    "retrieval_all_reports_hit": null,
+    "retrieval_complete_evidence_recall": null,
+    "retrieval_evidence_recall": null,
+    "selected_chunk_count": 0,
+    "sufficiency_reasons": [
+      "context_empty",
+      "unsupported_period"
+    ],
+    "sufficiency_status": "insufficient",
+    "table_or_numeric_question": false
+  },
+  {
+    "missing_required_reports": [],
+    "numeric_evidence_present": false,
+    "query_type": "unsupported_period",
+    "question_id": "unsupported_dev_003",
+    "report_coverage": null,
+    "required_generation_behavior": "abstain",
+    "required_report_ids": [],
+    "retrieval_all_reports_hit": null,
+    "retrieval_complete_evidence_recall": null,
+    "retrieval_evidence_recall": null,
+    "selected_chunk_count": 0,
+    "sufficiency_reasons": [
+      "context_empty",
+      "unsupported_period"
+    ],
+    "sufficiency_status": "insufficient",
+    "table_or_numeric_question": true
+  },
+  {
+    "missing_required_reports": [],
+    "numeric_evidence_present": false,
+    "query_type": "unsupported_period",
+    "question_id": "unsupported_dev_004",
+    "report_coverage": null,
+    "required_generation_behavior": "abstain",
+    "required_report_ids": [],
+    "retrieval_all_reports_hit": null,
+    "retrieval_complete_evidence_recall": null,
+    "retrieval_evidence_recall": null,
+    "selected_chunk_count": 0,
+    "sufficiency_reasons": [
+      "context_empty",
+      "unsupported_period"
+    ],
+    "sufficiency_status": "insufficient",
+    "table_or_numeric_question": false
+  }
+]

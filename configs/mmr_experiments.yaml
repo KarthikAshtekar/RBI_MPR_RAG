@@ -1,0 +1,36 @@
+description: True Maximal Marginal Relevance experiments over saved V2_COHERE_ONLY
+  development reranker outputs.
+source_experiment: V2_COHERE_ONLY
+source_raw_results: reports\v2_unstructured_cohere\experiments\V2_COHERE_ONLY\raw_results.json
+embedding_model: sentence-transformers/all-MiniLM-L6-v2
+retrieval_skeleton:
+  parser: PyPDFLoader
+  dense_candidates_per_report: 50
+  bm25_candidates_per_report: 50
+  rrf_retained_per_report: 30
+  reranker: Cohere rerank-v3.5
+  reranker_input_per_report: 30
+  rrf_k: 60
+  single_report_quota: 6
+  pairwise_quota_per_report: 5
+  trend_quota_per_report: 4
+  adjacent_expansion: none
+experiments:
+  MMR_BASELINE_V2_COHERE:
+    mmr_enabled: false
+    mmr_lambda: null
+  MMR_LAMBDA_06:
+    mmr_enabled: true
+    mmr_lambda: 0.6
+  MMR_LAMBDA_07:
+    mmr_enabled: true
+    mmr_lambda: 0.7
+  MMR_LAMBDA_08:
+    mmr_enabled: true
+    mmr_lambda: 0.8
+evaluation:
+  split: dev
+  heldout_loaded: false
+  generation_run: false
+  bootstrap_resamples: 2000
+  seed: 42

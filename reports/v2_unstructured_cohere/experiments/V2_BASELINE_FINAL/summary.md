@@ -1,0 +1,37 @@
+# V2_BASELINE_FINAL
+
+Integrity: valid
+
+```json
+{
+  "all_reports_hit": 0.4,
+  "case_count": 34,
+  "complete_evidence_recall": 0.36666666666666664,
+  "configuration_checksum": "aa1f42863a19676e41bf06a8752477cb35851d20845dbc27267da24a0f2e2003",
+  "created_at_utc": "2026-07-13T20:27:09.950975+00:00",
+  "evidence_recall": 0.5055555555555555,
+  "experiment_id": "V2_BASELINE_FINAL",
+  "loss_stage_counts": {
+    "evidence_found": 28,
+    "lost_by_quota": 13,
+    "lost_in_fusion": 7,
+    "not_in_candidate_union": 6
+  },
+  "macro_report_mrr": 0.3537037037037037,
+  "mean_estimated_tokens": 2150.9333333333334,
+  "mean_latency_ms": 3156.8762200108417,
+  "mean_repeated_text_ratio": 0.0,
+  "mean_selected_chunks": 9.0,
+  "mean_unique_pages": 7.633333333333334,
+  "median_latency_ms": 2947.2414500196464,
+  "p95_latency_ms": 6063.70609998703,
+  "parser_name": "PyPDFLoader",
+  "parser_provider": "pypdfloader",
+  "report_coverage": 1.0,
+  "reranker_model": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+  "reranker_provider": "local_cross_encoder",
+  "schema_version": 1,
+  "scored_case_count": 30,
+  "single_report_contamination": 0.0
+}
+```

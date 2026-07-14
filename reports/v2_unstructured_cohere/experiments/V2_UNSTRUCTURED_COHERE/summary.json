@@ -1,0 +1,7 @@
+{
+  "created_at_utc": "2026-07-13T23:33:01.486244+00:00",
+  "experiment_id": "V2_UNSTRUCTURED_COHERE",
+  "integrity_status": "skipped",
+  "reason": "RuntimeError: Unstructured extraction failed for rbi_mpr_2025_04: OCRUnavailable: OCR fallback was skipped because tesseract is not installed or not on PATH.",
+  "status": "skipped"
+}

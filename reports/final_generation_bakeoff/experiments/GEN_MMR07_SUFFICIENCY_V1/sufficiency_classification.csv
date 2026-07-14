@@ -1,0 +1,35 @@
+missing_required_reports,numeric_evidence_present,query_type,question_id,report_coverage,required_generation_behavior,required_report_ids,retrieval_all_reports_hit,retrieval_complete_evidence_recall,retrieval_evidence_recall,selected_chunk_count,sufficiency_reasons,sufficiency_status,table_or_numeric_question
+[],True,single_report,oct_dev_001,1.0,answer,"[""rbi_mpr_2025_10""]",True,True,1.0,6,[],sufficient,True
+[],True,single_report,oct_dev_002,1.0,answer,"[""rbi_mpr_2025_10""]",True,True,1.0,6,[],sufficient,True
+[],True,single_report,oct_dev_003,1.0,answer,"[""rbi_mpr_2025_10""]",True,True,1.0,6,[],sufficient,True
+[],True,single_report,oct_dev_004,1.0,answer,"[""rbi_mpr_2025_10""]",True,True,1.0,6,[],sufficient,True
+[],True,single_report,oct_dev_005,1.0,answer,"[""rbi_mpr_2025_10""]",True,True,1.0,6,[],sufficient,True
+[],True,single_report,oct_dev_006,1.0,answer,"[""rbi_mpr_2025_10""]",True,True,1.0,6,[],sufficient,False
+[],True,single_report,apr26_dev_001,1.0,answer,"[""rbi_mpr_2026_04""]",True,True,1.0,6,[],sufficient,False
+[],True,single_report,apr26_dev_002,1.0,answer,"[""rbi_mpr_2026_04""]",True,True,1.0,6,[],sufficient,True
+[],True,single_report,apr26_dev_003,1.0,answer_with_caveat,"[""rbi_mpr_2026_04""]",False,False,0.0,6,"[""incomplete_evidence"", ""low_evidence_recall""]",partially_sufficient,True
+[],True,single_report,apr26_dev_004,1.0,answer_with_caveat,"[""rbi_mpr_2026_04""]",False,False,0.0,6,"[""incomplete_evidence"", ""low_evidence_recall""]",partially_sufficient,True
+[],True,single_report,apr26_dev_005,1.0,answer,"[""rbi_mpr_2026_04""]",True,True,1.0,6,[],sufficient,True
+[],True,single_report,apr26_dev_006,1.0,answer,"[""rbi_mpr_2026_04""]",True,True,1.0,6,[],sufficient,False
+[],True,pairwise_comparison,cmp_dev_001,1.0,answer,"[""rbi_mpr_2025_04"", ""rbi_mpr_2025_10""]",True,True,1.0,10,[],sufficient,True
+[],True,pairwise_comparison,cmp_dev_002,1.0,answer_with_caveat,"[""rbi_mpr_2025_04"", ""rbi_mpr_2025_10""]",True,False,0.5,10,"[""incomplete_evidence""]",partially_sufficient,True
+[],True,pairwise_comparison,cmp_dev_003,1.0,answer,"[""rbi_mpr_2025_04"", ""rbi_mpr_2025_10""]",True,True,1.0,10,[],sufficient,True
+[],True,pairwise_comparison,cmp_dev_004,1.0,answer_with_caveat,"[""rbi_mpr_2025_04"", ""rbi_mpr_2025_10""]",False,False,0.5,10,"[""incomplete_evidence""]",partially_sufficient,True
+[],True,pairwise_comparison,cmp_dev_005,1.0,answer_with_caveat,"[""rbi_mpr_2025_10"", ""rbi_mpr_2026_04""]",False,False,0.5,10,"[""incomplete_evidence""]",partially_sufficient,True
+[],True,pairwise_comparison,cmp_dev_006,1.0,answer_with_caveat,"[""rbi_mpr_2025_10"", ""rbi_mpr_2026_04""]",False,False,0.0,10,"[""incomplete_evidence"", ""low_evidence_recall""]",partially_sufficient,True
+[],True,pairwise_comparison,cmp_dev_007,1.0,answer_with_caveat,"[""rbi_mpr_2025_10"", ""rbi_mpr_2026_04""]",False,False,0.5,10,"[""incomplete_evidence""]",partially_sufficient,True
+[],True,pairwise_comparison,cmp_dev_008,1.0,answer,"[""rbi_mpr_2025_10"", ""rbi_mpr_2026_04""]",True,True,1.0,10,[],sufficient,False
+[],True,pairwise_comparison,cmp_dev_009,1.0,answer_with_caveat,"[""rbi_mpr_2025_04"", ""rbi_mpr_2026_04""]",False,False,0.0,10,"[""incomplete_evidence"", ""low_evidence_recall""]",partially_sufficient,True
+[],True,pairwise_comparison,cmp_dev_010,1.0,answer_with_caveat,"[""rbi_mpr_2025_04"", ""rbi_mpr_2026_04""]",False,False,0.0,10,"[""incomplete_evidence"", ""low_evidence_recall""]",partially_sufficient,True
+[],True,pairwise_comparison,cmp_dev_011,1.0,answer_with_caveat,"[""rbi_mpr_2025_04"", ""rbi_mpr_2026_04""]",False,False,0.5,10,"[""incomplete_evidence""]",partially_sufficient,True
+[],True,pairwise_comparison,cmp_dev_012,1.0,answer_with_caveat,"[""rbi_mpr_2025_04"", ""rbi_mpr_2026_04""]",False,False,0.5,10,"[""incomplete_evidence""]",partially_sufficient,False
+[],True,trend_all_reports,trend_dev_001,1.0,answer_with_caveat,"[""rbi_mpr_2025_04"", ""rbi_mpr_2025_10"", ""rbi_mpr_2026_04""]",False,False,0.3333333333333333,12,"[""incomplete_evidence"", ""low_evidence_recall""]",partially_sufficient,True
+[],True,trend_all_reports,trend_dev_002,1.0,answer_with_caveat,"[""rbi_mpr_2025_04"", ""rbi_mpr_2025_10"", ""rbi_mpr_2026_04""]",False,False,0.0,12,"[""incomplete_evidence"", ""low_evidence_recall""]",partially_sufficient,True
+[],True,trend_all_reports,trend_dev_003,1.0,answer_with_caveat,"[""rbi_mpr_2025_04"", ""rbi_mpr_2025_10"", ""rbi_mpr_2026_04""]",False,False,0.6666666666666666,12,"[""incomplete_evidence""]",partially_sufficient,True
+[],True,trend_all_reports,trend_dev_004,1.0,answer_with_caveat,"[""rbi_mpr_2025_04"", ""rbi_mpr_2025_10"", ""rbi_mpr_2026_04""]",False,False,0.0,12,"[""incomplete_evidence"", ""low_evidence_recall""]",partially_sufficient,True
+[],True,trend_all_reports,trend_dev_005,1.0,answer,"[""rbi_mpr_2025_04"", ""rbi_mpr_2025_10"", ""rbi_mpr_2026_04""]",True,True,1.0,12,[],sufficient,False
+[],True,trend_all_reports,trend_dev_006,1.0,answer,"[""rbi_mpr_2025_04"", ""rbi_mpr_2025_10"", ""rbi_mpr_2026_04""]",True,True,1.0,12,[],sufficient,True
+[],False,unsupported_period,unsupported_dev_001,,abstain,[],,,,0,"[""context_empty"", ""unsupported_period""]",insufficient,False
+[],False,unsupported_period,unsupported_dev_002,,abstain,[],,,,0,"[""context_empty"", ""unsupported_period""]",insufficient,False
+[],False,unsupported_period,unsupported_dev_003,,abstain,[],,,,0,"[""context_empty"", ""unsupported_period""]",insufficient,True
+[],False,unsupported_period,unsupported_dev_004,,abstain,[],,,,0,"[""context_empty"", ""unsupported_period""]",insufficient,False

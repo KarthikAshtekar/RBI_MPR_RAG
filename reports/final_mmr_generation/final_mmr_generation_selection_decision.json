@@ -1,0 +1,15 @@
+{
+  "best_end_to_end_generation_setting": "GEN_MMR06_SUFFICIENCY_V1",
+  "best_generation_method": "GEN_MMR06_SUFFICIENCY_V1",
+  "best_retrieval_method": "MMR_LAMBDA_06",
+  "created_at_utc": "2026-07-14T06:42:18.756926+00:00",
+  "deltas": {
+    "abstention_correctness": 0.0,
+    "citation_correctness": 0.0,
+    "factual_correctness": 0.019887469464537233,
+    "temporal_attribution_correctness": 0.0
+  },
+  "reason": "MMR generation improved at least one key generation metric without reducing factual, citation, or abstention correctness.",
+  "schema_version": 1,
+  "status": "selected_mmr_end_to_end"
+}

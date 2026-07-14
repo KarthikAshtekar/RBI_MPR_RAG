@@ -1,0 +1,24 @@
+{
+  "completed_or_reused_variants": [
+    "GEN_V2_COHERE_SUFFICIENCY_V1",
+    "GEN_MMR06_SUFFICIENCY_V1",
+    "GEN_MMR07_SUFFICIENCY_V1",
+    "GEN_MMR06_CITATION_REPAIR_V1"
+  ],
+  "created_at_utc": "2026-07-14T07:45:30.312626+00:00",
+  "fresh_eval_created": false,
+  "heldout_used": false,
+  "live_variant_limit_requested": 4,
+  "live_variants_completed": [
+    "GEN_MMR07_SUFFICIENCY_V1"
+  ],
+  "schema_version": 1,
+  "skipped_variants": {
+    "GEN_MMR06_CHRONO_ORDER_V1": "skipped_after_mmr07_to_keep_final_bakeoff_within_bounded_generation_time_and_cost",
+    "GEN_MMR06_COMPARATIVE_STRICT_PROMPT_V1": "skipped_after_mmr07_to_keep_final_bakeoff_within_bounded_generation_time_and_cost",
+    "GEN_MMR06_EVIDENCE_FIRST_PROMPT_V1": "skipped_after_mmr07_to_keep_final_bakeoff_within_bounded_generation_time_and_cost",
+    "GEN_MMR06_RERANK_ORDER_V1": "skipped_after_mmr07_to_keep_final_bakeoff_within_bounded_generation_time_and_cost",
+    "GEN_MMR08_SUFFICIENCY_V1": "skipped_after_mmr07_to_keep_final_bakeoff_within_bounded_generation_time_and_cost"
+  },
+  "status": "completed_bounded_after_mmr07"
+}

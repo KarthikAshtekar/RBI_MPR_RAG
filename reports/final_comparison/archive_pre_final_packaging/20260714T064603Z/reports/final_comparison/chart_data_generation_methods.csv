@@ -1,0 +1,4 @@
+method,dataset_split,factual_correctness,faithfulness_to_context,citation_correctness,temporal_attribution_correctness,comparative_correctness,abstention_correctness,status
+V2 Cohere retrieval + generation,dev,0.6343914458612334,0.8654068160371632,0.8823529411764706,0.8823529411764706,0.9166666666666666,0.47058823529411764,completed
+V2 Cohere retrieval + sufficiency-gated generation,dev,0.7954456988291574,0.9761655452382324,0.8823529411764706,0.8823529411764706,0.2777777777777778,1.0,completed
+MMR lambda 0.6 retrieval + sufficiency-gated generation,dev,0.8153331682936946,0.9731204857728691,0.8823529411764706,0.8823529411764706,0.3333333333333333,1.0,completed

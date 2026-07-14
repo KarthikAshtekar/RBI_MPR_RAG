@@ -1,0 +1,60 @@
+description: PyPDFLoader extraction with Cohere Rerank.
+enabled: true
+parser:
+  provider: pypdfloader
+  name: PyPDFLoader
+embedding:
+  model: sentence-transformers/all-MiniLM-L6-v2
+retrieval:
+  dense_k: 50
+  bm25_k: 50
+fusion:
+  method: rrf
+  k: 60
+  retain: 30
+reranker:
+  provider: cohere
+  model: rerank-v3.5
+  top_n: 30
+  max_retries: 3
+  timeout_seconds: 60
+  min_interval_seconds: 6.5
+  fallback: none
+context_selection:
+  single: 6
+  pairwise: 5
+  trend: 4
+  structural_mode: none
+  mmr_enabled: true
+  mmr_lambda: 0.6
+index:
+  source: existing_multi_report_chroma
+  path: indexes/multi_report/chroma
+evaluation:
+  split: dev
+  heldout_loaded: false
+id: MMR_LAMBDA_06
+mmr_source_summary:
+  all_reports_hit: 0.5666666666666667
+  case_count: 34
+  complete_evidence_recall: 0.5333333333333333
+  configuration_checksum: 8ba7046dd23380fad41b90a7a4c4aac0bb245d14d3f9d794f951e0ffa0263bda
+  created_at_utc: '2026-07-14T00:02:54.435055+00:00'
+  eligibility: eligible
+  evidence_recall: 0.65
+  experiment_id: MMR_LAMBDA_06
+  macro_report_mrr: 0.4054629629629629
+  mean_estimated_tokens: 2037.0333333333333
+  mean_latency_ms: 13981.428303333449
+  mean_repeated_text_ratio: 0.0
+  mean_selected_chunks: 8.8
+  mean_unique_pages: 7.8
+  median_latency_ms: 15426.971299999423
+  mmr_enabled: true
+  mmr_lambda: 0.6
+  p95_latency_ms: 23403.731599997627
+  report_coverage: 1.0
+  schema_version: 1
+  scored_case_count: 30
+  single_report_contamination: 0.0
+  status: completed

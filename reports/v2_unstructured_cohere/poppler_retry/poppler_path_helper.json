@@ -1,0 +1,6 @@
+{
+  "created_at_utc": "2026-07-13T23:30:23.698740+00:00",
+  "instructions": "Source poppler_path_helper.ps1 or rerun repository scripts; the V2 runner reads this helper automatically.",
+  "poppler_bin_path": "C:\\Users\\karth\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oschwartz10612.Poppler_Microsoft.Winget.Source_8wekyb3d8bbwe\\poppler-25.07.0\\Library\\bin",
+  "schema_version": 1
+}

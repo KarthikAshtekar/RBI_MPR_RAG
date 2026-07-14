@@ -1,0 +1,39 @@
+{
+  "active_python_can_see_poppler": true,
+  "command_checks": [
+    {
+      "available": true,
+      "command": "pdfinfo -v",
+      "error_message": null,
+      "error_type": null,
+      "executable_path": "C:\\Users\\karth\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oschwartz10612.Poppler_Microsoft.Winget.Source_8wekyb3d8bbwe\\poppler-25.07.0\\Library\\bin\\pdfinfo.EXE",
+      "returncode": 0,
+      "stderr": "pdfinfo version 25.07.0\nCopyright 2005-2025 The Poppler Developers - http://poppler.freedesktop.org\nCopyright 1996-2011, 2022 Glyph & Cog, LLC\n",
+      "stdout": "",
+      "success": true
+    },
+    {
+      "available": true,
+      "command": "pdftoppm -h",
+      "error_message": null,
+      "error_type": null,
+      "executable_path": "C:\\Users\\karth\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oschwartz10612.Poppler_Microsoft.Winget.Source_8wekyb3d8bbwe\\poppler-25.07.0\\Library\\bin\\pdftoppm.EXE",
+      "returncode": 0,
+      "stderr": "pdftoppm version 25.07.0\nCopyright 2005-2025 The Poppler Developers - http://poppler.freedesktop.org\nCopyright 1996-2011, 2022 Glyph & Cog, LLC\nUsage: pdftoppm [options] [PDF-file [PPM-file-prefix]]\n  -f <int>                                 : first page to print\n  -l <int>                                 : last page to print\n  -o                                       : print only odd pages\n  -e                                       : print only even pages\n  -singlefile                              : write only the first page and do not add digits\n  -scale-dimension-before-rotation         : for rotated pdf, resize dimensions before the rotation\n  -r <fp>                                  : resolution, in DPI (default is 150)\n  -rx <fp>                                 : X resolution, in DPI (default is 150)\n  -ry <fp>                                 : Y resolution, in DPI (default is 150)\n  -scale-to <int>                          : scales each page to fit within scale-to*scale-to pixel box\n  -scale-to-x <int>                        : scales each page horizontally to fit in scale-to-x pixels\n  -scale-to-y <int>                        : scales each page vertically to fit in scale-to-y pixels\n  -x <int>                                 : x-coordinate of the crop area top left corner\n  -y <int>                                 : y-coordinate of the crop area top left corner\n  -W <int>                                 : width of crop area in pixels (default is 0)\n  -H <int>                                 : height of crop area in pixels (default is 0)\n  -sz <int>                                : size of crop square in pixels (sets W and H)\n  -cropbox                                 : use the crop box rather than media box\n  -hide-annotations                        : do not show annotations\n  -mono                                    : generate a monochrome PBM file\n  -gray                                    : generate a grayscale PGM file\n  -displayprofile <string>                 : ICC color profile to use as the display profile\n  -defaultgrayprofile <string>             : ICC color profile to use as the DefaultGray color space\n  -defaultrgbprofile <string>              : ICC color profile to use as the DefaultRGB color space\n  -defaultcmykprofile <string>             : ICC color profile to use as the DefaultCMYK color space\n  -sep <string>                            : single character separator between name and page number, default - \n  -forcenum                                : force page number even if there is only one page \n  -png                                     : generate a PNG file\n  -jpeg                                    : generate a JPEG file\n  -jpegcmyk                                : generate a CMYK JPEG file\n  -jpegopt <string>                        : jpeg options, with format <opt1>=<val1>[,<optN>=<valN>]*\n  -overprint                               : enable overprint\n  -tiff                                    : generate a TIFF file\n  -tiffcompression <string>                : set TIFF compression: none, packbits, jpeg, lzw, deflate\n  -freetype <string>                       : enable FreeType font rasterizer: yes, no\n  -thinlinemode <string>                   : set thin line mode: none, solid, shape. Default: none\n  -aa <string>                             : enable font anti-aliasing: yes, no\n  -aaVector <string>                       : enable vector anti-aliasing: yes, no\n  -opw <string>                            : owner password (for encrypted files)\n  -upw <string>                            : user password (for encrypted files)\n  -q                                       : don't print any messages or errors\n  -progress                                : print progress info\n  -v                                       : print copyright and version info\n  -h                                       : print usage information\n  -help                                    : print usage information\n  --help                    ...[truncated]",
+      "stdout": "",
+      "success": true
+    }
+  ],
+  "created_at_utc": "2026-07-13T23:30:24.634522+00:00",
+  "path_relevant_entries": [
+    "C:\\Users\\karth\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oschwartz10612.Poppler_Microsoft.Winget.Source_8wekyb3d8bbwe\\poppler-25.07.0\\Library\\bin"
+  ],
+  "platform": "Windows",
+  "poppler_ready": true,
+  "python_which": {
+    "pdfinfo": "C:\\Users\\karth\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oschwartz10612.Poppler_Microsoft.Winget.Source_8wekyb3d8bbwe\\poppler-25.07.0\\Library\\bin\\pdfinfo.EXE",
+    "pdftoppm": "C:\\Users\\karth\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oschwartz10612.Poppler_Microsoft.Winget.Source_8wekyb3d8bbwe\\poppler-25.07.0\\Library\\bin\\pdftoppm.EXE",
+    "pdftotext": "C:\\Users\\karth\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oschwartz10612.Poppler_Microsoft.Winget.Source_8wekyb3d8bbwe\\poppler-25.07.0\\Library\\bin\\pdftotext.EXE"
+  },
+  "schema_version": 1
+}

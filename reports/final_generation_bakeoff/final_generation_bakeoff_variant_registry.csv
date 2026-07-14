@@ -1,0 +1,10 @@
+context_ordering,description,mode,priority,prompt_version,retrieval_experiment_id,variant_id
+default,Reuse existing V2 Cohere retrieval plus sufficiency-gated generation result.,reuse_v2_sufficiency,0,v2_sufficiency_prompt_v1,V2_COHERE_ONLY,GEN_V2_COHERE_SUFFICIENCY_V1
+page_order,Reuse existing MMR lambda 0.6 plus sufficiency-gated generation result.,reuse_mmr_generation,0,v2_sufficiency_prompt_v1,MMR_LAMBDA_06,GEN_MMR06_SUFFICIENCY_V1
+page_order,Generate on frozen MMR lambda 0.7 retrieval contexts.,live_generation,1,v2_sufficiency_prompt_v1,MMR_LAMBDA_07,GEN_MMR07_SUFFICIENCY_V1
+page_order,Generate on frozen MMR lambda 0.8 retrieval contexts.,live_generation,2,v2_sufficiency_prompt_v1,MMR_LAMBDA_08,GEN_MMR08_SUFFICIENCY_V1
+chrono_order,Generate on MMR06 chunks ordered by report chronology and page.,live_generation,3,v2_sufficiency_prompt_v1,MMR_LAMBDA_06,GEN_MMR06_CHRONO_ORDER_V1
+rerank_order,Generate on MMR06 chunks ordered by saved MMR/reranker selection rank.,live_generation,4,v2_sufficiency_prompt_v1,MMR_LAMBDA_06,GEN_MMR06_RERANK_ORDER_V1
+page_order,Generate with evidence-by-report-first prompt.,live_generation,5,evidence_first_prompt_v1,MMR_LAMBDA_06,GEN_MMR06_EVIDENCE_FIRST_PROMPT_V1
+page_order,Generate with strict comparative prompt.,live_generation,6,comparative_strict_prompt_v1,MMR_LAMBDA_06,GEN_MMR06_COMPARATIVE_STRICT_PROMPT_V1
+page_order,Deterministically repair invalid citations in the existing MMR06 answer set.,citation_repair,7,deterministic_citation_repair_v1,MMR_LAMBDA_06,GEN_MMR06_CITATION_REPAIR_V1

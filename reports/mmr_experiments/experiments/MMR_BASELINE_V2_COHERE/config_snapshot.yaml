@@ -1,0 +1,3 @@
+experiment_id: MMR_BASELINE_V2_COHERE
+mmr_enabled: false
+mmr_lambda: null

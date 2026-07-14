@@ -1,0 +1,26 @@
+{
+  "categories": {
+    "demo_readiness": 12,
+    "error_handling": 9,
+    "responsiveness": 8,
+    "simplicity": 13,
+    "trust_and_transparency": 14,
+    "user_flow": 10,
+    "visual_clarity": 16
+  },
+  "created_at_utc": "2026-07-14T08:13:06.969641+00:00",
+  "critical_issues": [
+    "answer_and_citations_not_visible_in_first_viewport",
+    "screenshot_scroll_anchor_missed_streamlit_scroll_container"
+  ],
+  "iteration": 1,
+  "overall_score": 82,
+  "passed": false,
+  "schema_version": 1,
+  "screenshot_iteration_dir": "reports/streamlit_ui_polish/screenshots/iteration_1",
+  "top_3_issues": [
+    "answer/citation section was below the first viewport",
+    "screenshot automation did not reach answer/citation section",
+    "sidebar model/prompt labels wrapped awkwardly"
+  ]
+}

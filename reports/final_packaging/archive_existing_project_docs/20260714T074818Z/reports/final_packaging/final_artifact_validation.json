@@ -1,0 +1,21 @@
+{
+  "api_key_hit_paths": [],
+  "api_key_scan_status": "passed",
+  "created_at_utc": "2026-07-14T07:47:04.549512+00:00",
+  "env_file_copied": false,
+  "generation_rerun_occurred": false,
+  "heldout_rerun_occurred": false,
+  "issues": [
+    "pip_check_not_recorded_passed",
+    "tests_not_recorded_passed"
+  ],
+  "missing_required_artifacts": [],
+  "mmr_used_heldout": false,
+  "mrr_mmr_distinction_correct": true,
+  "pip_check_status": "pending",
+  "schema_version": 1,
+  "status": "failed",
+  "streamlit_app_exists": true,
+  "tests_status": "pending",
+  "unstructured_falsely_claimed": false
+}

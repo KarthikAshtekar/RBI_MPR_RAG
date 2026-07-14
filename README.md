@@ -1,97 +1,111 @@
-# RBI Monetary Policy Report RAG
+# Temporal Multi-Document RAG for RBI Monetary Policy Reports
 
-Reproducible frozen single-report baseline for the RBI **April 2025 Monetary Policy Report**, plus a registry-driven temporal multi-report extension. The Streamlit interface remains outside this phase.
+A retrieval-augmented generation project for comparing RBI Monetary Policy Reports across time, focused on policy stance and narrative evolution rather than generic sentiment analysis.
 
-The repository now also contains a Phase 2–4 architecture for **Temporal multi-document RAG for RBI Monetary Policy Reports**. It is temporal because it routes and compares dated source reports; it is not chat-history-aware RAG and has no conversational memory or query rewriting.
-
-## Final baseline pipeline
-
-Generation always uses:
-
-```text
-dense top-15 + BM25 top-15
-        -> Reciprocal Rank Fusion (k=60, top-15 candidates)
-        -> cross-encoder reranking
-        -> final top-4 context
-        -> Llama 3.1 8B Instant generation
+```mermaid
+flowchart LR
+    PDF[RBI MPR PDFs] --> Parse[PyPDFLoader]
+    Parse --> Chunks[Report-aware chunks]
+    Chunks --> Dense[MiniLM dense retrieval]
+    Chunks --> BM25[BM25 retrieval]
+    Dense --> RRF[Hybrid RRF]
+    BM25 --> RRF
+    RRF --> Cohere[Cohere rerank-v3.5]
+    Cohere --> Quotas[Report-aware context quotas]
+    Quotas --> Gate[Evidence sufficiency gate]
+    Gate --> Groq[Groq Llama 3.1 8B]
+    Groq --> Answer[Answer + citations]
 ```
 
-Retrieval evaluation also retains dense, dense+rereanker, BM25, BM25+reranker, hybrid RRF, and hybrid RRF+reranker for comparison. A reranker cannot recover a chunk absent from its candidate pool, but it can promote a relevant result from ranks 5–15 into the final four; it can therefore improve both MRR and Hit-Rate@4.
+## Dataset
 
-## Setup
+- April 2025 RBI Monetary Policy Report
+- October 2025 RBI Monetary Policy Report
+- April 2026 RBI Monetary Policy Report
+
+## Key features
+
+- Report-aware retrieval and context quotas
+- Temporal comparison across reports
+- Hybrid dense + BM25 search
+- Reciprocal Rank Fusion
+- Cohere reranking
+- Sufficiency gate for abstention/caveats
+- Source-labelled citations
+- Temporal attribution checks
+
+## Results summary
+
+| Best retrieval method | CER | All-Reports Hit | Evidence Recall | Macro MRR | Median latency ms | Mean tokens |
+|---|---:|---:|---:|---:|---:|---:|
+| V2 Cohere retrieval | 0.4667 | 0.5000 | 0.6000 | 0.4154 | 12906.78 | 2096.97 |
+| MMR lambda 0.6 retrieval | 0.5333 | 0.5667 | 0.6500 | 0.4055 | 15426.97 | 2037.03 |
+
+Retrieval-only winner after MMR testing: `MMR_LAMBDA_06`. Best evaluated generation setting: `Final selected generation bake-off strategy`.
+
+| Best generation method | Factual | Faithfulness | Abstention | Citation | Temporal attribution | Comparative |
+|---|---:|---:|---:|---:|---:|---:|
+| V2 Cohere + sufficiency gate | 0.7954 | 0.9762 | 1.0000 | 0.8824 | 0.8824 | 0.2778 |
+| MMR06 + sufficiency gate | 0.8153 | 0.9731 | 1.0000 | 0.8824 | 0.8824 | 0.3333 |
+
+Single-document Hit-Rate@4 is preserved as a historical baseline but is not directly comparable with multi-report Complete Evidence Recall.
+
+## How to run
 
 ```powershell
 python -m venv .venv
-.\.venv\Scripts\python.exe -m pip install --upgrade pip
-.\.venv\Scripts\python.exe -m pip install -e ".[dev]"
-Copy-Item .env.example .env
+.\.venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt
+python -m pip install -r requirements-v2.txt  # optional V2/Cohere/Streamlit extras
 ```
 
-Only generation commands need `GROQ_API_KEY`. No key is stored in YAML.
+Create `.env` locally with:
 
-## Reproducible commands
+```text
+GROQ_API_KEY=...
+COHERE_API_KEY=...
+UNSTRUCTURED_API_KEY=...  # optional; Unstructured remains OCR/Tesseract-blocked here
+```
+
+Useful commands:
 
 ```powershell
-rbi-rag --config configs/baseline.yaml build-index
-rbi-rag --config configs/baseline.yaml retrieval-eval
-rbi-rag --config configs/baseline.yaml generation-eval
-rbi-rag --config configs/baseline.yaml report
-python -m compileall src scripts
+python scripts\run_mmr_experiments.py
+python scripts\validate_mmr_experiments.py
+python scripts\generate_mmr_report.py
+python scripts\generate_final_rag_comparison.py
+streamlit run streamlit_app.py
 python -m pytest
 ```
 
-Multi-report commands use `configs/multi_report.yaml`:
+The Streamlit app opens in saved-example demo mode and does not require API keys for the local demo. UI polish screenshots and validation are saved under `reports/streamlit_ui_polish/`.
 
-```powershell
-rbi-rag --config configs/multi_report.yaml validate-reports
-rbi-rag --config configs/multi_report.yaml build-index
-rbi-rag --config configs/multi_report.yaml inspect-index
-rbi-rag --config configs/multi_report.yaml route-query --query "Compare April and October 2025 inflation projections."
-rbi-rag --config configs/multi_report.yaml retrieve --query "How did policy stance evolve across reports?"
-rbi-rag --config configs/multi_report.yaml retrieval-eval
-rbi-rag --config configs/multi_report.yaml report
-```
+## Repository structure
 
-## Multi-report architecture
+- `src/rbi_rag/`: modular RAG, evaluation, comparison, and packaging code
+- `scripts/`: executable project workflows
+- `configs/`: selected retrieval and experiment configs
+- `data/`: raw reports and evaluation data
+- `reports/`: saved evaluation, comparison, and final packaging artifacts
+- `streamlit_app.py`: polished saved-example demo UI
 
-`configs/reports.yaml` is the versioned report registry. Available reports are chunked with the frozen 1,000/300 settings and indexed in a separate shared Chroma collection with `report_id` filtering. The original single-report index remains separate. BM25 is rebuilt deterministically in memory once per report, preventing cross-report leakage without unsafe serialization.
+## Evaluation methodology
 
-The offline router recognizes explicit periods, pairwise comparisons, trends, latest/earliest/previous language, global unspecified queries, and unsupported periods. Single-report retrieval filters both dense and sparse branches. Comparative retrieval runs dense, BM25, RRF, and reranking independently within every required report, then retains three chunks per report for pairwise comparisons and two per report for trends. Deduplication occurs only after report quotas are satisfied.
-
-Comparative contexts use explicit `<SOURCE>` labels with report period, page, and chunk ID. The generator is instructed to distinguish report facts from cautious synthesis about policy stance and narrative evolution. Structured citations are validated against the chunks actually supplied.
-
-Multi-report evaluation adds report coverage, all-reports hit, per-report hit/MRR, macro report MRR, evidence recall, balance diagnostics, and single-report contamination. Pairwise and trend factual cases are not scored until their PDFs and page labels can be inspected.
-
-To add another MPR, place the local PDF under `data/raw/`, add its dated entry to `configs/reports.yaml`, run `validate-reports`, then rebuild the multi-report index. Only the changed report is replaced. Add manually verified router and factual cases before reporting comparative performance.
-
-The equivalent entry scripts are under `scripts/`.
-
-## Evaluation integrity
-
-- Every metric attempt uses a new metric instance.
-- Failed judge calls store `score: null`, error type, error text, and attempt count.
-- Generation checkpoints are atomic and written after each metric.
-- Resume skips successful metrics and reruns only failed or missing metrics.
-- A mismatched PDF/configuration fingerprint cannot resume an old checkpoint.
-- Means, medians, and standard deviations use successful cases only and are always shown with coverage.
-- Raw retrieval results are saved before summaries.
-- The 30 source questions are explicitly a development set; no held-out score is claimed.
-
-## Outputs
-
-Current machine-generated outputs live in `reports/current/`:
-
-- `retrieval_raw_results.json`
-- `retrieval_question_results.csv`
-- `retrieval_pipeline_summary.csv`
-- `retrieval_summary.json`
-- `generation_evaluation.json` after a credentialed run
-- `baseline_report.md`, generated only from saved outputs
-
-Superseded reports and preliminary outputs are preserved in `reports/archived/`, with provenance in `archive_manifest.json`. The original notebook remains unchanged.
+Retrieval is measured with Complete Evidence Recall, All-Reports Hit, Evidence Recall, Macro Report MRR, report coverage, contamination, latency, and context-size metrics. Generation is evaluated on saved development outputs with deterministic heuristic checks for factuality, faithfulness, citations, temporal attribution, comparative correctness, and abstention.
 
 ## Limitations
 
-The development set has only 30 questions and page-level relevance labels. It is useful for iteration, not an unbiased held-out estimate. Hosted generation can vary even at temperature zero. Generation metrics are not validated unless every reported average includes its measured coverage.
+- Final V2 generation is development-only.
+- Old Phase 7 held-out results are historical and not a fresh V2 benchmark.
+- Generation metrics are deterministic heuristics, not human evaluation.
+- Cohere adds latency.
+- Unstructured extraction was blocked by OCR/Tesseract requirements for these PDFs.
+- This is not production-ready.
 
-PyPDFLoader may flatten tables and omit chart semantics. October 2025 and April 2026 are currently registered but missing locally, so current multi-report factual scoring covers April 2025 only. The system is not production-ready and generation evaluation remains unexecuted without `GROQ_API_KEY`.
+## Safety and security
+
+API keys are read from `.env`; keys are not committed and generated artifacts are scanned for accidental key serialization.
+
+## Interview-ready summary
+
+This is a temporal multi-document RAG system for RBI Monetary Policy Reports. The strongest current system uses report-aware hybrid retrieval, Cohere reranking, Groq generation, and a sufficiency gate to reduce unsupported answers while keeping citations and temporal attribution explicit.

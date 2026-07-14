@@ -1,0 +1,15 @@
+{
+  "created_at_utc": "2026-07-14T07:29:13.530278+00:00",
+  "generation_rerun": false,
+  "retrieval_rerun": false,
+  "schema_version": 1,
+  "source_files": {
+    "eval_raw_results.json": "reports\\final_mmr_generation\\GEN_MMR06_SUFFICIENCY_V1\\eval_raw_results.json",
+    "eval_summary.json": "reports\\final_mmr_generation\\GEN_MMR06_SUFFICIENCY_V1\\eval_summary.json",
+    "metric_coverage.json": "reports\\final_mmr_generation\\GEN_MMR06_SUFFICIENCY_V1\\metric_coverage.json",
+    "raw_results.json": "reports\\final_mmr_generation\\GEN_MMR06_SUFFICIENCY_V1\\raw_results.json",
+    "summary.json": "reports\\final_mmr_generation\\GEN_MMR06_SUFFICIENCY_V1\\summary.json"
+  },
+  "status": "completed_reused",
+  "variant_id": "GEN_MMR06_SUFFICIENCY_V1"
+}

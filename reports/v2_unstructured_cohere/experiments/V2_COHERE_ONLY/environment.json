@@ -1,0 +1,11 @@
+{
+  "cohere_api_key_available": true,
+  "generation_evaluation_run": false,
+  "groq_api_key_available": true,
+  "heldout_loaded": false,
+  "parser_provider": "pypdfloader",
+  "phase": "V2",
+  "reranker_provider": "cohere",
+  "source": "live_dev_experiment",
+  "unstructured_api_key_available": true
+}

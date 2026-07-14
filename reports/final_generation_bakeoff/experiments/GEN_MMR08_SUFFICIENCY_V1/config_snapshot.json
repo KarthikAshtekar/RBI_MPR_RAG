@@ -1,0 +1,9 @@
+{
+  "context_ordering": "page_order",
+  "description": "Generate on frozen MMR lambda 0.8 retrieval contexts.",
+  "mode": "live_generation",
+  "priority": 2,
+  "prompt_version": "v2_sufficiency_prompt_v1",
+  "retrieval_experiment_id": "MMR_LAMBDA_08",
+  "variant_id": "GEN_MMR08_SUFFICIENCY_V1"
+}

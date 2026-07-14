@@ -1,0 +1,102 @@
+{
+  "categories": {
+    "demo_readiness": 15,
+    "error_handling": 10,
+    "responsiveness": 10,
+    "simplicity": 15,
+    "trust_and_transparency": 15,
+    "user_flow": 15,
+    "visual_clarity": 20
+  },
+  "created_at_utc": "2026-07-14T08:15:13.483464+00:00",
+  "final_iteration": 3,
+  "final_passed": true,
+  "final_score": 93,
+  "iterations": [
+    {
+      "categories": {
+        "demo_readiness": 12,
+        "error_handling": 9,
+        "responsiveness": 8,
+        "simplicity": 13,
+        "trust_and_transparency": 14,
+        "user_flow": 10,
+        "visual_clarity": 16
+      },
+      "created_at_utc": "2026-07-14T08:13:06.969641+00:00",
+      "critical_issues": [
+        "answer_and_citations_not_visible_in_first_viewport",
+        "screenshot_scroll_anchor_missed_streamlit_scroll_container"
+      ],
+      "iteration": 1,
+      "overall_score": 82,
+      "passed": false,
+      "schema_version": 1,
+      "screenshot_iteration_dir": "reports/streamlit_ui_polish/screenshots/iteration_1",
+      "top_3_issues": [
+        "answer/citation section was below the first viewport",
+        "screenshot automation did not reach answer/citation section",
+        "sidebar model/prompt labels wrapped awkwardly"
+      ]
+    },
+    {
+      "api_key_leak_visible": false,
+      "categories": {
+        "demo_readiness": 11,
+        "error_handling": 9,
+        "responsiveness": 8,
+        "simplicity": 14,
+        "trust_and_transparency": 15,
+        "user_flow": 14,
+        "visual_clarity": 18
+      },
+      "created_at_utc": "2026-07-14T08:15:13.478929+00:00",
+      "fixes_made_after_iteration": [
+        "removed custom open HTML answer wrapper",
+        "used native Streamlit bordered container for answer card"
+      ],
+      "iteration": 2,
+      "overall_score": 89,
+      "overclaim_visible": false,
+      "passed": false,
+      "schema_version": 1,
+      "screenshot_iteration_dir": "reports/streamlit_ui_polish/screenshots/iteration_2",
+      "top_3_issues": [
+        "answer was visible, but a blank rounded rendering artifact appeared above the answer card",
+        "mobile stacked correctly but requires scrolling to reach demo",
+        "screenshot anchors still land conservatively near top of page"
+      ],
+      "visible_crash_or_error": false
+    },
+    {
+      "api_key_leak_visible": false,
+      "categories": {
+        "demo_readiness": 13,
+        "error_handling": 9,
+        "responsiveness": 9,
+        "simplicity": 14,
+        "trust_and_transparency": 15,
+        "user_flow": 14,
+        "visual_clarity": 19
+      },
+      "created_at_utc": "2026-07-14T08:15:13.481106+00:00",
+      "fixes_made_after_iteration": [
+        "stopped after iteration 3 because score exceeded 90 and no crash/error/overclaim was visible"
+      ],
+      "iteration": 3,
+      "overall_score": 93,
+      "overclaim_visible": false,
+      "passed": true,
+      "schema_version": 1,
+      "screenshot_iteration_dir": "reports/streamlit_ui_polish/screenshots/iteration_3",
+      "top_3_issues": [
+        "mobile first viewport shows metrics before demo; acceptable but not ideal for a phone-only presentation",
+        "Streamlit default Deploy/menu controls remain visible",
+        "long selected IDs in sidebar still wrap slightly"
+      ],
+      "visible_crash_or_error": false
+    }
+  ],
+  "pass_threshold": 90,
+  "schema_version": 1
+}

@@ -1,0 +1,40 @@
+{
+  "created_at_utc": "2026-07-13T13:53:52.906714+00:00",
+  "dataset_validation": {
+    "actual_case_count": 15,
+    "actual_sha256": "183b7b3187cd7e53df343e0461e46311192a9ffc0bfdf49a2bc32ad64488af99",
+    "actual_verified_scored_count": 15,
+    "case_count_matches": true,
+    "expected_sha256": "183b7b3187cd7e53df343e0461e46311192a9ffc0bfdf49a2bc32ad64488af99",
+    "manifest_case_count": 15,
+    "manifest_verified_scored_count": 15,
+    "matches": true,
+    "path": "data/evaluation/multi_report_test.jsonl",
+    "verified_count_matches": true
+  },
+  "issue_count": 0,
+  "issues": [],
+  "recomputed_loss_stage_counts": {
+    "evidence_found": 10,
+    "lost_by_quota": 5,
+    "lost_in_fusion": 4,
+    "not_in_candidate_union": 4
+  },
+  "recomputed_metrics": {
+    "all_reports_hit": 0.38461538461538464,
+    "case_count": 15,
+    "complete_evidence_recall": 0.38461538461538464,
+    "evidence_recall": 0.5512820512820513,
+    "macro_report_mrr": 0.258974358974359,
+    "mean_estimated_tokens": 2134.846153846154,
+    "mean_latency_ms": 2623.7835846214484,
+    "mean_selected_chunks": 8.923076923076923,
+    "median_latency_ms": 2495.7724999985658,
+    "p95_latency_ms": 4354.438200010918,
+    "report_coverage": 1.0,
+    "scored_case_count": 13,
+    "single_report_contamination": 0.0
+  },
+  "schema_version": 1,
+  "status": "passed"
+}

@@ -1,0 +1,45 @@
+{
+  "active_python_can_see_poppler": false,
+  "command_checks": [
+    {
+      "available": false,
+      "command": "pdfinfo -v",
+      "error_message": "pdfinfo was not found on PATH",
+      "error_type": "ExecutableNotFound",
+      "executable_path": null,
+      "returncode": null,
+      "stderr": null,
+      "stdout": null
+    },
+    {
+      "available": false,
+      "command": "pdftoppm -h",
+      "error_message": "pdftoppm was not found on PATH",
+      "error_type": "ExecutableNotFound",
+      "executable_path": null,
+      "returncode": null,
+      "stderr": null,
+      "stdout": null
+    },
+    {
+      "available": false,
+      "command": "pdftotext -v",
+      "error_message": "pdftotext was not found on PATH",
+      "error_type": "ExecutableNotFound",
+      "executable_path": null,
+      "returncode": null,
+      "stderr": null,
+      "stdout": null
+    }
+  ],
+  "created_at_utc": "2026-07-13T23:30:23.684904+00:00",
+  "path_relevant_entries": [],
+  "platform": "Windows",
+  "poppler_ready": false,
+  "python_which": {
+    "pdfinfo": null,
+    "pdftoppm": null,
+    "pdftotext": null
+  },
+  "schema_version": 1
+}

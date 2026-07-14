@@ -1,0 +1,14 @@
+{
+  "blocked_reason": "Poppler verification failed; pdfinfo and pdftoppm are not both callable from the active Python subprocess environment.",
+  "configured_bin": null,
+  "method": "not_configured",
+  "outputs": {
+    "install_attempts": "D:\\PGDBA\\Projects\\RBI Rag Project-20260712T174124Z-2-001\\RBI Rag Project\\reports\\v2_unstructured_cohere\\poppler_retry\\poppler_install_attempts.json",
+    "pre_checksums": "D:\\PGDBA\\Projects\\RBI Rag Project-20260712T174124Z-2-001\\RBI Rag Project\\reports\\v2_unstructured_cohere\\poppler_retry\\pre_poppler_retry_checksums.json",
+    "status_after": "D:\\PGDBA\\Projects\\RBI Rag Project-20260712T174124Z-2-001\\RBI Rag Project\\reports\\v2_unstructured_cohere\\poppler_retry\\poppler_status_after.json",
+    "status_before": "D:\\PGDBA\\Projects\\RBI Rag Project-20260712T174124Z-2-001\\RBI Rag Project\\reports\\v2_unstructured_cohere\\poppler_retry\\poppler_status_before.json"
+  },
+  "poppler_ready_after": false,
+  "poppler_ready_before": false,
+  "status": "blocked"
+}

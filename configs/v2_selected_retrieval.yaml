@@ -1,0 +1,34 @@
+description: PyPDFLoader extraction with Cohere Rerank.
+enabled: true
+parser:
+  provider: pypdfloader
+  name: PyPDFLoader
+embedding:
+  model: sentence-transformers/all-MiniLM-L6-v2
+retrieval:
+  dense_k: 50
+  bm25_k: 50
+fusion:
+  method: rrf
+  k: 60
+  retain: 30
+reranker:
+  provider: cohere
+  model: rerank-v3.5
+  top_n: 30
+  max_retries: 3
+  timeout_seconds: 60
+  min_interval_seconds: 6.5
+  fallback: none
+context_selection:
+  single: 6
+  pairwise: 5
+  trend: 4
+  structural_mode: none
+index:
+  source: existing_multi_report_chroma
+  path: indexes/multi_report/chroma
+evaluation:
+  split: dev
+  heldout_loaded: false
+id: V2_COHERE_ONLY

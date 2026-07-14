@@ -1,0 +1,9 @@
+{
+  "context_ordering": "rerank_order",
+  "description": "Generate on MMR06 chunks ordered by saved MMR/reranker selection rank.",
+  "mode": "live_generation",
+  "priority": 4,
+  "prompt_version": "v2_sufficiency_prompt_v1",
+  "retrieval_experiment_id": "MMR_LAMBDA_06",
+  "variant_id": "GEN_MMR06_RERANK_ORDER_V1"
+}

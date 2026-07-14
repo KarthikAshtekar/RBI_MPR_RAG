@@ -1,0 +1,24 @@
+{
+  "case_count": 15,
+  "config_file_sha256": "cee93262310a59be1beb6ba62ce7ceb8c65d42ecc7e53604a77a06951f73ca33",
+  "config_path": "configs\\final_retrieval_selected.yaml",
+  "configuration_checksum": "4b9e74513eb0f16ec9d13c7158a848aa75f245764d86906b5e545376a001f945",
+  "dataset_sha256": "183b7b3187cd7e53df343e0461e46311192a9ffc0bfdf49a2bc32ad64488af99",
+  "environment": {
+    "bm25_warmup_ms": 16.493899980559945,
+    "dense_warmup_ms": 437.5715999631211,
+    "embedding_warmup_ms": 437.5715999631211,
+    "generation_evaluation_run": false,
+    "groq_api_key_available": true,
+    "heldout_dataset_loaded": true,
+    "phase": "7",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.13.7",
+    "reranker_warmup_ms": 124.05729998135939,
+    "warmup_performed": true,
+    "warmup_query_hash": "404e295aeb5795bf662a32b1c1c5fca7a146960c62554d77041975c6acb5c9ff"
+  },
+  "finished_at_utc": "2026-07-13T13:48:49Z",
+  "started_at_utc": "2026-07-13T13:48:17Z",
+  "status": "completed"
+}

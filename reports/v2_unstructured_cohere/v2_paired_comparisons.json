@@ -1,0 +1,95 @@
+{
+  "comparisons": [
+    {
+      "absolute_difference": 0.1,
+      "baseline_fail_experiment_pass": 4,
+      "baseline_mean": 0.36666666666666664,
+      "baseline_pass_experiment_fail": 1,
+      "both_fail": 15,
+      "both_pass": 10,
+      "ci_95_high": 0.26666666666666666,
+      "ci_95_low": -0.03333333333333333,
+      "conclusive": false,
+      "experiment_id": "V2_COHERE_ONLY",
+      "experiment_mean": 0.4666666666666667,
+      "metric": "complete_evidence_recall",
+      "sample_size": 30
+    },
+    {
+      "absolute_difference": 0.1,
+      "baseline_fail_experiment_pass": 4,
+      "baseline_mean": 0.4,
+      "baseline_pass_experiment_fail": 1,
+      "both_fail": 14,
+      "both_pass": 11,
+      "ci_95_high": 0.26666666666666666,
+      "ci_95_low": -0.03333333333333333,
+      "conclusive": false,
+      "experiment_id": "V2_COHERE_ONLY",
+      "experiment_mean": 0.5,
+      "metric": "all_reports_hit",
+      "sample_size": 30
+    },
+    {
+      "absolute_difference": 0.09444444444444446,
+      "baseline_mean": 0.5055555555555555,
+      "ci_95_high": 0.22777777777777777,
+      "ci_95_low": -0.03333333333333333,
+      "conclusive": false,
+      "experiment_id": "V2_COHERE_ONLY",
+      "experiment_mean": 0.6,
+      "metric": "evidence_recall",
+      "sample_size": 30
+    },
+    {
+      "absolute_difference": 0.054411764705882354,
+      "baseline_mean": 0.31209150326797386,
+      "ci_95_high": 0.16013071895424838,
+      "ci_95_low": -0.044035947712418304,
+      "conclusive": false,
+      "experiment_id": "V2_COHERE_ONLY",
+      "experiment_mean": 0.3665032679738562,
+      "metric": "macro_report_mrr",
+      "sample_size": 34
+    },
+    {
+      "absolute_difference": 7520.70722352057,
+      "baseline_mean": 2785.597888244357,
+      "ci_95_high": 9226.266714687506,
+      "ci_95_low": 5995.280752927582,
+      "conclusive": true,
+      "experiment_id": "V2_COHERE_ONLY",
+      "experiment_mean": 10306.305111764927,
+      "metric": "median_latency",
+      "sample_size": 34
+    },
+    {
+      "absolute_difference": -47.61764705882353,
+      "baseline_mean": 1897.8823529411766,
+      "ci_95_high": -17.558823529411764,
+      "ci_95_low": -81.61764705882354,
+      "conclusive": true,
+      "experiment_id": "V2_COHERE_ONLY",
+      "experiment_mean": 1850.264705882353,
+      "metric": "mean_estimated_tokens",
+      "sample_size": 34
+    }
+  ],
+  "created_at_utc": "2026-07-13T23:33:01.707264+00:00",
+  "skipped_experiments": [
+    {
+      "created_at_utc": "2026-07-13T23:33:01.403696+00:00",
+      "experiment_id": "V2_UNSTRUCTURED_ONLY",
+      "integrity_status": "skipped",
+      "reason": "RuntimeError: Unstructured extraction failed for rbi_mpr_2025_04: OCRUnavailable: OCR fallback was skipped because tesseract is not installed or not on PATH.",
+      "status": "skipped"
+    },
+    {
+      "created_at_utc": "2026-07-13T23:33:01.486244+00:00",
+      "experiment_id": "V2_UNSTRUCTURED_COHERE",
+      "integrity_status": "skipped",
+      "reason": "RuntimeError: Unstructured extraction failed for rbi_mpr_2025_04: OCRUnavailable: OCR fallback was skipped because tesseract is not installed or not on PATH.",
+      "status": "skipped"
+    }
+  ]
+}

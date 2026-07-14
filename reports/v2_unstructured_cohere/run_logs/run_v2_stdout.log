@@ -1,0 +1,31 @@
+{
+  "completed_experiments": [
+    "V2_BASELINE_FINAL"
+  ],
+  "final_config_mutated": false,
+  "selected_experiment_id": "V2_BASELINE_FINAL",
+  "skipped_experiments": [
+    {
+      "created_at_utc": "2026-07-13T20:18:06.978847+00:00",
+      "experiment_id": "V2_UNSTRUCTURED_ONLY",
+      "integrity_status": "skipped",
+      "reason": "RuntimeError: Unstructured extraction failed for rbi_mpr_2025_04: ModuleNotFoundError: ModuleNotFoundError: No module named 'unstructured_inference'",
+      "status": "skipped"
+    },
+    {
+      "created_at_utc": "2026-07-13T20:18:21.293328+00:00",
+      "experiment_id": "V2_COHERE_ONLY",
+      "integrity_status": "failed",
+      "reason": "CohereRerankError: TooManyRequestsError: headers: {'access-control-expose-headers': 'X-Debug-Trace-ID', 'cache-control': 'no-cache, no-store, no-transform, must-revalidate, private, max-age=0', 'content-encoding': 'gzip', 'content-type': 'application/json', 'expires': 'Thu, 01 Jan 1970 00:00:00 GMT', 'pragma': 'no-cache', 'vary': 'Origin,Accept-Encoding', 'x-accel-expires': '0', 'x-debug-trace-id': '03cdf74b950d9145380f527838be450b', 'date': 'Mon, 13 Jul 2026 20:18:17 GMT', 'x-envoy-upstream-service-time': '3', 'server': 'envoy', 'via': '1.1 google', 'alt-svc': 'h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000', 'transfer-encoding': 'chunked'}, status_code: 429, body: {'id': 'cc1209a3-2460-4c66-a24c-7b36a8028d35', 'message': \"You are using a Trial key, which is limited to 10 API calls / minute. You can continue to use the Trial key for free or upgrade to a Production key with higher rate limits at 'https://dashboard.cohere.com/api-keys'. Contact us on 'https://discord.gg/XW44jPfYJu' or email us at support@cohere.com with any questions\"} | TooManyRequestsError: headers: {'access-control-expose-headers': 'X-Debug-Trace-ID', 'cache-control': 'no-cache, no-store, no-transform, must-revalidate, private, max-age=0', 'content-encoding': 'gzip', 'content-type': 'application/json', 'expires': 'Thu, 01 Jan 1970 00:00:00 GMT', 'pragma': 'no-cache', 'vary': 'Origin,Accept-Encoding', 'x-accel-expires': '0', 'x-debug-trace-id': '5cfbb64df7d409753b5ff1634b8105fa', 'date': 'Mon, 13 Jul 2026 20:18:19 GMT', 'x-envoy-upstream-service-time': '3', 'server': 'envoy', 'via': '1.1 google', 'alt-svc': 'h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000', 'transfer-encoding': 'chunked'}, status_code: 429, body: {'id': '711f7469-3190-4d48-9e10-afa0be3bd9b5', 'message': \"You are using a Trial key, which is limited to 10 API calls / minute. You can continue to use the Trial key for free or upgrade to a Production key with higher rate limits at 'https://dashboard.cohere.com/api-keys'. Contact us on 'https://discord.gg/XW44jPfYJu' or email us at support@cohere.com with any questions\"} | TooManyRequestsError: headers: {'access-control-expose-headers': 'X-Debug-Trace-ID', 'cache-control': 'no-cache, no-store, no-transform, must-revalidate, private, max-age=0', 'content-encoding': 'gzip', 'content-type': 'application/json', 'expires': 'Thu, 01 Jan 1970 00:00:00 GMT', 'pragma': 'no-cache', 'vary': 'Origin,Accept-Encoding', 'x-accel-expires': '0', 'x-debug-trace-id': '38b1e81c24baa632631a224e541a3da9', 'date': 'Mon, 13 Jul 2026 20:18:23 GMT', 'x-envoy-upstream-service-time': '10', 'server': 'envoy', 'via': '1.1 google', 'alt-svc': 'h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000', 'transfer-encoding': 'chunked'}, status_code: 429, body: {'id': '4f45221e-bfca-44ad-a38c-a48335ebf664', 'message': \"You are using a Trial key, which is limited to 10 API calls / minute. You can continue to use the Trial key for free or upgrade to a Production key with higher rate limits at 'https://dashboard.cohere.com/api-keys'. Contact us on 'https://discord.gg/XW44jPfYJu' or email us at support@cohere.com with any questions\"}",
+      "status": "failed"
+    },
+    {
+      "created_at_utc": "2026-07-13T20:18:21.312982+00:00",
+      "experiment_id": "V2_UNSTRUCTURED_COHERE",
+      "integrity_status": "skipped",
+      "reason": "RuntimeError: Unstructured extraction failed for rbi_mpr_2025_04: ModuleNotFoundError: ModuleNotFoundError: No module named 'unstructured_inference'",
+      "status": "skipped"
+    }
+  ],
+  "status": "complete"
+}

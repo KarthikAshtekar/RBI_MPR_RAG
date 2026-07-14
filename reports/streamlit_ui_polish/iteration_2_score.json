@@ -1,0 +1,29 @@
+{
+  "api_key_leak_visible": false,
+  "categories": {
+    "demo_readiness": 11,
+    "error_handling": 9,
+    "responsiveness": 8,
+    "simplicity": 14,
+    "trust_and_transparency": 15,
+    "user_flow": 14,
+    "visual_clarity": 18
+  },
+  "created_at_utc": "2026-07-14T08:15:13.478929+00:00",
+  "fixes_made_after_iteration": [
+    "removed custom open HTML answer wrapper",
+    "used native Streamlit bordered container for answer card"
+  ],
+  "iteration": 2,
+  "overall_score": 89,
+  "overclaim_visible": false,
+  "passed": false,
+  "schema_version": 1,
+  "screenshot_iteration_dir": "reports/streamlit_ui_polish/screenshots/iteration_2",
+  "top_3_issues": [
+    "answer was visible, but a blank rounded rendering artifact appeared above the answer card",
+    "mobile stacked correctly but requires scrolling to reach demo",
+    "screenshot anchors still land conservatively near top of page"
+  ],
+  "visible_crash_or_error": false
+}

@@ -1,0 +1,107 @@
+{
+  "checks": [
+    {
+      "actual": "ADJ00",
+      "expected": "ADJ00",
+      "field": "id",
+      "matches": true
+    },
+    {
+      "actual": 50,
+      "expected": 50,
+      "field": "retrieval.dense_k",
+      "matches": true
+    },
+    {
+      "actual": 50,
+      "expected": 50,
+      "field": "retrieval.bm25_k",
+      "matches": true
+    },
+    {
+      "actual": 30,
+      "expected": 30,
+      "field": "fusion.retain",
+      "matches": true
+    },
+    {
+      "actual": 60,
+      "expected": 60,
+      "field": "fusion.k",
+      "matches": true
+    },
+    {
+      "actual": 6,
+      "expected": 6,
+      "field": "context_selection.single",
+      "matches": true
+    },
+    {
+      "actual": 5,
+      "expected": 5,
+      "field": "context_selection.pairwise",
+      "matches": true
+    },
+    {
+      "actual": 4,
+      "expected": 4,
+      "field": "context_selection.trend",
+      "matches": true
+    },
+    {
+      "actual": "none",
+      "expected": "none",
+      "field": "context_selection.structural_mode",
+      "matches": true
+    },
+    {
+      "actual": "recursive",
+      "expected": "recursive",
+      "field": "chunking.strategy",
+      "matches": true
+    },
+    {
+      "actual": 1000,
+      "expected": 1000,
+      "field": "chunking.chunk_size",
+      "matches": true
+    },
+    {
+      "actual": 300,
+      "expected": 300,
+      "field": "chunking.chunk_overlap",
+      "matches": true
+    },
+    {
+      "actual": "sentence-transformers/all-MiniLM-L6-v2",
+      "expected": "sentence-transformers/all-MiniLM-L6-v2",
+      "field": "embedding.model",
+      "matches": true
+    },
+    {
+      "actual": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+      "expected": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+      "field": "reranker.model",
+      "matches": true
+    },
+    {
+      "actual": "4b9e74513eb0f16ec9d13c7158a848aa75f245764d86906b5e545376a001f945",
+      "expected": "4b9e74513eb0f16ec9d13c7158a848aa75f245764d86906b5e545376a001f945",
+      "field": "configuration_checksum",
+      "matches": true
+    },
+    {
+      "actual": false,
+      "expected": false,
+      "field": "evaluation.heldout_loaded",
+      "matches": true
+    }
+  ],
+  "config_path": "configs\\final_retrieval_selected.yaml",
+  "config_sha256": "cee93262310a59be1beb6ba62ce7ceb8c65d42ecc7e53604a77a06951f73ca33",
+  "configuration_checksum": "4b9e74513eb0f16ec9d13c7158a848aa75f245764d86906b5e545376a001f945",
+  "created_at_utc": "2026-07-13T13:50:16.801819+00:00",
+  "schema_version": 1,
+  "selected_experiment_id": "ADJ00",
+  "status": "passed"
+}

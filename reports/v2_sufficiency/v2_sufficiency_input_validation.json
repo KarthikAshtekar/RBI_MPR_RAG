@@ -1,0 +1,72 @@
+{
+  "created_at_utc": "2026-07-13T22:32:46.645323+00:00",
+  "heldout_used": false,
+  "issues": [],
+  "old_v2_generation_exists": true,
+  "retrieval_input_validation": {
+    "experiment_dir": "D:\\PGDBA\\Projects\\RBI Rag Project-20260712T174124Z-2-001\\RBI Rag Project\\reports\\v2_unstructured_cohere\\experiments\\V2_COHERE_ONLY",
+    "experiment_id": "V2_COHERE_ONLY",
+    "heldout_rows_present": false,
+    "integrity_status": "valid",
+    "issues": [],
+    "row_count": 34,
+    "selected_chunk_text_present": true,
+    "source_metadata_present": true,
+    "split": "dev",
+    "status": "passed",
+    "summary_experiment_id": "V2_COHERE_ONLY"
+  },
+  "retrieval_rerun": false,
+  "schema_version": 1,
+  "selected_config_validation": {
+    "config": {
+      "context_selection": {
+        "pairwise": 5,
+        "single": 6,
+        "structural_mode": "none",
+        "trend": 4
+      },
+      "description": "PyPDFLoader extraction with Cohere Rerank.",
+      "embedding": {
+        "model": "sentence-transformers/all-MiniLM-L6-v2"
+      },
+      "enabled": true,
+      "evaluation": {
+        "heldout_loaded": false,
+        "split": "dev"
+      },
+      "fusion": {
+        "k": 60,
+        "method": "rrf",
+        "retain": 30
+      },
+      "id": "V2_COHERE_ONLY",
+      "index": {
+        "path": "indexes/multi_report/chroma",
+        "source": "existing_multi_report_chroma"
+      },
+      "parser": {
+        "name": "PyPDFLoader",
+        "provider": "pypdfloader"
+      },
+      "reranker": {
+        "fallback": "none",
+        "max_retries": 3,
+        "min_interval_seconds": 6.5,
+        "model": "rerank-v3.5",
+        "provider": "cohere",
+        "timeout_seconds": 60,
+        "top_n": 30
+      },
+      "retrieval": {
+        "bm25_k": 50,
+        "dense_k": 50
+      }
+    },
+    "issues": [],
+    "path": "configs\\v2_selected_retrieval.yaml",
+    "selected_experiment_id": "V2_COHERE_ONLY",
+    "status": "passed"
+  },
+  "status": "passed"
+}

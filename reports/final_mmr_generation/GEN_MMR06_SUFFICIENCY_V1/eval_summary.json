@@ -1,0 +1,43 @@
+{
+  "created_at_utc": "2026-07-14T06:42:18.714450+00:00",
+  "metrics": {
+    "abstention_correctness": {
+      "mean_score": 1.0,
+      "successful_count": 34
+    },
+    "citation_completeness": {
+      "mean_score": 1.0,
+      "successful_count": 16
+    },
+    "citation_correctness": {
+      "mean_score": 0.8823529411764706,
+      "successful_count": 34
+    },
+    "comparative_correctness": {
+      "mean_score": 0.3333333333333333,
+      "successful_count": 18
+    },
+    "contextual_recall": {
+      "mean_score": 0.47058823529411764,
+      "successful_count": 34
+    },
+    "contextual_relevancy": {
+      "mean_score": 0.5735294117647058,
+      "successful_count": 34
+    },
+    "factual_correctness": {
+      "mean_score": 0.8153331682936946,
+      "successful_count": 16
+    },
+    "faithfulness_to_context": {
+      "mean_score": 0.9731204857728691,
+      "successful_count": 34
+    },
+    "temporal_attribution_correctness": {
+      "mean_score": 0.8823529411764706,
+      "successful_count": 34
+    }
+  },
+  "row_count": 34,
+  "schema_version": 1
+}

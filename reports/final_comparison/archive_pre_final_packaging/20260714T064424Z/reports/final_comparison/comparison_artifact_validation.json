@@ -1,0 +1,14 @@
+{
+  "api_keys_serialized": false,
+  "dev_heldout_fresh_status_labelled": true,
+  "generation_rerun": false,
+  "issue_count": 0,
+  "issues": [],
+  "metrics_from_existing_artifacts_or_known_values": true,
+  "missing_metrics_are_null": true,
+  "mrr_and_mmr_distinguished": true,
+  "retrieval_rerun": false,
+  "schema_version": 1,
+  "single_and_multi_metrics_labelled_separately": true,
+  "status": "passed"
+}

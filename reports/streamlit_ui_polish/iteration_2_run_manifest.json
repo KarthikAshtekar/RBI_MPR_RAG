@@ -1,0 +1,83 @@
+{
+  "created_at_utc": "2026-07-14T08:13:19.927507+00:00",
+  "iteration": 2,
+  "port": 53490,
+  "process_returncode_after_stop": 1,
+  "process_returncode_before_stop": null,
+  "requested_port": 8501,
+  "screenshot_manifest": {
+    "browser_status": "screenshots_captured",
+    "created_at_utc": "2026-07-14T08:13:19.927624+00:00",
+    "screenshots": [
+      {
+        "anchor": null,
+        "height": 900,
+        "name": "home_desktop.png",
+        "path": "reports/streamlit_ui_polish/screenshots/iteration_2/home_desktop.png",
+        "width": 1440
+      },
+      {
+        "anchor": "Try a saved demo question",
+        "height": 900,
+        "name": "query_demo_desktop.png",
+        "path": "reports/streamlit_ui_polish/screenshots/iteration_2/query_demo_desktop.png",
+        "width": 1440
+      },
+      {
+        "anchor": "Citations",
+        "height": 900,
+        "name": "answer_citations_desktop.png",
+        "path": "reports/streamlit_ui_polish/screenshots/iteration_2/answer_citations_desktop.png",
+        "width": 1440
+      },
+      {
+        "anchor": "Method comparison",
+        "height": 900,
+        "name": "comparison_desktop.png",
+        "path": "reports/streamlit_ui_polish/screenshots/iteration_2/comparison_desktop.png",
+        "width": 1440
+      },
+      {
+        "anchor": "Limitations",
+        "height": 900,
+        "name": "limitations_desktop.png",
+        "path": "reports/streamlit_ui_polish/screenshots/iteration_2/limitations_desktop.png",
+        "width": 1440
+      },
+      {
+        "anchor": null,
+        "height": 768,
+        "name": "home_1366x768.png",
+        "path": "reports/streamlit_ui_polish/screenshots/iteration_2/home_1366x768.png",
+        "width": 1366
+      },
+      {
+        "anchor": null,
+        "height": 720,
+        "name": "home_1280x720.png",
+        "path": "reports/streamlit_ui_polish/screenshots/iteration_2/home_1280x720.png",
+        "width": 1280
+      },
+      {
+        "anchor": null,
+        "height": 844,
+        "name": "home_mobile.png",
+        "path": "reports/streamlit_ui_polish/screenshots/iteration_2/home_mobile.png",
+        "width": 390
+      },
+      {
+        "full_page": true,
+        "height": 900,
+        "name": "full_page_desktop.png",
+        "path": "reports/streamlit_ui_polish/screenshots/iteration_2/full_page_desktop.png",
+        "width": 1440
+      }
+    ],
+    "url": "http://127.0.0.1:53490",
+    "visible_error_terms": []
+  },
+  "stderr_log": "reports/streamlit_ui_polish/run_logs/iteration_2_streamlit_stderr.log",
+  "stdout_log": "reports/streamlit_ui_polish/run_logs/iteration_2_streamlit_stdout.log",
+  "streamlit_ready": true,
+  "url": "http://127.0.0.1:53490"
+}

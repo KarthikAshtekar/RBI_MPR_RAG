@@ -1,0 +1,3 @@
+# README Validation
+
+Status: `passed`

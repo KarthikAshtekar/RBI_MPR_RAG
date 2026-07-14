@@ -1,0 +1,9 @@
+{
+  "context_ordering": "default",
+  "description": "Reuse existing V2 Cohere retrieval plus sufficiency-gated generation result.",
+  "mode": "reuse_v2_sufficiency",
+  "priority": 0,
+  "prompt_version": "v2_sufficiency_prompt_v1",
+  "retrieval_experiment_id": "V2_COHERE_ONLY",
+  "variant_id": "GEN_V2_COHERE_SUFFICIENCY_V1"
+}

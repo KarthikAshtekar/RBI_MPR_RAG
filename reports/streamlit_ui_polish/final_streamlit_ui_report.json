@@ -1,0 +1,46 @@
+{
+  "before_screenshot_paths": [
+    "reports/streamlit_ui_polish/screenshots/iteration_1/home_desktop.png",
+    "reports/streamlit_ui_polish/screenshots/iteration_1/query_demo_desktop.png",
+    "reports/streamlit_ui_polish/screenshots/iteration_1/answer_citations_desktop.png",
+    "reports/streamlit_ui_polish/screenshots/iteration_1/comparison_desktop.png",
+    "reports/streamlit_ui_polish/screenshots/iteration_1/limitations_desktop.png",
+    "reports/streamlit_ui_polish/screenshots/iteration_1/home_1366x768.png",
+    "reports/streamlit_ui_polish/screenshots/iteration_1/home_1280x720.png",
+    "reports/streamlit_ui_polish/screenshots/iteration_1/home_mobile.png",
+    "reports/streamlit_ui_polish/screenshots/iteration_1/full_page_desktop.png"
+  ],
+  "created_at_utc": "2026-07-14T08:17:59.357821+00:00",
+  "demo_mode_works_without_api_keys": true,
+  "final_rubric_score": 93,
+  "final_screenshot_paths": [
+    "reports/streamlit_ui_polish/screenshots/iteration_3/home_desktop.png",
+    "reports/streamlit_ui_polish/screenshots/iteration_3/query_demo_desktop.png",
+    "reports/streamlit_ui_polish/screenshots/iteration_3/answer_citations_desktop.png",
+    "reports/streamlit_ui_polish/screenshots/iteration_3/comparison_desktop.png",
+    "reports/streamlit_ui_polish/screenshots/iteration_3/limitations_desktop.png",
+    "reports/streamlit_ui_polish/screenshots/iteration_3/home_1366x768.png",
+    "reports/streamlit_ui_polish/screenshots/iteration_3/home_1280x720.png",
+    "reports/streamlit_ui_polish/screenshots/iteration_3/home_mobile.png",
+    "reports/streamlit_ui_polish/screenshots/iteration_3/full_page_desktop.png"
+  ],
+  "iterations_completed": 3,
+  "live_mode_exists": false,
+  "major_issues_fixed": [
+    "answer/citation section moved above fold beside query controls",
+    "raw JSON/dataframe-heavy presentation removed from main flow",
+    "citations grouped by report period",
+    "limitations and development-only status made visible",
+    "screenshot automation fixed for Streamlit scroll behavior"
+  ],
+  "mobile_layout_acceptable": true,
+  "remaining_limitations": [
+    "mobile requires scrolling to reach demo answer",
+    "Streamlit default Deploy/menu controls remain visible",
+    "live generation mode is not implemented in the UI"
+  ],
+  "run_command": "streamlit run streamlit_app.py --server.port 8501 --server.headless true",
+  "schema_version": 1,
+  "tests_passed": "115 passed, 1 warning",
+  "validation_status": "passed"
+}

@@ -1,0 +1,35 @@
+{
+  "behavior_counts": {
+    "abstain": 4,
+    "answer": 16,
+    "answer_with_caveat": 14
+  },
+  "context_ordering": "page_order",
+  "created_at_utc": "2026-07-14T06:41:24.500716+00:00",
+  "experiment_id": "GEN_MMR06_SUFFICIENCY_V1",
+  "generation_failure_count": 0,
+  "generation_success_count": 34,
+  "hard_gate_abstention_count": 4,
+  "mean_generation_latency_ms": 24277.16173823437,
+  "median_generation_latency_ms": 25053.172150001046,
+  "model_name": "llama-3.1-8b-instant",
+  "model_provider": "Groq",
+  "prompt_version": "v2_sufficiency_prompt_v1",
+  "reason": null,
+  "retrieval_experiment_id": "MMR_LAMBDA_06",
+  "retrieval_source": "MMR_LAMBDA_06",
+  "reuse_source": "reports\\final_mmr_generation\\GEN_MMR06_SUFFICIENCY_V1\\raw_results.json",
+  "row_count": 34,
+  "schema_version": 1,
+  "split": "dev",
+  "status": "completed_reused",
+  "success_rate": 1.0,
+  "sufficiency_gate_enabled": true,
+  "sufficiency_status_counts": {
+    "insufficient": 4,
+    "partially_sufficient": 14,
+    "sufficient": 16
+  },
+  "temperature": 0.0,
+  "variant_id": "GEN_MMR06_SUFFICIENCY_V1"
+}

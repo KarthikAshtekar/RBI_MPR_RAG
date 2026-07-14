@@ -1,0 +1,9 @@
+{
+  "context_ordering": "page_order",
+  "description": "Generate with strict comparative prompt.",
+  "mode": "live_generation",
+  "priority": 6,
+  "prompt_version": "comparative_strict_prompt_v1",
+  "retrieval_experiment_id": "MMR_LAMBDA_06",
+  "variant_id": "GEN_MMR06_COMPARATIVE_STRICT_PROMPT_V1"
+}

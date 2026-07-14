@@ -1,0 +1,9 @@
+{
+  "context_ordering": "page_order",
+  "description": "Reuse existing MMR lambda 0.6 plus sufficiency-gated generation result.",
+  "mode": "reuse_mmr_generation",
+  "priority": 0,
+  "prompt_version": "v2_sufficiency_prompt_v1",
+  "retrieval_experiment_id": "MMR_LAMBDA_06",
+  "variant_id": "GEN_MMR06_SUFFICIENCY_V1"
+}

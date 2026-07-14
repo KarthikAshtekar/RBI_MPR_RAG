@@ -1,0 +1,11 @@
+{
+  "context_ordering": "page_order",
+  "created_at_utc": "2026-07-14T07:29:13.475342+00:00",
+  "mean_estimated_token_count": 1797.3823529411766,
+  "mean_unique_page_count": 6.882352941176471,
+  "retrieval_experiment_id": "MMR_LAMBDA_06",
+  "row_count": 34,
+  "schema_version": 1,
+  "variant_id": "GEN_MMR06_SUFFICIENCY_V1",
+  "warning_count": 0
+}

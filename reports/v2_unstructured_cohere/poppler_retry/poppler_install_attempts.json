@@ -1,0 +1,29 @@
+{
+  "attempts": [
+    {
+      "found_bin": "C:\\Users\\karth\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oschwartz10612.Poppler_Microsoft.Winget.Source_8wekyb3d8bbwe\\poppler-25.07.0\\Library\\bin",
+      "method": "search_existing_install",
+      "searched_roots": [
+        "C:\\ProgramData\\chocolatey\\lib\\poppler",
+        "C:\\ProgramData\\chocolatey\\bin",
+        "C:\\Program Files\\poppler",
+        "C:\\Program Files (x86)\\poppler",
+        "C:\\Users\\karth\\scoop\\apps\\poppler",
+        "C:\\Users\\karth\\AppData\\Local\\Microsoft\\WinGet\\Packages",
+        "C:\\Users\\karth\\AppData\\Local\\Microsoft\\WinGet\\Links",
+        "C:\\Users\\karth\\AppData\\Local\\Microsoft\\WindowsApps",
+        "C:\\tools\\poppler",
+        "D:\\PGDBA\\Projects\\RBI Rag Project-20260712T174124Z-2-001\\RBI Rag Project\\tools\\poppler"
+      ],
+      "success": true
+    }
+  ],
+  "blocked_reason": null,
+  "checksum_entry_count": 169,
+  "configured_bin": "C:\\Users\\karth\\AppData\\Local\\Microsoft\\WinGet\\Packages\\oschwartz10612.Poppler_Microsoft.Winget.Source_8wekyb3d8bbwe\\poppler-25.07.0\\Library\\bin",
+  "created_at_utc": "2026-07-13T23:30:24.637476+00:00",
+  "manual_installation_instructions": [],
+  "method": "configured_existing_install",
+  "schema_version": 1,
+  "status": "ready"
+}

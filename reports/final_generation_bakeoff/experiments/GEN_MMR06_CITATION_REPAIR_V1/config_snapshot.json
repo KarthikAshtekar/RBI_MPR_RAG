@@ -1,0 +1,9 @@
+{
+  "context_ordering": "page_order",
+  "description": "Deterministically repair invalid citations in the existing MMR06 answer set.",
+  "mode": "citation_repair",
+  "priority": 7,
+  "prompt_version": "deterministic_citation_repair_v1",
+  "retrieval_experiment_id": "MMR_LAMBDA_06",
+  "variant_id": "GEN_MMR06_CITATION_REPAIR_V1"
+}

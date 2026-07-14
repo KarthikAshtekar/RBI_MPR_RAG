@@ -1,0 +1,56 @@
+# V2 Category Results
+
+- V2_BASELINE_FINAL / query_type=pairwise_comparison: CER=0.25, Hit=0.3333333333333333, Evidence=0.4583333333333333, MRR=0.3819444444444444
+- V2_BASELINE_FINAL / query_type=single_report: CER=0.5833333333333334, Hit=0.5833333333333334, Evidence=0.5833333333333334, MRR=0.3680555555555556
+- V2_BASELINE_FINAL / query_type=trend_all_reports: CER=0.16666666666666666, Hit=0.16666666666666666, Evidence=0.4444444444444444, MRR=0.26851851851851855
+- V2_BASELINE_FINAL / query_type=unsupported_period: CER=None, Hit=None, Evidence=None, MRR=None
+- V2_BASELINE_FINAL / question_structure=single_facet: CER=0.36666666666666664, Hit=0.4, Evidence=0.5055555555555555, MRR=0.3537037037037037
+- V2_BASELINE_FINAL / report_pair=April 2025 vs April 2026: CER=0.0, Hit=0.0, Evidence=0.25, MRR=0.25
+- V2_BASELINE_FINAL / report_pair=April 2025 vs October 2025: CER=0.5, Hit=0.75, Evidence=0.75, MRR=0.5416666666666666
+- V2_BASELINE_FINAL / report_pair=April 2026: CER=0.3333333333333333, Hit=0.3333333333333333, Evidence=0.3333333333333333, MRR=0.13888888888888887
+- V2_BASELINE_FINAL / report_pair=October 2025: CER=0.8333333333333334, Hit=0.8333333333333334, Evidence=0.8333333333333334, MRR=0.5972222222222222
+- V2_BASELINE_FINAL / report_pair=October 2025 vs April 2026: CER=0.25, Hit=0.25, Evidence=0.375, MRR=0.3541666666666667
+- V2_BASELINE_FINAL / report_pair=all three reports: CER=0.16666666666666666, Hit=0.16666666666666666, Evidence=0.4444444444444444, MRR=0.26851851851851855
+- V2_BASELINE_FINAL / report_pair=unsupported: CER=None, Hit=None, Evidence=None, MRR=None
+- V2_BASELINE_FINAL / source_structure=chart_or_figure: CER=0.0, Hit=0.0, Evidence=0.0, MRR=0.0
+- V2_BASELINE_FINAL / source_structure=mixed: CER=0.2, Hit=0.4, Evidence=0.3, MRR=0.2
+- V2_BASELINE_FINAL / source_structure=narrative: CER=0.5, Hit=0.5, Evidence=0.625, MRR=0.4053819444444444
+- V2_BASELINE_FINAL / source_structure=table: CER=0.25, Hit=0.25, Evidence=0.4583333333333333, MRR=0.390625
+- V2_BASELINE_FINAL / table_or_numeric_questions=False: CER=0.6, Hit=0.6, Evidence=0.7, MRR=0.5111111111111111
+- V2_BASELINE_FINAL / table_or_numeric_questions=True: CER=0.25, Hit=0.3, Evidence=0.4083333333333333, MRR=0.275
+- V2_BASELINE_FINAL / topic=commodity_assumptions: CER=0.4, Hit=0.4, Evidence=0.6333333333333333, MRR=0.6
+- V2_BASELINE_FINAL / topic=core_inflation: CER=0.5, Hit=0.5, Evidence=0.5, MRR=0.16666666666666666
+- V2_BASELINE_FINAL / topic=fiscal_borrowing: CER=0.8, Hit=0.8, Evidence=0.9, MRR=0.6888888888888889
+- V2_BASELINE_FINAL / topic=food_inflation: CER=0.6, Hit=0.6, Evidence=0.7666666666666667, MRR=0.4083333333333333
+- V2_BASELINE_FINAL / topic=global_growth: CER=0.0, Hit=0.0, Evidence=0.1, MRR=0.025
+- V2_BASELINE_FINAL / topic=growth_outlook: CER=0.0, Hit=0.0, Evidence=0.0, MRR=0.0
+- V2_BASELINE_FINAL / topic=inflation_outlook: CER=0.0, Hit=0.0, Evidence=0.0, MRR=0.0
+- V2_BASELINE_FINAL / topic=monetary_policy: CER=0.16666666666666666, Hit=0.3333333333333333, Evidence=0.3611111111111111, MRR=0.2777777777777778
+- V2_BASELINE_FINAL / topic=unsupported: CER=None, Hit=None, Evidence=None, MRR=None
+- V2_COHERE_ONLY / query_type=pairwise_comparison: CER=0.25, Hit=0.3333333333333333, Evidence=0.5, MRR=0.3347222222222222
+- V2_COHERE_ONLY / query_type=single_report: CER=0.75, Hit=0.75, Evidence=0.75, MRR=0.548611111111111
+- V2_COHERE_ONLY / query_type=trend_all_reports: CER=0.3333333333333333, Hit=0.3333333333333333, Evidence=0.5, MRR=0.3101851851851852
+- V2_COHERE_ONLY / query_type=unsupported_period: CER=None, Hit=None, Evidence=None, MRR=None
+- V2_COHERE_ONLY / question_structure=single_facet: CER=0.4666666666666667, Hit=0.5, Evidence=0.6, MRR=0.41537037037037033
+- V2_COHERE_ONLY / report_pair=April 2025 vs April 2026: CER=0.0, Hit=0.0, Evidence=0.25, MRR=0.16666666666666666
+- V2_COHERE_ONLY / report_pair=April 2025 vs October 2025: CER=0.5, Hit=0.75, Evidence=0.75, MRR=0.5666666666666667
+- V2_COHERE_ONLY / report_pair=April 2026: CER=0.5, Hit=0.5, Evidence=0.5, MRR=0.2916666666666667
+- V2_COHERE_ONLY / report_pair=October 2025: CER=1.0, Hit=1.0, Evidence=1.0, MRR=0.8055555555555555
+- V2_COHERE_ONLY / report_pair=October 2025 vs April 2026: CER=0.25, Hit=0.25, Evidence=0.5, MRR=0.2708333333333333
+- V2_COHERE_ONLY / report_pair=all three reports: CER=0.3333333333333333, Hit=0.3333333333333333, Evidence=0.5, MRR=0.3101851851851852
+- V2_COHERE_ONLY / report_pair=unsupported: CER=None, Hit=None, Evidence=None, MRR=None
+- V2_COHERE_ONLY / source_structure=chart_or_figure: CER=0.0, Hit=0.0, Evidence=0.0, MRR=0.0
+- V2_COHERE_ONLY / source_structure=mixed: CER=0.4, Hit=0.6, Evidence=0.5, MRR=0.16999999999999998
+- V2_COHERE_ONLY / source_structure=narrative: CER=0.5625, Hit=0.5625, Evidence=0.6458333333333334, MRR=0.4496527777777778
+- V2_COHERE_ONLY / source_structure=table: CER=0.375, Hit=0.375, Evidence=0.6458333333333334, MRR=0.5520833333333334
+- V2_COHERE_ONLY / table_or_numeric_questions=False: CER=0.6, Hit=0.6, Evidence=0.7, MRR=0.5125
+- V2_COHERE_ONLY / table_or_numeric_questions=True: CER=0.4, Hit=0.45, Evidence=0.55, MRR=0.36680555555555555
+- V2_COHERE_ONLY / topic=commodity_assumptions: CER=0.4, Hit=0.4, Evidence=0.6333333333333333, MRR=0.6
+- V2_COHERE_ONLY / topic=core_inflation: CER=0.5, Hit=0.5, Evidence=0.5, MRR=0.25
+- V2_COHERE_ONLY / topic=fiscal_borrowing: CER=0.8, Hit=0.8, Evidence=0.9, MRR=0.6
+- V2_COHERE_ONLY / topic=food_inflation: CER=0.4, Hit=0.4, Evidence=0.5666666666666667, MRR=0.4083333333333333
+- V2_COHERE_ONLY / topic=global_growth: CER=0.4, Hit=0.4, Evidence=0.6, MRR=0.4833333333333333
+- V2_COHERE_ONLY / topic=growth_outlook: CER=0.0, Hit=0.0, Evidence=0.0, MRR=0.0
+- V2_COHERE_ONLY / topic=inflation_outlook: CER=0.0, Hit=0.0, Evidence=0.0, MRR=0.0
+- V2_COHERE_ONLY / topic=monetary_policy: CER=0.5, Hit=0.6666666666666666, Evidence=0.5833333333333334, MRR=0.25046296296296294
+- V2_COHERE_ONLY / topic=unsupported: CER=None, Hit=None, Evidence=None, MRR=None

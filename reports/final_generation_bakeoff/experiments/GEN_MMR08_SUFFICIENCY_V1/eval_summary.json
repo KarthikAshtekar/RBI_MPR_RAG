@@ -1,0 +1,8 @@
+{
+  "created_at_utc": "2026-07-14T07:45:30.046000+00:00",
+  "metrics": {},
+  "reason": "skipped_after_mmr07_to_keep_final_bakeoff_within_bounded_generation_time_and_cost",
+  "schema_version": 1,
+  "status": "skipped",
+  "variant_id": "GEN_MMR08_SUFFICIENCY_V1"
+}

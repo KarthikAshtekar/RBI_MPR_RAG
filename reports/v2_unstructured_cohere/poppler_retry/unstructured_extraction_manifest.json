@@ -1,0 +1,28 @@
+{
+  "attempts": {
+    "rbi_mpr_2025_04": [
+      {
+        "element_count": 0,
+        "error_message": "Unstructured returned zero text elements.",
+        "error_type": "EmptyExtraction",
+        "infer_table_structure": false,
+        "strategy": "fast",
+        "success": false
+      },
+      {
+        "error_message": "OCR fallback was skipped because tesseract is not installed or not on PATH.",
+        "error_type": "OCRUnavailable",
+        "infer_table_structure": false,
+        "strategy": "ocr_only",
+        "success": false
+      }
+    ]
+  },
+  "created_at_utc": "2026-07-13T23:33:01.314319+00:00",
+  "limitation": "Unstructured extraction was not executed; no chart/table values are fabricated.",
+  "ocr_available": false,
+  "reason": "Unstructured extraction failed for rbi_mpr_2025_04: OCRUnavailable: OCR fallback was skipped because tesseract is not installed or not on PATH.",
+  "reports": {},
+  "schema_version": 1,
+  "status": "blocked"
+}

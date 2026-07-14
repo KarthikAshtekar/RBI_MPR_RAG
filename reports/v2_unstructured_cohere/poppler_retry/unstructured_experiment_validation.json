@@ -1,0 +1,24 @@
+{
+  "blockers": [
+    "V2_UNSTRUCTURED_COHERE:skipped:RuntimeError: Unstructured extraction failed for rbi_mpr_2025_04: OCRUnavailable: OCR fallback was skipped because tesseract is not installed or not on PATH.",
+    "V2_UNSTRUCTURED_ONLY:skipped:RuntimeError: Unstructured extraction failed for rbi_mpr_2025_04: OCRUnavailable: OCR fallback was skipped because tesseract is not installed or not on PATH."
+  ],
+  "checks": [
+    {
+      "experiment_id": "V2_UNSTRUCTURED_ONLY",
+      "issue_count": 0,
+      "row_count": 0,
+      "status": "skipped"
+    },
+    {
+      "experiment_id": "V2_UNSTRUCTURED_COHERE",
+      "issue_count": 0,
+      "row_count": 0,
+      "status": "skipped"
+    }
+  ],
+  "issue_count": 0,
+  "issues": [],
+  "schema_version": 1,
+  "status": "blocked"
+}

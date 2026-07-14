@@ -1,0 +1,9 @@
+{
+  "context_ordering": "page_order",
+  "description": "Generate with evidence-by-report-first prompt.",
+  "mode": "live_generation",
+  "priority": 5,
+  "prompt_version": "evidence_first_prompt_v1",
+  "retrieval_experiment_id": "MMR_LAMBDA_06",
+  "variant_id": "GEN_MMR06_EVIDENCE_FIRST_PROMPT_V1"
+}

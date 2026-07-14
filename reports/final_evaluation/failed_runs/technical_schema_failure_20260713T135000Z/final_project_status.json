@@ -1,0 +1,9 @@
+{
+  "created_at_utc": "2026-07-13T13:48:49Z",
+  "failure_reason": "heldout_retrieval_integrity_failed",
+  "generation_evaluation_run": false,
+  "heldout_integrity_issue_count": 14,
+  "heldout_retrieval_run": true,
+  "schema_version": 1,
+  "status": "heldout_retrieval_failed_generation_not_run"
+}

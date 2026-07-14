@@ -1,0 +1,2840 @@
+[
+  {
+    "generation_success": true,
+    "metrics": {
+      "abstention_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "citation_completeness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "citation_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "comparative_correctness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "contextual_recall": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "contextual_relevancy": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "factual_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "faithfulness_to_context": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "temporal_attribution_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      }
+    },
+    "query_type": "single_report",
+    "question_id": "oct_dev_001",
+    "required_report_ids": [
+      "rbi_mpr_2025_10"
+    ],
+    "split": "dev"
+  },
+  {
+    "generation_success": true,
+    "metrics": {
+      "abstention_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "citation_completeness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "citation_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "comparative_correctness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "contextual_recall": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "contextual_relevancy": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "factual_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.8571428571428571,
+        "success": true
+      },
+      "faithfulness_to_context": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.9333333333333333,
+        "success": true
+      },
+      "temporal_attribution_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      }
+    },
+    "query_type": "single_report",
+    "question_id": "oct_dev_002",
+    "required_report_ids": [
+      "rbi_mpr_2025_10"
+    ],
+    "split": "dev"
+  },
+  {
+    "generation_success": true,
+    "metrics": {
+      "abstention_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "citation_completeness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "citation_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "comparative_correctness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "contextual_recall": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "contextual_relevancy": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "factual_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.42857142857142855,
+        "success": true
+      },
+      "faithfulness_to_context": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.8125,
+        "success": true
+      },
+      "temporal_attribution_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      }
+    },
+    "query_type": "single_report",
+    "question_id": "oct_dev_003",
+    "required_report_ids": [
+      "rbi_mpr_2025_10"
+    ],
+    "split": "dev"
+  },
+  {
+    "generation_success": true,
+    "metrics": {
+      "abstention_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "citation_completeness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "citation_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "comparative_correctness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "contextual_recall": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "contextual_relevancy": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "factual_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.75,
+        "success": true
+      },
+      "faithfulness_to_context": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.8823529411764706,
+        "success": true
+      },
+      "temporal_attribution_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      }
+    },
+    "query_type": "single_report",
+    "question_id": "oct_dev_004",
+    "required_report_ids": [
+      "rbi_mpr_2025_10"
+    ],
+    "split": "dev"
+  },
+  {
+    "generation_success": true,
+    "metrics": {
+      "abstention_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "citation_completeness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "citation_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "comparative_correctness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "contextual_recall": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "contextual_relevancy": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "factual_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "faithfulness_to_context": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.8571428571428571,
+        "success": true
+      },
+      "temporal_attribution_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      }
+    },
+    "query_type": "single_report",
+    "question_id": "oct_dev_005",
+    "required_report_ids": [
+      "rbi_mpr_2025_10"
+    ],
+    "split": "dev"
+  },
+  {
+    "generation_success": true,
+    "metrics": {
+      "abstention_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "citation_completeness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "citation_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "comparative_correctness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "contextual_recall": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "contextual_relevancy": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "factual_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.9090909090909091,
+        "success": true
+      },
+      "faithfulness_to_context": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.8947368421052632,
+        "success": true
+      },
+      "temporal_attribution_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      }
+    },
+    "query_type": "single_report",
+    "question_id": "oct_dev_006",
+    "required_report_ids": [
+      "rbi_mpr_2025_10"
+    ],
+    "split": "dev"
+  },
+  {
+    "generation_success": true,
+    "metrics": {
+      "abstention_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "citation_completeness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "citation_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "comparative_correctness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "contextual_recall": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      },
+      "contextual_relevancy": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      },
+      "factual_correctness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "faithfulness_to_context": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "temporal_attribution_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      }
+    },
+    "query_type": "single_report",
+    "question_id": "apr26_dev_001",
+    "required_report_ids": [
+      "rbi_mpr_2026_04"
+    ],
+    "split": "dev"
+  },
+  {
+    "generation_success": true,
+    "metrics": {
+      "abstention_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "citation_completeness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "citation_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "comparative_correctness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "contextual_recall": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "contextual_relevancy": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "factual_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.8,
+        "success": true
+      },
+      "faithfulness_to_context": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "temporal_attribution_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      }
+    },
+    "query_type": "single_report",
+    "question_id": "apr26_dev_002",
+    "required_report_ids": [
+      "rbi_mpr_2026_04"
+    ],
+    "split": "dev"
+  },
+  {
+    "generation_success": true,
+    "metrics": {
+      "abstention_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "citation_completeness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "citation_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "comparative_correctness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "contextual_recall": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      },
+      "contextual_relevancy": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      },
+      "factual_correctness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "faithfulness_to_context": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "temporal_attribution_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      }
+    },
+    "query_type": "single_report",
+    "question_id": "apr26_dev_003",
+    "required_report_ids": [
+      "rbi_mpr_2026_04"
+    ],
+    "split": "dev"
+  },
+  {
+    "generation_success": true,
+    "metrics": {
+      "abstention_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "citation_completeness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "citation_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "comparative_correctness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "contextual_recall": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      },
+      "contextual_relevancy": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      },
+      "factual_correctness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "faithfulness_to_context": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "temporal_attribution_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      }
+    },
+    "query_type": "single_report",
+    "question_id": "apr26_dev_004",
+    "required_report_ids": [
+      "rbi_mpr_2026_04"
+    ],
+    "split": "dev"
+  },
+  {
+    "generation_success": true,
+    "metrics": {
+      "abstention_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "citation_completeness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "citation_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "comparative_correctness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "contextual_recall": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "contextual_relevancy": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "factual_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.9090909090909091,
+        "success": true
+      },
+      "faithfulness_to_context": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "temporal_attribution_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      }
+    },
+    "query_type": "single_report",
+    "question_id": "apr26_dev_005",
+    "required_report_ids": [
+      "rbi_mpr_2026_04"
+    ],
+    "split": "dev"
+  },
+  {
+    "generation_success": true,
+    "metrics": {
+      "abstention_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "citation_completeness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "citation_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "comparative_correctness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "contextual_recall": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "contextual_relevancy": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "factual_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.6153846153846154,
+        "success": true
+      },
+      "faithfulness_to_context": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "temporal_attribution_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      }
+    },
+    "query_type": "single_report",
+    "question_id": "apr26_dev_006",
+    "required_report_ids": [
+      "rbi_mpr_2026_04"
+    ],
+    "split": "dev"
+  },
+  {
+    "generation_success": true,
+    "metrics": {
+      "abstention_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "citation_completeness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "citation_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "comparative_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "contextual_recall": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "contextual_relevancy": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "factual_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.55,
+        "success": true
+      },
+      "faithfulness_to_context": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.9529411764705882,
+        "success": true
+      },
+      "temporal_attribution_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      }
+    },
+    "query_type": "pairwise_comparison",
+    "question_id": "cmp_dev_001",
+    "required_report_ids": [
+      "rbi_mpr_2025_04",
+      "rbi_mpr_2025_10"
+    ],
+    "split": "dev"
+  },
+  {
+    "generation_success": true,
+    "metrics": {
+      "abstention_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "citation_completeness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "citation_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "comparative_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      },
+      "contextual_recall": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      },
+      "contextual_relevancy": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.5,
+        "success": true
+      },
+      "factual_correctness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "faithfulness_to_context": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "temporal_attribution_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      }
+    },
+    "query_type": "pairwise_comparison",
+    "question_id": "cmp_dev_002",
+    "required_report_ids": [
+      "rbi_mpr_2025_04",
+      "rbi_mpr_2025_10"
+    ],
+    "split": "dev"
+  },
+  {
+    "generation_success": true,
+    "metrics": {
+      "abstention_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "citation_completeness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "citation_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "comparative_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "contextual_recall": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "contextual_relevancy": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "factual_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.8888888888888888,
+        "success": true
+      },
+      "faithfulness_to_context": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.96875,
+        "success": true
+      },
+      "temporal_attribution_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      }
+    },
+    "query_type": "pairwise_comparison",
+    "question_id": "cmp_dev_003",
+    "required_report_ids": [
+      "rbi_mpr_2025_04",
+      "rbi_mpr_2025_10"
+    ],
+    "split": "dev"
+  },
+  {
+    "generation_success": true,
+    "metrics": {
+      "abstention_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "citation_completeness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "citation_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "comparative_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      },
+      "contextual_recall": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      },
+      "contextual_relevancy": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.5,
+        "success": true
+      },
+      "factual_correctness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "faithfulness_to_context": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "temporal_attribution_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      }
+    },
+    "query_type": "pairwise_comparison",
+    "question_id": "cmp_dev_004",
+    "required_report_ids": [
+      "rbi_mpr_2025_04",
+      "rbi_mpr_2025_10"
+    ],
+    "split": "dev"
+  },
+  {
+    "generation_success": true,
+    "metrics": {
+      "abstention_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "citation_completeness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "citation_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "comparative_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      },
+      "contextual_recall": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      },
+      "contextual_relevancy": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.5,
+        "success": true
+      },
+      "factual_correctness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "faithfulness_to_context": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "temporal_attribution_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      }
+    },
+    "query_type": "pairwise_comparison",
+    "question_id": "cmp_dev_005",
+    "required_report_ids": [
+      "rbi_mpr_2025_10",
+      "rbi_mpr_2026_04"
+    ],
+    "split": "dev"
+  },
+  {
+    "generation_success": true,
+    "metrics": {
+      "abstention_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "citation_completeness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "citation_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "comparative_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      },
+      "contextual_recall": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      },
+      "contextual_relevancy": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      },
+      "factual_correctness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "faithfulness_to_context": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "temporal_attribution_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      }
+    },
+    "query_type": "pairwise_comparison",
+    "question_id": "cmp_dev_006",
+    "required_report_ids": [
+      "rbi_mpr_2025_10",
+      "rbi_mpr_2026_04"
+    ],
+    "split": "dev"
+  },
+  {
+    "generation_success": true,
+    "metrics": {
+      "abstention_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "citation_completeness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "citation_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "comparative_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      },
+      "contextual_recall": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      },
+      "contextual_relevancy": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.5,
+        "success": true
+      },
+      "factual_correctness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "faithfulness_to_context": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "temporal_attribution_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      }
+    },
+    "query_type": "pairwise_comparison",
+    "question_id": "cmp_dev_007",
+    "required_report_ids": [
+      "rbi_mpr_2025_10",
+      "rbi_mpr_2026_04"
+    ],
+    "split": "dev"
+  },
+  {
+    "generation_success": true,
+    "metrics": {
+      "abstention_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "citation_completeness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "citation_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "comparative_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "contextual_recall": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "contextual_relevancy": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "factual_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.8947368421052632,
+        "success": true
+      },
+      "faithfulness_to_context": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.9629629629629629,
+        "success": true
+      },
+      "temporal_attribution_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      }
+    },
+    "query_type": "pairwise_comparison",
+    "question_id": "cmp_dev_008",
+    "required_report_ids": [
+      "rbi_mpr_2025_10",
+      "rbi_mpr_2026_04"
+    ],
+    "split": "dev"
+  },
+  {
+    "generation_success": true,
+    "metrics": {
+      "abstention_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "citation_completeness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "citation_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "comparative_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      },
+      "contextual_recall": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      },
+      "contextual_relevancy": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      },
+      "factual_correctness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "faithfulness_to_context": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "temporal_attribution_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      }
+    },
+    "query_type": "pairwise_comparison",
+    "question_id": "cmp_dev_009",
+    "required_report_ids": [
+      "rbi_mpr_2025_04",
+      "rbi_mpr_2026_04"
+    ],
+    "split": "dev"
+  },
+  {
+    "generation_success": true,
+    "metrics": {
+      "abstention_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "citation_completeness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "citation_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "comparative_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      },
+      "contextual_recall": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      },
+      "contextual_relevancy": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      },
+      "factual_correctness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "faithfulness_to_context": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "temporal_attribution_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      }
+    },
+    "query_type": "pairwise_comparison",
+    "question_id": "cmp_dev_010",
+    "required_report_ids": [
+      "rbi_mpr_2025_04",
+      "rbi_mpr_2026_04"
+    ],
+    "split": "dev"
+  },
+  {
+    "generation_success": true,
+    "metrics": {
+      "abstention_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "citation_completeness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "citation_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "comparative_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      },
+      "contextual_recall": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      },
+      "contextual_relevancy": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.5,
+        "success": true
+      },
+      "factual_correctness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "faithfulness_to_context": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "temporal_attribution_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      }
+    },
+    "query_type": "pairwise_comparison",
+    "question_id": "cmp_dev_011",
+    "required_report_ids": [
+      "rbi_mpr_2025_04",
+      "rbi_mpr_2026_04"
+    ],
+    "split": "dev"
+  },
+  {
+    "generation_success": true,
+    "metrics": {
+      "abstention_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "citation_completeness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "citation_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "comparative_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      },
+      "contextual_recall": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      },
+      "contextual_relevancy": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.5,
+        "success": true
+      },
+      "factual_correctness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "faithfulness_to_context": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "temporal_attribution_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      }
+    },
+    "query_type": "pairwise_comparison",
+    "question_id": "cmp_dev_012",
+    "required_report_ids": [
+      "rbi_mpr_2025_04",
+      "rbi_mpr_2026_04"
+    ],
+    "split": "dev"
+  },
+  {
+    "generation_success": true,
+    "metrics": {
+      "abstention_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "citation_completeness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "citation_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "comparative_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      },
+      "contextual_recall": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      },
+      "contextual_relevancy": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.3333333333333333,
+        "success": true
+      },
+      "factual_correctness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "faithfulness_to_context": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "temporal_attribution_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      }
+    },
+    "query_type": "trend_all_reports",
+    "question_id": "trend_dev_001",
+    "required_report_ids": [
+      "rbi_mpr_2025_04",
+      "rbi_mpr_2025_10",
+      "rbi_mpr_2026_04"
+    ],
+    "split": "dev"
+  },
+  {
+    "generation_success": true,
+    "metrics": {
+      "abstention_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "citation_completeness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "citation_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "comparative_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      },
+      "contextual_recall": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      },
+      "contextual_relevancy": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      },
+      "factual_correctness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "faithfulness_to_context": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "temporal_attribution_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      }
+    },
+    "query_type": "trend_all_reports",
+    "question_id": "trend_dev_002",
+    "required_report_ids": [
+      "rbi_mpr_2025_04",
+      "rbi_mpr_2025_10",
+      "rbi_mpr_2026_04"
+    ],
+    "split": "dev"
+  },
+  {
+    "generation_success": true,
+    "metrics": {
+      "abstention_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "citation_completeness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "citation_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "comparative_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      },
+      "contextual_recall": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      },
+      "contextual_relevancy": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.6666666666666666,
+        "success": true
+      },
+      "factual_correctness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "faithfulness_to_context": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "temporal_attribution_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      }
+    },
+    "query_type": "trend_all_reports",
+    "question_id": "trend_dev_003",
+    "required_report_ids": [
+      "rbi_mpr_2025_04",
+      "rbi_mpr_2025_10",
+      "rbi_mpr_2026_04"
+    ],
+    "split": "dev"
+  },
+  {
+    "generation_success": true,
+    "metrics": {
+      "abstention_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "citation_completeness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "citation_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "comparative_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      },
+      "contextual_recall": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      },
+      "contextual_relevancy": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      },
+      "factual_correctness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "faithfulness_to_context": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "temporal_attribution_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      }
+    },
+    "query_type": "trend_all_reports",
+    "question_id": "trend_dev_004",
+    "required_report_ids": [
+      "rbi_mpr_2025_04",
+      "rbi_mpr_2025_10",
+      "rbi_mpr_2026_04"
+    ],
+    "split": "dev"
+  },
+  {
+    "generation_success": true,
+    "metrics": {
+      "abstention_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "citation_completeness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "citation_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "comparative_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "contextual_recall": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "contextual_relevancy": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "factual_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "faithfulness_to_context": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.9487179487179487,
+        "success": true
+      },
+      "temporal_attribution_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      }
+    },
+    "query_type": "trend_all_reports",
+    "question_id": "trend_dev_005",
+    "required_report_ids": [
+      "rbi_mpr_2025_04",
+      "rbi_mpr_2025_10",
+      "rbi_mpr_2026_04"
+    ],
+    "split": "dev"
+  },
+  {
+    "generation_success": true,
+    "metrics": {
+      "abstention_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "citation_completeness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "citation_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "comparative_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "contextual_recall": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "contextual_relevancy": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "factual_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.5333333333333333,
+        "success": true
+      },
+      "faithfulness_to_context": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.9761904761904762,
+        "success": true
+      },
+      "temporal_attribution_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      }
+    },
+    "query_type": "trend_all_reports",
+    "question_id": "trend_dev_006",
+    "required_report_ids": [
+      "rbi_mpr_2025_04",
+      "rbi_mpr_2025_10",
+      "rbi_mpr_2026_04"
+    ],
+    "split": "dev"
+  },
+  {
+    "generation_success": true,
+    "metrics": {
+      "abstention_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "citation_completeness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "citation_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      },
+      "comparative_correctness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "contextual_recall": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      },
+      "contextual_relevancy": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      },
+      "factual_correctness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "faithfulness_to_context": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "temporal_attribution_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      }
+    },
+    "query_type": "unsupported_period",
+    "question_id": "unsupported_dev_001",
+    "required_report_ids": [],
+    "split": "dev"
+  },
+  {
+    "generation_success": true,
+    "metrics": {
+      "abstention_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "citation_completeness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "citation_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      },
+      "comparative_correctness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "contextual_recall": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      },
+      "contextual_relevancy": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      },
+      "factual_correctness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "faithfulness_to_context": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "temporal_attribution_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      }
+    },
+    "query_type": "unsupported_period",
+    "question_id": "unsupported_dev_002",
+    "required_report_ids": [],
+    "split": "dev"
+  },
+  {
+    "generation_success": true,
+    "metrics": {
+      "abstention_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "citation_completeness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "citation_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      },
+      "comparative_correctness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "contextual_recall": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      },
+      "contextual_relevancy": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      },
+      "factual_correctness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "faithfulness_to_context": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "temporal_attribution_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      }
+    },
+    "query_type": "unsupported_period",
+    "question_id": "unsupported_dev_003",
+    "required_report_ids": [],
+    "split": "dev"
+  },
+  {
+    "generation_success": true,
+    "metrics": {
+      "abstention_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "citation_completeness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "citation_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      },
+      "comparative_correctness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "contextual_recall": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      },
+      "contextual_relevancy": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      },
+      "factual_correctness": {
+        "applicable": false,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": null,
+        "success": true
+      },
+      "faithfulness_to_context": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 1.0,
+        "success": true
+      },
+      "temporal_attribution_correctness": {
+        "applicable": true,
+        "error_message": null,
+        "error_type": null,
+        "method": "deterministic_heuristic",
+        "score": 0.0,
+        "success": true
+      }
+    },
+    "query_type": "unsupported_period",
+    "question_id": "unsupported_dev_004",
+    "required_report_ids": [],
+    "split": "dev"
+  }
+]

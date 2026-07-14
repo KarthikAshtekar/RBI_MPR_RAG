@@ -1,0 +1,74 @@
+{
+  "abstention_correctness": {
+    "applicable_rows": 34,
+    "coverage": 1.0,
+    "failed_evaluations": 0,
+    "not_applicable": 0,
+    "successful_evaluations": 34,
+    "total_rows": 34
+  },
+  "citation_completeness": {
+    "applicable_rows": 15,
+    "coverage": 1.0,
+    "failed_evaluations": 0,
+    "not_applicable": 19,
+    "successful_evaluations": 15,
+    "total_rows": 34
+  },
+  "citation_correctness": {
+    "applicable_rows": 34,
+    "coverage": 1.0,
+    "failed_evaluations": 0,
+    "not_applicable": 0,
+    "successful_evaluations": 34,
+    "total_rows": 34
+  },
+  "comparative_correctness": {
+    "applicable_rows": 18,
+    "coverage": 1.0,
+    "failed_evaluations": 0,
+    "not_applicable": 16,
+    "successful_evaluations": 18,
+    "total_rows": 34
+  },
+  "contextual_recall": {
+    "applicable_rows": 34,
+    "coverage": 1.0,
+    "failed_evaluations": 0,
+    "not_applicable": 0,
+    "successful_evaluations": 34,
+    "total_rows": 34
+  },
+  "contextual_relevancy": {
+    "applicable_rows": 34,
+    "coverage": 1.0,
+    "failed_evaluations": 0,
+    "not_applicable": 0,
+    "successful_evaluations": 34,
+    "total_rows": 34
+  },
+  "factual_correctness": {
+    "applicable_rows": 15,
+    "coverage": 1.0,
+    "failed_evaluations": 0,
+    "not_applicable": 19,
+    "successful_evaluations": 15,
+    "total_rows": 34
+  },
+  "faithfulness_to_context": {
+    "applicable_rows": 34,
+    "coverage": 1.0,
+    "failed_evaluations": 0,
+    "not_applicable": 0,
+    "successful_evaluations": 34,
+    "total_rows": 34
+  },
+  "temporal_attribution_correctness": {
+    "applicable_rows": 34,
+    "coverage": 1.0,
+    "failed_evaluations": 0,
+    "not_applicable": 0,
+    "successful_evaluations": 34,
+    "total_rows": 34
+  }
+}

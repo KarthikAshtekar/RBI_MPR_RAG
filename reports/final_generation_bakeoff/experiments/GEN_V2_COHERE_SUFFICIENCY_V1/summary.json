@@ -1,0 +1,31 @@
+{
+  "behavior_counts": {
+    "abstain": 4,
+    "answer": 14,
+    "answer_with_caveat": 16
+  },
+  "context_ordering": "default",
+  "created_at_utc": "2026-07-13T22:32:47.823361+00:00",
+  "experiment_id": "GEN_V2_COHERE_SUFFICIENCY_V1",
+  "generation_failure_count": 0,
+  "generation_success_count": 34,
+  "hard_gate_abstention_count": 4,
+  "mean_generation_latency_ms": 25222.447752941127,
+  "median_generation_latency_ms": 25694.342349999715,
+  "model_name": "llama-3.1-8b-instant",
+  "prompt_version": "v2_sufficiency_prompt_v1",
+  "retrieval_experiment_id": "V2_COHERE_ONLY",
+  "reuse_source": "reports\\v2_sufficiency\\dev_generation_sufficiency_raw_results.json",
+  "row_count": 34,
+  "schema_version": 1,
+  "split": "dev",
+  "status": "completed_reused",
+  "success_rate": 1.0,
+  "sufficiency_status_counts": {
+    "insufficient": 4,
+    "partially_sufficient": 16,
+    "sufficient": 14
+  },
+  "temperature": 0.0,
+  "variant_id": "GEN_V2_COHERE_SUFFICIENCY_V1"
+}

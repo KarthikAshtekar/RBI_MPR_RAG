@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "final_retrieval_config_unchanged": true,
+    "generation_can_use_frozen_retrieval_outputs": false,
+    "groq_api_key_available": true,
+    "heldout_retrieval_completed": true,
+    "heldout_retrieval_integrity_passed": true,
+    "no_retrieval_tuning_after_heldout": true
+  },
+  "created_at_utc": "2026-07-13T13:54:11.825964+00:00",
+  "generation_evaluation_run": false,
+  "reason": "Generation was not run because the checked-in multi-report generation command does not consume configs/final_retrieval_selected.yaml or the Phase 7 frozen retrieval outputs; running it would evaluate the older configs/multi_report.yaml retrieval settings instead of the final ADJ00 configuration.",
+  "schema_version": 1,
+  "status": "not_ready"
+}

@@ -1,0 +1,7 @@
+{
+  "port": 8501,
+  "streamlit_ready": true,
+  "stdout_log": "reports\\streamlit_ui_polish\\run_logs\\direct_streamlit_stdout.log",
+  "stderr_log": "reports\\streamlit_ui_polish\\run_logs\\direct_streamlit_stderr.log",
+  "process_id": 31252
+}

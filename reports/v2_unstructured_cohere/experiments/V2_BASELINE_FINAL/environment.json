@@ -1,0 +1,9 @@
+{
+  "cohere_api_key_available": true,
+  "generation_evaluation_run": false,
+  "groq_api_key_available": true,
+  "heldout_loaded": false,
+  "phase": "V2",
+  "source": "reports/structural_optimisation/ADJ00/raw_results.json",
+  "unstructured_api_key_available": true
+}

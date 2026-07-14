@@ -1,0 +1,10 @@
+{
+  "final_report_path": "D:\\PGDBA\\Projects\\RBI Rag Project-20260712T174124Z-2-001\\RBI Rag Project\\reports\\v2_sufficiency\\v2_sufficiency_report.md",
+  "generated_rows": 34,
+  "generation_success_count": 34,
+  "heldout_generation_run": false,
+  "heldout_retrieval_run": false,
+  "integrity_status": "failed",
+  "presentation_summary_path": "D:\\PGDBA\\Projects\\RBI Rag Project-20260712T174124Z-2-001\\RBI Rag Project\\reports\\v2_sufficiency\\sufficiency_results_for_presentation.md",
+  "status": "dev_sufficiency_generation_complete"
+}

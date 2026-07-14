@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "experiments": [
+    "MMR_BASELINE_V2_COHERE",
+    "MMR_LAMBDA_06",
+    "MMR_LAMBDA_07",
+    "MMR_LAMBDA_08"
+  ],
+  "selected_experiment_id": "MMR_LAMBDA_06",
+  "similarity_provider": "sentence_transformers"
+}

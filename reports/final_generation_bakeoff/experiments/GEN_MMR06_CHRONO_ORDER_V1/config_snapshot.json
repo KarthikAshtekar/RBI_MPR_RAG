@@ -1,0 +1,9 @@
+{
+  "context_ordering": "chrono_order",
+  "description": "Generate on MMR06 chunks ordered by report chronology and page.",
+  "mode": "live_generation",
+  "priority": 3,
+  "prompt_version": "v2_sufficiency_prompt_v1",
+  "retrieval_experiment_id": "MMR_LAMBDA_06",
+  "variant_id": "GEN_MMR06_CHRONO_ORDER_V1"
+}

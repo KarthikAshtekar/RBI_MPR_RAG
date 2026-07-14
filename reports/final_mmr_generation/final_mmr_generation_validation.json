@@ -1,0 +1,14 @@
+{
+  "api_key_scan_status": "passed",
+  "created_at_utc": "2026-07-14T06:43:38.442543+00:00",
+  "fresh_eval_created": false,
+  "generation_used_mmr06_contexts": true,
+  "heldout_rows_used": false,
+  "issue_count": 0,
+  "issues": [],
+  "metric_coverage_recorded": true,
+  "mmr_retrieval_outputs_dev_only": true,
+  "schema_version": 1,
+  "status": "passed",
+  "sufficiency_gate_applied": true
+}

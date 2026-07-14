@@ -1,0 +1,460 @@
+{
+  "category_comparison": [
+    {
+      "category": "commodity_assumptions",
+      "category_type": "category",
+      "development_all_reports_hit": 0.4,
+      "development_case_count": 5,
+      "development_complete_evidence_recall": 0.4,
+      "development_evidence_recall": 0.6333333333333333,
+      "development_macro_report_mrr": 0.6,
+      "heldout_all_reports_hit": 0.0,
+      "heldout_case_count": 1,
+      "heldout_complete_evidence_recall": 0.0,
+      "heldout_evidence_recall": 0.5,
+      "heldout_macro_report_mrr": 0.5
+    },
+    {
+      "category": "core_inflation",
+      "category_type": "category",
+      "development_all_reports_hit": 0.5,
+      "development_case_count": 2,
+      "development_complete_evidence_recall": 0.5,
+      "development_evidence_recall": 0.5,
+      "development_macro_report_mrr": 0.16666666666666666,
+      "heldout_all_reports_hit": 0.0,
+      "heldout_case_count": 1,
+      "heldout_complete_evidence_recall": 0.0,
+      "heldout_evidence_recall": 0.5,
+      "heldout_macro_report_mrr": 0.25
+    },
+    {
+      "category": "fiscal_borrowing",
+      "category_type": "category",
+      "development_all_reports_hit": 0.8,
+      "development_case_count": 5,
+      "development_complete_evidence_recall": 0.8,
+      "development_evidence_recall": 0.9,
+      "development_macro_report_mrr": 0.6888888888888889,
+      "heldout_all_reports_hit": 0.0,
+      "heldout_case_count": 1,
+      "heldout_complete_evidence_recall": 0.0,
+      "heldout_evidence_recall": 0.5,
+      "heldout_macro_report_mrr": 0.25
+    },
+    {
+      "category": "food_inflation",
+      "category_type": "category",
+      "development_all_reports_hit": 0.6,
+      "development_case_count": 5,
+      "development_complete_evidence_recall": 0.6,
+      "development_evidence_recall": 0.7666666666666667,
+      "development_macro_report_mrr": 0.4083333333333333,
+      "heldout_all_reports_hit": 1.0,
+      "heldout_case_count": 1,
+      "heldout_complete_evidence_recall": 1.0,
+      "heldout_evidence_recall": 1.0,
+      "heldout_macro_report_mrr": 0.2
+    },
+    {
+      "category": "global_growth",
+      "category_type": "category",
+      "development_all_reports_hit": 0.0,
+      "development_case_count": 5,
+      "development_complete_evidence_recall": 0.0,
+      "development_evidence_recall": 0.1,
+      "development_macro_report_mrr": 0.025,
+      "heldout_all_reports_hit": 0.0,
+      "heldout_case_count": 2,
+      "heldout_complete_evidence_recall": 0.0,
+      "heldout_evidence_recall": 0.0,
+      "heldout_macro_report_mrr": 0.0
+    },
+    {
+      "category": "growth_outlook",
+      "category_type": "category",
+      "development_all_reports_hit": 0.0,
+      "development_case_count": 1,
+      "development_complete_evidence_recall": 0.0,
+      "development_evidence_recall": 0.0,
+      "development_macro_report_mrr": 0.0,
+      "heldout_all_reports_hit": 1.0,
+      "heldout_case_count": 2,
+      "heldout_complete_evidence_recall": 1.0,
+      "heldout_evidence_recall": 1.0,
+      "heldout_macro_report_mrr": 0.5
+    },
+    {
+      "category": "inflation_outlook",
+      "category_type": "category",
+      "development_all_reports_hit": 0.0,
+      "development_case_count": 1,
+      "development_complete_evidence_recall": 0.0,
+      "development_evidence_recall": 0.0,
+      "development_macro_report_mrr": 0.0,
+      "heldout_all_reports_hit": 1.0,
+      "heldout_case_count": 2,
+      "heldout_complete_evidence_recall": 1.0,
+      "heldout_evidence_recall": 1.0,
+      "heldout_macro_report_mrr": 0.41666666666666663
+    },
+    {
+      "category": "monetary_policy",
+      "category_type": "category",
+      "development_all_reports_hit": 0.3333333333333333,
+      "development_case_count": 6,
+      "development_complete_evidence_recall": 0.16666666666666666,
+      "development_evidence_recall": 0.3611111111111111,
+      "development_macro_report_mrr": 0.2777777777777778,
+      "heldout_all_reports_hit": 0.0,
+      "heldout_case_count": 3,
+      "heldout_complete_evidence_recall": 0.0,
+      "heldout_evidence_recall": 0.2222222222222222,
+      "heldout_macro_report_mrr": 0.1111111111111111
+    },
+    {
+      "category": "unsupported",
+      "category_type": "category",
+      "development_all_reports_hit": null,
+      "development_case_count": 4,
+      "development_complete_evidence_recall": null,
+      "development_evidence_recall": null,
+      "development_macro_report_mrr": null,
+      "heldout_all_reports_hit": null,
+      "heldout_case_count": 2,
+      "heldout_complete_evidence_recall": null,
+      "heldout_evidence_recall": null,
+      "heldout_macro_report_mrr": null
+    },
+    {
+      "category": "pairwise_comparison",
+      "category_type": "query_type",
+      "development_all_reports_hit": 0.3333333333333333,
+      "development_case_count": 12,
+      "development_complete_evidence_recall": 0.25,
+      "development_evidence_recall": 0.4583333333333333,
+      "development_macro_report_mrr": 0.3819444444444444,
+      "heldout_all_reports_hit": 0.0,
+      "heldout_case_count": 5,
+      "heldout_complete_evidence_recall": 0.0,
+      "heldout_evidence_recall": 0.3,
+      "heldout_macro_report_mrr": 0.2
+    },
+    {
+      "category": "single_report",
+      "category_type": "query_type",
+      "development_all_reports_hit": 0.5833333333333334,
+      "development_case_count": 12,
+      "development_complete_evidence_recall": 0.5833333333333334,
+      "development_evidence_recall": 0.5833333333333334,
+      "development_macro_report_mrr": 0.3680555555555556,
+      "heldout_all_reports_hit": 0.8333333333333334,
+      "heldout_case_count": 6,
+      "heldout_complete_evidence_recall": 0.8333333333333334,
+      "heldout_evidence_recall": 0.8333333333333334,
+      "heldout_macro_report_mrr": 0.33888888888888885
+    },
+    {
+      "category": "trend_all_reports",
+      "category_type": "query_type",
+      "development_all_reports_hit": 0.16666666666666666,
+      "development_case_count": 6,
+      "development_complete_evidence_recall": 0.16666666666666666,
+      "development_evidence_recall": 0.4444444444444444,
+      "development_macro_report_mrr": 0.26851851851851855,
+      "heldout_all_reports_hit": 0.0,
+      "heldout_case_count": 2,
+      "heldout_complete_evidence_recall": 0.0,
+      "heldout_evidence_recall": 0.3333333333333333,
+      "heldout_macro_report_mrr": 0.16666666666666666
+    },
+    {
+      "category": "unsupported_period",
+      "category_type": "query_type",
+      "development_all_reports_hit": null,
+      "development_case_count": 4,
+      "development_complete_evidence_recall": null,
+      "development_evidence_recall": null,
+      "development_macro_report_mrr": null,
+      "heldout_all_reports_hit": null,
+      "heldout_case_count": 2,
+      "heldout_complete_evidence_recall": null,
+      "heldout_evidence_recall": null,
+      "heldout_macro_report_mrr": null
+    },
+    {
+      "category": "chart_manually_verified",
+      "category_type": "source_information_type",
+      "development_all_reports_hit": 0.0,
+      "development_case_count": 3,
+      "development_complete_evidence_recall": 0.0,
+      "development_evidence_recall": 0.38888888888888884,
+      "development_macro_report_mrr": 0.3333333333333333,
+      "heldout_all_reports_hit": 0.0,
+      "heldout_case_count": 1,
+      "heldout_complete_evidence_recall": 0.0,
+      "heldout_evidence_recall": 0.5,
+      "heldout_macro_report_mrr": 0.5
+    },
+    {
+      "category": "narrative",
+      "category_type": "source_information_type",
+      "development_all_reports_hit": 0.43478260869565216,
+      "development_case_count": 23,
+      "development_complete_evidence_recall": 0.391304347826087,
+      "development_evidence_recall": 0.5,
+      "development_macro_report_mrr": 0.3254830917874396,
+      "heldout_all_reports_hit": 0.4166666666666667,
+      "heldout_case_count": 12,
+      "heldout_complete_evidence_recall": 0.4166666666666667,
+      "heldout_evidence_recall": 0.5555555555555556,
+      "heldout_macro_report_mrr": 0.2388888888888889
+    },
+    {
+      "category": "table",
+      "category_type": "source_information_type",
+      "development_all_reports_hit": 0.25,
+      "development_case_count": 8,
+      "development_complete_evidence_recall": 0.25,
+      "development_evidence_recall": 0.4583333333333333,
+      "development_macro_report_mrr": 0.390625,
+      "heldout_all_reports_hit": 0.0,
+      "heldout_case_count": 3,
+      "heldout_complete_evidence_recall": 0.0,
+      "heldout_evidence_recall": 0.16666666666666666,
+      "heldout_macro_report_mrr": 0.16666666666666666
+    },
+    {
+      "category": "unknown",
+      "category_type": "source_information_type",
+      "development_all_reports_hit": null,
+      "development_case_count": 4,
+      "development_complete_evidence_recall": null,
+      "development_evidence_recall": null,
+      "development_macro_report_mrr": null,
+      "heldout_all_reports_hit": null,
+      "heldout_case_count": 2,
+      "heldout_complete_evidence_recall": null,
+      "heldout_evidence_recall": null,
+      "heldout_macro_report_mrr": null
+    }
+  ],
+  "created_at_utc": "2026-07-13T13:54:11.822037+00:00",
+  "metric_comparison": [
+    {
+      "absolute_difference_heldout_minus_dev": 0.017948717948717996,
+      "development": 0.36666666666666664,
+      "development_ci": {
+        "ci_95_high": 0.5448643634520512,
+        "ci_95_low": 0.21873920806100713,
+        "method": "wilson",
+        "n": 30
+      },
+      "heldout": 0.38461538461538464,
+      "heldout_ci": {
+        "ci_95_high": 0.644771084873343,
+        "ci_95_low": 0.17709707797762575,
+        "method": "wilson",
+        "n": 13
+      },
+      "metric": "complete_evidence_recall",
+      "relative_difference": 0.048951048951049084
+    },
+    {
+      "absolute_difference_heldout_minus_dev": -0.015384615384615385,
+      "development": 0.4,
+      "development_ci": {
+        "ci_95_high": 0.5767963974667752,
+        "ci_95_low": 0.24590628116801863,
+        "method": "wilson",
+        "n": 30
+      },
+      "heldout": 0.38461538461538464,
+      "heldout_ci": {
+        "ci_95_high": 0.644771084873343,
+        "ci_95_low": 0.17709707797762575,
+        "method": "wilson",
+        "n": 13
+      },
+      "metric": "all_reports_hit",
+      "relative_difference": -0.038461538461538464
+    },
+    {
+      "absolute_difference_heldout_minus_dev": 0.045726495726495786,
+      "development": 0.5055555555555555,
+      "development_ci": {
+        "ci_95_high": 0.65,
+        "ci_95_low": 0.35,
+        "method": "bootstrap_mean",
+        "n": 30,
+        "resamples": 2000,
+        "seed": 42
+      },
+      "heldout": 0.5512820512820513,
+      "heldout_ci": {
+        "ci_95_high": 0.7564102564102565,
+        "ci_95_low": 0.32051282051282054,
+        "method": "bootstrap_mean",
+        "n": 13,
+        "resamples": 2000,
+        "seed": 42
+      },
+      "metric": "evidence_recall",
+      "relative_difference": 0.09044801352493673
+    },
+    {
+      "absolute_difference_heldout_minus_dev": -0.09472934472934469,
+      "development": 0.3537037037037037,
+      "development_ci": {
+        "ci_95_high": 0.4861111111111111,
+        "ci_95_low": 0.22777777777777777,
+        "method": "bootstrap_mean",
+        "n": 30,
+        "resamples": 2000,
+        "seed": 42
+      },
+      "heldout": 0.258974358974359,
+      "heldout_ci": {
+        "ci_95_high": 0.358974358974359,
+        "ci_95_low": 0.15,
+        "method": "bootstrap_mean",
+        "n": 13,
+        "resamples": 2000,
+        "seed": 42
+      },
+      "metric": "macro_report_mrr",
+      "relative_difference": -0.2678211840515504
+    },
+    {
+      "absolute_difference_heldout_minus_dev": 0.0,
+      "development": 1.0,
+      "development_ci": {
+        "ci_95_high": 1.0,
+        "ci_95_low": 1.0,
+        "method": "bootstrap_mean",
+        "n": 30,
+        "resamples": 2000,
+        "seed": 42
+      },
+      "heldout": 1.0,
+      "heldout_ci": {
+        "ci_95_high": 1.0,
+        "ci_95_low": 1.0,
+        "method": "bootstrap_mean",
+        "n": 13,
+        "resamples": 2000,
+        "seed": 42
+      },
+      "metric": "report_coverage",
+      "relative_difference": 0.0
+    },
+    {
+      "absolute_difference_heldout_minus_dev": 0.0,
+      "development": 0.0,
+      "development_ci": {
+        "ci_95_high": 0.2424940066552408,
+        "ci_95_low": 0.0,
+        "method": "wilson",
+        "n": 12
+      },
+      "heldout": 0.0,
+      "heldout_ci": {
+        "ci_95_high": 0.39033428790216523,
+        "ci_95_low": 0.0,
+        "method": "wilson",
+        "n": 6
+      },
+      "metric": "single_report_contamination",
+      "relative_difference": null
+    },
+    {
+      "absolute_difference_heldout_minus_dev": -533.0926353893933,
+      "development": 3156.8762200108417,
+      "development_ci": {
+        "ci_95_high": 3730.489223343708,
+        "ci_95_low": 2620.9183700130475,
+        "method": "bootstrap_mean",
+        "n": 30,
+        "resamples": 2000,
+        "seed": 42
+      },
+      "heldout": 2623.7835846214484,
+      "heldout_ci": {
+        "ci_95_high": 3711.066646152176,
+        "ci_95_low": 1830.7666153951477,
+        "method": "bootstrap_mean",
+        "n": 13,
+        "resamples": 2000,
+        "seed": 42
+      },
+      "metric": "mean_latency_ms",
+      "relative_difference": -0.16886713264530925
+    },
+    {
+      "absolute_difference_heldout_minus_dev": -451.4689500210807,
+      "development": 2947.2414500196464,
+      "development_ci": null,
+      "heldout": 2495.7724999985658,
+      "heldout_ci": null,
+      "metric": "median_latency_ms",
+      "relative_difference": -0.15318356425058802
+    },
+    {
+      "absolute_difference_heldout_minus_dev": -1709.267899976112,
+      "development": 6063.70609998703,
+      "development_ci": null,
+      "heldout": 4354.438200010918,
+      "heldout_ci": null,
+      "metric": "p95_latency_ms",
+      "relative_difference": -0.2818850174779691
+    },
+    {
+      "absolute_difference_heldout_minus_dev": -16.087179487179583,
+      "development": 2150.9333333333334,
+      "development_ci": {
+        "ci_95_high": 2392.266666666667,
+        "ci_95_low": 1906.4666666666667,
+        "method": "bootstrap_mean",
+        "n": 30,
+        "resamples": 2000,
+        "seed": 42
+      },
+      "heldout": 2134.846153846154,
+      "heldout_ci": {
+        "ci_95_high": 2559.923076923077,
+        "ci_95_low": 1754.5384615384614,
+        "method": "bootstrap_mean",
+        "n": 13,
+        "resamples": 2000,
+        "seed": 42
+      },
+      "metric": "mean_estimated_tokens",
+      "relative_difference": -0.007479162295676102
+    },
+    {
+      "absolute_difference_heldout_minus_dev": -0.07692307692307665,
+      "development": 9.0,
+      "development_ci": {
+        "ci_95_high": 10.0,
+        "ci_95_low": 8.033333333333333,
+        "method": "bootstrap_mean",
+        "n": 30,
+        "resamples": 2000,
+        "seed": 42
+      },
+      "heldout": 8.923076923076923,
+      "heldout_ci": {
+        "ci_95_high": 10.692307692307692,
+        "ci_95_low": 7.3076923076923075,
+        "method": "bootstrap_mean",
+        "n": 13,
+        "resamples": 2000,
+        "seed": 42
+      },
+      "metric": "mean_selected_chunks",
+      "relative_difference": -0.008547008547008517
+    }
+  ],
+  "note": "Held-out results are reported for evaluation only and were not used for retrieval tuning.",
+  "schema_version": 1
+}

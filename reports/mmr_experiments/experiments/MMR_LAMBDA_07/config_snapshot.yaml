@@ -1,0 +1,3 @@
+experiment_id: MMR_LAMBDA_07
+mmr_enabled: true
+mmr_lambda: 0.7

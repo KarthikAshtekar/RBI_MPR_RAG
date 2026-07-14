@@ -1,0 +1,23 @@
+{
+  "api_key_hit_paths": [],
+  "api_key_scan_status": "passed",
+  "commit_or_push_performed": false,
+  "created_at_utc": "2026-07-14T08:17:59.355274+00:00",
+  "demo_mode_requires_api_keys": false,
+  "development_only_caveat_present": true,
+  "final_desktop_screenshot_exists": true,
+  "final_mobile_screenshot_exists": true,
+  "final_selected_metrics_correct": true,
+  "issues": [],
+  "mrr_mmr_distinction_correct": true,
+  "pip_check_status": "passed",
+  "production_overclaim_absent": true,
+  "pypdf_status_honest": true,
+  "schema_version": 1,
+  "screenshots_captured": true,
+  "status": "passed",
+  "streamlit_app_starts_locally": true,
+  "tests_status": "passed: 115 passed, 1 warning",
+  "unstructured_status_honest": true,
+  "visible_crash_in_screenshots": false
+}
