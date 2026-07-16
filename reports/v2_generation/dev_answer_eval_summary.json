@@ -1,5 +1,5 @@
 {
-  "created_at_utc": "2026-07-13T21:41:47.930705+00:00",
+  "created_at_utc": "2026-07-16T12:13:12.921056+00:00",
   "metrics": {
     "abstention_correctness": {
       "mean_score": 0.47058823529411764,
@@ -30,7 +30,7 @@
       "successful_count": 32
     },
     "faithfulness_to_context": {
-      "mean_score": 0.8654068160371632,
+      "mean_score": 0.8657197071510555,
       "successful_count": 34
     },
     "temporal_attribution_correctness": {

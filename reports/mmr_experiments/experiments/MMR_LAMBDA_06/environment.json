@@ -1,6 +1,6 @@
 {
   "cohere_api_key_available": true,
-  "created_at_utc": "2026-07-14T00:01:44.930145+00:00",
+  "created_at_utc": "2026-07-16T12:08:22.335526+00:00",
   "generation_run": false,
   "groq_api_key_available": true,
   "heldout_loaded": false,
@@ -9,5 +9,5 @@
   "similarity_model": "sentence-transformers/all-MiniLM-L6-v2",
   "similarity_provider": "sentence_transformers",
   "source_raw_results": "reports\\v2_unstructured_cohere\\experiments\\V2_COHERE_ONLY\\raw_results.json",
-  "source_raw_sha256": "6105329432a10d464f51328ca5ff176f05ce0a9e9533b7723d0cf93680c948a2"
+  "source_raw_sha256": "50e19baf306defce83fea4786fd389d00bd775e8502174f2bbb866441e0cb210"
 }

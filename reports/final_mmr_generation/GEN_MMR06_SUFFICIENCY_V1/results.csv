@@ -4,7 +4,7 @@ Food inflation turned negative in June and July 2025.
 
 Citations:
 - [October 2025, page 10, rbi_mpr_2025_10_p010_c000]
-- [October 2025, page 26, rbi_mpr_2025_10_p026_c000]",1,,,489.6584999951301,[],True,llama-3.1-8b-instant,Groq,What happened to food inflation in June and July 2025 according to the October 2025 MPR?,What happened to food inflation in June and July 2025 according to the October 2025 MPR?,v2_sufficiency_prompt_v1,single_report,oct_dev_001,answer,"[""rbi_mpr_2025_10""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2025_10_p010_c000"", ""rbi_mpr_2025_10_p024_c000"", ""rbi_mpr_2025_10_p026_c000"", ""rbi_mpr_2025_10_p030_c000"", ""rbi_mpr_2025_10_p032_c000"", ""rbi_mpr_2025_10_p035_c003""]","{""rbi_mpr_2025_10"": [10, 24, 26, 30, 32, 35]}","## October 2025
+- [October 2025, page 26, rbi_mpr_2025_10_p026_c000]",1,,,489.96489999990445,[],True,llama-3.1-8b-instant,Groq,What happened to food inflation in June and July 2025 according to the October 2025 MPR?,What happened to food inflation in June and July 2025 according to the October 2025 MPR?,v2_sufficiency_prompt_v1,single_report,oct_dev_001,answer,"[""rbi_mpr_2025_10""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2025_10_p010_c000"", ""rbi_mpr_2025_10_p024_c000"", ""rbi_mpr_2025_10_p026_c000"", ""rbi_mpr_2025_10_p030_c000"", ""rbi_mpr_2025_10_p032_c000"", ""rbi_mpr_2025_10_p035_c003""]","{""rbi_mpr_2025_10"": [10, 24, 26, 30, 32, 35]}","## October 2025
 
 [SOURCE: October 2025 MPR | page 10 | chunk rbi_mpr_2025_10_p010_c000]
 2
@@ -152,7 +152,7 @@ The repo rate had been brought down to 5.5 per cent by October 2025.
 
 Citations:
 - [October 2025, page 10, rbi_mpr_2025_10_p010_c001]
-- [October 2025, page 66, rbi_mpr_2025_10_p066_c000]",1,,,292.119099998672,[],True,llama-3.1-8b-instant,Groq,To what level had the repo rate been brought by October 2025?,To what level had the repo rate been brought by October 2025?,v2_sufficiency_prompt_v1,single_report,oct_dev_002,answer,"[""rbi_mpr_2025_10""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2025_10_p010_c001"", ""rbi_mpr_2025_10_p011_c003"", ""rbi_mpr_2025_10_p066_c000"", ""rbi_mpr_2025_10_p071_c000"", ""rbi_mpr_2025_10_p071_c001"", ""rbi_mpr_2025_10_p072_c000""]","{""rbi_mpr_2025_10"": [10, 11, 66, 71, 71, 72]}","## October 2025
+- [October 2025, page 66, rbi_mpr_2025_10_p066_c000]",1,,,311.9501000037417,[],True,llama-3.1-8b-instant,Groq,To what level had the repo rate been brought by October 2025?,To what level had the repo rate been brought by October 2025?,v2_sufficiency_prompt_v1,single_report,oct_dev_002,answer,"[""rbi_mpr_2025_10""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2025_10_p010_c001"", ""rbi_mpr_2025_10_p011_c003"", ""rbi_mpr_2025_10_p066_c000"", ""rbi_mpr_2025_10_p071_c000"", ""rbi_mpr_2025_10_p071_c001"", ""rbi_mpr_2025_10_p072_c000""]","{""rbi_mpr_2025_10"": [10, 11, 66, 71, 71, 72]}","## October 2025
 
 [SOURCE: October 2025 MPR | page 10 | chunk rbi_mpr_2025_10_p010_c001]
 and fuel), however, largely remained steady around 
@@ -324,7 +324,7 @@ core_inflation,"[{""chunk_id"": ""rbi_mpr_2025_10_p034_c000"", ""page"": 34, ""r
 Core inflation broadly remained steady across Emerging Market Economies (EMEs).
 
 Citations:
-- [October 2025, page 34, rbi_mpr_2025_10_p034_c000]",1,,,1353.6020000028657,[],True,llama-3.1-8b-instant,Groq,Where did core inflation broadly remain in the October 2025 report?,Where did core inflation broadly remain in the October 2025 report?,v2_sufficiency_prompt_v1,single_report,oct_dev_003,answer,"[""rbi_mpr_2025_10""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2025_10_p010_c000"", ""rbi_mpr_2025_10_p032_c000"", ""rbi_mpr_2025_10_p033_c003"", ""rbi_mpr_2025_10_p034_c000"", ""rbi_mpr_2025_10_p096_c000"", ""rbi_mpr_2025_10_p102_c000""]","{""rbi_mpr_2025_10"": [10, 32, 33, 34, 96, 102]}","## October 2025
+- [October 2025, page 34, rbi_mpr_2025_10_p034_c000]",1,,,1399.4406999991043,[],True,llama-3.1-8b-instant,Groq,Where did core inflation broadly remain in the October 2025 report?,Where did core inflation broadly remain in the October 2025 report?,v2_sufficiency_prompt_v1,single_report,oct_dev_003,answer,"[""rbi_mpr_2025_10""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2025_10_p010_c000"", ""rbi_mpr_2025_10_p032_c000"", ""rbi_mpr_2025_10_p033_c003"", ""rbi_mpr_2025_10_p034_c000"", ""rbi_mpr_2025_10_p096_c000"", ""rbi_mpr_2025_10_p102_c000""]","{""rbi_mpr_2025_10"": [10, 32, 33, 34, 96, 102]}","## October 2025
 
 [SOURCE: October 2025 MPR | page 10 | chunk rbi_mpr_2025_10_p010_c000]
 2
@@ -474,7 +474,7 @@ commodity_assumptions,"[{""chunk_id"": ""rbi_mpr_2025_10_p012_c002"", ""page"": 
 The crude-oil baseline assumption used for H2:2025-26 in October 2025 was US$ 70 per barrel.
 
 Citations:
-- [October 2025, page 12, rbi_mpr_2025_10_p012_c002]",1,,,20424.083599995356,[],True,llama-3.1-8b-instant,Groq,What crude-oil baseline assumption was used for H2:2025-26 in October 2025?,What crude-oil baseline assumption was used for H2:2025-26 in October 2025?,v2_sufficiency_prompt_v1,single_report,oct_dev_004,answer,"[""rbi_mpr_2025_10""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2025_10_p012_c001"", ""rbi_mpr_2025_10_p012_c002"", ""rbi_mpr_2025_10_p013_c000"", ""rbi_mpr_2025_10_p020_c000"", ""rbi_mpr_2025_10_p021_c004"", ""rbi_mpr_2025_10_p022_c002""]","{""rbi_mpr_2025_10"": [12, 12, 13, 20, 21, 22]}","## October 2025
+- [October 2025, page 12, rbi_mpr_2025_10_p012_c002]",1,,,19578.235099994345,[],True,llama-3.1-8b-instant,Groq,What crude-oil baseline assumption was used for H2:2025-26 in October 2025?,What crude-oil baseline assumption was used for H2:2025-26 in October 2025?,v2_sufficiency_prompt_v1,single_report,oct_dev_004,answer,"[""rbi_mpr_2025_10""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2025_10_p012_c001"", ""rbi_mpr_2025_10_p012_c002"", ""rbi_mpr_2025_10_p013_c000"", ""rbi_mpr_2025_10_p020_c000"", ""rbi_mpr_2025_10_p021_c004"", ""rbi_mpr_2025_10_p022_c002""]","{""rbi_mpr_2025_10"": [12, 12, 13, 20, 21, 22]}","## October 2025
 
 [SOURCE: October 2025 MPR | page 12 | chunk rbi_mpr_2025_10_p012_c001]
 economies. In June, however, prices surged 
@@ -641,7 +641,7 @@ global_growth,"[{""chunk_id"": ""rbi_mpr_2025_10_p012_c002"", ""page"": 12, ""re
 The global growth assumptions for 2025 and 2026 used in the October 2025 Monetary Policy Report are 3.1 per cent in 2025 and 3.0 per cent in 2026.
 
 Citations:
-- [October 2025, page 12, rbi_mpr_2025_10_p012_c002]",1,,,20477.68619999988,[],True,llama-3.1-8b-instant,Groq,What global-growth assumptions for 2025 and 2026 were used in October 2025?,What global-growth assumptions for 2025 and 2026 were used in October 2025?,v2_sufficiency_prompt_v1,single_report,oct_dev_005,answer,"[""rbi_mpr_2025_10""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2025_10_p009_c005"", ""rbi_mpr_2025_10_p012_c001"", ""rbi_mpr_2025_10_p012_c002"", ""rbi_mpr_2025_10_p020_c000"", ""rbi_mpr_2025_10_p052_c000"", ""rbi_mpr_2025_10_p098_c000""]","{""rbi_mpr_2025_10"": [9, 12, 12, 20, 52, 98]}","## October 2025
+- [October 2025, page 12, rbi_mpr_2025_10_p012_c002]",1,,,21484.121100002085,[],True,llama-3.1-8b-instant,Groq,What global-growth assumptions for 2025 and 2026 were used in October 2025?,What global-growth assumptions for 2025 and 2026 were used in October 2025?,v2_sufficiency_prompt_v1,single_report,oct_dev_005,answer,"[""rbi_mpr_2025_10""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2025_10_p009_c005"", ""rbi_mpr_2025_10_p012_c001"", ""rbi_mpr_2025_10_p012_c002"", ""rbi_mpr_2025_10_p020_c000"", ""rbi_mpr_2025_10_p052_c000"", ""rbi_mpr_2025_10_p098_c000""]","{""rbi_mpr_2025_10"": [9, 12, 12, 20, 52, 98]}","## October 2025
 
 [SOURCE: October 2025 MPR | page 9 | chunk rbi_mpr_2025_10_p009_c005]
 Real gross domestic product (GDP) expanded by 7.8 
@@ -798,7 +798,7 @@ fiscal_borrowing,"[{""chunk_id"": ""rbi_mpr_2025_10_p052_c001"", ""page"": 52, "
 The Centre had raised ₹7.95 lakh crore through gross market borrowings by late September 2025.
 
 Citations:
-- [October 2025, page 52, rbi_mpr_2025_10_p052_c001]",1,,,19435.48539999756,[],True,llama-3.1-8b-instant,Groq,"According to the October 2025 MPR, how much had the Centre raised through gross market borrowings by late September 2025?","According to the October 2025 MPR, how much had the Centre raised through gross market borrowings by late September 2025?",v2_sufficiency_prompt_v1,single_report,oct_dev_006,answer,"[""rbi_mpr_2025_10""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2025_10_p009_c005"", ""rbi_mpr_2025_10_p010_c000"", ""rbi_mpr_2025_10_p052_c000"", ""rbi_mpr_2025_10_p052_c001"", ""rbi_mpr_2025_10_p052_c004"", ""rbi_mpr_2025_10_p080_c000""]","{""rbi_mpr_2025_10"": [9, 10, 52, 52, 52, 80]}","## October 2025
+- [October 2025, page 52, rbi_mpr_2025_10_p052_c001]",1,,,19582.504499994684,[],True,llama-3.1-8b-instant,Groq,"According to the October 2025 MPR, how much had the Centre raised through gross market borrowings by late September 2025?","According to the October 2025 MPR, how much had the Centre raised through gross market borrowings by late September 2025?",v2_sufficiency_prompt_v1,single_report,oct_dev_006,answer,"[""rbi_mpr_2025_10""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2025_10_p009_c005"", ""rbi_mpr_2025_10_p010_c000"", ""rbi_mpr_2025_10_p052_c000"", ""rbi_mpr_2025_10_p052_c001"", ""rbi_mpr_2025_10_p052_c004"", ""rbi_mpr_2025_10_p080_c000""]","{""rbi_mpr_2025_10"": [9, 10, 52, 52, 52, 80]}","## October 2025
 
 [SOURCE: October 2025 MPR | page 9 | chunk rbi_mpr_2025_10_p009_c005]
 Real gross domestic product (GDP) expanded by 7.8 
@@ -925,7 +925,7 @@ remained range-bound with intermittent bouts",dev,[],sufficient,False,0.0
 food_inflation,"[{""chunk_id"": ""rbi_mpr_2026_04_p005_c003"", ""page"": 5, ""report_id"": ""rbi_mpr_2026_04"", ""report_period"": ""April 2026"", ""valid_supplied_chunk"": true}]",April 2026: food group where the waning of base effects led to a turnaround from deflation,GEN_MMR06_SUFFICIENCY_V1,"The food group's movement from deflation was driven by the waning of base effects, leading to a turnaround from deflation in the food group, where headline inflation in India increased from historical low levels seen in October 2025 but remained below the target thereafter.
 
 Citations:
-- [April 2026, page 5, rbi_mpr_2026_04_p005_c003]",1,,,18480.797299998812,[],True,llama-3.1-8b-instant,Groq,What did April 2026 say about the food group's movement from deflation?,What did April 2026 say about the food group's movement from deflation?,v2_sufficiency_prompt_v1,single_report,apr26_dev_001,answer,"[""rbi_mpr_2026_04""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2026_04_p005_c003"", ""rbi_mpr_2026_04_p081_c005"", ""rbi_mpr_2026_04_p081_c006"", ""rbi_mpr_2026_04_p082_c000"", ""rbi_mpr_2026_04_p083_c000"", ""rbi_mpr_2026_04_p094_c000""]","{""rbi_mpr_2026_04"": [5, 81, 81, 82, 83, 94]}","## April 2026
+- [April 2026, page 5, rbi_mpr_2026_04_p005_c003]",1,,,18518.572300003143,[],True,llama-3.1-8b-instant,Groq,What did April 2026 say about the food group's movement from deflation?,What did April 2026 say about the food group's movement from deflation?,v2_sufficiency_prompt_v1,single_report,apr26_dev_001,answer,"[""rbi_mpr_2026_04""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2026_04_p005_c003"", ""rbi_mpr_2026_04_p081_c005"", ""rbi_mpr_2026_04_p081_c006"", ""rbi_mpr_2026_04_p082_c000"", ""rbi_mpr_2026_04_p083_c000"", ""rbi_mpr_2026_04_p094_c000""]","{""rbi_mpr_2026_04"": [5, 81, 81, 82, 83, 94]}","## April 2026
 
 [SOURCE: April 2026 MPR | page 5 | chunk rbi_mpr_2026_04_p005_c003]
 outlook. Global headwinds from geopolitical tensions, volatile commodity prices and supply-chain disruptions 
@@ -1036,7 +1036,7 @@ The Monetary Policy Committee (MPC) reduced the policy repo rate by 25 basis poi
 Citations:
 - [April 2026, page 101, rbi_mpr_2026_04_p101_c004]
 - [April 2026, page 101, rbi_mpr_2026_04_p101_c005]
-- [April 2026, page 102, rbi_mpr_2026_04_p102_c002]",1,,,17423.18069999601,[],True,llama-3.1-8b-instant,Groq,What repo-rate action in December was reported in April 2026?,What repo-rate action in December was reported in April 2026?,v2_sufficiency_prompt_v1,single_report,apr26_dev_002,answer,"[""rbi_mpr_2026_04""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2026_04_p026_c002"", ""rbi_mpr_2026_04_p027_c004"", ""rbi_mpr_2026_04_p034_c000"", ""rbi_mpr_2026_04_p101_c004"", ""rbi_mpr_2026_04_p101_c005"", ""rbi_mpr_2026_04_p102_c002""]","{""rbi_mpr_2026_04"": [26, 27, 34, 101, 101, 102]}","## April 2026
+- [April 2026, page 102, rbi_mpr_2026_04_p102_c002]",1,,,17454.333500005305,[],True,llama-3.1-8b-instant,Groq,What repo-rate action in December was reported in April 2026?,What repo-rate action in December was reported in April 2026?,v2_sufficiency_prompt_v1,single_report,apr26_dev_002,answer,"[""rbi_mpr_2026_04""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2026_04_p026_c002"", ""rbi_mpr_2026_04_p027_c004"", ""rbi_mpr_2026_04_p034_c000"", ""rbi_mpr_2026_04_p101_c004"", ""rbi_mpr_2026_04_p101_c005"", ""rbi_mpr_2026_04_p102_c002""]","{""rbi_mpr_2026_04"": [26, 27, 34, 101, 101, 102]}","## April 2026
 
 [SOURCE: April 2026 MPR | page 26 | chunk rbi_mpr_2026_04_p026_c002]
 improve and remained supportive of real economic 
@@ -1187,7 +1187,7 @@ The supplied context is partially insufficient; some requested evidence cannot b
 Core inflation, excluding precious metals, remained subdued at 2.1 per cent in February 2026.
 
 Citations:
-- [April 2026, page 101, chunk rbi_mpr_2026_04_p101_c002]",1,,,21502.33129999833,[],True,llama-3.1-8b-instant,Groq,How did April 2026 characterise core inflation apart from precious metals?,How did April 2026 characterise core inflation apart from precious metals?,v2_sufficiency_prompt_v1,single_report,apr26_dev_003,answer_with_caveat,"[""rbi_mpr_2026_04""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2026_04_p016_c000"", ""rbi_mpr_2026_04_p088_c000"", ""rbi_mpr_2026_04_p090_c000"", ""rbi_mpr_2026_04_p092_c000"", ""rbi_mpr_2026_04_p094_c000"", ""rbi_mpr_2026_04_p101_c002""]","{""rbi_mpr_2026_04"": [16, 88, 90, 92, 94, 101]}","## April 2026
+- [April 2026, page 101, chunk rbi_mpr_2026_04_p101_c002]",1,,,21464.255499988212,[],True,llama-3.1-8b-instant,Groq,How did April 2026 characterise core inflation apart from precious metals?,How did April 2026 characterise core inflation apart from precious metals?,v2_sufficiency_prompt_v1,single_report,apr26_dev_003,answer_with_caveat,"[""rbi_mpr_2026_04""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2026_04_p016_c000"", ""rbi_mpr_2026_04_p088_c000"", ""rbi_mpr_2026_04_p090_c000"", ""rbi_mpr_2026_04_p092_c000"", ""rbi_mpr_2026_04_p094_c000"", ""rbi_mpr_2026_04_p101_c002""]","{""rbi_mpr_2026_04"": [16, 88, 90, 92, 94, 101]}","## April 2026
 
 [SOURCE: April 2026 MPR | page 16 | chunk rbi_mpr_2026_04_p016_c000]
 4
@@ -1351,7 +1351,7 @@ The supplied context is partially insufficient; some requested evidence cannot b
 The ongoing conflict in West Asia and resulting disruptions to supply chains have imparted heightened volatility to crude oil prices and have led to shortages of key feedstocks for fertiliser production.
 
 Citations:
-- [April 2026, page 106, chunk rbi_mpr_2026_04_p106_c002]",1,,,17460.306000000855,[],True,llama-3.1-8b-instant,Groq,What crude-oil risk arising from the West Asia conflict was highlighted in April 2026?,What crude-oil risk arising from the West Asia conflict was highlighted in April 2026?,v2_sufficiency_prompt_v1,single_report,apr26_dev_004,answer_with_caveat,"[""rbi_mpr_2026_04""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2026_04_p040_c000"", ""rbi_mpr_2026_04_p086_c000"", ""rbi_mpr_2026_04_p095_c000"", ""rbi_mpr_2026_04_p106_c002"", ""rbi_mpr_2026_04_p110_c000"", ""rbi_mpr_2026_04_p116_c000""]","{""rbi_mpr_2026_04"": [40, 86, 95, 106, 110, 116]}","## April 2026
+- [April 2026, page 106, chunk rbi_mpr_2026_04_p106_c002]",1,,,17456.988799996907,[],True,llama-3.1-8b-instant,Groq,What crude-oil risk arising from the West Asia conflict was highlighted in April 2026?,What crude-oil risk arising from the West Asia conflict was highlighted in April 2026?,v2_sufficiency_prompt_v1,single_report,apr26_dev_004,answer_with_caveat,"[""rbi_mpr_2026_04""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2026_04_p040_c000"", ""rbi_mpr_2026_04_p086_c000"", ""rbi_mpr_2026_04_p095_c000"", ""rbi_mpr_2026_04_p106_c002"", ""rbi_mpr_2026_04_p110_c000"", ""rbi_mpr_2026_04_p116_c000""]","{""rbi_mpr_2026_04"": [40, 86, 95, 106, 110, 116]}","## April 2026
 
 [SOURCE: April 2026 MPR | page 40 | chunk rbi_mpr_2026_04_p040_c000]
 28
@@ -1491,7 +1491,7 @@ Global growth remained resilient but below its historical average.
 Citations:
 - [April 2026, page 5, rbi_mpr_2026_04_p005_c000]
 - [April 2026, page 13, rbi_mpr_2026_04_p013_c001]
-- [April 2026, page 25, rbi_mpr_2026_04_p025_c001]",1,,,18464.30590000091,[],True,llama-3.1-8b-instant,Groq,How did April 2026 characterise global growth relative to its historical average?,How did April 2026 characterise global growth relative to its historical average?,v2_sufficiency_prompt_v1,single_report,apr26_dev_005,answer,"[""rbi_mpr_2026_04""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2026_04_p005_c000"", ""rbi_mpr_2026_04_p013_c001"", ""rbi_mpr_2026_04_p014_c000"", ""rbi_mpr_2026_04_p016_c000"", ""rbi_mpr_2026_04_p025_c001"", ""rbi_mpr_2026_04_p056_c000""]","{""rbi_mpr_2026_04"": [5, 13, 14, 16, 25, 56]}","## April 2026
+- [April 2026, page 25, rbi_mpr_2026_04_p025_c001]",1,,,17507.178499989095,[],True,llama-3.1-8b-instant,Groq,How did April 2026 characterise global growth relative to its historical average?,How did April 2026 characterise global growth relative to its historical average?,v2_sufficiency_prompt_v1,single_report,apr26_dev_005,answer,"[""rbi_mpr_2026_04""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2026_04_p005_c000"", ""rbi_mpr_2026_04_p013_c001"", ""rbi_mpr_2026_04_p014_c000"", ""rbi_mpr_2026_04_p016_c000"", ""rbi_mpr_2026_04_p025_c001"", ""rbi_mpr_2026_04_p056_c000""]","{""rbi_mpr_2026_04"": [5, 13, 14, 16, 25, 56]}","## April 2026
 
 [SOURCE: April 2026 MPR | page 5 | chunk rbi_mpr_2026_04_p005_c000]
 ii
@@ -1622,7 +1622,7 @@ The Centre's gross market borrowings in 2025-26 amounted to ₹14.61 lakh crore.
 
 Citations:
 - [April 2026, page 64, chunk rbi_mpr_2026_04_p064_c002]
-- [April 2026, page 64, chunk rbi_mpr_2026_04_p064_c003]",1,,,23433.397100001457,[],True,llama-3.1-8b-instant,Groq,What were the Centre's gross market borrowings in 2025-26 according to April 2026?,What were the Centre's gross market borrowings in 2025-26 according to April 2026?,v2_sufficiency_prompt_v1,single_report,apr26_dev_006,answer,"[""rbi_mpr_2026_04""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2026_04_p032_c001"", ""rbi_mpr_2026_04_p034_c000"", ""rbi_mpr_2026_04_p064_c002"", ""rbi_mpr_2026_04_p064_c003"", ""rbi_mpr_2026_04_p065_c000"", ""rbi_mpr_2026_04_p066_c002""]","{""rbi_mpr_2026_04"": [32, 34, 64, 64, 65, 66]}","## April 2026
+- [April 2026, page 64, chunk rbi_mpr_2026_04_p064_c003]",1,,,23621.158599999035,[],True,llama-3.1-8b-instant,Groq,What were the Centre's gross market borrowings in 2025-26 according to April 2026?,What were the Centre's gross market borrowings in 2025-26 according to April 2026?,v2_sufficiency_prompt_v1,single_report,apr26_dev_006,answer,"[""rbi_mpr_2026_04""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2026_04_p032_c001"", ""rbi_mpr_2026_04_p034_c000"", ""rbi_mpr_2026_04_p064_c002"", ""rbi_mpr_2026_04_p064_c003"", ""rbi_mpr_2026_04_p065_c000"", ""rbi_mpr_2026_04_p066_c002""]","{""rbi_mpr_2026_04"": [32, 34, 64, 64, 65, 66]}","## April 2026
 
 [SOURCE: April 2026 MPR | page 32 | chunk rbi_mpr_2026_04_p032_c001]
 policy repo rate moved from negative to positive 
@@ -1811,22 +1811,15 @@ Revenue deficit Gross fiscal deficitP rimary deficit
 14
 16
 Revenue",dev,[],sufficient,False,0.0
-food_inflation,"[{""chunk_id"": ""rbi_mpr_2025_04_p012_c000"", ""page"": 12, ""report_id"": ""rbi_mpr_2025_04"", ""report_period"": ""April 2025"", ""valid_supplied_chunk"": true}, {""chunk_id"": ""rbi_mpr_2025_04_p031_c000"", ""page"": 31, ""report_id"": ""rbi_mpr_2025_04"", ""report_period"": ""April 2025"", ""valid_supplied_chunk"": true}, {""chunk_id"": ""rbi_mpr_2025_04_p032_c000"", ""page"": 32, ""report_id"": ""rbi_mpr_2025_04"", ""report_period"": ""April 2025"", ""valid_supplied_chunk"": true}, {""chunk_id"": ""rbi_mpr_2025_04_p034_c000"", ""page"": 34, ""report_id"": ""rbi_mpr_2025_04"", ""report_period"": ""April 2025"", ""valid_supplied_chunk"": true}, {""chunk_id"": ""rbi_mpr_2025_04_p042_c000"", ""page"": 42, ""report_id"": ""rbi_mpr_2025_04"", ""report_period"": ""April 2025"", ""valid_supplied_chunk"": true}, {""chunk_id"": ""rbi_mpr_2025_10_p010_c000"", ""page"": 10, ""report_id"": ""rbi_mpr_2025_10"", ""report_period"": ""October 2025"", ""valid_supplied_chunk"": true}, {""chunk_id"": ""rbi_mpr_2025_10_p026_c000"", ""page"": 26, ""report_id"": ""rbi_mpr_2025_10"", ""report_period"": ""October 2025"", ""valid_supplied_chunk"": true}, {""chunk_id"": ""rbi_mpr_2025_10_p032_c000"", ""page"": 32, ""report_id"": ""rbi_mpr_2025_10"", ""report_period"": ""October 2025"", ""valid_supplied_chunk"": true}, {""chunk_id"": ""rbi_mpr_2025_10_p035_c003"", ""page"": 35, ""report_id"": ""rbi_mpr_2025_10"", ""report_period"": ""October 2025"", ""valid_supplied_chunk"": true}, {""chunk_id"": ""rbi_mpr_2025_10_p036_c003"", ""page"": 36, ""report_id"": ""rbi_mpr_2025_10"", ""report_period"": ""October 2025"", ""valid_supplied_chunk"": true}]","April 2025: food inflation which remained elevated at an average of 8.5 per cent during October- December 2024, decelerated to 3.8 per cent in February 2025 October 2025: food inflation turned negative in June and July 2025",GEN_MMR06_SUFFICIENCY_V1,"Answer:
-Food inflation eased significantly in 2025, driven by favourable supply-side factors and a decline in global commodity prices. In April 2025, food inflation moderated to 3.8 per cent in February 2025, primarily due to a sharp correction in vegetable prices and easing of price pressures in pulses. However, inflation in fruits surged to 14.8 per cent in February 2025, driven by a pick-up in price pressures and an unfavourable base effect.
-
-In contrast, by October 2025, food inflation had turned negative in June and July 2025, with overall inflation remaining benign at 2.1 per cent in August 2025. The decline in food inflation was driven by comfortable stocks of foodgrains, higher domestic production, and favourable trade policies. The absence of extreme weather events also restricted the extent of volatility typically associated with food inflation.
+food_inflation,"[{""chunk_id"": ""rbi_mpr_2025_04_p012_c000"", ""page"": 12, ""report_id"": ""rbi_mpr_2025_04"", ""report_period"": ""April 2025"", ""valid_supplied_chunk"": true}, {""chunk_id"": ""rbi_mpr_2025_04_p031_c000"", ""page"": 31, ""report_id"": ""rbi_mpr_2025_04"", ""report_period"": ""April 2025"", ""valid_supplied_chunk"": true}, {""chunk_id"": ""rbi_mpr_2025_04_p032_c000"", ""page"": 32, ""report_id"": ""rbi_mpr_2025_04"", ""report_period"": ""April 2025"", ""valid_supplied_chunk"": true}, {""chunk_id"": ""rbi_mpr_2025_10_p026_c000"", ""page"": 26, ""report_id"": ""rbi_mpr_2025_10"", ""report_period"": ""October 2025"", ""valid_supplied_chunk"": true}, {""chunk_id"": ""rbi_mpr_2025_10_p032_c000"", ""page"": 32, ""report_id"": ""rbi_mpr_2025_10"", ""report_period"": ""October 2025"", ""valid_supplied_chunk"": true}]","April 2025: food inflation which remained elevated at an average of 8.5 per cent during October- December 2024, decelerated to 3.8 per cent in February 2025 October 2025: food inflation turned negative in June and July 2025",GEN_MMR06_SUFFICIENCY_V1,"Answer:
+Food inflation eased significantly in 2025, driven by favourable supply-side factors and a decline in extreme weather events. In April 2025, food inflation moderated to 3.8 per cent, primarily due to a sharp correction in vegetable prices and easing of price pressures in pulses. In contrast, in October 2025, food inflation turned negative in June and July 2025, with overall inflation remaining benign at 2.1 per cent in August 2025.
 
 Citations:
 - [April 2025, 12, rbi_mpr_2025_04_p012_c000]
 - [April 2025, 31, rbi_mpr_2025_04_p031_c000]
 - [April 2025, 32, rbi_mpr_2025_04_p032_c000]
-- [April 2025, 34, rbi_mpr_2025_04_p034_c000]
-- [April 2025, 42, rbi_mpr_2025_04_p042_c000]
-- [October 2025, 10, rbi_mpr_2025_10_p010_c000]
 - [October 2025, 26, rbi_mpr_2025_10_p026_c000]
-- [October 2025, 32, rbi_mpr_2025_10_p032_c000]
-- [October 2025, 35, rbi_mpr_2025_10_p035_c003]
-- [October 2025, 36, rbi_mpr_2025_10_p036_c003]",1,,,33038.31449999416,[],True,llama-3.1-8b-instant,Groq,Compare food-inflation developments reported in April and October 2025.,Compare food-inflation developments reported in April and October 2025.,v2_sufficiency_prompt_v1,pairwise_comparison,cmp_dev_001,answer,"[""rbi_mpr_2025_04"", ""rbi_mpr_2025_10""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2025_04_p012_c000"", ""rbi_mpr_2025_04_p031_c000"", ""rbi_mpr_2025_04_p032_c000"", ""rbi_mpr_2025_04_p034_c000"", ""rbi_mpr_2025_04_p042_c000"", ""rbi_mpr_2025_10_p010_c000"", ""rbi_mpr_2025_10_p026_c000"", ""rbi_mpr_2025_10_p032_c000"", ""rbi_mpr_2025_10_p035_c003"", ""rbi_mpr_2025_10_p036_c003""]","{""rbi_mpr_2025_04"": [12, 31, 32, 34, 42], ""rbi_mpr_2025_10"": [10, 26, 32, 35, 36]}","## April 2025
+- [October 2025, 32, rbi_mpr_2025_10_p032_c000]",1,,,33847.11499999685,[],True,llama-3.1-8b-instant,Groq,Compare food-inflation developments reported in April and October 2025.,Compare food-inflation developments reported in April and October 2025.,v2_sufficiency_prompt_v1,pairwise_comparison,cmp_dev_001,answer,"[""rbi_mpr_2025_04"", ""rbi_mpr_2025_10""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2025_04_p012_c000"", ""rbi_mpr_2025_04_p031_c000"", ""rbi_mpr_2025_04_p032_c000"", ""rbi_mpr_2025_04_p034_c000"", ""rbi_mpr_2025_04_p042_c000"", ""rbi_mpr_2025_10_p010_c000"", ""rbi_mpr_2025_10_p026_c000"", ""rbi_mpr_2025_10_p032_c000"", ""rbi_mpr_2025_10_p035_c003"", ""rbi_mpr_2025_10_p036_c003""]","{""rbi_mpr_2025_04"": [12, 31, 32, 34, 42], ""rbi_mpr_2025_10"": [10, 26, 32, 35, 36]}","## April 2025
 
 [SOURCE: April 2025 MPR | page 12 | chunk rbi_mpr_2025_04_p012_c000]
 2
@@ -2084,7 +2077,7 @@ The policy repo rate was retained at 6.5 per cent since February 2023 in April 2
 Citations:
 - [April 2025, 12, rbi_mpr_2025_04_p012_c000]
 - [April 2025, 12, rbi_mpr_2025_04_p012_c000]
-- [October 2025, 66, rbi_mpr_2025_10_p066_c000]",1,,,34805.14669999684,[],True,llama-3.1-8b-instant,Groq,Compare the policy-rate levels described in April and October 2025.,Compare the policy-rate levels described in April and October 2025.,v2_sufficiency_prompt_v1,pairwise_comparison,cmp_dev_002,answer_with_caveat,"[""rbi_mpr_2025_04"", ""rbi_mpr_2025_10""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2025_04_p012_c000"", ""rbi_mpr_2025_04_p018_c000"", ""rbi_mpr_2025_04_p100_c000"", ""rbi_mpr_2025_04_p107_c001"", ""rbi_mpr_2025_04_p112_c001"", ""rbi_mpr_2025_10_p010_c000"", ""rbi_mpr_2025_10_p011_c005"", ""rbi_mpr_2025_10_p066_c000"", ""rbi_mpr_2025_10_p068_c000"", ""rbi_mpr_2025_10_p104_c000""]","{""rbi_mpr_2025_04"": [12, 18, 100, 107, 112], ""rbi_mpr_2025_10"": [10, 11, 66, 68, 104]}","## April 2025
+- [October 2025, 66, rbi_mpr_2025_10_p066_c000]",1,,,34941.56870000006,[],True,llama-3.1-8b-instant,Groq,Compare the policy-rate levels described in April and October 2025.,Compare the policy-rate levels described in April and October 2025.,v2_sufficiency_prompt_v1,pairwise_comparison,cmp_dev_002,answer_with_caveat,"[""rbi_mpr_2025_04"", ""rbi_mpr_2025_10""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2025_04_p012_c000"", ""rbi_mpr_2025_04_p018_c000"", ""rbi_mpr_2025_04_p100_c000"", ""rbi_mpr_2025_04_p107_c001"", ""rbi_mpr_2025_04_p112_c001"", ""rbi_mpr_2025_10_p010_c000"", ""rbi_mpr_2025_10_p011_c005"", ""rbi_mpr_2025_10_p066_c000"", ""rbi_mpr_2025_10_p068_c000"", ""rbi_mpr_2025_10_p104_c000""]","{""rbi_mpr_2025_04"": [12, 18, 100, 107, 112], ""rbi_mpr_2025_10"": [10, 11, 66, 68, 104]}","## April 2025
 
 [SOURCE: April 2025 MPR | page 12 | chunk rbi_mpr_2025_04_p012_c000]
 2
@@ -2418,7 +2411,7 @@ Citations:
 - [April 2025, 14, rbi_mpr_2025_04_p014_c001]
 - [October 2025, 12, rbi_mpr_2025_10_p012_c000]
 - [October 2025, 12, rbi_mpr_2025_10_p012_c001]
-- [October 2025, 13, rbi_mpr_2025_10_p013_c000]",1,,,36890.89980000426,[],True,llama-3.1-8b-instant,Groq,Compare the crude-oil baseline assumptions in April and October 2025.,Compare the crude-oil baseline assumptions in April and October 2025.,v2_sufficiency_prompt_v1,pairwise_comparison,cmp_dev_003,answer,"[""rbi_mpr_2025_04"", ""rbi_mpr_2025_10""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2025_04_p014_c000"", ""rbi_mpr_2025_04_p014_c001"", ""rbi_mpr_2025_04_p014_c002"", ""rbi_mpr_2025_04_p019_c004"", ""rbi_mpr_2025_04_p020_c000"", ""rbi_mpr_2025_10_p012_c000"", ""rbi_mpr_2025_10_p012_c001"", ""rbi_mpr_2025_10_p013_c000"", ""rbi_mpr_2025_10_p021_c003"", ""rbi_mpr_2025_10_p021_c005""]","{""rbi_mpr_2025_04"": [14, 14, 14, 19, 20], ""rbi_mpr_2025_10"": [12, 12, 13, 21, 21]}","## April 2025
+- [October 2025, 13, rbi_mpr_2025_10_p013_c000]",1,,,34762.771599998814,[],True,llama-3.1-8b-instant,Groq,Compare the crude-oil baseline assumptions in April and October 2025.,Compare the crude-oil baseline assumptions in April and October 2025.,v2_sufficiency_prompt_v1,pairwise_comparison,cmp_dev_003,answer,"[""rbi_mpr_2025_04"", ""rbi_mpr_2025_10""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2025_04_p014_c000"", ""rbi_mpr_2025_04_p014_c001"", ""rbi_mpr_2025_04_p014_c002"", ""rbi_mpr_2025_04_p019_c004"", ""rbi_mpr_2025_04_p020_c000"", ""rbi_mpr_2025_10_p012_c000"", ""rbi_mpr_2025_10_p012_c001"", ""rbi_mpr_2025_10_p013_c000"", ""rbi_mpr_2025_10_p021_c003"", ""rbi_mpr_2025_10_p021_c005""]","{""rbi_mpr_2025_04"": [14, 14, 14, 19, 20], ""rbi_mpr_2025_10"": [12, 12, 13, 21, 21]}","## April 2025
 
 [SOURCE: April 2025 MPR | page 14 | chunk rbi_mpr_2025_04_p014_c000]
 4
@@ -2717,7 +2710,7 @@ However, the October 2025 report also mentions that the Organisation for Economi
 
 Therefore, while the baseline global-growth assumptions in April and October 2025 are partially comparable, the October 2025 report provides additional information on the OECD's projections, which suggests a slight downward revision in global growth for 2025 compared to the April 2025 report.
 
-Caveat: The comparison of global-growth assumptions in April and October 2025 is partially sufficient due to incomplete evidence. The October 2025 report provides additional information on the OECD's projections, which suggests a slight downward revision in global growth for 2025 compared to the April 2025 report. However, the exact magnitude of the revision is not explicitly stated in the provided context.",1,,,26863.072499996633,[],True,llama-3.1-8b-instant,Groq,Compare global-growth assumptions in April and October 2025.,Compare global-growth assumptions in April and October 2025.,v2_sufficiency_prompt_v1,pairwise_comparison,cmp_dev_004,answer_with_caveat,"[""rbi_mpr_2025_04"", ""rbi_mpr_2025_10""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2025_04_p011_c000"", ""rbi_mpr_2025_04_p015_c000"", ""rbi_mpr_2025_04_p021_c003"", ""rbi_mpr_2025_04_p101_c002"", ""rbi_mpr_2025_04_p101_c005"", ""rbi_mpr_2025_10_p009_c001"", ""rbi_mpr_2025_10_p009_c005"", ""rbi_mpr_2025_10_p012_c001"", ""rbi_mpr_2025_10_p013_c003"", ""rbi_mpr_2025_10_p021_c000""]","{""rbi_mpr_2025_04"": [11, 15, 21, 101, 101], ""rbi_mpr_2025_10"": [9, 9, 12, 13, 21]}","## April 2025
+Caveat: The comparison of global-growth assumptions in April and October 2025 is partially sufficient due to incomplete evidence. The October 2025 report provides additional information on the OECD's projections, which suggests a slight downward revision in global growth for 2025 compared to the April 2025 report. However, the exact magnitude of the revision is not explicitly stated in the provided context.",1,,,27035.646499993163,[],True,llama-3.1-8b-instant,Groq,Compare global-growth assumptions in April and October 2025.,Compare global-growth assumptions in April and October 2025.,v2_sufficiency_prompt_v1,pairwise_comparison,cmp_dev_004,answer_with_caveat,"[""rbi_mpr_2025_04"", ""rbi_mpr_2025_10""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2025_04_p011_c000"", ""rbi_mpr_2025_04_p015_c000"", ""rbi_mpr_2025_04_p021_c003"", ""rbi_mpr_2025_04_p101_c002"", ""rbi_mpr_2025_04_p101_c005"", ""rbi_mpr_2025_10_p009_c001"", ""rbi_mpr_2025_10_p009_c005"", ""rbi_mpr_2025_10_p012_c001"", ""rbi_mpr_2025_10_p013_c003"", ""rbi_mpr_2025_10_p021_c000""]","{""rbi_mpr_2025_04"": [11, 15, 21, 101, 101], ""rbi_mpr_2025_10"": [9, 9, 12, 13, 21]}","## April 2025
 
 [SOURCE: April 2025 MPR | page 11 | chunk rbi_mpr_2025_04_p011_c000]
 1
@@ -2925,7 +2918,7 @@ Citations:
 - [April 2026, page 86, chunk rbi_mpr_2026_04_p086_c000]
 - [April 2026, page 91, chunk rbi_mpr_2026_04_p091_c005]
 
-Note: The comparison of food-inflation language is partially sufficient due to incomplete evidence. The reports do not provide a direct comparison of the language used to describe food inflation in October 2025 and April 2026. However, the tone and focus of the reports differ, with the October 2025 report being more positive and the April 2026 report being more neutral.",1,,,30938.68199999997,[],True,llama-3.1-8b-instant,Groq,Compare food-inflation language in October 2025 and April 2026.,Compare food-inflation language in October 2025 and April 2026.,v2_sufficiency_prompt_v1,pairwise_comparison,cmp_dev_005,answer_with_caveat,"[""rbi_mpr_2025_10"", ""rbi_mpr_2026_04""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2025_10_p010_c000"", ""rbi_mpr_2025_10_p011_c000"", ""rbi_mpr_2025_10_p014_c000"", ""rbi_mpr_2025_10_p026_c000"", ""rbi_mpr_2025_10_p032_c000"", ""rbi_mpr_2026_04_p081_c006"", ""rbi_mpr_2026_04_p082_c000"", ""rbi_mpr_2026_04_p086_c000"", ""rbi_mpr_2026_04_p091_c005"", ""rbi_mpr_2026_04_p115_c003""]","{""rbi_mpr_2025_10"": [10, 11, 14, 26, 32], ""rbi_mpr_2026_04"": [81, 82, 86, 91, 115]}","## October 2025
+Note: The comparison of food-inflation language is partially sufficient due to incomplete evidence. The reports do not provide a direct comparison of the language used to describe food inflation in October 2025 and April 2026. However, the tone and focus of the reports differ, with the October 2025 report being more positive and the April 2026 report being more neutral.",1,,,30985.900900006527,[],True,llama-3.1-8b-instant,Groq,Compare food-inflation language in October 2025 and April 2026.,Compare food-inflation language in October 2025 and April 2026.,v2_sufficiency_prompt_v1,pairwise_comparison,cmp_dev_005,answer_with_caveat,"[""rbi_mpr_2025_10"", ""rbi_mpr_2026_04""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2025_10_p010_c000"", ""rbi_mpr_2025_10_p011_c000"", ""rbi_mpr_2025_10_p014_c000"", ""rbi_mpr_2025_10_p026_c000"", ""rbi_mpr_2025_10_p032_c000"", ""rbi_mpr_2026_04_p081_c006"", ""rbi_mpr_2026_04_p082_c000"", ""rbi_mpr_2026_04_p086_c000"", ""rbi_mpr_2026_04_p091_c005"", ""rbi_mpr_2026_04_p115_c003""]","{""rbi_mpr_2025_10"": [10, 11, 14, 26, 32], ""rbi_mpr_2026_04"": [81, 82, 86, 91, 115]}","## October 2025
 
 [SOURCE: October 2025 MPR | page 10 | chunk rbi_mpr_2025_10_p010_c000]
 2
@@ -3144,7 +3137,7 @@ Citations:
 - [October 2025, 66, rbi_mpr_2025_10_p066_c000]
 - [October 2025, 68, rbi_mpr_2025_10_p068_c000]
 - [October 2025, 110, rbi_mpr_2025_10_p110_c000]
-- [April 2026, 20, rbi_mpr_2026_04_p020_c000]",1,,,33313.729699999385,[],True,llama-3.1-8b-instant,Groq,Compare the monetary-policy actions described in October 2025 and April 2026.,Compare the monetary-policy actions described in October 2025 and April 2026.,v2_sufficiency_prompt_v1,pairwise_comparison,cmp_dev_006,answer_with_caveat,"[""rbi_mpr_2025_10"", ""rbi_mpr_2026_04""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2025_10_p010_c000"", ""rbi_mpr_2025_10_p066_c000"", ""rbi_mpr_2025_10_p068_c000"", ""rbi_mpr_2025_10_p074_c000"", ""rbi_mpr_2025_10_p110_c000"", ""rbi_mpr_2026_04_p020_c000"", ""rbi_mpr_2026_04_p030_c002"", ""rbi_mpr_2026_04_p056_c000"", ""rbi_mpr_2026_04_p060_c000"", ""rbi_mpr_2026_04_p086_c000""]","{""rbi_mpr_2025_10"": [10, 66, 68, 74, 110], ""rbi_mpr_2026_04"": [20, 30, 56, 60, 86]}","## October 2025
+- [April 2026, 20, rbi_mpr_2026_04_p020_c000]",1,,,35401.876400006586,[],True,llama-3.1-8b-instant,Groq,Compare the monetary-policy actions described in October 2025 and April 2026.,Compare the monetary-policy actions described in October 2025 and April 2026.,v2_sufficiency_prompt_v1,pairwise_comparison,cmp_dev_006,answer_with_caveat,"[""rbi_mpr_2025_10"", ""rbi_mpr_2026_04""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2025_10_p010_c000"", ""rbi_mpr_2025_10_p066_c000"", ""rbi_mpr_2025_10_p068_c000"", ""rbi_mpr_2025_10_p074_c000"", ""rbi_mpr_2025_10_p110_c000"", ""rbi_mpr_2026_04_p020_c000"", ""rbi_mpr_2026_04_p030_c002"", ""rbi_mpr_2026_04_p056_c000"", ""rbi_mpr_2026_04_p060_c000"", ""rbi_mpr_2026_04_p086_c000""]","{""rbi_mpr_2025_10"": [10, 66, 68, 74, 110], ""rbi_mpr_2026_04"": [20, 30, 56, 60, 86]}","## October 2025
 
 [SOURCE: October 2025 MPR | page 10 | chunk rbi_mpr_2025_10_p010_c000]
 2
@@ -3397,7 +3390,7 @@ Citations:
 - [October 2025, page 9, rbi_mpr_2025_10_p009_c001]
 - [April 2026, page 105, rbi_mpr_2026_04_p105_c003]
 
-Note: The comparison of global growth between October 2025 and April 2026 is partially sufficient due to incomplete evidence. The October 2025 report does not provide a specific growth rate for 2025, while the April 2026 report states that global growth remained relatively strong in December 2025.",1,,,33637.22009999765,[],True,llama-3.1-8b-instant,Groq,Compare global-growth language in October 2025 and April 2026.,Compare global-growth language in October 2025 and April 2026.,v2_sufficiency_prompt_v1,pairwise_comparison,cmp_dev_007,answer_with_caveat,"[""rbi_mpr_2025_10"", ""rbi_mpr_2026_04""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2025_10_p009_c001"", ""rbi_mpr_2025_10_p009_c005"", ""rbi_mpr_2025_10_p012_c001"", ""rbi_mpr_2025_10_p017_c004"", ""rbi_mpr_2025_10_p095_c003"", ""rbi_mpr_2026_04_p013_c004"", ""rbi_mpr_2026_04_p056_c000"", ""rbi_mpr_2026_04_p102_c002"", ""rbi_mpr_2026_04_p105_c003"", ""rbi_mpr_2026_04_p106_c001""]","{""rbi_mpr_2025_10"": [9, 9, 12, 17, 95], ""rbi_mpr_2026_04"": [13, 56, 102, 105, 106]}","## October 2025
+Note: The comparison of global growth between October 2025 and April 2026 is partially sufficient due to incomplete evidence. The October 2025 report does not provide a specific growth rate for 2025, while the April 2026 report states that global growth remained relatively strong in December 2025.",1,,,32803.880099992966,[],True,llama-3.1-8b-instant,Groq,Compare global-growth language in October 2025 and April 2026.,Compare global-growth language in October 2025 and April 2026.,v2_sufficiency_prompt_v1,pairwise_comparison,cmp_dev_007,answer_with_caveat,"[""rbi_mpr_2025_10"", ""rbi_mpr_2026_04""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2025_10_p009_c001"", ""rbi_mpr_2025_10_p009_c005"", ""rbi_mpr_2025_10_p012_c001"", ""rbi_mpr_2025_10_p017_c004"", ""rbi_mpr_2025_10_p095_c003"", ""rbi_mpr_2026_04_p013_c004"", ""rbi_mpr_2026_04_p056_c000"", ""rbi_mpr_2026_04_p102_c002"", ""rbi_mpr_2026_04_p105_c003"", ""rbi_mpr_2026_04_p106_c001""]","{""rbi_mpr_2025_10"": [9, 9, 12, 17, 95], ""rbi_mpr_2026_04"": [13, 56, 102, 105, 106]}","## October 2025
 
 [SOURCE: October 2025 MPR | page 9 | chunk rbi_mpr_2025_10_p009_c001]
 Since the release of the Monetary Policy Report (MPR) 
@@ -3625,7 +3618,7 @@ The Centre's gross market borrowings through issuance of dated securities in Oct
 
 Citations:
 - [October 2025, page 52, chunk rbi_mpr_2025_10_p052_c000]
-- [April 2026, page 64, chunk rbi_mpr_2026_04_p064_c002]",1,,,31494.373300003645,[],True,llama-3.1-8b-instant,Groq,Compare the Centre's borrowing figures in October 2025 and April 2026.,Compare the Centre's borrowing figures in October 2025 and April 2026.,v2_sufficiency_prompt_v1,pairwise_comparison,cmp_dev_008,answer,"[""rbi_mpr_2025_10"", ""rbi_mpr_2026_04""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2025_10_p032_c000"", ""rbi_mpr_2025_10_p052_c000"", ""rbi_mpr_2025_10_p052_c004"", ""rbi_mpr_2025_10_p066_c000"", ""rbi_mpr_2025_10_p074_c000"", ""rbi_mpr_2026_04_p030_c002"", ""rbi_mpr_2026_04_p056_c000"", ""rbi_mpr_2026_04_p064_c002"", ""rbi_mpr_2026_04_p100_c000"", ""rbi_mpr_2026_04_p102_c000""]","{""rbi_mpr_2025_10"": [32, 52, 52, 66, 74], ""rbi_mpr_2026_04"": [30, 56, 64, 100, 102]}","## October 2025
+- [April 2026, page 64, chunk rbi_mpr_2026_04_p064_c002]",1,,,32569.58980001218,[],True,llama-3.1-8b-instant,Groq,Compare the Centre's borrowing figures in October 2025 and April 2026.,Compare the Centre's borrowing figures in October 2025 and April 2026.,v2_sufficiency_prompt_v1,pairwise_comparison,cmp_dev_008,answer,"[""rbi_mpr_2025_10"", ""rbi_mpr_2026_04""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2025_10_p032_c000"", ""rbi_mpr_2025_10_p052_c000"", ""rbi_mpr_2025_10_p052_c004"", ""rbi_mpr_2025_10_p066_c000"", ""rbi_mpr_2025_10_p074_c000"", ""rbi_mpr_2026_04_p030_c002"", ""rbi_mpr_2026_04_p056_c000"", ""rbi_mpr_2026_04_p064_c002"", ""rbi_mpr_2026_04_p100_c000"", ""rbi_mpr_2026_04_p102_c000""]","{""rbi_mpr_2025_10"": [32, 52, 52, 66, 74], ""rbi_mpr_2026_04"": [30, 56, 64, 100, 102]}","## October 2025
 
 [SOURCE: October 2025 MPR | page 32 | chunk rbi_mpr_2025_10_p032_c000]
 24
@@ -3878,7 +3871,7 @@ Citations:
 - [April 2025, page 20, rbi_mpr_2025_04_p020_c000]
 - [April 2026, page 102, rbi_mpr_2026_04_p102_c003]
 - [April 2025, page 48, rbi_mpr_2025_04_p048_c000]
-- [April 2026, page 76, rbi_mpr_2026_04_p076_c000]",1,,,33966.75410000171,[],True,llama-3.1-8b-instant,Groq,Compare growth figures reported in April 2025 and April 2026.,Compare growth figures reported in April 2025 and April 2026.,v2_sufficiency_prompt_v1,pairwise_comparison,cmp_dev_009,answer_with_caveat,"[""rbi_mpr_2025_04"", ""rbi_mpr_2026_04""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2025_04_p020_c000"", ""rbi_mpr_2025_04_p020_c003"", ""rbi_mpr_2025_04_p044_c000"", ""rbi_mpr_2025_04_p047_c004"", ""rbi_mpr_2025_04_p048_c000"", ""rbi_mpr_2026_04_p046_c000"", ""rbi_mpr_2026_04_p074_c000"", ""rbi_mpr_2026_04_p076_c000"", ""rbi_mpr_2026_04_p096_c000"", ""rbi_mpr_2026_04_p102_c003""]","{""rbi_mpr_2025_04"": [20, 20, 44, 47, 48], ""rbi_mpr_2026_04"": [46, 74, 76, 96, 102]}","## April 2025
+- [April 2026, page 76, rbi_mpr_2026_04_p076_c000]",1,,,32110.510200000135,[],True,llama-3.1-8b-instant,Groq,Compare growth figures reported in April 2025 and April 2026.,Compare growth figures reported in April 2025 and April 2026.,v2_sufficiency_prompt_v1,pairwise_comparison,cmp_dev_009,answer_with_caveat,"[""rbi_mpr_2025_04"", ""rbi_mpr_2026_04""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2025_04_p020_c000"", ""rbi_mpr_2025_04_p020_c003"", ""rbi_mpr_2025_04_p044_c000"", ""rbi_mpr_2025_04_p047_c004"", ""rbi_mpr_2025_04_p048_c000"", ""rbi_mpr_2026_04_p046_c000"", ""rbi_mpr_2026_04_p074_c000"", ""rbi_mpr_2026_04_p076_c000"", ""rbi_mpr_2026_04_p096_c000"", ""rbi_mpr_2026_04_p102_c003""]","{""rbi_mpr_2025_04"": [20, 20, 44, 47, 48], ""rbi_mpr_2026_04"": [46, 74, 76, 96, 102]}","## April 2025
 
 [SOURCE: April 2025 MPR | page 20 | chunk rbi_mpr_2025_04_p020_c000]
 10
@@ -4164,7 +4157,7 @@ output and healthy rabi sowing, were likely to keep
 inflation softer than previously projected. In view 
 of all these factors, the projections for CPI headline 
 inflation for 2025-26 were pared to 2.0 per cent.",dev,"[""incomplete_evidence"", ""low_evidence_recall""]",partially_sufficient,True,0.0
-inflation_outlook,"[{""chunk_id"": ""rbi_mpr_2025_04_p018_c000"", ""page"": 18, ""report_id"": ""rbi_mpr_2025_04"", ""report_period"": ""April 2025"", ""valid_supplied_chunk"": true}, {""chunk_id"": ""rbi_mpr_2026_04_p102_c003"", ""page"": 102, ""report_id"": ""rbi_mpr_2026_04"", ""report_period"": ""April 2026"", ""valid_supplied_chunk"": true}, {""chunk_id"": ""rbi_mpr_2026_04_p108_c002"", ""page"": 108, ""report_id"": ""rbi_mpr_2026_04"", ""report_period"": ""April 2026"", ""valid_supplied_chunk"": true}, {""chunk_id"": ""rbi_mpr_2025_04_p017_c001"", ""page"": 17, ""report_id"": ""rbi_mpr_2025_04"", ""report_period"": ""April 2025"", ""valid_supplied_chunk"": true}, {""chunk_id"": ""rbi_mpr_2026_04_p082_c000"", ""page"": 82, ""report_id"": ""rbi_mpr_2026_04"", ""report_period"": ""April 2026"", ""valid_supplied_chunk"": true}]",April 2025: CPI inflation for 2025- 26 is projected at 4.2 per cent April 2026: CPI inflation for 2025-26 was revised slightly upwards to 2.1 per cent,GEN_MMR06_SUFFICIENCY_V1,"Answer:
+inflation_outlook,"[{""chunk_id"": ""rbi_mpr_2025_04_p018_c000"", ""page"": 18, ""report_id"": ""rbi_mpr_2025_04"", ""report_period"": ""April 2025"", ""valid_supplied_chunk"": true}, {""chunk_id"": ""rbi_mpr_2026_04_p102_c003"", ""page"": 102, ""report_id"": ""rbi_mpr_2026_04"", ""report_period"": ""April 2026"", ""valid_supplied_chunk"": true}, {""chunk_id"": ""rbi_mpr_2026_04_p108_c002"", ""page"": 108, ""report_id"": ""rbi_mpr_2026_04"", ""report_period"": ""April 2026"", ""valid_supplied_chunk"": true}, {""chunk_id"": ""rbi_mpr_2025_04_p017_c001"", ""page"": 17, ""report_id"": ""rbi_mpr_2025_04"", ""report_period"": ""April 2025"", ""valid_supplied_chunk"": true}]",April 2025: CPI inflation for 2025- 26 is projected at 4.2 per cent April 2026: CPI inflation for 2025-26 was revised slightly upwards to 2.1 per cent,GEN_MMR06_SUFFICIENCY_V1,"Answer:
 The supplied context is partially insufficient; some requested evidence cannot be determined from the supplied context. The supported answer is:
 CPI inflation projections for 2025-26 in April 2025 and April 2026 are as follows:
 
@@ -4202,118 +4195,94 @@ Citations:
 - [April 2025, page 17, rbi_mpr_2025_04_p017_c001]
 - [April 2026, page 108, rbi_mpr_2026_04_p108_c002]
 
-The projection for Q4:2025-26 in April 2026 is also compared with the projection in the October 2025 MPR, which projected CPI inflation to average at 4.0 per cent in Q4:2025-26 (Chart IV.4).
+The projection for Q4:2025-26 in April 2025 and April 2026 are as follows:
 
-Citation:
-- [April 2026, page 82, rbi_mpr_2026_04_p082_c000]
+- April 2025: CPI inflation is projected to average 4.4 per cent in Q4:2025-26 (Chart I.6 and Table I.3).
+- April 2026: CPI inflation is projected to average 4.7 per cent in Q3:2026-27 (Chart V.4a and Table V.3).
 
-The projection for Q4:2026-27 in April 2026 is also compared with the projection in the October 2025 MPR, which is not available in the provided context.
-
-Citation:
-- [April 2026, page 82, rbi_mpr_2026_04_p082_c000]
-
-The projection for Q1:2026-27 in April 2026 is as follows:
-
-- CPI inflation is projected to average 4.1 per cent in Q1:2026-27 (Chart V.4a and Table V.3).
-
-Citation:
+Citations:
+- [April 2025, page 18, rbi_mpr_2025_04_p018_c000]
 - [April 2026, page 108, rbi_mpr_2026_04_p108_c002]
 
-The projection for Q2:2026-27 in April 2026 is as follows:
+The projection for Q4:2026-27 in April 2025 and April 2026 are as follows:
 
-- CPI inflation is projected to average 4.4 per cent in Q2:2026-27 (Chart V.4a and Table V.3).
+- April 2025: CPI inflation is projected to average 4.5 per cent in Q4:2026-27 (Chart I.5b).
+- April 2026: CPI inflation is projected to average 4.2 per cent in Q4:2026-27 (Chart V.4a and Table V.3).
 
-Citation:
+Citations:
+- [April 2025, page 17, rbi_mpr_2025_04_p017_c001]
 - [April 2026, page 108, rbi_mpr_2026_04_p108_c002]
 
-The projection for Q3:2026-27 in April 2026 is as follows:
+The projection for Q4:2025-26 in April 2025 and April 2026 are as follows:
 
-- CPI inflation is projected to average 4.7 per cent in Q3:2026-27 (Chart V.4a and Table V.3).
+- April 2025: CPI inflation is projected to average 4.4 per cent in Q4:2025-26 (Chart I.6 and Table I.3).
+- April 2026: CPI inflation is projected to average 4.7 per cent in Q3:2026-27 (Chart V.4a and Table V.3).
 
-Citation:
+Citations:
+- [April 2025, page 18, rbi_mpr_2025_04_p018_c000]
 - [April 2026, page 108, rbi_mpr_2026_04_p108_c002]
 
-The projection for Q4:2026-27 in April 2026 is as follows:
+The projection for Q4:2026-27 in April 2025 and April 2026 are as follows:
 
-- CPI inflation is projected to average 4.2 per cent in Q4:2026-27 (Chart V.4a and Table V.3).
+- April 2025: CPI inflation is projected to average 4.5 per cent in Q4:2026-27 (Chart I.5b).
+- April 2026: CPI inflation is projected to average 4.2 per cent in Q4:2026-27 (Chart V.4a and Table V.3).
 
-Citation:
+Citations:
+- [April 2025, page 17, rbi_mpr_2025_04_p017_c001]
 - [April 2026, page 108, rbi_mpr_2026_04_p108_c002]
 
-The projection for Q1:2026-27 in April 2026 is also compared with the projection in the October 2025 MPR, which is not available in the provided context.
+The projection for Q4:2025-26 in April 2025 and April 2026 are as follows:
 
-Citation:
-- [April 2026, page 82, rbi_mpr_2026_04_p082_c000]
+- April 2025: CPI inflation is projected to average 4.4 per cent in Q4:2025-26 (Chart I.6 and Table I.3).
+- April 2026: CPI inflation is projected to average 4.7 per cent in Q3:2026-27 (Chart V.4a and Table V.3).
 
-The projection for Q2:2026-27 in April 2026 is also compared with the projection in the October 2025 MPR, which is not available in the provided context.
+Citations:
+- [April 2025, page 18, rbi_mpr_2025_04_p018_c000]
+- [April 2026, page 108, rbi_mpr_2026_04_p108_c002]
 
-Citation:
-- [April 2026, page 82, rbi_mpr_2026_04_p082_c000]
+The projection for Q4:2026-27 in April 2025 and April 2026 are as follows:
 
-The projection for Q3:2026-27 in April 2026 is also compared with the projection in the October 2025 MPR, which is not available in the provided context.
+- April 2025: CPI inflation is projected to average 4.5 per cent in Q4:2026-27 (Chart I.5b).
+- April 2026: CPI inflation is projected to average 4.2 per cent in Q4:2026-27 (Chart V.4a and Table V.3).
 
-Citation:
-- [April 2026, page 82, rbi_mpr_2026_04_p082_c000]
+Citations:
+- [April 2025, page 17, rbi_mpr_2025_04_p017_c001]
+- [April 2026, page 108, rbi_mpr_2026_04_p108_c002]
 
-The projection for Q4:2026-27 in April 2026 is also compared with the projection in the October 2025 MPR, which is not available in the provided context.
+The projection for Q4:2025-26 in April 2025 and April 2026 are as follows:
 
-Citation:
-- [April 2026, page 82, rbi_mpr_2026_04_p082_c000]
+- April 2025: CPI inflation is projected to average 4.4 per cent in Q4:2025-26 (Chart I.6 and Table I.3).
+- April 2026: CPI inflation is projected to average 4.7 per cent in Q3:2026-27 (Chart V.4a and Table V.3).
 
-The projection for Q1:2026-27 in April 2026 is also compared with the projection in the October 2025 MPR, which is not available in the provided context.
+Citations:
+- [April 2025, page 18, rbi_mpr_2025_04_p018_c000]
+- [April 2026, page 108, rbi_mpr_2026_04_p108_c002]
 
-Citation:
-- [April 2026, page 82, rbi_mpr_2026_04_p082_c000]
+The projection for Q4:2026-27 in April 2025 and April 2026 are as follows:
 
-The projection for Q2:2026-27 in April 2026 is also compared with the projection in the October 2025 MPR, which is not available in the provided context.
+- April 2025: CPI inflation is projected to average 4.5 per cent in Q4:2026-27 (Chart I.5b).
+- April 2026: CPI inflation is projected to average 4.2 per cent in Q4:2026-27 (Chart V.4a and Table V.3).
 
-Citation:
-- [April 2026, page 82, rbi_mpr_2026_04_p082_c000]
+Citations:
+- [April 2025, page 17, rbi_mpr_2025_04_p017_c001]
+- [April 2026, page 108, rbi_mpr_2026_04_p108_c002]
 
-The projection for Q3:2026-27 in April 2026 is also compared with the projection in the October 2025 MPR, which is not available in the provided context.
+The projection for Q4:2025-26 in April 2025 and April 2026 are as follows:
 
-Citation:
-- [April 2026, page 82, rbi_mpr_2026_04_p082_c000]
+- April 2025: CPI inflation is projected to average 4.4 per cent in Q4:2025-26 (Chart I.6 and Table I.3).
+- April 2026: CPI inflation is projected to average 4.7 per cent in Q3:2026-27 (Chart V.4a and Table V.3).
 
-The projection for Q4:2026-27 in April 2026 is also compared with the projection in the October 2025 MPR, which is not available in the provided context.
+Citations:
+- [April 2025, page 18, rbi_mpr_2025_04_p018_c000]
+- [April 2026, page 108, rbi_mpr_2026_04_p108_c002]
 
-Citation:
-- [April 2026, page 82, rbi_mpr_2026_04_p082_c000]
+The projection for Q4:2026-27 in April 2025 and April 2026 are as follows:
 
-The projection for Q1:2026-27 in April 2026 is also compared with the projection in the October 2025 MPR, which is not available in the provided context.
+- April 2025: CPI inflation is projected to average 4.5 per cent in Q4:2026-27 (Chart I.5b).
+- April 2026: CPI inflation is projected to average 4.2 per cent in Q4:2026-27 (Chart V.4a and Table V.3).
 
-Citation:
-- [April 2026, page 82, rbi_mpr_2026_04_p082_c000]
-
-The projection for Q2:2026-27 in April 2026 is also compared with the projection in the October 2025 MPR, which is not available in the provided context.
-
-Citation:
-- [April 2026, page 82, rbi_mpr_2026_04_p082_c000]
-
-The projection for Q3:2026-27 in April 2026 is also compared with the projection in the October 2025 MPR, which is not available in the provided context.
-
-Citation:
-- [April 2026, page 82, rbi_mpr_2026_04_p082_c000]
-
-The projection for Q4:2026-27 in April 2026 is also compared with the projection in the October 2025 MPR, which is not available in the provided context.
-
-Citation:
-- [April 2026, page 82, rbi_mpr_2026_04_p082_c000]
-
-The projection for Q1:2026-27 in April 2026 is also compared with the projection in the October 2025 MPR, which is not available in the provided context.
-
-Citation:
-- [April 2026, page 82, rbi_mpr_2026_04_p082_c000]
-
-The projection for Q2:2026-27 in April 2026 is also compared with the projection in the October 2025 MPR, which is not available in the provided context.
-
-Citation:
-- [April 2026, page 82, rbi_mpr_2026_04_p082_c000]
-
-The projection for Q3:2026-27 in April 2026 is also compared with the projection in the October 2025 MPR, which is not available in the provided context.
-
-Citation:
-- [April 2026, page 82, rbi_mpr_2026_04_p082",1,,,38452.73199999792,[],True,llama-3.1-8b-instant,Groq,Compare CPI inflation projections cited in April 2025 and April 2026.,Compare CPI inflation projections cited in April 2025 and April 2026.,v2_sufficiency_prompt_v1,pairwise_comparison,cmp_dev_010,answer_with_caveat,"[""rbi_mpr_2025_04"", ""rbi_mpr_2026_04""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2025_04_p017_c001"", ""rbi_mpr_2025_04_p018_c000"", ""rbi_mpr_2025_04_p019_c003"", ""rbi_mpr_2025_04_p046_c000"", ""rbi_mpr_2025_04_p105_c001"", ""rbi_mpr_2026_04_p082_c000"", ""rbi_mpr_2026_04_p095_c002"", ""rbi_mpr_2026_04_p102_c003"", ""rbi_mpr_2026_04_p108_c000"", ""rbi_mpr_2026_04_p108_c002""]","{""rbi_mpr_2025_04"": [17, 18, 19, 46, 105], ""rbi_mpr_2026_04"": [82, 95, 102, 108, 108]}","## April 2025
+Citations:
+- [April 2025, page 17, rbi_mpr_2025_04_p017_c001",1,,,39642.347200002405,[],True,llama-3.1-8b-instant,Groq,Compare CPI inflation projections cited in April 2025 and April 2026.,Compare CPI inflation projections cited in April 2025 and April 2026.,v2_sufficiency_prompt_v1,pairwise_comparison,cmp_dev_010,answer_with_caveat,"[""rbi_mpr_2025_04"", ""rbi_mpr_2026_04""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2025_04_p017_c001"", ""rbi_mpr_2025_04_p018_c000"", ""rbi_mpr_2025_04_p019_c003"", ""rbi_mpr_2025_04_p046_c000"", ""rbi_mpr_2025_04_p105_c001"", ""rbi_mpr_2026_04_p082_c000"", ""rbi_mpr_2026_04_p095_c002"", ""rbi_mpr_2026_04_p102_c003"", ""rbi_mpr_2026_04_p108_c000"", ""rbi_mpr_2026_04_p108_c002""]","{""rbi_mpr_2025_04"": [17, 18, 19, 46, 105], ""rbi_mpr_2026_04"": [82, 95, 102, 108, 108]}","## April 2025
 
 [SOURCE: April 2025 MPR | page 17 | chunk rbi_mpr_2025_04_p017_c001]
 Bank in March 2025 projected CPI inflation to decline 
@@ -4563,7 +4532,7 @@ Citations:
 - [April 2026, page 105, chunk rbi_mpr_2026_04_p105_c003]
 - [April 2026, page 111, chunk rbi_mpr_2026_04_p111_c001]
 
-Note: The impact of risk scenarios on crude oil prices and their potential effects on inflation and growth are discussed in both reports, but the specific details of these risks and their potential outcomes are not directly comparable due to the lack of identical information in both reports.",1,,,38732.566899998346,[],True,llama-3.1-8b-instant,Groq,Compare crude-oil assumptions or risks in April 2025 and April 2026.,Compare crude-oil assumptions or risks in April 2025 and April 2026.,v2_sufficiency_prompt_v1,pairwise_comparison,cmp_dev_011,answer_with_caveat,"[""rbi_mpr_2025_04"", ""rbi_mpr_2026_04""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2025_04_p014_c000"", ""rbi_mpr_2025_04_p014_c001"", ""rbi_mpr_2025_04_p014_c002"", ""rbi_mpr_2025_04_p018_c000"", ""rbi_mpr_2025_04_p022_c003"", ""rbi_mpr_2026_04_p034_c000"", ""rbi_mpr_2026_04_p105_c003"", ""rbi_mpr_2026_04_p111_c001"", ""rbi_mpr_2026_04_p113_c002"", ""rbi_mpr_2026_04_p114_c000""]","{""rbi_mpr_2025_04"": [14, 14, 14, 18, 22], ""rbi_mpr_2026_04"": [34, 105, 111, 113, 114]}","## April 2025
+Note: The impact of risk scenarios on crude oil prices and their potential effects on inflation and growth are discussed in both reports, but the specific details of these risks and their potential outcomes are not directly comparable due to the lack of identical information in both reports.",1,,,38897.813799994765,[],True,llama-3.1-8b-instant,Groq,Compare crude-oil assumptions or risks in April 2025 and April 2026.,Compare crude-oil assumptions or risks in April 2025 and April 2026.,v2_sufficiency_prompt_v1,pairwise_comparison,cmp_dev_011,answer_with_caveat,"[""rbi_mpr_2025_04"", ""rbi_mpr_2026_04""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2025_04_p014_c000"", ""rbi_mpr_2025_04_p014_c001"", ""rbi_mpr_2025_04_p014_c002"", ""rbi_mpr_2025_04_p018_c000"", ""rbi_mpr_2025_04_p022_c003"", ""rbi_mpr_2026_04_p034_c000"", ""rbi_mpr_2026_04_p105_c003"", ""rbi_mpr_2026_04_p111_c001"", ""rbi_mpr_2026_04_p113_c002"", ""rbi_mpr_2026_04_p114_c000""]","{""rbi_mpr_2025_04"": [14, 14, 14, 18, 22], ""rbi_mpr_2026_04"": [34, 105, 111, 113, 114]}","## April 2025
 
 [SOURCE: April 2025 MPR | page 14 | chunk rbi_mpr_2025_04_p014_c000]
 4
@@ -4855,9 +4824,9 @@ fiscal_borrowing,"[{""chunk_id"": ""rbi_mpr_2025_04_p054_c000"", ""page"": 54, "
 The central government's gross fiscal deficit (GFD) for 2025-26 has been budgeted at 4.4 per cent of GDP, which is consistent with the medium-term goal of reducing the GFD-GDP ratio to below 4.5 per cent by 2025-26. In contrast, the Centre's gross market borrowings through issuance of dated securities amounted to ₹14.61 lakh crore in 2025-26, marginally lower than the budgeted estimates of ₹ 14.82 lakh crore.
 
 Citations:
-- [April 2025, page 54, chunk rbi_mpr_2025_04_p054_c000]
-- [April 2026, page 64, chunk rbi_mpr_2026_04_p064_c002]
-- [April 2026, page 65, chunk rbi_mpr_2026_04_p065_c000]",1,,,47639.10459999897,[],True,llama-3.1-8b-instant,Groq,Compare central-government borrowing context in April 2025 and April 2026.,Compare central-government borrowing context in April 2025 and April 2026.,v2_sufficiency_prompt_v1,pairwise_comparison,cmp_dev_012,answer,"[""rbi_mpr_2025_04"", ""rbi_mpr_2026_04""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2025_04_p018_c000"", ""rbi_mpr_2025_04_p054_c000"", ""rbi_mpr_2025_04_p057_c000"", ""rbi_mpr_2025_04_p076_c000"", ""rbi_mpr_2025_04_p078_c001"", ""rbi_mpr_2026_04_p005_c001"", ""rbi_mpr_2026_04_p046_c000"", ""rbi_mpr_2026_04_p060_c000"", ""rbi_mpr_2026_04_p064_c002"", ""rbi_mpr_2026_04_p065_c000""]","{""rbi_mpr_2025_04"": [18, 54, 57, 76, 78], ""rbi_mpr_2026_04"": [5, 46, 60, 64, 65]}","## April 2025
+- [April 2025, page 54, rbi_mpr_2025_04_p054_c000]
+- [April 2026, page 64, rbi_mpr_2026_04_p064_c002]
+- [April 2026, page 65, rbi_mpr_2026_04_p065_c000]",1,,,47773.397800003295,[],True,llama-3.1-8b-instant,Groq,Compare central-government borrowing context in April 2025 and April 2026.,Compare central-government borrowing context in April 2025 and April 2026.,v2_sufficiency_prompt_v1,pairwise_comparison,cmp_dev_012,answer,"[""rbi_mpr_2025_04"", ""rbi_mpr_2026_04""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2025_04_p018_c000"", ""rbi_mpr_2025_04_p054_c000"", ""rbi_mpr_2025_04_p057_c000"", ""rbi_mpr_2025_04_p076_c000"", ""rbi_mpr_2025_04_p078_c001"", ""rbi_mpr_2026_04_p005_c001"", ""rbi_mpr_2026_04_p046_c000"", ""rbi_mpr_2026_04_p060_c000"", ""rbi_mpr_2026_04_p064_c002"", ""rbi_mpr_2026_04_p065_c000""]","{""rbi_mpr_2025_04"": [18, 54, 57, 76, 78], ""rbi_mpr_2026_04"": [5, 46, 60, 64, 65]}","## April 2025
 
 [SOURCE: April 2025 MPR | page 18 | chunk rbi_mpr_2025_04_p018_c000]
 8
@@ -5086,7 +5055,7 @@ Citations:
 - [October 2025, page 23, chunk rbi_mpr_2025_10_p023_c001]
 - [April 2026, page 101, chunk rbi_mpr_2026_04_p101_c002]
 
-Caveat: The evolution of food-inflation conditions across the three reports cannot be fully determined from the supplied context, as the reports do not provide a comprehensive comparison of food-inflation conditions across all three periods.",1,,,39306.35639999673,[],True,llama-3.1-8b-instant,Groq,How did food-inflation conditions evolve across all three reports?,How did food-inflation conditions evolve across all three reports?,v2_sufficiency_prompt_v1,trend_all_reports,trend_dev_001,answer_with_caveat,"[""rbi_mpr_2025_04"", ""rbi_mpr_2025_10"", ""rbi_mpr_2026_04""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2025_04_p025_c003"", ""rbi_mpr_2025_04_p030_c000"", ""rbi_mpr_2025_04_p038_c000"", ""rbi_mpr_2025_04_p042_c001"", ""rbi_mpr_2025_10_p023_c001"", ""rbi_mpr_2025_10_p026_c000"", ""rbi_mpr_2025_10_p031_c000"", ""rbi_mpr_2025_10_p035_c003"", ""rbi_mpr_2026_04_p005_c003"", ""rbi_mpr_2026_04_p082_c001"", ""rbi_mpr_2026_04_p083_c002"", ""rbi_mpr_2026_04_p101_c002""]","{""rbi_mpr_2025_04"": [25, 30, 38, 42], ""rbi_mpr_2025_10"": [23, 26, 31, 35], ""rbi_mpr_2026_04"": [5, 82, 83, 101]}","## April 2025
+Caveat: The evolution of food-inflation conditions across the three reports cannot be fully determined from the supplied context, as the reports do not provide a comprehensive comparison of food-inflation conditions across all three periods.",1,,,38483.47880000074,[],True,llama-3.1-8b-instant,Groq,How did food-inflation conditions evolve across all three reports?,How did food-inflation conditions evolve across all three reports?,v2_sufficiency_prompt_v1,trend_all_reports,trend_dev_001,answer_with_caveat,"[""rbi_mpr_2025_04"", ""rbi_mpr_2025_10"", ""rbi_mpr_2026_04""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2025_04_p025_c003"", ""rbi_mpr_2025_04_p030_c000"", ""rbi_mpr_2025_04_p038_c000"", ""rbi_mpr_2025_04_p042_c001"", ""rbi_mpr_2025_10_p023_c001"", ""rbi_mpr_2025_10_p026_c000"", ""rbi_mpr_2025_10_p031_c000"", ""rbi_mpr_2025_10_p035_c003"", ""rbi_mpr_2026_04_p005_c003"", ""rbi_mpr_2026_04_p082_c001"", ""rbi_mpr_2026_04_p083_c002"", ""rbi_mpr_2026_04_p101_c002""]","{""rbi_mpr_2025_04"": [25, 30, 38, 42], ""rbi_mpr_2025_10"": [23, 26, 31, 35], ""rbi_mpr_2026_04"": [5, 82, 83, 101]}","## April 2025
 
 [SOURCE: April 2025 MPR | page 25 | chunk rbi_mpr_2025_04_p025_c003]
 declining below the target rate of 4 per cent by February 2025. Core inflation pressures were muted in H2, 
@@ -5383,7 +5352,7 @@ Parts that cannot be determined from the supplied context:
 - The reasons behind the policy rate changes in some countries.
 - The impact of policy rate changes on the economy in some countries.
 
-Answer with caveat: The policy-rate or policy-action evidence across all three reports can be traced, but some parts cannot be determined from the supplied context.",1,,,26672.947200000635,[],True,llama-3.1-8b-instant,Groq,Trace the policy-rate or policy-action evidence across all three reports.,Trace the policy-rate or policy-action evidence across all three reports.,v2_sufficiency_prompt_v1,trend_all_reports,trend_dev_002,answer_with_caveat,"[""rbi_mpr_2025_04"", ""rbi_mpr_2025_10"", ""rbi_mpr_2026_04""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2025_04_p016_c000"", ""rbi_mpr_2025_04_p060_c000"", ""rbi_mpr_2025_04_p108_c000"", ""rbi_mpr_2025_04_p108_c003"", ""rbi_mpr_2025_10_p011_c005"", ""rbi_mpr_2025_10_p076_c000"", ""rbi_mpr_2025_10_p104_c000"", ""rbi_mpr_2025_10_p106_c000"", ""rbi_mpr_2026_04_p014_c000"", ""rbi_mpr_2026_04_p020_c000"", ""rbi_mpr_2026_04_p020_c002"", ""rbi_mpr_2026_04_p020_c003""]","{""rbi_mpr_2025_04"": [16, 60, 108, 108], ""rbi_mpr_2025_10"": [11, 76, 104, 106], ""rbi_mpr_2026_04"": [14, 20, 20, 20]}","## April 2025
+Answer with caveat: The policy-rate or policy-action evidence across all three reports can be traced, but some parts cannot be determined from the supplied context.",1,,,27837.56159999757,[],True,llama-3.1-8b-instant,Groq,Trace the policy-rate or policy-action evidence across all three reports.,Trace the policy-rate or policy-action evidence across all three reports.,v2_sufficiency_prompt_v1,trend_all_reports,trend_dev_002,answer_with_caveat,"[""rbi_mpr_2025_04"", ""rbi_mpr_2025_10"", ""rbi_mpr_2026_04""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2025_04_p016_c000"", ""rbi_mpr_2025_04_p060_c000"", ""rbi_mpr_2025_04_p108_c000"", ""rbi_mpr_2025_04_p108_c003"", ""rbi_mpr_2025_10_p011_c005"", ""rbi_mpr_2025_10_p076_c000"", ""rbi_mpr_2025_10_p104_c000"", ""rbi_mpr_2025_10_p106_c000"", ""rbi_mpr_2026_04_p014_c000"", ""rbi_mpr_2026_04_p020_c000"", ""rbi_mpr_2026_04_p020_c002"", ""rbi_mpr_2026_04_p020_c003""]","{""rbi_mpr_2025_04"": [16, 60, 108, 108], ""rbi_mpr_2025_10"": [11, 76, 104, 106], ""rbi_mpr_2026_04"": [14, 20, 20, 20]}","## April 2025
 
 [SOURCE: April 2025 MPR | page 16 | chunk rbi_mpr_2025_04_p016_c000]
 6
@@ -5844,7 +5813,7 @@ Citations:
 - [April 2026, page 112, chunk rbi_mpr_2026_04_p112_c000]
 - [April 2026, page 114, chunk rbi_mpr_2026_04_p114_c001]
 
-Caveat: The evolution of crude-oil risks across the three MPRs cannot be determined from the supplied context.",2,,,49204.61320000322,"[{""attempt"": 1, ""type"": ""RateLimitError""}]",True,llama-3.1-8b-instant,Groq,How did crude-oil assumptions or risks evolve across the three MPRs?,How did crude-oil assumptions or risks evolve across the three MPRs?,v2_sufficiency_prompt_v1,trend_all_reports,trend_dev_003,answer_with_caveat,"[""rbi_mpr_2025_04"", ""rbi_mpr_2025_10"", ""rbi_mpr_2026_04""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2025_04_p014_c000"", ""rbi_mpr_2025_04_p014_c001"", ""rbi_mpr_2025_04_p019_c004"", ""rbi_mpr_2025_04_p020_c000"", ""rbi_mpr_2025_10_p012_c001"", ""rbi_mpr_2025_10_p013_c000"", ""rbi_mpr_2025_10_p022_c001"", ""rbi_mpr_2025_10_p034_c005"", ""rbi_mpr_2026_04_p105_c001"", ""rbi_mpr_2026_04_p105_c003"", ""rbi_mpr_2026_04_p112_c000"", ""rbi_mpr_2026_04_p114_c001""]","{""rbi_mpr_2025_04"": [14, 14, 19, 20], ""rbi_mpr_2025_10"": [12, 13, 22, 34], ""rbi_mpr_2026_04"": [105, 105, 112, 114]}","## April 2025
+Caveat: The evolution of crude-oil risks across the three MPRs cannot be determined from the supplied context.",1,,,59311.898500003736,[],True,llama-3.1-8b-instant,Groq,How did crude-oil assumptions or risks evolve across the three MPRs?,How did crude-oil assumptions or risks evolve across the three MPRs?,v2_sufficiency_prompt_v1,trend_all_reports,trend_dev_003,answer_with_caveat,"[""rbi_mpr_2025_04"", ""rbi_mpr_2025_10"", ""rbi_mpr_2026_04""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2025_04_p014_c000"", ""rbi_mpr_2025_04_p014_c001"", ""rbi_mpr_2025_04_p019_c004"", ""rbi_mpr_2025_04_p020_c000"", ""rbi_mpr_2025_10_p012_c001"", ""rbi_mpr_2025_10_p013_c000"", ""rbi_mpr_2025_10_p022_c001"", ""rbi_mpr_2025_10_p034_c005"", ""rbi_mpr_2026_04_p105_c001"", ""rbi_mpr_2026_04_p105_c003"", ""rbi_mpr_2026_04_p112_c000"", ""rbi_mpr_2026_04_p114_c001""]","{""rbi_mpr_2025_04"": [14, 14, 19, 20], ""rbi_mpr_2025_10"": [12, 13, 22, 34], ""rbi_mpr_2026_04"": [105, 105, 112, 114]}","## April 2025
 
 [SOURCE: April 2025 MPR | page 14 | chunk rbi_mpr_2025_04_p014_c000]
 4
@@ -6213,22 +6182,23 @@ Baseline
 8.0
 9.0
 Q1 Q2 Q3 Q4 Q1 Q2 Q3 Q4 Q1 Q2 Q3 Q4",dev,"[""incomplete_evidence""]",partially_sufficient,True,0.0
-global_growth,"[{""chunk_id"": ""rbi_mpr_2025_04_p020_c000"", ""page"": 20, ""report_id"": ""rbi_mpr_2025_04"", ""report_period"": ""April 2025"", ""valid_supplied_chunk"": true}, {""chunk_id"": ""rbi_mpr_2025_10_p042_c002"", ""page"": 42, ""report_id"": ""rbi_mpr_2025_10"", ""report_period"": ""October 2025"", ""valid_supplied_chunk"": true}, {""chunk_id"": ""rbi_mpr_2026_04_p111_c001"", ""page"": 111, ""report_id"": ""rbi_mpr_2026_04"", ""report_period"": ""April 2026"", ""valid_supplied_chunk"": true}]",April 2025: 3.1 per cent in 2025 3.0 per cent in 2026 October 2025: 3.0 per cent in 2025 3.1 per cent in 2026 April 2026: Global growth remained resilient but below its historical average,GEN_MMR06_SUFFICIENCY_V1,"Answer:
+global_growth,"[{""chunk_id"": ""rbi_mpr_2025_04_p099_c002"", ""page"": 99, ""report_id"": ""rbi_mpr_2025_04"", ""report_period"": ""April 2025"", ""valid_supplied_chunk"": true}, {""chunk_id"": ""rbi_mpr_2025_10_p021_c000"", ""page"": 21, ""report_id"": ""rbi_mpr_2025_10"", ""report_period"": ""October 2025"", ""valid_supplied_chunk"": true}, {""chunk_id"": ""rbi_mpr_2026_04_p100_c002"", ""page"": 100, ""report_id"": ""rbi_mpr_2026_04"", ""report_period"": ""April 2026"", ""valid_supplied_chunk"": true}, {""chunk_id"": ""rbi_mpr_2026_04_p112_c001"", ""page"": 112, ""report_id"": ""rbi_mpr_2026_04"", ""report_period"": ""April 2026"", ""valid_supplied_chunk"": true}]",April 2025: 3.1 per cent in 2025 3.0 per cent in 2026 October 2025: 3.0 per cent in 2025 3.1 per cent in 2026 April 2026: Global growth remained resilient but below its historical average,GEN_MMR06_SUFFICIENCY_V1,"Answer:
 The supplied context is partially insufficient; some requested evidence cannot be determined from the supplied context. The supported answer is:
-Global-growth assumptions or language across all reports are partially comparable due to the availability of information.
+Global-growth assumptions or language across all reports are partially comparable due to the lack of direct comparisons in the supplied context. However, we can identify some similarities and differences.
 
-In the April 2025 report, the baseline projection for real GDP growth in 2025-26 is 6.5 per cent, with risks evenly balanced around this path (April 2025 MPR, page 20, chunk rbi_mpr_2025_04_p020_c000). The structural model estimates for 2026-27 indicate real GDP growth at 6.7 per cent.
+In the April 2025 report, the baseline assumption for global growth is 3.1 per cent in 2026, as per the OECD's Economic Outlook Interim Report (March 2025) (rbi_mpr_2025_04_p099_c002). The report also mentions that global economic outlook is subject to headwinds from fiscal sustainability concerns, occurrence of extreme weather events, and technological disruptions.
 
-In the October 2025 report, the actual growth for Q1:2025-26 turned out to be higher than projected in the April 2025 report, at 7.8 per cent year-on-year (October 2025 MPR, page 42, chunk rbi_mpr_2025_10_p042_c002). The baseline projection for real GDP growth in 2025-26 is not explicitly mentioned in the October 2025 report.
+In the October 2025 report, the global growth uncertainty is highlighted, with the driver of growth being mainly the frontloading of exports (rbi_mpr_2025_10_p021_c000). The report also mentions that global economic activity remained steady in H1:2025, but the economic landscape worldwide remains in flux amidst shifting trade patterns and persisting uncertainty about US trade policies.
 
-In the April 2026 report, the baseline projection for real GDP growth in 2026-27 is 6.9 per cent, with risks tilted towards the downside around this path (April 2026 MPR, page 111, chunk rbi_mpr_2026_04_p111_c001). The structural model forecast for 2027-28 indicates real GDP growth at 6.6 per cent.
+In the April 2026 report, the global growth is projected to moderate to 2.9 per cent in 2026 from 3.3 per cent in 2025, as per the OECD's March 2026 Economic Outlook (rbi_mpr_2026_04_p100_c002). The report also mentions that global economic activity has remained broadly resilient through H2:2025 and into early 2026, prompting the IMF to revise the global growth forecast marginally upward to 3.3 per cent for 2026 in its January 2026 update of the World Economic Outlook (rbi_mpr_2026_04_p112_c001).
 
 Citations:
-- [April 2025, page 20, rbi_mpr_2025_04_p020_c000]
-- [October 2025, page 42, rbi_mpr_2025_10_p042_c002]
-- [April 2026, page 111, rbi_mpr_2026_04_p111_c001]
+- [April 2025, page 99, rbi_mpr_2025_04_p099_c002]
+- [October 2025, page 21, rbi_mpr_2025_10_p021_c000]
+- [April 2026, page 100, rbi_mpr_2026_04_p100_c002]
+- [April 2026, page 112, rbi_mpr_2026_04_p112_c001]
 
-Caveat: The global-growth assumptions or language across all reports are partially comparable due to the availability of information. The October 2025 report does not explicitly mention the baseline projection for real GDP growth in 2025-26.",1,,,37046.57369999768,[],True,llama-3.1-8b-instant,Groq,Compare global-growth assumptions or language across all reports.,Compare global-growth assumptions or language across all reports.,v2_sufficiency_prompt_v1,trend_all_reports,trend_dev_004,answer_with_caveat,"[""rbi_mpr_2025_04"", ""rbi_mpr_2025_10"", ""rbi_mpr_2026_04""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2025_04_p020_c000"", ""rbi_mpr_2025_04_p021_c003"", ""rbi_mpr_2025_04_p066_c002"", ""rbi_mpr_2025_04_p099_c002"", ""rbi_mpr_2025_10_p021_c000"", ""rbi_mpr_2025_10_p042_c002"", ""rbi_mpr_2025_10_p043_c003"", ""rbi_mpr_2025_10_p061_c004"", ""rbi_mpr_2026_04_p100_c002"", ""rbi_mpr_2026_04_p102_c004"", ""rbi_mpr_2026_04_p111_c001"", ""rbi_mpr_2026_04_p112_c001""]","{""rbi_mpr_2025_04"": [20, 21, 66, 99], ""rbi_mpr_2025_10"": [21, 42, 43, 61], ""rbi_mpr_2026_04"": [100, 102, 111, 112]}","## April 2025
+Caveat: The comparison of global-growth assumptions or language across all reports is partially sufficient due to incomplete evidence and low evidence recall.",2,,,79909.17070000432,"[{""attempt"": 1, ""invalid_chunk_ids"": [""rbi_mpr_2025_10_p099_c002""], ""type"": ""InvalidCitation""}]",True,llama-3.1-8b-instant,Groq,Compare global-growth assumptions or language across all reports.,Compare global-growth assumptions or language across all reports.,v2_sufficiency_prompt_v1,trend_all_reports,trend_dev_004,answer_with_caveat,"[""rbi_mpr_2025_04"", ""rbi_mpr_2025_10"", ""rbi_mpr_2026_04""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2025_04_p020_c000"", ""rbi_mpr_2025_04_p021_c003"", ""rbi_mpr_2025_04_p066_c002"", ""rbi_mpr_2025_04_p099_c002"", ""rbi_mpr_2025_10_p021_c000"", ""rbi_mpr_2025_10_p042_c002"", ""rbi_mpr_2025_10_p043_c003"", ""rbi_mpr_2025_10_p061_c004"", ""rbi_mpr_2026_04_p100_c002"", ""rbi_mpr_2026_04_p102_c004"", ""rbi_mpr_2026_04_p111_c001"", ""rbi_mpr_2026_04_p112_c001""]","{""rbi_mpr_2025_04"": [20, 21, 66, 99], ""rbi_mpr_2025_10"": [21, 42, 43, 61], ""rbi_mpr_2026_04"": [100, 102, 111, 112]}","## April 2025
 
 [SOURCE: April 2025 MPR | page 20 | chunk rbi_mpr_2025_04_p020_c000]
 10
@@ -6589,7 +6559,7 @@ Citations:
 - [April 2025, page 57, rbi_mpr_2025_04_p057_c000]
 - [October 2025, page 52, rbi_mpr_2025_10_p052_c000]
 - [April 2026, page 64, rbi_mpr_2026_04_p064_c002]
-- [April 2026, page 64, rbi_mpr_2026_04_p064_c003]",1,,,54154.38199999335,[],True,llama-3.1-8b-instant,Groq,How did central-government borrowing context change across the reports?,How did central-government borrowing context change across the reports?,v2_sufficiency_prompt_v1,trend_all_reports,trend_dev_005,answer,"[""rbi_mpr_2025_04"", ""rbi_mpr_2025_10"", ""rbi_mpr_2026_04""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2025_04_p057_c000"", ""rbi_mpr_2025_04_p078_c002"", ""rbi_mpr_2025_04_p082_c001"", ""rbi_mpr_2025_04_p082_c002"", ""rbi_mpr_2025_10_p052_c000"", ""rbi_mpr_2025_10_p052_c004"", ""rbi_mpr_2025_10_p088_c000"", ""rbi_mpr_2025_10_p102_c000"", ""rbi_mpr_2026_04_p007_c000"", ""rbi_mpr_2026_04_p064_c002"", ""rbi_mpr_2026_04_p064_c003"", ""rbi_mpr_2026_04_p065_c000""]","{""rbi_mpr_2025_04"": [57, 78, 82, 82], ""rbi_mpr_2025_10"": [52, 52, 88, 102], ""rbi_mpr_2026_04"": [7, 64, 64, 65]}","## April 2025
+- [April 2026, page 64, rbi_mpr_2026_04_p064_c003]",1,,,42293.35550000542,[],True,llama-3.1-8b-instant,Groq,How did central-government borrowing context change across the reports?,How did central-government borrowing context change across the reports?,v2_sufficiency_prompt_v1,trend_all_reports,trend_dev_005,answer,"[""rbi_mpr_2025_04"", ""rbi_mpr_2025_10"", ""rbi_mpr_2026_04""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2025_04_p057_c000"", ""rbi_mpr_2025_04_p078_c002"", ""rbi_mpr_2025_04_p082_c001"", ""rbi_mpr_2025_04_p082_c002"", ""rbi_mpr_2025_10_p052_c000"", ""rbi_mpr_2025_10_p052_c004"", ""rbi_mpr_2025_10_p088_c000"", ""rbi_mpr_2025_10_p102_c000"", ""rbi_mpr_2026_04_p007_c000"", ""rbi_mpr_2026_04_p064_c002"", ""rbi_mpr_2026_04_p064_c003"", ""rbi_mpr_2026_04_p065_c000""]","{""rbi_mpr_2025_04"": [57, 78, 82, 82], ""rbi_mpr_2025_10"": [52, 52, 88, 102], ""rbi_mpr_2026_04"": [7, 64, 64, 65]}","## April 2025
 
 [SOURCE: April 2025 MPR | page 57 | chunk rbi_mpr_2025_04_p057_c000]
 47
@@ -6914,19 +6884,18 @@ Table III.6: State Government Finances -
 Key Fiscal Indicators
 (Per cent of GDP)
 Item 2023-24 (A) 2024-25 (PA) 2025-26 (BE)",dev,[],sufficient,False,0.0
-monetary_policy,"[{""chunk_id"": ""rbi_mpr_2025_04_p012_c000"", ""page"": 12, ""report_id"": ""rbi_mpr_2025_04"", ""report_period"": ""April 2025"", ""valid_supplied_chunk"": true}, {""chunk_id"": ""rbi_mpr_2025_04_p013_c000"", ""page"": 13, ""report_id"": ""rbi_mpr_2025_04"", ""report_period"": ""April 2025"", ""valid_supplied_chunk"": true}, {""chunk_id"": ""rbi_mpr_2025_10_p010_c001"", ""page"": 10, ""report_id"": ""rbi_mpr_2025_10"", ""report_period"": ""October 2025"", ""valid_supplied_chunk"": true}, {""chunk_id"": ""rbi_mpr_2025_10_p011_c003"", ""page"": 11, ""report_id"": ""rbi_mpr_2025_10"", ""report_period"": ""October 2025"", ""valid_supplied_chunk"": true}, {""chunk_id"": ""rbi_mpr_2025_10_p066_c000"", ""page"": 66, ""report_id"": ""rbi_mpr_2025_10"", ""report_period"": ""October 2025"", ""valid_supplied_chunk"": true}, {""chunk_id"": ""rbi_mpr_2026_04_p026_c002"", ""page"": 26, ""report_id"": ""rbi_mpr_2026_04"", ""report_period"": ""April 2026"", ""valid_supplied_chunk"": true}, {""chunk_id"": ""rbi_mpr_2026_04_p102_c002"", ""page"": 102, ""report_id"": ""rbi_mpr_2026_04"", ""report_period"": ""April 2026"", ""valid_supplied_chunk"": true}, {""chunk_id"": ""rbi_mpr_2026_04_p102_c004"", ""page"": 102, ""report_id"": ""rbi_mpr_2026_04"", ""report_period"": ""April 2026"", ""valid_supplied_chunk"": true}, {""chunk_id"": ""rbi_mpr_2026_04_p103_c001"", ""page"": 103, ""report_id"": ""rbi_mpr_2026_04"", ""report_period"": ""April 2026"", ""valid_supplied_chunk"": true}]",April 2025: continue with the neutral stance October 2025: keep the repo rate unchanged at 5.5 per cent and to maintain the neutral stance April 2026: maintain the neutral stance adopted in June 2025,GEN_MMR06_SUFFICIENCY_V1,"Answer:
-The neutral policy stance was first adopted in October 2024, as mentioned in the April 2025 report. It was retained in the February 2025 meeting, as stated in the April 2025 report. However, the stance was shifted to accommodative in April 2025, but reverted to neutral in June 2025, as mentioned in the October 2025 report. The neutral stance was maintained in the August 2025 meeting, as stated in the October 2025 report. In the December 2025 meeting, the MPC decided to maintain the neutral stance, as mentioned in the April 2026 report. The neutral stance was continued in the February 2026 meeting, as stated in the April 2026 report.
+monetary_policy,"[{""chunk_id"": ""rbi_mpr_2025_04_p013_c000"", ""page"": 13, ""report_id"": ""rbi_mpr_2025_04"", ""report_period"": ""April 2025"", ""valid_supplied_chunk"": true}, {""chunk_id"": ""rbi_mpr_2025_10_p011_c003"", ""page"": 11, ""report_id"": ""rbi_mpr_2025_10"", ""report_period"": ""October 2025"", ""valid_supplied_chunk"": true}, {""chunk_id"": ""rbi_mpr_2025_10_p066_c000"", ""page"": 66, ""report_id"": ""rbi_mpr_2025_10"", ""report_period"": ""October 2025"", ""valid_supplied_chunk"": true}, {""chunk_id"": ""rbi_mpr_2026_04_p026_c002"", ""page"": 26, ""report_id"": ""rbi_mpr_2026_04"", ""report_period"": ""April 2026"", ""valid_supplied_chunk"": true}, {""chunk_id"": ""rbi_mpr_2026_04_p102_c002"", ""page"": 102, ""report_id"": ""rbi_mpr_2026_04"", ""report_period"": ""April 2026"", ""valid_supplied_chunk"": true}, {""chunk_id"": ""rbi_mpr_2026_04_p102_c004"", ""page"": 102, ""report_id"": ""rbi_mpr_2026_04"", ""report_period"": ""April 2026"", ""valid_supplied_chunk"": true}, {""chunk_id"": ""rbi_mpr_2026_04_p103_c001"", ""page"": 103, ""report_id"": ""rbi_mpr_2026_04"", ""report_period"": ""April 2026"", ""valid_supplied_chunk"": true}]",April 2025: continue with the neutral stance October 2025: keep the repo rate unchanged at 5.5 per cent and to maintain the neutral stance April 2026: maintain the neutral stance adopted in June 2025,GEN_MMR06_SUFFICIENCY_V1,"Answer:
+The neutral policy stance was first adopted in October 2024, as mentioned in the April 2025 report. It was retained in the February 2025 meeting, as stated in the April 2025 report. The stance was then shifted to accommodative in April 2025 but reverted to neutral in June 2025, as mentioned in the October 2025 report. The neutral stance was maintained in the August 2025 meeting, as stated in the October 2025 report. The MPC decided to maintain the neutral stance in June 2025, as mentioned in the October 2025 report. The neutral stance was retained in the December 2025 meeting, as stated in the April 2026 report. The MPC also decided to continue with the neutral stance in the February 2026 meeting, as mentioned in the April 2026 report.
 
 Citations:
-- [April 2025, page 12, rbi_mpr_2025_04_p012_c000]
-- [April 2025, page 13, rbi_mpr_2025_04_p013_c000]
-- [October 2025, page 10, rbi_mpr_2025_10_p010_c001]
-- [October 2025, page 11, rbi_mpr_2025_10_p011_c003]
-- [October 2025, page 66, rbi_mpr_2025_10_p066_c000]
-- [April 2026, page 26, rbi_mpr_2026_04_p026_c002]
-- [April 2026, page 102, rbi_mpr_2026_04_p102_c002]
-- [April 2026, page 102, rbi_mpr_2026_04_p102_c004]
-- [April 2026, page 103, rbi_mpr_2026_04_p103_c001]",1,,,20029.029600002104,[],True,llama-3.1-8b-instant,Groq,How did the neutral policy stance appear across the three reports?,How did the neutral policy stance appear across the three reports?,v2_sufficiency_prompt_v1,trend_all_reports,trend_dev_006,answer,"[""rbi_mpr_2025_04"", ""rbi_mpr_2025_10"", ""rbi_mpr_2026_04""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2025_04_p012_c000"", ""rbi_mpr_2025_04_p013_c000"", ""rbi_mpr_2025_04_p078_c000"", ""rbi_mpr_2025_04_p078_c001"", ""rbi_mpr_2025_10_p010_c001"", ""rbi_mpr_2025_10_p011_c003"", ""rbi_mpr_2025_10_p066_c000"", ""rbi_mpr_2025_10_p073_c003"", ""rbi_mpr_2026_04_p026_c002"", ""rbi_mpr_2026_04_p102_c002"", ""rbi_mpr_2026_04_p102_c004"", ""rbi_mpr_2026_04_p103_c001""]","{""rbi_mpr_2025_04"": [12, 13, 78, 78], ""rbi_mpr_2025_10"": [10, 11, 66, 73], ""rbi_mpr_2026_04"": [26, 102, 102, 103]}","## April 2025
+- [April 2025, 13, rbi_mpr_2025_04_p013_c000]
+- [April 2025, 13, rbi_mpr_2025_04_p013_c000]
+- [October 2025, 11, rbi_mpr_2025_10_p011_c003]
+- [October 2025, 66, rbi_mpr_2025_10_p066_c000]
+- [April 2026, 26, rbi_mpr_2026_04_p026_c002]
+- [April 2026, 102, rbi_mpr_2026_04_p102_c002]
+- [April 2026, 102, rbi_mpr_2026_04_p102_c004]
+- [April 2026, 103, rbi_mpr_2026_04_p103_c001]",1,,,40168.631600012304,[],True,llama-3.1-8b-instant,Groq,How did the neutral policy stance appear across the three reports?,How did the neutral policy stance appear across the three reports?,v2_sufficiency_prompt_v1,trend_all_reports,trend_dev_006,answer,"[""rbi_mpr_2025_04"", ""rbi_mpr_2025_10"", ""rbi_mpr_2026_04""]",4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,"[""rbi_mpr_2025_04_p012_c000"", ""rbi_mpr_2025_04_p013_c000"", ""rbi_mpr_2025_04_p078_c000"", ""rbi_mpr_2025_04_p078_c001"", ""rbi_mpr_2025_10_p010_c001"", ""rbi_mpr_2025_10_p011_c003"", ""rbi_mpr_2025_10_p066_c000"", ""rbi_mpr_2025_10_p073_c003"", ""rbi_mpr_2026_04_p026_c002"", ""rbi_mpr_2026_04_p102_c002"", ""rbi_mpr_2026_04_p102_c004"", ""rbi_mpr_2026_04_p103_c001""]","{""rbi_mpr_2025_04"": [12, 13, 78, 78], ""rbi_mpr_2025_10"": [10, 11, 66, 73], ""rbi_mpr_2026_04"": [26, 102, 102, 103]}","## April 2025
 
 [SOURCE: April 2025 MPR | page 12 | chunk rbi_mpr_2025_04_p012_c000]
 2
@@ -7202,19 +7171,19 @@ unsupported,[],The requested period or premise is unavailable in the registered 
 The supplied context is insufficient to answer this question safely (reasons: context_empty, unsupported_period). I will not infer unsupported policy stance, inflation outlook, growth projection, risk assessment, or narrative evolution beyond the supplied evidence.
 
 Citations:
-",0,,,0.0185999961104244,[],True,llama-3.1-8b-instant,deterministic_sufficiency_gate,What did the April 2024 MPR project?,What did the April 2024 MPR project?,v2_sufficiency_prompt_v1,unsupported_period,unsupported_dev_001,abstain,[],4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,[],{},,dev,"[""context_empty"", ""unsupported_period""]",insufficient,False,0.0
+",0,,,0.010500007192604244,[],True,llama-3.1-8b-instant,deterministic_sufficiency_gate,What did the April 2024 MPR project?,What did the April 2024 MPR project?,v2_sufficiency_prompt_v1,unsupported_period,unsupported_dev_001,abstain,[],4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,[],{},,dev,"[""context_empty"", ""unsupported_period""]",insufficient,False,0.0
 unsupported,[],The requested period or premise is unavailable in the registered corpus.,GEN_MMR06_SUFFICIENCY_V1,"Answer:
 The supplied context is insufficient to answer this question safely (reasons: context_empty, unsupported_period). I will not infer unsupported policy stance, inflation outlook, growth projection, risk assessment, or narrative evolution beyond the supplied evidence.
 
 Citations:
-",0,,,0.012800002878066152,[],True,llama-3.1-8b-instant,deterministic_sufficiency_gate,Compare October 2024 with April 2025.,Compare October 2024 with April 2025.,v2_sufficiency_prompt_v1,unsupported_period,unsupported_dev_002,abstain,[],4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,[],{},,dev,"[""context_empty"", ""unsupported_period""]",insufficient,False,0.0
+",0,,,0.009700001101009548,[],True,llama-3.1-8b-instant,deterministic_sufficiency_gate,Compare October 2024 with April 2025.,Compare October 2024 with April 2025.,v2_sufficiency_prompt_v1,unsupported_period,unsupported_dev_002,abstain,[],4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,[],{},,dev,"[""context_empty"", ""unsupported_period""]",insufficient,False,0.0
 unsupported,[],The requested period or premise is unavailable in the registered corpus.,GEN_MMR06_SUFFICIENCY_V1,"Answer:
 The supplied context is insufficient to answer this question safely (reasons: context_empty, unsupported_period). I will not infer unsupported policy stance, inflation outlook, growth projection, risk assessment, or narrative evolution beyond the supplied evidence.
 
 Citations:
-",0,,,0.007700000423938036,[],True,llama-3.1-8b-instant,deterministic_sufficiency_gate,What was RBI's forecast in October 2026?,What was RBI's forecast in October 2026?,v2_sufficiency_prompt_v1,unsupported_period,unsupported_dev_003,abstain,[],4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,[],{},,dev,"[""context_empty"", ""unsupported_period""]",insufficient,True,0.0
+",0,,,0.012699994840659201,[],True,llama-3.1-8b-instant,deterministic_sufficiency_gate,What was RBI's forecast in October 2026?,What was RBI's forecast in October 2026?,v2_sufficiency_prompt_v1,unsupported_period,unsupported_dev_003,abstain,[],4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,[],{},,dev,"[""context_empty"", ""unsupported_period""]",insufficient,True,0.0
 unsupported,[],The requested period or premise is unavailable in the registered corpus.,GEN_MMR06_SUFFICIENCY_V1,"Answer:
 The supplied context is insufficient to answer this question safely (reasons: context_empty, unsupported_period). I will not infer unsupported policy stance, inflation outlook, growth projection, risk assessment, or narrative evolution beyond the supplied evidence.
 
 Citations:
-",0,,,0.008600000001024455,[],True,llama-3.1-8b-instant,deterministic_sufficiency_gate,Did the April 2025 MPR report an April 2027 policy decision?,Did the April 2025 MPR report an April 2027 policy decision?,v2_sufficiency_prompt_v1,unsupported_period,unsupported_dev_004,abstain,[],4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,[],{},,dev,"[""context_empty"", ""unsupported_period""]",insufficient,False,0.0
+",0,,,0.010100004146806896,[],True,llama-3.1-8b-instant,deterministic_sufficiency_gate,Did the April 2025 MPR report an April 2027 policy decision?,Did the April 2025 MPR report an April 2027 policy decision?,v2_sufficiency_prompt_v1,unsupported_period,unsupported_dev_004,abstain,[],4ac8bac0952457877171158193d4d4103bbf01c3ab72ab430cc6beb51a173b6a,MMR_LAMBDA_06,[],{},,dev,"[""context_empty"", ""unsupported_period""]",insufficient,False,0.0

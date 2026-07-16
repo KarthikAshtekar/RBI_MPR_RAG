@@ -12,8 +12,8 @@
   "evidence_recall": 0.5055555555555555,
   "experiment_id": "stage_a_selected_reference",
   "family": "stage_a_reference",
-  "finished_at": "2026-07-13T12:24:15.152838+00:00",
-  "index_fingerprint": "778f986612e97ec5f39b23ee81e35abb281cff7ae92268fa38861ce77b7dec01",
+  "finished_at": "2026-07-16T11:32:11.848204+00:00",
+  "index_fingerprint": "928f326807c9d0fb586b7169272a6764be6e7c044409235e0964b43ae4bfbe79",
   "loss_stage_counts": {
     "evidence_found": 28,
     "lost_by_quota": 13,
@@ -22,15 +22,15 @@
   },
   "macro_mrr": 0.3537037037037037,
   "mean_estimated_tokens": 2150.9333333333334,
-  "mean_latency_ms": 3634.887443339297,
+  "mean_latency_ms": 3127.149929998753,
   "mean_repeated_text_ratio": 0.0,
   "mean_selected_characters": 8602.466666666667,
   "mean_selected_chunks": 9.0,
   "mean_unique_pages": 7.633333333333334,
-  "median_latency_ms": 3406.285850040149,
-  "p95_latency_ms": 6418.199100065976,
+  "median_latency_ms": 3018.499600002542,
+  "p95_latency_ms": 5314.235500001814,
   "report_coverage": 1.0,
   "report_level_row_count": 54,
-  "started_at": "2026-07-13T12:22:25.506170+00:00"
+  "started_at": "2026-07-16T11:30:37.938767+00:00"
 }
 ```

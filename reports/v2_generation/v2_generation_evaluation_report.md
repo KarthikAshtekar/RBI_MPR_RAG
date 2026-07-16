@@ -35,7 +35,7 @@ Status: `dev_generation_complete`. Rows=34; successes=34; failures=0.
 - contextual_recall: mean=0.4117647058823529, n=34
 - contextual_relevancy: mean=0.5294117647058824, n=34
 - factual_correctness: mean=0.6343914458612334, n=32
-- faithfulness_to_context: mean=0.8654068160371632, n=34
+- faithfulness_to_context: mean=0.8657197071510555, n=34
 - temporal_attribution_correctness: mean=0.8823529411764706, n=34
 
 ## Metric coverage

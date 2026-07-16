@@ -2,7 +2,7 @@
   "blockers": [],
   "cohere_api_key_available": true,
   "cohere_available": true,
-  "created_at_utc": "2026-07-13T23:32:58.757965+00:00",
+  "created_at_utc": "2026-07-16T12:00:00.126768+00:00",
   "groq_api_key_available": true,
   "installation_instructions": "python -m pip install -r requirements-v2.txt",
   "optional_requirements_file": "requirements-v2.txt",

@@ -12,8 +12,8 @@
   "evidence_recall": 0.3055555555555555,
   "experiment_id": "SW03",
   "family": "sentence_window",
-  "finished_at": "2026-07-13T12:35:55.170192+00:00",
-  "index_fingerprint": "778f986612e97ec5f39b23ee81e35abb281cff7ae92268fa38861ce77b7dec01",
+  "finished_at": "2026-07-16T11:43:32.373849+00:00",
+  "index_fingerprint": "928f326807c9d0fb586b7169272a6764be6e7c044409235e0964b43ae4bfbe79",
   "loss_stage_counts": {
     "evidence_found": 28,
     "lost_by_deduplication": 13,
@@ -22,15 +22,15 @@
   },
   "macro_mrr": 0.3537037037037037,
   "mean_estimated_tokens": 2474.9666666666667,
-  "mean_latency_ms": 3572.2206366733494,
+  "mean_latency_ms": 3393.771606668209,
   "mean_repeated_text_ratio": 0.0,
   "mean_selected_characters": 9898.233333333334,
   "mean_selected_chunks": 9.0,
   "mean_unique_pages": 7.633333333333334,
-  "median_latency_ms": 3450.6834499770775,
-  "p95_latency_ms": 6407.351800007746,
+  "median_latency_ms": 3280.235800004448,
+  "p95_latency_ms": 6078.118599994923,
   "report_coverage": 1.0,
   "report_level_row_count": 54,
-  "started_at": "2026-07-13T12:34:07.869498+00:00"
+  "started_at": "2026-07-16T11:41:50.147780+00:00"
 }
 ```

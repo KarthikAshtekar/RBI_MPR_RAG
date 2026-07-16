@@ -1,0 +1,53 @@
+# EXP01
+
+```json
+{
+  "all_reports_hit": 0.36666666666666664,
+  "case_count": 34,
+  "complete_evidence_recall": 0.3333333333333333,
+  "config": {
+    "bk": 50,
+    "bw": 1,
+    "dk": 50,
+    "dw": 1,
+    "family": "terminology_expansion",
+    "id": "EXP01",
+    "parent_experiment": "QUOTA_EXPANDED",
+    "query_normalisation": true,
+    "quota": [
+      6,
+      4,
+      3
+    ],
+    "retain": 30,
+    "rrf": 60,
+    "terminology_expansion": "append"
+  },
+  "configuration_checksum": "26b292e7c5dd7b90b3071e6ec67c7ac4c6b6b8d7b87b2789a8d08ce3a690537b",
+  "contamination": 0.0,
+  "dataset_sha256": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
+  "evidence_recall": 0.4777777777777778,
+  "experiment_id": "EXP01",
+  "family": "terminology_expansion",
+  "finished_at": "2026-07-16T10:10:53.071946+00:00",
+  "index_fingerprint": "d063b65fcefc1858e3315b9e67356a80310b8ae9b4d0864e98dd7c18d8553c1a",
+  "loss_stage_counts": {
+    "evidence_found": 26,
+    "lost_by_quota": 15,
+    "lost_in_fusion": 8,
+    "not_in_candidate_union": 5
+  },
+  "macro_mrr": 0.3138888888888889,
+  "mean_estimated_tokens": 1815.4,
+  "mean_latency_ms": 3171.6754766671024,
+  "mean_repeated_text_ratio": 0.0,
+  "mean_selected_characters": 7259.966666666666,
+  "mean_selected_chunks": 7.6,
+  "mean_unique_pages": 6.5,
+  "median_latency_ms": 3233.878150000237,
+  "p95_latency_ms": 5372.254100002465,
+  "report_coverage": 1.0,
+  "report_level_row_count": 54,
+  "started_at": "2026-07-16T10:09:17.844713+00:00"
+}
+```

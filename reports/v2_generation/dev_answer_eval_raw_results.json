@@ -2239,7 +2239,7 @@
         "error_message": null,
         "error_type": null,
         "method": "deterministic_heuristic",
-        "score": 0.8723404255319149,
+        "score": 0.8829787234042553,
         "success": true
       },
       "temporal_attribution_correctness": {

@@ -1,7 +1,7 @@
 {
   "caveat": "This diagnostic reuses a held-out set that was already evaluated in Phase 7. It is useful for comparison but should not be presented as a fresh final benchmark.",
   "command": "python scripts/run_v2_unstructured_cohere_experiments.py --post-final-heldout-diagnostic",
-  "created_at_utc": "2026-07-13T23:33:01.714203+00:00",
+  "created_at_utc": "2026-07-16T12:06:28.634525+00:00",
   "heldout_dataset_checksum_matches": true,
   "schema_version": 1,
   "selected_experiment_id": "V2_COHERE_ONLY",

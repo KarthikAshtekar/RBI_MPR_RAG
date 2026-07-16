@@ -1,11 +1,33 @@
 {
   "api_key_scan_status": "passed",
-  "created_at_utc": "2026-07-14T07:50:18.815098+00:00",
+  "created_at_utc": "2026-07-16T12:32:06.861642+00:00",
   "fresh_eval_created": false,
   "frozen_phase7_outputs_overwritten": false,
   "heldout_used": false,
-  "issue_count": 0,
-  "issues": [],
+  "issue_count": 21,
+  "issues": [
+    "GEN_MMR06_CHRONO_ORDER_V1:missing_eval_summary",
+    "GEN_MMR06_CHRONO_ORDER_V1:missing_summary",
+    "GEN_MMR06_CITATION_REPAIR_V1:missing_eval_summary",
+    "GEN_MMR06_CITATION_REPAIR_V1:missing_summary",
+    "GEN_MMR06_COMPARATIVE_STRICT_PROMPT_V1:missing_eval_summary",
+    "GEN_MMR06_COMPARATIVE_STRICT_PROMPT_V1:missing_summary",
+    "GEN_MMR06_EVIDENCE_FIRST_PROMPT_V1:missing_eval_summary",
+    "GEN_MMR06_EVIDENCE_FIRST_PROMPT_V1:missing_summary",
+    "GEN_MMR06_RERANK_ORDER_V1:missing_eval_summary",
+    "GEN_MMR06_RERANK_ORDER_V1:missing_summary",
+    "GEN_MMR06_SUFFICIENCY_V1:missing_eval_summary",
+    "GEN_MMR06_SUFFICIENCY_V1:missing_summary",
+    "GEN_MMR07_SUFFICIENCY_V1:missing_eval_summary",
+    "GEN_MMR07_SUFFICIENCY_V1:missing_summary",
+    "GEN_MMR08_SUFFICIENCY_V1:missing_eval_summary",
+    "GEN_MMR08_SUFFICIENCY_V1:missing_summary",
+    "GEN_V2_COHERE_SUFFICIENCY_V1:missing_eval_summary",
+    "GEN_V2_COHERE_SUFFICIENCY_V1:missing_summary",
+    "missing_top_level_artifact:reports/final_generation_bakeoff/category_analysis.json",
+    "missing_top_level_artifact:reports/final_generation_bakeoff/final_generation_strategy_selection_decision.json",
+    "missing_top_level_artifact:reports/final_generation_bakeoff/generation_bakeoff_leaderboard.json"
+  ],
   "schema_version": 1,
-  "status": "passed"
+  "status": "failed"
 }

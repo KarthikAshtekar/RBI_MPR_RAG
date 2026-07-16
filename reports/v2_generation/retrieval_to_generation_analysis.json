@@ -409,7 +409,7 @@
       "abstained": false,
       "citation_correctness": 1.0,
       "generation_factual_correctness": 0.4666666666666667,
-      "generation_faithfulness": 0.8723404255319149,
+      "generation_faithfulness": 0.8829787234042553,
       "generation_success": true,
       "query_type": "trend_all_reports",
       "question_id": "trend_dev_004",
@@ -514,7 +514,7 @@
   "summary": {
     "complete_retrieval_count": 14,
     "complete_retrieval_mean_factual": 0.6942262207299802,
-    "created_at_utc": "2026-07-13T21:41:47.936880+00:00",
+    "created_at_utc": "2026-07-16T12:13:12.927479+00:00",
     "incomplete_retrieval_abstention_rate": 0.0,
     "incomplete_retrieval_count": 16,
     "macro_mrr_to_factual_correlation": 0.33853171948154576,

@@ -1,26 +1,28 @@
 # Stage A Selected
 
-Selected: `QUOTA_LARGE`
+Selected: `BM02`
 
 ```json
 {
-  "configuration_checksum": "93eb8a21539ea2593dfc48a41c437e7466466917b072c99704762943b38f88b2",
+  "configuration_checksum": "95c8fe38fe514f569bddf56638d0d0edd6c2761532b860852818f4d289143a05",
   "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
   "generation_evaluation_run": false,
   "groq_api_key_available": true,
   "heldout_retrieval_run": false,
-  "index_fingerprint": "d063b65fcefc1858e3315b9e67356a80310b8ae9b4d0864e98dd7c18d8553c1a",
+  "index_fingerprint": "ae1aebea49a005d98f17470add76891ca959288278cabc42b5eda3da19c4b4e7",
   "selected": {
     "all_reports_hit": 0.4,
     "case_count": 34,
     "complete_evidence_recall": 0.36666666666666664,
     "config": {
       "bk": 50,
+      "bm25_preprocessing": "finance_preserving",
       "bw": 1,
       "dk": 50,
       "dw": 1,
-      "family": "context_quota",
-      "id": "QUOTA_LARGE",
+      "family": "bm25_preprocessing",
+      "id": "BM02",
+      "parent_experiment": "QUOTA_LARGE",
       "quota": [
         6,
         5,
@@ -29,14 +31,14 @@ Selected: `QUOTA_LARGE`
       "retain": 30,
       "rrf": 60
     },
-    "configuration_checksum": "93eb8a21539ea2593dfc48a41c437e7466466917b072c99704762943b38f88b2",
+    "configuration_checksum": "95c8fe38fe514f569bddf56638d0d0edd6c2761532b860852818f4d289143a05",
     "contamination": 0.0,
     "dataset_sha256": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
     "evidence_recall": 0.5055555555555555,
-    "experiment_id": "QUOTA_LARGE",
-    "family": "context_quota",
-    "finished_at": "2026-07-16T09:51:43.076639+00:00",
-    "index_fingerprint": "d063b65fcefc1858e3315b9e67356a80310b8ae9b4d0864e98dd7c18d8553c1a",
+    "experiment_id": "BM02",
+    "family": "bm25_preprocessing",
+    "finished_at": "2026-07-16T11:20:50.205082+00:00",
+    "index_fingerprint": "ae1aebea49a005d98f17470add76891ca959288278cabc42b5eda3da19c4b4e7",
     "loss_stage_counts": {
       "evidence_found": 28,
       "lost_by_quota": 13,
@@ -45,19 +47,19 @@ Selected: `QUOTA_LARGE`
     },
     "macro_mrr": 0.3537037037037037,
     "mean_estimated_tokens": 2150.9333333333334,
-    "mean_latency_ms": 3641.3376033344925,
+    "mean_latency_ms": 3034.9409566648924,
     "mean_repeated_text_ratio": 0.0,
     "mean_selected_characters": 8602.466666666667,
     "mean_selected_chunks": 9.0,
     "mean_unique_pages": 7.633333333333334,
-    "median_latency_ms": 3593.091149996326,
-    "p95_latency_ms": 6195.56150000426,
+    "median_latency_ms": 2959.807400002319,
+    "p95_latency_ms": 5317.013899999438,
     "report_coverage": 1.0,
     "report_level_row_count": 54,
-    "started_at": "2026-07-16T09:49:53.746201+00:00"
+    "started_at": "2026-07-16T11:19:19.086176+00:00"
   },
-  "selected_checksum": "f1ac84fa24509791a4a615338f138a8b0e13b20e32a24465b49834f4b340fd11",
-  "selected_experiment_id": "QUOTA_LARGE",
+  "selected_checksum": "a625270fd557239babb23690c05150541d12733612d19205169c552fdffb16eb",
+  "selected_experiment_id": "BM02",
   "selection_policy": "reports/optimisation/selection_policy.json"
 }
 ```

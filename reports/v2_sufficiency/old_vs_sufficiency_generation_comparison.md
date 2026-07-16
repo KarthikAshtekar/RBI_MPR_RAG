@@ -13,7 +13,7 @@ New complete-retrieval factual correctness: 0.7954456988291574
 | Metric | Old mean | New mean | Delta |
 |---|---:|---:|---:|
 | factual_correctness | 0.6343914458612334 | 0.7954456988291574 | 0.16105425296792397 |
-| faithfulness_to_context | 0.8654068160371632 | 0.9761655452382324 | 0.11075872920106922 |
+| faithfulness_to_context | 0.8657197071510555 | 0.9761655452382324 | 0.1104458380871769 |
 | contextual_relevancy | 0.5294117647058824 | 0.5294117647058824 | 0.0 |
 | contextual_recall | 0.4117647058823529 | 0.4117647058823529 | 0.0 |
 | citation_correctness | 0.8823529411764706 | 0.8823529411764706 | 0.0 |

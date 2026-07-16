@@ -12,8 +12,8 @@
   "evidence_recall": 0.5055555555555555,
   "experiment_id": "EMB00",
   "family": "embedding",
-  "finished_at": "2026-07-13T12:45:54.837471+00:00",
-  "index_fingerprint": "778f986612e97ec5f39b23ee81e35abb281cff7ae92268fa38861ce77b7dec01",
+  "finished_at": "2026-07-16T11:52:45.769817+00:00",
+  "index_fingerprint": "928f326807c9d0fb586b7169272a6764be6e7c044409235e0964b43ae4bfbe79",
   "loss_stage_counts": {
     "evidence_found": 28,
     "lost_by_quota": 13,
@@ -22,15 +22,15 @@
   },
   "macro_mrr": 0.3537037037037037,
   "mean_estimated_tokens": 2150.9333333333334,
-  "mean_latency_ms": 4046.4252600000086,
+  "mean_latency_ms": 3056.674446666633,
   "mean_repeated_text_ratio": 0.0,
   "mean_selected_characters": 8602.466666666667,
   "mean_selected_chunks": 9.0,
   "mean_unique_pages": 7.633333333333334,
-  "median_latency_ms": 4078.3949499891605,
-  "p95_latency_ms": 6991.084299981594,
+  "median_latency_ms": 2981.264549998741,
+  "p95_latency_ms": 5455.76159999473,
   "report_coverage": 1.0,
   "report_level_row_count": 54,
-  "started_at": "2026-07-13T12:43:53.305026+00:00"
+  "started_at": "2026-07-16T11:51:13.642520+00:00"
 }
 ```

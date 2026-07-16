@@ -1,23 +1,23 @@
 [
   {
     "all_reports_hit": true,
-    "bm25_latency_ms": 3.058899994357489,
-    "candidate_union_latency_ms": 0.09819999104365706,
+    "bm25_latency_ms": 2.4516999983461574,
+    "candidate_union_latency_ms": 0.11069999891333282,
     "complete_evidence_recall": true,
-    "configuration_checksum": "b943a959db2d9f5ce5a45f9f32f8ebb71b77a5da67caf87e49ac2937832018e4",
+    "configuration_checksum": "15b0b9ca4594d002b09b86bffecba427a9ba0ab09bfe66dbf4a63d3751142b9b",
     "contamination": 0,
-    "context_construction_latency_ms": 0.01479999627918005,
+    "context_construction_latency_ms": 0.022500011255033314,
     "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
-    "deduplication_latency_ms": 0.1846999948611483,
-    "dense_latency_ms": 29.794400004902855,
+    "deduplication_latency_ms": 0.23699998564552516,
+    "dense_latency_ms": 28.109399994718842,
     "duplicate_chunk_count": 0,
     "estimated_token_count": 1473,
     "evidence_recall": 1.0,
     "expanded_queries": [],
     "experiment_id": "COMBINED_01",
     "facet_queries": [],
-    "fusion_latency_ms": 0.09299999510403723,
-    "index_fingerprint": "d063b65fcefc1858e3315b9e67356a80310b8ae9b4d0864e98dd7c18d8553c1a",
+    "fusion_latency_ms": 0.08870000601746142,
+    "index_fingerprint": "ae1aebea49a005d98f17470add76891ca959288278cabc42b5eda3da19c4b4e7",
     "macro_mrr": 1.0,
     "normalised_query": "What happened to food inflation in June and July 2025 according to the October 2025 MPR",
     "original_query": "What happened to food inflation in June and July 2025 according to the October 2025 MPR?",
@@ -1407,7 +1407,7 @@
       "2025",
       "2025"
     ],
-    "query_transformation_latency_ms": 0.11699998867698014,
+    "query_transformation_latency_ms": 0.08240000170189887,
     "query_type": "single_report",
     "question_id": "oct_dev_001",
     "removed_phrases": [],
@@ -1419,34 +1419,34 @@
     "required_report_ids": [
       "rbi_mpr_2025_10"
     ],
-    "reranking_latency_ms": 1591.7465999955311,
-    "routing_latency_ms": 0.09300000965595245,
+    "reranking_latency_ms": 1605.530999993789,
+    "routing_latency_ms": 0.09469999349676073,
     "selected_character_count": 5890,
     "selected_chunk_count": 6,
-    "selection_latency_ms": 0.0045000051613897085,
+    "selection_latency_ms": 0.0040000013541430235,
     "split": "dev",
-    "total_retrieval_latency_ms": 1625.3954999992857,
+    "total_retrieval_latency_ms": 1636.9156000000658,
     "unique_page_count": 6
   },
   {
     "all_reports_hit": true,
-    "bm25_latency_ms": 2.2189000010257587,
-    "candidate_union_latency_ms": 0.11059999815188348,
+    "bm25_latency_ms": 2.5366999907419086,
+    "candidate_union_latency_ms": 0.14369998825713992,
     "complete_evidence_recall": true,
-    "configuration_checksum": "b943a959db2d9f5ce5a45f9f32f8ebb71b77a5da67caf87e49ac2937832018e4",
+    "configuration_checksum": "15b0b9ca4594d002b09b86bffecba427a9ba0ab09bfe66dbf4a63d3751142b9b",
     "contamination": 0,
-    "context_construction_latency_ms": 0.019500002963468432,
+    "context_construction_latency_ms": 0.017099999240599573,
     "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
-    "deduplication_latency_ms": 0.2634999982547015,
-    "dense_latency_ms": 29.953400007798336,
+    "deduplication_latency_ms": 0.2707000094233081,
+    "dense_latency_ms": 32.54240000387654,
     "duplicate_chunk_count": 0,
     "estimated_token_count": 1463,
     "evidence_recall": 1.0,
     "expanded_queries": [],
     "experiment_id": "COMBINED_01",
     "facet_queries": [],
-    "fusion_latency_ms": 0.10600000678095967,
-    "index_fingerprint": "d063b65fcefc1858e3315b9e67356a80310b8ae9b4d0864e98dd7c18d8553c1a",
+    "fusion_latency_ms": 0.12680000509135425,
+    "index_fingerprint": "ae1aebea49a005d98f17470add76891ca959288278cabc42b5eda3da19c4b4e7",
     "macro_mrr": 0.25,
     "normalised_query": "To what level had the repo rate been brought by October 2025",
     "original_query": "To what level had the repo rate been brought by October 2025?",
@@ -2907,7 +2907,7 @@
     "preserved_numbers": [
       "2025"
     ],
-    "query_transformation_latency_ms": 0.10059999476652592,
+    "query_transformation_latency_ms": 0.11170000652782619,
     "query_type": "single_report",
     "question_id": "oct_dev_002",
     "removed_phrases": [],
@@ -2919,34 +2919,34 @@
     "required_report_ids": [
       "rbi_mpr_2025_10"
     ],
-    "reranking_latency_ms": 1584.159100006218,
-    "routing_latency_ms": 0.12460000289138407,
+    "reranking_latency_ms": 1607.2003000008408,
+    "routing_latency_ms": 0.12060000153724104,
     "selected_character_count": 5850,
     "selected_chunk_count": 6,
-    "selection_latency_ms": 0.0036999990697950125,
+    "selection_latency_ms": 0.02160000440198928,
     "split": "dev",
-    "total_retrieval_latency_ms": 1617.2657999995863,
+    "total_retrieval_latency_ms": 1643.3113999955822,
     "unique_page_count": 5
   },
   {
     "all_reports_hit": true,
-    "bm25_latency_ms": 2.239900000859052,
-    "candidate_union_latency_ms": 0.1412999990861863,
+    "bm25_latency_ms": 1.894400003948249,
+    "candidate_union_latency_ms": 0.09020000288728625,
     "complete_evidence_recall": true,
-    "configuration_checksum": "b943a959db2d9f5ce5a45f9f32f8ebb71b77a5da67caf87e49ac2937832018e4",
+    "configuration_checksum": "15b0b9ca4594d002b09b86bffecba427a9ba0ab09bfe66dbf4a63d3751142b9b",
     "contamination": 0,
-    "context_construction_latency_ms": 0.03960001049563289,
+    "context_construction_latency_ms": 0.03020001167897135,
     "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
-    "deduplication_latency_ms": 0.26810000417754054,
-    "dense_latency_ms": 27.52949998830445,
+    "deduplication_latency_ms": 0.2283000067109242,
+    "dense_latency_ms": 26.79550000175368,
     "duplicate_chunk_count": 0,
     "estimated_token_count": 1427,
     "evidence_recall": 1.0,
     "expanded_queries": [],
     "experiment_id": "COMBINED_01",
     "facet_queries": [],
-    "fusion_latency_ms": 0.11609999637585133,
-    "index_fingerprint": "d063b65fcefc1858e3315b9e67356a80310b8ae9b4d0864e98dd7c18d8553c1a",
+    "fusion_latency_ms": 0.09539999882690609,
+    "index_fingerprint": "ae1aebea49a005d98f17470add76891ca959288278cabc42b5eda3da19c4b4e7",
     "macro_mrr": 0.3333333333333333,
     "normalised_query": "Where did core inflation broadly remain in the October 2025 report",
     "original_query": "Where did core inflation broadly remain in the October 2025 report?",
@@ -4389,7 +4389,7 @@
     "preserved_numbers": [
       "2025"
     ],
-    "query_transformation_latency_ms": 0.0999000039882958,
+    "query_transformation_latency_ms": 0.21240000205580145,
     "query_type": "single_report",
     "question_id": "oct_dev_003",
     "removed_phrases": [],
@@ -4401,34 +4401,34 @@
     "required_report_ids": [
       "rbi_mpr_2025_10"
     ],
-    "reranking_latency_ms": 1521.856299994397,
-    "routing_latency_ms": 0.09169999975711107,
+    "reranking_latency_ms": 1440.8825999998953,
+    "routing_latency_ms": 0.1382999907946214,
     "selected_character_count": 5705,
     "selected_chunk_count": 6,
-    "selection_latency_ms": 0.0037999998312443495,
+    "selection_latency_ms": 0.0029999937396496534,
     "split": "dev",
-    "total_retrieval_latency_ms": 1552.581800002372,
+    "total_retrieval_latency_ms": 1470.6447999924421,
     "unique_page_count": 6
   },
   {
     "all_reports_hit": true,
-    "bm25_latency_ms": 2.141499993740581,
-    "candidate_union_latency_ms": 0.1275000104214996,
+    "bm25_latency_ms": 2.5359999999636784,
+    "candidate_union_latency_ms": 0.13349999790079892,
     "complete_evidence_recall": true,
-    "configuration_checksum": "b943a959db2d9f5ce5a45f9f32f8ebb71b77a5da67caf87e49ac2937832018e4",
+    "configuration_checksum": "15b0b9ca4594d002b09b86bffecba427a9ba0ab09bfe66dbf4a63d3751142b9b",
     "contamination": 0,
-    "context_construction_latency_ms": 0.01479999627918005,
+    "context_construction_latency_ms": 0.016400008462369442,
     "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
-    "deduplication_latency_ms": 0.2589999930933118,
-    "dense_latency_ms": 34.1816000000108,
+    "deduplication_latency_ms": 0.2260999899590388,
+    "dense_latency_ms": 28.324399987468496,
     "duplicate_chunk_count": 0,
     "estimated_token_count": 1460,
     "evidence_recall": 1.0,
     "expanded_queries": [],
     "experiment_id": "COMBINED_01",
     "facet_queries": [],
-    "fusion_latency_ms": 0.13630000466946512,
-    "index_fingerprint": "d063b65fcefc1858e3315b9e67356a80310b8ae9b4d0864e98dd7c18d8553c1a",
+    "fusion_latency_ms": 0.23780000628903508,
+    "index_fingerprint": "ae1aebea49a005d98f17470add76891ca959288278cabc42b5eda3da19c4b4e7",
     "macro_mrr": 1.0,
     "normalised_query": "What crude-oil baseline assumption was used for H2:2025-26 in October 2025",
     "original_query": "What crude-oil baseline assumption was used for H2:2025-26 in October 2025?",
@@ -5981,7 +5981,7 @@
       "26",
       "2025"
     ],
-    "query_transformation_latency_ms": 0.1736000122036785,
+    "query_transformation_latency_ms": 0.1238999975612387,
     "query_type": "single_report",
     "question_id": "oct_dev_004",
     "removed_phrases": [],
@@ -5993,34 +5993,34 @@
     "required_report_ids": [
       "rbi_mpr_2025_10"
     ],
-    "reranking_latency_ms": 1449.797799999942,
-    "routing_latency_ms": 0.12780001270584762,
+    "reranking_latency_ms": 1365.6941999943228,
+    "routing_latency_ms": 0.10750000365078449,
     "selected_character_count": 5839,
     "selected_chunk_count": 6,
-    "selection_latency_ms": 0.003300010575912893,
+    "selection_latency_ms": 0.005299996701069176,
     "split": "dev",
-    "total_retrieval_latency_ms": 1487.2159999940777,
+    "total_retrieval_latency_ms": 1397.6810000021942,
     "unique_page_count": 3
   },
   {
     "all_reports_hit": false,
-    "bm25_latency_ms": 3.801800005021505,
-    "candidate_union_latency_ms": 0.22560000070370734,
+    "bm25_latency_ms": 2.233799998066388,
+    "candidate_union_latency_ms": 0.09689999569673091,
     "complete_evidence_recall": false,
-    "configuration_checksum": "b943a959db2d9f5ce5a45f9f32f8ebb71b77a5da67caf87e49ac2937832018e4",
+    "configuration_checksum": "15b0b9ca4594d002b09b86bffecba427a9ba0ab09bfe66dbf4a63d3751142b9b",
     "contamination": 0,
-    "context_construction_latency_ms": 0.018699996871873736,
+    "context_construction_latency_ms": 0.01679999695625156,
     "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
-    "deduplication_latency_ms": 0.258400003076531,
-    "dense_latency_ms": 39.2273000034038,
+    "deduplication_latency_ms": 0.23580000561196357,
+    "dense_latency_ms": 26.287800006684847,
     "duplicate_chunk_count": 0,
     "estimated_token_count": 1339,
     "evidence_recall": 0.0,
     "expanded_queries": [],
     "experiment_id": "COMBINED_01",
     "facet_queries": [],
-    "fusion_latency_ms": 0.1531999878352508,
-    "index_fingerprint": "d063b65fcefc1858e3315b9e67356a80310b8ae9b4d0864e98dd7c18d8553c1a",
+    "fusion_latency_ms": 0.12900000729132444,
+    "index_fingerprint": "ae1aebea49a005d98f17470add76891ca959288278cabc42b5eda3da19c4b4e7",
     "macro_mrr": 0.0,
     "normalised_query": "What global-growth assumptions for 2025 and 2026 were used in October 2025",
     "original_query": "What global-growth assumptions for 2025 and 2026 were used in October 2025?",
@@ -7564,7 +7564,7 @@
       "2026",
       "2025"
     ],
-    "query_transformation_latency_ms": 0.11530000483617187,
+    "query_transformation_latency_ms": 0.09190000128000975,
     "query_type": "single_report",
     "question_id": "oct_dev_005",
     "removed_phrases": [],
@@ -7576,34 +7576,34 @@
     "required_report_ids": [
       "rbi_mpr_2025_10"
     ],
-    "reranking_latency_ms": 1798.1811000063317,
-    "routing_latency_ms": 0.10299999848939478,
+    "reranking_latency_ms": 1686.0675999923842,
+    "routing_latency_ms": 0.0889000075403601,
     "selected_character_count": 5353,
     "selected_chunk_count": 6,
-    "selection_latency_ms": 0.004999994416721165,
+    "selection_latency_ms": 0.007599999662488699,
     "split": "dev",
-    "total_retrieval_latency_ms": 1842.3466000094777,
+    "total_retrieval_latency_ms": 1715.430299998843,
     "unique_page_count": 5
   },
   {
     "all_reports_hit": true,
-    "bm25_latency_ms": 4.164199999650009,
-    "candidate_union_latency_ms": 0.2207000070484355,
+    "bm25_latency_ms": 4.518999994616024,
+    "candidate_union_latency_ms": 0.19619999511633068,
     "complete_evidence_recall": true,
-    "configuration_checksum": "b943a959db2d9f5ce5a45f9f32f8ebb71b77a5da67caf87e49ac2937832018e4",
+    "configuration_checksum": "15b0b9ca4594d002b09b86bffecba427a9ba0ab09bfe66dbf4a63d3751142b9b",
     "contamination": 0,
-    "context_construction_latency_ms": 0.021500003640539944,
+    "context_construction_latency_ms": 0.013299999409355223,
     "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
-    "deduplication_latency_ms": 0.2750999992713332,
-    "dense_latency_ms": 36.53130000748206,
+    "deduplication_latency_ms": 0.1660999987507239,
+    "dense_latency_ms": 33.47850000136532,
     "duplicate_chunk_count": 0,
     "estimated_token_count": 1221,
     "evidence_recall": 1.0,
     "expanded_queries": [],
     "experiment_id": "COMBINED_01",
     "facet_queries": [],
-    "fusion_latency_ms": 0.12399999832268804,
-    "index_fingerprint": "d063b65fcefc1858e3315b9e67356a80310b8ae9b4d0864e98dd7c18d8553c1a",
+    "fusion_latency_ms": 0.14350000128615648,
+    "index_fingerprint": "ae1aebea49a005d98f17470add76891ca959288278cabc42b5eda3da19c4b4e7",
     "macro_mrr": 1.0,
     "normalised_query": "According to the October 2025 MPR, how much had the Centre raised through gross market borrowings by late September 2025",
     "original_query": "According to the October 2025 MPR, how much had the Centre raised through gross market borrowings by late September 2025?",
@@ -9164,7 +9164,7 @@
       "2025",
       "2025"
     ],
-    "query_transformation_latency_ms": 0.17590000061318278,
+    "query_transformation_latency_ms": 0.1846999948611483,
     "query_type": "single_report",
     "question_id": "oct_dev_006",
     "removed_phrases": [],
@@ -9176,34 +9176,34 @@
     "required_report_ids": [
       "rbi_mpr_2025_10"
     ],
-    "reranking_latency_ms": 1448.014499997953,
-    "routing_latency_ms": 0.12240000069141388,
+    "reranking_latency_ms": 1328.0366999970283,
+    "routing_latency_ms": 0.2499000111129135,
     "selected_character_count": 4882,
     "selected_chunk_count": 6,
-    "selection_latency_ms": 0.0033999967854470015,
+    "selection_latency_ms": 0.0029999937396496534,
     "split": "dev",
-    "total_retrieval_latency_ms": 1489.8593999969307,
+    "total_retrieval_latency_ms": 1367.1892999991542,
     "unique_page_count": 4
   },
   {
     "all_reports_hit": true,
-    "bm25_latency_ms": 2.378999997745268,
-    "candidate_union_latency_ms": 0.1201999984914437,
+    "bm25_latency_ms": 2.035600002272986,
+    "candidate_union_latency_ms": 0.1260999997612089,
     "complete_evidence_recall": true,
-    "configuration_checksum": "b943a959db2d9f5ce5a45f9f32f8ebb71b77a5da67caf87e49ac2937832018e4",
+    "configuration_checksum": "15b0b9ca4594d002b09b86bffecba427a9ba0ab09bfe66dbf4a63d3751142b9b",
     "contamination": 0,
-    "context_construction_latency_ms": 0.01819999306462705,
+    "context_construction_latency_ms": 0.019799990695901215,
     "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
-    "deduplication_latency_ms": 0.25209999876096845,
-    "dense_latency_ms": 33.836299990070984,
+    "deduplication_latency_ms": 0.2734000008786097,
+    "dense_latency_ms": 31.45819999917876,
     "duplicate_chunk_count": 0,
     "estimated_token_count": 1426,
     "evidence_recall": 1.0,
     "expanded_queries": [],
     "experiment_id": "COMBINED_01",
     "facet_queries": [],
-    "fusion_latency_ms": 0.11390000872779638,
-    "index_fingerprint": "d063b65fcefc1858e3315b9e67356a80310b8ae9b4d0864e98dd7c18d8553c1a",
+    "fusion_latency_ms": 0.1024999946821481,
+    "index_fingerprint": "ae1aebea49a005d98f17470add76891ca959288278cabc42b5eda3da19c4b4e7",
     "macro_mrr": 0.5,
     "normalised_query": "What did April 2026 say about the food group's movement from deflation",
     "original_query": "What did April 2026 say about the food group's movement from deflation?",
@@ -10745,7 +10745,7 @@
     "preserved_numbers": [
       "2026"
     ],
-    "query_transformation_latency_ms": 0.13159999798517674,
+    "query_transformation_latency_ms": 0.23610000789631158,
     "query_type": "single_report",
     "question_id": "apr26_dev_001",
     "removed_phrases": [],
@@ -10757,34 +10757,34 @@
     "required_report_ids": [
       "rbi_mpr_2026_04"
     ],
-    "reranking_latency_ms": 1352.532599994447,
-    "routing_latency_ms": 0.15919998986646533,
+    "reranking_latency_ms": 1300.2665000094566,
+    "routing_latency_ms": 0.21689999266527593,
     "selected_character_count": 5704,
     "selected_chunk_count": 6,
-    "selection_latency_ms": 0.0030999945010989904,
+    "selection_latency_ms": 0.0045000051613897085,
     "split": "dev",
-    "total_retrieval_latency_ms": 1389.7532999981195,
+    "total_retrieval_latency_ms": 1334.9507999955676,
     "unique_page_count": 6
   },
   {
     "all_reports_hit": false,
-    "bm25_latency_ms": 1.8837999959941953,
-    "candidate_union_latency_ms": 0.13410000246949494,
+    "bm25_latency_ms": 2.205199998570606,
+    "candidate_union_latency_ms": 0.14509999891743064,
     "complete_evidence_recall": false,
-    "configuration_checksum": "b943a959db2d9f5ce5a45f9f32f8ebb71b77a5da67caf87e49ac2937832018e4",
+    "configuration_checksum": "15b0b9ca4594d002b09b86bffecba427a9ba0ab09bfe66dbf4a63d3751142b9b",
     "contamination": 0,
-    "context_construction_latency_ms": 0.017700003809295595,
+    "context_construction_latency_ms": 0.014000004739500582,
     "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
-    "deduplication_latency_ms": 0.2347999979974702,
-    "dense_latency_ms": 27.66209999390412,
+    "deduplication_latency_ms": 0.3243999963160604,
+    "dense_latency_ms": 29.597000000649132,
     "duplicate_chunk_count": 0,
     "estimated_token_count": 1462,
     "evidence_recall": 0.0,
     "expanded_queries": [],
     "experiment_id": "COMBINED_01",
     "facet_queries": [],
-    "fusion_latency_ms": 0.12020001304335892,
-    "index_fingerprint": "d063b65fcefc1858e3315b9e67356a80310b8ae9b4d0864e98dd7c18d8553c1a",
+    "fusion_latency_ms": 0.12209999840706587,
+    "index_fingerprint": "ae1aebea49a005d98f17470add76891ca959288278cabc42b5eda3da19c4b4e7",
     "macro_mrr": 0.0,
     "normalised_query": "What repo-rate action in December was reported in April 2026",
     "original_query": "What repo-rate action in December was reported in April 2026?",
@@ -12308,7 +12308,7 @@
     "preserved_numbers": [
       "2026"
     ],
-    "query_transformation_latency_ms": 0.10639999527484179,
+    "query_transformation_latency_ms": 0.1382000045850873,
     "query_type": "single_report",
     "question_id": "apr26_dev_002",
     "removed_phrases": [],
@@ -12320,34 +12320,34 @@
     "required_report_ids": [
       "rbi_mpr_2026_04"
     ],
-    "reranking_latency_ms": 1532.8854999970645,
-    "routing_latency_ms": 0.16509999113623053,
+    "reranking_latency_ms": 1510.358899991843,
+    "routing_latency_ms": 0.15240001084748656,
     "selected_character_count": 5847,
     "selected_chunk_count": 6,
-    "selection_latency_ms": 0.0023000029614195228,
+    "selection_latency_ms": 0.0034999975468963385,
     "split": "dev",
-    "total_retrieval_latency_ms": 1563.4035999974003,
+    "total_retrieval_latency_ms": 1543.3213000069372,
     "unique_page_count": 6
   },
   {
     "all_reports_hit": false,
-    "bm25_latency_ms": 1.6139999934239313,
-    "candidate_union_latency_ms": 0.09270000737160444,
+    "bm25_latency_ms": 1.9150000007357448,
+    "candidate_union_latency_ms": 0.10520000068936497,
     "complete_evidence_recall": false,
-    "configuration_checksum": "b943a959db2d9f5ce5a45f9f32f8ebb71b77a5da67caf87e49ac2937832018e4",
+    "configuration_checksum": "15b0b9ca4594d002b09b86bffecba427a9ba0ab09bfe66dbf4a63d3751142b9b",
     "contamination": 0,
-    "context_construction_latency_ms": 0.015199999324977398,
+    "context_construction_latency_ms": 0.014399993233382702,
     "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
-    "deduplication_latency_ms": 0.21669999114237726,
-    "dense_latency_ms": 25.376200006576255,
+    "deduplication_latency_ms": 0.19109999993816018,
+    "dense_latency_ms": 28.6980999953812,
     "duplicate_chunk_count": 0,
     "estimated_token_count": 1386,
     "evidence_recall": 0.0,
     "expanded_queries": [],
     "experiment_id": "COMBINED_01",
     "facet_queries": [],
-    "fusion_latency_ms": 0.10199999087490141,
-    "index_fingerprint": "d063b65fcefc1858e3315b9e67356a80310b8ae9b4d0864e98dd7c18d8553c1a",
+    "fusion_latency_ms": 0.09429999045096338,
+    "index_fingerprint": "ae1aebea49a005d98f17470add76891ca959288278cabc42b5eda3da19c4b4e7",
     "macro_mrr": 0.0,
     "normalised_query": "April 2026 characterise core inflation apart from precious metals",
     "original_query": "How did April 2026 characterise core inflation apart from precious metals?",
@@ -13817,7 +13817,7 @@
     "preserved_numbers": [
       "2026"
     ],
-    "query_transformation_latency_ms": 0.10380000458098948,
+    "query_transformation_latency_ms": 0.09220000356435776,
     "query_type": "single_report",
     "question_id": "apr26_dev_003",
     "removed_phrases": [],
@@ -13829,34 +13829,34 @@
     "required_report_ids": [
       "rbi_mpr_2026_04"
     ],
-    "reranking_latency_ms": 1483.0157999967923,
-    "routing_latency_ms": 0.10739998833741993,
+    "reranking_latency_ms": 1572.309299997869,
+    "routing_latency_ms": 0.08889999298844486,
     "selected_character_count": 5543,
     "selected_chunk_count": 6,
-    "selection_latency_ms": 0.0035999983083456755,
+    "selection_latency_ms": 0.003300010575912893,
     "split": "dev",
-    "total_retrieval_latency_ms": 1510.8312999946065,
+    "total_retrieval_latency_ms": 1603.667499992298,
     "unique_page_count": 5
   },
   {
     "all_reports_hit": false,
-    "bm25_latency_ms": 3.6323999956948683,
-    "candidate_union_latency_ms": 0.13299999409355223,
+    "bm25_latency_ms": 2.544799994211644,
+    "candidate_union_latency_ms": 0.10279999696649611,
     "complete_evidence_recall": false,
-    "configuration_checksum": "b943a959db2d9f5ce5a45f9f32f8ebb71b77a5da67caf87e49ac2937832018e4",
+    "configuration_checksum": "15b0b9ca4594d002b09b86bffecba427a9ba0ab09bfe66dbf4a63d3751142b9b",
     "contamination": 0,
-    "context_construction_latency_ms": 0.01930000144056976,
+    "context_construction_latency_ms": 0.01410000550094992,
     "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
-    "deduplication_latency_ms": 0.22480000916402787,
-    "dense_latency_ms": 28.080099989892915,
+    "deduplication_latency_ms": 0.1863000070443377,
+    "dense_latency_ms": 28.68660000967793,
     "duplicate_chunk_count": 0,
     "estimated_token_count": 1461,
     "evidence_recall": 0.0,
     "expanded_queries": [],
     "experiment_id": "COMBINED_01",
     "facet_queries": [],
-    "fusion_latency_ms": 0.13469999248627573,
-    "index_fingerprint": "d063b65fcefc1858e3315b9e67356a80310b8ae9b4d0864e98dd7c18d8553c1a",
+    "fusion_latency_ms": 0.09359999967273325,
+    "index_fingerprint": "ae1aebea49a005d98f17470add76891ca959288278cabc42b5eda3da19c4b4e7",
     "macro_mrr": 0.0,
     "normalised_query": "What crude-oil risk arising from the West Asia conflict was highlighted in April 2026",
     "original_query": "What crude-oil risk arising from the West Asia conflict was highlighted in April 2026?",
@@ -15272,7 +15272,7 @@
     "preserved_numbers": [
       "2026"
     ],
-    "query_transformation_latency_ms": 0.11229999654460698,
+    "query_transformation_latency_ms": 0.10629999451339245,
     "query_type": "single_report",
     "question_id": "apr26_dev_004",
     "removed_phrases": [],
@@ -15284,34 +15284,34 @@
     "required_report_ids": [
       "rbi_mpr_2026_04"
     ],
-    "reranking_latency_ms": 1663.9672000019345,
-    "routing_latency_ms": 0.10009999095927924,
+    "reranking_latency_ms": 1595.7950000010896,
+    "routing_latency_ms": 0.09440000576432794,
     "selected_character_count": 5841,
     "selected_chunk_count": 6,
-    "selection_latency_ms": 0.002800006768666208,
+    "selection_latency_ms": 0.0031999952625483274,
     "split": "dev",
-    "total_retrieval_latency_ms": 1696.612700005062,
+    "total_retrieval_latency_ms": 1627.8051999979652,
     "unique_page_count": 6
   },
   {
     "all_reports_hit": false,
-    "bm25_latency_ms": 2.6889000000664964,
-    "candidate_union_latency_ms": 0.1281000004382804,
+    "bm25_latency_ms": 1.900899995234795,
+    "candidate_union_latency_ms": 0.09499999578110874,
     "complete_evidence_recall": false,
-    "configuration_checksum": "b943a959db2d9f5ce5a45f9f32f8ebb71b77a5da67caf87e49ac2937832018e4",
+    "configuration_checksum": "15b0b9ca4594d002b09b86bffecba427a9ba0ab09bfe66dbf4a63d3751142b9b",
     "contamination": 0,
-    "context_construction_latency_ms": 0.04130000888835639,
+    "context_construction_latency_ms": 0.018099992303177714,
     "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
-    "deduplication_latency_ms": 0.2747999969869852,
-    "dense_latency_ms": 33.19360000023153,
+    "deduplication_latency_ms": 0.20080000103916973,
+    "dense_latency_ms": 25.75770000112243,
     "duplicate_chunk_count": 0,
     "estimated_token_count": 1408,
     "evidence_recall": 0.0,
     "expanded_queries": [],
     "experiment_id": "COMBINED_01",
     "facet_queries": [],
-    "fusion_latency_ms": 0.12980001338291913,
-    "index_fingerprint": "d063b65fcefc1858e3315b9e67356a80310b8ae9b4d0864e98dd7c18d8553c1a",
+    "fusion_latency_ms": 0.11049999739043415,
+    "index_fingerprint": "ae1aebea49a005d98f17470add76891ca959288278cabc42b5eda3da19c4b4e7",
     "macro_mrr": 0.0,
     "normalised_query": "April 2026 characterise global growth relative to its historical average",
     "original_query": "How did April 2026 characterise global growth relative to its historical average?",
@@ -16844,7 +16844,7 @@
     "preserved_numbers": [
       "2026"
     ],
-    "query_transformation_latency_ms": 0.12369999603834003,
+    "query_transformation_latency_ms": 0.10189999011345208,
     "query_type": "single_report",
     "question_id": "apr26_dev_005",
     "removed_phrases": [],
@@ -16856,34 +16856,34 @@
     "required_report_ids": [
       "rbi_mpr_2026_04"
     ],
-    "reranking_latency_ms": 1468.6592999933055,
-    "routing_latency_ms": 0.18629999249242246,
+    "reranking_latency_ms": 1490.6623999995645,
+    "routing_latency_ms": 0.11149999045301229,
     "selected_character_count": 5631,
     "selected_chunk_count": 6,
-    "selection_latency_ms": 0.006000002031214535,
+    "selection_latency_ms": 0.0044000043999403715,
     "split": "dev",
-    "total_retrieval_latency_ms": 1505.6806999928085,
+    "total_retrieval_latency_ms": 1519.1366999933962,
     "unique_page_count": 6
   },
   {
     "all_reports_hit": true,
-    "bm25_latency_ms": 3.78110000747256,
-    "candidate_union_latency_ms": 0.21019999985583127,
+    "bm25_latency_ms": 2.645100001245737,
+    "candidate_union_latency_ms": 0.18689999706111848,
     "complete_evidence_recall": true,
-    "configuration_checksum": "b943a959db2d9f5ce5a45f9f32f8ebb71b77a5da67caf87e49ac2937832018e4",
+    "configuration_checksum": "15b0b9ca4594d002b09b86bffecba427a9ba0ab09bfe66dbf4a63d3751142b9b",
     "contamination": 0,
-    "context_construction_latency_ms": 0.022199994418770075,
+    "context_construction_latency_ms": 0.012599994079209864,
     "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
-    "deduplication_latency_ms": 0.3716999926837161,
-    "dense_latency_ms": 43.556999997235835,
+    "deduplication_latency_ms": 0.20870000298600644,
+    "dense_latency_ms": 29.591899990919046,
     "duplicate_chunk_count": 0,
     "estimated_token_count": 1461,
     "evidence_recall": 1.0,
     "expanded_queries": [],
     "experiment_id": "COMBINED_01",
     "facet_queries": [],
-    "fusion_latency_ms": 0.16990001313388348,
-    "index_fingerprint": "d063b65fcefc1858e3315b9e67356a80310b8ae9b4d0864e98dd7c18d8553c1a",
+    "fusion_latency_ms": 0.15950000670272857,
+    "index_fingerprint": "ae1aebea49a005d98f17470add76891ca959288278cabc42b5eda3da19c4b4e7",
     "macro_mrr": 0.3333333333333333,
     "normalised_query": "What were the Centre's gross market borrowings in 2025-26 according to April 2026",
     "original_query": "What were the Centre's gross market borrowings in 2025-26 according to April 2026?",
@@ -18418,7 +18418,7 @@
       "26",
       "2026"
     ],
-    "query_transformation_latency_ms": 0.1559000083943829,
+    "query_transformation_latency_ms": 0.13390000094659626,
     "query_type": "single_report",
     "question_id": "apr26_dev_006",
     "removed_phrases": [],
@@ -18430,34 +18430,34 @@
     "required_report_ids": [
       "rbi_mpr_2026_04"
     ],
-    "reranking_latency_ms": 3067.63520000095,
-    "routing_latency_ms": 0.16830000095069408,
+    "reranking_latency_ms": 2822.4731999944197,
+    "routing_latency_ms": 0.1466999965487048,
     "selected_character_count": 5843,
     "selected_chunk_count": 6,
-    "selection_latency_ms": 0.008699993486516178,
+    "selection_latency_ms": 0.0031999952625483274,
     "split": "dev",
-    "total_retrieval_latency_ms": 3116.4732000033837,
+    "total_retrieval_latency_ms": 2855.797399999574,
     "unique_page_count": 5
   },
   {
     "all_reports_hit": true,
-    "bm25_latency_ms": 4.997299998649396,
-    "candidate_union_latency_ms": 0.26000000070780516,
+    "bm25_latency_ms": 4.552200000034645,
+    "candidate_union_latency_ms": 0.35859999479725957,
     "complete_evidence_recall": true,
-    "configuration_checksum": "b943a959db2d9f5ce5a45f9f32f8ebb71b77a5da67caf87e49ac2937832018e4",
+    "configuration_checksum": "15b0b9ca4594d002b09b86bffecba427a9ba0ab09bfe66dbf4a63d3751142b9b",
     "contamination": 0,
-    "context_construction_latency_ms": 0.025899993488565087,
+    "context_construction_latency_ms": 0.02469999890308827,
     "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
-    "deduplication_latency_ms": 0.3234000032534823,
-    "dense_latency_ms": 84.82290001120418,
+    "deduplication_latency_ms": 0.3789000038523227,
+    "dense_latency_ms": 61.73309999576304,
     "duplicate_chunk_count": 0,
-    "estimated_token_count": 1964,
+    "estimated_token_count": 2444,
     "evidence_recall": 1.0,
     "expanded_queries": [],
     "experiment_id": "COMBINED_01",
     "facet_queries": [],
-    "fusion_latency_ms": 0.20840000070165843,
-    "index_fingerprint": "d063b65fcefc1858e3315b9e67356a80310b8ae9b4d0864e98dd7c18d8553c1a",
+    "fusion_latency_ms": 0.2707999956328422,
+    "index_fingerprint": "ae1aebea49a005d98f17470add76891ca959288278cabc42b5eda3da19c4b4e7",
     "macro_mrr": 0.29166666666666663,
     "normalised_query": "food-inflation developments reported in April and October 2025.",
     "original_query": "Compare food-inflation developments reported in April and October 2025.",
@@ -20693,19 +20693,22 @@
           "rbi_mpr_2025_04_p032_c000",
           "rbi_mpr_2025_04_p038_c000",
           "rbi_mpr_2025_04_p042_c000",
-          "rbi_mpr_2025_04_p012_c000"
+          "rbi_mpr_2025_04_p012_c000",
+          "rbi_mpr_2025_04_p030_c000"
         ],
         "selected_chunk_ids_before_dedup": [
           "rbi_mpr_2025_04_p032_c000",
           "rbi_mpr_2025_04_p038_c000",
           "rbi_mpr_2025_04_p042_c000",
-          "rbi_mpr_2025_04_p012_c000"
+          "rbi_mpr_2025_04_p012_c000",
+          "rbi_mpr_2025_04_p030_c000"
         ],
         "selected_pages": [
           32,
           38,
           42,
-          12
+          12,
+          30
         ]
       },
       "rbi_mpr_2025_10": {
@@ -22955,19 +22958,22 @@
           "rbi_mpr_2025_10_p032_c000",
           "rbi_mpr_2025_10_p025_c001",
           "rbi_mpr_2025_10_p010_c000",
-          "rbi_mpr_2025_10_p036_c003"
+          "rbi_mpr_2025_10_p036_c003",
+          "rbi_mpr_2025_10_p026_c000"
         ],
         "selected_chunk_ids_before_dedup": [
           "rbi_mpr_2025_10_p032_c000",
           "rbi_mpr_2025_10_p025_c001",
           "rbi_mpr_2025_10_p010_c000",
-          "rbi_mpr_2025_10_p036_c003"
+          "rbi_mpr_2025_10_p036_c003",
+          "rbi_mpr_2025_10_p026_c000"
         ],
         "selected_pages": [
           32,
           25,
           10,
-          36
+          36,
+          26
         ]
       }
     },
@@ -22983,7 +22989,7 @@
     "preserved_numbers": [
       "2025"
     ],
-    "query_transformation_latency_ms": 0.1512000017100945,
+    "query_transformation_latency_ms": 0.0892000098247081,
     "query_type": "pairwise_comparison",
     "question_id": "cmp_dev_001",
     "removed_phrases": [
@@ -22991,42 +22997,42 @@
     ],
     "repeated_text_ratio": 0.0,
     "report_chunk_counts": {
-      "rbi_mpr_2025_04": 4,
-      "rbi_mpr_2025_10": 4
+      "rbi_mpr_2025_04": 5,
+      "rbi_mpr_2025_10": 5
     },
     "report_coverage": 1.0,
     "required_report_ids": [
       "rbi_mpr_2025_04",
       "rbi_mpr_2025_10"
     ],
-    "reranking_latency_ms": 2813.012800004799,
-    "routing_latency_ms": 0.13839999155607074,
-    "selected_character_count": 7854,
-    "selected_chunk_count": 8,
-    "selection_latency_ms": 0.00449999060947448,
+    "reranking_latency_ms": 2760.9129000047687,
+    "routing_latency_ms": 0.09539999882690609,
+    "selected_character_count": 9776,
+    "selected_chunk_count": 10,
+    "selection_latency_ms": 0.007299997378140688,
     "split": "dev",
-    "total_retrieval_latency_ms": 2904.251400002977,
-    "unique_page_count": 8
+    "total_retrieval_latency_ms": 2828.6527000018395,
+    "unique_page_count": 10
   },
   {
     "all_reports_hit": true,
-    "bm25_latency_ms": 4.033899997011758,
-    "candidate_union_latency_ms": 0.22980000358074903,
+    "bm25_latency_ms": 3.859899996314198,
+    "candidate_union_latency_ms": 0.2204000047640875,
     "complete_evidence_recall": false,
-    "configuration_checksum": "b943a959db2d9f5ce5a45f9f32f8ebb71b77a5da67caf87e49ac2937832018e4",
+    "configuration_checksum": "15b0b9ca4594d002b09b86bffecba427a9ba0ab09bfe66dbf4a63d3751142b9b",
     "contamination": 0,
-    "context_construction_latency_ms": 0.020899999071843922,
+    "context_construction_latency_ms": 0.028399997972883284,
     "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
-    "deduplication_latency_ms": 0.25180001102853566,
-    "dense_latency_ms": 55.91759999515489,
+    "deduplication_latency_ms": 0.324200009345077,
+    "dense_latency_ms": 49.43250000360422,
     "duplicate_chunk_count": 0,
-    "estimated_token_count": 1953,
+    "estimated_token_count": 2430,
     "evidence_recall": 0.5,
     "expanded_queries": [],
     "experiment_id": "COMBINED_01",
     "facet_queries": [],
-    "fusion_latency_ms": 0.2502999996067956,
-    "index_fingerprint": "d063b65fcefc1858e3315b9e67356a80310b8ae9b4d0864e98dd7c18d8553c1a",
+    "fusion_latency_ms": 0.21690000721719116,
+    "index_fingerprint": "ae1aebea49a005d98f17470add76891ca959288278cabc42b5eda3da19c4b4e7",
     "macro_mrr": 0.41666666666666663,
     "normalised_query": "the policy-rate levels described in April and October 2025.",
     "original_query": "Compare the policy-rate levels described in April and October 2025.",
@@ -25204,19 +25210,22 @@
           "rbi_mpr_2025_04_p026_c000",
           "rbi_mpr_2025_04_p012_c000",
           "rbi_mpr_2025_04_p052_c000",
-          "rbi_mpr_2025_04_p108_c000"
+          "rbi_mpr_2025_04_p108_c000",
+          "rbi_mpr_2025_04_p107_c001"
         ],
         "selected_chunk_ids_before_dedup": [
           "rbi_mpr_2025_04_p026_c000",
           "rbi_mpr_2025_04_p012_c000",
           "rbi_mpr_2025_04_p052_c000",
-          "rbi_mpr_2025_04_p108_c000"
+          "rbi_mpr_2025_04_p108_c000",
+          "rbi_mpr_2025_04_p107_c001"
         ],
         "selected_pages": [
           26,
           12,
           52,
-          108
+          108,
+          107
         ]
       },
       "rbi_mpr_2025_10": {
@@ -27396,19 +27405,22 @@
           "rbi_mpr_2025_10_p066_c000",
           "rbi_mpr_2025_10_p032_c000",
           "rbi_mpr_2025_10_p010_c000",
-          "rbi_mpr_2025_10_p102_c000"
+          "rbi_mpr_2025_10_p102_c000",
+          "rbi_mpr_2025_10_p040_c000"
         ],
         "selected_chunk_ids_before_dedup": [
           "rbi_mpr_2025_10_p066_c000",
           "rbi_mpr_2025_10_p032_c000",
           "rbi_mpr_2025_10_p010_c000",
-          "rbi_mpr_2025_10_p102_c000"
+          "rbi_mpr_2025_10_p102_c000",
+          "rbi_mpr_2025_10_p040_c000"
         ],
         "selected_pages": [
           66,
           32,
           10,
-          102
+          102,
+          40
         ]
       }
     },
@@ -27424,7 +27436,7 @@
     "preserved_numbers": [
       "2025"
     ],
-    "query_transformation_latency_ms": 0.12450000212993473,
+    "query_transformation_latency_ms": 0.12419999984558672,
     "query_type": "pairwise_comparison",
     "question_id": "cmp_dev_002",
     "removed_phrases": [
@@ -27432,42 +27444,42 @@
     ],
     "repeated_text_ratio": 0.0,
     "report_chunk_counts": {
-      "rbi_mpr_2025_04": 4,
-      "rbi_mpr_2025_10": 4
+      "rbi_mpr_2025_04": 5,
+      "rbi_mpr_2025_10": 5
     },
     "report_coverage": 1.0,
     "required_report_ids": [
       "rbi_mpr_2025_04",
       "rbi_mpr_2025_10"
     ],
-    "reranking_latency_ms": 2737.6646000047913,
-    "routing_latency_ms": 0.10469999688211828,
-    "selected_character_count": 7811,
-    "selected_chunk_count": 8,
-    "selection_latency_ms": 0.0047000066842883825,
+    "reranking_latency_ms": 2512.312799997744,
+    "routing_latency_ms": 0.13860000763088465,
+    "selected_character_count": 9718,
+    "selected_chunk_count": 10,
+    "selection_latency_ms": 0.006699992809444666,
     "split": "dev",
-    "total_retrieval_latency_ms": 2798.816099995747,
-    "unique_page_count": 8
+    "total_retrieval_latency_ms": 2566.87989999773,
+    "unique_page_count": 10
   },
   {
     "all_reports_hit": true,
-    "bm25_latency_ms": 4.965899992384948,
-    "candidate_union_latency_ms": 0.30849999166093767,
+    "bm25_latency_ms": 4.459899995708838,
+    "candidate_union_latency_ms": 0.24680000205989927,
     "complete_evidence_recall": true,
-    "configuration_checksum": "b943a959db2d9f5ce5a45f9f32f8ebb71b77a5da67caf87e49ac2937832018e4",
+    "configuration_checksum": "15b0b9ca4594d002b09b86bffecba427a9ba0ab09bfe66dbf4a63d3751142b9b",
     "contamination": 0,
-    "context_construction_latency_ms": 0.04870000702794641,
+    "context_construction_latency_ms": 0.030499999411404133,
     "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
-    "deduplication_latency_ms": 0.4621999978553504,
-    "dense_latency_ms": 63.210399996023625,
+    "deduplication_latency_ms": 0.4317999992053956,
+    "dense_latency_ms": 56.139099993743,
     "duplicate_chunk_count": 0,
-    "estimated_token_count": 1956,
+    "estimated_token_count": 2442,
     "evidence_recall": 1.0,
     "expanded_queries": [],
     "experiment_id": "COMBINED_01",
     "facet_queries": [],
-    "fusion_latency_ms": 0.22069999249652028,
-    "index_fingerprint": "d063b65fcefc1858e3315b9e67356a80310b8ae9b4d0864e98dd7c18d8553c1a",
+    "fusion_latency_ms": 0.18650000856723636,
+    "index_fingerprint": "ae1aebea49a005d98f17470add76891ca959288278cabc42b5eda3da19c4b4e7",
     "macro_mrr": 1.0,
     "normalised_query": "the crude-oil baseline assumptions in April and October 2025.",
     "original_query": "Compare the crude-oil baseline assumptions in April and October 2025.",
@@ -29670,18 +29682,21 @@
           "rbi_mpr_2025_04_p014_c001",
           "rbi_mpr_2025_04_p022_c000",
           "rbi_mpr_2025_04_p015_c000",
-          "rbi_mpr_2025_04_p014_c000"
+          "rbi_mpr_2025_04_p014_c000",
+          "rbi_mpr_2025_04_p014_c003"
         ],
         "selected_chunk_ids_before_dedup": [
           "rbi_mpr_2025_04_p014_c001",
           "rbi_mpr_2025_04_p022_c000",
           "rbi_mpr_2025_04_p015_c000",
-          "rbi_mpr_2025_04_p014_c000"
+          "rbi_mpr_2025_04_p014_c000",
+          "rbi_mpr_2025_04_p014_c003"
         ],
         "selected_pages": [
           14,
           22,
           15,
+          14,
           14
         ]
       },
@@ -31885,19 +31900,22 @@
           "rbi_mpr_2025_10_p012_c000",
           "rbi_mpr_2025_10_p012_c001",
           "rbi_mpr_2025_10_p013_c000",
-          "rbi_mpr_2025_10_p021_c003"
+          "rbi_mpr_2025_10_p021_c003",
+          "rbi_mpr_2025_10_p074_c000"
         ],
         "selected_chunk_ids_before_dedup": [
           "rbi_mpr_2025_10_p012_c000",
           "rbi_mpr_2025_10_p012_c001",
           "rbi_mpr_2025_10_p013_c000",
-          "rbi_mpr_2025_10_p021_c003"
+          "rbi_mpr_2025_10_p021_c003",
+          "rbi_mpr_2025_10_p074_c000"
         ],
         "selected_pages": [
           12,
           12,
           13,
-          21
+          21,
+          74
         ]
       }
     },
@@ -31913,7 +31931,7 @@
     "preserved_numbers": [
       "2025"
     ],
-    "query_transformation_latency_ms": 0.10130000009667128,
+    "query_transformation_latency_ms": 0.109200002043508,
     "query_type": "pairwise_comparison",
     "question_id": "cmp_dev_003",
     "removed_phrases": [
@@ -31921,42 +31939,42 @@
     ],
     "repeated_text_ratio": 0.0,
     "report_chunk_counts": {
-      "rbi_mpr_2025_04": 4,
-      "rbi_mpr_2025_10": 4
+      "rbi_mpr_2025_04": 5,
+      "rbi_mpr_2025_10": 5
     },
     "report_coverage": 1.0,
     "required_report_ids": [
       "rbi_mpr_2025_04",
       "rbi_mpr_2025_10"
     ],
-    "reranking_latency_ms": 3284.176600005594,
-    "routing_latency_ms": 0.11949999316129833,
-    "selected_character_count": 7822,
-    "selected_chunk_count": 8,
-    "selection_latency_ms": 0.008400005754083395,
+    "reranking_latency_ms": 2911.7092000087723,
+    "routing_latency_ms": 0.11079999967478216,
+    "selected_character_count": 9766,
+    "selected_chunk_count": 10,
+    "selection_latency_ms": 0.0042000028770416975,
     "split": "dev",
-    "total_retrieval_latency_ms": 3353.908000004594,
-    "unique_page_count": 6
+    "total_retrieval_latency_ms": 2973.6290000000736,
+    "unique_page_count": 7
   },
   {
     "all_reports_hit": false,
-    "bm25_latency_ms": 3.763000000617467,
-    "candidate_union_latency_ms": 0.3394999948795885,
+    "bm25_latency_ms": 3.8163999997777864,
+    "candidate_union_latency_ms": 0.2928000030806288,
     "complete_evidence_recall": false,
-    "configuration_checksum": "b943a959db2d9f5ce5a45f9f32f8ebb71b77a5da67caf87e49ac2937832018e4",
+    "configuration_checksum": "15b0b9ca4594d002b09b86bffecba427a9ba0ab09bfe66dbf4a63d3751142b9b",
     "contamination": 0,
-    "context_construction_latency_ms": 0.024199995095841587,
+    "context_construction_latency_ms": 0.030000010156072676,
     "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
-    "deduplication_latency_ms": 0.3341000119689852,
-    "dense_latency_ms": 60.71910000173375,
+    "deduplication_latency_ms": 0.44659999548457563,
+    "dense_latency_ms": 59.942700012470596,
     "duplicate_chunk_count": 0,
-    "estimated_token_count": 1965,
+    "estimated_token_count": 2452,
     "evidence_recall": 0.5,
     "expanded_queries": [],
     "experiment_id": "COMBINED_01",
     "facet_queries": [],
-    "fusion_latency_ms": 0.3397999971639365,
-    "index_fingerprint": "d063b65fcefc1858e3315b9e67356a80310b8ae9b4d0864e98dd7c18d8553c1a",
+    "fusion_latency_ms": 0.2477999951224774,
+    "index_fingerprint": "ae1aebea49a005d98f17470add76891ca959288278cabc42b5eda3da19c4b4e7",
     "macro_mrr": 0.125,
     "normalised_query": "global-growth assumptions in April and October 2025.",
     "original_query": "Compare global-growth assumptions in April and October 2025.",
@@ -34202,19 +34220,22 @@
           "rbi_mpr_2025_04_p022_c000",
           "rbi_mpr_2025_04_p015_c000",
           "rbi_mpr_2025_04_p099_c002",
-          "rbi_mpr_2025_04_p015_c001"
+          "rbi_mpr_2025_04_p015_c001",
+          "rbi_mpr_2025_04_p099_c003"
         ],
         "selected_chunk_ids_before_dedup": [
           "rbi_mpr_2025_04_p022_c000",
           "rbi_mpr_2025_04_p015_c000",
           "rbi_mpr_2025_04_p099_c002",
-          "rbi_mpr_2025_04_p015_c001"
+          "rbi_mpr_2025_04_p015_c001",
+          "rbi_mpr_2025_04_p099_c003"
         ],
         "selected_pages": [
           22,
           15,
           99,
-          15
+          15,
+          99
         ]
       },
       "rbi_mpr_2025_10": {
@@ -36454,19 +36475,22 @@
           "rbi_mpr_2025_10_p009_c001",
           "rbi_mpr_2025_10_p097_c004",
           "rbi_mpr_2025_10_p099_c000",
-          "rbi_mpr_2025_10_p012_c001"
+          "rbi_mpr_2025_10_p012_c001",
+          "rbi_mpr_2025_10_p010_c000"
         ],
         "selected_chunk_ids_before_dedup": [
           "rbi_mpr_2025_10_p009_c001",
           "rbi_mpr_2025_10_p097_c004",
           "rbi_mpr_2025_10_p099_c000",
-          "rbi_mpr_2025_10_p012_c001"
+          "rbi_mpr_2025_10_p012_c001",
+          "rbi_mpr_2025_10_p010_c000"
         ],
         "selected_pages": [
           9,
           97,
           99,
-          12
+          12,
+          10
         ]
       }
     },
@@ -36482,7 +36506,7 @@
     "preserved_numbers": [
       "2025"
     ],
-    "query_transformation_latency_ms": 0.09780000254977494,
+    "query_transformation_latency_ms": 0.09049999061971903,
     "query_type": "pairwise_comparison",
     "question_id": "cmp_dev_004",
     "removed_phrases": [
@@ -36490,42 +36514,42 @@
     ],
     "repeated_text_ratio": 0.0,
     "report_chunk_counts": {
-      "rbi_mpr_2025_04": 4,
-      "rbi_mpr_2025_10": 4
+      "rbi_mpr_2025_04": 5,
+      "rbi_mpr_2025_10": 5
     },
     "report_coverage": 1.0,
     "required_report_ids": [
       "rbi_mpr_2025_04",
       "rbi_mpr_2025_10"
     ],
-    "reranking_latency_ms": 2529.9461999966297,
-    "routing_latency_ms": 0.11449999874457717,
-    "selected_character_count": 7857,
-    "selected_chunk_count": 8,
-    "selection_latency_ms": 0.0043000036384910345,
+    "reranking_latency_ms": 2310.255899996264,
+    "routing_latency_ms": 0.11000000813510269,
+    "selected_character_count": 9808,
+    "selected_chunk_count": 10,
+    "selection_latency_ms": 0.0050000089686363935,
     "split": "dev",
-    "total_retrieval_latency_ms": 2595.9174999879906,
-    "unique_page_count": 7
+    "total_retrieval_latency_ms": 2375.4665999877034,
+    "unique_page_count": 8
   },
   {
     "all_reports_hit": false,
-    "bm25_latency_ms": 3.9438000094378367,
-    "candidate_union_latency_ms": 0.25440000172238797,
+    "bm25_latency_ms": 3.312900007585995,
+    "candidate_union_latency_ms": 0.28419999580364674,
     "complete_evidence_recall": false,
-    "configuration_checksum": "b943a959db2d9f5ce5a45f9f32f8ebb71b77a5da67caf87e49ac2937832018e4",
+    "configuration_checksum": "15b0b9ca4594d002b09b86bffecba427a9ba0ab09bfe66dbf4a63d3751142b9b",
     "contamination": 0,
-    "context_construction_latency_ms": 0.02680000034160912,
+    "context_construction_latency_ms": 0.03330000618007034,
     "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
-    "deduplication_latency_ms": 0.2727000101003796,
-    "dense_latency_ms": 63.45909999799915,
+    "deduplication_latency_ms": 0.3893000102834776,
+    "dense_latency_ms": 65.1608999905875,
     "duplicate_chunk_count": 0,
-    "estimated_token_count": 1951,
+    "estimated_token_count": 2437,
     "evidence_recall": 0.5,
     "expanded_queries": [],
     "experiment_id": "COMBINED_01",
     "facet_queries": [],
-    "fusion_latency_ms": 0.20059999951627105,
-    "index_fingerprint": "d063b65fcefc1858e3315b9e67356a80310b8ae9b4d0864e98dd7c18d8553c1a",
+    "fusion_latency_ms": 0.20799999765586108,
+    "index_fingerprint": "ae1aebea49a005d98f17470add76891ca959288278cabc42b5eda3da19c4b4e7",
     "macro_mrr": 0.25,
     "normalised_query": "food-inflation language in October 2025 and April 2026.",
     "original_query": "Compare food-inflation language in October 2025 and April 2026.",
@@ -38721,19 +38745,22 @@
           "rbi_mpr_2025_10_p032_c000",
           "rbi_mpr_2025_10_p010_c000",
           "rbi_mpr_2025_10_p036_c003",
-          "rbi_mpr_2025_10_p025_c001"
+          "rbi_mpr_2025_10_p025_c001",
+          "rbi_mpr_2025_10_p030_c000"
         ],
         "selected_chunk_ids_before_dedup": [
           "rbi_mpr_2025_10_p032_c000",
           "rbi_mpr_2025_10_p010_c000",
           "rbi_mpr_2025_10_p036_c003",
-          "rbi_mpr_2025_10_p025_c001"
+          "rbi_mpr_2025_10_p025_c001",
+          "rbi_mpr_2025_10_p030_c000"
         ],
         "selected_pages": [
           32,
           10,
           36,
-          25
+          25,
+          30
         ]
       },
       "rbi_mpr_2026_04": {
@@ -40927,19 +40954,22 @@
           "rbi_mpr_2026_04_p082_c000",
           "rbi_mpr_2026_04_p087_c000",
           "rbi_mpr_2026_04_p094_c000",
-          "rbi_mpr_2026_04_p092_c002"
+          "rbi_mpr_2026_04_p092_c002",
+          "rbi_mpr_2026_04_p083_c000"
         ],
         "selected_chunk_ids_before_dedup": [
           "rbi_mpr_2026_04_p082_c000",
           "rbi_mpr_2026_04_p087_c000",
           "rbi_mpr_2026_04_p094_c000",
-          "rbi_mpr_2026_04_p092_c002"
+          "rbi_mpr_2026_04_p092_c002",
+          "rbi_mpr_2026_04_p083_c000"
         ],
         "selected_pages": [
           82,
           87,
           94,
-          92
+          92,
+          83
         ]
       }
     },
@@ -40956,7 +40986,7 @@
       "2025",
       "2026"
     ],
-    "query_transformation_latency_ms": 0.18109999655280262,
+    "query_transformation_latency_ms": 0.11809999705292284,
     "query_type": "pairwise_comparison",
     "question_id": "cmp_dev_005",
     "removed_phrases": [
@@ -40964,42 +40994,42 @@
     ],
     "repeated_text_ratio": 0.0,
     "report_chunk_counts": {
-      "rbi_mpr_2025_10": 4,
-      "rbi_mpr_2026_04": 4
+      "rbi_mpr_2025_10": 5,
+      "rbi_mpr_2026_04": 5
     },
     "report_coverage": 1.0,
     "required_report_ids": [
       "rbi_mpr_2025_10",
       "rbi_mpr_2026_04"
     ],
-    "reranking_latency_ms": 3192.0740000059595,
-    "routing_latency_ms": 0.10689999908208847,
-    "selected_character_count": 7802,
-    "selected_chunk_count": 8,
-    "selection_latency_ms": 0.003000008291564882,
+    "reranking_latency_ms": 3243.159400008153,
+    "routing_latency_ms": 0.12650000280700624,
+    "selected_character_count": 9748,
+    "selected_chunk_count": 10,
+    "selection_latency_ms": 0.004899993655271828,
     "split": "dev",
-    "total_retrieval_latency_ms": 3260.7707000133814,
-    "unique_page_count": 8
+    "total_retrieval_latency_ms": 3313.0221999890637,
+    "unique_page_count": 10
   },
   {
     "all_reports_hit": false,
-    "bm25_latency_ms": 5.697899992810562,
-    "candidate_union_latency_ms": 0.32449999707750976,
+    "bm25_latency_ms": 5.415099993115291,
+    "candidate_union_latency_ms": 0.2877999941119924,
     "complete_evidence_recall": false,
-    "configuration_checksum": "b943a959db2d9f5ce5a45f9f32f8ebb71b77a5da67caf87e49ac2937832018e4",
+    "configuration_checksum": "15b0b9ca4594d002b09b86bffecba427a9ba0ab09bfe66dbf4a63d3751142b9b",
     "contamination": 0,
-    "context_construction_latency_ms": 0.031199990189634264,
+    "context_construction_latency_ms": 0.025599991204217076,
     "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
-    "deduplication_latency_ms": 0.35940000088885427,
-    "dense_latency_ms": 59.934699995210394,
+    "deduplication_latency_ms": 0.29930000891909003,
+    "dense_latency_ms": 63.62890001037158,
     "duplicate_chunk_count": 0,
-    "estimated_token_count": 1948,
+    "estimated_token_count": 2435,
     "evidence_recall": 0.0,
     "expanded_queries": [],
     "experiment_id": "COMBINED_01",
     "facet_queries": [],
-    "fusion_latency_ms": 0.27459999546408653,
-    "index_fingerprint": "d063b65fcefc1858e3315b9e67356a80310b8ae9b4d0864e98dd7c18d8553c1a",
+    "fusion_latency_ms": 0.25549999554641545,
+    "index_fingerprint": "ae1aebea49a005d98f17470add76891ca959288278cabc42b5eda3da19c4b4e7",
     "macro_mrr": 0.25,
     "normalised_query": "the monetary-policy actions described in October 2025 and April 2026.",
     "original_query": "Compare the monetary-policy actions described in October 2025 and April 2026.",
@@ -43140,19 +43170,22 @@
           "rbi_mpr_2025_10_p066_c000",
           "rbi_mpr_2025_10_p010_c000",
           "rbi_mpr_2025_10_p068_c000",
-          "rbi_mpr_2025_10_p032_c000"
+          "rbi_mpr_2025_10_p032_c000",
+          "rbi_mpr_2025_10_p074_c000"
         ],
         "selected_chunk_ids_before_dedup": [
           "rbi_mpr_2025_10_p066_c000",
           "rbi_mpr_2025_10_p010_c000",
           "rbi_mpr_2025_10_p068_c000",
-          "rbi_mpr_2025_10_p032_c000"
+          "rbi_mpr_2025_10_p032_c000",
+          "rbi_mpr_2025_10_p074_c000"
         ],
         "selected_pages": [
           66,
           10,
           68,
-          32
+          32,
+          74
         ]
       },
       "rbi_mpr_2026_04": {
@@ -45289,19 +45322,22 @@
           "rbi_mpr_2026_04_p102_c000",
           "rbi_mpr_2026_04_p020_c000",
           "rbi_mpr_2026_04_p014_c000",
-          "rbi_mpr_2026_04_p100_c000"
+          "rbi_mpr_2026_04_p100_c000",
+          "rbi_mpr_2026_04_p024_c000"
         ],
         "selected_chunk_ids_before_dedup": [
           "rbi_mpr_2026_04_p102_c000",
           "rbi_mpr_2026_04_p020_c000",
           "rbi_mpr_2026_04_p014_c000",
-          "rbi_mpr_2026_04_p100_c000"
+          "rbi_mpr_2026_04_p100_c000",
+          "rbi_mpr_2026_04_p024_c000"
         ],
         "selected_pages": [
           102,
           20,
           14,
-          100
+          100,
+          24
         ]
       }
     },
@@ -45318,7 +45354,7 @@
       "2025",
       "2026"
     ],
-    "query_transformation_latency_ms": 0.10520000068936497,
+    "query_transformation_latency_ms": 0.13719999697059393,
     "query_type": "pairwise_comparison",
     "question_id": "cmp_dev_006",
     "removed_phrases": [
@@ -45326,42 +45362,42 @@
     ],
     "repeated_text_ratio": 0.0,
     "report_chunk_counts": {
-      "rbi_mpr_2025_10": 4,
-      "rbi_mpr_2026_04": 4
+      "rbi_mpr_2025_10": 5,
+      "rbi_mpr_2026_04": 5
     },
     "report_coverage": 1.0,
     "required_report_ids": [
       "rbi_mpr_2025_10",
       "rbi_mpr_2026_04"
     ],
-    "reranking_latency_ms": 3408.575800000108,
-    "routing_latency_ms": 0.12579999747686088,
-    "selected_character_count": 7789,
-    "selected_chunk_count": 8,
-    "selection_latency_ms": 0.006000002031214535,
+    "reranking_latency_ms": 2945.700800002669,
+    "routing_latency_ms": 0.1551999885123223,
+    "selected_character_count": 9737,
+    "selected_chunk_count": 10,
+    "selection_latency_ms": 0.0029999937396496534,
     "split": "dev",
-    "total_retrieval_latency_ms": 3475.682499993127,
-    "unique_page_count": 8
+    "total_retrieval_latency_ms": 3016.1238000000594,
+    "unique_page_count": 10
   },
   {
     "all_reports_hit": false,
-    "bm25_latency_ms": 5.617100003291853,
-    "candidate_union_latency_ms": 1.1777999898185953,
+    "bm25_latency_ms": 3.1236999930115417,
+    "candidate_union_latency_ms": 0.3577999887056649,
     "complete_evidence_recall": false,
-    "configuration_checksum": "b943a959db2d9f5ce5a45f9f32f8ebb71b77a5da67caf87e49ac2937832018e4",
+    "configuration_checksum": "15b0b9ca4594d002b09b86bffecba427a9ba0ab09bfe66dbf4a63d3751142b9b",
     "contamination": 0,
-    "context_construction_latency_ms": 0.030499999411404133,
+    "context_construction_latency_ms": 0.025699991965666413,
     "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
-    "deduplication_latency_ms": 0.5032000044593588,
-    "dense_latency_ms": 91.41680000175256,
+    "deduplication_latency_ms": 0.27099999715574086,
+    "dense_latency_ms": 51.045799991698004,
     "duplicate_chunk_count": 0,
-    "estimated_token_count": 1940,
+    "estimated_token_count": 2424,
     "evidence_recall": 0.0,
     "expanded_queries": [],
     "experiment_id": "COMBINED_01",
     "facet_queries": [],
-    "fusion_latency_ms": 0.9253000025637448,
-    "index_fingerprint": "d063b65fcefc1858e3315b9e67356a80310b8ae9b4d0864e98dd7c18d8553c1a",
+    "fusion_latency_ms": 0.27859999681822956,
+    "index_fingerprint": "ae1aebea49a005d98f17470add76891ca959288278cabc42b5eda3da19c4b4e7",
     "macro_mrr": 0.0,
     "normalised_query": "global-growth language in October 2025 and April 2026.",
     "original_query": "Compare global-growth language in October 2025 and April 2026.",
@@ -47565,19 +47601,22 @@
           "rbi_mpr_2025_10_p097_c004",
           "rbi_mpr_2025_10_p009_c001",
           "rbi_mpr_2025_10_p099_c000",
-          "rbi_mpr_2025_10_p010_c000"
+          "rbi_mpr_2025_10_p010_c000",
+          "rbi_mpr_2025_10_p097_c003"
         ],
         "selected_chunk_ids_before_dedup": [
           "rbi_mpr_2025_10_p097_c004",
           "rbi_mpr_2025_10_p009_c001",
           "rbi_mpr_2025_10_p099_c000",
-          "rbi_mpr_2025_10_p010_c000"
+          "rbi_mpr_2025_10_p010_c000",
+          "rbi_mpr_2025_10_p097_c003"
         ],
         "selected_pages": [
           97,
           9,
           99,
-          10
+          10,
+          97
         ]
       },
       "rbi_mpr_2026_04": {
@@ -49795,19 +49834,22 @@
           "rbi_mpr_2026_04_p102_c000",
           "rbi_mpr_2026_04_p056_c000",
           "rbi_mpr_2026_04_p100_c001",
-          "rbi_mpr_2026_04_p100_c000"
+          "rbi_mpr_2026_04_p100_c000",
+          "rbi_mpr_2026_04_p106_c001"
         ],
         "selected_chunk_ids_before_dedup": [
           "rbi_mpr_2026_04_p102_c000",
           "rbi_mpr_2026_04_p056_c000",
           "rbi_mpr_2026_04_p100_c001",
-          "rbi_mpr_2026_04_p100_c000"
+          "rbi_mpr_2026_04_p100_c000",
+          "rbi_mpr_2026_04_p106_c001"
         ],
         "selected_pages": [
           102,
           56,
           100,
-          100
+          100,
+          106
         ]
       }
     },
@@ -49824,7 +49866,7 @@
       "2025",
       "2026"
     ],
-    "query_transformation_latency_ms": 0.1311999949393794,
+    "query_transformation_latency_ms": 0.09540001337882131,
     "query_type": "pairwise_comparison",
     "question_id": "cmp_dev_007",
     "removed_phrases": [
@@ -49832,42 +49874,42 @@
     ],
     "repeated_text_ratio": 0.0,
     "report_chunk_counts": {
-      "rbi_mpr_2025_10": 4,
-      "rbi_mpr_2026_04": 4
+      "rbi_mpr_2025_10": 5,
+      "rbi_mpr_2026_04": 5
     },
     "report_coverage": 1.0,
     "required_report_ids": [
       "rbi_mpr_2025_10",
       "rbi_mpr_2026_04"
     ],
-    "reranking_latency_ms": 2894.2758000048343,
-    "routing_latency_ms": 0.17559999832883477,
-    "selected_character_count": 7758,
-    "selected_chunk_count": 8,
-    "selection_latency_ms": 0.009099996532313526,
+    "reranking_latency_ms": 2671.2102000019513,
+    "routing_latency_ms": 0.1697999978205189,
+    "selected_character_count": 9696,
+    "selected_chunk_count": 10,
+    "selection_latency_ms": 0.0048000074457377195,
     "split": "dev",
-    "total_retrieval_latency_ms": 2994.7985999897355,
-    "unique_page_count": 7
+    "total_retrieval_latency_ms": 2726.7974999995204,
+    "unique_page_count": 8
   },
   {
     "all_reports_hit": false,
-    "bm25_latency_ms": 4.896500002359971,
-    "candidate_union_latency_ms": 0.3220000071451068,
+    "bm25_latency_ms": 4.142699996009469,
+    "candidate_union_latency_ms": 0.502099996083416,
     "complete_evidence_recall": false,
-    "configuration_checksum": "b943a959db2d9f5ce5a45f9f32f8ebb71b77a5da67caf87e49ac2937832018e4",
+    "configuration_checksum": "15b0b9ca4594d002b09b86bffecba427a9ba0ab09bfe66dbf4a63d3751142b9b",
     "contamination": 0,
-    "context_construction_latency_ms": 0.024900000425986946,
+    "context_construction_latency_ms": 0.03859998832922429,
     "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
-    "deduplication_latency_ms": 0.3129999968223274,
-    "dense_latency_ms": 62.481999993906356,
+    "deduplication_latency_ms": 0.37379999412223697,
+    "dense_latency_ms": 56.86769999738317,
     "duplicate_chunk_count": 0,
-    "estimated_token_count": 1834,
+    "estimated_token_count": 2320,
     "evidence_recall": 0.5,
     "expanded_queries": [],
     "experiment_id": "COMBINED_01",
     "facet_queries": [],
-    "fusion_latency_ms": 0.2721999917412177,
-    "index_fingerprint": "d063b65fcefc1858e3315b9e67356a80310b8ae9b4d0864e98dd7c18d8553c1a",
+    "fusion_latency_ms": 0.23669999791309237,
+    "index_fingerprint": "ae1aebea49a005d98f17470add76891ca959288278cabc42b5eda3da19c4b4e7",
     "macro_mrr": 0.5,
     "normalised_query": "the Centre's borrowing figures in October 2025 and April 2026.",
     "original_query": "Compare the Centre's borrowing figures in October 2025 and April 2026.",
@@ -52127,19 +52169,22 @@
           "rbi_mpr_2025_10_p052_c000",
           "rbi_mpr_2025_10_p050_c000",
           "rbi_mpr_2025_10_p052_c004",
-          "rbi_mpr_2025_10_p072_c000"
+          "rbi_mpr_2025_10_p072_c000",
+          "rbi_mpr_2025_10_p066_c000"
         ],
         "selected_chunk_ids_before_dedup": [
           "rbi_mpr_2025_10_p052_c000",
           "rbi_mpr_2025_10_p050_c000",
           "rbi_mpr_2025_10_p052_c004",
-          "rbi_mpr_2025_10_p072_c000"
+          "rbi_mpr_2025_10_p072_c000",
+          "rbi_mpr_2025_10_p066_c000"
         ],
         "selected_pages": [
           52,
           50,
           52,
-          72
+          72,
+          66
         ]
       },
       "rbi_mpr_2026_04": {
@@ -54397,19 +54442,22 @@
           "rbi_mpr_2026_04_p065_c000",
           "rbi_mpr_2026_04_p102_c000",
           "rbi_mpr_2026_04_p069_c000",
-          "rbi_mpr_2026_04_p020_c000"
+          "rbi_mpr_2026_04_p020_c000",
+          "rbi_mpr_2026_04_p056_c000"
         ],
         "selected_chunk_ids_before_dedup": [
           "rbi_mpr_2026_04_p065_c000",
           "rbi_mpr_2026_04_p102_c000",
           "rbi_mpr_2026_04_p069_c000",
-          "rbi_mpr_2026_04_p020_c000"
+          "rbi_mpr_2026_04_p020_c000",
+          "rbi_mpr_2026_04_p056_c000"
         ],
         "selected_pages": [
           65,
           102,
           69,
-          20
+          20,
+          56
         ]
       }
     },
@@ -54426,7 +54474,7 @@
       "2025",
       "2026"
     ],
-    "query_transformation_latency_ms": 0.1286000042455271,
+    "query_transformation_latency_ms": 0.09800000407267362,
     "query_type": "pairwise_comparison",
     "question_id": "cmp_dev_008",
     "removed_phrases": [
@@ -54434,42 +54482,42 @@
     ],
     "repeated_text_ratio": 0.0,
     "report_chunk_counts": {
-      "rbi_mpr_2025_10": 4,
-      "rbi_mpr_2026_04": 4
+      "rbi_mpr_2025_10": 5,
+      "rbi_mpr_2026_04": 5
     },
     "report_coverage": 1.0,
     "required_report_ids": [
       "rbi_mpr_2025_10",
       "rbi_mpr_2026_04"
     ],
-    "reranking_latency_ms": 4358.953699993435,
-    "routing_latency_ms": 0.12460000289138407,
-    "selected_character_count": 7335,
-    "selected_chunk_count": 8,
-    "selection_latency_ms": 0.0049000082071870565,
+    "reranking_latency_ms": 4031.1516000074334,
+    "routing_latency_ms": 0.1362000039080158,
+    "selected_character_count": 9278,
+    "selected_chunk_count": 10,
+    "selection_latency_ms": 0.006300004315562546,
     "split": "dev",
-    "total_retrieval_latency_ms": 4427.746600005776,
-    "unique_page_count": 7
+    "total_retrieval_latency_ms": 4093.853099999251,
+    "unique_page_count": 9
   },
   {
     "all_reports_hit": false,
-    "bm25_latency_ms": 4.84780000988394,
-    "candidate_union_latency_ms": 0.2775000029942021,
+    "bm25_latency_ms": 3.9139000000432134,
+    "candidate_union_latency_ms": 0.29370000993367285,
     "complete_evidence_recall": false,
-    "configuration_checksum": "b943a959db2d9f5ce5a45f9f32f8ebb71b77a5da67caf87e49ac2937832018e4",
+    "configuration_checksum": "15b0b9ca4594d002b09b86bffecba427a9ba0ab09bfe66dbf4a63d3751142b9b",
     "contamination": 0,
-    "context_construction_latency_ms": 0.04749999789055437,
+    "context_construction_latency_ms": 0.03130000550299883,
     "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
-    "deduplication_latency_ms": 0.5526000022655353,
-    "dense_latency_ms": 62.02399999892805,
+    "deduplication_latency_ms": 0.48669999523554,
+    "dense_latency_ms": 86.45660000911448,
     "duplicate_chunk_count": 0,
-    "estimated_token_count": 1949,
+    "estimated_token_count": 2421,
     "evidence_recall": 0.0,
     "expanded_queries": [],
     "experiment_id": "COMBINED_01",
     "facet_queries": [],
-    "fusion_latency_ms": 0.24839999969117343,
-    "index_fingerprint": "d063b65fcefc1858e3315b9e67356a80310b8ae9b4d0864e98dd7c18d8553c1a",
+    "fusion_latency_ms": 0.2437999937683344,
+    "index_fingerprint": "ae1aebea49a005d98f17470add76891ca959288278cabc42b5eda3da19c4b4e7",
     "macro_mrr": 0.0,
     "normalised_query": "growth figures reported in April 2025 and April 2026.",
     "original_query": "Compare growth figures reported in April 2025 and April 2026.",
@@ -56784,19 +56832,22 @@
           "rbi_mpr_2025_04_p066_c000",
           "rbi_mpr_2025_04_p020_c000",
           "rbi_mpr_2025_04_p048_c000",
-          "rbi_mpr_2025_04_p068_c000"
+          "rbi_mpr_2025_04_p068_c000",
+          "rbi_mpr_2025_04_p058_c000"
         ],
         "selected_chunk_ids_before_dedup": [
           "rbi_mpr_2025_04_p066_c000",
           "rbi_mpr_2025_04_p020_c000",
           "rbi_mpr_2025_04_p048_c000",
-          "rbi_mpr_2025_04_p068_c000"
+          "rbi_mpr_2025_04_p068_c000",
+          "rbi_mpr_2025_04_p058_c000"
         ],
         "selected_pages": [
           66,
           20,
           48,
-          68
+          68,
+          58
         ]
       },
       "rbi_mpr_2026_04": {
@@ -59111,19 +59162,22 @@
           "rbi_mpr_2026_04_p056_c000",
           "rbi_mpr_2026_04_p046_c000",
           "rbi_mpr_2026_04_p076_c000",
-          "rbi_mpr_2026_04_p102_c000"
+          "rbi_mpr_2026_04_p102_c000",
+          "rbi_mpr_2026_04_p096_c000"
         ],
         "selected_chunk_ids_before_dedup": [
           "rbi_mpr_2026_04_p056_c000",
           "rbi_mpr_2026_04_p046_c000",
           "rbi_mpr_2026_04_p076_c000",
-          "rbi_mpr_2026_04_p102_c000"
+          "rbi_mpr_2026_04_p102_c000",
+          "rbi_mpr_2026_04_p096_c000"
         ],
         "selected_pages": [
           56,
           46,
           76,
-          102
+          102,
+          96
         ]
       }
     },
@@ -59140,7 +59194,7 @@
       "2025",
       "2026"
     ],
-    "query_transformation_latency_ms": 0.11869998706970364,
+    "query_transformation_latency_ms": 0.14239999291021377,
     "query_type": "pairwise_comparison",
     "question_id": "cmp_dev_009",
     "removed_phrases": [
@@ -59148,42 +59202,42 @@
     ],
     "repeated_text_ratio": 0.0,
     "report_chunk_counts": {
-      "rbi_mpr_2025_04": 4,
-      "rbi_mpr_2026_04": 4
+      "rbi_mpr_2025_04": 5,
+      "rbi_mpr_2026_04": 5
     },
     "report_coverage": 1.0,
     "required_report_ids": [
       "rbi_mpr_2025_04",
       "rbi_mpr_2026_04"
     ],
-    "reranking_latency_ms": 3714.5587999984855,
-    "routing_latency_ms": 0.11000000813510269,
-    "selected_character_count": 7796,
-    "selected_chunk_count": 8,
-    "selection_latency_ms": 0.015099998563528061,
+    "reranking_latency_ms": 3316.122299991548,
+    "routing_latency_ms": 0.21230000129435211,
+    "selected_character_count": 9684,
+    "selected_chunk_count": 10,
+    "selection_latency_ms": 0.007000009645707905,
     "split": "dev",
-    "total_retrieval_latency_ms": 3783.128900002339,
-    "unique_page_count": 8
+    "total_retrieval_latency_ms": 3408.28909999982,
+    "unique_page_count": 10
   },
   {
     "all_reports_hit": false,
-    "bm25_latency_ms": 5.433700003777631,
-    "candidate_union_latency_ms": 0.3318999952170998,
+    "bm25_latency_ms": 4.047299997182563,
+    "candidate_union_latency_ms": 0.2381999947829172,
     "complete_evidence_recall": false,
-    "configuration_checksum": "b943a959db2d9f5ce5a45f9f32f8ebb71b77a5da67caf87e49ac2937832018e4",
+    "configuration_checksum": "15b0b9ca4594d002b09b86bffecba427a9ba0ab09bfe66dbf4a63d3751142b9b",
     "contamination": 0,
-    "context_construction_latency_ms": 0.033800009987317026,
+    "context_construction_latency_ms": 0.021900006686337292,
     "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
-    "deduplication_latency_ms": 0.4467999970074743,
-    "dense_latency_ms": 70.69760000740644,
+    "deduplication_latency_ms": 0.3541000041877851,
+    "dense_latency_ms": 55.80000000190921,
     "duplicate_chunk_count": 0,
-    "estimated_token_count": 1900,
+    "estimated_token_count": 2392,
     "evidence_recall": 0.0,
     "expanded_queries": [],
     "experiment_id": "COMBINED_01",
     "facet_queries": [],
-    "fusion_latency_ms": 0.3991999983554706,
-    "index_fingerprint": "d063b65fcefc1858e3315b9e67356a80310b8ae9b4d0864e98dd7c18d8553c1a",
+    "fusion_latency_ms": 0.17830000433605164,
+    "index_fingerprint": "ae1aebea49a005d98f17470add76891ca959288278cabc42b5eda3da19c4b4e7",
     "macro_mrr": 0.0,
     "normalised_query": "CPI inflation projections cited in April 2025 and April 2026.",
     "original_query": "Compare CPI inflation projections cited in April 2025 and April 2026.",
@@ -61275,19 +61329,22 @@
           "rbi_mpr_2025_04_p018_c000",
           "rbi_mpr_2025_04_p030_c000",
           "rbi_mpr_2025_04_p017_c001",
-          "rbi_mpr_2025_04_p026_c000"
+          "rbi_mpr_2025_04_p026_c000",
+          "rbi_mpr_2025_04_p106_c000"
         ],
         "selected_chunk_ids_before_dedup": [
           "rbi_mpr_2025_04_p018_c000",
           "rbi_mpr_2025_04_p030_c000",
           "rbi_mpr_2025_04_p017_c001",
-          "rbi_mpr_2025_04_p026_c000"
+          "rbi_mpr_2025_04_p026_c000",
+          "rbi_mpr_2025_04_p106_c000"
         ],
         "selected_pages": [
           18,
           30,
           17,
-          26
+          26,
+          106
         ]
       },
       "rbi_mpr_2026_04": {
@@ -63393,19 +63450,22 @@
           "rbi_mpr_2026_04_p082_c000",
           "rbi_mpr_2026_04_p108_c000",
           "rbi_mpr_2026_04_p094_c004",
-          "rbi_mpr_2026_04_p094_c000"
+          "rbi_mpr_2026_04_p094_c000",
+          "rbi_mpr_2026_04_p080_c000"
         ],
         "selected_chunk_ids_before_dedup": [
           "rbi_mpr_2026_04_p082_c000",
           "rbi_mpr_2026_04_p108_c000",
           "rbi_mpr_2026_04_p094_c004",
-          "rbi_mpr_2026_04_p094_c000"
+          "rbi_mpr_2026_04_p094_c000",
+          "rbi_mpr_2026_04_p080_c000"
         ],
         "selected_pages": [
           82,
           108,
           94,
-          94
+          94,
+          80
         ]
       }
     },
@@ -63424,7 +63484,7 @@
       "2025",
       "2026"
     ],
-    "query_transformation_latency_ms": 0.1773999974830076,
+    "query_transformation_latency_ms": 0.13329999637790024,
     "query_type": "pairwise_comparison",
     "question_id": "cmp_dev_010",
     "removed_phrases": [
@@ -63432,42 +63492,42 @@
     ],
     "repeated_text_ratio": 0.0,
     "report_chunk_counts": {
-      "rbi_mpr_2025_04": 4,
-      "rbi_mpr_2026_04": 4
+      "rbi_mpr_2025_04": 5,
+      "rbi_mpr_2026_04": 5
     },
     "report_coverage": 1.0,
     "required_report_ids": [
       "rbi_mpr_2025_04",
       "rbi_mpr_2026_04"
     ],
-    "reranking_latency_ms": 3371.9856000097934,
-    "routing_latency_ms": 0.20110000332351774,
-    "selected_character_count": 7600,
-    "selected_chunk_count": 8,
-    "selection_latency_ms": 0.005800000508315861,
+    "reranking_latency_ms": 3272.5729000085266,
+    "routing_latency_ms": 0.11780000932049006,
+    "selected_character_count": 9566,
+    "selected_chunk_count": 10,
+    "selection_latency_ms": 0.0029999937396496534,
     "split": "dev",
-    "total_retrieval_latency_ms": 3450.0735999899916,
-    "unique_page_count": 7
+    "total_retrieval_latency_ms": 3333.6458999983734,
+    "unique_page_count": 9
   },
   {
     "all_reports_hit": false,
-    "bm25_latency_ms": 5.324600002495572,
-    "candidate_union_latency_ms": 0.4535000043688342,
+    "bm25_latency_ms": 4.33809999958612,
+    "candidate_union_latency_ms": 0.27779999072663486,
     "complete_evidence_recall": false,
-    "configuration_checksum": "b943a959db2d9f5ce5a45f9f32f8ebb71b77a5da67caf87e49ac2937832018e4",
+    "configuration_checksum": "15b0b9ca4594d002b09b86bffecba427a9ba0ab09bfe66dbf4a63d3751142b9b",
     "contamination": 0,
-    "context_construction_latency_ms": 0.03569999535102397,
+    "context_construction_latency_ms": 0.04889999399892986,
     "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
-    "deduplication_latency_ms": 0.4003000067314133,
-    "dense_latency_ms": 59.5991000009235,
+    "deduplication_latency_ms": 0.4969000001437962,
+    "dense_latency_ms": 53.62559999048244,
     "duplicate_chunk_count": 0,
-    "estimated_token_count": 1974,
+    "estimated_token_count": 2473,
     "evidence_recall": 0.5,
     "expanded_queries": [],
     "experiment_id": "COMBINED_01",
     "facet_queries": [],
-    "fusion_latency_ms": 0.22250000620260835,
-    "index_fingerprint": "d063b65fcefc1858e3315b9e67356a80310b8ae9b4d0864e98dd7c18d8553c1a",
+    "fusion_latency_ms": 0.26030000299215317,
+    "index_fingerprint": "ae1aebea49a005d98f17470add76891ca959288278cabc42b5eda3da19c4b4e7",
     "macro_mrr": 0.5,
     "normalised_query": "crude-oil assumptions or risks in April 2025 and April 2026.",
     "original_query": "Compare crude-oil assumptions or risks in April 2025 and April 2026.",
@@ -65656,19 +65716,22 @@
           "rbi_mpr_2025_04_p014_c000",
           "rbi_mpr_2025_04_p022_c000",
           "rbi_mpr_2025_04_p014_c001",
-          "rbi_mpr_2025_04_p018_c000"
+          "rbi_mpr_2025_04_p018_c000",
+          "rbi_mpr_2025_04_p020_c000"
         ],
         "selected_chunk_ids_before_dedup": [
           "rbi_mpr_2025_04_p014_c000",
           "rbi_mpr_2025_04_p022_c000",
           "rbi_mpr_2025_04_p014_c001",
-          "rbi_mpr_2025_04_p018_c000"
+          "rbi_mpr_2025_04_p018_c000",
+          "rbi_mpr_2025_04_p020_c000"
         ],
         "selected_pages": [
           14,
           22,
           14,
-          18
+          18,
+          20
         ]
       },
       "rbi_mpr_2026_04": {
@@ -67853,19 +67916,22 @@
           "rbi_mpr_2026_04_p105_c002",
           "rbi_mpr_2026_04_p105_c003",
           "rbi_mpr_2026_04_p114_c000",
-          "rbi_mpr_2026_04_p034_c000"
+          "rbi_mpr_2026_04_p034_c000",
+          "rbi_mpr_2026_04_p110_c000"
         ],
         "selected_chunk_ids_before_dedup": [
           "rbi_mpr_2026_04_p105_c002",
           "rbi_mpr_2026_04_p105_c003",
           "rbi_mpr_2026_04_p114_c000",
-          "rbi_mpr_2026_04_p034_c000"
+          "rbi_mpr_2026_04_p034_c000",
+          "rbi_mpr_2026_04_p110_c000"
         ],
         "selected_pages": [
           105,
           105,
           114,
-          34
+          34,
+          110
         ]
       }
     },
@@ -67882,7 +67948,7 @@
       "2025",
       "2026"
     ],
-    "query_transformation_latency_ms": 0.10979999206028879,
+    "query_transformation_latency_ms": 0.11579999409150332,
     "query_type": "pairwise_comparison",
     "question_id": "cmp_dev_011",
     "removed_phrases": [
@@ -67890,42 +67956,42 @@
     ],
     "repeated_text_ratio": 0.0,
     "report_chunk_counts": {
-      "rbi_mpr_2025_04": 4,
-      "rbi_mpr_2026_04": 4
+      "rbi_mpr_2025_04": 5,
+      "rbi_mpr_2026_04": 5
     },
     "report_coverage": 1.0,
     "required_report_ids": [
       "rbi_mpr_2025_04",
       "rbi_mpr_2026_04"
     ],
-    "reranking_latency_ms": 3048.4763999993447,
-    "routing_latency_ms": 0.13390000094659626,
-    "selected_character_count": 7895,
-    "selected_chunk_count": 8,
-    "selection_latency_ms": 0.00969998654909432,
+    "reranking_latency_ms": 3085.893600000418,
+    "routing_latency_ms": 0.12000001152046025,
+    "selected_character_count": 9891,
+    "selected_chunk_count": 10,
+    "selection_latency_ms": 0.008899995009414852,
     "split": "dev",
-    "total_retrieval_latency_ms": 3115.173099999083,
-    "unique_page_count": 6
+    "total_retrieval_latency_ms": 3145.454299999983,
+    "unique_page_count": 8
   },
   {
     "all_reports_hit": false,
-    "bm25_latency_ms": 4.192199994577095,
-    "candidate_union_latency_ms": 0.251900011789985,
+    "bm25_latency_ms": 4.398599994601682,
+    "candidate_union_latency_ms": 0.35339999885763973,
     "complete_evidence_recall": false,
-    "configuration_checksum": "b943a959db2d9f5ce5a45f9f32f8ebb71b77a5da67caf87e49ac2937832018e4",
+    "configuration_checksum": "15b0b9ca4594d002b09b86bffecba427a9ba0ab09bfe66dbf4a63d3751142b9b",
     "contamination": 0,
-    "context_construction_latency_ms": 0.08189999789465219,
+    "context_construction_latency_ms": 0.032800002372823656,
     "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
-    "deduplication_latency_ms": 0.49330000183545053,
-    "dense_latency_ms": 57.50770001031924,
+    "deduplication_latency_ms": 0.5008000007364899,
+    "dense_latency_ms": 58.23450000025332,
     "duplicate_chunk_count": 0,
-    "estimated_token_count": 1951,
+    "estimated_token_count": 2438,
     "evidence_recall": 0.5,
     "expanded_queries": [],
     "experiment_id": "COMBINED_01",
     "facet_queries": [],
-    "fusion_latency_ms": 0.2145000034943223,
-    "index_fingerprint": "d063b65fcefc1858e3315b9e67356a80310b8ae9b4d0864e98dd7c18d8553c1a",
+    "fusion_latency_ms": 0.25519999326206744,
+    "index_fingerprint": "ae1aebea49a005d98f17470add76891ca959288278cabc42b5eda3da19c4b4e7",
     "macro_mrr": 0.25,
     "normalised_query": "central-government borrowing context in April 2025 and April 2026.",
     "original_query": "Compare central-government borrowing context in April 2025 and April 2026.",
@@ -70201,19 +70267,22 @@
           "rbi_mpr_2025_04_p060_c000",
           "rbi_mpr_2025_04_p054_c000",
           "rbi_mpr_2025_04_p082_c002",
-          "rbi_mpr_2025_04_p056_c000"
+          "rbi_mpr_2025_04_p056_c000",
+          "rbi_mpr_2025_04_p102_c002"
         ],
         "selected_chunk_ids_before_dedup": [
           "rbi_mpr_2025_04_p060_c000",
           "rbi_mpr_2025_04_p054_c000",
           "rbi_mpr_2025_04_p082_c002",
-          "rbi_mpr_2025_04_p056_c000"
+          "rbi_mpr_2025_04_p056_c000",
+          "rbi_mpr_2025_04_p102_c002"
         ],
         "selected_pages": [
           60,
           54,
           82,
-          56
+          56,
+          102
         ]
       },
       "rbi_mpr_2026_04": {
@@ -72487,19 +72556,22 @@
           "rbi_mpr_2026_04_p069_c000",
           "rbi_mpr_2026_04_p064_c002",
           "rbi_mpr_2026_04_p065_c000",
-          "rbi_mpr_2026_04_p020_c000"
+          "rbi_mpr_2026_04_p020_c000",
+          "rbi_mpr_2026_04_p054_c000"
         ],
         "selected_chunk_ids_before_dedup": [
           "rbi_mpr_2026_04_p069_c000",
           "rbi_mpr_2026_04_p064_c002",
           "rbi_mpr_2026_04_p065_c000",
-          "rbi_mpr_2026_04_p020_c000"
+          "rbi_mpr_2026_04_p020_c000",
+          "rbi_mpr_2026_04_p054_c000"
         ],
         "selected_pages": [
           69,
           64,
           65,
-          20
+          20,
+          54
         ]
       }
     },
@@ -72516,7 +72588,7 @@
       "2025",
       "2026"
     ],
-    "query_transformation_latency_ms": 0.1621999981580302,
+    "query_transformation_latency_ms": 0.13520001084543765,
     "query_type": "pairwise_comparison",
     "question_id": "cmp_dev_012",
     "removed_phrases": [
@@ -72524,42 +72596,42 @@
     ],
     "repeated_text_ratio": 0.0,
     "report_chunk_counts": {
-      "rbi_mpr_2025_04": 4,
-      "rbi_mpr_2026_04": 4
+      "rbi_mpr_2025_04": 5,
+      "rbi_mpr_2026_04": 5
     },
     "report_coverage": 1.0,
     "required_report_ids": [
       "rbi_mpr_2025_04",
       "rbi_mpr_2026_04"
     ],
-    "reranking_latency_ms": 3245.80610000703,
-    "routing_latency_ms": 0.18050000653602183,
-    "selected_character_count": 7801,
-    "selected_chunk_count": 8,
-    "selection_latency_ms": 0.006300004315562546,
+    "reranking_latency_ms": 3019.2076999956043,
+    "routing_latency_ms": 0.16419999883510172,
+    "selected_character_count": 9750,
+    "selected_chunk_count": 10,
+    "selection_latency_ms": 0.005399997462518513,
     "split": "dev",
-    "total_retrieval_latency_ms": 3309.2854999995325,
-    "unique_page_count": 8
+    "total_retrieval_latency_ms": 3083.5912999900756,
+    "unique_page_count": 10
   },
   {
     "all_reports_hit": false,
-    "bm25_latency_ms": 5.935099994530901,
-    "candidate_union_latency_ms": 0.34729999606497586,
+    "bm25_latency_ms": 6.09089998761192,
+    "candidate_union_latency_ms": 0.3501999890431762,
     "complete_evidence_recall": false,
-    "configuration_checksum": "b943a959db2d9f5ce5a45f9f32f8ebb71b77a5da67caf87e49ac2937832018e4",
+    "configuration_checksum": "15b0b9ca4594d002b09b86bffecba427a9ba0ab09bfe66dbf4a63d3751142b9b",
     "contamination": 0,
-    "context_construction_latency_ms": 0.03569999535102397,
+    "context_construction_latency_ms": 0.034199998481199145,
     "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
-    "deduplication_latency_ms": 0.40630000876262784,
-    "dense_latency_ms": 86.16199999232776,
+    "deduplication_latency_ms": 0.5119999987073243,
+    "dense_latency_ms": 98.39370001282077,
     "duplicate_chunk_count": 0,
-    "estimated_token_count": 2203,
+    "estimated_token_count": 2935,
     "evidence_recall": 0.0,
     "expanded_queries": [],
     "experiment_id": "COMBINED_01",
     "facet_queries": [],
-    "fusion_latency_ms": 0.3552999987732619,
-    "index_fingerprint": "d063b65fcefc1858e3315b9e67356a80310b8ae9b4d0864e98dd7c18d8553c1a",
+    "fusion_latency_ms": 0.36779999209102243,
+    "index_fingerprint": "ae1aebea49a005d98f17470add76891ca959288278cabc42b5eda3da19c4b4e7",
     "macro_mrr": 0.0,
     "normalised_query": "food-inflation conditions across all three reports",
     "original_query": "How did food-inflation conditions evolve across all three reports?",
@@ -75661,17 +75733,20 @@
         "selected_chunk_ids_after_dedup": [
           "rbi_mpr_2025_04_p038_c000",
           "rbi_mpr_2025_04_p023_c001",
-          "rbi_mpr_2025_04_p037_c001"
+          "rbi_mpr_2025_04_p037_c001",
+          "rbi_mpr_2025_04_p042_c000"
         ],
         "selected_chunk_ids_before_dedup": [
           "rbi_mpr_2025_04_p038_c000",
           "rbi_mpr_2025_04_p023_c001",
-          "rbi_mpr_2025_04_p037_c001"
+          "rbi_mpr_2025_04_p037_c001",
+          "rbi_mpr_2025_04_p042_c000"
         ],
         "selected_pages": [
           38,
           23,
-          37
+          37,
+          42
         ]
       },
       "rbi_mpr_2025_10": {
@@ -78769,17 +78844,20 @@
         "selected_chunk_ids_after_dedup": [
           "rbi_mpr_2025_10_p023_c001",
           "rbi_mpr_2025_10_p024_c002",
-          "rbi_mpr_2025_10_p026_c000"
+          "rbi_mpr_2025_10_p026_c000",
+          "rbi_mpr_2025_10_p014_c000"
         ],
         "selected_chunk_ids_before_dedup": [
           "rbi_mpr_2025_10_p023_c001",
           "rbi_mpr_2025_10_p024_c002",
-          "rbi_mpr_2025_10_p026_c000"
+          "rbi_mpr_2025_10_p026_c000",
+          "rbi_mpr_2025_10_p014_c000"
         ],
         "selected_pages": [
           23,
           24,
-          26
+          26,
+          14
         ]
       },
       "rbi_mpr_2026_04": {
@@ -81889,17 +81967,20 @@
         "selected_chunk_ids_after_dedup": [
           "rbi_mpr_2026_04_p115_c001",
           "rbi_mpr_2026_04_p094_c000",
-          "rbi_mpr_2026_04_p087_c000"
+          "rbi_mpr_2026_04_p087_c000",
+          "rbi_mpr_2026_04_p082_c001"
         ],
         "selected_chunk_ids_before_dedup": [
           "rbi_mpr_2026_04_p115_c001",
           "rbi_mpr_2026_04_p094_c000",
-          "rbi_mpr_2026_04_p087_c000"
+          "rbi_mpr_2026_04_p087_c000",
+          "rbi_mpr_2026_04_p082_c001"
         ],
         "selected_pages": [
           115,
           94,
-          87
+          87,
+          82
         ]
       }
     },
@@ -81915,15 +81996,15 @@
     },
     "preserved_acronyms": [],
     "preserved_numbers": [],
-    "query_transformation_latency_ms": 0.10910000128205866,
+    "query_transformation_latency_ms": 0.13020000187680125,
     "query_type": "trend_all_reports",
     "question_id": "trend_dev_001",
     "removed_phrases": [],
     "repeated_text_ratio": 0.0,
     "report_chunk_counts": {
-      "rbi_mpr_2025_04": 3,
-      "rbi_mpr_2025_10": 3,
-      "rbi_mpr_2026_04": 3
+      "rbi_mpr_2025_04": 4,
+      "rbi_mpr_2025_10": 4,
+      "rbi_mpr_2026_04": 4
     },
     "report_coverage": 1.0,
     "required_report_ids": [
@@ -81931,34 +82012,34 @@
       "rbi_mpr_2025_10",
       "rbi_mpr_2026_04"
     ],
-    "reranking_latency_ms": 5826.935699995374,
-    "routing_latency_ms": 0.08929999603424221,
-    "selected_character_count": 8810,
-    "selected_chunk_count": 9,
-    "selection_latency_ms": 0.006300004315562546,
+    "reranking_latency_ms": 5859.753000011551,
+    "routing_latency_ms": 0.10750000365078449,
+    "selected_character_count": 11737,
+    "selected_chunk_count": 12,
+    "selection_latency_ms": 0.0045000051613897085,
     "split": "dev",
-    "total_retrieval_latency_ms": 5920.6646000093315,
-    "unique_page_count": 9
+    "total_retrieval_latency_ms": 5965.970499994,
+    "unique_page_count": 12
   },
   {
     "all_reports_hit": false,
-    "bm25_latency_ms": 6.903300003614277,
-    "candidate_union_latency_ms": 0.7216000085463747,
+    "bm25_latency_ms": 9.468399992329068,
+    "candidate_union_latency_ms": 0.4658999969251454,
     "complete_evidence_recall": false,
-    "configuration_checksum": "b943a959db2d9f5ce5a45f9f32f8ebb71b77a5da67caf87e49ac2937832018e4",
+    "configuration_checksum": "15b0b9ca4594d002b09b86bffecba427a9ba0ab09bfe66dbf4a63d3751142b9b",
     "contamination": 0,
-    "context_construction_latency_ms": 0.0577000027988106,
+    "context_construction_latency_ms": 0.05040000542066991,
     "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
-    "deduplication_latency_ms": 0.5270999972708523,
-    "dense_latency_ms": 85.23989999957848,
+    "deduplication_latency_ms": 0.5498999962583184,
+    "dense_latency_ms": 95.17309999500867,
     "duplicate_chunk_count": 0,
-    "estimated_token_count": 2716,
+    "estimated_token_count": 3446,
     "evidence_recall": 0.0,
     "expanded_queries": [],
     "experiment_id": "COMBINED_01",
     "facet_queries": [],
-    "fusion_latency_ms": 0.5830000009154901,
-    "index_fingerprint": "d063b65fcefc1858e3315b9e67356a80310b8ae9b4d0864e98dd7c18d8553c1a",
+    "fusion_latency_ms": 0.44180000259075314,
+    "index_fingerprint": "ae1aebea49a005d98f17470add76891ca959288278cabc42b5eda3da19c4b4e7",
     "macro_mrr": 0.0,
     "normalised_query": "Trace the policy-rate or policy-action evidence across all three reports.",
     "original_query": "Trace the policy-rate or policy-action evidence across all three reports.",
@@ -85058,19 +85139,22 @@
           "rbi_mpr_2025_04_p016_c000",
           "rbi_mpr_2025_04_p108_c000",
           "rbi_mpr_2025_04_p108_c003",
-          "rbi_mpr_2025_04_p050_c000"
+          "rbi_mpr_2025_04_p050_c000",
+          "rbi_mpr_2025_04_p074_c000"
         ],
         "selected_chunk_ids_before_dedup": [
           "rbi_mpr_2025_04_p016_c000",
           "rbi_mpr_2025_04_p108_c000",
           "rbi_mpr_2025_04_p108_c003",
-          "rbi_mpr_2025_04_p050_c000"
+          "rbi_mpr_2025_04_p050_c000",
+          "rbi_mpr_2025_04_p074_c000"
         ],
         "selected_pages": [
           16,
           108,
           108,
-          50
+          50,
+          74
         ]
       },
       "rbi_mpr_2025_10": {
@@ -88166,19 +88250,22 @@
           "rbi_mpr_2025_10_p011_c005",
           "rbi_mpr_2025_10_p076_c000",
           "rbi_mpr_2025_10_p104_c000",
-          "rbi_mpr_2025_10_p106_c000"
+          "rbi_mpr_2025_10_p106_c000",
+          "rbi_mpr_2025_10_p011_c004"
         ],
         "selected_chunk_ids_before_dedup": [
           "rbi_mpr_2025_10_p011_c005",
           "rbi_mpr_2025_10_p076_c000",
           "rbi_mpr_2025_10_p104_c000",
-          "rbi_mpr_2025_10_p106_c000"
+          "rbi_mpr_2025_10_p106_c000",
+          "rbi_mpr_2025_10_p011_c004"
         ],
         "selected_pages": [
           11,
           76,
           104,
-          106
+          106,
+          11
         ]
       },
       "rbi_mpr_2026_04": {
@@ -91272,19 +91359,22 @@
           "rbi_mpr_2026_04_p020_c000",
           "rbi_mpr_2026_04_p020_c003",
           "rbi_mpr_2026_04_p020_c002",
-          "rbi_mpr_2026_04_p103_c004"
+          "rbi_mpr_2026_04_p103_c004",
+          "rbi_mpr_2026_04_p105_c000"
         ],
         "selected_chunk_ids_before_dedup": [
           "rbi_mpr_2026_04_p020_c000",
           "rbi_mpr_2026_04_p020_c003",
           "rbi_mpr_2026_04_p020_c002",
-          "rbi_mpr_2026_04_p103_c004"
+          "rbi_mpr_2026_04_p103_c004",
+          "rbi_mpr_2026_04_p105_c000"
         ],
         "selected_pages": [
           20,
           20,
           20,
-          103
+          103,
+          105
         ]
       }
     },
@@ -91300,15 +91390,15 @@
     },
     "preserved_acronyms": [],
     "preserved_numbers": [],
-    "query_transformation_latency_ms": 0.066100008552894,
+    "query_transformation_latency_ms": 0.09780000254977494,
     "query_type": "trend_all_reports",
     "question_id": "trend_dev_002",
     "removed_phrases": [],
     "repeated_text_ratio": 0.0,
     "report_chunk_counts": {
-      "rbi_mpr_2025_04": 4,
-      "rbi_mpr_2025_10": 4,
-      "rbi_mpr_2026_04": 4
+      "rbi_mpr_2025_04": 5,
+      "rbi_mpr_2025_10": 5,
+      "rbi_mpr_2026_04": 5
     },
     "report_coverage": 1.0,
     "required_report_ids": [
@@ -91316,34 +91406,34 @@
       "rbi_mpr_2025_10",
       "rbi_mpr_2026_04"
     ],
-    "reranking_latency_ms": 6562.999900008435,
-    "routing_latency_ms": 0.05950000195298344,
-    "selected_character_count": 10862,
-    "selected_chunk_count": 12,
-    "selection_latency_ms": 0.007499998901039362,
+    "reranking_latency_ms": 6328.701099992031,
+    "routing_latency_ms": 0.11049999739043415,
+    "selected_character_count": 13784,
+    "selected_chunk_count": 15,
+    "selection_latency_ms": 0.007299997378140688,
     "split": "dev",
-    "total_retrieval_latency_ms": 6657.437800007756,
-    "unique_page_count": 9
+    "total_retrieval_latency_ms": 6435.34309999086,
+    "unique_page_count": 11
   },
   {
     "all_reports_hit": false,
-    "bm25_latency_ms": 6.278800006839447,
-    "candidate_union_latency_ms": 0.34729999606497586,
+    "bm25_latency_ms": 5.916499998420477,
+    "candidate_union_latency_ms": 0.46550000843126327,
     "complete_evidence_recall": false,
-    "configuration_checksum": "b943a959db2d9f5ce5a45f9f32f8ebb71b77a5da67caf87e49ac2937832018e4",
+    "configuration_checksum": "15b0b9ca4594d002b09b86bffecba427a9ba0ab09bfe66dbf4a63d3751142b9b",
     "contamination": 0,
-    "context_construction_latency_ms": 0.11799999629147351,
+    "context_construction_latency_ms": 0.04529999569058418,
     "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
-    "deduplication_latency_ms": 0.5258000019239262,
-    "dense_latency_ms": 95.55579999869224,
+    "deduplication_latency_ms": 0.4991000023437664,
+    "dense_latency_ms": 82.74719999462832,
     "duplicate_chunk_count": 0,
-    "estimated_token_count": 2120,
+    "estimated_token_count": 2851,
     "evidence_recall": 0.6666666666666666,
     "expanded_queries": [],
     "experiment_id": "COMBINED_01",
     "facet_queries": [],
-    "fusion_latency_ms": 0.29969999741297215,
-    "index_fingerprint": "d063b65fcefc1858e3315b9e67356a80310b8ae9b4d0864e98dd7c18d8553c1a",
+    "fusion_latency_ms": 0.37569999403785914,
+    "index_fingerprint": "ae1aebea49a005d98f17470add76891ca959288278cabc42b5eda3da19c4b4e7",
     "macro_mrr": 0.5,
     "normalised_query": "crude-oil assumptions or risks across the three MPRs",
     "original_query": "How did crude-oil assumptions or risks evolve across the three MPRs?",
@@ -94382,17 +94472,20 @@
         "selected_chunk_ids_after_dedup": [
           "rbi_mpr_2025_04_p014_c001",
           "rbi_mpr_2025_04_p021_c001",
-          "rbi_mpr_2025_04_p023_c003"
+          "rbi_mpr_2025_04_p023_c003",
+          "rbi_mpr_2025_04_p014_c003"
         ],
         "selected_chunk_ids_before_dedup": [
           "rbi_mpr_2025_04_p014_c001",
           "rbi_mpr_2025_04_p021_c001",
-          "rbi_mpr_2025_04_p023_c003"
+          "rbi_mpr_2025_04_p023_c003",
+          "rbi_mpr_2025_04_p014_c003"
         ],
         "selected_pages": [
           14,
           21,
-          23
+          23,
+          14
         ]
       },
       "rbi_mpr_2025_10": {
@@ -97425,17 +97518,20 @@
         "selected_chunk_ids_after_dedup": [
           "rbi_mpr_2025_10_p013_c000",
           "rbi_mpr_2025_10_p012_c001",
-          "rbi_mpr_2025_10_p012_c000"
+          "rbi_mpr_2025_10_p012_c000",
+          "rbi_mpr_2025_10_p022_c001"
         ],
         "selected_chunk_ids_before_dedup": [
           "rbi_mpr_2025_10_p013_c000",
           "rbi_mpr_2025_10_p012_c001",
-          "rbi_mpr_2025_10_p012_c000"
+          "rbi_mpr_2025_10_p012_c000",
+          "rbi_mpr_2025_10_p022_c001"
         ],
         "selected_pages": [
           13,
           12,
-          12
+          12,
+          22
         ]
       },
       "rbi_mpr_2026_04": {
@@ -100466,17 +100562,20 @@
         "selected_chunk_ids_after_dedup": [
           "rbi_mpr_2026_04_p105_c001",
           "rbi_mpr_2026_04_p105_c003",
-          "rbi_mpr_2026_04_p105_c000"
+          "rbi_mpr_2026_04_p105_c000",
+          "rbi_mpr_2026_04_p022_c003"
         ],
         "selected_chunk_ids_before_dedup": [
           "rbi_mpr_2026_04_p105_c001",
           "rbi_mpr_2026_04_p105_c003",
-          "rbi_mpr_2026_04_p105_c000"
+          "rbi_mpr_2026_04_p105_c000",
+          "rbi_mpr_2026_04_p022_c003"
         ],
         "selected_pages": [
           105,
           105,
-          105
+          105,
+          22
         ]
       }
     },
@@ -100492,15 +100591,15 @@
     },
     "preserved_acronyms": [],
     "preserved_numbers": [],
-    "query_transformation_latency_ms": 0.15069999790284783,
+    "query_transformation_latency_ms": 0.1255000097444281,
     "query_type": "trend_all_reports",
     "question_id": "trend_dev_003",
     "removed_phrases": [],
     "repeated_text_ratio": 0.0,
     "report_chunk_counts": {
-      "rbi_mpr_2025_04": 3,
-      "rbi_mpr_2025_10": 3,
-      "rbi_mpr_2026_04": 3
+      "rbi_mpr_2025_04": 4,
+      "rbi_mpr_2025_10": 4,
+      "rbi_mpr_2026_04": 4
     },
     "report_coverage": 1.0,
     "required_report_ids": [
@@ -100508,34 +100607,34 @@
       "rbi_mpr_2025_10",
       "rbi_mpr_2026_04"
     ],
-    "reranking_latency_ms": 5227.328799999668,
-    "routing_latency_ms": 0.1733999961288646,
-    "selected_character_count": 8479,
-    "selected_chunk_count": 9,
-    "selection_latency_ms": 0.007800001185387373,
+    "reranking_latency_ms": 4987.169999993057,
+    "routing_latency_ms": 0.11890000314451754,
+    "selected_character_count": 11403,
+    "selected_chunk_count": 12,
+    "selection_latency_ms": 0.005699999746866524,
     "split": "dev",
-    "total_retrieval_latency_ms": 5331.267699992168,
-    "unique_page_count": 6
+    "total_retrieval_latency_ms": 5077.7355000027455,
+    "unique_page_count": 8
   },
   {
     "all_reports_hit": false,
-    "bm25_latency_ms": 6.013500009430572,
-    "candidate_union_latency_ms": 0.5251999973552302,
+    "bm25_latency_ms": 4.145200000493787,
+    "candidate_union_latency_ms": 0.5304999940562993,
     "complete_evidence_recall": false,
-    "configuration_checksum": "b943a959db2d9f5ce5a45f9f32f8ebb71b77a5da67caf87e49ac2937832018e4",
+    "configuration_checksum": "15b0b9ca4594d002b09b86bffecba427a9ba0ab09bfe66dbf4a63d3751142b9b",
     "contamination": 0,
-    "context_construction_latency_ms": 0.03700000524986535,
+    "context_construction_latency_ms": 0.025300003471784294,
     "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
-    "deduplication_latency_ms": 0.2998999989358708,
-    "dense_latency_ms": 112.0130000053905,
+    "deduplication_latency_ms": 0.2542000001994893,
+    "dense_latency_ms": 88.4444999974221,
     "duplicate_chunk_count": 0,
-    "estimated_token_count": 2160,
+    "estimated_token_count": 2894,
     "evidence_recall": 0.0,
     "expanded_queries": [],
     "experiment_id": "COMBINED_01",
     "facet_queries": [],
-    "fusion_latency_ms": 0.4549999866867438,
-    "index_fingerprint": "d063b65fcefc1858e3315b9e67356a80310b8ae9b4d0864e98dd7c18d8553c1a",
+    "fusion_latency_ms": 0.6326000002445653,
+    "index_fingerprint": "ae1aebea49a005d98f17470add76891ca959288278cabc42b5eda3da19c4b4e7",
     "macro_mrr": 0.0,
     "normalised_query": "global-growth assumptions or language .",
     "original_query": "Compare global-growth assumptions or language across all reports.",
@@ -103542,14 +103641,17 @@
         "selected_chunk_ids_after_dedup": [
           "rbi_mpr_2025_04_p021_c001",
           "rbi_mpr_2025_04_p021_c002",
-          "rbi_mpr_2025_04_p021_c003"
+          "rbi_mpr_2025_04_p021_c003",
+          "rbi_mpr_2025_04_p021_c000"
         ],
         "selected_chunk_ids_before_dedup": [
           "rbi_mpr_2025_04_p021_c001",
           "rbi_mpr_2025_04_p021_c002",
-          "rbi_mpr_2025_04_p021_c003"
+          "rbi_mpr_2025_04_p021_c003",
+          "rbi_mpr_2025_04_p021_c000"
         ],
         "selected_pages": [
+          21,
           21,
           21,
           21
@@ -106549,17 +106651,20 @@
         "selected_chunk_ids_after_dedup": [
           "rbi_mpr_2025_10_p021_c000",
           "rbi_mpr_2025_10_p020_c001",
-          "rbi_mpr_2025_10_p017_c005"
+          "rbi_mpr_2025_10_p017_c005",
+          "rbi_mpr_2025_10_p021_c004"
         ],
         "selected_chunk_ids_before_dedup": [
           "rbi_mpr_2025_10_p021_c000",
           "rbi_mpr_2025_10_p020_c001",
-          "rbi_mpr_2025_10_p017_c005"
+          "rbi_mpr_2025_10_p017_c005",
+          "rbi_mpr_2025_10_p021_c004"
         ],
         "selected_pages": [
           21,
           20,
-          17
+          17,
+          21
         ]
       },
       "rbi_mpr_2026_04": {
@@ -109566,16 +109671,19 @@
         "selected_chunk_ids_after_dedup": [
           "rbi_mpr_2026_04_p112_c001",
           "rbi_mpr_2026_04_p112_c000",
-          "rbi_mpr_2026_04_p013_c000"
+          "rbi_mpr_2026_04_p013_c000",
+          "rbi_mpr_2026_04_p013_c001"
         ],
         "selected_chunk_ids_before_dedup": [
           "rbi_mpr_2026_04_p112_c001",
           "rbi_mpr_2026_04_p112_c000",
-          "rbi_mpr_2026_04_p013_c000"
+          "rbi_mpr_2026_04_p013_c000",
+          "rbi_mpr_2026_04_p013_c001"
         ],
         "selected_pages": [
           112,
           112,
+          13,
           13
         ]
       }
@@ -109592,7 +109700,7 @@
     },
     "preserved_acronyms": [],
     "preserved_numbers": [],
-    "query_transformation_latency_ms": 0.12879999121651053,
+    "query_transformation_latency_ms": 0.09089999366551638,
     "query_type": "trend_all_reports",
     "question_id": "trend_dev_004",
     "removed_phrases": [
@@ -109601,9 +109709,9 @@
     ],
     "repeated_text_ratio": 0.0,
     "report_chunk_counts": {
-      "rbi_mpr_2025_04": 3,
-      "rbi_mpr_2025_10": 3,
-      "rbi_mpr_2026_04": 3
+      "rbi_mpr_2025_04": 4,
+      "rbi_mpr_2025_10": 4,
+      "rbi_mpr_2026_04": 4
     },
     "report_coverage": 1.0,
     "required_report_ids": [
@@ -109611,34 +109719,34 @@
       "rbi_mpr_2025_10",
       "rbi_mpr_2026_04"
     ],
-    "reranking_latency_ms": 5196.766499997466,
-    "routing_latency_ms": 0.13000000035390258,
-    "selected_character_count": 8640,
-    "selected_chunk_count": 9,
-    "selection_latency_ms": 0.005800000508315861,
+    "reranking_latency_ms": 4812.5,
+    "routing_latency_ms": 0.09129999671131372,
+    "selected_character_count": 11573,
+    "selected_chunk_count": 12,
+    "selection_latency_ms": 0.0036999990697950125,
     "split": "dev",
-    "total_retrieval_latency_ms": 5316.703200005577,
+    "total_retrieval_latency_ms": 4906.97789999831,
     "unique_page_count": 6
   },
   {
     "all_reports_hit": true,
-    "bm25_latency_ms": 6.437799995183013,
-    "candidate_union_latency_ms": 0.6701999955112115,
+    "bm25_latency_ms": 5.3730999934487045,
+    "candidate_union_latency_ms": 0.41900000360328704,
     "complete_evidence_recall": true,
-    "configuration_checksum": "b943a959db2d9f5ce5a45f9f32f8ebb71b77a5da67caf87e49ac2937832018e4",
+    "configuration_checksum": "15b0b9ca4594d002b09b86bffecba427a9ba0ab09bfe66dbf4a63d3751142b9b",
     "contamination": 0,
-    "context_construction_latency_ms": 0.03309999010525644,
+    "context_construction_latency_ms": 0.03959999594371766,
     "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
-    "deduplication_latency_ms": 0.37590001011267304,
-    "dense_latency_ms": 97.8876000008313,
+    "deduplication_latency_ms": 0.44659999548457563,
+    "dense_latency_ms": 89.60649999789894,
     "duplicate_chunk_count": 0,
-    "estimated_token_count": 2087,
+    "estimated_token_count": 2831,
     "evidence_recall": 1.0,
     "expanded_queries": [],
     "experiment_id": "COMBINED_01",
     "facet_queries": [],
-    "fusion_latency_ms": 0.6897999992361292,
-    "index_fingerprint": "d063b65fcefc1858e3315b9e67356a80310b8ae9b4d0864e98dd7c18d8553c1a",
+    "fusion_latency_ms": 0.3079000016441569,
+    "index_fingerprint": "ae1aebea49a005d98f17470add76891ca959288278cabc42b5eda3da19c4b4e7",
     "macro_mrr": 0.6666666666666666,
     "normalised_query": "central-government borrowing context across the reports",
     "original_query": "How did central-government borrowing context change across the reports?",
@@ -112671,17 +112779,20 @@
         "selected_chunk_ids_after_dedup": [
           "rbi_mpr_2025_04_p082_c002",
           "rbi_mpr_2025_04_p057_c000",
-          "rbi_mpr_2025_04_p078_c002"
+          "rbi_mpr_2025_04_p078_c002",
+          "rbi_mpr_2025_04_p082_c001"
         ],
         "selected_chunk_ids_before_dedup": [
           "rbi_mpr_2025_04_p082_c002",
           "rbi_mpr_2025_04_p057_c000",
-          "rbi_mpr_2025_04_p078_c002"
+          "rbi_mpr_2025_04_p078_c002",
+          "rbi_mpr_2025_04_p082_c001"
         ],
         "selected_pages": [
           82,
           57,
-          78
+          78,
+          82
         ]
       },
       "rbi_mpr_2025_10": {
@@ -115716,17 +115827,20 @@
         "selected_chunk_ids_after_dedup": [
           "rbi_mpr_2025_10_p052_c000",
           "rbi_mpr_2025_10_p052_c004",
-          "rbi_mpr_2025_10_p050_c000"
+          "rbi_mpr_2025_10_p050_c000",
+          "rbi_mpr_2025_10_p069_c004"
         ],
         "selected_chunk_ids_before_dedup": [
           "rbi_mpr_2025_10_p052_c000",
           "rbi_mpr_2025_10_p052_c004",
-          "rbi_mpr_2025_10_p050_c000"
+          "rbi_mpr_2025_10_p050_c000",
+          "rbi_mpr_2025_10_p069_c004"
         ],
         "selected_pages": [
           52,
           52,
-          50
+          50,
+          69
         ]
       },
       "rbi_mpr_2026_04": {
@@ -118761,17 +118875,20 @@
         "selected_chunk_ids_after_dedup": [
           "rbi_mpr_2026_04_p065_c000",
           "rbi_mpr_2026_04_p064_c003",
-          "rbi_mpr_2026_04_p064_c002"
+          "rbi_mpr_2026_04_p064_c002",
+          "rbi_mpr_2026_04_p062_c002"
         ],
         "selected_chunk_ids_before_dedup": [
           "rbi_mpr_2026_04_p065_c000",
           "rbi_mpr_2026_04_p064_c003",
-          "rbi_mpr_2026_04_p064_c002"
+          "rbi_mpr_2026_04_p064_c002",
+          "rbi_mpr_2026_04_p062_c002"
         ],
         "selected_pages": [
           65,
           64,
-          64
+          64,
+          62
         ]
       }
     },
@@ -118787,15 +118904,15 @@
     },
     "preserved_acronyms": [],
     "preserved_numbers": [],
-    "query_transformation_latency_ms": 0.11739999172277749,
+    "query_transformation_latency_ms": 0.0914999982342124,
     "query_type": "trend_all_reports",
     "question_id": "trend_dev_005",
     "removed_phrases": [],
     "repeated_text_ratio": 0.0,
     "report_chunk_counts": {
-      "rbi_mpr_2025_04": 3,
-      "rbi_mpr_2025_10": 3,
-      "rbi_mpr_2026_04": 3
+      "rbi_mpr_2025_04": 4,
+      "rbi_mpr_2025_10": 4,
+      "rbi_mpr_2026_04": 4
     },
     "report_coverage": 1.0,
     "required_report_ids": [
@@ -118803,35 +118920,35 @@
       "rbi_mpr_2025_10",
       "rbi_mpr_2026_04"
     ],
-    "reranking_latency_ms": 5284.454300010111,
-    "routing_latency_ms": 0.12799999967683107,
-    "selected_character_count": 8347,
-    "selected_chunk_count": 9,
-    "selection_latency_ms": 0.006799993570894003,
+    "reranking_latency_ms": 4714.319800012163,
+    "routing_latency_ms": 0.07650000043213367,
+    "selected_character_count": 11321,
+    "selected_chunk_count": 12,
+    "selection_latency_ms": 0.004899993655271828,
     "split": "dev",
-    "total_retrieval_latency_ms": 5391.113999998197,
-    "unique_page_count": 7
+    "total_retrieval_latency_ms": 4810.933300002944,
+    "unique_page_count": 9
   },
   {
-    "all_reports_hit": false,
-    "bm25_latency_ms": 4.995000010239892,
-    "candidate_union_latency_ms": 0.5730999982915819,
-    "complete_evidence_recall": false,
-    "configuration_checksum": "b943a959db2d9f5ce5a45f9f32f8ebb71b77a5da67caf87e49ac2937832018e4",
+    "all_reports_hit": true,
+    "bm25_latency_ms": 3.97289999818895,
+    "candidate_union_latency_ms": 0.3394000086700544,
+    "complete_evidence_recall": true,
+    "configuration_checksum": "15b0b9ca4594d002b09b86bffecba427a9ba0ab09bfe66dbf4a63d3751142b9b",
     "contamination": 0,
-    "context_construction_latency_ms": 0.02849999873433262,
+    "context_construction_latency_ms": 0.03509999078232795,
     "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
-    "deduplication_latency_ms": 0.3958000015700236,
-    "dense_latency_ms": 96.98850000859238,
+    "deduplication_latency_ms": 0.5535999953281134,
+    "dense_latency_ms": 81.29929999995511,
     "duplicate_chunk_count": 0,
-    "estimated_token_count": 2904,
-    "evidence_recall": 0.6666666666666666,
+    "estimated_token_count": 3641,
+    "evidence_recall": 1.0,
     "expanded_queries": [],
     "experiment_id": "COMBINED_01",
     "facet_queries": [],
-    "fusion_latency_ms": 0.411600005463697,
-    "index_fingerprint": "d063b65fcefc1858e3315b9e67356a80310b8ae9b4d0864e98dd7c18d8553c1a",
-    "macro_mrr": 0.25,
+    "fusion_latency_ms": 0.27570000384002924,
+    "index_fingerprint": "ae1aebea49a005d98f17470add76891ca959288278cabc42b5eda3da19c4b4e7",
+    "macro_mrr": 0.31666666666666665,
     "normalised_query": "the neutral policy stance appear",
     "original_query": "How did the neutral policy stance appear across the three reports?",
     "per_report": {
@@ -121519,23 +121636,26 @@
           "rbi_mpr_2025_04_p078_c001",
           "rbi_mpr_2025_04_p013_c003",
           "rbi_mpr_2025_04_p013_c000",
-          "rbi_mpr_2025_04_p078_c000"
+          "rbi_mpr_2025_04_p078_c000",
+          "rbi_mpr_2025_04_p078_c003"
         ],
         "selected_chunk_ids_before_dedup": [
           "rbi_mpr_2025_04_p078_c001",
           "rbi_mpr_2025_04_p013_c003",
           "rbi_mpr_2025_04_p013_c000",
-          "rbi_mpr_2025_04_p078_c000"
+          "rbi_mpr_2025_04_p078_c000",
+          "rbi_mpr_2025_04_p078_c003"
         ],
         "selected_pages": [
           78,
           13,
           13,
+          78,
           78
         ]
       },
       "rbi_mpr_2025_10": {
-        "accepted_evidence_found": false,
+        "accepted_evidence_found": true,
         "accepted_pages": [
           11
         ],
@@ -123921,7 +124041,7 @@
         "expected_evidence": [
           "keep the repo rate unchanged at 5.5 per cent and to maintain the neutral stance"
         ],
-        "loss_stage": "lost_by_quota",
+        "loss_stage": "evidence_found",
         "report_id": "rbi_mpr_2025_10",
         "reranker_input_ids": [
           "rbi_mpr_2025_10_p010_c001",
@@ -124216,19 +124336,22 @@
           "rbi_mpr_2025_10_p010_c001",
           "rbi_mpr_2025_10_p010_c002",
           "rbi_mpr_2025_10_p073_c003",
-          "rbi_mpr_2025_10_p073_c002"
+          "rbi_mpr_2025_10_p073_c002",
+          "rbi_mpr_2025_10_p011_c003"
         ],
         "selected_chunk_ids_before_dedup": [
           "rbi_mpr_2025_10_p010_c001",
           "rbi_mpr_2025_10_p010_c002",
           "rbi_mpr_2025_10_p073_c003",
-          "rbi_mpr_2025_10_p073_c002"
+          "rbi_mpr_2025_10_p073_c002",
+          "rbi_mpr_2025_10_p011_c003"
         ],
         "selected_pages": [
           10,
           10,
           73,
-          73
+          73,
+          11
         ]
       },
       "rbi_mpr_2026_04": {
@@ -126925,35 +127048,38 @@
           "rbi_mpr_2026_04_p102_c002",
           "rbi_mpr_2026_04_p103_c001",
           "rbi_mpr_2026_04_p102_c004",
-          "rbi_mpr_2026_04_p026_c002"
+          "rbi_mpr_2026_04_p026_c002",
+          "rbi_mpr_2026_04_p020_c000"
         ],
         "selected_chunk_ids_before_dedup": [
           "rbi_mpr_2026_04_p102_c002",
           "rbi_mpr_2026_04_p103_c001",
           "rbi_mpr_2026_04_p102_c004",
-          "rbi_mpr_2026_04_p026_c002"
+          "rbi_mpr_2026_04_p026_c002",
+          "rbi_mpr_2026_04_p020_c000"
         ],
         "selected_pages": [
           102,
           103,
           102,
-          26
+          26,
+          20
         ]
       }
     },
     "per_report_hit": {
       "rbi_mpr_2025_04": true,
-      "rbi_mpr_2025_10": false,
+      "rbi_mpr_2025_10": true,
       "rbi_mpr_2026_04": true
     },
     "per_report_mrr": {
       "rbi_mpr_2025_04": 0.5,
-      "rbi_mpr_2025_10": 0.0,
+      "rbi_mpr_2025_10": 0.2,
       "rbi_mpr_2026_04": 0.25
     },
     "preserved_acronyms": [],
     "preserved_numbers": [],
-    "query_transformation_latency_ms": 0.1058999914675951,
+    "query_transformation_latency_ms": 0.14000000373926014,
     "query_type": "trend_all_reports",
     "question_id": "trend_dev_006",
     "removed_phrases": [
@@ -126961,9 +127087,9 @@
     ],
     "repeated_text_ratio": 0.0,
     "report_chunk_counts": {
-      "rbi_mpr_2025_04": 4,
-      "rbi_mpr_2025_10": 4,
-      "rbi_mpr_2026_04": 4
+      "rbi_mpr_2025_04": 5,
+      "rbi_mpr_2025_10": 5,
+      "rbi_mpr_2026_04": 5
     },
     "report_coverage": 1.0,
     "required_report_ids": [
@@ -126971,21 +127097,21 @@
       "rbi_mpr_2025_10",
       "rbi_mpr_2026_04"
     ],
-    "reranking_latency_ms": 4906.607600001735,
-    "routing_latency_ms": 0.11060001270379871,
-    "selected_character_count": 11613,
-    "selected_chunk_count": 12,
-    "selection_latency_ms": 0.005699999746866524,
+    "reranking_latency_ms": 4520.200599989039,
+    "routing_latency_ms": 0.0864000030560419,
+    "selected_character_count": 14563,
+    "selected_chunk_count": 15,
+    "selection_latency_ms": 0.0044000043999403715,
     "split": "dev",
-    "total_retrieval_latency_ms": 5010.5175000062445,
-    "unique_page_count": 7
+    "total_retrieval_latency_ms": 4607.138499995926,
+    "unique_page_count": 9
   },
   {
     "all_reports_hit": null,
     "bm25_latency_ms": 0.0,
     "candidate_union_latency_ms": 0.0,
     "complete_evidence_recall": null,
-    "configuration_checksum": "b943a959db2d9f5ce5a45f9f32f8ebb71b77a5da67caf87e49ac2937832018e4",
+    "configuration_checksum": "15b0b9ca4594d002b09b86bffecba427a9ba0ab09bfe66dbf4a63d3751142b9b",
     "contamination": 0,
     "context_construction_latency_ms": 0.0,
     "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
@@ -126998,7 +127124,7 @@
     "experiment_id": "COMBINED_01",
     "facet_queries": [],
     "fusion_latency_ms": 0.0,
-    "index_fingerprint": "d063b65fcefc1858e3315b9e67356a80310b8ae9b4d0864e98dd7c18d8553c1a",
+    "index_fingerprint": "ae1aebea49a005d98f17470add76891ca959288278cabc42b5eda3da19c4b4e7",
     "macro_mrr": 0.0,
     "normalised_query": "What did the April 2024 MPR project",
     "original_query": "What did the April 2024 MPR project?",
@@ -127007,7 +127133,7 @@
     "preserved_numbers": [
       "2024"
     ],
-    "query_transformation_latency_ms": 0.07979999645613134,
+    "query_transformation_latency_ms": 0.10580000525806099,
     "query_type": "unsupported_period",
     "question_id": "unsupported_dev_001",
     "removed_phrases": [],
@@ -127015,12 +127141,12 @@
     "report_coverage": 0.0,
     "required_report_ids": [],
     "reranking_latency_ms": 0.0,
-    "routing_latency_ms": 0.10130000009667128,
+    "routing_latency_ms": 0.11180000728927553,
     "selected_character_count": 0,
     "selected_chunk_count": 0,
     "selection_latency_ms": 0.0,
     "split": "dev",
-    "total_retrieval_latency_ms": 0.22709999757353216,
+    "total_retrieval_latency_ms": 0.3029000072274357,
     "unique_page_count": 0
   },
   {
@@ -127028,7 +127154,7 @@
     "bm25_latency_ms": 0.0,
     "candidate_union_latency_ms": 0.0,
     "complete_evidence_recall": null,
-    "configuration_checksum": "b943a959db2d9f5ce5a45f9f32f8ebb71b77a5da67caf87e49ac2937832018e4",
+    "configuration_checksum": "15b0b9ca4594d002b09b86bffecba427a9ba0ab09bfe66dbf4a63d3751142b9b",
     "contamination": 0,
     "context_construction_latency_ms": 0.0,
     "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
@@ -127041,7 +127167,7 @@
     "experiment_id": "COMBINED_01",
     "facet_queries": [],
     "fusion_latency_ms": 0.0,
-    "index_fingerprint": "d063b65fcefc1858e3315b9e67356a80310b8ae9b4d0864e98dd7c18d8553c1a",
+    "index_fingerprint": "ae1aebea49a005d98f17470add76891ca959288278cabc42b5eda3da19c4b4e7",
     "macro_mrr": 0.0,
     "normalised_query": "October 2024 with April 2025.",
     "original_query": "Compare October 2024 with April 2025.",
@@ -127051,7 +127177,7 @@
       "2024",
       "2025"
     ],
-    "query_transformation_latency_ms": 0.06149998807813972,
+    "query_transformation_latency_ms": 0.05729999975301325,
     "query_type": "unsupported_period",
     "question_id": "unsupported_dev_002",
     "removed_phrases": [
@@ -127061,12 +127187,12 @@
     "report_coverage": 0.0,
     "required_report_ids": [],
     "reranking_latency_ms": 0.0,
-    "routing_latency_ms": 0.06150000263005495,
+    "routing_latency_ms": 0.06790000770706683,
     "selected_character_count": 0,
     "selected_chunk_count": 0,
     "selection_latency_ms": 0.0,
     "split": "dev",
-    "total_retrieval_latency_ms": 0.14509999891743064,
+    "total_retrieval_latency_ms": 0.15269999857991934,
     "unique_page_count": 0
   },
   {
@@ -127074,7 +127200,7 @@
     "bm25_latency_ms": 0.0,
     "candidate_union_latency_ms": 0.0,
     "complete_evidence_recall": null,
-    "configuration_checksum": "b943a959db2d9f5ce5a45f9f32f8ebb71b77a5da67caf87e49ac2937832018e4",
+    "configuration_checksum": "15b0b9ca4594d002b09b86bffecba427a9ba0ab09bfe66dbf4a63d3751142b9b",
     "contamination": 0,
     "context_construction_latency_ms": 0.0,
     "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
@@ -127087,7 +127213,7 @@
     "experiment_id": "COMBINED_01",
     "facet_queries": [],
     "fusion_latency_ms": 0.0,
-    "index_fingerprint": "d063b65fcefc1858e3315b9e67356a80310b8ae9b4d0864e98dd7c18d8553c1a",
+    "index_fingerprint": "ae1aebea49a005d98f17470add76891ca959288278cabc42b5eda3da19c4b4e7",
     "macro_mrr": 0.0,
     "normalised_query": "What was RBI's forecast in October 2026",
     "original_query": "What was RBI's forecast in October 2026?",
@@ -127096,7 +127222,7 @@
     "preserved_numbers": [
       "2026"
     ],
-    "query_transformation_latency_ms": 0.060000005760230124,
+    "query_transformation_latency_ms": 0.07239999831654131,
     "query_type": "unsupported_period",
     "question_id": "unsupported_dev_003",
     "removed_phrases": [],
@@ -127104,12 +127230,12 @@
     "report_coverage": 0.0,
     "required_report_ids": [],
     "reranking_latency_ms": 0.0,
-    "routing_latency_ms": 0.04169999738223851,
+    "routing_latency_ms": 0.041099992813542485,
     "selected_character_count": 0,
     "selected_chunk_count": 0,
     "selection_latency_ms": 0.0,
     "split": "dev",
-    "total_retrieval_latency_ms": 0.12140000762883574,
+    "total_retrieval_latency_ms": 0.13279999257065356,
     "unique_page_count": 0
   },
   {
@@ -127117,7 +127243,7 @@
     "bm25_latency_ms": 0.0,
     "candidate_union_latency_ms": 0.0,
     "complete_evidence_recall": null,
-    "configuration_checksum": "b943a959db2d9f5ce5a45f9f32f8ebb71b77a5da67caf87e49ac2937832018e4",
+    "configuration_checksum": "15b0b9ca4594d002b09b86bffecba427a9ba0ab09bfe66dbf4a63d3751142b9b",
     "contamination": 0,
     "context_construction_latency_ms": 0.0,
     "dataset_checksum": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
@@ -127130,7 +127256,7 @@
     "experiment_id": "COMBINED_01",
     "facet_queries": [],
     "fusion_latency_ms": 0.0,
-    "index_fingerprint": "d063b65fcefc1858e3315b9e67356a80310b8ae9b4d0864e98dd7c18d8553c1a",
+    "index_fingerprint": "ae1aebea49a005d98f17470add76891ca959288278cabc42b5eda3da19c4b4e7",
     "macro_mrr": 0.0,
     "normalised_query": "Did the April 2025 MPR report an April 2027 policy decision",
     "original_query": "Did the April 2025 MPR report an April 2027 policy decision?",
@@ -127140,7 +127266,7 @@
       "2025",
       "2027"
     ],
-    "query_transformation_latency_ms": 0.07810001261532307,
+    "query_transformation_latency_ms": 0.0737999944249168,
     "query_type": "unsupported_period",
     "question_id": "unsupported_dev_004",
     "removed_phrases": [],
@@ -127148,12 +127274,12 @@
     "report_coverage": 0.0,
     "required_report_ids": [],
     "reranking_latency_ms": 0.0,
-    "routing_latency_ms": 0.051700000767596066,
+    "routing_latency_ms": 0.051099996198900044,
     "selected_character_count": 0,
     "selected_chunk_count": 0,
     "selection_latency_ms": 0.0,
     "split": "dev",
-    "total_retrieval_latency_ms": 0.149200001033023,
+    "total_retrieval_latency_ms": 0.14370000280905515,
     "unique_page_count": 0
   }
 ]

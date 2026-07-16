@@ -3,7 +3,7 @@
 | Metric | Mean score | Successful count |
 |---|---:|---:|
 | factual_correctness | 0.6343914458612334 | 32 |
-| faithfulness_to_context | 0.8654068160371632 | 34 |
+| faithfulness_to_context | 0.8657197071510555 | 34 |
 | contextual_relevancy | 0.5294117647058824 | 34 |
 | contextual_recall | 0.4117647058823529 | 34 |
 | citation_correctness | 0.8823529411764706 | 34 |

@@ -20,8 +20,8 @@ The evaluator now builds source-labelled contexts from saved `V2_COHERE_ONLY` re
 - All-Reports Hit: 0.5
 - Evidence Recall: 0.6
 - Macro Report MRR: 0.41537037037037033
-- Median retrieval latency ms: 12906.782750000275
-- Mean estimated tokens: 2096.9666666666667
+- Median retrieval latency ms: 12948.27224999608
+- Mean estimated tokens: 2097.2
 
 ## Generation development metrics
 
@@ -32,7 +32,7 @@ The evaluator now builds source-labelled contexts from saved `V2_COHERE_ONLY` re
 - contextual_recall: mean=0.4117647058823529, n=34
 - contextual_relevancy: mean=0.5294117647058824, n=34
 - factual_correctness: mean=0.6343914458612334, n=32
-- faithfulness_to_context: mean=0.8654068160371632, n=34
+- faithfulness_to_context: mean=0.8657197071510555, n=34
 - temporal_attribution_correctness: mean=0.8823529411764706, n=34
 
 Citation correctness: 0.8823529411764706

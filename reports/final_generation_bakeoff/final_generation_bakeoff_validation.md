@@ -1,4 +1,28 @@
 # Final Generation Bake-Off Validation
 
-Status: `passed`
-Issues: 0
+Status: `failed`
+Issues: 21
+
+## Issues
+
+- GEN_MMR06_CHRONO_ORDER_V1:missing_eval_summary
+- GEN_MMR06_CHRONO_ORDER_V1:missing_summary
+- GEN_MMR06_CITATION_REPAIR_V1:missing_eval_summary
+- GEN_MMR06_CITATION_REPAIR_V1:missing_summary
+- GEN_MMR06_COMPARATIVE_STRICT_PROMPT_V1:missing_eval_summary
+- GEN_MMR06_COMPARATIVE_STRICT_PROMPT_V1:missing_summary
+- GEN_MMR06_EVIDENCE_FIRST_PROMPT_V1:missing_eval_summary
+- GEN_MMR06_EVIDENCE_FIRST_PROMPT_V1:missing_summary
+- GEN_MMR06_RERANK_ORDER_V1:missing_eval_summary
+- GEN_MMR06_RERANK_ORDER_V1:missing_summary
+- GEN_MMR06_SUFFICIENCY_V1:missing_eval_summary
+- GEN_MMR06_SUFFICIENCY_V1:missing_summary
+- GEN_MMR07_SUFFICIENCY_V1:missing_eval_summary
+- GEN_MMR07_SUFFICIENCY_V1:missing_summary
+- GEN_MMR08_SUFFICIENCY_V1:missing_eval_summary
+- GEN_MMR08_SUFFICIENCY_V1:missing_summary
+- GEN_V2_COHERE_SUFFICIENCY_V1:missing_eval_summary
+- GEN_V2_COHERE_SUFFICIENCY_V1:missing_summary
+- missing_top_level_artifact:reports/final_generation_bakeoff/category_analysis.json
+- missing_top_level_artifact:reports/final_generation_bakeoff/final_generation_strategy_selection_decision.json
+- missing_top_level_artifact:reports/final_generation_bakeoff/generation_bakeoff_leaderboard.json

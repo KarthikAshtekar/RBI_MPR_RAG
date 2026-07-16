@@ -16,6 +16,6 @@ python -m pip install -r requirements-v2.txt
 
 ## V2 resource readiness
 
-- Experiment filter: ['V2_UNSTRUCTURED_COHERE', 'V2_UNSTRUCTURED_ONLY']
+- Experiment filter: ['V2_BASELINE_FINAL', 'V2_COHERE_ONLY', 'V2_UNSTRUCTURED_COHERE', 'V2_UNSTRUCTURED_ONLY']
 - Unstructured resources available: False
 - Unstructured block reason: RuntimeError: Unstructured extraction failed for rbi_mpr_2025_04: OCRUnavailable: OCR fallback was skipped because tesseract is not installed or not on PATH.

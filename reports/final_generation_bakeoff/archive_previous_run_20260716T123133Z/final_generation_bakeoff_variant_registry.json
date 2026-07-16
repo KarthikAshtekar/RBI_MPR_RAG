@@ -1,0 +1,86 @@
+{
+  "rows": [
+    {
+      "context_ordering": "default",
+      "description": "Reuse existing V2 Cohere retrieval plus sufficiency-gated generation result.",
+      "mode": "reuse_v2_sufficiency",
+      "priority": 0,
+      "prompt_version": "v2_sufficiency_prompt_v1",
+      "retrieval_experiment_id": "V2_COHERE_ONLY",
+      "variant_id": "GEN_V2_COHERE_SUFFICIENCY_V1"
+    },
+    {
+      "context_ordering": "page_order",
+      "description": "Reuse existing MMR lambda 0.6 plus sufficiency-gated generation result.",
+      "mode": "reuse_mmr_generation",
+      "priority": 0,
+      "prompt_version": "v2_sufficiency_prompt_v1",
+      "retrieval_experiment_id": "MMR_LAMBDA_06",
+      "variant_id": "GEN_MMR06_SUFFICIENCY_V1"
+    },
+    {
+      "context_ordering": "page_order",
+      "description": "Generate on frozen MMR lambda 0.7 retrieval contexts.",
+      "mode": "live_generation",
+      "priority": 1,
+      "prompt_version": "v2_sufficiency_prompt_v1",
+      "retrieval_experiment_id": "MMR_LAMBDA_07",
+      "variant_id": "GEN_MMR07_SUFFICIENCY_V1"
+    },
+    {
+      "context_ordering": "page_order",
+      "description": "Generate on frozen MMR lambda 0.8 retrieval contexts.",
+      "mode": "live_generation",
+      "priority": 2,
+      "prompt_version": "v2_sufficiency_prompt_v1",
+      "retrieval_experiment_id": "MMR_LAMBDA_08",
+      "variant_id": "GEN_MMR08_SUFFICIENCY_V1"
+    },
+    {
+      "context_ordering": "chrono_order",
+      "description": "Generate on MMR06 chunks ordered by report chronology and page.",
+      "mode": "live_generation",
+      "priority": 3,
+      "prompt_version": "v2_sufficiency_prompt_v1",
+      "retrieval_experiment_id": "MMR_LAMBDA_06",
+      "variant_id": "GEN_MMR06_CHRONO_ORDER_V1"
+    },
+    {
+      "context_ordering": "rerank_order",
+      "description": "Generate on MMR06 chunks ordered by saved MMR/reranker selection rank.",
+      "mode": "live_generation",
+      "priority": 4,
+      "prompt_version": "v2_sufficiency_prompt_v1",
+      "retrieval_experiment_id": "MMR_LAMBDA_06",
+      "variant_id": "GEN_MMR06_RERANK_ORDER_V1"
+    },
+    {
+      "context_ordering": "page_order",
+      "description": "Generate with evidence-by-report-first prompt.",
+      "mode": "live_generation",
+      "priority": 5,
+      "prompt_version": "evidence_first_prompt_v1",
+      "retrieval_experiment_id": "MMR_LAMBDA_06",
+      "variant_id": "GEN_MMR06_EVIDENCE_FIRST_PROMPT_V1"
+    },
+    {
+      "context_ordering": "page_order",
+      "description": "Generate with strict comparative prompt.",
+      "mode": "live_generation",
+      "priority": 6,
+      "prompt_version": "comparative_strict_prompt_v1",
+      "retrieval_experiment_id": "MMR_LAMBDA_06",
+      "variant_id": "GEN_MMR06_COMPARATIVE_STRICT_PROMPT_V1"
+    },
+    {
+      "context_ordering": "page_order",
+      "description": "Deterministically repair invalid citations in the existing MMR06 answer set.",
+      "mode": "citation_repair",
+      "priority": 7,
+      "prompt_version": "deterministic_citation_repair_v1",
+      "retrieval_experiment_id": "MMR_LAMBDA_06",
+      "variant_id": "GEN_MMR06_CITATION_REPAIR_V1"
+    }
+  ],
+  "schema_version": 1
+}

@@ -1,0 +1,14 @@
+id: AQ01
+dk: 50
+bk: 50
+retain: 30
+rrf: 60
+dw: 1
+bw: 1
+quota:
+- 6
+- 4
+- 3
+family: adaptive_quota
+parent_experiment: QUOTA_EXPANDED
+quota_strategy: adaptive_bounded

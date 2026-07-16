@@ -2,9 +2,9 @@
 
 ```json
 {
-  "all_reports_hit": 0.36666666666666664,
+  "all_reports_hit": 0.4,
   "case_count": 34,
-  "complete_evidence_recall": 0.3333333333333333,
+  "complete_evidence_recall": 0.36666666666666664,
   "config": {
     "bk": 50,
     "bw": 1,
@@ -12,41 +12,41 @@
     "dw": 1,
     "family": "query_normalisation",
     "id": "QN01",
-    "parent_experiment": "QUOTA_EXPANDED",
+    "parent_experiment": "QUOTA_LARGE",
     "query_normalisation": true,
     "quota": [
       6,
-      4,
-      3
+      5,
+      4
     ],
     "retain": 30,
     "rrf": 60
   },
-  "configuration_checksum": "f0fcc9299e46831e80dd94d35b29a93996e63408544bcd7f512ad4a0c6de80b0",
+  "configuration_checksum": "6a4f363a668bddef6e5bc56a9f1a55d623d3110382de3b8f7914cfd28842a89d",
   "contamination": 0.0,
   "dataset_sha256": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
-  "evidence_recall": 0.4777777777777778,
+  "evidence_recall": 0.4888888888888889,
   "experiment_id": "QN01",
   "family": "query_normalisation",
-  "finished_at": "2026-07-16T10:09:17.579221+00:00",
-  "index_fingerprint": "d063b65fcefc1858e3315b9e67356a80310b8ae9b4d0864e98dd7c18d8553c1a",
+  "finished_at": "2026-07-16T11:14:50.222186+00:00",
+  "index_fingerprint": "ae1aebea49a005d98f17470add76891ca959288278cabc42b5eda3da19c4b4e7",
   "loss_stage_counts": {
-    "evidence_found": 26,
-    "lost_by_quota": 15,
+    "evidence_found": 27,
+    "lost_by_quota": 14,
     "lost_in_fusion": 8,
     "not_in_candidate_union": 5
   },
-  "macro_mrr": 0.3138888888888889,
-  "mean_estimated_tokens": 1815.4,
-  "mean_latency_ms": 3019.176046666689,
+  "macro_mrr": 0.31611111111111106,
+  "mean_estimated_tokens": 2156.4333333333334,
+  "mean_latency_ms": 2970.17693999951,
   "mean_repeated_text_ratio": 0.0,
-  "mean_selected_characters": 7259.966666666666,
-  "mean_selected_chunks": 7.6,
-  "mean_unique_pages": 6.5,
-  "median_latency_ms": 2903.7478499958524,
-  "p95_latency_ms": 5198.029699997278,
+  "mean_selected_characters": 8624.233333333334,
+  "mean_selected_chunks": 9.0,
+  "mean_unique_pages": 7.566666666666666,
+  "median_latency_ms": 2826.9731499967747,
+  "p95_latency_ms": 5042.471800014027,
   "report_coverage": 1.0,
   "report_level_row_count": 54,
-  "started_at": "2026-07-16T10:07:46.929937+00:00"
+  "started_at": "2026-07-16T11:13:21.044075+00:00"
 }
 ```

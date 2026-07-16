@@ -12,8 +12,8 @@
   "evidence_recall": 0.19444444444444445,
   "experiment_id": "CPARENT02",
   "family": "child_parent",
-  "finished_at": "2026-07-13T12:29:41.547638+00:00",
-  "index_fingerprint": "778f986612e97ec5f39b23ee81e35abb281cff7ae92268fa38861ce77b7dec01",
+  "finished_at": "2026-07-16T11:36:56.201877+00:00",
+  "index_fingerprint": "928f326807c9d0fb586b7169272a6764be6e7c044409235e0964b43ae4bfbe79",
   "loss_stage_counts": {
     "evidence_found": 28,
     "lost_by_deduplication": 13,
@@ -22,15 +22,15 @@
   },
   "macro_mrr": 0.3537037037037037,
   "mean_estimated_tokens": 1999.8333333333333,
-  "mean_latency_ms": 3674.3142133268216,
+  "mean_latency_ms": 3157.709586667382,
   "mean_repeated_text_ratio": 0.0,
   "mean_selected_characters": 7997.866666666667,
   "mean_selected_chunks": 9.0,
   "mean_unique_pages": 7.633333333333334,
-  "median_latency_ms": 3534.3692999740597,
-  "p95_latency_ms": 6586.186700034887,
+  "median_latency_ms": 3120.6797500053653,
+  "p95_latency_ms": 5936.283900009585,
   "report_coverage": 1.0,
   "report_level_row_count": 54,
-  "started_at": "2026-07-13T12:27:51.199647+00:00"
+  "started_at": "2026-07-16T11:35:21.363077+00:00"
 }
 ```

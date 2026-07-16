@@ -4,7 +4,7 @@ Compared against repaired `temporal_baseline` with paired bootstrap intervals, 2
 
 - AQ01: diff=0.03333333333333333, CI=[-0.06666666666666667, 0.13333333333333333], conclusive=False
 - BM02: diff=0.03333333333333333, CI=[-0.06666666666666667, 0.13333333333333333], conclusive=False
-- COMBINED_01: diff=0.0, CI=[-0.1, 0.1], conclusive=False
+- COMBINED_01: diff=0.03333333333333333, CI=[-0.06666666666666667, 0.13333333333333333], conclusive=False
 - COMBINED_02: diff=0.0, CI=[-0.1, 0.1], conclusive=False
 - COMBINED_03: diff=0.0, CI=[-0.1, 0.1], conclusive=False
 - CP01: diff=-0.1, CI=[-0.23333333333333334, 0.0], conclusive=False
@@ -12,14 +12,14 @@ Compared against repaired `temporal_baseline` with paired bootstrap intervals, 2
 - CP03: diff=-0.1, CI=[-0.23333333333333334, 0.0], conclusive=False
 - CP04: diff=-0.1, CI=[-0.23333333333333334, 0.0], conclusive=False
 - DIV01: diff=0.03333333333333333, CI=[-0.06666666666666667, 0.13333333333333333], conclusive=False
-- EXP01: diff=0.0, CI=[-0.1, 0.1], conclusive=False
-- EXP02: diff=0.0, CI=[-0.1, 0.1], conclusive=False
-- FAC01: diff=0.0, CI=[-0.1, 0.1], conclusive=False
+- EXP01: diff=0.03333333333333333, CI=[-0.06666666666666667, 0.13333333333333333], conclusive=False
+- EXP02: diff=0.03333333333333333, CI=[-0.06666666666666667, 0.13333333333333333], conclusive=False
+- FAC01: diff=0.03333333333333333, CI=[-0.06666666666666667, 0.13333333333333333], conclusive=False
 - FR01: diff=-0.03333333333333333, CI=[-0.16666666666666666, 0.06666666666666667], conclusive=False
 - FR02: diff=-0.03333333333333333, CI=[-0.16666666666666666, 0.06666666666666667], conclusive=False
 - FR03: diff=-0.03333333333333333, CI=[-0.16666666666666666, 0.06666666666666667], conclusive=False
 - FR04: diff=-0.03333333333333333, CI=[-0.16666666666666666, 0.06666666666666667], conclusive=False
-- QN01: diff=0.0, CI=[-0.1, 0.1], conclusive=False
+- QN01: diff=0.03333333333333333, CI=[-0.06666666666666667, 0.13333333333333333], conclusive=False
 - QUOTA_EXPANDED: diff=0.03333333333333333, CI=[-0.06666666666666667, 0.13333333333333333], conclusive=False
 - QUOTA_LARGE: diff=0.03333333333333333, CI=[-0.06666666666666667, 0.13333333333333333], conclusive=False
 - RRF_K10: diff=-0.03333333333333333, CI=[-0.16666666666666666, 0.06666666666666667], conclusive=False
@@ -31,3 +31,4 @@ Compared against repaired `temporal_baseline` with paired bootstrap intervals, 2
 - WRRF_D1_B1.5: diff=-0.1, CI=[-0.23333333333333334, 0.0], conclusive=False
 - WRRF_D1_B2: diff=-0.1, CI=[-0.23333333333333334, 0.0], conclusive=False
 - WRRF_D2_B1: diff=-0.03333333333333333, CI=[-0.16666666666666666, 0.06666666666666667], conclusive=False
+- repaired_baseline: diff=0.0, CI=[0.0, 0.0], conclusive=False

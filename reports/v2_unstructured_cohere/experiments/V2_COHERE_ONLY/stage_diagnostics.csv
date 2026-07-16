@@ -44,7 +44,7 @@ accepted_pages,category,evidence_recall,expected_evidence_count,final_found,loss
 [14],commodity_assumptions,1.0,1,True,evidence_found,1.0,trend_all_reports,trend_dev_003,rbi_mpr_2025_04,"[14, 14, 20, 23]"
 [12],commodity_assumptions,1.0,1,True,evidence_found,0.5,trend_all_reports,trend_dev_003,rbi_mpr_2025_10,"[13, 12, 22, 12]"
 [5],commodity_assumptions,0.0,1,False,lost_by_quota,0.0,trend_all_reports,trend_dev_003,rbi_mpr_2026_04,"[105, 112, 114, 105]"
-[14],global_growth,0.0,1,False,not_in_candidate_union,0.0,trend_all_reports,trend_dev_004,rbi_mpr_2025_04,"[20, 21, 99, 66]"
+[14],global_growth,0.0,1,False,not_in_candidate_union,0.0,trend_all_reports,trend_dev_004,rbi_mpr_2025_04,"[20, 21, 99, 101]"
 [12],global_growth,0.0,1,False,not_in_candidate_union,0.0,trend_all_reports,trend_dev_004,rbi_mpr_2025_10,"[42, 21, 43, 16]"
 [5],global_growth,0.0,1,False,not_in_candidate_union,0.0,trend_all_reports,trend_dev_004,rbi_mpr_2026_04,"[100, 102, 112, 111]"
 [57],fiscal_borrowing,1.0,1,True,evidence_found,0.5,trend_all_reports,trend_dev_005,rbi_mpr_2025_04,"[78, 57, 82, 82]"

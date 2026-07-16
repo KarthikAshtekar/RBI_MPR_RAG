@@ -9,9 +9,9 @@ Status: `passed`
 | reports/v2_unstructured_cohere | True | directory | 96 | True |
 | reports/v2_generation | True | directory | 29 | True |
 | reports/v2_sufficiency | True | directory | 30 | True |
-| reports/final_comparison | True | directory | 168 | True |
+| reports/final_comparison | True | directory | 204 | True |
 | reports/final_evaluation | True | directory | 36 | False |
 | reports/structural_optimisation | True | directory | 187 | False |
-| reports/optimisation | True | directory | 680 | False |
+| reports/optimisation | True | directory | 1222 | False |
 | data/evaluation | True | directory | 8 | True |
 | data/raw | True | directory | 2 | True |

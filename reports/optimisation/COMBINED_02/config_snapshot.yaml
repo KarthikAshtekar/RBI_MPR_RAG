@@ -10,7 +10,7 @@ quota:
 - 4
 - 3
 family: combined
-parent_experiment: QUOTA_EXPANDED
+parent_experiment: QUOTA_LARGE
 query_normalisation: true
 terminology_expansion: multi_query
 facet_decomposition: true

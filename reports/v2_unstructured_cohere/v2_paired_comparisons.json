@@ -53,39 +53,39 @@
       "sample_size": 34
     },
     {
-      "absolute_difference": 7520.70722352057,
-      "baseline_mean": 2785.597888244357,
-      "ci_95_high": 9226.266714687506,
-      "ci_95_low": 5995.280752927582,
+      "absolute_difference": 7394.191549999746,
+      "baseline_mean": 2795.898735292961,
+      "ci_95_high": 8929.523223529994,
+      "ci_95_low": 6008.628538234916,
       "conclusive": true,
       "experiment_id": "V2_COHERE_ONLY",
-      "experiment_mean": 10306.305111764927,
+      "experiment_mean": 10190.090285292707,
       "metric": "median_latency",
       "sample_size": 34
     },
     {
-      "absolute_difference": -47.61764705882353,
+      "absolute_difference": -47.411764705882355,
       "baseline_mean": 1897.8823529411766,
-      "ci_95_high": -17.558823529411764,
-      "ci_95_low": -81.61764705882354,
+      "ci_95_high": -17.529411764705884,
+      "ci_95_low": -81.3529411764706,
       "conclusive": true,
       "experiment_id": "V2_COHERE_ONLY",
-      "experiment_mean": 1850.264705882353,
+      "experiment_mean": 1850.4705882352941,
       "metric": "mean_estimated_tokens",
       "sample_size": 34
     }
   ],
-  "created_at_utc": "2026-07-13T23:33:01.707264+00:00",
+  "created_at_utc": "2026-07-16T12:06:28.627598+00:00",
   "skipped_experiments": [
     {
-      "created_at_utc": "2026-07-13T23:33:01.403696+00:00",
+      "created_at_utc": "2026-07-16T12:00:41.449001+00:00",
       "experiment_id": "V2_UNSTRUCTURED_ONLY",
       "integrity_status": "skipped",
       "reason": "RuntimeError: Unstructured extraction failed for rbi_mpr_2025_04: OCRUnavailable: OCR fallback was skipped because tesseract is not installed or not on PATH.",
       "status": "skipped"
     },
     {
-      "created_at_utc": "2026-07-13T23:33:01.486244+00:00",
+      "created_at_utc": "2026-07-16T12:06:28.382296+00:00",
       "experiment_id": "V2_UNSTRUCTURED_COHERE",
       "integrity_status": "skipped",
       "reason": "RuntimeError: Unstructured extraction failed for rbi_mpr_2025_04: OCRUnavailable: OCR fallback was skipped because tesseract is not installed or not on PATH.",

@@ -7,8 +7,8 @@ dw: 1
 bw: 1
 quota:
 - 6
+- 5
 - 4
-- 3
 family: bm25_preprocessing
-parent_experiment: QUOTA_EXPANDED
+parent_experiment: QUOTA_LARGE
 bm25_preprocessing: finance_preserving

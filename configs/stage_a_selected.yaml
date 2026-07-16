@@ -1,4 +1,4 @@
-id: QUOTA_LARGE
+id: BM02
 dk: 50
 bk: 50
 retain: 30
@@ -9,4 +9,6 @@ quota:
 - 6
 - 5
 - 4
-family: context_quota
+family: bm25_preprocessing
+parent_experiment: QUOTA_LARGE
+bm25_preprocessing: finance_preserving

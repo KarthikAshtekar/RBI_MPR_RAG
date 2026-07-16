@@ -8,7 +8,7 @@
     "retrieval_outputs_are_valid": true,
     "selected_v2_retrieval_config_exists": true
   },
-  "created_at_utc": "2026-07-13T23:33:01.715297+00:00",
+  "created_at_utc": "2026-07-16T12:06:28.635787+00:00",
   "generation_evaluation_run": false,
   "reason": "Generation was not run because the generation evaluator is not yet wired to consume V2 selected retrieval outputs/config.",
   "schema_version": 1,

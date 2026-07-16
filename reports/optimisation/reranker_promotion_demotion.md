@@ -29,4 +29,5 @@
 - WRRF_D1_B1.5: promotion=0.2647058823529412, demotion=0.4411764705882353, drop=0.0
 - WRRF_D1_B2: promotion=0.29411764705882354, demotion=0.47058823529411764, drop=0.0
 - WRRF_D2_B1: promotion=0.425, demotion=0.45, drop=0.0
+- repaired_baseline: promotion=0.3548387096774194, demotion=0.2903225806451613, drop=0.0
 - temporal_baseline: promotion=0.3548387096774194, demotion=0.2903225806451613, drop=0.0

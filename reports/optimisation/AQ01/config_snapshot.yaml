@@ -10,5 +10,5 @@ quota:
 - 4
 - 3
 family: adaptive_quota
-parent_experiment: QUOTA_EXPANDED
+parent_experiment: QUOTA_LARGE
 quota_strategy: adaptive_bounded

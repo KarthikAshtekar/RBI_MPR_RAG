@@ -3,7 +3,7 @@ absolute_difference,baseline_fail_experiment_pass,baseline_mean,baseline_pass_ex
 0.1,4,0.4,1,14,11,0.26666666666666666,-0.03333333333333333,False,,V2_COHERE_ONLY,0.5,,all_reports_hit,,30,
 0.09444444444444446,,0.5055555555555555,,,,0.22777777777777777,-0.03333333333333333,False,,V2_COHERE_ONLY,0.6,,evidence_recall,,30,
 0.054411764705882354,,0.31209150326797386,,,,0.16013071895424838,-0.044035947712418304,False,,V2_COHERE_ONLY,0.3665032679738562,,macro_report_mrr,,34,
-7520.70722352057,,2785.597888244357,,,,9226.266714687506,5995.280752927582,True,,V2_COHERE_ONLY,10306.305111764927,,median_latency,,34,
--47.61764705882353,,1897.8823529411766,,,,-17.558823529411764,-81.61764705882354,True,,V2_COHERE_ONLY,1850.264705882353,,mean_estimated_tokens,,34,
-,,,,,,,,,2026-07-13T23:33:01.403696+00:00,V2_UNSTRUCTURED_ONLY,,skipped,,RuntimeError: Unstructured extraction failed for rbi_mpr_2025_04: OCRUnavailable: OCR fallback was skipped because tesseract is not installed or not on PATH.,,skipped
-,,,,,,,,,2026-07-13T23:33:01.486244+00:00,V2_UNSTRUCTURED_COHERE,,skipped,,RuntimeError: Unstructured extraction failed for rbi_mpr_2025_04: OCRUnavailable: OCR fallback was skipped because tesseract is not installed or not on PATH.,,skipped
+7394.191549999746,,2795.898735292961,,,,8929.523223529994,6008.628538234916,True,,V2_COHERE_ONLY,10190.090285292707,,median_latency,,34,
+-47.411764705882355,,1897.8823529411766,,,,-17.529411764705884,-81.3529411764706,True,,V2_COHERE_ONLY,1850.4705882352941,,mean_estimated_tokens,,34,
+,,,,,,,,,2026-07-16T12:00:41.449001+00:00,V2_UNSTRUCTURED_ONLY,,skipped,,RuntimeError: Unstructured extraction failed for rbi_mpr_2025_04: OCRUnavailable: OCR fallback was skipped because tesseract is not installed or not on PATH.,,skipped
+,,,,,,,,,2026-07-16T12:06:28.382296+00:00,V2_UNSTRUCTURED_COHERE,,skipped,,RuntimeError: Unstructured extraction failed for rbi_mpr_2025_04: OCRUnavailable: OCR fallback was skipped because tesseract is not installed or not on PATH.,,skipped

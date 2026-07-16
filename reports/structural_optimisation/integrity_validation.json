@@ -6,7 +6,7 @@
       "issue_count": 0,
       "issues": [],
       "status": "completed",
-      "wall_runtime_seconds": 109.98878909996711
+      "wall_runtime_seconds": 94.24489280000853
     },
     {
       "experiment_id": "SEM00",
@@ -14,7 +14,7 @@
       "issue_count": 0,
       "issues": [],
       "status": "completed",
-      "wall_runtime_seconds": 110.76980609999737
+      "wall_runtime_seconds": 95.0461507
     },
     {
       "experiment_id": "CPARENT01",
@@ -22,7 +22,7 @@
       "issue_count": 0,
       "issues": [],
       "status": "completed",
-      "wall_runtime_seconds": 104.93473259999882
+      "wall_runtime_seconds": 94.13315249999869
     },
     {
       "experiment_id": "CPARENT02",
@@ -30,7 +30,7 @@
       "issue_count": 0,
       "issues": [],
       "status": "completed",
-      "wall_runtime_seconds": 110.62284309999086
+      "wall_runtime_seconds": 95.1084894999949
     },
     {
       "experiment_id": "CPARENT03",
@@ -38,7 +38,7 @@
       "issue_count": 0,
       "issues": [],
       "status": "completed",
-      "wall_runtime_seconds": 91.12292260001414
+      "wall_runtime_seconds": 96.86930430000939
     },
     {
       "experiment_id": "SW01",
@@ -46,7 +46,7 @@
       "issue_count": 0,
       "issues": [],
       "status": "completed",
-      "wall_runtime_seconds": 83.27663829998346
+      "wall_runtime_seconds": 92.82088539999677
     },
     {
       "experiment_id": "SW02",
@@ -54,7 +54,7 @@
       "issue_count": 0,
       "issues": [],
       "status": "completed",
-      "wall_runtime_seconds": 91.64726860000519
+      "wall_runtime_seconds": 103.9858785999968
     },
     {
       "experiment_id": "SW03",
@@ -62,7 +62,7 @@
       "issue_count": 0,
       "issues": [],
       "status": "completed",
-      "wall_runtime_seconds": 107.6238302999991
+      "wall_runtime_seconds": 102.53050520000397
     },
     {
       "experiment_id": "ADJ00",
@@ -70,7 +70,7 @@
       "issue_count": 0,
       "issues": [],
       "status": "completed",
-      "wall_runtime_seconds": 95.12458409997635
+      "wall_runtime_seconds": 95.42883820000861
     },
     {
       "experiment_id": "ADJ01",
@@ -78,7 +78,7 @@
       "issue_count": 0,
       "issues": [],
       "status": "completed",
-      "wall_runtime_seconds": 93.97007930005202
+      "wall_runtime_seconds": 91.90064329998859
     },
     {
       "experiment_id": "ADJ02",
@@ -86,7 +86,7 @@
       "issue_count": 0,
       "issues": [],
       "status": "completed",
-      "wall_runtime_seconds": 99.49515879998216
+      "wall_runtime_seconds": 90.96332559999428
     },
     {
       "experiment_id": "ADJ03",
@@ -94,7 +94,7 @@
       "issue_count": 0,
       "issues": [],
       "status": "completed",
-      "wall_runtime_seconds": 95.67889069998637
+      "wall_runtime_seconds": 92.67896769999061
     },
     {
       "experiment_id": "PARSER00",
@@ -102,7 +102,7 @@
       "issue_count": 0,
       "issues": [],
       "status": "completed",
-      "wall_runtime_seconds": 93.53967240004567
+      "wall_runtime_seconds": 89.98824869999953
     },
     {
       "experiment_id": "EMB00",
@@ -110,7 +110,7 @@
       "issue_count": 0,
       "issues": [],
       "status": "completed",
-      "wall_runtime_seconds": 121.90219239995349
+      "wall_runtime_seconds": 92.42776429999503
     },
     {
       "experiment_id": "RERANK00",
@@ -118,7 +118,7 @@
       "issue_count": 0,
       "issues": [],
       "status": "completed",
-      "wall_runtime_seconds": 117.4305280999979
+      "wall_runtime_seconds": 91.7890488999983
     },
     {
       "experiment_id": "STRUCT_CANDIDATE_1",
@@ -126,7 +126,7 @@
       "issue_count": 0,
       "issues": [],
       "status": "completed",
-      "wall_runtime_seconds": 143.8626650000224
+      "wall_runtime_seconds": 90.99123660000623
     },
     {
       "experiment_id": "STRUCT_CANDIDATE_2",
@@ -134,7 +134,7 @@
       "issue_count": 0,
       "issues": [],
       "status": "completed",
-      "wall_runtime_seconds": 161.26410819997545
+      "wall_runtime_seconds": 89.69206280000799
     },
     {
       "experiment_id": "STRUCT_CANDIDATE_3",
@@ -142,7 +142,7 @@
       "issue_count": 0,
       "issues": [],
       "status": "completed",
-      "wall_runtime_seconds": 145.44122480001533
+      "wall_runtime_seconds": 88.08619889999682
     }
   ],
   "experiment_count": 18,

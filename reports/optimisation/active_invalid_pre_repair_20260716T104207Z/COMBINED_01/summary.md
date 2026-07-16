@@ -1,0 +1,53 @@
+# COMBINED_01
+
+```json
+{
+  "all_reports_hit": 0.36666666666666664,
+  "case_count": 34,
+  "complete_evidence_recall": 0.3333333333333333,
+  "config": {
+    "bk": 50,
+    "bm25_preprocessing": "finance_preserving",
+    "bw": 1,
+    "dk": 50,
+    "dw": 1,
+    "family": "combined",
+    "id": "COMBINED_01",
+    "parent_experiment": "QUOTA_EXPANDED",
+    "query_normalisation": true,
+    "quota": [
+      6,
+      4,
+      3
+    ],
+    "retain": 30,
+    "rrf": 60
+  },
+  "configuration_checksum": "b943a959db2d9f5ce5a45f9f32f8ebb71b77a5da67caf87e49ac2937832018e4",
+  "contamination": 0.0,
+  "dataset_sha256": "bf7cf18e02abb87a6e22fe9b686d8f93fa34ceb3f67abc575741c0a63080b56d",
+  "evidence_recall": 0.4777777777777778,
+  "experiment_id": "COMBINED_01",
+  "family": "combined",
+  "finished_at": "2026-07-16T10:20:38.120280+00:00",
+  "index_fingerprint": "d063b65fcefc1858e3315b9e67356a80310b8ae9b4d0864e98dd7c18d8553c1a",
+  "loss_stage_counts": {
+    "evidence_found": 26,
+    "lost_by_quota": 15,
+    "lost_in_fusion": 8,
+    "not_in_candidate_union": 5
+  },
+  "macro_mrr": 0.3138888888888889,
+  "mean_estimated_tokens": 1815.4,
+  "mean_latency_ms": 3116.4892399998885,
+  "mean_repeated_text_ratio": 0.0,
+  "mean_selected_characters": 7259.966666666666,
+  "mean_selected_chunks": 7.6,
+  "mean_unique_pages": 6.5,
+  "median_latency_ms": 3054.9858499944094,
+  "p95_latency_ms": 5391.113999998197,
+  "report_coverage": 1.0,
+  "report_level_row_count": 54,
+  "started_at": "2026-07-16T10:19:04.117653+00:00"
+}
+```

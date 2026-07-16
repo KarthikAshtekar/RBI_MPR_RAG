@@ -17,7 +17,7 @@ Selected V2 result: `V2_COHERE_ONLY`.
 V2 improved Complete Evidence Recall: True.
 V2 improved Macro MRR: True.
 Table/numeric selected result: baseline CER=0.25, selected CER=0.4.
-Latency trade-off: baseline median=2947.2414500196464 ms, selected median=12906.782750000275 ms.
+Latency trade-off: baseline median=3159.0397500112886 ms, selected median=12948.27224999608 ms.
 
 Scientific caveat: the previous held-out set was already evaluated in Phase 7 and was not used for V2 selection.
 

@@ -738,12 +738,12 @@
     "query_type": "pairwise_comparison"
   },
   {
-    "all_reports_hit": 0.16666666666666666,
+    "all_reports_hit": 0.3333333333333333,
     "case_count": 6,
-    "complete_evidence_recall": 0.16666666666666666,
-    "evidence_recall": 0.38888888888888884,
+    "complete_evidence_recall": 0.3333333333333333,
+    "evidence_recall": 0.4444444444444444,
     "experiment_id": "QN01",
-    "macro_mrr": 0.23611111111111108,
+    "macro_mrr": 0.24722222222222223,
     "query_type": "trend_all_reports"
   },
   {
@@ -774,12 +774,12 @@
     "query_type": "pairwise_comparison"
   },
   {
-    "all_reports_hit": 0.16666666666666666,
+    "all_reports_hit": 0.3333333333333333,
     "case_count": 6,
-    "complete_evidence_recall": 0.16666666666666666,
-    "evidence_recall": 0.38888888888888884,
+    "complete_evidence_recall": 0.3333333333333333,
+    "evidence_recall": 0.4444444444444444,
     "experiment_id": "EXP01",
-    "macro_mrr": 0.23611111111111108,
+    "macro_mrr": 0.24722222222222223,
     "query_type": "trend_all_reports"
   },
   {
@@ -810,12 +810,12 @@
     "query_type": "pairwise_comparison"
   },
   {
-    "all_reports_hit": 0.16666666666666666,
+    "all_reports_hit": 0.3333333333333333,
     "case_count": 6,
-    "complete_evidence_recall": 0.16666666666666666,
-    "evidence_recall": 0.38888888888888884,
+    "complete_evidence_recall": 0.3333333333333333,
+    "evidence_recall": 0.4444444444444444,
     "experiment_id": "EXP02",
-    "macro_mrr": 0.23611111111111108,
+    "macro_mrr": 0.24722222222222223,
     "query_type": "trend_all_reports"
   },
   {
@@ -846,12 +846,12 @@
     "query_type": "pairwise_comparison"
   },
   {
-    "all_reports_hit": 0.16666666666666666,
+    "all_reports_hit": 0.3333333333333333,
     "case_count": 6,
-    "complete_evidence_recall": 0.16666666666666666,
-    "evidence_recall": 0.38888888888888884,
+    "complete_evidence_recall": 0.3333333333333333,
+    "evidence_recall": 0.4444444444444444,
     "experiment_id": "FAC01",
-    "macro_mrr": 0.23611111111111108,
+    "macro_mrr": 0.24722222222222223,
     "query_type": "trend_all_reports"
   },
   {
@@ -885,9 +885,9 @@
     "all_reports_hit": 0.16666666666666666,
     "case_count": 6,
     "complete_evidence_recall": 0.16666666666666666,
-    "evidence_recall": 0.38888888888888884,
+    "evidence_recall": 0.4444444444444444,
     "experiment_id": "BM02",
-    "macro_mrr": 0.2546296296296296,
+    "macro_mrr": 0.26851851851851855,
     "query_type": "trend_all_reports"
   },
   {
@@ -957,9 +957,9 @@
     "all_reports_hit": 0.16666666666666666,
     "case_count": 6,
     "complete_evidence_recall": 0.16666666666666666,
-    "evidence_recall": 0.38888888888888884,
+    "evidence_recall": 0.4444444444444444,
     "experiment_id": "DIV01",
-    "macro_mrr": 0.2546296296296296,
+    "macro_mrr": 0.26851851851851855,
     "query_type": "trend_all_reports"
   },
   {
@@ -990,12 +990,12 @@
     "query_type": "pairwise_comparison"
   },
   {
-    "all_reports_hit": 0.16666666666666666,
+    "all_reports_hit": 0.3333333333333333,
     "case_count": 6,
-    "complete_evidence_recall": 0.16666666666666666,
-    "evidence_recall": 0.38888888888888884,
+    "complete_evidence_recall": 0.3333333333333333,
+    "evidence_recall": 0.4444444444444444,
     "experiment_id": "COMBINED_01",
-    "macro_mrr": 0.23611111111111108,
+    "macro_mrr": 0.24722222222222223,
     "query_type": "trend_all_reports"
   },
   {

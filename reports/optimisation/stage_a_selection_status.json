@@ -1,8 +1,11 @@
 {
+  "eligible_experiment_count": 17,
   "generation_evaluation_run": false,
   "groq_api_key_available": true,
   "heldout_retrieval_run": false,
-  "selected_experiment_id": "QUOTA_LARGE",
+  "invalid_rerun_count": 0,
+  "selected_experiment_id": "BM02",
   "status": "completed_and_frozen",
-  "valid_experiment_count": 14
+  "valid_development_experiment_count": 31,
+  "valid_rerun_count": 20
 }

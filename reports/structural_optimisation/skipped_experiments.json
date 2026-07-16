@@ -21,7 +21,7 @@
   },
   {
     "experiment_id": "PARSER03",
-    "reason": "unstructured is not installed in the local environment"
+    "reason": "unstructured optional dependency not assumed installed"
   },
   {
     "experiment_id": "EMB01",

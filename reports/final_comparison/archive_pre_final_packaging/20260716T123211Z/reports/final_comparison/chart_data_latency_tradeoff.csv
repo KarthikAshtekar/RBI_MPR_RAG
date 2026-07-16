@@ -1,0 +1,46 @@
+method,retrieval_or_generation,dataset_split,complete_evidence_recall,factual_correctness,median_latency_ms,mean_latency_ms,status
+Single-document Dense,retrieval,rbi_mpr_april_2025_dev_v1,,,,30.671183332257595,completed
+Single-document Dense + reranker,retrieval,rbi_mpr_april_2025_dev_v1,,,,1075.7706166691303,completed
+Single-document BM25,retrieval,rbi_mpr_april_2025_dev_v1,,,,2.1740566667479775,completed
+Single-document BM25 + reranker,retrieval,rbi_mpr_april_2025_dev_v1,,,,785.4780566645786,completed
+Single-document Hybrid RRF,retrieval,rbi_mpr_april_2025_dev_v1,,,,25.771019995833438,completed
+Single-document Hybrid RRF + reranker,retrieval,rbi_mpr_april_2025_dev_v1,,,,1233.9421933419846,completed
+Multi-report naive global retrieval,retrieval,dev,0.1,,920.6411000050139,898.6596529421685,completed
+Multi-report report-aware retrieval,retrieval,dev,0.3333333333333333,,1601.9902000116417,1684.427826467607,completed
+Hybrid BM25 + Dense retrieval with RRF,retrieval,dev,0.3333333333333333,,1333.1663999924785,1297.0392899995204,completed
+RRF fusion k=10,retrieval,dev,0.3,,2884.283700004744,2964.0170299996194,completed
+RRF fusion k=30,retrieval,dev,0.3,,2847.663000000466,3053.484859999056,completed
+RRF fusion k=60,retrieval,dev,0.3,,3145.510149995971,3238.7482399998894,completed
+RRF fusion k=100,retrieval,dev,0.3,,2800.3196499921614,2894.6911566648246,completed
+Weighted RRF D1/B1 reference,retrieval,dev,0.3,,2914.2198000045028,2937.9497333332743,completed
+Weighted RRF dense weight 1.5,retrieval,dev,0.3,,3027.1667999986676,3184.607576665197,completed
+Weighted RRF dense weight 2,retrieval,dev,0.3,,3200.6765000041923,3386.901633333279,completed
+Weighted RRF BM25 weight 1.5,retrieval,dev,0.23333333333333334,,2462.2866499994416,2893.9119733360712,completed
+Weighted RRF BM25 weight 2,retrieval,dev,0.23333333333333334,,2782.7395999993314,2921.4010399989397,completed
+Final local cross-encoder retrieval baseline,retrieval,dev,0.36666666666666664,,3159.0397500112886,3168.6039699993366,completed
+Local cross-encoder reranking,retrieval,dev,0.36666666666666664,,3096.756450002431,3048.256253332753,completed
+Candidate-pool/quota optimised retrieval,retrieval,dev,0.36666666666666664,,3729.847000002337,3823.049619999074,completed
+Terminology expansion append,retrieval,dev,0.36666666666666664,,2766.1724499994307,3004.568020000685,completed
+Multi-query retrieval / terminology expansion,retrieval,dev,0.36666666666666664,,2757.7458000014303,2920.5393966656025,completed
+Facet decomposition,retrieval,dev,0.36666666666666664,,2837.389849999454,2995.108583334271,completed
+Exact-overlap diversity filter,retrieval,dev,0.36666666666666664,,3010.5657000021893,3106.1219366674777,completed
+MMR baseline: V2 Cohere selected context,retrieval,dev,0.4666666666666667,,12948.27224999608,11548.754009998811,completed
+True MMR lambda 0.6,retrieval,dev,0.5333333333333333,,15217.13925000222,13625.31814333294,completed
+True MMR lambda 0.7,retrieval,dev,0.5,,15279.256749992783,13638.654916666079,completed
+True MMR lambda 0.8,retrieval,dev,0.4666666666666667,,15228.44014999282,13763.834119998015,completed
+Adjacent expansion boundary,retrieval,dev,0.3,,2952.9055500024697,3051.1948366644597,completed
+Adjacent expansion always,retrieval,dev,0.26666666666666666,,2918.0584000059753,3020.382476664963,completed
+Adjacent expansion trend-only,retrieval,dev,0.3333333333333333,,2982.258299998648,3077.6495633341256,completed
+Child-parent retrieval same-page parent,retrieval,dev,0.2,,3064.396499990835,3125.5285433352888,completed
+Child-parent retrieval adjacent-child parent,retrieval,dev,0.06666666666666667,,3120.6797500053653,3157.709586667382,completed
+Child-parent retrieval page-bounded parent,retrieval,dev,0.13333333333333333,,3167.879799999355,3216.23350000203,completed
+Sentence-window retrieval window 1,retrieval,dev,0.06666666666666667,,3036.2097999895923,3082.6476333342725,completed
+Sentence-window retrieval window 2,retrieval,dev,0.1,,3514.750649999769,3453.6665700036488,completed
+Chunk-window retrieval neighbour chunks,retrieval,dev,0.2,,3280.235800004448,3393.771606668209,completed
+Phase 7 selected final retrieval held-out diagnostic,retrieval,phase7_heldout_reused_for_old_final_only,0.38461538461538464,,2495.7724999985658,2623.7835846214484,completed_historical_heldout
+V2 baseline final retrieval,retrieval,dev,0.36666666666666664,,3159.0397500112886,3168.6039699993366,completed
+V2 Cohere retrieval,retrieval,dev,0.4666666666666667,,12948.27224999608,11548.754009998811,completed
+V2 Cohere retrieval + generation,generation,dev,,0.6343914458612334,26759.0830500003,24020.510626470616,completed
+V2 Cohere retrieval + sufficiency-gated generation,generation,dev,,0.7954456988291574,25694.342349999715,25222.447752941127,completed
+MMR lambda 0.6 retrieval + sufficiency-gated generation,generation,dev,,0.8153331682936946,25053.172150001046,24277.16173823437,completed
+Generation bake-off: GEN_MMR07_SUFFICIENCY_V1,generation,dev,,0.804133157291052,28860.67715000172,,completed

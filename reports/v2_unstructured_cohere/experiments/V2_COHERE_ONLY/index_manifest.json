@@ -1,9 +1,9 @@
 {
   "collection_name": "rbi_mpr_multi_report",
-  "created_at_utc": "2026-07-13T20:33:01.225778+00:00",
+  "created_at_utc": "2026-07-16T12:06:28.063680+00:00",
   "duplicate_chunk_ids": 0,
-  "generated_at_utc": "2026-07-13T20:26:36.143941+00:00",
-  "index_fingerprint": "631343ba39b58c11602ddcb77cfc8da2d4447aeee3741c789c01d10ea17e5f80",
+  "generated_at_utc": "2026-07-16T12:00:05.741997+00:00",
+  "index_fingerprint": "03a8a1fc8fef782b28e0a9a9b23b2d937a8f572d8f33f83b0b44cdda542ca0f6",
   "registry_version": "rbi_mpr_registry_v1",
   "reports": {
     "rbi_mpr_2025_04": {
@@ -11,7 +11,7 @@
       "extraction_status": "extracted",
       "indexing_status": "reused",
       "ingestion_fingerprint": "c39856c0dcb533a3",
-      "ingestion_timestamp_utc": "2026-07-13T20:26:40.797025+00:00",
+      "ingestion_timestamp_utc": "2026-07-16T12:00:10.002821+00:00",
       "page_count": 116,
       "pdf_path": "mpr_april_2025.pdf",
       "registry_metadata": {
@@ -32,7 +32,7 @@
       "extraction_status": "extracted",
       "indexing_status": "reused",
       "ingestion_fingerprint": "3b588c655e2e332b",
-      "ingestion_timestamp_utc": "2026-07-13T20:26:45.072923+00:00",
+      "ingestion_timestamp_utc": "2026-07-16T12:00:14.329599+00:00",
       "page_count": 112,
       "pdf_path": "data\\raw\\Oct_2025_RBI_MPR.pdf",
       "registry_metadata": {
@@ -53,7 +53,7 @@
       "extraction_status": "extracted",
       "indexing_status": "reused",
       "ingestion_fingerprint": "cfcb72c4fbdbf405",
-      "ingestion_timestamp_utc": "2026-07-13T20:26:49.384235+00:00",
+      "ingestion_timestamp_utc": "2026-07-16T12:00:18.457782+00:00",
       "page_count": 118,
       "pdf_path": "data\\raw\\April_2026_RBI_MPR.pdf",
       "registry_metadata": {

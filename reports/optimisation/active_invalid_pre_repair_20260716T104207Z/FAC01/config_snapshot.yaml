@@ -1,0 +1,15 @@
+id: FAC01
+dk: 50
+bk: 50
+retain: 30
+rrf: 60
+dw: 1
+bw: 1
+quota:
+- 6
+- 4
+- 3
+family: facet_decomposition
+parent_experiment: QUOTA_EXPANDED
+query_normalisation: true
+facet_decomposition: true

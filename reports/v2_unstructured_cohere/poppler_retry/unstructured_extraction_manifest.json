@@ -18,7 +18,7 @@
       }
     ]
   },
-  "created_at_utc": "2026-07-13T23:33:01.314319+00:00",
+  "created_at_utc": "2026-07-16T12:00:23.638953+00:00",
   "limitation": "Unstructured extraction was not executed; no chart/table values are fabricated.",
   "ocr_available": false,
   "reason": "Unstructured extraction failed for rbi_mpr_2025_04: OCRUnavailable: OCR fallback was skipped because tesseract is not installed or not on PATH.",

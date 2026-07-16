@@ -1,7 +1,7 @@
 # Pre-Final Generation Bake-Off Checksums
 
-Created: 2026-07-14T07:29:12.987883+00:00
-Files captured: 372
+Created: 2026-07-16T12:31:34.445350+00:00
+Files captured: 470
 
 These checksums were captured before writing bake-off outputs. They are audit artifacts, not a license to overwrite frozen results.
 

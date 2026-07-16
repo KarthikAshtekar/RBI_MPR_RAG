@@ -9,8 +9,8 @@
   "evidence_recall": 0.5055555555555555,
   "experiment_id": "ADJ00",
   "family": "adjacent_expansion",
-  "finished_at": "2026-07-13T12:37:30.313673+00:00",
-  "index_fingerprint": "778f986612e97ec5f39b23ee81e35abb281cff7ae92268fa38861ce77b7dec01",
+  "finished_at": "2026-07-16T11:45:07.846575+00:00",
+  "index_fingerprint": "928f326807c9d0fb586b7169272a6764be6e7c044409235e0964b43ae4bfbe79",
   "loss_stage_counts": {
     "evidence_found": 28,
     "lost_by_quota": 13,
@@ -19,14 +19,14 @@
   },
   "macro_mrr": 0.3537037037037037,
   "mean_estimated_tokens": 2150.9333333333334,
-  "mean_latency_ms": 3156.8762200108417,
+  "mean_latency_ms": 3168.6039699993366,
   "mean_repeated_text_ratio": 0.0,
   "mean_selected_characters": 8602.466666666667,
   "mean_selected_chunks": 9.0,
   "mean_unique_pages": 7.633333333333334,
-  "median_latency_ms": 2947.2414500196464,
-  "p95_latency_ms": 6063.70609998703,
+  "median_latency_ms": 3159.0397500112886,
+  "p95_latency_ms": 5449.888599992846,
   "report_coverage": 1.0,
   "report_level_row_count": 54,
-  "started_at": "2026-07-13T12:35:55.493380+00:00"
+  "started_at": "2026-07-16T11:43:32.678321+00:00"
 }
