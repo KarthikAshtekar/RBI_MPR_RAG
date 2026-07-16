@@ -9,23 +9,23 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
+from .artifact_io import make_checksum_manifest, now_iso, relative_posix as rel, write_csv, write_json, write_markdown as write_md
 from .env_loading import load_project_dotenv
 from .evidence_sufficiency import classify_all
-from .final_evaluation import make_checksum_manifest, write_csv, write_json
-from .v2_generation_contexts import REPORT_ORDER
-from .v2_generation_evaluation import (
+from .evaluation_cases import expected_case_lookup
+from .generation_evaluation_core import (
     DEFAULT_MODEL,
     DEFAULT_TEMPERATURE,
     METRIC_NAMES,
     GroqGenerator,
     actual_key_values_serialized,
     evaluate_generation_rows,
-    expected_case_lookup,
     load_json_file,
-    now_iso,
     summarise_eval_metrics,
     summarise_metric_coverage,
 )
+from .generation_helpers import mean_or_none as _mean, source_label as _source_label
+from .v2_generation_contexts import REPORT_ORDER
 from .v2_sufficiency import PROMPT_VERSION, run_sufficiency_generation_cases
 
 
@@ -47,22 +47,10 @@ CHECKSUM_TARGETS = [
 ]
 
 
-def write_md(path: Path, lines: list[str]) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
-
-
 def read_json(path: Path, default: Any) -> Any:
     if not path.exists():
         return default
     return json.loads(path.read_text(encoding="utf-8"))
-
-
-def rel(root: Path, path: Path) -> str:
-    try:
-        return str(path.resolve().relative_to(root.resolve())).replace("\\", "/")
-    except ValueError:
-        return str(path).replace("\\", "/")
 
 
 def archive_existing_output(root: Path) -> dict[str, Any]:
@@ -175,10 +163,6 @@ def _chunk_rank_map(row: dict[str, Any]) -> dict[str, dict[str, Any]]:
         if chunk_id:
             trace[chunk_id] = {**item, "trace_index": index}
     return trace
-
-
-def _source_label(block: dict[str, Any]) -> str:
-    return f"[SOURCE: {block['report_period']} MPR | page {block['page_number']} | chunk {block['chunk_id']}]"
 
 
 def _estimated_tokens(blocks: list[dict[str, Any]]) -> int:
@@ -463,11 +447,6 @@ def evaluate_generation(root: Path) -> dict[str, Any]:
         cov_lines.append(f"| {name} | {item['coverage']} | {item['successful_evaluations']} | {item['failed_evaluations']} | {item['not_applicable']} |")
     write_md(exp_dir / "metric_coverage.md", cov_lines)
     return summary
-
-
-def _mean(values: list[Any]) -> float | None:
-    numeric = [float(value) for value in values if isinstance(value, (int, float, bool))]
-    return sum(numeric) / len(numeric) if numeric else None
 
 
 def _metric(summary: dict[str, Any], name: str) -> float | None:

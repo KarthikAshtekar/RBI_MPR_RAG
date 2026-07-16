@@ -1,18 +1,24 @@
 from __future__ import annotations
 
-import csv
 import json
 import math
 import os
 import statistics
 from collections import Counter, defaultdict
-from datetime import datetime, timezone
-from hashlib import sha256
 from pathlib import Path
 from typing import Any
 
 import yaml
 
+from .artifact_io import (
+    file_sha,
+    make_checksum_manifest as make_checksum_manifest_for_targets,
+    now_iso,
+    rel_path,
+    stable_json_hash,
+    write_csv,
+    write_json,
+)
 from .experiment_tracing import LATENCY_FIELDS, recompute_loss_stage, validate_latency_schema
 from .multi_evaluation import load_jsonl
 from .uncertainty import bootstrap_mean_interval, wilson_interval
@@ -98,42 +104,6 @@ GENERATION_REQUIRED_FIELDS = {
 }
 
 
-def now_iso() -> str:
-    return datetime.now(timezone.utc).isoformat()
-
-
-def stable_json_hash(value: Any) -> str:
-    return sha256(json.dumps(value, sort_keys=True, default=str).encode("utf-8")).hexdigest()
-
-
-def file_sha(path: Path) -> str:
-    return sha256(path.read_bytes()).hexdigest()
-
-
-def rel_path(path: Path, root: Path = Path(".")) -> str:
-    return str(path.resolve().relative_to(root.resolve())).replace("/", "\\")
-
-
-def write_json(path: Path, value: Any) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(value, indent=2, sort_keys=True, default=dict) + "\n", encoding="utf-8")
-
-
-def write_csv(path: Path, rows: list[dict[str, Any]]) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    fields = sorted({key for row in rows for key in row}) if rows else ["empty"]
-    with path.open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fields)
-        writer.writeheader()
-        for row in rows:
-            writer.writerow({
-                key: json.dumps(value, sort_keys=True, default=dict)
-                if isinstance(value, (dict, list, tuple, Counter))
-                else value
-                for key, value in row.items()
-            })
-
-
 def nested_get(value: dict[str, Any], dotted: str) -> Any:
     current: Any = value
     for part in dotted.split("."):
@@ -144,27 +114,7 @@ def nested_get(value: dict[str, Any], dotted: str) -> Any:
 
 
 def make_checksum_manifest(root: Path = Path("."), targets: list[Path] | None = None) -> dict[str, Any]:
-    targets = targets or CHECKSUM_TARGETS
-    entries: list[dict[str, Any]] = []
-    missing_targets: list[str] = []
-    for target in targets:
-        path = root / target
-        if path.is_file():
-            entries.append({"path": rel_path(path, root), "sha256": file_sha(path)})
-        elif path.is_dir():
-            for child in sorted(path.rglob("*")):
-                if child.is_file():
-                    entries.append({"path": rel_path(child, root), "sha256": file_sha(child)})
-        else:
-            missing_targets.append(str(target))
-    return {
-        "schema_version": 1,
-        "created_at_utc": now_iso(),
-        "targets": [str(target).replace("/", "\\") for target in targets],
-        "entry_count": len(entries),
-        "missing_targets": missing_targets,
-        "entries": entries,
-    }
+    return make_checksum_manifest_for_targets(root, targets or CHECKSUM_TARGETS)
 
 
 def verify_checksum_entries(root: Path, entries: list[dict[str, Any]]) -> dict[str, Any]:

@@ -11,12 +11,19 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
+from .artifact_io import (
+    make_checksum_manifest,
+    now_iso,
+    relative_posix as rel,
+    stable_json_hash,
+    write_csv,
+    write_json,
+    write_markdown as write_md,
+)
 from .env_loading import load_project_dotenv
 from .evidence_sufficiency import classify_all
-from .final_evaluation import make_checksum_manifest, stable_json_hash, write_csv, write_json
-from .multi_evaluation import load_jsonl
-from .v2_generation_contexts import REPORT_ORDER
-from .v2_generation_evaluation import (
+from .evaluation_cases import expected_case_lookup
+from .generation_evaluation_core import (
     DEFAULT_MODEL,
     DEFAULT_TEMPERATURE,
     METRIC_NAMES,
@@ -24,10 +31,11 @@ from .v2_generation_evaluation import (
     actual_key_values_serialized,
     evaluate_generation_rows,
     invalid_citations,
-    now_iso,
     parse_citations,
     safe_error_message,
 )
+from .generation_helpers import mean_or_none as _mean, source_label as _source_label
+from .v2_generation_contexts import REPORT_ORDER
 from .v2_sufficiency import (
     PROMPT_VERSION,
     apply_sufficiency_postprocessing,
@@ -145,27 +153,10 @@ VARIANTS: dict[str, dict[str, Any]] = {
 }
 
 
-def write_md(path: Path, lines: list[str]) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
-
-
 def read_json(path: Path, default: Any) -> Any:
     if not path.exists():
         return default
     return json.loads(path.read_text(encoding="utf-8"))
-
-
-def rel(root: Path, path: Path) -> str:
-    try:
-        return str(path.resolve().relative_to(root.resolve())).replace("\\", "/")
-    except ValueError:
-        return str(path).replace("\\", "/")
-
-
-def expected_case_lookup(root: Path = Path("."), split: str = "dev") -> dict[str, dict[str, Any]]:
-    path = root / f"data/evaluation/multi_report_{split}.jsonl"
-    return {case["question_id"]: case for case in load_jsonl(path)}
 
 
 def archive_existing_output(root: Path) -> dict[str, Any]:
@@ -311,11 +302,6 @@ def prepare_final_generation_bakeoff(root: Path = Path(".")) -> dict[str, Any]:
     }
 
 
-def _mean(values: list[Any]) -> float | None:
-    numeric = [float(value) for value in values if isinstance(value, (int, float, bool))]
-    return sum(numeric) / len(numeric) if numeric else None
-
-
 def _median(values: list[Any]) -> float | None:
     numeric = sorted(float(value) for value in values if isinstance(value, (int, float, bool)))
     return statistics.median(numeric) if numeric else None
@@ -340,10 +326,6 @@ def _chunk_rank_map(row: dict[str, Any]) -> dict[str, dict[str, Any]]:
         if chunk_id:
             trace[chunk_id] = {**item, "trace_index": index}
     return trace
-
-
-def _source_label(block: dict[str, Any]) -> str:
-    return f"[SOURCE: {block['report_period']} MPR | page {block['page_number']} | chunk {block['chunk_id']}]"
 
 
 def _estimated_tokens(blocks: list[dict[str, Any]]) -> int:
@@ -1555,15 +1537,4 @@ def generate_final_generation_bakeoff_report(root: Path = Path(".")) -> dict[str
         "validation": validation,
         "selected_variant": decision.get("selected_variant_id"),
         "category_rows": len(category),
-    }
-
-
-def selected_generation_summary(root: Path = Path(".")) -> dict[str, Any]:
-    decision = read_json(root / OUT_DIR / "final_generation_strategy_selection_decision.json", {})
-    selected_id = decision.get("selected_variant_id") or PREVIOUS_BEST_VARIANT
-    row = decision.get("selected_row") or {}
-    return {
-        "decision": decision,
-        "selected_variant_id": selected_id,
-        "selected_row": row,
     }

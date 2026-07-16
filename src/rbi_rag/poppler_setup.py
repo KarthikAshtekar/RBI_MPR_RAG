@@ -4,11 +4,10 @@ import json
 import os
 import shutil
 import subprocess
-from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Callable, Iterable
 
-from .final_evaluation import file_sha, rel_path, write_json
+from .artifact_io import file_sha, now_iso, rel_path, write_json
 
 
 POPPLER_RETRY_OUT = Path("reports/v2_unstructured_cohere/poppler_retry")
@@ -33,10 +32,6 @@ POPPLER_CHECKSUM_TARGETS = [
     Path("data/evaluation"),
     Path("data/raw"),
 ]
-
-
-def now_iso() -> str:
-    return datetime.now(timezone.utc).isoformat()
 
 
 def safe_text(value: str | None, *, limit: int = 4000) -> str | None:

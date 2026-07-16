@@ -7,6 +7,8 @@ from collections import defaultdict
 from pathlib import Path
 from typing import Any
 
+from .security import contains_key_material
+
 
 ROOT = Path(__file__).resolve().parents[2]
 
@@ -217,15 +219,6 @@ def mrr_mmr_explanation() -> str:
 
 def production_status_text() -> str:
     return "Not production-ready; demo/interview-ready with known limitations."
-
-
-def contains_key_material(value: Any) -> bool:
-    text = json.dumps(value, default=str)
-    for name in ("GROQ_API_KEY", "COHERE_API_KEY", "UNSTRUCTURED_API_KEY"):
-        secret = os.getenv(name)
-        if secret and secret in text:
-            return True
-    return False
 
 
 def contains_production_overclaim(text: str) -> bool:

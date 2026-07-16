@@ -10,21 +10,17 @@ import statistics
 import time
 from collections import Counter
 from dataclasses import dataclass
-from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Iterable
 
 import yaml
 from langchain_core.documents import Document
 
+from .artifact_io import file_sha, now_iso, stable_json_hash, write_csv, write_json, write_markdown
 from .env_loading import load_project_dotenv
 from .final_evaluation import (
     contains_groq_secret,
-    file_sha,
     report_level_rows,
-    stable_json_hash,
-    write_csv,
-    write_json,
 )
 from .multi_config import MultiReportConfig
 from .multi_index import build_multi_report_index
@@ -74,17 +70,8 @@ MMR_RAW_REQUIRED_FIELDS = {
 }
 
 
-def now_iso() -> str:
-    return datetime.now(timezone.utc).isoformat()
-
-
 def read_json(path: Path, default: Any = None) -> Any:
     return json.loads(path.read_text(encoding="utf-8")) if path.exists() else default
-
-
-def write_markdown(path: Path, lines: list[str]) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
 
 
 def write_yaml(path: Path, payload: dict[str, Any]) -> None:
@@ -1054,4 +1041,3 @@ def generate_mmr_report(root: Path = Path(".")) -> dict[str, Any]:
     ]
     write_markdown(out / "mmr_report.md", lines)
     return {"status": "complete", "report": str(out / "mmr_report.md")}
-

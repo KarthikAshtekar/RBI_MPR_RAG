@@ -6,7 +6,6 @@ import shutil
 import statistics
 import time
 from collections import Counter, defaultdict
-from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
@@ -15,24 +14,20 @@ from langchain_chroma import Chroma
 from langchain_core.documents import Document
 from langchain_huggingface import HuggingFaceEmbeddings
 
+from .artifact_io import file_sha, make_checksum_manifest, now_iso, stable_json_hash, write_csv, write_json
 from .cohere_reranker import CohereRerankConfig, CohereRerankError, CohereReranker, cohere_available
 from .env_loading import load_project_dotenv
 from .final_evaluation import (
     assert_config_not_mutated,
     canonicalise_retrieval_row,
     contains_groq_secret,
-    file_sha,
     groq_key_available,
-    make_checksum_manifest,
     recompute_retrieval_metrics,
     report_level_rows,
-    stable_json_hash,
     validate_final_status,
     validate_generation_integrity,
     validate_heldout_dataset_manifest,
     validate_heldout_raw_schema,
-    write_csv,
-    write_json,
 )
 from .config import file_sha256
 from .multi_config import MultiReportConfig
@@ -50,8 +45,7 @@ from .unstructured_extraction import (
     unstructured_version,
 )
 from .uncertainty import bootstrap_mean_interval
-
-from scripts.run_stage_a_ablations import run_question as run_stage_a_question
+from .stage_a_runner import run_question as run_stage_a_question
 
 
 ROOT = Path(".")
@@ -114,10 +108,6 @@ V2_REQUIRED_RAW_FIELDS = {
     "warnings",
     "errors",
 }
-
-
-def now_iso() -> str:
-    return datetime.now(timezone.utc).isoformat()
 
 
 def _package_available(name: str) -> bool:

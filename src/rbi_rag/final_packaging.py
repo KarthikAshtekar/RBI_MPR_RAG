@@ -1,15 +1,14 @@
 from __future__ import annotations
 
-import csv
 import hashlib
 import json
 import os
 import shutil
 import subprocess
-from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
+from .artifact_io import now_iso, write_json, write_markdown as write_md
 from .env_loading import load_project_dotenv
 
 
@@ -50,33 +49,10 @@ CRITICAL_TARGETS = {
 }
 
 
-def now_iso() -> str:
-    return datetime.now(timezone.utc).isoformat()
-
-
 def read_json(path: Path, default: Any) -> Any:
     if not path.exists():
         return default
     return json.loads(path.read_text(encoding="utf-8"))
-
-
-def write_json(path: Path, payload: Any) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(payload, indent=2, sort_keys=True), encoding="utf-8")
-
-
-def write_md(path: Path, lines: list[str]) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
-
-
-def write_csv(path: Path, rows: list[dict[str, Any]]) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    fields = sorted({key for row in rows for key in row})
-    with path.open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fields)
-        writer.writeheader()
-        writer.writerows(rows)
 
 
 def sha256_file(path: Path) -> str:

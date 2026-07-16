@@ -18,6 +18,7 @@ from rbi_rag.multi_evaluation import load_jsonl
 from rbi_rag.multi_index import build_multi_report_index
 from rbi_rag.report_bm25 import BM25ByReport
 from rbi_rag.report_registry import ReportRegistry
+from rbi_rag.stage_a_runner import groq_key_available, run_question, warm_up
 from rbi_rag.temporal_router import TemporalQueryRouter
 
 from scripts.run_phase6b_structural_experiments import (
@@ -30,7 +31,6 @@ from scripts.run_phase6b_structural_experiments import (
     validate_experiment,
     write_experiment,
 )
-from scripts.run_stage_a_ablations import groq_key_available, run_question, warm_up
 
 
 def parser():

@@ -5,8 +5,7 @@ from collections import Counter
 from pathlib import Path
 from typing import Any
 
-from .final_evaluation import write_csv, write_json
-from .v2_generation_evaluation import now_iso
+from .artifact_io import now_iso, write_csv, write_json
 
 
 SUFFICIENCY_STATUSES = {"sufficient", "partially_sufficient", "insufficient"}

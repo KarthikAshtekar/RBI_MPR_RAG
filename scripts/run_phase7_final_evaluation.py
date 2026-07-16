@@ -40,13 +40,13 @@ from rbi_rag.multi_evaluation import load_jsonl
 from rbi_rag.multi_index import build_multi_report_index
 from rbi_rag.report_bm25 import BM25ByReport
 from rbi_rag.report_registry import ReportRegistry
+from rbi_rag.stage_a_runner import run_question, warm_up
 from rbi_rag.temporal_router import TemporalQueryRouter
 
 from scripts.run_phase6b_structural_experiments import (
     apply_structural_transform,
     flatten_for_stage_a,
 )
-from scripts.run_stage_a_ablations import run_question, warm_up
 
 
 OUT = ROOT / "reports" / "final_evaluation"
@@ -510,4 +510,3 @@ def main(argv=None) -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

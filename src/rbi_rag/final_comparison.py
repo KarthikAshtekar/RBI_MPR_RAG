@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-import csv
 import json
 import os
 import shutil
@@ -9,8 +8,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-import yaml
-
+from .artifact_io import write_csv, write_json
 
 OUT_DIR = Path("reports/final_comparison")
 
@@ -83,12 +81,6 @@ def load_json(path: Path, default: Any = None) -> Any:
     if not path.exists():
         return default
     return json.loads(path.read_text(encoding="utf-8"))
-
-
-def load_yaml(path: Path, default: Any = None) -> Any:
-    if not path.exists():
-        return default
-    return yaml.safe_load(path.read_text(encoding="utf-8"))
 
 
 def point(value: Any) -> Any:
@@ -680,28 +672,6 @@ def build_master_rows(root: Path = Path(".")) -> list[dict[str, Any]]:
         ))
 
     return sorted(rows, key=lambda row: (row.get("sort_order") or 9999, row.get("method") or ""))
-
-
-def safe_json_dump(value: Any) -> str:
-    return json.dumps(value, indent=2, sort_keys=True, default=str)
-
-
-def write_json(path: Path, value: Any) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(safe_json_dump(value) + "\n", encoding="utf-8")
-
-
-def write_csv(path: Path, rows: list[dict[str, Any]], fields: list[str] | None = None) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    fields = fields or sorted({key for row in rows for key in row})
-    with path.open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fields)
-        writer.writeheader()
-        for row in rows:
-            writer.writerow({
-                key: json.dumps(row.get(key), sort_keys=True) if isinstance(row.get(key), (list, dict)) else row.get(key)
-                for key in fields
-            })
 
 
 def fmt(value: Any) -> str:

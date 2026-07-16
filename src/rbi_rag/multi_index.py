@@ -112,13 +112,6 @@ def build_multi_report_index(config: MultiReportConfig, registry: ReportRegistry
     return store, chunk_sets, manifest
 
 
-def identify_source_pdf(path: Path, expected_period: str) -> bool:
-    pages = PyPDFLoader(str(path)).load()
-    text = " ".join(page.page_content for page in pages[:4]).lower()
-    return "monetary policy report" in text and expected_period.lower() in text \
-        and "rag pipeline" not in text
-
-
 def inspect_shared_index(store, registry: ReportRegistry):
     counts = {}
     for report in registry.enabled():

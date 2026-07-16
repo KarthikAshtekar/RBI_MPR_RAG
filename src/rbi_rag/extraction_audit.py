@@ -75,12 +75,3 @@ def audit_reports(registry, output_json: Path, output_markdown: Path):
         lines.append(f"| {r['report_id']} | {r['page']} | {r['page_type']} | {r['severity']} | {r['reading_order_status']} | {r['recommended_action']} |")
     output_markdown.write_text("\n".join(lines) + "\n", encoding="utf-8")
     return payload
-
-
-def validate_audit_schema(payload):
-    required = {"report_id", "page", "page_type", "text_extraction_status",
-                "reading_order_status", "table_preservation_status",
-                "chart_label_preservation_status", "severity", "notes", "recommended_action"}
-    allowed = {"clean", "minor_issue", "material_issue", "unusable_for_precise_QA"}
-    return bool(payload.get("records")) and all(required <= set(row) and row["severity"] in allowed
-                                                for row in payload["records"])
