@@ -28,8 +28,8 @@
   "evidence_recall": 0.49444444444444446,
   "experiment_id": "BM02",
   "family": "bm25_preprocessing",
-  "finished_at": "2026-07-13T10:50:18.809312+00:00",
-  "index_fingerprint": "d30cf1f43c1f86d055df51e25352b1f02a3c663c62794ffddcaf8e7f83b7c4b7",
+  "finished_at": "2026-07-16T10:15:46.330591+00:00",
+  "index_fingerprint": "d063b65fcefc1858e3315b9e67356a80310b8ae9b4d0864e98dd7c18d8553c1a",
   "loss_stage_counts": {
     "evidence_found": 27,
     "lost_by_quota": 14,
@@ -38,15 +38,15 @@
   },
   "macro_mrr": 0.3509259259259259,
   "mean_estimated_tokens": 1812.3333333333333,
-  "mean_latency_ms": 4089.0562766619646,
+  "mean_latency_ms": 3362.507429999823,
   "mean_repeated_text_ratio": 0.0,
   "mean_selected_characters": 7247.733333333334,
   "mean_selected_chunks": 7.6,
   "mean_unique_pages": 6.6,
-  "median_latency_ms": 3868.166000029305,
-  "p95_latency_ms": 6511.247100017499,
+  "median_latency_ms": 3100.5115499938256,
+  "p95_latency_ms": 6334.442999999737,
   "report_coverage": 1.0,
   "report_level_row_count": 54,
-  "started_at": "2026-07-13T10:48:16.047460+00:00"
+  "started_at": "2026-07-16T10:14:05.373049+00:00"
 }
 ```

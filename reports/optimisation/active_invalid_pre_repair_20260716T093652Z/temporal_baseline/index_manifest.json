@@ -1,0 +1,73 @@
+{
+  "collection_name": "rbi_mpr_multi_report",
+  "duplicate_chunk_ids": 0,
+  "generated_at_utc": "2026-07-13T00:41:05.353796+00:00",
+  "registry_version": "rbi_mpr_registry_v1",
+  "reports": {
+    "rbi_mpr_2025_04": {
+      "chunk_count": 461,
+      "extraction_status": "extracted",
+      "indexing_status": "reused",
+      "ingestion_fingerprint": "c39856c0dcb533a3",
+      "ingestion_timestamp_utc": "2026-07-13T00:41:10.291355+00:00",
+      "page_count": 116,
+      "pdf_path": "mpr_april_2025.pdf",
+      "registry_metadata": {
+        "enabled": true,
+        "report_date": "2025-04-01",
+        "report_id": "rbi_mpr_2025_04",
+        "report_month": 4,
+        "report_period": "April 2025",
+        "report_type": "RBI_MPR",
+        "report_year": 2025
+      },
+      "sha256": "6b505611e2232e6c8ce9af07018dc9ddba9f46d3efdf3f6ac3a2d22ef9b74752",
+      "status": "available",
+      "validation_status": "validated"
+    },
+    "rbi_mpr_2025_10": {
+      "chunk_count": 463,
+      "extraction_status": "extracted",
+      "indexing_status": "reused",
+      "ingestion_fingerprint": "3b588c655e2e332b",
+      "ingestion_timestamp_utc": "2026-07-13T00:41:14.940171+00:00",
+      "page_count": 112,
+      "pdf_path": "data\\raw\\Oct_2025_RBI_MPR.pdf",
+      "registry_metadata": {
+        "enabled": true,
+        "report_date": "2025-10-01",
+        "report_id": "rbi_mpr_2025_10",
+        "report_month": 10,
+        "report_period": "October 2025",
+        "report_type": "RBI_MPR",
+        "report_year": 2025
+      },
+      "sha256": "4d7a955dd8bbb74fbd85b3c9e3085776dc7fbb4cbc70da2947352a0112b6022b",
+      "status": "available",
+      "validation_status": "validated"
+    },
+    "rbi_mpr_2026_04": {
+      "chunk_count": 481,
+      "extraction_status": "extracted",
+      "indexing_status": "reused",
+      "ingestion_fingerprint": "cfcb72c4fbdbf405",
+      "ingestion_timestamp_utc": "2026-07-13T00:41:19.687530+00:00",
+      "page_count": 118,
+      "pdf_path": "data\\raw\\April_2026_RBI_MPR.pdf",
+      "registry_metadata": {
+        "enabled": true,
+        "report_date": "2026-04-01",
+        "report_id": "rbi_mpr_2026_04",
+        "report_month": 4,
+        "report_period": "April 2026",
+        "report_type": "RBI_MPR",
+        "report_year": 2026
+      },
+      "sha256": "dbcdb6edc969f198a67044c5eb4297b13c9ad3f691928e9e0661ec751cfce32c",
+      "status": "available",
+      "validation_status": "validated"
+    }
+  },
+  "schema_version": 1,
+  "total_chunk_count": 1405
+}

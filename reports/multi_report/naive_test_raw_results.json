@@ -40,7 +40,7 @@
       "retrieved_pages_by_report": {
         "rbi_mpr_2025_04": []
       },
-      "retrieval_latency_ms": 907.1792999748141
+      "retrieval_latency_ms": 741.2378000008175
     },
     {
       "question_id": "single_test_002",
@@ -79,7 +79,7 @@
       "retrieved_pages_by_report": {
         "rbi_mpr_2025_04": []
       },
-      "retrieval_latency_ms": 1021.2168999714777
+      "retrieval_latency_ms": 1045.5082999978913
     },
     {
       "question_id": "single_test_003",
@@ -122,7 +122,7 @@
           10
         ]
       },
-      "retrieval_latency_ms": 854.2246999568306
+      "retrieval_latency_ms": 674.8939999961294
     },
     {
       "question_id": "single_test_004",
@@ -162,7 +162,7 @@
       "retrieved_pages_by_report": {
         "rbi_mpr_2025_10": []
       },
-      "retrieval_latency_ms": 744.2040999885648
+      "retrieval_latency_ms": 639.1967999952612
     },
     {
       "question_id": "single_test_005",
@@ -206,7 +206,7 @@
           111
         ]
       },
-      "retrieval_latency_ms": 774.0157999796793
+      "retrieval_latency_ms": 732.0828000083566
     },
     {
       "question_id": "single_test_006",
@@ -250,7 +250,7 @@
           90
         ]
       },
-      "retrieval_latency_ms": 1071.96600001771
+      "retrieval_latency_ms": 984.8172999918461
     },
     {
       "question_id": "pair_test_001",
@@ -304,7 +304,7 @@
           10
         ]
       },
-      "retrieval_latency_ms": 1042.0250999741256
+      "retrieval_latency_ms": 981.4406000077724
     },
     {
       "question_id": "pair_test_002",
@@ -361,7 +361,7 @@
           76
         ]
       },
-      "retrieval_latency_ms": 679.9903999781236
+      "retrieval_latency_ms": 674.6019999991404
     },
     {
       "question_id": "pair_test_003",
@@ -418,7 +418,7 @@
           113
         ]
       },
-      "retrieval_latency_ms": 829.8541999538429
+      "retrieval_latency_ms": 699.8193000326864
     },
     {
       "question_id": "pair_test_004",
@@ -469,7 +469,7 @@
         ],
         "rbi_mpr_2026_04": []
       },
-      "retrieval_latency_ms": 1081.1946999747306
+      "retrieval_latency_ms": 1060.0434000079986
     },
     {
       "question_id": "pair_test_005",
@@ -520,7 +520,7 @@
         ],
         "rbi_mpr_2026_04": []
       },
-      "retrieval_latency_ms": 633.3291999762878
+      "retrieval_latency_ms": 744.2443999752868
     },
     {
       "question_id": "trend_test_001",
@@ -592,7 +592,7 @@
           18
         ]
       },
-      "retrieval_latency_ms": 894.7283999295905
+      "retrieval_latency_ms": 1357.0323000167264
     },
     {
       "question_id": "trend_test_002",
@@ -662,7 +662,7 @@
           18
         ]
       },
-      "retrieval_latency_ms": 885.8829000382684
+      "retrieval_latency_ms": 1049.2714000138221
     },
     {
       "question_id": "unsupported_test_001",
@@ -758,9 +758,9 @@
       "n": 6
     },
     "latency_ms": {
-      "mean": 761.3207799809364,
-      "median": 854.2246999568306,
-      "p95": 1081.1946999747306
+      "mean": 758.9460266695824,
+      "median": 741.2378000008175,
+      "p95": 1357.0323000167264
     },
     "bootstrap_resamples": 2000,
     "confidence_level": 0.95,

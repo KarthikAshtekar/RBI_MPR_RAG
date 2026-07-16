@@ -29,8 +29,8 @@
   "evidence_recall": 0.4777777777777778,
   "experiment_id": "EXP02",
   "family": "terminology_expansion",
-  "finished_at": "2026-07-13T10:45:59.187724+00:00",
-  "index_fingerprint": "d30cf1f43c1f86d055df51e25352b1f02a3c663c62794ffddcaf8e7f83b7c4b7",
+  "finished_at": "2026-07-16T10:12:22.785645+00:00",
+  "index_fingerprint": "d063b65fcefc1858e3315b9e67356a80310b8ae9b4d0864e98dd7c18d8553c1a",
   "loss_stage_counts": {
     "evidence_found": 26,
     "lost_by_quota": 15,
@@ -39,15 +39,15 @@
   },
   "macro_mrr": 0.3138888888888889,
   "mean_estimated_tokens": 1815.4,
-  "mean_latency_ms": 4229.3524566669175,
+  "mean_latency_ms": 2978.5248466665507,
   "mean_repeated_text_ratio": 0.0,
   "mean_selected_characters": 7259.966666666666,
   "mean_selected_chunks": 7.6,
   "mean_unique_pages": 6.5,
-  "median_latency_ms": 4152.315749990521,
-  "p95_latency_ms": 7517.847000039183,
+  "median_latency_ms": 2769.7907999972813,
+  "p95_latency_ms": 5564.810200012289,
   "report_coverage": 1.0,
   "report_level_row_count": 54,
-  "started_at": "2026-07-13T10:43:52.205528+00:00"
+  "started_at": "2026-07-16T10:10:53.357967+00:00"
 }
 ```
