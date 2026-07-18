@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RBI Temporal RAG Project Explainer</title>
+  <style>
+    :root {
+      --bg: #f6f8fb;
+      --panel: #ffffff;
+      --ink: #0f172a;
+      --muted: #52616b;
+      --line: #d9e2ec;
+      --blue: #1d4ed8;
+      --blue-soft: #dbeafe;
+      --green: #047857;
+      --amber: #b45309;
+      --shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.55;
+    }
+    header {
+      padding: 56px min(7vw, 88px) 34px;
+      background: linear-gradient(135deg, #0f172a 0%, #1d4ed8 100%);
+      color: white;
+    }
+    header p { max-width: 980px; color: #dbeafe; font-size: 1.08rem; }
+    h1 { margin: 0 0 14px; font-size: clamp(2rem, 4vw, 4rem); line-height: 1.05; letter-spacing: -0.04em; }
+    h2 { margin: 0 0 18px; font-size: 1.7rem; letter-spacing: -0.02em; }
+    h3 { margin: 26px 0 12px; }
+    code { background: #eff6ff; color: #1e3a8a; padding: 2px 6px; border-radius: 6px; }
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      padding: 12px min(7vw, 88px);
+      border-bottom: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.94);
+      backdrop-filter: blur(8px);
+    }
+    nav a { color: var(--blue); text-decoration: none; font-weight: 700; font-size: 0.92rem; }
+    main { padding: 28px min(7vw, 88px) 70px; }
+    section {
+      margin: 0 0 28px;
+      padding: 26px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      box-shadow: var(--shadow);
+    }
+    .meta { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 5px 10px;
+      border-radius: 999px;
+      background: var(--blue-soft);
+      color: #1e3a8a;
+      font-weight: 700;
+      font-size: 0.86rem;
+    }
+    .pill.ok { background: #dcfce7; color: #166534; }
+    .pill.warn { background: #fef3c7; color: #92400e; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+      gap: 14px;
+      margin: 20px 0;
+    }
+    .card {
+      padding: 16px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: #fbfdff;
+    }
+    .card span { display: block; color: var(--muted); font-size: 0.84rem; }
+    .card strong { display: block; margin: 3px 0; font-size: 1.5rem; }
+    .card p { margin: 0; color: var(--muted); font-size: 0.86rem; }
+    .table-wrap { overflow-x: auto; margin: 14px 0 20px; border: 1px solid var(--line); border-radius: 14px; }
+    table { width: 100%; border-collapse: collapse; min-width: 760px; }
+    th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid #e5e7eb; vertical-align: top; }
+    th { background: #f1f5f9; font-size: 0.86rem; color: #334155; }
+    td { font-size: 0.92rem; }
+    tr:last-child td { border-bottom: none; }
+    .pipeline {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 14px;
+    }
+    .pipeline div {
+      padding: 15px;
+      border-left: 4px solid var(--blue);
+      background: #f8fafc;
+      border-radius: 12px;
+    }
+    .pipeline b { display: block; margin-bottom: 6px; }
+    .pipeline span, .note, .callout { color: var(--muted); }
+    .callout {
+      margin: 18px 0 4px;
+      padding: 14px 16px;
+      border: 1px solid #bfdbfe;
+      border-left: 5px solid var(--blue);
+      border-radius: 12px;
+      background: #eff6ff;
+    }
+    .artifact-list li { margin: 8px 0; }
+    footer { color: var(--muted); padding: 0 min(7vw, 88px) 40px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>RBI Temporal Multi-Document RAG Explainer</h1>
+    <p>Verification companion for the RBI Monetary Policy Report RAG project: data, pipeline, retrieval/generation strategies,
+    results, insights, limitations, and future scope.</p>
+    <div class="meta">
+      <span class="pill">Generated 2026-07-18 01:56 UTC</span>
+      <span class="pill">Offline static HTML</span>
+      <span class="pill warn">Not production-ready</span>
+    </div>
+  </header>
+  
+    <nav>
+      <a href="#overview">Overview</a>
+      <a href="#data">Data</a>
+      <a href="#pipeline">Pipeline</a>
+      <a href="#strategies">Strategies</a>
+      <a href="#results">Results</a>
+      <a href="#insights">Insights</a>
+      <a href="#limitations">Limitations</a>
+      <a href="#future">Future scope</a>
+    </nav>
+    
+  <main>
+    <section id="overview"><h2>Project overview</h2>
+        <p>This project is a <strong>Temporal multi-document RAG for RBI Monetary Policy Reports</strong>.
+        It answers questions that may require one, two, or all three RBI MPRs while preserving report-period attribution.
+        The framing is <strong>policy stance and narrative evolution</strong>, not generic sentiment analysis.</p>
+        <div class="cards"><div class="card"><span>Best retrieval CER</span><strong>53.33%</strong><p>MMR_LAMBDA_06, development split</p></div>
+<div class="card"><span>Best retrieval evidence recall</span><strong>65.00%</strong><p>MMR_LAMBDA_06</p></div>
+<div class="card"><span>Best retrieval Macro MRR</span><strong>0.4055</strong><p>MMR is a diversity selector; MRR is a ranking metric</p></div>
+<div class="card"><span>Factual correctness</span><strong>79.54%</strong><p>V2 Cohere + sufficiency gate</p></div>
+<div class="card"><span>Citation correctness</span><strong>88.24%</strong><p>Citations parsed against supplied chunks</p></div>
+<div class="card"><span>Abstention correctness</span><strong>100.00%</strong><p>Sufficiency-gated generation</p></div></div>
+        <div class="callout">
+          <strong>Current honest status:</strong> best retrieval-only setting is <code>MMR_LAMBDA_06</code>.
+          Best evaluated answer-generation setting in the current checkout is <code>V2_COHERE_ONLY + Groq + sufficiency gate</code>.
+          The project is demo/interview-ready, <strong>not production-ready</strong>.
+        </div>
+        </section>
+    <section id="data"><h2>Data and evaluation design</h2>
+        <p>The corpus contains three RBI Monetary Policy Reports. The evaluation evolved from an April 2025
+        single-report baseline into a three-report temporal benchmark with single-report, pairwise, all-report trend,
+        and unsupported-period questions.</p>
+        <div class="table-wrap"><table><thead><tr><th>Report period</th><th>Report ID</th><th>PDF path</th><th>File status</th></tr></thead><tbody><tr><td>April 2025</td><td>rbi_mpr_2025_04</td><td>mpr_april_2025.pdf</td><td>yes</td></tr>
+<tr><td>October 2025</td><td>rbi_mpr_2025_10</td><td>data/raw/Oct_2025_RBI_MPR.pdf</td><td>yes</td></tr>
+<tr><td>April 2026</td><td>rbi_mpr_2026_04</td><td>data/raw/April_2026_RBI_MPR.pdf</td><td>yes</td></tr></tbody></table></div>
+        <p class="note">Single-document Hit-Rate@4/MRR is preserved for historical comparison only. Multi-report retrieval
+        uses stricter metrics: Complete Evidence Recall, All-Reports Hit, Evidence Recall, Macro Report MRR,
+        report coverage, contamination, latency, and context size.</p>
+        </section>
+    <section id="pipeline"><h2>End-to-end pipeline</h2>
+        <div class="pipeline">
+          <div><b>1. PDF ingestion</b><span>PyPDFLoader remained the valid parser. Unstructured was tested but blocked by OCR/Tesseract requirements.</span></div>
+          <div><b>2. Chunking</b><span>Report-aware chunks preserve source report, page, chunk ID, and metadata.</span></div>
+          <div><b>3. Retrieval</b><span>Dense MiniLM and BM25 candidates are retrieved per required report.</span></div>
+          <div><b>4. Fusion</b><span>Reciprocal Rank Fusion merges dense and lexical candidates.</span></div>
+          <div><b>5. Reranking</b><span>Cohere rerank-v3.5 improves development retrieval quality over the local cross-encoder baseline.</span></div>
+          <div><b>6. Context selection</b><span>Report-aware quotas and MMR reduce repeated evidence and preserve temporal coverage.</span></div>
+          <div><b>7. Sufficiency gate</b><span>Classifies evidence as sufficient, partial, or insufficient before generation.</span></div>
+          <div><b>8. Generation</b><span>Groq Llama 3.1 8B answers from source-labelled contexts with citations.</span></div>
+        </div>
+        </section>
+    <section id="strategies"><h2>Strategies evaluated</h2>
+        <h3>Original one-document strategies</h3>
+        <div class="table-wrap"><table><thead><tr><th>Strategy</th><th>Hit-Rate@4</th><th>MRR</th><th>Latency</th><th>Notes</th></tr></thead><tbody><tr><td>Single-document Dense</td><td>83.33%</td><td>0.6556</td><td>31 ms</td><td>Single-document Hit-Rate@4; not directly comparable to multi-report CER.</td></tr>
+<tr><td>Single-document Dense + reranker</td><td>90.00%</td><td>0.8278</td><td>1,076 ms</td><td>Single-document Hit-Rate@4; not directly comparable to multi-report CER.</td></tr>
+<tr><td>Single-document BM25</td><td>83.33%</td><td>0.6917</td><td>2 ms</td><td>Single-document Hit-Rate@4; not directly comparable to multi-report CER.</td></tr>
+<tr><td>Single-document BM25 + reranker</td><td>86.67%</td><td>0.7667</td><td>785 ms</td><td>Single-document Hit-Rate@4; not directly comparable to multi-report CER.</td></tr>
+<tr><td>Single-document Hybrid RRF</td><td>80.00%</td><td>0.7444</td><td>26 ms</td><td>Single-document Hit-Rate@4; not directly comparable to multi-report CER.</td></tr>
+<tr><td>Single-document Hybrid RRF + reranker</td><td>93.33%</td><td>0.8222</td><td>1,234 ms</td><td>Single-document Hit-Rate@4; not directly comparable to multi-report CER.</td></tr></tbody></table></div>
+        <h3>Controlled V2 parser/reranker comparison</h3>
+        <div class="table-wrap"><table><thead><tr><th>Experiment</th><th>CER</th><th>All-Reports Hit</th><th>Evidence Recall</th><th>Macro MRR</th><th>Median latency</th><th>Reranker</th><th>Parser/status</th></tr></thead><tbody><tr><td>V2_COHERE_ONLY</td><td>46.67%</td><td>50.00%</td><td>60.00%</td><td>0.4154</td><td>12,948 ms</td><td>cohere</td><td>PyPDFLoader</td></tr>
+<tr><td>V2_BASELINE_FINAL</td><td>36.67%</td><td>40.00%</td><td>50.56%</td><td>0.3537</td><td>3,159 ms</td><td>local_cross_encoder</td><td>PyPDFLoader</td></tr>
+<tr><td>V2_UNSTRUCTURED_ONLY</td><td>skipped</td><td>skipped</td><td>skipped</td><td>skipped</td><td>skipped</td><td>n/a</td><td>RuntimeError: Unstructured extraction failed for rbi_mpr_2025_04: OCRUnavailable: OCR fallback was skipped because tesseract is not installed or not on PATH.</td></tr>
+<tr><td>V2_UNSTRUCTURED_COHERE</td><td>skipped</td><td>skipped</td><td>skipped</td><td>skipped</td><td>skipped</td><td>n/a</td><td>RuntimeError: Unstructured extraction failed for rbi_mpr_2025_04: OCRUnavailable: OCR fallback was skipped because tesseract is not installed or not on PATH.</td></tr></tbody></table></div>
+        <h3>MMR context-selection comparison</h3>
+        <div class="table-wrap"><table><thead><tr><th>Experiment</th><th>CER</th><th>All-Reports Hit</th><th>Evidence Recall</th><th>Macro MRR</th><th>Median latency</th><th>Mean tokens</th><th>Eligibility</th></tr></thead><tbody><tr><td>MMR_LAMBDA_06</td><td>53.33%</td><td>56.67%</td><td>65.00%</td><td>0.4055</td><td>15,217 ms</td><td>2,037.03</td><td>eligible</td></tr>
+<tr><td>MMR_LAMBDA_07</td><td>50.00%</td><td>53.33%</td><td>63.33%</td><td>0.4145</td><td>15,279 ms</td><td>2,048.40</td><td>eligible</td></tr>
+<tr><td>MMR_LAMBDA_08</td><td>46.67%</td><td>50.00%</td><td>60.00%</td><td>0.4164</td><td>15,228 ms</td><td>2,047.30</td><td>eligible</td></tr>
+<tr><td>MMR_BASELINE_V2_COHERE</td><td>46.67%</td><td>50.00%</td><td>60.00%</td><td>0.4154</td><td>12,948 ms</td><td>2,096.40</td><td>eligible</td></tr></tbody></table></div>
+        </section>
+    <section id="results"><h2>Key results</h2>
+        <h3>Generation quality</h3>
+        <div class="table-wrap"><table><thead><tr><th>Generation setting</th><th>Factual</th><th>Faithfulness</th><th>Abstention</th><th>Citation</th><th>Temporal attribution</th><th>Comparative</th></tr></thead><tbody><tr><td>Before sufficiency gate</td><td>63.44%</td><td>86.57%</td><td>47.06%</td><td>88.24%</td><td>88.24%</td><td>91.67%</td></tr>
+<tr><td>After sufficiency gate</td><td>79.54%</td><td>97.62%</td><td>100.00%</td><td>88.24%</td><td>88.24%</td><td>27.78%</td></tr></tbody></table></div>
+        <h3>Table and numeric evidence recovery</h3>
+        <div class="table-wrap"><table><thead><tr><th>Experiment</th><th>Slice</th><th>Cases</th><th>CER</th><th>Evidence Recall</th><th>Macro MRR</th></tr></thead><tbody><tr><td>V2_BASELINE_FINAL</td><td>table/numeric questions</td><td>21</td><td>25.00%</td><td>40.83%</td><td>0.2750</td></tr>
+<tr><td>V2_COHERE_ONLY</td><td>table/numeric questions</td><td>21</td><td>40.00%</td><td>55.00%</td><td>0.3668</td></tr>
+<tr><td>V2_BASELINE_FINAL</td><td>table source pages</td><td>8</td><td>25.00%</td><td>45.83%</td><td>0.3906</td></tr>
+<tr><td>V2_COHERE_ONLY</td><td>table source pages</td><td>8</td><td>37.50%</td><td>64.58%</td><td>0.5521</td></tr></tbody></table></div>
+        <div class="callout">
+          Cohere improved Complete Evidence Recall by <strong>10.00%</strong> over the V2 local-reranker baseline.
+          MMR_LAMBDA_06 then improved Complete Evidence Recall by <strong>6.67%</strong> over V2 Cohere retrieval,
+          while slightly lowering Macro MRR versus V2 Cohere. That is expected because MMR optimizes context diversity,
+          not pure rank position.
+        </div>
+        </section>
+    <section id="insights"><h2>Practical insights</h2>
+        <ul>
+          <li><strong>Multi-report retrieval is stricter than single-report retrieval.</strong> A question can hit one report and still fail Complete Evidence Recall if another required report is missing.</li>
+          <li><strong>Cohere helped retrieval quality.</strong> It improved Complete Evidence Recall, Evidence Recall, Macro MRR, and table/numeric retrieval versus the V2 local-reranker baseline, but added latency.</li>
+          <li><strong>MMR helped context completeness.</strong> It improved Complete Evidence Recall and All-Reports Hit by reducing redundancy, even though Macro MRR was slightly lower.</li>
+          <li><strong>The sufficiency gate helped generation behavior.</strong> It improved abstention correctness and faithfulness by forcing the answer path to caveat or abstain when retrieval was incomplete.</li>
+          <li><strong>Tables/charts remain hard.</strong> PyPDFLoader flattens layout. Unstructured needs a deliberate OCR/Tesseract setup before it can be fairly retested here.</li>
+        </ul>
+        </section>
+    <section id="artifacts"><h2>Verification artifacts</h2>
+        <p>The explainer is backed by saved local artifacts, not live API calls.</p>
+        <ul class="artifact-list"><li><code>README.md</code> <span class="pill ok">available</span></li>
+<li><code>Multi_Report_RAG_Explainer.ipynb</code> <span class="pill ok">available</span></li>
+<li><code>streamlit_app.py</code> <span class="pill ok">available</span></li>
+<li><code>reports/final_packaging/final_project_report.md</code> <span class="pill ok">available</span></li>
+<li><code>reports/final_comparison/rag_methods_master_comparison.md</code> <span class="pill ok">available</span></li>
+<li><code>reports/v2_unstructured_cohere/v2_experiment_leaderboard.md</code> <span class="pill ok">available</span></li>
+<li><code>reports/mmr_experiments/mmr_leaderboard.md</code> <span class="pill ok">available</span></li>
+<li><code>reports/v2_sufficiency/sufficiency_results_for_presentation.md</code> <span class="pill ok">available</span></li></ul>
+        </section>
+    <section id="limitations"><h2>Limitations and scientific caveats</h2>
+        <ul>
+          <li>Most final answer-quality metrics are development-only and deterministic heuristic evaluations, not human evaluation.</li>
+          <li>The old Phase 7 held-out set must not be presented as a fresh unbiased V2 benchmark.</li>
+          <li>Final-generation bake-off top-level artifacts are incomplete in the current checkout, so the safest evaluated generation claim remains V2 Cohere retrieval plus sufficiency-gated generation.</li>
+          <li>Unstructured extraction was attempted but blocked for these PDFs because OCR fallback requires Tesseract.</li>
+          <li>No API keys are embedded in this HTML; live Groq/Cohere execution still depends on local environment variables.</li>
+          <li>The system is not production-ready.</li>
+        </ul>
+        </section>
+    <section id="future"><h2>Future scope</h2>
+        <ol>
+          <li>Create a fresh V2 held-out evaluation set and keep it sealed until final selection.</li>
+          <li>Add human or LLM-judge answer-quality review with robust failure/null-score handling.</li>
+          <li>Install Tesseract/OCR support and rerun Unstructured extraction as a real layout-aware comparison.</li>
+          <li>Cache Cohere reranker calls and separate retrieval latency from API latency in the dashboard.</li>
+          <li>Add history-aware query rewriting for conversational follow-ups.</li>
+          <li>Promote the Streamlit app from saved-example demo mode to guarded live-query mode.</li>
+          <li>Add deployment hardening, observability, rate-limit handling, and monitoring before any production claim.</li>
+        </ol>
+        </section>
+  </main>
+  <footer>
+    Generated from saved local artifacts by <code>scripts/generate_project_explainer_html.py</code>.
+  </footer>
+</body>
+</html>

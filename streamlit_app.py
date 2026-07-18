@@ -124,6 +124,7 @@ def main() -> None:
     examples = load_saved_examples(ROOT)
     method_rows = compact_method_rows(ROOT)
     keys = key_availability_status()
+    explainer_path = ROOT / "RBI_RAG_Project_Explainer.html"
 
     with st.sidebar:
         st.markdown("### Selected system")
@@ -141,6 +142,14 @@ def main() -> None:
         st.markdown("### Mode")
         st.success("Saved-example demo mode")
         st.caption("No API key is required to open or use the demo.")
+        if explainer_path.exists():
+            st.download_button(
+                "Download explainer HTML",
+                data=explainer_path.read_bytes(),
+                file_name=explainer_path.name,
+                mime="text/html",
+                width="stretch",
+            )
         with st.expander("Live mode status"):
             st.write("Live generation is not enabled in this UI polish build.")
             st.write(f"Groq key available to process: `{keys['groq']}`")
@@ -177,6 +186,8 @@ def main() -> None:
 
     with st.expander("Detailed development metrics"):
         st.markdown("These are development evaluation results, not held-out or production results.")
+        if metrics.get("generation_source"):
+            st.caption(f"Generation metrics loaded from `{metrics['generation_source']}`.")
         c1, c2 = st.columns(2)
         with c1:
             st.markdown("**Retrieval**")
@@ -202,6 +213,32 @@ def main() -> None:
                     {"Metric": "Comparative correctness", "Value": score(g["comparative_correctness"])},
                 ]
             )
+
+    st.divider()
+    st.subheader("Project verification pack")
+    st.caption("Use these artifacts to explain the full project without rerunning APIs.")
+    pack_cols = st.columns(3)
+    with pack_cols[0]:
+        st.markdown("**Explainer HTML**")
+        if explainer_path.exists():
+            st.write("Root file: `RBI_RAG_Project_Explainer.html`")
+            st.download_button(
+                "Download HTML",
+                data=explainer_path.read_bytes(),
+                file_name=explainer_path.name,
+                mime="text/html",
+                key="download_explainer_main",
+                width="content",
+            )
+        else:
+            st.warning("Run `python scripts/generate_project_explainer_html.py` to create the root explainer.")
+    with pack_cols[1]:
+        st.markdown("**Notebook**")
+        st.write("`Multi_Report_RAG_Explainer.ipynb` runs/explains the modular pipeline.")
+    with pack_cols[2]:
+        st.markdown("**Saved reports**")
+        st.write("`reports/final_packaging/final_project_report.md`")
+        st.write("`reports/final_comparison/rag_methods_master_comparison.md`")
 
     st.divider()
     st.subheader("Try a saved demo question")

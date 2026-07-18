@@ -20,20 +20,20 @@ FINAL_DEV_METRICS = {
         "macro_mrr": 0.4055,
     },
     "generation": {
-        "factual_correctness": 0.8153,
-        "faithfulness_to_context": 0.9731,
-        "contextual_relevancy": 0.5735,
-        "contextual_recall": 0.4706,
+        "factual_correctness": 0.7954456988291574,
+        "faithfulness_to_context": 0.9761655452382324,
+        "contextual_relevancy": 0.5294117647058824,
+        "contextual_recall": 0.4117647058823529,
         "abstention_correctness": 1.0000,
         "citation_correctness": 0.8824,
         "citation_completeness": 1.0000,
         "temporal_attribution_correctness": 0.8824,
-        "comparative_correctness": 0.3333,
+        "comparative_correctness": 0.2778,
     },
 }
 
 SELECTED_RETRIEVAL = "MMR_LAMBDA_06"
-SELECTED_GENERATION = "GEN_MMR06_SUFFICIENCY_V1"
+SELECTED_GENERATION = "V2_COHERE_ONLY + sufficiency gate"
 SELECTED_MODEL = "Groq llama-3.1-8b-instant"
 SELECTED_PROMPT = "v2_sufficiency_prompt_v1"
 
@@ -76,6 +76,10 @@ def load_final_metrics(root: Path = ROOT) -> dict[str, Any]:
         root / "reports/final_generation_bakeoff/experiments/GEN_MMR06_SUFFICIENCY_V1/eval_summary.json",
         {},
     )
+    generation_source = "reports/final_generation_bakeoff/experiments/GEN_MMR06_SUFFICIENCY_V1/eval_summary.json"
+    if not generation_summary.get("metrics"):
+        generation_summary = read_json(root / "reports/v2_sufficiency/dev_sufficiency_eval_summary.json", {})
+        generation_source = "reports/v2_sufficiency/dev_sufficiency_eval_summary.json"
     fallback_used: list[str] = []
     retrieval = {
         "complete_evidence_recall": retrieval_summary.get("complete_evidence_recall"),
@@ -100,6 +104,7 @@ def load_final_metrics(root: Path = ROOT) -> dict[str, Any]:
         "generation": generation,
         "fallback_used": fallback_used,
         "source_note": "development evaluation results",
+        "generation_source": generation_source,
     }
 
 
